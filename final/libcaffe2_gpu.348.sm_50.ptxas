@@ -1,0 +1,37 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z12cgemm_largekILb1ELb0ELb0ELb0ELi4ELi4ELi4ELi3ELi3ELi18EEvP6float2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12cgemm_largekILb1ELb0ELb0ELb0ELi4ELi4ELi4ELi3ELi3ELi18EEvP6float2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 71 registers, 4612 bytes smem, 424 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12cgemm_largekILb1ELb1ELb1ELb0ELi4ELi4ELi4ELi3ELi3ELi18EEvP6float2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12cgemm_largekILb1ELb1ELb1ELb0ELi4ELi4ELi4ELi3ELi3ELi18EEvP6float2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    8 bytes stack frame, 4 bytes spill stores, 4 bytes spill loads
+ptxas info    : Used 56 registers, 4612 bytes smem, 424 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12cgemm_largekILb0ELb1ELb0ELb0ELi4ELi4ELi4ELi3ELi3ELi16EEvP6float2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12cgemm_largekILb0ELb1ELb0ELb0ELi4ELi4ELi4ELi3ELi3ELi16EEvP6float2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 4356 bytes smem, 424 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12cgemm_largekILb1ELb1ELb0ELb1ELi4ELi4ELi4ELi3ELi3ELi18EEvP6float2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12cgemm_largekILb1ELb1ELb0ELb1ELi4ELi4ELi4ELi3ELi3ELi18EEvP6float2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    8 bytes stack frame, 4 bytes spill stores, 4 bytes spill loads
+ptxas info    : Used 56 registers, 4612 bytes smem, 424 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12cgemm_largekILb0ELb1ELb0ELb1ELi4ELi4ELi4ELi3ELi3ELi16EEvP6float2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12cgemm_largekILb0ELb1ELb0ELb1ELi4ELi4ELi4ELi3ELi3ELi16EEvP6float2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 4356 bytes smem, 424 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12cgemm_largekILb1ELb0ELb1ELb0ELi4ELi4ELi4ELi3ELi3ELi18EEvP6float2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12cgemm_largekILb1ELb0ELb1ELb0ELi4ELi4ELi4ELi3ELi3ELi18EEvP6float2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 4612 bytes smem, 424 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12cgemm_largekILb1ELb1ELb0ELb0ELi4ELi4ELi4ELi3ELi3ELi18EEvP6float2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12cgemm_largekILb1ELb1ELb0ELb0ELi4ELi4ELi4ELi3ELi3ELi18EEvP6float2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    8 bytes stack frame, 4 bytes spill stores, 4 bytes spill loads
+ptxas info    : Used 56 registers, 4612 bytes smem, 424 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12cgemm_largekILb1ELb1ELb1ELb1ELi4ELi4ELi4ELi3ELi3ELi18EEvP6float2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12cgemm_largekILb1ELb1ELb1ELb1ELi4ELi4ELi4ELi3ELi3ELi18EEvP6float2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    8 bytes stack frame, 4 bytes spill stores, 4 bytes spill loads
+ptxas info    : Used 56 registers, 4612 bytes smem, 424 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12cgemm_largekILb0ELb0ELb0ELb0ELi4ELi4ELi4ELi3ELi3ELi16EEvP6float2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12cgemm_largekILb0ELb0ELb0ELb0ELi4ELi4ELi4ELi3ELi3ELi16EEvP6float2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 59 registers, 4356 bytes smem, 424 bytes cmem[0], 4 bytes cmem[2]

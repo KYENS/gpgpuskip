@@ -1,0 +1,1145 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe217MomentsGradientOpIfNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe29MomentsOpIfNS_11CUDAContextEEE[136];
+
+.visible .entry _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_(
+.param .u32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_0,
+.param .align 4 .b8 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1[4],
+.param .align 8 .b8 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2[24],
+.param .f32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_3,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_4,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_5,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_6,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_7,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_8
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<9>;
+.reg .f32 %f<10>;
+.reg .b32 %r<18>;
+.reg .b64 %rd<26>;
+
+
+ld.param.u32 %r4, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1];
+ld.param.u32 %r6, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+16];
+ld.param.u64 %rd1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+8];
+ld.param.u32 %r1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2];
+ld.param.f32 %f1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_3];
+ld.param.u64 %rd10, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_4];
+ld.param.u64 %rd11, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_5];
+ld.param.u64 %rd12, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_6];
+ld.param.u64 %rd13, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_7];
+ld.param.u64 %rd14, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_8];
+mov.u32 %r2, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r9, %r2, %r7, %r8;
+cvt.u64.u32	%rd25, %r9;
+ld.param.s32 %rd3, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_0];
+setp.ge.u64	%p1, %rd25, %rd3;
+@%p1 bra BB0_3;
+
+cvta.to.global.u64 %rd4, %rd14;
+mov.u32 %r10, %nctaid.x;
+mul.lo.s32 %r11, %r10, %r2;
+cvt.u64.u32	%rd5, %r11;
+cvt.u64.u32	%rd6, %r6;
+
+BB0_2:
+cvt.s64.s32 %rd19, %rd25;
+mul.lo.s64 %rd20, %rd1, %rd19;
+cvt.u32.u64	%r12, %rd6;
+shr.u64 %rd21, %rd20, %r12;
+cvt.u32.u64	%r13, %rd21;
+mul.lo.s32 %r14, %r13, %r1;
+cvt.u32.u64	%r15, %rd25;
+sub.s32 %r16, %r15, %r14;
+mul.lo.s32 %r17, %r16, %r4;
+mul.wide.s32 %rd22, %r17, 4;
+add.s64 %rd15, %rd10, %rd22;
+
+	ld.global.nc.f32 %f2, [%rd15];
+
+	shl.b64 %rd23, %rd25, 2;
+add.s64 %rd16, %rd12, %rd23;
+
+	ld.global.nc.f32 %f3, [%rd16];
+
+	add.s64 %rd17, %rd13, %rd22;
+
+	ld.global.nc.f32 %f4, [%rd17];
+
+	sub.f32 %f6, %f3, %f4;
+add.f32 %f7, %f6, %f6;
+add.s64 %rd18, %rd11, %rd22;
+
+	ld.global.nc.f32 %f5, [%rd18];
+
+	fma.rn.f32 %f8, %f5, %f7, %f2;
+mul.f32 %f9, %f8, %f1;
+add.s64 %rd24, %rd4, %rd23;
+st.global.f32 [%rd24], %f9;
+add.s64 %rd25, %rd5, %rd25;
+setp.lt.u64	%p2, %rd25, %rd3;
+@%p2 bra BB0_2;
+
+BB0_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_(
+.param .u32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_0,
+.param .align 4 .b8 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1[8],
+.param .align 8 .b8 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2[48],
+.param .f32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_3,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_4,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_5,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_6,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_7,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_8
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<17>;
+.reg .f32 %f<10>;
+.reg .b32 %r<26>;
+.reg .b64 %rd<32>;
+
+
+ld.param.u32 %r1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1];
+ld.param.u32 %r2, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+4];
+ld.param.u32 %r9, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+40];
+ld.param.u64 %rd2, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+32];
+ld.param.u32 %r4, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+24];
+ld.param.u32 %r7, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+16];
+ld.param.u64 %rd1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+8];
+ld.param.u32 %r3, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2];
+ld.param.f32 %f1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_3];
+ld.param.u64 %rd12, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_4];
+ld.param.u64 %rd13, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_5];
+ld.param.u64 %rd14, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_6];
+ld.param.u64 %rd15, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_7];
+ld.param.u64 %rd16, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_8];
+ld.param.v4.u8 {%rs9, %rs10, %rs11, %rs12}, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+44];
+mov.u16 %rs8, %rs12;
+mov.u16 %rs7, %rs11;
+mov.u16 %rs6, %rs10;
+mov.u16 %rs5, %rs9;
+ld.param.v4.u8 {%rs13, %rs14, %rs15, %rs16}, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+20];
+mov.u16 %rs4, %rs16;
+mov.u16 %rs3, %rs15;
+mov.u16 %rs2, %rs14;
+mov.u16 %rs1, %rs13;
+mov.u32 %r5, %ntid.x;
+mov.u32 %r10, %ctaid.x;
+mov.u32 %r11, %tid.x;
+mad.lo.s32 %r12, %r5, %r10, %r11;
+cvt.u64.u32	%rd31, %r12;
+ld.param.s32 %rd4, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_0];
+setp.ge.u64	%p1, %rd31, %rd4;
+@%p1 bra BB1_3;
+
+mov.u32 %r13, %nctaid.x;
+mul.lo.s32 %r14, %r13, %r5;
+cvt.u64.u32	%rd5, %r14;
+cvt.u64.u32	%rd6, %r9;
+cvt.u64.u32	%rd7, %r7;
+cvta.to.global.u64 %rd29, %rd16;
+
+BB1_2:
+cvt.s64.s32 %rd21, %rd31;
+mul.lo.s64 %rd22, %rd2, %rd21;
+cvt.u32.u64	%r15, %rd6;
+shr.u64 %rd23, %rd22, %r15;
+cvt.u32.u64	%r16, %rd23;
+mul.lo.s32 %r17, %r16, %r4;
+cvt.u32.u64	%r18, %rd31;
+sub.s32 %r19, %r18, %r17;
+mul.lo.s32 %r20, %r19, %r2;
+cvt.s64.s32 %rd24, %rd23;
+mul.lo.s64 %rd25, %rd1, %rd24;
+cvt.u32.u64	%r21, %rd7;
+shr.u64 %rd26, %rd25, %r21;
+cvt.u32.u64	%r22, %rd26;
+mul.lo.s32 %r23, %r22, %r3;
+sub.s32 %r24, %r16, %r23;
+mad.lo.s32 %r25, %r24, %r1, %r20;
+mul.wide.s32 %rd27, %r25, 4;
+add.s64 %rd17, %rd12, %rd27;
+
+	ld.global.nc.f32 %f2, [%rd17];
+
+	shl.b64 %rd28, %rd31, 2;
+add.s64 %rd18, %rd14, %rd28;
+
+	ld.global.nc.f32 %f3, [%rd18];
+
+	add.s64 %rd19, %rd15, %rd27;
+
+	ld.global.nc.f32 %f4, [%rd19];
+
+	sub.f32 %f6, %f3, %f4;
+add.f32 %f7, %f6, %f6;
+add.s64 %rd20, %rd13, %rd27;
+
+	ld.global.nc.f32 %f5, [%rd20];
+
+	fma.rn.f32 %f8, %f5, %f7, %f2;
+mul.f32 %f9, %f8, %f1;
+add.s64 %rd30, %rd29, %rd28;
+st.global.f32 [%rd30], %f9;
+add.s64 %rd31, %rd5, %rd31;
+setp.lt.u64	%p2, %rd31, %rd4;
+@%p2 bra BB1_2;
+
+BB1_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_(
+.param .u32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_0,
+.param .align 4 .b8 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1[12],
+.param .align 8 .b8 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2[72],
+.param .f32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_3,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_4,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_5,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_6,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_7,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_8
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<25>;
+.reg .f32 %f<10>;
+.reg .b32 %r<41>;
+.reg .b64 %rd<40>;
+
+
+ld.param.u32 %r7, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_0];
+ld.param.u32 %r1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1];
+ld.param.u32 %r2, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+4];
+ld.param.u32 %r3, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+8];
+ld.param.u32 %r13, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+64];
+ld.param.u64 %rd3, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+56];
+ld.param.u32 %r6, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+48];
+ld.param.u32 %r11, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+40];
+ld.param.u64 %rd2, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+32];
+ld.param.u32 %r5, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+24];
+ld.param.u32 %r9, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+16];
+ld.param.u64 %rd1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+8];
+ld.param.u32 %r4, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2];
+ld.param.f32 %f1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_3];
+ld.param.u64 %rd13, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_4];
+ld.param.u64 %rd14, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_5];
+ld.param.u64 %rd15, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_6];
+ld.param.u64 %rd16, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_7];
+ld.param.u64 %rd17, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_8];
+ld.param.v4.u8 {%rs13, %rs14, %rs15, %rs16}, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+68];
+mov.u16 %rs12, %rs16;
+mov.u16 %rs11, %rs15;
+mov.u16 %rs10, %rs14;
+mov.u16 %rs9, %rs13;
+ld.param.v4.u8 {%rs17, %rs18, %rs19, %rs20}, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+44];
+mov.u16 %rs8, %rs20;
+mov.u16 %rs7, %rs19;
+mov.u16 %rs6, %rs18;
+mov.u16 %rs5, %rs17;
+ld.param.v4.u8 {%rs21, %rs22, %rs23, %rs24}, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+20];
+mov.u16 %rs4, %rs24;
+mov.u16 %rs3, %rs23;
+mov.u16 %rs2, %rs22;
+mov.u16 %rs1, %rs21;
+mov.u32 %r14, %ntid.x;
+mov.u32 %r15, %ctaid.x;
+mov.u32 %r16, %tid.x;
+mad.lo.s32 %r17, %r14, %r15, %r16;
+cvt.u64.u32	%rd39, %r17;
+cvt.s64.s32	%rd19, %r7;
+setp.ge.u64	%p1, %rd39, %rd19;
+@%p1 bra BB2_3;
+
+cvt.u64.u32	%rd4, %r13;
+cvt.u64.u32	%rd5, %r11;
+cvt.u64.u32	%rd6, %r9;
+cvta.to.global.u64 %rd35, %rd17;
+
+BB2_2:
+cvt.s64.s32 %rd24, %rd39;
+mul.lo.s64 %rd25, %rd3, %rd24;
+cvt.u32.u64	%r22, %rd4;
+shr.u64 %rd26, %rd25, %r22;
+cvt.u32.u64	%r23, %rd26;
+mul.lo.s32 %r24, %r23, %r6;
+cvt.u32.u64	%r25, %rd39;
+sub.s32 %r26, %r25, %r24;
+mul.lo.s32 %r27, %r26, %r3;
+cvt.s64.s32 %rd27, %rd26;
+mul.lo.s64 %rd28, %rd2, %rd27;
+cvt.u32.u64	%r28, %rd5;
+shr.u64 %rd29, %rd28, %r28;
+cvt.u32.u64	%r29, %rd29;
+mul.lo.s32 %r30, %r29, %r5;
+sub.s32 %r31, %r23, %r30;
+mad.lo.s32 %r32, %r31, %r2, %r27;
+cvt.s64.s32 %rd30, %rd29;
+mul.lo.s64 %rd31, %rd1, %rd30;
+cvt.u32.u64	%r33, %rd6;
+shr.u64 %rd32, %rd31, %r33;
+cvt.u32.u64	%r34, %rd32;
+mul.lo.s32 %r35, %r34, %r4;
+sub.s32 %r36, %r29, %r35;
+mad.lo.s32 %r37, %r36, %r1, %r32;
+mul.wide.s32 %rd33, %r37, 4;
+add.s64 %rd20, %rd13, %rd33;
+
+	ld.global.nc.f32 %f2, [%rd20];
+
+	shl.b64 %rd34, %rd39, 2;
+add.s64 %rd21, %rd15, %rd34;
+
+	ld.global.nc.f32 %f3, [%rd21];
+
+	add.s64 %rd22, %rd16, %rd33;
+
+	ld.global.nc.f32 %f4, [%rd22];
+
+	sub.f32 %f6, %f3, %f4;
+add.f32 %f7, %f6, %f6;
+add.s64 %rd23, %rd14, %rd33;
+
+	ld.global.nc.f32 %f5, [%rd23];
+
+	fma.rn.f32 %f8, %f5, %f7, %f2;
+mul.f32 %f9, %f8, %f1;
+add.s64 %rd36, %rd35, %rd34;
+st.global.f32 [%rd36], %f9;
+mov.u32 %r39, %nctaid.x;
+mul.lo.s32 %r40, %r39, %r14;
+cvt.u64.u32	%rd37, %r40;
+add.s64 %rd39, %rd37, %rd39;
+setp.lt.u64	%p2, %rd39, %rd19;
+@%p2 bra BB2_2;
+
+BB2_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_(
+.param .u32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_0,
+.param .align 4 .b8 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1[16],
+.param .align 8 .b8 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2[96],
+.param .f32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_3,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_4,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_5,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_6,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_7,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_8
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<33>;
+.reg .f32 %f<10>;
+.reg .b32 %r<46>;
+.reg .b64 %rd<45>;
+
+
+ld.param.u32 %r9, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_0];
+ld.param.u32 %r1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1];
+ld.param.u32 %r2, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+4];
+ld.param.u32 %r3, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+8];
+ld.param.u32 %r4, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+12];
+ld.param.u32 %r17, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+88];
+ld.param.u64 %rd4, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+80];
+ld.param.u32 %r8, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+72];
+ld.param.u32 %r15, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+64];
+ld.param.u64 %rd3, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+56];
+ld.param.u32 %r7, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+48];
+ld.param.u32 %r13, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+40];
+ld.param.u64 %rd2, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+32];
+ld.param.u32 %r6, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+24];
+ld.param.u32 %r11, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+16];
+ld.param.u64 %rd1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+8];
+ld.param.u32 %r5, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2];
+ld.param.f32 %f1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_3];
+ld.param.u64 %rd16, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_4];
+ld.param.u64 %rd17, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_5];
+ld.param.u64 %rd18, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_6];
+ld.param.u64 %rd19, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_7];
+ld.param.u64 %rd20, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_8];
+ld.param.v4.u8 {%rs17, %rs18, %rs19, %rs20}, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+92];
+mov.u16 %rs16, %rs20;
+mov.u16 %rs15, %rs19;
+mov.u16 %rs14, %rs18;
+mov.u16 %rs13, %rs17;
+ld.param.v4.u8 {%rs21, %rs22, %rs23, %rs24}, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+68];
+mov.u16 %rs12, %rs24;
+mov.u16 %rs11, %rs23;
+mov.u16 %rs10, %rs22;
+mov.u16 %rs9, %rs21;
+ld.param.v4.u8 {%rs25, %rs26, %rs27, %rs28}, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+44];
+mov.u16 %rs8, %rs28;
+mov.u16 %rs7, %rs27;
+mov.u16 %rs6, %rs26;
+mov.u16 %rs5, %rs25;
+ld.param.v4.u8 {%rs29, %rs30, %rs31, %rs32}, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+20];
+mov.u16 %rs4, %rs32;
+mov.u16 %rs3, %rs31;
+mov.u16 %rs2, %rs30;
+mov.u16 %rs1, %rs29;
+mov.u32 %r18, %ntid.x;
+mov.u32 %r19, %ctaid.x;
+mov.u32 %r20, %tid.x;
+mad.lo.s32 %r21, %r18, %r19, %r20;
+cvt.u64.u32	%rd44, %r21;
+cvt.s64.s32	%rd21, %r9;
+setp.ge.u64	%p1, %rd44, %rd21;
+@%p1 bra BB3_3;
+
+cvt.u64.u32	%rd6, %r17;
+cvt.u64.u32	%rd7, %r15;
+cvt.u64.u32	%rd8, %r13;
+cvt.u64.u32	%rd9, %r11;
+cvta.to.global.u64 %rd40, %rd20;
+
+BB3_2:
+cvt.s64.s32 %rd26, %rd44;
+mul.lo.s64 %rd27, %rd4, %rd26;
+cvt.u32.u64	%r22, %rd6;
+shr.u64 %rd28, %rd27, %r22;
+cvt.u32.u64	%r23, %rd28;
+mul.lo.s32 %r24, %r23, %r8;
+cvt.u32.u64	%r25, %rd44;
+sub.s32 %r26, %r25, %r24;
+mul.lo.s32 %r27, %r26, %r4;
+cvt.s64.s32 %rd29, %rd28;
+mul.lo.s64 %rd30, %rd3, %rd29;
+cvt.u32.u64	%r28, %rd7;
+shr.u64 %rd31, %rd30, %r28;
+cvt.u32.u64	%r29, %rd31;
+mul.lo.s32 %r30, %r29, %r7;
+sub.s32 %r31, %r23, %r30;
+mad.lo.s32 %r32, %r31, %r3, %r27;
+cvt.s64.s32 %rd32, %rd31;
+mul.lo.s64 %rd33, %rd2, %rd32;
+cvt.u32.u64	%r33, %rd8;
+shr.u64 %rd34, %rd33, %r33;
+cvt.u32.u64	%r34, %rd34;
+mul.lo.s32 %r35, %r34, %r6;
+sub.s32 %r36, %r29, %r35;
+mad.lo.s32 %r37, %r36, %r2, %r32;
+cvt.s64.s32 %rd35, %rd34;
+mul.lo.s64 %rd36, %rd1, %rd35;
+cvt.u32.u64	%r38, %rd9;
+shr.u64 %rd37, %rd36, %r38;
+cvt.u32.u64	%r39, %rd37;
+mul.lo.s32 %r40, %r39, %r5;
+sub.s32 %r41, %r34, %r40;
+mad.lo.s32 %r42, %r41, %r1, %r37;
+mul.wide.s32 %rd38, %r42, 4;
+add.s64 %rd22, %rd16, %rd38;
+
+	ld.global.nc.f32 %f2, [%rd22];
+
+	shl.b64 %rd39, %rd44, 2;
+add.s64 %rd23, %rd18, %rd39;
+
+	ld.global.nc.f32 %f3, [%rd23];
+
+	add.s64 %rd24, %rd19, %rd38;
+
+	ld.global.nc.f32 %f4, [%rd24];
+
+	sub.f32 %f6, %f3, %f4;
+add.f32 %f7, %f6, %f6;
+add.s64 %rd25, %rd17, %rd38;
+
+	ld.global.nc.f32 %f5, [%rd25];
+
+	fma.rn.f32 %f8, %f5, %f7, %f2;
+mul.f32 %f9, %f8, %f1;
+add.s64 %rd41, %rd40, %rd39;
+st.global.f32 [%rd41], %f9;
+mov.u32 %r44, %nctaid.x;
+mul.lo.s32 %r45, %r44, %r18;
+cvt.u64.u32	%rd42, %r45;
+add.s64 %rd44, %rd42, %rd44;
+setp.lt.u64	%p2, %rd44, %rd21;
+@%p2 bra BB3_2;
+
+BB3_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_(
+.param .u32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_0,
+.param .align 4 .b8 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1[20],
+.param .align 8 .b8 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2[120],
+.param .f32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_3,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_4,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_5,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_6,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_7,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_8
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<41>;
+.reg .f32 %f<10>;
+.reg .b32 %r<55>;
+.reg .b64 %rd<51>;
+
+
+ld.param.u32 %r11, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_0];
+ld.param.u32 %r1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1];
+ld.param.u32 %r2, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+4];
+ld.param.u32 %r3, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+8];
+ld.param.u32 %r4, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+12];
+ld.param.u32 %r5, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+16];
+ld.param.u32 %r21, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+112];
+ld.param.u64 %rd5, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+104];
+ld.param.u32 %r10, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+96];
+ld.param.u32 %r19, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+88];
+ld.param.u64 %rd4, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+80];
+ld.param.u32 %r9, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+72];
+ld.param.u32 %r17, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+64];
+ld.param.u64 %rd3, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+56];
+ld.param.u32 %r8, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+48];
+ld.param.u32 %r15, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+40];
+ld.param.u64 %rd2, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+32];
+ld.param.u32 %r7, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+24];
+ld.param.u32 %r13, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+16];
+ld.param.u64 %rd1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+8];
+ld.param.u32 %r6, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2];
+ld.param.f32 %f1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_3];
+ld.param.u64 %rd19, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_4];
+ld.param.u64 %rd20, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_5];
+ld.param.u64 %rd21, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_6];
+ld.param.u64 %rd22, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_7];
+ld.param.u64 %rd23, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_8];
+ld.param.v4.u8 {%rs21, %rs22, %rs23, %rs24}, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+116];
+mov.u16 %rs20, %rs24;
+mov.u16 %rs19, %rs23;
+mov.u16 %rs18, %rs22;
+mov.u16 %rs17, %rs21;
+ld.param.v4.u8 {%rs25, %rs26, %rs27, %rs28}, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+92];
+mov.u16 %rs16, %rs28;
+mov.u16 %rs15, %rs27;
+mov.u16 %rs14, %rs26;
+mov.u16 %rs13, %rs25;
+ld.param.v4.u8 {%rs29, %rs30, %rs31, %rs32}, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+68];
+mov.u16 %rs12, %rs32;
+mov.u16 %rs11, %rs31;
+mov.u16 %rs10, %rs30;
+mov.u16 %rs9, %rs29;
+ld.param.v4.u8 {%rs33, %rs34, %rs35, %rs36}, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+44];
+mov.u16 %rs8, %rs36;
+mov.u16 %rs7, %rs35;
+mov.u16 %rs6, %rs34;
+mov.u16 %rs5, %rs33;
+ld.param.v4.u8 {%rs37, %rs38, %rs39, %rs40}, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2+20];
+mov.u16 %rs4, %rs40;
+mov.u16 %rs3, %rs39;
+mov.u16 %rs2, %rs38;
+mov.u16 %rs1, %rs37;
+mov.u32 %r22, %ntid.x;
+mov.u32 %r23, %ctaid.x;
+mov.u32 %r24, %tid.x;
+mad.lo.s32 %r25, %r22, %r23, %r24;
+cvt.u64.u32	%rd50, %r25;
+cvt.s64.s32	%rd24, %r11;
+setp.ge.u64	%p1, %rd50, %rd24;
+@%p1 bra BB4_3;
+
+cvt.u64.u32	%rd7, %r21;
+cvt.u64.u32	%rd8, %r19;
+cvt.u64.u32	%rd9, %r17;
+cvt.u64.u32	%rd10, %r15;
+cvt.u64.u32	%rd11, %r13;
+cvta.to.global.u64 %rd46, %rd23;
+
+BB4_2:
+cvt.s64.s32 %rd29, %rd50;
+mul.lo.s64 %rd30, %rd5, %rd29;
+cvt.u32.u64	%r26, %rd7;
+shr.u64 %rd31, %rd30, %r26;
+cvt.u32.u64	%r27, %rd31;
+mul.lo.s32 %r28, %r27, %r10;
+cvt.u32.u64	%r29, %rd50;
+sub.s32 %r30, %r29, %r28;
+mul.lo.s32 %r31, %r30, %r5;
+cvt.s64.s32 %rd32, %rd31;
+mul.lo.s64 %rd33, %rd4, %rd32;
+cvt.u32.u64	%r32, %rd8;
+shr.u64 %rd34, %rd33, %r32;
+cvt.u32.u64	%r33, %rd34;
+mul.lo.s32 %r34, %r33, %r9;
+sub.s32 %r35, %r27, %r34;
+mad.lo.s32 %r36, %r35, %r4, %r31;
+cvt.s64.s32 %rd35, %rd34;
+mul.lo.s64 %rd36, %rd3, %rd35;
+cvt.u32.u64	%r37, %rd9;
+shr.u64 %rd37, %rd36, %r37;
+cvt.u32.u64	%r38, %rd37;
+mul.lo.s32 %r39, %r38, %r8;
+sub.s32 %r40, %r33, %r39;
+mad.lo.s32 %r41, %r40, %r3, %r36;
+cvt.s64.s32 %rd38, %rd37;
+mul.lo.s64 %rd39, %rd2, %rd38;
+cvt.u32.u64	%r42, %rd10;
+shr.u64 %rd40, %rd39, %r42;
+cvt.u32.u64	%r43, %rd40;
+mul.lo.s32 %r44, %r43, %r7;
+sub.s32 %r45, %r38, %r44;
+mad.lo.s32 %r46, %r45, %r2, %r41;
+cvt.s64.s32 %rd41, %rd40;
+mul.lo.s64 %rd42, %rd1, %rd41;
+cvt.u32.u64	%r47, %rd11;
+shr.u64 %rd43, %rd42, %r47;
+cvt.u32.u64	%r48, %rd43;
+mul.lo.s32 %r49, %r48, %r6;
+sub.s32 %r50, %r43, %r49;
+mad.lo.s32 %r51, %r50, %r1, %r46;
+mul.wide.s32 %rd44, %r51, 4;
+add.s64 %rd25, %rd19, %rd44;
+
+	ld.global.nc.f32 %f2, [%rd25];
+
+	shl.b64 %rd45, %rd50, 2;
+add.s64 %rd26, %rd21, %rd45;
+
+	ld.global.nc.f32 %f3, [%rd26];
+
+	add.s64 %rd27, %rd22, %rd44;
+
+	ld.global.nc.f32 %f4, [%rd27];
+
+	sub.f32 %f6, %f3, %f4;
+add.f32 %f7, %f6, %f6;
+add.s64 %rd28, %rd20, %rd44;
+
+	ld.global.nc.f32 %f5, [%rd28];
+
+	fma.rn.f32 %f8, %f5, %f7, %f2;
+mul.f32 %f9, %f8, %f1;
+add.s64 %rd47, %rd46, %rd45;
+st.global.f32 [%rd47], %f9;
+mov.u32 %r53, %nctaid.x;
+mul.lo.s32 %r54, %r53, %r22;
+cvt.u64.u32	%rd48, %r54;
+add.s64 %rd50, %rd48, %rd50;
+setp.lt.u64	%p2, %rd50, %rd24;
+@%p2 bra BB4_2;
+
+BB4_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_(
+.param .u32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_0,
+.param .align 4 .b8 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1[24],
+.param .align 8 .b8 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2[144],
+.param .f32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_3,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_4,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_5,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_6,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_7,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_8
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<10>;
+.reg .b32 %r<53>;
+.reg .b64 %rd<53>;
+
+
+ld.param.u32 %r13, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_0];
+ld.param.u32 %r1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1];
+ld.param.u32 %r2, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+4];
+ld.param.u32 %r3, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+8];
+ld.param.u32 %r4, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+12];
+ld.param.u32 %r5, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+16];
+ld.param.u32 %r6, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+20];
+ld.param.f32 %f1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_3];
+ld.param.u64 %rd17, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_4];
+ld.param.u64 %rd18, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_5];
+ld.param.u64 %rd19, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_6];
+ld.param.u64 %rd20, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_7];
+ld.param.u64 %rd21, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_8];
+mov.u64 %rd1, _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2;
+ld.param.u32 %r7, [%rd1];
+ld.param.u64 %rd2, [%rd1+8];
+ld.param.u32 %r8, [%rd1+24];
+ld.param.u64 %rd3, [%rd1+32];
+ld.param.u32 %r9, [%rd1+48];
+ld.param.u64 %rd4, [%rd1+56];
+ld.param.u32 %r10, [%rd1+72];
+ld.param.u64 %rd5, [%rd1+80];
+ld.param.u32 %r11, [%rd1+96];
+ld.param.u64 %rd6, [%rd1+104];
+ld.param.u64 %rd7, [%rd1+128];
+mov.u32 %r14, %ntid.x;
+mov.u32 %r15, %ctaid.x;
+mov.u32 %r16, %tid.x;
+mad.lo.s32 %r17, %r14, %r15, %r16;
+cvt.u64.u32	%rd52, %r17;
+cvt.s64.s32	%rd22, %r13;
+setp.ge.u64	%p1, %rd52, %rd22;
+@%p1 bra BB5_3;
+
+ld.param.u32 %rd9, [%rd1+136];
+ld.param.u32 %rd10, [%rd1+112];
+ld.param.u32 %rd11, [%rd1+88];
+ld.param.u32 %rd12, [%rd1+64];
+ld.param.u32 %rd13, [%rd1+40];
+ld.param.u32 %rd14, [%rd1+16];
+cvta.to.global.u64 %rd47, %rd21;
+
+BB5_2:
+mov.u64 %rd51, _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2;
+ld.param.u32 %r52, [%rd51+120];
+cvt.s64.s32 %rd27, %rd52;
+mul.lo.s64 %rd28, %rd7, %rd27;
+cvt.u32.u64	%r18, %rd9;
+shr.u64 %rd29, %rd28, %r18;
+cvt.u32.u64	%r19, %rd29;
+mul.lo.s32 %r20, %r19, %r52;
+cvt.u32.u64	%r21, %rd52;
+sub.s32 %r22, %r21, %r20;
+mul.lo.s32 %r23, %r22, %r6;
+cvt.s64.s32 %rd30, %rd29;
+mul.lo.s64 %rd31, %rd6, %rd30;
+cvt.u32.u64	%r24, %rd10;
+shr.u64 %rd32, %rd31, %r24;
+cvt.u32.u64	%r25, %rd32;
+mul.lo.s32 %r26, %r25, %r11;
+sub.s32 %r27, %r19, %r26;
+mad.lo.s32 %r28, %r27, %r5, %r23;
+cvt.s64.s32 %rd33, %rd32;
+mul.lo.s64 %rd34, %rd5, %rd33;
+cvt.u32.u64	%r29, %rd11;
+shr.u64 %rd35, %rd34, %r29;
+cvt.u32.u64	%r30, %rd35;
+mul.lo.s32 %r31, %r30, %r10;
+sub.s32 %r32, %r25, %r31;
+mad.lo.s32 %r33, %r32, %r4, %r28;
+cvt.s64.s32 %rd36, %rd35;
+mul.lo.s64 %rd37, %rd4, %rd36;
+cvt.u32.u64	%r34, %rd12;
+shr.u64 %rd38, %rd37, %r34;
+cvt.u32.u64	%r35, %rd38;
+mul.lo.s32 %r36, %r35, %r9;
+sub.s32 %r37, %r30, %r36;
+mad.lo.s32 %r38, %r37, %r3, %r33;
+cvt.s64.s32 %rd39, %rd38;
+mul.lo.s64 %rd40, %rd3, %rd39;
+cvt.u32.u64	%r39, %rd13;
+shr.u64 %rd41, %rd40, %r39;
+cvt.u32.u64	%r40, %rd41;
+mul.lo.s32 %r41, %r40, %r8;
+sub.s32 %r42, %r35, %r41;
+mad.lo.s32 %r43, %r42, %r2, %r38;
+cvt.s64.s32 %rd42, %rd41;
+mul.lo.s64 %rd43, %rd2, %rd42;
+cvt.u32.u64	%r44, %rd14;
+shr.u64 %rd44, %rd43, %r44;
+cvt.u32.u64	%r45, %rd44;
+mul.lo.s32 %r46, %r45, %r7;
+sub.s32 %r47, %r40, %r46;
+mad.lo.s32 %r48, %r47, %r1, %r43;
+mul.wide.s32 %rd45, %r48, 4;
+add.s64 %rd23, %rd17, %rd45;
+
+	ld.global.nc.f32 %f2, [%rd23];
+
+	shl.b64 %rd46, %rd52, 2;
+add.s64 %rd24, %rd19, %rd46;
+
+	ld.global.nc.f32 %f3, [%rd24];
+
+	add.s64 %rd25, %rd20, %rd45;
+
+	ld.global.nc.f32 %f4, [%rd25];
+
+	sub.f32 %f6, %f3, %f4;
+add.f32 %f7, %f6, %f6;
+add.s64 %rd26, %rd18, %rd45;
+
+	ld.global.nc.f32 %f5, [%rd26];
+
+	fma.rn.f32 %f8, %f5, %f7, %f2;
+mul.f32 %f9, %f8, %f1;
+add.s64 %rd48, %rd47, %rd46;
+st.global.f32 [%rd48], %f9;
+mov.u32 %r50, %nctaid.x;
+mul.lo.s32 %r51, %r50, %r14;
+cvt.u64.u32	%rd49, %r51;
+add.s64 %rd52, %rd49, %rd52;
+setp.lt.u64	%p2, %rd52, %rd22;
+@%p2 bra BB5_2;
+
+BB5_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_(
+.param .u32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_0,
+.param .align 4 .b8 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1[28],
+.param .align 8 .b8 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2[168],
+.param .f32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_3,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_4,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_5,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_6,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_7,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_8
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<10>;
+.reg .b32 %r<68>;
+.reg .b64 %rd<58>;
+
+
+ld.param.u32 %r15, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_0];
+ld.param.u32 %r1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1];
+ld.param.u32 %r2, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+4];
+ld.param.u32 %r3, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+8];
+ld.param.f32 %f1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_3];
+ld.param.u64 %rd19, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_4];
+ld.param.u64 %rd20, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_5];
+ld.param.u64 %rd21, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_6];
+ld.param.u64 %rd22, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_7];
+ld.param.u64 %rd23, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_8];
+mov.u64 %rd1, _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2;
+ld.param.u32 %r8, [%rd1];
+ld.param.u64 %rd2, [%rd1+8];
+ld.param.u32 %r9, [%rd1+24];
+ld.param.u64 %rd3, [%rd1+32];
+ld.param.u64 %rd4, [%rd1+56];
+ld.param.u64 %rd5, [%rd1+80];
+ld.param.u64 %rd6, [%rd1+104];
+ld.param.u64 %rd7, [%rd1+128];
+ld.param.u64 %rd8, [%rd1+152];
+mov.u32 %r16, %ntid.x;
+mov.u32 %r17, %ctaid.x;
+mov.u32 %r18, %tid.x;
+mad.lo.s32 %r19, %r16, %r17, %r18;
+cvt.u64.u32	%rd57, %r19;
+cvt.s64.s32	%rd24, %r15;
+setp.ge.u64	%p1, %rd57, %rd24;
+@%p1 bra BB6_3;
+
+ld.param.u32 %rd10, [%rd1+160];
+ld.param.u32 %rd11, [%rd1+136];
+ld.param.u32 %rd12, [%rd1+112];
+ld.param.u32 %rd13, [%rd1+88];
+ld.param.u32 %rd14, [%rd1+64];
+ld.param.u32 %rd15, [%rd1+40];
+ld.param.u32 %rd16, [%rd1+16];
+cvta.to.global.u64 %rd52, %rd23;
+
+BB6_2:
+mov.u64 %rd56, _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2;
+ld.param.u32 %r67, [%rd56+48];
+ld.param.u32 %r66, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+12];
+ld.param.u32 %r65, [%rd56+72];
+ld.param.u32 %r64, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+16];
+ld.param.u32 %r63, [%rd56+96];
+ld.param.u32 %r62, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+20];
+ld.param.u32 %r61, [%rd56+120];
+ld.param.u32 %r60, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+24];
+ld.param.u32 %r59, [%rd56+144];
+cvt.s64.s32 %rd29, %rd57;
+mul.lo.s64 %rd30, %rd8, %rd29;
+cvt.u32.u64	%r20, %rd10;
+shr.u64 %rd31, %rd30, %r20;
+cvt.u32.u64	%r21, %rd31;
+mul.lo.s32 %r22, %r21, %r59;
+cvt.u32.u64	%r23, %rd57;
+sub.s32 %r24, %r23, %r22;
+mul.lo.s32 %r25, %r24, %r60;
+cvt.s64.s32 %rd32, %rd31;
+mul.lo.s64 %rd33, %rd7, %rd32;
+cvt.u32.u64	%r26, %rd11;
+shr.u64 %rd34, %rd33, %r26;
+cvt.u32.u64	%r27, %rd34;
+mul.lo.s32 %r28, %r27, %r61;
+sub.s32 %r29, %r21, %r28;
+mad.lo.s32 %r30, %r29, %r62, %r25;
+cvt.s64.s32 %rd35, %rd34;
+mul.lo.s64 %rd36, %rd6, %rd35;
+cvt.u32.u64	%r31, %rd12;
+shr.u64 %rd37, %rd36, %r31;
+cvt.u32.u64	%r32, %rd37;
+mul.lo.s32 %r33, %r32, %r63;
+sub.s32 %r34, %r27, %r33;
+mad.lo.s32 %r35, %r34, %r64, %r30;
+cvt.s64.s32 %rd38, %rd37;
+mul.lo.s64 %rd39, %rd5, %rd38;
+cvt.u32.u64	%r36, %rd13;
+shr.u64 %rd40, %rd39, %r36;
+cvt.u32.u64	%r37, %rd40;
+mul.lo.s32 %r38, %r37, %r65;
+sub.s32 %r39, %r32, %r38;
+mad.lo.s32 %r40, %r39, %r66, %r35;
+cvt.s64.s32 %rd41, %rd40;
+mul.lo.s64 %rd42, %rd4, %rd41;
+cvt.u32.u64	%r41, %rd14;
+shr.u64 %rd43, %rd42, %r41;
+cvt.u32.u64	%r42, %rd43;
+mul.lo.s32 %r43, %r42, %r67;
+sub.s32 %r44, %r37, %r43;
+mad.lo.s32 %r45, %r44, %r3, %r40;
+cvt.s64.s32 %rd44, %rd43;
+mul.lo.s64 %rd45, %rd3, %rd44;
+cvt.u32.u64	%r46, %rd15;
+shr.u64 %rd46, %rd45, %r46;
+cvt.u32.u64	%r47, %rd46;
+mul.lo.s32 %r48, %r47, %r9;
+sub.s32 %r49, %r42, %r48;
+mad.lo.s32 %r50, %r49, %r2, %r45;
+cvt.s64.s32 %rd47, %rd46;
+mul.lo.s64 %rd48, %rd2, %rd47;
+cvt.u32.u64	%r51, %rd16;
+shr.u64 %rd49, %rd48, %r51;
+cvt.u32.u64	%r52, %rd49;
+mul.lo.s32 %r53, %r52, %r8;
+sub.s32 %r54, %r47, %r53;
+mad.lo.s32 %r55, %r54, %r1, %r50;
+mul.wide.s32 %rd50, %r55, 4;
+add.s64 %rd25, %rd19, %rd50;
+
+	ld.global.nc.f32 %f2, [%rd25];
+
+	shl.b64 %rd51, %rd57, 2;
+add.s64 %rd26, %rd21, %rd51;
+
+	ld.global.nc.f32 %f3, [%rd26];
+
+	add.s64 %rd27, %rd22, %rd50;
+
+	ld.global.nc.f32 %f4, [%rd27];
+
+	sub.f32 %f6, %f3, %f4;
+add.f32 %f7, %f6, %f6;
+add.s64 %rd28, %rd20, %rd50;
+
+	ld.global.nc.f32 %f5, [%rd28];
+
+	fma.rn.f32 %f8, %f5, %f7, %f2;
+mul.f32 %f9, %f8, %f1;
+add.s64 %rd53, %rd52, %rd51;
+st.global.f32 [%rd53], %f9;
+mov.u32 %r57, %nctaid.x;
+mul.lo.s32 %r58, %r57, %r16;
+cvt.u64.u32	%rd54, %r58;
+add.s64 %rd57, %rd54, %rd57;
+setp.lt.u64	%p2, %rd57, %rd24;
+@%p2 bra BB6_2;
+
+BB6_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_(
+.param .u32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_0,
+.param .align 4 .b8 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1[32],
+.param .align 8 .b8 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2[192],
+.param .f32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_3,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_4,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_5,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_6,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_7,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_8
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<10>;
+.reg .b32 %r<82>;
+.reg .b64 %rd<64>;
+
+
+ld.param.u32 %r17, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_0];
+ld.param.f32 %f1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_3];
+ld.param.u64 %rd22, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_5];
+ld.param.u64 %rd23, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_6];
+ld.param.u64 %rd24, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_7];
+ld.param.u64 %rd25, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_8];
+mov.u64 %rd1, _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2;
+ld.param.u64 %rd2, [%rd1+8];
+ld.param.u64 %rd3, [%rd1+32];
+ld.param.u64 %rd4, [%rd1+56];
+ld.param.u64 %rd5, [%rd1+80];
+ld.param.u64 %rd6, [%rd1+104];
+ld.param.u64 %rd7, [%rd1+128];
+ld.param.u64 %rd8, [%rd1+152];
+ld.param.u64 %rd9, [%rd1+176];
+mov.u32 %r18, %ntid.x;
+mov.u32 %r19, %ctaid.x;
+mov.u32 %r20, %tid.x;
+mad.lo.s32 %r21, %r18, %r19, %r20;
+cvt.u64.u32	%rd63, %r21;
+cvt.s64.s32	%rd26, %r17;
+setp.ge.u64	%p1, %rd63, %rd26;
+@%p1 bra BB7_3;
+
+ld.param.u32 %rd11, [%rd1+184];
+ld.param.u32 %rd12, [%rd1+160];
+ld.param.u32 %rd13, [%rd1+136];
+ld.param.u32 %rd14, [%rd1+112];
+ld.param.u32 %rd15, [%rd1+88];
+ld.param.u32 %rd16, [%rd1+64];
+ld.param.u32 %rd17, [%rd1+40];
+ld.param.u32 %rd18, [%rd1+16];
+cvta.to.global.u64 %rd57, %rd25;
+
+BB7_2:
+mov.u64 %rd62, _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_2;
+ld.param.u64 %rd61, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_4];
+ld.param.u32 %r81, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1];
+ld.param.u32 %r80, [%rd62];
+ld.param.u32 %r79, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+4];
+ld.param.u32 %r78, [%rd62+24];
+ld.param.u32 %r77, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+8];
+ld.param.u32 %r76, [%rd62+48];
+ld.param.u32 %r75, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+12];
+ld.param.u32 %r74, [%rd62+72];
+ld.param.u32 %r73, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+16];
+ld.param.u32 %r72, [%rd62+96];
+ld.param.u32 %r71, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+20];
+ld.param.u32 %r70, [%rd62+120];
+ld.param.u32 %r69, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+24];
+ld.param.u32 %r68, [%rd62+144];
+ld.param.u32 %r67, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7__param_1+28];
+ld.param.u32 %r66, [%rd62+168];
+cvt.s64.s32 %rd31, %rd63;
+mul.lo.s64 %rd32, %rd9, %rd31;
+cvt.u32.u64	%r22, %rd11;
+shr.u64 %rd33, %rd32, %r22;
+cvt.u32.u64	%r23, %rd33;
+mul.lo.s32 %r24, %r23, %r66;
+cvt.u32.u64	%r25, %rd63;
+sub.s32 %r26, %r25, %r24;
+mul.lo.s32 %r27, %r26, %r67;
+cvt.s64.s32 %rd34, %rd33;
+mul.lo.s64 %rd35, %rd8, %rd34;
+cvt.u32.u64	%r28, %rd12;
+shr.u64 %rd36, %rd35, %r28;
+cvt.u32.u64	%r29, %rd36;
+mul.lo.s32 %r30, %r29, %r68;
+sub.s32 %r31, %r23, %r30;
+mad.lo.s32 %r32, %r31, %r69, %r27;
+cvt.s64.s32 %rd37, %rd36;
+mul.lo.s64 %rd38, %rd7, %rd37;
+cvt.u32.u64	%r33, %rd13;
+shr.u64 %rd39, %rd38, %r33;
+cvt.u32.u64	%r34, %rd39;
+mul.lo.s32 %r35, %r34, %r70;
+sub.s32 %r36, %r29, %r35;
+mad.lo.s32 %r37, %r36, %r71, %r32;
+cvt.s64.s32 %rd40, %rd39;
+mul.lo.s64 %rd41, %rd6, %rd40;
+cvt.u32.u64	%r38, %rd14;
+shr.u64 %rd42, %rd41, %r38;
+cvt.u32.u64	%r39, %rd42;
+mul.lo.s32 %r40, %r39, %r72;
+sub.s32 %r41, %r34, %r40;
+mad.lo.s32 %r42, %r41, %r73, %r37;
+cvt.s64.s32 %rd43, %rd42;
+mul.lo.s64 %rd44, %rd5, %rd43;
+cvt.u32.u64	%r43, %rd15;
+shr.u64 %rd45, %rd44, %r43;
+cvt.u32.u64	%r44, %rd45;
+mul.lo.s32 %r45, %r44, %r74;
+sub.s32 %r46, %r39, %r45;
+mad.lo.s32 %r47, %r46, %r75, %r42;
+cvt.s64.s32 %rd46, %rd45;
+mul.lo.s64 %rd47, %rd4, %rd46;
+cvt.u32.u64	%r48, %rd16;
+shr.u64 %rd48, %rd47, %r48;
+cvt.u32.u64	%r49, %rd48;
+mul.lo.s32 %r50, %r49, %r76;
+sub.s32 %r51, %r44, %r50;
+mad.lo.s32 %r52, %r51, %r77, %r47;
+cvt.s64.s32 %rd49, %rd48;
+mul.lo.s64 %rd50, %rd3, %rd49;
+cvt.u32.u64	%r53, %rd17;
+shr.u64 %rd51, %rd50, %r53;
+cvt.u32.u64	%r54, %rd51;
+mul.lo.s32 %r55, %r54, %r78;
+sub.s32 %r56, %r49, %r55;
+mad.lo.s32 %r57, %r56, %r79, %r52;
+cvt.s64.s32 %rd52, %rd51;
+mul.lo.s64 %rd53, %rd2, %rd52;
+cvt.u32.u64	%r58, %rd18;
+shr.u64 %rd54, %rd53, %r58;
+cvt.u32.u64	%r59, %rd54;
+mul.lo.s32 %r60, %r59, %r80;
+sub.s32 %r61, %r54, %r60;
+mad.lo.s32 %r62, %r61, %r81, %r57;
+mul.wide.s32 %rd55, %r62, 4;
+add.s64 %rd27, %rd61, %rd55;
+
+	ld.global.nc.f32 %f2, [%rd27];
+
+	shl.b64 %rd56, %rd63, 2;
+add.s64 %rd28, %rd23, %rd56;
+
+	ld.global.nc.f32 %f3, [%rd28];
+
+	add.s64 %rd29, %rd24, %rd55;
+
+	ld.global.nc.f32 %f4, [%rd29];
+
+	sub.f32 %f6, %f3, %f4;
+add.f32 %f7, %f6, %f6;
+add.s64 %rd30, %rd22, %rd55;
+
+	ld.global.nc.f32 %f5, [%rd30];
+
+	fma.rn.f32 %f8, %f5, %f7, %f2;
+mul.f32 %f9, %f8, %f1;
+add.s64 %rd58, %rd57, %rd56;
+st.global.f32 [%rd58], %f9;
+mov.u32 %r64, %nctaid.x;
+mul.lo.s32 %r65, %r64, %r18;
+cvt.u64.u32	%rd59, %r65;
+add.s64 %rd63, %rd59, %rd63;
+setp.lt.u64	%p2, %rd63, %rd26;
+@%p2 bra BB7_2;
+
+BB7_3:
+ret;
+}
+
+

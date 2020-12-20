@@ -1,0 +1,1173 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.extern .func __assertfail
+(
+.param .b64 __assertfail_param_0,
+.param .b64 __assertfail_param_1,
+.param .b32 __assertfail_param_2,
+.param .b64 __assertfail_param_3,
+.param .b64 __assertfail_param_4
+)
+;
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVSt9exception[40];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 1 .b8 __T20[102] = {118, 111, 105, 100, 32, 99, 97, 102, 102, 101, 50, 58, 58, 60, 117, 110, 110, 97, 109, 101, 100, 62, 58, 58, 76, 97, 98, 101, 108, 67, 114, 111, 115, 115, 69, 110, 116, 114, 111, 112, 121, 75, 101, 114, 110, 101, 108, 40, 105, 110, 116, 44, 32, 105, 110, 116, 44, 32, 99, 111, 110, 115, 116, 32, 102, 108, 111, 97, 116, 32, 42, 44, 32, 99, 111, 110, 115, 116, 32, 105, 110, 116, 32, 42, 44, 32, 102, 108, 111, 97, 116, 44, 32, 102, 108, 111, 97, 116, 32, 42, 41, 0};
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe219LabelCrossEntropyOpIfNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe227LabelCrossEntropyGradientOpIfNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe214MakeTwoClassOpIfNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe222MakeTwoClassGradientOpIfNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe231SigmoidCrossEntropyWithLogitsOpIfNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe239SigmoidCrossEntropyWithLogitsGradientOpIfNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe239WeightedSigmoidCrossEntropyWithLogitsOpIfNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe247WeightedSigmoidCrossEntropyWithLogitsGradientOpIfNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe215GPUFallbackOpExINS_11SkipIndicesIJEEEEE[136];
+.global .align 1 .b8 $str[38] = {108, 97, 98, 101, 108, 100, 97, 116, 97, 91, 105, 93, 32, 62, 61, 32, 48, 32, 38, 38, 32, 108, 97, 98, 101, 108, 100, 97, 116, 97, 91, 105, 93, 32, 60, 32, 68, 0};
+.global .align 1 .b8 $str1[51] = {47, 114, 111, 111, 116, 47, 112, 121, 116, 111, 114, 99, 104, 47, 99, 97, 102, 102, 101, 50, 47, 111, 112, 101, 114, 97, 116, 111, 114, 115, 47, 99, 114, 111, 115, 115, 95, 101, 110, 116, 114, 111, 112, 121, 95, 111, 112, 46, 99, 117, 0};
+
+
+
+.visible .entry _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e23LabelCrossEntropyKernelEiiPKfPKifPf(
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e23LabelCrossEntropyKernelEiiPKfPKifPf_param_0,
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e23LabelCrossEntropyKernelEiiPKfPKifPf_param_1,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e23LabelCrossEntropyKernelEiiPKfPKifPf_param_2,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e23LabelCrossEntropyKernelEiiPKfPKifPf_param_3,
+.param .f32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e23LabelCrossEntropyKernelEiiPKfPKifPf_param_4,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e23LabelCrossEntropyKernelEiiPKfPKifPf_param_5
+)
+{
+.reg .pred %p<9>;
+.reg .f32 %f<39>;
+.reg .b32 %r<17>;
+.reg .b64 %rd<30>;
+
+
+ld.param.u32 %r5, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e23LabelCrossEntropyKernelEiiPKfPKifPf_param_1];
+ld.param.u64 %rd11, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e23LabelCrossEntropyKernelEiiPKfPKifPf_param_2];
+ld.param.u64 %rd12, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e23LabelCrossEntropyKernelEiiPKfPKifPf_param_3];
+ld.param.f32 %f5, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e23LabelCrossEntropyKernelEiiPKfPKifPf_param_4];
+ld.param.u64 %rd13, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e23LabelCrossEntropyKernelEiiPKfPKifPf_param_5];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r6, %ctaid.x;
+mov.u32 %r7, %tid.x;
+mad.lo.s32 %r8, %r1, %r6, %r7;
+cvt.u64.u32	%rd29, %r8;
+ld.param.s32 %rd2, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e23LabelCrossEntropyKernelEiiPKfPKifPf_param_0];
+setp.ge.u64	%p1, %rd29, %rd2;
+@%p1 bra BB0_7;
+
+cvta.to.global.u64 %rd3, %rd13;
+cvta.to.global.u64 %rd4, %rd11;
+cvta.to.global.u64 %rd5, %rd12;
+cvt.s64.s32	%rd6, %r5;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r10, %r9, %r1;
+cvt.u64.u32	%rd7, %r10;
+
+BB0_2:
+shl.b64 %rd14, %rd29, 2;
+add.s64 %rd9, %rd5, %rd14;
+ld.global.u32 %r16, [%rd9];
+setp.gt.s32	%p2, %r16, -1;
+setp.lt.s32	%p3, %r16, %r5;
+and.pred %p4, %p2, %p3;
+@%p4 bra BB0_4;
+
+mov.u64 %rd15, $str;
+cvta.global.u64 %rd16, %rd15;
+mov.u64 %rd17, $str1;
+cvta.global.u64 %rd18, %rd17;
+mov.u64 %rd19, __T20;
+cvta.global.u64 %rd20, %rd19;
+mov.u32 %r11, 15;
+mov.u64 %rd21, 1;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd16;
+.param .b64 param1;
+st.param.b64	[param1+0], %rd18;
+.param .b32 param2;
+st.param.b32	[param2+0], %r11;
+.param .b64 param3;
+st.param.b64	[param3+0], %rd20;
+.param .b64 param4;
+st.param.b64	[param4+0], %rd21;
+call.uni 
+__assertfail, 
+(
+param0, 
+param1, 
+param2, 
+param3, 
+param4
+);
+
+
+	}
+	ld.global.u32 %r16, [%rd9];
+
+BB0_4:
+cvt.s64.s32	%rd22, %r16;
+mul.lo.s64 %rd23, %rd29, %rd6;
+add.s64 %rd24, %rd22, %rd23;
+shl.b64 %rd25, %rd24, 2;
+add.s64 %rd26, %rd4, %rd25;
+ld.global.f32 %f6, [%rd26];
+max.f32 %f7, %f6, %f5;
+setp.lt.f32	%p5, %f7, 0f00800000;
+mul.f32 %f8, %f7, 0f4B000000;
+selp.f32	%f1, %f8, %f7, %p5;
+selp.f32	%f9, 0fC1B80000, 0f00000000, %p5;
+mov.b32 %r12, %f1;
+add.s32 %r13, %r12, -1059760811;
+and.b32 %r14, %r13, -8388608;
+sub.s32 %r15, %r12, %r14;
+mov.b32 %f10, %r15;
+cvt.rn.f32.s32	%f11, %r14;
+mov.f32 %f12, 0f34000000;
+fma.rn.f32 %f13, %f11, %f12, %f9;
+add.f32 %f14, %f10, 0fBF800000;
+mov.f32 %f15, 0f3E1039F6;
+mov.f32 %f16, 0fBE055027;
+fma.rn.f32 %f17, %f16, %f14, %f15;
+mov.f32 %f18, 0fBDF8CDCC;
+fma.rn.f32 %f19, %f17, %f14, %f18;
+mov.f32 %f20, 0f3E0F2955;
+fma.rn.f32 %f21, %f19, %f14, %f20;
+mov.f32 %f22, 0fBE2AD8B9;
+fma.rn.f32 %f23, %f21, %f14, %f22;
+mov.f32 %f24, 0f3E4CED0B;
+fma.rn.f32 %f25, %f23, %f14, %f24;
+mov.f32 %f26, 0fBE7FFF22;
+fma.rn.f32 %f27, %f25, %f14, %f26;
+mov.f32 %f28, 0f3EAAAA78;
+fma.rn.f32 %f29, %f27, %f14, %f28;
+mov.f32 %f30, 0fBF000000;
+fma.rn.f32 %f31, %f29, %f14, %f30;
+mul.f32 %f32, %f14, %f31;
+fma.rn.f32 %f33, %f32, %f14, %f14;
+mov.f32 %f34, 0f3F317218;
+fma.rn.f32 %f38, %f13, %f34, %f33;
+setp.lt.u32	%p6, %r12, 2139095040;
+@%p6 bra BB0_6;
+
+mov.f32 %f35, 0f7F800000;
+fma.rn.f32 %f38, %f1, %f35, %f35;
+
+BB0_6:
+neg.f32 %f36, %f38;
+setp.eq.f32	%p7, %f1, 0f00000000;
+selp.f32	%f37, 0f7F800000, %f36, %p7;
+add.s64 %rd28, %rd3, %rd14;
+st.global.f32 [%rd28], %f37;
+add.s64 %rd29, %rd7, %rd29;
+setp.lt.u64	%p8, %rd29, %rd2;
+@%p8 bra BB0_2;
+
+BB0_7:
+ret;
+}
+
+
+.visible .entry _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiS2_fPf(
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiS2_fPf_param_0,
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiS2_fPf_param_1,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiS2_fPf_param_2,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiS2_fPf_param_3,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiS2_fPf_param_4,
+.param .f32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiS2_fPf_param_5,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiS2_fPf_param_6
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<7>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<26>;
+
+
+ld.param.u32 %r2, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiS2_fPf_param_1];
+ld.param.u64 %rd11, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiS2_fPf_param_2];
+ld.param.u64 %rd12, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiS2_fPf_param_3];
+ld.param.u64 %rd13, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiS2_fPf_param_4];
+ld.param.f32 %f1, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiS2_fPf_param_5];
+ld.param.u64 %rd14, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiS2_fPf_param_6];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r3, %ctaid.x;
+mov.u32 %r4, %tid.x;
+mad.lo.s32 %r5, %r1, %r3, %r4;
+cvt.u64.u32	%rd25, %r5;
+ld.param.s32 %rd2, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiS2_fPf_param_0];
+setp.ge.u64	%p1, %rd25, %rd2;
+@%p1 bra BB1_3;
+
+cvta.to.global.u64 %rd3, %rd14;
+cvta.to.global.u64 %rd4, %rd11;
+cvta.to.global.u64 %rd5, %rd13;
+cvta.to.global.u64 %rd6, %rd12;
+cvt.s64.s32	%rd7, %r2;
+mov.u32 %r6, %nctaid.x;
+mul.lo.s32 %r7, %r6, %r1;
+cvt.u64.u32	%rd8, %r7;
+
+BB1_2:
+shl.b64 %rd15, %rd25, 2;
+add.s64 %rd16, %rd6, %rd15;
+ld.global.u32 %rd17, [%rd16];
+mul.lo.s64 %rd18, %rd25, %rd7;
+add.s64 %rd19, %rd17, %rd18;
+add.s64 %rd20, %rd5, %rd15;
+ld.global.f32 %f2, [%rd20];
+neg.f32 %f3, %f2;
+cvt.s64.s32 %rd21, %rd19;
+shl.b64 %rd22, %rd21, 2;
+add.s64 %rd23, %rd4, %rd22;
+ld.global.f32 %f4, [%rd23];
+max.f32 %f5, %f4, %f1;
+div.rn.f32 %f6, %f3, %f5;
+add.s64 %rd24, %rd3, %rd22;
+st.global.f32 [%rd24], %f6;
+add.s64 %rd25, %rd8, %rd25;
+setp.lt.u64	%p2, %rd25, %rd2;
+@%p2 bra BB1_2;
+
+BB1_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e18MakeTwoClassKernelEiPKfPf(
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e18MakeTwoClassKernelEiPKfPf_param_0,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e18MakeTwoClassKernelEiPKfPf_param_1,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e18MakeTwoClassKernelEiPKfPf_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<5>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e18MakeTwoClassKernelEiPKfPf_param_1];
+ld.param.u64 %rd9, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e18MakeTwoClassKernelEiPKfPf_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e18MakeTwoClassKernelEiPKfPf_param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB2_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB2_2:
+shl.b64 %rd10, %rd14, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f32 %f1, [%rd11];
+mov.f32 %f2, 0f3F800000;
+sub.f32 %f3, %f2, %f1;
+shl.b64 %rd12, %rd14, 3;
+add.s64 %rd13, %rd3, %rd12;
+st.global.f32 [%rd13], %f3;
+ld.global.f32 %f4, [%rd11];
+st.global.f32 [%rd13+4], %f4;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB2_2;
+
+BB2_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e26MakeTwoClassGradientKernelEiPKfPf(
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e26MakeTwoClassGradientKernelEiPKfPf_param_0,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e26MakeTwoClassGradientKernelEiPKfPf_param_1,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e26MakeTwoClassGradientKernelEiPKfPf_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<4>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e26MakeTwoClassGradientKernelEiPKfPf_param_1];
+ld.param.u64 %rd9, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e26MakeTwoClassGradientKernelEiPKfPf_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e26MakeTwoClassGradientKernelEiPKfPf_param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB3_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB3_2:
+shl.b64 %rd10, %rd14, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f32 %f1, [%rd11];
+ld.global.f32 %f2, [%rd11+4];
+sub.f32 %f3, %f2, %f1;
+shl.b64 %rd12, %rd14, 2;
+add.s64 %rd13, %rd3, %rd12;
+st.global.f32 [%rd13], %f3;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB3_2;
+
+BB3_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf(
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf_param_0,
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf_param_1,
+.param .u8 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf_param_2,
+.param .u8 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf_param_3,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf_param_4,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf_param_5,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf_param_6
+)
+{
+.reg .pred %p<27>;
+.reg .b16 %rs<5>;
+.reg .f32 %f<195>;
+.reg .b32 %r<40>;
+.reg .f64 %fd<5>;
+.reg .b64 %rd<15>;
+
+	.shared .align 4 .b8 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf$__cuda_local_var_197229_61_non_const_temp_storage[24];
+
+ld.param.u32 %r6, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf_param_1];
+ld.param.u64 %rd2, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf_param_4];
+ld.param.u64 %rd3, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf_param_5];
+ld.param.u64 %rd4, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf_param_6];
+ld.param.s8 %rs2, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf_param_3];
+ld.param.s8 %rs1, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf_param_2];
+mov.u32 %r7, %ctaid.x;
+add.s32 %r8, %r7, 1;
+mul.lo.s32 %r1, %r8, %r6;
+mov.u32 %r9, %tid.x;
+mad.lo.s32 %r39, %r7, %r6, %r9;
+mov.f32 %f193, 0f00000000;
+setp.ge.s32	%p1, %r39, %r1;
+@%p1 bra BB4_14;
+
+cvta.to.global.u64 %rd1, %rd3;
+mov.f32 %f193, 0f00000000;
+mov.u32 %r3, %ntid.x;
+cvta.to.global.u64 %rd5, %rd2;
+and.b16 %rs3, %rs2, 255;
+and.b16 %rs4, %rs1, 255;
+
+BB4_2:
+mul.wide.s32 %rd6, %r39, 4;
+add.s64 %rd7, %rd5, %rd6;
+add.s64 %rd8, %rd1, %rd6;
+ld.global.f32 %f2, [%rd7];
+ld.global.f32 %f3, [%rd8];
+setp.eq.s16	%p2, %rs3, 0;
+@%p2 bra BB4_6;
+bra.uni BB4_3;
+
+BB4_6:
+setp.eq.s16	%p9, %rs4, 0;
+add.f32 %f83, %f2, %f2;
+setp.ge.f32	%p10, %f2, 0f00000000;
+selp.f32	%f84, %f83, 0f00000000, %p10;
+sub.f32 %f10, %f2, %f84;
+mul.f32 %f85, %f10, 0f3FB8AA3B;
+cvt.rzi.f32.f32	%f86, %f85;
+mov.f32 %f87, 0fBF317200;
+fma.rn.f32 %f88, %f86, %f87, %f10;
+mov.f32 %f89, 0fB5BFBE8E;
+fma.rn.f32 %f90, %f86, %f89, %f88;
+mul.f32 %f11, %f90, 0f3FB8AA3B;
+add.f32 %f91, %f86, 0f00000000;
+ex2.approx.f32 %f12, %f91;
+@%p9 bra BB4_10;
+bra.uni BB4_7;
+
+BB4_10:
+setp.gt.f32	%p17, %f10, 0f42D20000;
+selp.u32	%r18, 1, 0, %p10;
+cvt.rn.f32.s32	%f132, %r18;
+sub.f32 %f133, %f3, %f132;
+mul.f32 %f18, %f2, %f133;
+
+	ex2.approx.ftz.f32 %f130,%f11;
+
+	fma.rn.f32 %f134, %f130, %f12, 0f3F800000;
+setp.lt.f32	%p19, %f10, 0fC2D20000;
+selp.f32	%f135, 0f3F800000, %f134, %p19;
+selp.f32	%f136, 0f7F800000, %f135, %p17;
+setp.lt.f32	%p20, %f136, 0f00800000;
+mul.f32 %f137, %f136, 0f4B000000;
+selp.f32	%f19, %f137, %f136, %p20;
+selp.f32	%f138, 0fC1B80000, 0f00000000, %p20;
+mov.b32 %r19, %f19;
+add.s32 %r20, %r19, -1059760811;
+and.b32 %r21, %r20, -8388608;
+sub.s32 %r22, %r19, %r21;
+mov.b32 %f139, %r22;
+cvt.rn.f32.s32	%f140, %r21;
+mov.f32 %f141, 0f34000000;
+fma.rn.f32 %f142, %f140, %f141, %f138;
+add.f32 %f143, %f139, 0fBF800000;
+mov.f32 %f144, 0f3E1039F6;
+mov.f32 %f145, 0fBE055027;
+fma.rn.f32 %f146, %f145, %f143, %f144;
+mov.f32 %f147, 0fBDF8CDCC;
+fma.rn.f32 %f148, %f146, %f143, %f147;
+mov.f32 %f149, 0f3E0F2955;
+fma.rn.f32 %f150, %f148, %f143, %f149;
+mov.f32 %f151, 0fBE2AD8B9;
+fma.rn.f32 %f152, %f150, %f143, %f151;
+mov.f32 %f153, 0f3E4CED0B;
+fma.rn.f32 %f154, %f152, %f143, %f153;
+mov.f32 %f155, 0fBE7FFF22;
+fma.rn.f32 %f156, %f154, %f143, %f155;
+mov.f32 %f157, 0f3EAAAA78;
+fma.rn.f32 %f158, %f156, %f143, %f157;
+mov.f32 %f159, 0fBF000000;
+fma.rn.f32 %f160, %f158, %f143, %f159;
+mul.f32 %f161, %f160, %f143;
+fma.rn.f32 %f162, %f161, %f143, %f143;
+mov.f32 %f163, 0f3F317218;
+fma.rn.f32 %f191, %f142, %f163, %f162;
+setp.lt.u32	%p21, %r19, 2139095040;
+@%p21 bra BB4_12;
+
+mov.f32 %f164, 0f7F800000;
+fma.rn.f32 %f191, %f19, %f164, %f164;
+
+BB4_12:
+setp.eq.f32	%p22, %f19, 0f00000000;
+selp.f32	%f165, 0fFF800000, %f191, %p22;
+sub.f32 %f192, %f18, %f165;
+bra.uni BB4_13;
+
+BB4_3:
+add.f32 %f34, %f3, 0fBF800000;
+mul.f32 %f35, %f2, %f34;
+setp.ge.f32	%p3, %f2, 0f00000000;
+selp.f32	%f36, %f35, 0f00000000, %p3;
+fma.rn.f32 %f4, %f2, %f3, %f36;
+add.f32 %f37, %f2, %f2;
+selp.f32	%f38, %f37, 0f00000000, %p3;
+sub.f32 %f39, %f2, %f38;
+mul.f32 %f40, %f39, 0f3FB8AA3B;
+cvt.rzi.f32.f32	%f41, %f40;
+mov.f32 %f42, 0fBF317200;
+fma.rn.f32 %f43, %f41, %f42, %f39;
+mov.f32 %f44, 0fB5BFBE8E;
+fma.rn.f32 %f45, %f41, %f44, %f43;
+mul.f32 %f33, %f45, 0f3FB8AA3B;
+
+	ex2.approx.ftz.f32 %f32,%f33;
+
+	add.f32 %f46, %f41, 0f00000000;
+ex2.approx.f32 %f47, %f46;
+setp.lt.f32	%p4, %f39, 0fC2D20000;
+setp.gt.f32	%p5, %f39, 0f42D20000;
+fma.rn.f32 %f48, %f32, %f47, 0f3F800000;
+selp.f32	%f49, 0f3F800000, %f48, %p4;
+selp.f32	%f50, 0f7F800000, %f49, %p5;
+setp.lt.f32	%p6, %f50, 0f00800000;
+mul.f32 %f51, %f50, 0f4B000000;
+selp.f32	%f5, %f51, %f50, %p6;
+selp.f32	%f52, 0fC1B80000, 0f00000000, %p6;
+mov.b32 %r10, %f5;
+add.s32 %r11, %r10, -1059760811;
+and.b32 %r12, %r11, -8388608;
+sub.s32 %r13, %r10, %r12;
+mov.b32 %f53, %r13;
+cvt.rn.f32.s32	%f54, %r12;
+mov.f32 %f55, 0f34000000;
+fma.rn.f32 %f56, %f54, %f55, %f52;
+add.f32 %f57, %f53, 0fBF800000;
+mov.f32 %f58, 0f3E1039F6;
+mov.f32 %f59, 0fBE055027;
+fma.rn.f32 %f60, %f59, %f57, %f58;
+mov.f32 %f61, 0fBDF8CDCC;
+fma.rn.f32 %f62, %f60, %f57, %f61;
+mov.f32 %f63, 0f3E0F2955;
+fma.rn.f32 %f64, %f62, %f57, %f63;
+mov.f32 %f65, 0fBE2AD8B9;
+fma.rn.f32 %f66, %f64, %f57, %f65;
+mov.f32 %f67, 0f3E4CED0B;
+fma.rn.f32 %f68, %f66, %f57, %f67;
+mov.f32 %f69, 0fBE7FFF22;
+fma.rn.f32 %f70, %f68, %f57, %f69;
+mov.f32 %f71, 0f3EAAAA78;
+fma.rn.f32 %f72, %f70, %f57, %f71;
+mov.f32 %f73, 0fBF000000;
+fma.rn.f32 %f74, %f72, %f57, %f73;
+mul.f32 %f75, %f74, %f57;
+fma.rn.f32 %f76, %f75, %f57, %f57;
+mov.f32 %f77, 0f3F317218;
+fma.rn.f32 %f189, %f56, %f77, %f76;
+setp.lt.u32	%p7, %r10, 2139095040;
+@%p7 bra BB4_5;
+
+mov.f32 %f78, 0f7F800000;
+fma.rn.f32 %f189, %f5, %f78, %f78;
+
+BB4_5:
+mov.f32 %f79, 0f3F800000;
+sub.f32 %f80, %f79, %f3;
+setp.eq.f32	%p8, %f5, 0f00000000;
+selp.f32	%f81, 0fFF800000, %f189, %p8;
+mul.f32 %f82, %f80, %f81;
+sub.f32 %f192, %f4, %f82;
+bra.uni BB4_13;
+
+BB4_7:
+setp.gt.f32	%p11, %f10, 0f42D20000;
+
+	ex2.approx.ftz.f32 %f92,%f11;
+
+	fma.rn.f32 %f94, %f92, %f12, 0f3F800000;
+setp.lt.f32	%p12, %f10, 0fC2D20000;
+selp.f32	%f95, 0f3F800000, %f94, %p12;
+selp.f32	%f96, 0f7F800000, %f95, %p11;
+setp.lt.f32	%p13, %f96, 0f00800000;
+mul.f32 %f97, %f96, 0f4B000000;
+selp.f32	%f13, %f97, %f96, %p13;
+selp.f32	%f98, 0fC1B80000, 0f00000000, %p13;
+mov.b32 %r14, %f13;
+add.s32 %r15, %r14, -1059760811;
+and.b32 %r16, %r15, -8388608;
+sub.s32 %r17, %r14, %r16;
+mov.b32 %f99, %r17;
+cvt.rn.f32.s32	%f100, %r16;
+mov.f32 %f101, 0f34000000;
+fma.rn.f32 %f102, %f100, %f101, %f98;
+add.f32 %f103, %f99, 0fBF800000;
+mov.f32 %f104, 0f3E1039F6;
+mov.f32 %f105, 0fBE055027;
+fma.rn.f32 %f106, %f105, %f103, %f104;
+mov.f32 %f107, 0fBDF8CDCC;
+fma.rn.f32 %f108, %f106, %f103, %f107;
+mov.f32 %f109, 0f3E0F2955;
+fma.rn.f32 %f110, %f108, %f103, %f109;
+mov.f32 %f111, 0fBE2AD8B9;
+fma.rn.f32 %f112, %f110, %f103, %f111;
+mov.f32 %f113, 0f3E4CED0B;
+fma.rn.f32 %f114, %f112, %f103, %f113;
+mov.f32 %f115, 0fBE7FFF22;
+fma.rn.f32 %f116, %f114, %f103, %f115;
+mov.f32 %f117, 0f3EAAAA78;
+fma.rn.f32 %f118, %f116, %f103, %f117;
+mov.f32 %f119, 0fBF000000;
+fma.rn.f32 %f120, %f118, %f103, %f119;
+mul.f32 %f121, %f120, %f103;
+fma.rn.f32 %f122, %f121, %f103, %f103;
+mov.f32 %f123, 0f3F317218;
+fma.rn.f32 %f190, %f102, %f123, %f122;
+setp.lt.u32	%p14, %r14, 2139095040;
+@%p14 bra BB4_9;
+
+mov.f32 %f124, 0f7F800000;
+fma.rn.f32 %f190, %f13, %f124, %f124;
+
+BB4_9:
+add.f32 %f125, %f3, %f3;
+cvt.f64.f32	%fd1, %f125;
+add.f64 %fd2, %fd1, 0dBFF0000000000000;
+selp.f32	%f126, %f2, 0f00000000, %p10;
+setp.eq.f32	%p16, %f13, 0f00000000;
+selp.f32	%f127, 0fFF800000, %f190, %p16;
+add.f32 %f128, %f126, %f127;
+sub.f32 %f129, %f2, %f128;
+cvt.f64.f32	%fd3, %f129;
+mul.f64 %fd4, %fd2, %fd3;
+cvt.rn.f32.f64	%f192, %fd4;
+
+BB4_13:
+add.f32 %f193, %f193, %f192;
+add.s32 %r39, %r3, %r39;
+setp.lt.s32	%p23, %r39, %r1;
+@%p23 bra BB4_2;
+
+BB4_14:
+
+	mov.u32 %r23, %laneid;
+
+	mov.u32 %r24, 1;
+mov.u32 %r33, 31;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f193, %r24, %r33; @p add.f32 r0, r0, %f193; mov.f32 %f166, r0;}
+
+	mov.u32 %r26, 2;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f166, %r26, %r33; @p add.f32 r0, r0, %f166; mov.f32 %f169, r0;}
+
+	mov.u32 %r28, 4;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f169, %r28, %r33; @p add.f32 r0, r0, %f169; mov.f32 %f172, r0;}
+
+	mov.u32 %r30, 8;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f172, %r30, %r33; @p add.f32 r0, r0, %f172; mov.f32 %f175, r0;}
+
+	mov.u32 %r32, 16;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f175, %r32, %r33; @p add.f32 r0, r0, %f175; mov.f32 %f194, r0;}
+
+	setp.ne.s32	%p24, %r23, 0;
+@%p24 bra BB4_16;
+
+shr.u32 %r35, %r9, 5;
+mul.wide.u32 %rd9, %r35, 4;
+mov.u64 %rd10, _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf$__cuda_local_var_197229_61_non_const_temp_storage;
+add.s64 %rd11, %rd10, %rd9;
+st.shared.f32 [%rd11+4], %f194;
+
+BB4_16:
+bar.sync 0;
+setp.ne.s32	%p25, %r9, 0;
+@%p25 bra BB4_18;
+
+ld.shared.f32 %f181, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf$__cuda_local_var_197229_61_non_const_temp_storage+8];
+add.f32 %f182, %f194, %f181;
+ld.shared.f32 %f183, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf$__cuda_local_var_197229_61_non_const_temp_storage+12];
+add.f32 %f184, %f183, %f182;
+ld.shared.f32 %f185, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf$__cuda_local_var_197229_61_non_const_temp_storage+16];
+add.f32 %f194, %f185, %f184;
+
+BB4_18:
+@%p25 bra BB4_20;
+
+neg.f32 %f186, %f194;
+cvt.rn.f32.s32	%f187, %r6;
+div.rn.f32 %f188, %f186, %f187;
+cvta.to.global.u64 %rd12, %rd4;
+mul.wide.s32 %rd13, %r7, 4;
+add.s64 %rd14, %rd12, %rd13;
+st.global.f32 [%rd14], %f188;
+
+BB4_20:
+ret;
+}
+
+
+.visible .entry _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf(
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf_param_0,
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf_param_1,
+.param .u8 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf_param_2,
+.param .u8 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf_param_3,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf_param_4,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf_param_5,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf_param_6,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf_param_7
+)
+{
+.reg .pred %p<12>;
+.reg .b16 %rs<5>;
+.reg .f32 %f<47>;
+.reg .b32 %r<13>;
+.reg .f64 %fd<26>;
+.reg .b64 %rd<29>;
+
+
+ld.param.u32 %r3, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf_param_0];
+ld.param.u32 %r2, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf_param_1];
+ld.param.u64 %rd12, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf_param_4];
+ld.param.u64 %rd13, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf_param_5];
+ld.param.u64 %rd14, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf_param_6];
+ld.param.u64 %rd15, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf_param_7];
+ld.param.s8 %rs2, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf_param_3];
+ld.param.s8 %rs1, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r4, %ctaid.x;
+mov.u32 %r5, %tid.x;
+mad.lo.s32 %r6, %r1, %r4, %r5;
+cvt.u64.u32	%rd27, %r6;
+mul.lo.s32 %r7, %r2, %r3;
+cvt.s64.s32	%rd2, %r7;
+setp.ge.u64	%p1, %rd27, %rd2;
+@%p1 bra BB5_12;
+
+cvta.to.global.u64 %rd3, %rd15;
+cvt.s64.s32	%rd4, %r2;
+cvt.rn.f32.s32	%f1, %r2;
+mov.u32 %r8, %nctaid.x;
+mul.lo.s32 %r9, %r8, %r1;
+cvt.u64.u32	%rd5, %r9;
+cvta.to.global.u64 %rd19, %rd12;
+cvta.to.global.u64 %rd22, %rd13;
+cvta.to.global.u64 %rd25, %rd14;
+and.b16 %rs3, %rs2, 255;
+and.b16 %rs4, %rs1, 255;
+
+BB5_2:
+or.b64 %rd16, %rd27, %rd4;
+and.b64 %rd17, %rd16, -4294967296;
+setp.eq.s64	%p2, %rd17, 0;
+@%p2 bra BB5_4;
+bra.uni BB5_3;
+
+BB5_4:
+cvt.u32.u64	%r10, %rd4;
+cvt.u32.u64	%r11, %rd27;
+div.u32 %r12, %r11, %r10;
+cvt.u64.u32	%rd28, %r12;
+bra.uni BB5_5;
+
+BB5_3:
+div.u64 %rd28, %rd27, %rd4;
+
+BB5_5:
+cvt.s64.s32 %rd18, %rd28;
+shl.b64 %rd20, %rd18, 2;
+add.s64 %rd21, %rd19, %rd20;
+ld.global.f32 %f5, [%rd21];
+neg.f32 %f6, %f5;
+div.rn.f32 %f2, %f6, %f1;
+shl.b64 %rd23, %rd27, 2;
+add.s64 %rd24, %rd22, %rd23;
+add.s64 %rd26, %rd25, %rd23;
+ld.global.f32 %f3, [%rd24];
+ld.global.f32 %f4, [%rd26];
+add.s64 %rd10, %rd3, %rd23;
+setp.eq.s16	%p3, %rs3, 0;
+@%p3 bra BB5_7;
+bra.uni BB5_6;
+
+BB5_7:
+setp.eq.s16	%p6, %rs4, 0;
+@%p6 bra BB5_9;
+bra.uni BB5_8;
+
+BB5_9:
+setp.lt.f32	%p9, %f3, 0fC2D20000;
+mul.f32 %f35, %f3, 0fBFB8AA3B;
+cvt.rzi.f32.f32	%f36, %f35;
+neg.f32 %f37, %f3;
+mov.f32 %f38, 0fBF317200;
+fma.rn.f32 %f39, %f36, %f38, %f37;
+mov.f32 %f40, 0fB5BFBE8E;
+fma.rn.f32 %f41, %f36, %f40, %f39;
+mul.f32 %f34, %f41, 0f3FB8AA3B;
+
+	ex2.approx.ftz.f32 %f33,%f34;
+
+	add.f32 %f42, %f36, 0f00000000;
+ex2.approx.f32 %f43, %f42;
+mul.f32 %f44, %f33, %f43;
+cvt.f64.f32	%fd19, %f44;
+add.f64 %fd20, %fd19, 0d3FF0000000000000;
+rcp.rn.f64 %fd21, %fd20;
+setp.gt.f32	%p10, %f3, 0f42D20000;
+selp.f64	%fd22, 0d3FF0000000000000, %fd21, %p10;
+selp.f64	%fd23, 0d0000000000000000, %fd22, %p9;
+cvt.f64.f32	%fd24, %f4;
+sub.f64 %fd25, %fd24, %fd23;
+bra.uni BB5_10;
+
+BB5_6:
+cvt.f64.f32	%fd4, %f4;
+mov.f64 %fd5, 0d3FF0000000000000;
+sub.f64 %fd6, %fd5, %fd4;
+mul.f32 %f9, %f3, 0fBFB8AA3B;
+cvt.rzi.f32.f32	%f10, %f9;
+neg.f32 %f11, %f3;
+mov.f32 %f12, 0fBF317200;
+fma.rn.f32 %f13, %f10, %f12, %f11;
+mov.f32 %f14, 0fB5BFBE8E;
+fma.rn.f32 %f15, %f10, %f14, %f13;
+mul.f32 %f8, %f15, 0f3FB8AA3B;
+
+	ex2.approx.ftz.f32 %f7,%f8;
+
+	add.f32 %f16, %f10, 0f00000000;
+ex2.approx.f32 %f17, %f16;
+mul.f32 %f18, %f7, %f17;
+cvt.f64.f32	%fd7, %f18;
+add.f64 %fd8, %fd7, 0d3FF0000000000000;
+setp.gt.f32	%p4, %f3, 0f42D20000;
+selp.f64	%fd9, 0d3FF0000000000000, %fd8, %p4;
+setp.lt.f32	%p5, %f3, 0fC2D20000;
+selp.f64	%fd10, 0d7FF0000000000000, %fd9, %p5;
+div.rn.f64 %fd11, %fd6, %fd10;
+sub.f64 %fd12, %fd4, %fd11;
+cvt.rn.f32.f64	%f19, %fd12;
+mul.f32 %f20, %f2, %f19;
+st.global.f32 [%rd10], %f20;
+bra.uni BB5_11;
+
+BB5_8:
+setp.lt.f32	%p7, %f3, 0fC2D20000;
+add.f32 %f23, %f4, %f4;
+cvt.f64.f32	%fd13, %f23;
+add.f64 %fd14, %fd13, 0dBFF0000000000000;
+mul.f32 %f24, %f3, 0f3FB8AA3B;
+cvt.rzi.f32.f32	%f25, %f24;
+mov.f32 %f26, 0fBF317200;
+fma.rn.f32 %f27, %f25, %f26, %f3;
+mov.f32 %f28, 0fB5BFBE8E;
+fma.rn.f32 %f29, %f25, %f28, %f27;
+mul.f32 %f22, %f29, 0f3FB8AA3B;
+
+	ex2.approx.ftz.f32 %f21,%f22;
+
+	add.f32 %f30, %f25, 0f00000000;
+ex2.approx.f32 %f31, %f30;
+mul.f32 %f32, %f21, %f31;
+cvt.f64.f32	%fd15, %f32;
+add.f64 %fd16, %fd15, 0d3FF0000000000000;
+selp.f64	%fd17, 0d3FF0000000000000, %fd16, %p7;
+setp.gt.f32	%p8, %f3, 0f42D20000;
+selp.f64	%fd18, 0d7FF0000000000000, %fd17, %p8;
+div.rn.f64 %fd25, %fd14, %fd18;
+
+BB5_10:
+cvt.rn.f32.f64	%f45, %fd25;
+mul.f32 %f46, %f2, %f45;
+st.global.f32 [%rd10], %f46;
+
+BB5_11:
+add.s64 %rd27, %rd5, %rd27;
+setp.lt.u64	%p11, %rd27, %rd2;
+@%p11 bra BB5_2;
+
+BB5_12:
+ret;
+}
+
+
+.visible .entry _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf(
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf_param_0,
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf_param_1,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf_param_2,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf_param_3,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf_param_4,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf_param_5
+)
+{
+.reg .pred %p<12>;
+.reg .f32 %f<91>;
+.reg .b32 %r<30>;
+.reg .b64 %rd<20>;
+
+	.shared .align 4 .b8 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf$__cuda_local_var_197357_61_non_const_temp_storage[24];
+
+ld.param.u32 %r7, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf_param_1];
+ld.param.u64 %rd5, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf_param_2];
+ld.param.u64 %rd6, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf_param_3];
+ld.param.u64 %rd7, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf_param_4];
+ld.param.u64 %rd8, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf_param_5];
+mov.u32 %r8, %ctaid.x;
+add.s32 %r9, %r8, 1;
+mul.lo.s32 %r1, %r9, %r7;
+mov.u32 %r2, %tid.x;
+mad.lo.s32 %r29, %r8, %r7, %r2;
+mov.f32 %f89, 0f00000000;
+setp.ge.s32	%p1, %r29, %r1;
+@%p1 bra BB6_5;
+
+cvta.to.global.u64 %rd1, %rd7;
+cvta.to.global.u64 %rd2, %rd6;
+cvta.to.global.u64 %rd3, %rd5;
+mov.f32 %f89, 0f00000000;
+mov.u32 %r4, %ntid.x;
+
+BB6_2:
+mov.u32 %r5, %r29;
+cvt.s64.s32	%rd4, %r5;
+mul.wide.s32 %rd9, %r5, 4;
+add.s64 %rd10, %rd3, %rd9;
+add.s64 %rd11, %rd2, %rd9;
+ld.global.f32 %f16, [%rd10];
+setp.ge.f32	%p2, %f16, 0f00000000;
+selp.u32	%r10, 1, 0, %p2;
+cvt.rn.f32.s32	%f17, %r10;
+ld.global.f32 %f18, [%rd11];
+sub.f32 %f19, %f18, %f17;
+mul.f32 %f2, %f16, %f19;
+add.f32 %f20, %f16, %f16;
+selp.f32	%f21, %f20, 0f00000000, %p2;
+sub.f32 %f22, %f16, %f21;
+mul.f32 %f23, %f22, 0f3FB8AA3B;
+cvt.rzi.f32.f32	%f24, %f23;
+mov.f32 %f25, 0fBF317200;
+fma.rn.f32 %f26, %f24, %f25, %f22;
+mov.f32 %f27, 0fB5BFBE8E;
+fma.rn.f32 %f28, %f24, %f27, %f26;
+mul.f32 %f15, %f28, 0f3FB8AA3B;
+
+	ex2.approx.ftz.f32 %f14,%f15;
+
+	add.f32 %f29, %f24, 0f00000000;
+ex2.approx.f32 %f30, %f29;
+setp.lt.f32	%p3, %f22, 0fC2D20000;
+setp.gt.f32	%p4, %f22, 0f42D20000;
+fma.rn.f32 %f31, %f14, %f30, 0f3F800000;
+selp.f32	%f32, 0f3F800000, %f31, %p3;
+selp.f32	%f33, 0f7F800000, %f32, %p4;
+setp.lt.f32	%p5, %f33, 0f00800000;
+mul.f32 %f34, %f33, 0f4B000000;
+selp.f32	%f3, %f34, %f33, %p5;
+selp.f32	%f35, 0fC1B80000, 0f00000000, %p5;
+mov.b32 %r11, %f3;
+add.s32 %r12, %r11, -1059760811;
+and.b32 %r13, %r12, -8388608;
+sub.s32 %r14, %r11, %r13;
+mov.b32 %f36, %r14;
+cvt.rn.f32.s32	%f37, %r13;
+mov.f32 %f38, 0f34000000;
+fma.rn.f32 %f39, %f37, %f38, %f35;
+add.f32 %f40, %f36, 0fBF800000;
+mov.f32 %f41, 0f3E1039F6;
+mov.f32 %f42, 0fBE055027;
+fma.rn.f32 %f43, %f42, %f40, %f41;
+mov.f32 %f44, 0fBDF8CDCC;
+fma.rn.f32 %f45, %f43, %f40, %f44;
+mov.f32 %f46, 0f3E0F2955;
+fma.rn.f32 %f47, %f45, %f40, %f46;
+mov.f32 %f48, 0fBE2AD8B9;
+fma.rn.f32 %f49, %f47, %f40, %f48;
+mov.f32 %f50, 0f3E4CED0B;
+fma.rn.f32 %f51, %f49, %f40, %f50;
+mov.f32 %f52, 0fBE7FFF22;
+fma.rn.f32 %f53, %f51, %f40, %f52;
+mov.f32 %f54, 0f3EAAAA78;
+fma.rn.f32 %f55, %f53, %f40, %f54;
+mov.f32 %f56, 0fBF000000;
+fma.rn.f32 %f57, %f55, %f40, %f56;
+mul.f32 %f58, %f57, %f40;
+fma.rn.f32 %f59, %f58, %f40, %f40;
+mov.f32 %f60, 0f3F317218;
+fma.rn.f32 %f88, %f39, %f60, %f59;
+setp.lt.u32	%p6, %r11, 2139095040;
+@%p6 bra BB6_4;
+
+mov.f32 %f61, 0f7F800000;
+fma.rn.f32 %f88, %f3, %f61, %f61;
+
+BB6_4:
+setp.eq.f32	%p7, %f3, 0f00000000;
+selp.f32	%f62, 0fFF800000, %f88, %p7;
+sub.f32 %f63, %f2, %f62;
+shl.b64 %rd12, %rd4, 2;
+add.s64 %rd13, %rd1, %rd12;
+ld.global.f32 %f64, [%rd13];
+fma.rn.f32 %f89, %f64, %f63, %f89;
+cvt.u32.u64	%r15, %rd4;
+add.s32 %r29, %r4, %r15;
+setp.lt.s32	%p8, %r29, %r1;
+@%p8 bra BB6_2;
+
+BB6_5:
+
+	mov.u32 %r16, %laneid;
+
+	mov.u32 %r17, 1;
+mov.u32 %r26, 31;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f89, %r17, %r26; @p add.f32 r0, r0, %f89; mov.f32 %f65, r0;}
+
+	mov.u32 %r19, 2;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f65, %r19, %r26; @p add.f32 r0, r0, %f65; mov.f32 %f68, r0;}
+
+	mov.u32 %r21, 4;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f68, %r21, %r26; @p add.f32 r0, r0, %f68; mov.f32 %f71, r0;}
+
+	mov.u32 %r23, 8;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f71, %r23, %r26; @p add.f32 r0, r0, %f71; mov.f32 %f74, r0;}
+
+	mov.u32 %r25, 16;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f74, %r25, %r26; @p add.f32 r0, r0, %f74; mov.f32 %f90, r0;}
+
+	setp.ne.s32	%p9, %r16, 0;
+@%p9 bra BB6_7;
+
+shr.u32 %r27, %r2, 5;
+mul.wide.u32 %rd14, %r27, 4;
+mov.u64 %rd15, _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf$__cuda_local_var_197357_61_non_const_temp_storage;
+add.s64 %rd16, %rd15, %rd14;
+st.shared.f32 [%rd16+4], %f90;
+
+BB6_7:
+bar.sync 0;
+setp.ne.s32	%p10, %r2, 0;
+@%p10 bra BB6_9;
+
+ld.shared.f32 %f80, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf$__cuda_local_var_197357_61_non_const_temp_storage+8];
+add.f32 %f81, %f90, %f80;
+ld.shared.f32 %f82, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf$__cuda_local_var_197357_61_non_const_temp_storage+12];
+add.f32 %f83, %f82, %f81;
+ld.shared.f32 %f84, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf$__cuda_local_var_197357_61_non_const_temp_storage+16];
+add.f32 %f90, %f84, %f83;
+
+BB6_9:
+@%p10 bra BB6_11;
+
+neg.f32 %f85, %f90;
+cvt.rn.f32.s32	%f86, %r7;
+div.rn.f32 %f87, %f85, %f86;
+cvta.to.global.u64 %rd17, %rd8;
+mul.wide.s32 %rd18, %r8, 4;
+add.s64 %rd19, %rd17, %rd18;
+st.global.f32 [%rd19], %f87;
+
+BB6_11:
+ret;
+}
+
+
+.visible .entry _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e51WeightedSigmoidCrossEntropyGradientWithLogitsKernelEiiPKfS2_S2_S2_Pf(
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e51WeightedSigmoidCrossEntropyGradientWithLogitsKernelEiiPKfS2_S2_S2_Pf_param_0,
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e51WeightedSigmoidCrossEntropyGradientWithLogitsKernelEiiPKfS2_S2_S2_Pf_param_1,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e51WeightedSigmoidCrossEntropyGradientWithLogitsKernelEiiPKfS2_S2_S2_Pf_param_2,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e51WeightedSigmoidCrossEntropyGradientWithLogitsKernelEiiPKfS2_S2_S2_Pf_param_3,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e51WeightedSigmoidCrossEntropyGradientWithLogitsKernelEiiPKfS2_S2_S2_Pf_param_4,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e51WeightedSigmoidCrossEntropyGradientWithLogitsKernelEiiPKfS2_S2_S2_Pf_param_5,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e51WeightedSigmoidCrossEntropyGradientWithLogitsKernelEiiPKfS2_S2_S2_Pf_param_6
+)
+{
+.reg .pred %p<6>;
+.reg .f32 %f<23>;
+.reg .b32 %r<13>;
+.reg .f64 %fd<8>;
+.reg .b64 %rd<32>;
+
+
+ld.param.u32 %r3, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e51WeightedSigmoidCrossEntropyGradientWithLogitsKernelEiiPKfS2_S2_S2_Pf_param_0];
+ld.param.u32 %r2, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e51WeightedSigmoidCrossEntropyGradientWithLogitsKernelEiiPKfS2_S2_S2_Pf_param_1];
+ld.param.u64 %rd15, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e51WeightedSigmoidCrossEntropyGradientWithLogitsKernelEiiPKfS2_S2_S2_Pf_param_2];
+ld.param.u64 %rd16, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e51WeightedSigmoidCrossEntropyGradientWithLogitsKernelEiiPKfS2_S2_S2_Pf_param_3];
+ld.param.u64 %rd17, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e51WeightedSigmoidCrossEntropyGradientWithLogitsKernelEiiPKfS2_S2_S2_Pf_param_4];
+ld.param.u64 %rd18, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e51WeightedSigmoidCrossEntropyGradientWithLogitsKernelEiiPKfS2_S2_S2_Pf_param_5];
+ld.param.u64 %rd19, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e51WeightedSigmoidCrossEntropyGradientWithLogitsKernelEiiPKfS2_S2_S2_Pf_param_6];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r4, %ctaid.x;
+mov.u32 %r5, %tid.x;
+mad.lo.s32 %r6, %r1, %r4, %r5;
+cvt.u64.u32	%rd30, %r6;
+mul.lo.s32 %r7, %r2, %r3;
+cvt.s64.s32	%rd2, %r7;
+setp.ge.u64	%p1, %rd30, %rd2;
+@%p1 bra BB7_6;
+
+cvta.to.global.u64 %rd3, %rd19;
+cvta.to.global.u64 %rd4, %rd18;
+cvta.to.global.u64 %rd5, %rd17;
+cvta.to.global.u64 %rd6, %rd16;
+cvta.to.global.u64 %rd7, %rd15;
+cvt.s64.s32	%rd8, %r2;
+cvt.rn.f32.s32	%f1, %r2;
+mov.u32 %r8, %nctaid.x;
+mul.lo.s32 %r9, %r8, %r1;
+cvt.u64.u32	%rd9, %r9;
+
+BB7_2:
+or.b64 %rd20, %rd30, %rd8;
+and.b64 %rd21, %rd20, -4294967296;
+setp.eq.s64	%p2, %rd21, 0;
+@%p2 bra BB7_4;
+bra.uni BB7_3;
+
+BB7_4:
+cvt.u32.u64	%r10, %rd8;
+cvt.u32.u64	%r11, %rd30;
+div.u32 %r12, %r11, %r10;
+cvt.u64.u32	%rd31, %r12;
+bra.uni BB7_5;
+
+BB7_3:
+div.u64 %rd31, %rd30, %rd8;
+
+BB7_5:
+cvt.s64.s32 %rd22, %rd31;
+shl.b64 %rd23, %rd22, 2;
+add.s64 %rd24, %rd7, %rd23;
+ld.global.f32 %f4, [%rd24];
+neg.f32 %f5, %f4;
+div.rn.f32 %f6, %f5, %f1;
+shl.b64 %rd25, %rd30, 2;
+add.s64 %rd26, %rd5, %rd25;
+ld.global.f32 %f7, [%rd26];
+cvt.f64.f32	%fd1, %f7;
+add.s64 %rd27, %rd6, %rd25;
+ld.global.f32 %f8, [%rd27];
+neg.f32 %f9, %f8;
+mul.f32 %f10, %f8, 0fBFB8AA3B;
+cvt.rzi.f32.f32	%f11, %f10;
+mov.f32 %f12, 0fBF317200;
+fma.rn.f32 %f13, %f11, %f12, %f9;
+mov.f32 %f14, 0fB5BFBE8E;
+fma.rn.f32 %f15, %f11, %f14, %f13;
+mul.f32 %f3, %f15, 0f3FB8AA3B;
+
+	ex2.approx.ftz.f32 %f2,%f3;
+
+	add.f32 %f16, %f11, 0f00000000;
+ex2.approx.f32 %f17, %f16;
+mul.f32 %f18, %f2, %f17;
+setp.gt.f32	%p3, %f8, 0f42D20000;
+setp.lt.f32	%p4, %f8, 0fC2D20000;
+cvt.f64.f32	%fd2, %f18;
+add.f64 %fd3, %fd2, 0d3FF0000000000000;
+rcp.rn.f64 %fd4, %fd3;
+selp.f64	%fd5, 0d3FF0000000000000, %fd4, %p3;
+selp.f64	%fd6, 0d0000000000000000, %fd5, %p4;
+sub.f64 %fd7, %fd1, %fd6;
+cvt.rn.f32.f64	%f19, %fd7;
+mul.f32 %f20, %f6, %f19;
+add.s64 %rd28, %rd4, %rd25;
+ld.global.f32 %f21, [%rd28];
+mul.f32 %f22, %f21, %f20;
+add.s64 %rd29, %rd3, %rd25;
+st.global.f32 [%rd29], %f22;
+add.s64 %rd30, %rd9, %rd30;
+setp.lt.u64	%p5, %rd30, %rd2;
+@%p5 bra BB7_2;
+
+BB7_6:
+ret;
+}
+
+

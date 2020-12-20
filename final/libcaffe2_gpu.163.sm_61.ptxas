@@ -1,0 +1,65 @@
+ptxas info    : 360 bytes gmem
+ptxas info    : Compiling entry function '_ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIiZNS0_15sum_kernel_implIiiEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IiiE1_iiiEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIiZNS0_15sum_kernel_implIiiEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IiiE1_iiiEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 1328 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIiZNS0_16prod_kernel_implIiiEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IiiE1_iiiEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIiZNS0_16prod_kernel_implIiiEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IiiE1_iiiEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 1328 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIhZNS0_15sum_kernel_implIhhEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IhhE1_hhhEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIhZNS0_15sum_kernel_implIhhEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IhhE1_hhhEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1328 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIhZNS0_16prod_kernel_implIhhEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IhhE1_hhhEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIhZNS0_16prod_kernel_implIhhEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IhhE1_hhhEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1328 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIsZNS0_15sum_kernel_implIssEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IssE1_sssEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIsZNS0_15sum_kernel_implIssEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IssE1_sssEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1328 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIsZNS0_16prod_kernel_implIssEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IssE1_sssEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIsZNS0_16prod_kernel_implIssEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IssE1_sssEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1328 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIdZNS0_15sum_kernel_implIddEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IddE1_dddEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIdZNS0_15sum_kernel_implIddEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IddE1_dddEEEEEvT0_
+    16 bytes stack frame, 12 bytes spill stores, 20 bytes spill loads
+ptxas info    : Used 32 registers, 1328 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIdZNS0_16prod_kernel_implIddEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IddE1_dddEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIdZNS0_16prod_kernel_implIddEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IddE1_dddEEEEEvT0_
+    16 bytes stack frame, 12 bytes spill stores, 20 bytes spill loads
+ptxas info    : Used 32 registers, 1328 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIfZNS0_15sum_kernel_implIffEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IffE1_fffEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIfZNS0_15sum_kernel_implIffEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IffE1_fffEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 1328 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIfZNS0_16prod_kernel_implIffEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IffE1_fffEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIfZNS0_16prod_kernel_implIffEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IffE1_fffEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 1328 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIN3c104HalfEZNS0_15sum_kernel_implIS4_fEEvRNS_14TensorIteratorEEUnvhdl0_PFvS7_ES5_IS4_fE1_fffEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIN3c104HalfEZNS0_15sum_kernel_implIS4_fEEvRNS_14TensorIteratorEEUnvhdl0_PFvS7_ES5_IS4_fE1_fffEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1328 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIN3c104HalfEZNS0_16prod_kernel_implIS4_fEEvRNS_14TensorIteratorEEUnvhdl0_PFvS7_ES5_IS4_fE1_fffEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIN3c104HalfEZNS0_16prod_kernel_implIS4_fEEvRNS_14TensorIteratorEEUnvhdl0_PFvS7_ES5_IS4_fE1_fffEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1328 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIlZNS0_15sum_kernel_implIllEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IllE1_lllEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIlZNS0_15sum_kernel_implIllEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IllE1_lllEEEEEvT0_
+    16 bytes stack frame, 12 bytes spill stores, 20 bytes spill loads
+ptxas info    : Used 32 registers, 1328 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIlZNS0_16prod_kernel_implIllEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IllE1_lllEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIlZNS0_16prod_kernel_implIllEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IllE1_lllEEEEEvT0_
+    16 bytes stack frame, 12 bytes spill stores, 20 bytes spill loads
+ptxas info    : Used 32 registers, 1328 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIaZNS0_15sum_kernel_implIaaEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IaaE1_aaaEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIaZNS0_15sum_kernel_implIaaEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IaaE1_aaaEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1328 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIaZNS0_16prod_kernel_implIaaEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IaaE1_aaaEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native13reduce_kernelILi512ENS0_8ReduceOpIaZNS0_16prod_kernel_implIaaEEvRNS_14TensorIteratorEEUnvhdl0_PFvS5_ES3_IaaE1_aaaEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1328 bytes cmem[0]

@@ -1,0 +1,148 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVSt9exception[40];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe29DropoutOpIfNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe217DropoutGradientOpIfNS_11CUDAContextEEE[136];
+
+.visible .entry _ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f13DropoutKernelEifPKfPfPb(
+.param .u32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f13DropoutKernelEifPKfPfPb_param_0,
+.param .f32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f13DropoutKernelEifPKfPfPb_param_1,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f13DropoutKernelEifPKfPfPb_param_2,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f13DropoutKernelEifPKfPfPb_param_3,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f13DropoutKernelEifPKfPfPb_param_4
+)
+{
+.reg .pred %p<4>;
+.reg .b16 %rs<2>;
+.reg .f32 %f<7>;
+.reg .b32 %r<7>;
+.reg .f64 %fd<5>;
+.reg .b64 %rd<17>;
+
+
+ld.param.f32 %f2, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f13DropoutKernelEifPKfPfPb_param_1];
+ld.param.u64 %rd9, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f13DropoutKernelEifPKfPfPb_param_2];
+ld.param.u64 %rd10, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f13DropoutKernelEifPKfPfPb_param_3];
+ld.param.u64 %rd11, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f13DropoutKernelEifPKfPfPb_param_4];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd16, %r4;
+ld.param.s32 %rd2, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f13DropoutKernelEifPKfPfPb_param_0];
+setp.ge.u64	%p1, %rd16, %rd2;
+@%p1 bra BB0_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd11;
+cvta.to.global.u64 %rd5, %rd10;
+cvt.f64.f32	%fd1, %f2;
+mov.f64 %fd2, 0d3FF0000000000000;
+sub.f64 %fd3, %fd2, %fd1;
+rcp.rn.f64 %fd4, %fd3;
+cvt.rn.f32.f64	%f1, %fd4;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd6, %r6;
+
+BB0_2:
+shl.b64 %rd12, %rd16, 2;
+add.s64 %rd13, %rd5, %rd12;
+ld.global.f32 %f3, [%rd13];
+setp.gt.f32	%p2, %f3, %f2;
+selp.u16	%rs1, 1, 0, %p2;
+add.s64 %rd14, %rd4, %rd16;
+st.global.u8 [%rd14], %rs1;
+add.s64 %rd15, %rd3, %rd12;
+ld.global.f32 %f4, [%rd15];
+mul.f32 %f5, %f1, %f4;
+selp.f32	%f6, %f5, 0f00000000, %p2;
+st.global.f32 [%rd13], %f6;
+add.s64 %rd16, %rd6, %rd16;
+setp.lt.u64	%p3, %rd16, %rd2;
+@%p3 bra BB0_2;
+
+BB0_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f21DropoutGradientKernelEiPKfPKbfPf(
+.param .u32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f21DropoutGradientKernelEiPKfPKbfPf_param_0,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f21DropoutGradientKernelEiPKfPKbfPf_param_1,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f21DropoutGradientKernelEiPKfPKbfPf_param_2,
+.param .f32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f21DropoutGradientKernelEiPKfPKbfPf_param_3,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f21DropoutGradientKernelEiPKfPKbfPf_param_4
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .f32 %f<6>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<17>;
+
+
+ld.param.u64 %rd9, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f21DropoutGradientKernelEiPKfPKbfPf_param_1];
+ld.param.u64 %rd10, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f21DropoutGradientKernelEiPKfPKbfPf_param_2];
+ld.param.f32 %f1, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f21DropoutGradientKernelEiPKfPKbfPf_param_3];
+ld.param.u64 %rd11, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f21DropoutGradientKernelEiPKfPKbfPf_param_4];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd16, %r4;
+ld.param.s32 %rd2, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f21DropoutGradientKernelEiPKfPKbfPf_param_0];
+setp.ge.u64	%p1, %rd16, %rd2;
+@%p1 bra BB1_3;
+
+cvta.to.global.u64 %rd3, %rd11;
+cvta.to.global.u64 %rd4, %rd10;
+cvta.to.global.u64 %rd5, %rd9;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd6, %r6;
+
+BB1_2:
+add.s64 %rd12, %rd4, %rd16;
+ld.global.s8 %rs1, [%rd12];
+cvt.rn.f32.s16	%f2, %rs1;
+shl.b64 %rd13, %rd16, 2;
+add.s64 %rd14, %rd5, %rd13;
+ld.global.f32 %f3, [%rd14];
+mul.f32 %f4, %f3, %f2;
+mul.f32 %f5, %f4, %f1;
+add.s64 %rd15, %rd3, %rd13;
+st.global.f32 [%rd15], %f5;
+add.s64 %rd16, %rd6, %rd16;
+setp.lt.u64	%p2, %rd16, %rd2;
+@%p2 bra BB1_2;
+
+BB1_3:
+ret;
+}
+
+

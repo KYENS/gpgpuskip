@@ -1,0 +1,37 @@
+ptxas info    : 161 bytes gmem
+ptxas info    : Compiling entry function '_Z56cunn_VolumetricAdaptiveMaxPooling_updateGradInput_kernelIfEvPT_S1_Pliiiiiil' for 'sm_61'
+ptxas info    : Function properties for _Z56cunn_VolumetricAdaptiveMaxPooling_updateGradInput_kernelIfEvPT_S1_Pliiiiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z63cunn_atomic_VolumetricAdaptiveMaxPooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_Pliiiiiil' for 'sm_61'
+ptxas info    : Function properties for _Z63cunn_atomic_VolumetricAdaptiveMaxPooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_Pliiiiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z63cunn_atomic_VolumetricAdaptiveMaxPooling_updateGradInput_kernelIdEvPT_S1_Pliiiiiil' for 'sm_61'
+ptxas info    : Function properties for _Z63cunn_atomic_VolumetricAdaptiveMaxPooling_updateGradInput_kernelIdEvPT_S1_Pliiiiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z53cunn_VolumetricAdaptiveMaxPooling_updateOutput_kernelIfEvPT_S1_Pliiiiiilllll' for 'sm_61'
+ptxas info    : Function properties for _Z53cunn_VolumetricAdaptiveMaxPooling_updateOutput_kernelIfEvPT_S1_Pliiiiiilllll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 408 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z53cunn_VolumetricAdaptiveMaxPooling_updateOutput_kernelIdEvPT_S1_Pliiiiiilllll' for 'sm_61'
+ptxas info    : Function properties for _Z53cunn_VolumetricAdaptiveMaxPooling_updateOutput_kernelIdEvPT_S1_Pliiiiiilllll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 408 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z56cunn_VolumetricAdaptiveMaxPooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_Pliiiiiil' for 'sm_61'
+ptxas info    : Function properties for _Z56cunn_VolumetricAdaptiveMaxPooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_Pliiiiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z63cunn_atomic_VolumetricAdaptiveMaxPooling_updateGradInput_kernelIfEvPT_S1_Pliiiiiil' for 'sm_61'
+ptxas info    : Function properties for _Z63cunn_atomic_VolumetricAdaptiveMaxPooling_updateGradInput_kernelIfEvPT_S1_Pliiiiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z53cunn_VolumetricAdaptiveMaxPooling_updateOutput_kernelIN3c104HalfEEvPT_S3_Pliiiiiilllll' for 'sm_61'
+ptxas info    : Function properties for _Z53cunn_VolumetricAdaptiveMaxPooling_updateOutput_kernelIN3c104HalfEEvPT_S3_Pliiiiiilllll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 408 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z56cunn_VolumetricAdaptiveMaxPooling_updateGradInput_kernelIdEvPT_S1_Pliiiiiil' for 'sm_61'
+ptxas info    : Function properties for _Z56cunn_VolumetricAdaptiveMaxPooling_updateGradInput_kernelIdEvPT_S1_Pliiiiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 376 bytes cmem[0]

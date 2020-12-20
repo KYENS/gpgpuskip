@@ -1,0 +1,257 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z23batch_trsm_right_kernelIfLi64ELi4ELi3ELb0ELb1ELb1EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z23batch_trsm_right_kernelIfLi64ELi4ELi3ELb0ELb1ELb1EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, 2432 bytes smem, 388 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z29trsm_batch_right_upper_kernelI7double2Ev21cublasTrsmBatchParamsIT_EPPKS2_PPS2_S5_S2_' for 'sm_50'
+ptxas info    : Function properties for _Z29trsm_batch_right_upper_kernelI7double2Ev21cublasTrsmBatchParamsIT_EPPKS2_PPS2_S5_S2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 400 bytes cmem[0], 28 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z20laswp_kernel_reverseI6float2Lb1EEviPPT_iiiPKiiii' for 'sm_50'
+ptxas info    : Function properties for _Z20laswp_kernel_reverseI6float2Lb1EEviPPT_iiiPKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20laswp_kernel_reverseI6float2Lb0EEviPPT_iiiPKiiii' for 'sm_50'
+ptxas info    : Function properties for _Z20laswp_kernel_reverseI6float2Lb0EEviPPT_iiiPKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z22batch_trsm_left_kernelIdLi64ELi4ELi3ELb0ELb0ELb1EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z22batch_trsm_left_kernelIdLi64ELi4ELi3ELb0ELb0ELb1EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 4864 bytes smem, 388 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z23batch_trsm_right_kernelI7double2Li64ELi4ELi3ELb0ELb0ELb1EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i' for 'sm_50'
+ptxas info    : Function properties for _Z23batch_trsm_right_kernelI7double2Li64ELi4ELi3ELb0ELb0ELb1EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 54 registers, 9728 bytes smem, 396 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z28trsm_batch_left_upper_kernelIfEv21cublasTrsmBatchParamsIT_EPPKS1_PPS1_S4_S1_' for 'sm_50'
+ptxas info    : Function properties for _Z28trsm_batch_left_upper_kernelIfEv21cublasTrsmBatchParamsIT_EPPKS1_PPS1_S4_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 388 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z22batch_trsm_left_kernelI6float2Li64ELi4ELi3ELb0ELb1ELb1EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i' for 'sm_50'
+ptxas info    : Function properties for _Z22batch_trsm_left_kernelI6float2Li64ELi4ELi3ELb0ELb1ELb1EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 4864 bytes smem, 388 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z22batch_trsm_left_kernelIfLi64ELi4ELi3ELb0ELb1ELb1EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z22batch_trsm_left_kernelIfLi64ELi4ELi3ELb0ELb1ELb1EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i
+    8 bytes stack frame, 4 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 2432 bytes smem, 388 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z23batch_trsm_right_kernelI6float2Li64ELi4ELi3ELb0ELb1ELb1EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i' for 'sm_50'
+ptxas info    : Function properties for _Z23batch_trsm_right_kernelI6float2Li64ELi4ELi3ELb0ELb1ELb1EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 4864 bytes smem, 388 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z20laswp_kernel_reverseIfLb1EEviPPT_iiiPKiiii' for 'sm_50'
+ptxas info    : Function properties for _Z20laswp_kernel_reverseIfLb1EEviPPT_iiiPKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z23batch_trsm_right_kernelIdLi64ELi4ELi3ELb0ELb0ELb1EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z23batch_trsm_right_kernelIdLi64ELi4ELi3ELb0ELb0ELb1EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i
+    8 bytes stack frame, 4 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 4864 bytes smem, 388 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z29trsm_batch_right_upper_kernelIdEv21cublasTrsmBatchParamsIT_EPPKS1_PPS1_S4_S1_' for 'sm_50'
+ptxas info    : Function properties for _Z29trsm_batch_right_upper_kernelIdEv21cublasTrsmBatchParamsIT_EPPKS1_PPS1_S4_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 392 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z22batch_trsm_left_kernelI7double2Li64ELi4ELi3ELb0ELb0ELb1EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i' for 'sm_50'
+ptxas info    : Function properties for _Z22batch_trsm_left_kernelI7double2Li64ELi4ELi3ELb0ELb0ELb1EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 9728 bytes smem, 396 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z20laswp_kernel_reverseIfLb0EEviPPT_iiiPKiiii' for 'sm_50'
+ptxas info    : Function properties for _Z20laswp_kernel_reverseIfLb0EEviPPT_iiiPKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z28trsm_batch_left_upper_kernelI6float2Ev21cublasTrsmBatchParamsIT_EPPKS2_PPS2_S5_S2_' for 'sm_50'
+ptxas info    : Function properties for _Z28trsm_batch_left_upper_kernelI6float2Ev21cublasTrsmBatchParamsIT_EPPKS2_PPS2_S5_S2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 392 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z20laswp_kernel_reverseIdLb0EEviPPT_iiiPKiiii' for 'sm_50'
+ptxas info    : Function properties for _Z20laswp_kernel_reverseIdLb0EEviPPT_iiiPKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z28trsm_batch_left_upper_kernelI7double2Ev21cublasTrsmBatchParamsIT_EPPKS2_PPS2_S5_S2_' for 'sm_50'
+ptxas info    : Function properties for _Z28trsm_batch_left_upper_kernelI7double2Ev21cublasTrsmBatchParamsIT_EPPKS2_PPS2_S5_S2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 400 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z20laswp_kernel_reverseI7double2Lb1EEviPPT_iiiPKiiii' for 'sm_50'
+ptxas info    : Function properties for _Z20laswp_kernel_reverseI7double2Lb1EEviPPT_iiiPKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29trsm_batch_right_upper_kernelI6float2Ev21cublasTrsmBatchParamsIT_EPPKS2_PPS2_S5_S2_' for 'sm_50'
+ptxas info    : Function properties for _Z29trsm_batch_right_upper_kernelI6float2Ev21cublasTrsmBatchParamsIT_EPPKS2_PPS2_S5_S2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 392 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z22batch_trsm_left_kernelIdLi64ELi4ELi3ELb0ELb1ELb1EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z22batch_trsm_left_kernelIdLi64ELi4ELi3ELb0ELb1ELb1EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 4864 bytes smem, 388 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z23batch_trsm_right_kernelI7double2Li64ELi4ELi3ELb0ELb1ELb1EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i' for 'sm_50'
+ptxas info    : Function properties for _Z23batch_trsm_right_kernelI7double2Li64ELi4ELi3ELb0ELb1ELb1EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 9728 bytes smem, 396 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z22batch_trsm_left_kernelIfLi64ELi4ELi3ELb0ELb0ELb1EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z22batch_trsm_left_kernelIfLi64ELi4ELi3ELb0ELb0ELb1EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 2432 bytes smem, 388 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z23batch_trsm_right_kernelI6float2Li64ELi4ELi3ELb0ELb0ELb1EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i' for 'sm_50'
+ptxas info    : Function properties for _Z23batch_trsm_right_kernelI6float2Li64ELi4ELi3ELb0ELb0ELb1EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 4864 bytes smem, 388 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z23batch_trsm_right_kernelIfLi64ELi4ELi3ELb0ELb0ELb1EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z23batch_trsm_right_kernelIfLi64ELi4ELi3ELb0ELb0ELb1EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i
+    8 bytes stack frame, 4 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 2432 bytes smem, 388 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z20laswp_kernel_reverseI7double2Lb0EEviPPT_iiiPKiiii' for 'sm_50'
+ptxas info    : Function properties for _Z20laswp_kernel_reverseI7double2Lb0EEviPPT_iiiPKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20laswp_kernel_reverseIdLb1EEviPPT_iiiPKiiii' for 'sm_50'
+ptxas info    : Function properties for _Z20laswp_kernel_reverseIdLb1EEviPPT_iiiPKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z23batch_trsm_right_kernelIdLi64ELi4ELi3ELb0ELb1ELb1EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z23batch_trsm_right_kernelIdLi64ELi4ELi3ELb0ELb1ELb1EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 4864 bytes smem, 388 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z28trsm_batch_left_upper_kernelIdEv21cublasTrsmBatchParamsIT_EPPKS1_PPS1_S4_S1_' for 'sm_50'
+ptxas info    : Function properties for _Z28trsm_batch_left_upper_kernelIdEv21cublasTrsmBatchParamsIT_EPPKS1_PPS1_S4_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 392 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z22batch_trsm_left_kernelI7double2Li64ELi4ELi3ELb0ELb1ELb1EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i' for 'sm_50'
+ptxas info    : Function properties for _Z22batch_trsm_left_kernelI7double2Li64ELi4ELi3ELb0ELb1ELb1EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 54 registers, 9728 bytes smem, 396 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z29trsm_batch_right_upper_kernelIfEv21cublasTrsmBatchParamsIT_EPPKS1_PPS1_S4_S1_' for 'sm_50'
+ptxas info    : Function properties for _Z29trsm_batch_right_upper_kernelIfEv21cublasTrsmBatchParamsIT_EPPKS1_PPS1_S4_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 388 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z22batch_trsm_left_kernelI6float2Li64ELi4ELi3ELb0ELb0ELb1EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i' for 'sm_50'
+ptxas info    : Function properties for _Z22batch_trsm_left_kernelI6float2Li64ELi4ELi3ELb0ELb0ELb1EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, 4864 bytes smem, 388 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z23batch_trsm_right_kernelIfLi64ELi4ELi3ELb0ELb1ELb0EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z23batch_trsm_right_kernelIfLi64ELi4ELi3ELb0ELb1ELb0EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i
+    16 bytes stack frame, 12 bytes spill stores, 8 bytes spill loads
+ptxas info    : Used 32 registers, 2432 bytes smem, 388 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z29trsm_batch_right_lower_kernelI7double2Ev21cublasTrsmBatchParamsIT_EPPKS2_PPS2_S5_S2_' for 'sm_50'
+ptxas info    : Function properties for _Z29trsm_batch_right_lower_kernelI7double2Ev21cublasTrsmBatchParamsIT_EPPKS2_PPS2_S5_S2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 44 registers, 400 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12laswp_kernelI6float2Lb1EEviPPT_iiiPKiiii' for 'sm_50'
+ptxas info    : Function properties for _Z12laswp_kernelI6float2Lb1EEviPPT_iiiPKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12laswp_kernelI6float2Lb0EEviPPT_iiiPKiiii' for 'sm_50'
+ptxas info    : Function properties for _Z12laswp_kernelI6float2Lb0EEviPPT_iiiPKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z22batch_trsm_left_kernelIdLi64ELi4ELi3ELb0ELb0ELb0EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z22batch_trsm_left_kernelIdLi64ELi4ELi3ELb0ELb0ELb0EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 4864 bytes smem, 388 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z23batch_trsm_right_kernelI7double2Li64ELi4ELi3ELb0ELb0ELb0EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i' for 'sm_50'
+ptxas info    : Function properties for _Z23batch_trsm_right_kernelI7double2Li64ELi4ELi3ELb0ELb0ELb0EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 54 registers, 9728 bytes smem, 396 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z28trsm_batch_left_lower_kernelIfEv21cublasTrsmBatchParamsIT_EPPKS1_PPS1_S4_S1_' for 'sm_50'
+ptxas info    : Function properties for _Z28trsm_batch_left_lower_kernelIfEv21cublasTrsmBatchParamsIT_EPPKS1_PPS1_S4_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 388 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z22batch_trsm_left_kernelI6float2Li64ELi4ELi3ELb0ELb1ELb0EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i' for 'sm_50'
+ptxas info    : Function properties for _Z22batch_trsm_left_kernelI6float2Li64ELi4ELi3ELb0ELb1ELb0EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 4864 bytes smem, 388 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z22batch_trsm_left_kernelIfLi64ELi4ELi3ELb0ELb1ELb0EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z22batch_trsm_left_kernelIfLi64ELi4ELi3ELb0ELb1ELb0EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, 2432 bytes smem, 388 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z23batch_trsm_right_kernelI6float2Li64ELi4ELi3ELb0ELb1ELb0EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i' for 'sm_50'
+ptxas info    : Function properties for _Z23batch_trsm_right_kernelI6float2Li64ELi4ELi3ELb0ELb1ELb0EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i
+    8 bytes stack frame, 4 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 4864 bytes smem, 388 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12laswp_kernelIfLb1EEviPPT_iiiPKiiii' for 'sm_50'
+ptxas info    : Function properties for _Z12laswp_kernelIfLb1EEviPPT_iiiPKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z23batch_trsm_right_kernelIdLi64ELi4ELi3ELb0ELb0ELb0EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z23batch_trsm_right_kernelIdLi64ELi4ELi3ELb0ELb0ELb0EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 4864 bytes smem, 388 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z29trsm_batch_right_lower_kernelIdEv21cublasTrsmBatchParamsIT_EPPKS1_PPS1_S4_S1_' for 'sm_50'
+ptxas info    : Function properties for _Z29trsm_batch_right_lower_kernelIdEv21cublasTrsmBatchParamsIT_EPPKS1_PPS1_S4_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 392 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z22batch_trsm_left_kernelI7double2Li64ELi4ELi3ELb0ELb0ELb0EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i' for 'sm_50'
+ptxas info    : Function properties for _Z22batch_trsm_left_kernelI7double2Li64ELi4ELi3ELb0ELb0ELb0EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 9728 bytes smem, 396 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12laswp_kernelIfLb0EEviPPT_iiiPKiiii' for 'sm_50'
+ptxas info    : Function properties for _Z12laswp_kernelIfLb0EEviPPT_iiiPKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z28trsm_batch_left_lower_kernelI6float2Ev21cublasTrsmBatchParamsIT_EPPKS2_PPS2_S5_S2_' for 'sm_50'
+ptxas info    : Function properties for _Z28trsm_batch_left_lower_kernelI6float2Ev21cublasTrsmBatchParamsIT_EPPKS2_PPS2_S5_S2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 392 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12laswp_kernelIdLb0EEviPPT_iiiPKiiii' for 'sm_50'
+ptxas info    : Function properties for _Z12laswp_kernelIdLb0EEviPPT_iiiPKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z28trsm_batch_left_lower_kernelI7double2Ev21cublasTrsmBatchParamsIT_EPPKS2_PPS2_S5_S2_' for 'sm_50'
+ptxas info    : Function properties for _Z28trsm_batch_left_lower_kernelI7double2Ev21cublasTrsmBatchParamsIT_EPPKS2_PPS2_S5_S2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 400 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12laswp_kernelI7double2Lb1EEviPPT_iiiPKiiii' for 'sm_50'
+ptxas info    : Function properties for _Z12laswp_kernelI7double2Lb1EEviPPT_iiiPKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29trsm_batch_right_lower_kernelI6float2Ev21cublasTrsmBatchParamsIT_EPPKS2_PPS2_S5_S2_' for 'sm_50'
+ptxas info    : Function properties for _Z29trsm_batch_right_lower_kernelI6float2Ev21cublasTrsmBatchParamsIT_EPPKS2_PPS2_S5_S2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 392 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z22batch_trsm_left_kernelIdLi64ELi4ELi3ELb0ELb1ELb0EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z22batch_trsm_left_kernelIdLi64ELi4ELi3ELb0ELb1ELb0EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 45 registers, 4864 bytes smem, 388 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z23batch_trsm_right_kernelI7double2Li64ELi4ELi3ELb0ELb1ELb0EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i' for 'sm_50'
+ptxas info    : Function properties for _Z23batch_trsm_right_kernelI7double2Li64ELi4ELi3ELb0ELb1ELb0EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 9728 bytes smem, 396 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z22batch_trsm_left_kernelIfLi64ELi4ELi3ELb0ELb0ELb0EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z22batch_trsm_left_kernelIfLi64ELi4ELi3ELb0ELb0ELb0EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 2432 bytes smem, 388 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z23batch_trsm_right_kernelI6float2Li64ELi4ELi3ELb0ELb0ELb0EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i' for 'sm_50'
+ptxas info    : Function properties for _Z23batch_trsm_right_kernelI6float2Li64ELi4ELi3ELb0ELb0ELb0EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 4864 bytes smem, 388 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z23batch_trsm_right_kernelIfLi64ELi4ELi3ELb0ELb0ELb0EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z23batch_trsm_right_kernelIfLi64ELi4ELi3ELb0ELb0ELb0EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, 2432 bytes smem, 388 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12laswp_kernelI7double2Lb0EEviPPT_iiiPKiiii' for 'sm_50'
+ptxas info    : Function properties for _Z12laswp_kernelI7double2Lb0EEviPPT_iiiPKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12laswp_kernelIdLb1EEviPPT_iiiPKiiii' for 'sm_50'
+ptxas info    : Function properties for _Z12laswp_kernelIdLb1EEviPPT_iiiPKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z23batch_trsm_right_kernelIdLi64ELi4ELi3ELb0ELb1ELb0EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z23batch_trsm_right_kernelIdLi64ELi4ELi3ELb0ELb1ELb0EEv22cublasTrsmBatchParams2IT_ES1_PKS1_i
+    16 bytes stack frame, 4 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 4864 bytes smem, 388 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z28trsm_batch_left_lower_kernelIdEv21cublasTrsmBatchParamsIT_EPPKS1_PPS1_S4_S1_' for 'sm_50'
+ptxas info    : Function properties for _Z28trsm_batch_left_lower_kernelIdEv21cublasTrsmBatchParamsIT_EPPKS1_PPS1_S4_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 392 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z22batch_trsm_left_kernelI7double2Li64ELi4ELi3ELb0ELb1ELb0EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i' for 'sm_50'
+ptxas info    : Function properties for _Z22batch_trsm_left_kernelI7double2Li64ELi4ELi3ELb0ELb1ELb0EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 54 registers, 9728 bytes smem, 396 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z29trsm_batch_right_lower_kernelIfEv21cublasTrsmBatchParamsIT_EPPKS1_PPS1_S4_S1_' for 'sm_50'
+ptxas info    : Function properties for _Z29trsm_batch_right_lower_kernelIfEv21cublasTrsmBatchParamsIT_EPPKS1_PPS1_S4_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 388 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z22batch_trsm_left_kernelI6float2Li64ELi4ELi3ELb0ELb0ELb0EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i' for 'sm_50'
+ptxas info    : Function properties for _Z22batch_trsm_left_kernelI6float2Li64ELi4ELi3ELb0ELb0ELb0EEv22cublasTrsmBatchParams2IT_ES2_PKS2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 4864 bytes smem, 388 bytes cmem[0], 12 bytes cmem[2]

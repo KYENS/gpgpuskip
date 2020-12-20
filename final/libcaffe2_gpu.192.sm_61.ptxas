@@ -1,0 +1,9 @@
+ptxas info    : 904 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe273_GLOBAL__N__49_tmpxft_00005d45_00000000_7_half_float_ops_cpp1_ii_ed0f140117HalfToFloatKernelEiPK6__halfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe273_GLOBAL__N__49_tmpxft_00005d45_00000000_7_half_float_ops_cpp1_ii_ed0f140117HalfToFloatKernelEiPK6__halfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe273_GLOBAL__N__49_tmpxft_00005d45_00000000_7_half_float_ops_cpp1_ii_ed0f140117FloatToHalfKernelEiPKfP6__half' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe273_GLOBAL__N__49_tmpxft_00005d45_00000000_7_half_float_ops_cpp1_ii_ed0f140117FloatToHalfKernelEiPKfP6__half
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]

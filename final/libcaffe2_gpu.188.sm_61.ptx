@@ -1,0 +1,468 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe28FillerOpINS_11CUDAContextEEE[144];
+.global .align 8 .b8 _ZTVN6caffe211RangeFillOpIfNS_11CUDAContextEEE[144];
+.global .align 8 .b8 _ZTVN6caffe213UniformFillOpIfNS_11CUDAContextEEE[144];
+.global .align 8 .b8 _ZTVN6caffe213UniformFillOpIiNS_11CUDAContextEEE[144];
+.global .align 8 .b8 _ZTVN6caffe214ConstantFillOpINS_11CUDAContextEEE[144];
+.global .align 8 .b8 _ZTVN6caffe214DiagonalFillOpINS_11CUDAContextEEE[144];
+.global .align 8 .b8 _ZTVN6caffe214GaussianFillOpIfNS_11CUDAContextEEE[144];
+.global .align 8 .b8 _ZTVN6caffe212XavierFillOpIfNS_11CUDAContextEEE[144];
+.global .align 8 .b8 _ZTVN6caffe210MSRAFillOpIfNS_11CUDAContextEEE[144];
+.global .align 8 .b8 _ZTVN6caffe215GPUFallbackOpExINS_11SkipIndicesIJEEEEE[136];
+
+.visible .entry _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f15FillRangeKernelEiPf(
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f15FillRangeKernelEiPf_param_0,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f15FillRangeKernelEiPf_param_1
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<11>;
+
+
+ld.param.u64 %rd7, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f15FillRangeKernelEiPf_param_1];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd10, %r4;
+ld.param.s32 %rd2, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f15FillRangeKernelEiPf_param_0];
+setp.ge.u64	%p1, %rd10, %rd2;
+@%p1 bra BB0_3;
+
+cvta.to.global.u64 %rd3, %rd7;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd4, %r6;
+
+BB0_2:
+shl.b64 %rd8, %rd10, 2;
+add.s64 %rd9, %rd3, %rd8;
+cvt.rn.f32.u64	%f1, %rd10;
+st.global.f32 [%rd9], %f1;
+add.s64 %rd10, %rd4, %rd10;
+setp.lt.u64	%p2, %rd10, %rd2;
+@%p2 bra BB0_2;
+
+BB0_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIfEEvilT_PS2_(
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIfEEvilT_PS2__param_0,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIfEEvilT_PS2__param_1,
+.param .f32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIfEEvilT_PS2__param_2,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIfEEvilT_PS2__param_3
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<13>;
+
+
+ld.param.u64 %rd7, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIfEEvilT_PS2__param_1];
+ld.param.f32 %f1, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIfEEvilT_PS2__param_2];
+ld.param.u64 %rd8, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIfEEvilT_PS2__param_3];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd12, %r4;
+ld.param.s32 %rd2, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIfEEvilT_PS2__param_0];
+setp.ge.u64	%p1, %rd12, %rd2;
+@%p1 bra BB1_3;
+
+cvta.to.global.u64 %rd3, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd4, %r6;
+
+BB1_2:
+mul.lo.s64 %rd9, %rd12, %rd7;
+shl.b64 %rd10, %rd9, 2;
+add.s64 %rd11, %rd3, %rd10;
+st.global.f32 [%rd11], %f1;
+add.s64 %rd12, %rd4, %rd12;
+setp.lt.u64	%p2, %rd12, %rd2;
+@%p2 bra BB1_2;
+
+BB1_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIdEEvilT_PS2_(
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIdEEvilT_PS2__param_0,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIdEEvilT_PS2__param_1,
+.param .f64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIdEEvilT_PS2__param_2,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIdEEvilT_PS2__param_3
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<7>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<13>;
+
+
+ld.param.u64 %rd7, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIdEEvilT_PS2__param_1];
+ld.param.f64 %fd1, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIdEEvilT_PS2__param_2];
+ld.param.u64 %rd8, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIdEEvilT_PS2__param_3];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd12, %r4;
+ld.param.s32 %rd2, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIdEEvilT_PS2__param_0];
+setp.ge.u64	%p1, %rd12, %rd2;
+@%p1 bra BB2_3;
+
+cvta.to.global.u64 %rd3, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd4, %r6;
+
+BB2_2:
+mul.lo.s64 %rd9, %rd12, %rd7;
+shl.b64 %rd10, %rd9, 3;
+add.s64 %rd11, %rd3, %rd10;
+st.global.f64 [%rd11], %fd1;
+add.s64 %rd12, %rd4, %rd12;
+setp.lt.u64	%p2, %rd12, %rd2;
+@%p2 bra BB2_2;
+
+BB2_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIbEEvilT_PS2_(
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIbEEvilT_PS2__param_0,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIbEEvilT_PS2__param_1,
+.param .u8 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIbEEvilT_PS2__param_2,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIbEEvilT_PS2__param_3
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<12>;
+
+
+ld.param.u64 %rd7, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIbEEvilT_PS2__param_1];
+ld.param.u64 %rd8, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIbEEvilT_PS2__param_3];
+ld.param.s8 %rs1, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIbEEvilT_PS2__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd11, %r4;
+ld.param.s32 %rd2, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIbEEvilT_PS2__param_0];
+setp.ge.u64	%p1, %rd11, %rd2;
+@%p1 bra BB3_3;
+
+cvta.to.global.u64 %rd3, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd4, %r6;
+
+BB3_2:
+mul.lo.s64 %rd9, %rd11, %rd7;
+add.s64 %rd10, %rd3, %rd9;
+st.global.u8 [%rd10], %rs1;
+add.s64 %rd11, %rd4, %rd11;
+setp.lt.u64	%p2, %rd11, %rd2;
+@%p2 bra BB3_2;
+
+BB3_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIaEEvilT_PS2_(
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIaEEvilT_PS2__param_0,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIaEEvilT_PS2__param_1,
+.param .u8 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIaEEvilT_PS2__param_2,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIaEEvilT_PS2__param_3
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<12>;
+
+
+ld.param.u64 %rd7, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIaEEvilT_PS2__param_1];
+ld.param.u64 %rd8, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIaEEvilT_PS2__param_3];
+ld.param.s8 %rs1, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIaEEvilT_PS2__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd11, %r4;
+ld.param.s32 %rd2, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIaEEvilT_PS2__param_0];
+setp.ge.u64	%p1, %rd11, %rd2;
+@%p1 bra BB4_3;
+
+cvta.to.global.u64 %rd3, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd4, %r6;
+
+BB4_2:
+mul.lo.s64 %rd9, %rd11, %rd7;
+add.s64 %rd10, %rd3, %rd9;
+st.global.u8 [%rd10], %rs1;
+add.s64 %rd11, %rd4, %rd11;
+setp.lt.u64	%p2, %rd11, %rd2;
+@%p2 bra BB4_2;
+
+BB4_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIsEEvilT_PS2_(
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIsEEvilT_PS2__param_0,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIsEEvilT_PS2__param_1,
+.param .u16 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIsEEvilT_PS2__param_2,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIsEEvilT_PS2__param_3
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<13>;
+
+
+ld.param.u64 %rd7, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIsEEvilT_PS2__param_1];
+ld.param.u16 %rs1, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIsEEvilT_PS2__param_2];
+ld.param.u64 %rd8, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIsEEvilT_PS2__param_3];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd12, %r4;
+ld.param.s32 %rd2, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIsEEvilT_PS2__param_0];
+setp.ge.u64	%p1, %rd12, %rd2;
+@%p1 bra BB5_3;
+
+cvta.to.global.u64 %rd3, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd4, %r6;
+
+BB5_2:
+mul.lo.s64 %rd9, %rd12, %rd7;
+shl.b64 %rd10, %rd9, 1;
+add.s64 %rd11, %rd3, %rd10;
+st.global.u16 [%rd11], %rs1;
+add.s64 %rd12, %rd4, %rd12;
+setp.lt.u64	%p2, %rd12, %rd2;
+@%p2 bra BB5_2;
+
+BB5_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIiEEvilT_PS2_(
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIiEEvilT_PS2__param_0,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIiEEvilT_PS2__param_1,
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIiEEvilT_PS2__param_2,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIiEEvilT_PS2__param_3
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<13>;
+
+
+ld.param.u64 %rd7, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIiEEvilT_PS2__param_1];
+ld.param.u32 %r2, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIiEEvilT_PS2__param_2];
+ld.param.u64 %rd8, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIiEEvilT_PS2__param_3];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r3, %ctaid.x;
+mov.u32 %r4, %tid.x;
+mad.lo.s32 %r5, %r1, %r3, %r4;
+cvt.u64.u32	%rd12, %r5;
+ld.param.s32 %rd2, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIiEEvilT_PS2__param_0];
+setp.ge.u64	%p1, %rd12, %rd2;
+@%p1 bra BB6_3;
+
+cvta.to.global.u64 %rd3, %rd8;
+mov.u32 %r6, %nctaid.x;
+mul.lo.s32 %r7, %r6, %r1;
+cvt.u64.u32	%rd4, %r7;
+
+BB6_2:
+mul.lo.s64 %rd9, %rd12, %rd7;
+shl.b64 %rd10, %rd9, 2;
+add.s64 %rd11, %rd3, %rd10;
+st.global.u32 [%rd11], %r2;
+add.s64 %rd12, %rd4, %rd12;
+setp.lt.u64	%p2, %rd12, %rd2;
+@%p2 bra BB6_2;
+
+BB6_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIlEEvilT_PS2_(
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIlEEvilT_PS2__param_0,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIlEEvilT_PS2__param_1,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIlEEvilT_PS2__param_2,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIlEEvilT_PS2__param_3
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd7, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIlEEvilT_PS2__param_1];
+ld.param.u64 %rd8, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIlEEvilT_PS2__param_2];
+ld.param.u64 %rd9, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIlEEvilT_PS2__param_3];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIlEEvilT_PS2__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB7_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd4, %r6;
+
+BB7_2:
+mul.lo.s64 %rd10, %rd13, %rd7;
+shl.b64 %rd11, %rd10, 3;
+add.s64 %rd12, %rd3, %rd11;
+st.global.u64 [%rd12], %rd8;
+add.s64 %rd13, %rd4, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB7_2;
+
+BB7_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIhEEvilT_PS2_(
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIhEEvilT_PS2__param_0,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIhEEvilT_PS2__param_1,
+.param .u8 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIhEEvilT_PS2__param_2,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIhEEvilT_PS2__param_3
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<12>;
+
+
+ld.param.u64 %rd7, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIhEEvilT_PS2__param_1];
+ld.param.u64 %rd8, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIhEEvilT_PS2__param_3];
+ld.param.u8 %rs1, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIhEEvilT_PS2__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd11, %r4;
+ld.param.s32 %rd2, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIhEEvilT_PS2__param_0];
+setp.ge.u64	%p1, %rd11, %rd2;
+@%p1 bra BB8_3;
+
+cvta.to.global.u64 %rd3, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd4, %r6;
+
+BB8_2:
+mul.lo.s64 %rd9, %rd11, %rd7;
+add.s64 %rd10, %rd3, %rd9;
+st.global.u8 [%rd10], %rs1;
+add.s64 %rd11, %rd4, %rd11;
+setp.lt.u64	%p2, %rd11, %rd2;
+@%p2 bra BB8_2;
+
+BB8_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelItEEvilT_PS2_(
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelItEEvilT_PS2__param_0,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelItEEvilT_PS2__param_1,
+.param .u16 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelItEEvilT_PS2__param_2,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelItEEvilT_PS2__param_3
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<13>;
+
+
+ld.param.u64 %rd7, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelItEEvilT_PS2__param_1];
+ld.param.u16 %rs1, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelItEEvilT_PS2__param_2];
+ld.param.u64 %rd8, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelItEEvilT_PS2__param_3];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd12, %r4;
+ld.param.s32 %rd2, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelItEEvilT_PS2__param_0];
+setp.ge.u64	%p1, %rd12, %rd2;
+@%p1 bra BB9_3;
+
+cvta.to.global.u64 %rd3, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd4, %r6;
+
+BB9_2:
+mul.lo.s64 %rd9, %rd12, %rd7;
+shl.b64 %rd10, %rd9, 1;
+add.s64 %rd11, %rd3, %rd10;
+st.global.u16 [%rd11], %rs1;
+add.s64 %rd12, %rd4, %rd12;
+setp.lt.u64	%p2, %rd12, %rd2;
+@%p2 bra BB9_2;
+
+BB9_3:
+ret;
+}
+
+

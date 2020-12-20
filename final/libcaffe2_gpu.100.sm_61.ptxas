@@ -1,0 +1,61 @@
+ptxas info    : 1467 bytes gmem
+ptxas info    : Compiling entry function '_Z48cunn_SpatialClassNLLCriterion_sizeAverage_kernelIfEvPT_S1_' for 'sm_61'
+ptxas info    : Function properties for _Z48cunn_SpatialClassNLLCriterion_sizeAverage_kernelIfEvPT_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 336 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z57SpatialClassNLLCriterion_updateGradInput_no_reduce_kernelIN3c104HalfEEvl15THCDeviceTensorIlLi3Ei16DefaultPtrTraitsES2_IT_Li3EiS3_ES2_IS5_Li4EiS3_EPS5_l' for 'sm_61'
+ptxas info    : Function properties for _Z57SpatialClassNLLCriterion_updateGradInput_no_reduce_kernelIN3c104HalfEEvl15THCDeviceTensorIlLi3Ei16DefaultPtrTraitsES2_IT_Li3EiS3_ES2_IS5_Li4EiS3_EPS5_l
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 448 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z49cunn_SpatialClassNLLCriterion_updateOutput_kernelIddEvPT_S1_S1_PlS1_iiiiil' for 'sm_61'
+ptxas info    : Function properties for _Z49cunn_SpatialClassNLLCriterion_updateOutput_kernelIddEvPT_S1_S1_PlS1_iiiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 8192 bytes smem, 392 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z54SpatialClassNLLCriterion_updateOutput_no_reduce_kernelIfEvl15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES0_IlLi3EiS2_ES0_IS1_Li3EiS2_EPS1_l' for 'sm_61'
+ptxas info    : Function properties for _Z54SpatialClassNLLCriterion_updateOutput_no_reduce_kernelIfEvl15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES0_IlLi3EiS2_ES0_IS1_Li3EiS2_EPS1_l
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 33 registers, 448 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z57SpatialClassNLLCriterion_updateGradInput_no_reduce_kernelIdEvl15THCDeviceTensorIlLi3Ei16DefaultPtrTraitsES0_IT_Li3EiS1_ES0_IS3_Li4EiS1_EPS3_l' for 'sm_61'
+ptxas info    : Function properties for _Z57SpatialClassNLLCriterion_updateGradInput_no_reduce_kernelIdEvl15THCDeviceTensorIlLi3Ei16DefaultPtrTraitsES0_IT_Li3EiS1_ES0_IS3_Li4EiS1_EPS3_l
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 448 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z49cunn_SpatialClassNLLCriterion_updateOutput_kernelIN3c104HalfEfEvPT_S3_S3_PlS3_iiiiil' for 'sm_61'
+ptxas info    : Function properties for _Z49cunn_SpatialClassNLLCriterion_updateOutput_kernelIN3c104HalfEfEvPT_S3_S3_PlS3_iiiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 4096 bytes smem, 392 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z52cunn_SpatialClassNLLCriterion_updateGradInput_kernelIfEvPT_S1_PlS1_S1_iiiiil' for 'sm_61'
+ptxas info    : Function properties for _Z52cunn_SpatialClassNLLCriterion_updateGradInput_kernelIfEvPT_S1_PlS1_S1_iiiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 392 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z52cunn_SpatialClassNLLCriterion_updateGradInput_kernelIN3c104HalfEEvPT_S3_PlS3_S3_iiiiil' for 'sm_61'
+ptxas info    : Function properties for _Z52cunn_SpatialClassNLLCriterion_updateGradInput_kernelIN3c104HalfEEvPT_S3_PlS3_S3_iiiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 392 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z48cunn_SpatialClassNLLCriterion_sizeAverage_kernelIdEvPT_S1_' for 'sm_61'
+ptxas info    : Function properties for _Z48cunn_SpatialClassNLLCriterion_sizeAverage_kernelIdEvPT_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 336 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z54SpatialClassNLLCriterion_updateOutput_no_reduce_kernelIN3c104HalfEEvl15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES2_IlLi3EiS4_ES2_IS3_Li3EiS4_EPS3_l' for 'sm_61'
+ptxas info    : Function properties for _Z54SpatialClassNLLCriterion_updateOutput_no_reduce_kernelIN3c104HalfEEvl15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES2_IlLi3EiS4_ES2_IS3_Li3EiS4_EPS3_l
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 448 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z57SpatialClassNLLCriterion_updateGradInput_no_reduce_kernelIfEvl15THCDeviceTensorIlLi3Ei16DefaultPtrTraitsES0_IT_Li3EiS1_ES0_IS3_Li4EiS1_EPS3_l' for 'sm_61'
+ptxas info    : Function properties for _Z57SpatialClassNLLCriterion_updateGradInput_no_reduce_kernelIfEvl15THCDeviceTensorIlLi3Ei16DefaultPtrTraitsES0_IT_Li3EiS1_ES0_IS3_Li4EiS1_EPS3_l
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 33 registers, 448 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z49cunn_SpatialClassNLLCriterion_updateOutput_kernelIffEvPT_S1_S1_PlS1_iiiiil' for 'sm_61'
+ptxas info    : Function properties for _Z49cunn_SpatialClassNLLCriterion_updateOutput_kernelIffEvPT_S1_S1_PlS1_iiiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 4096 bytes smem, 392 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z52cunn_SpatialClassNLLCriterion_updateGradInput_kernelIdEvPT_S1_PlS1_S1_iiiiil' for 'sm_61'
+ptxas info    : Function properties for _Z52cunn_SpatialClassNLLCriterion_updateGradInput_kernelIdEvPT_S1_PlS1_S1_iiiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 392 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z48cunn_SpatialClassNLLCriterion_sizeAverage_kernelIN3c104HalfEEvPT_S3_' for 'sm_61'
+ptxas info    : Function properties for _Z48cunn_SpatialClassNLLCriterion_sizeAverage_kernelIN3c104HalfEEvPT_S3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 336 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z54SpatialClassNLLCriterion_updateOutput_no_reduce_kernelIdEvl15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES0_IlLi3EiS2_ES0_IS1_Li3EiS2_EPS1_l' for 'sm_61'
+ptxas info    : Function properties for _Z54SpatialClassNLLCriterion_updateOutput_no_reduce_kernelIdEvl15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES0_IlLi3EiS2_ES0_IS1_Li3EiS2_EPS1_l
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 33 registers, 448 bytes cmem[0]

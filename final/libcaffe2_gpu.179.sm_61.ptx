@@ -1,0 +1,541 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 1 .b8 _ZN70_INTERNAL_48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab6thrust6system6detail10sequential3seqE[1];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe211LayerNormOpINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe219LayerNormGradientOpINS_11CUDAContextEEE[136];
+
+
+
+.visible .entry _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab37ComputeStdDevAndFusedParamsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_S5_(
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab37ComputeStdDevAndFusedParamsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_S5__param_0,
+.param .f32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab37ComputeStdDevAndFusedParamsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_S5__param_1,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab37ComputeStdDevAndFusedParamsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_S5__param_2,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab37ComputeStdDevAndFusedParamsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_S5__param_3,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab37ComputeStdDevAndFusedParamsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_S5__param_4,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab37ComputeStdDevAndFusedParamsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_S5__param_5,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab37ComputeStdDevAndFusedParamsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_S5__param_6
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<11>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<22>;
+
+
+ld.param.f32 %f1, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab37ComputeStdDevAndFusedParamsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_S5__param_1];
+ld.param.u64 %rd9, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab37ComputeStdDevAndFusedParamsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_S5__param_2];
+ld.param.u64 %rd10, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab37ComputeStdDevAndFusedParamsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_S5__param_3];
+ld.param.u64 %rd11, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab37ComputeStdDevAndFusedParamsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_S5__param_4];
+ld.param.u64 %rd12, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab37ComputeStdDevAndFusedParamsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_S5__param_5];
+ld.param.u64 %rd13, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab37ComputeStdDevAndFusedParamsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_S5__param_6];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd21, %r4;
+ld.param.s32 %rd2, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab37ComputeStdDevAndFusedParamsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_S5__param_0];
+setp.ge.u64	%p1, %rd21, %rd2;
+@%p1 bra BB0_3;
+
+cvta.to.global.u64 %rd3, %rd13;
+cvta.to.global.u64 %rd4, %rd12;
+cvta.to.global.u64 %rd5, %rd11;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd6, %r6;
+
+BB0_2:
+shl.b64 %rd17, %rd21, 2;
+add.s64 %rd15, %rd10, %rd17;
+
+	ld.global.nc.f32 %f2, [%rd15];
+
+	add.f32 %f5, %f2, %f1;
+rsqrt.approx.f32 %f6, %f5;
+
+	ld.global.nc.f32 %f3, [%rd15];
+
+	add.f32 %f7, %f3, %f1;
+mul.f32 %f8, %f6, %f7;
+add.s64 %rd18, %rd5, %rd17;
+st.global.f32 [%rd18], %f8;
+add.s64 %rd19, %rd4, %rd17;
+st.global.f32 [%rd19], %f6;
+add.s64 %rd16, %rd9, %rd17;
+
+	ld.global.nc.f32 %f4, [%rd16];
+
+	mul.f32 %f9, %f6, %f4;
+neg.f32 %f10, %f9;
+add.s64 %rd20, %rd3, %rd17;
+st.global.f32 [%rd20], %f10;
+add.s64 %rd21, %rd6, %rd21;
+setp.lt.u64	%p2, %rd21, %rd2;
+@%p2 bra BB0_2;
+
+BB0_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab26LayerNormForwardCUDAKernelIfEEviiPKT_S4_S4_PS2_(
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab26LayerNormForwardCUDAKernelIfEEviiPKT_S4_S4_PS2__param_0,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab26LayerNormForwardCUDAKernelIfEEviiPKT_S4_S4_PS2__param_1,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab26LayerNormForwardCUDAKernelIfEEviiPKT_S4_S4_PS2__param_2,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab26LayerNormForwardCUDAKernelIfEEviiPKT_S4_S4_PS2__param_3,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab26LayerNormForwardCUDAKernelIfEEviiPKT_S4_S4_PS2__param_4,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab26LayerNormForwardCUDAKernelIfEEviiPKT_S4_S4_PS2__param_5
+)
+{
+.reg .pred %p<5>;
+.reg .f32 %f<7>;
+.reg .b32 %r<15>;
+.reg .b64 %rd<12>;
+
+
+ld.param.u32 %r10, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab26LayerNormForwardCUDAKernelIfEEviiPKT_S4_S4_PS2__param_0];
+ld.param.u32 %r11, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab26LayerNormForwardCUDAKernelIfEEviiPKT_S4_S4_PS2__param_1];
+ld.param.u64 %rd2, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab26LayerNormForwardCUDAKernelIfEEviiPKT_S4_S4_PS2__param_2];
+ld.param.u64 %rd3, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab26LayerNormForwardCUDAKernelIfEEviiPKT_S4_S4_PS2__param_3];
+ld.param.u64 %rd4, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab26LayerNormForwardCUDAKernelIfEEviiPKT_S4_S4_PS2__param_4];
+ld.param.u64 %rd5, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab26LayerNormForwardCUDAKernelIfEEviiPKT_S4_S4_PS2__param_5];
+mov.u32 %r13, %ctaid.x;
+setp.ge.s32	%p1, %r13, %r10;
+@%p1 bra BB1_6;
+
+cvta.to.global.u64 %rd1, %rd5;
+mov.u32 %r2, %tid.x;
+mov.u32 %r3, %nctaid.x;
+mov.u32 %r4, %ntid.x;
+
+BB1_2:
+mul.wide.s32 %rd8, %r13, 4;
+add.s64 %rd6, %rd3, %rd8;
+
+	ld.global.nc.f32 %f3, [%rd6];
+
+	add.s64 %rd7, %rd4, %rd8;
+
+	ld.global.nc.f32 %f4, [%rd7];
+
+	setp.ge.s32	%p2, %r2, %r11;
+@%p2 bra BB1_5;
+
+mul.lo.s32 %r6, %r13, %r11;
+mov.u32 %r14, %r2;
+
+BB1_4:
+mov.u32 %r7, %r14;
+add.s32 %r12, %r7, %r6;
+mul.wide.s32 %rd10, %r12, 4;
+add.s64 %rd9, %rd2, %rd10;
+
+	ld.global.nc.f32 %f5, [%rd9];
+
+	fma.rn.f32 %f6, %f3, %f5, %f4;
+add.s64 %rd11, %rd1, %rd10;
+st.global.f32 [%rd11], %f6;
+add.s32 %r8, %r4, %r7;
+setp.lt.s32	%p3, %r8, %r11;
+mov.u32 %r14, %r8;
+@%p3 bra BB1_4;
+
+BB1_5:
+add.s32 %r13, %r3, %r13;
+setp.lt.s32	%p4, %r13, %r10;
+@%p4 bra BB1_2;
+
+BB1_6:
+ret;
+}
+
+
+.visible .entry _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5_(
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5__param_0,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5__param_1,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5__param_2,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5__param_3,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5__param_4,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5__param_5
+)
+{
+.reg .pred %p<10>;
+.reg .f32 %f<64>;
+.reg .b32 %r<38>;
+.reg .b64 %rd<21>;
+
+	.shared .align 4 .b8 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5_$__cuda_local_var_221090_64_non_const_ds_storage[24];
+
+	.shared .align 4 .b8 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5_$__cuda_local_var_221091_64_non_const_db_storage[24];
+
+ld.param.u32 %r11, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5__param_0];
+ld.param.u32 %r12, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5__param_1];
+ld.param.u64 %rd4, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5__param_2];
+ld.param.u64 %rd5, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5__param_3];
+ld.param.u64 %rd6, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5__param_4];
+ld.param.u64 %rd7, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5__param_5];
+mov.u32 %r36, %ctaid.x;
+setp.ge.s32	%p3, %r36, %r11;
+@%p3 bra BB2_16;
+
+cvta.to.global.u64 %rd1, %rd7;
+mov.u32 %r2, %tid.x;
+shr.u32 %r13, %r2, 5;
+mul.wide.u32 %rd8, %r13, 4;
+mov.u64 %rd9, _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5_$__cuda_local_var_221090_64_non_const_ds_storage;
+add.s64 %rd10, %rd9, %rd8;
+add.s64 %rd2, %rd10, 4;
+mov.u64 %rd11, _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5_$__cuda_local_var_221091_64_non_const_db_storage;
+add.s64 %rd12, %rd11, %rd8;
+add.s64 %rd3, %rd12, 4;
+mov.u32 %r3, %nctaid.x;
+mov.u32 %r4, %ntid.x;
+
+	mov.u32 %r15, %laneid;
+
+	cvta.to.global.u64 %rd17, %rd6;
+
+BB2_2:
+mov.f32 %f61, 0f00000000;
+mov.f32 %f60, %f61;
+setp.ge.s32	%p4, %r2, %r12;
+@%p4 bra BB2_5;
+
+mul.lo.s32 %r6, %r36, %r12;
+mov.f32 %f61, 0f00000000;
+mov.f32 %f60, %f61;
+mov.u32 %r37, %r2;
+
+BB2_4:
+mov.u32 %r7, %r37;
+add.s32 %r14, %r7, %r6;
+mul.wide.s32 %rd16, %r14, 4;
+add.s64 %rd15, %rd4, %rd16;
+
+	ld.global.nc.f32 %f17, [%rd15];
+
+	add.s64 %rd14, %rd5, %rd16;
+
+	ld.global.nc.f32 %f18, [%rd14];
+
+	fma.rn.f32 %f61, %f17, %f18, %f61;
+
+	ld.global.nc.f32 %f19, [%rd15];
+
+	add.f32 %f60, %f60, %f19;
+add.s32 %r8, %r4, %r7;
+setp.lt.s32	%p5, %r8, %r12;
+mov.u32 %r37, %r8;
+@%p5 bra BB2_4;
+
+BB2_5:
+mov.u32 %r16, 1;
+mov.u32 %r25, 31;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f61, %r16, %r25; @p add.f32 r0, r0, %f61; mov.f32 %f20, r0;}
+
+	mov.u32 %r18, 2;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f20, %r18, %r25; @p add.f32 r0, r0, %f20; mov.f32 %f23, r0;}
+
+	mov.u32 %r20, 4;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f23, %r20, %r25; @p add.f32 r0, r0, %f23; mov.f32 %f26, r0;}
+
+	mov.u32 %r22, 8;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f26, %r22, %r25; @p add.f32 r0, r0, %f26; mov.f32 %f29, r0;}
+
+	mov.u32 %r24, 16;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f29, %r24, %r25; @p add.f32 r0, r0, %f29; mov.f32 %f62, r0;}
+
+	setp.ne.s32	%p6, %r15, 0;
+@%p6 bra BB2_7;
+
+st.shared.f32 [%rd2], %f62;
+
+BB2_7:
+setp.eq.s32	%p1, %r2, 0;
+bar.sync 0;
+@!%p1 bra BB2_9;
+bra.uni BB2_8;
+
+BB2_8:
+ld.shared.f32 %f35, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5_$__cuda_local_var_221090_64_non_const_ds_storage+8];
+add.f32 %f36, %f62, %f35;
+ld.shared.f32 %f37, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5_$__cuda_local_var_221090_64_non_const_ds_storage+12];
+add.f32 %f38, %f37, %f36;
+ld.shared.f32 %f39, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5_$__cuda_local_var_221090_64_non_const_ds_storage+16];
+add.f32 %f62, %f39, %f38;
+
+BB2_9:
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f60, %r16, %r25; @p add.f32 r0, r0, %f60; mov.f32 %f40, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f40, %r18, %r25; @p add.f32 r0, r0, %f40; mov.f32 %f43, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f43, %r20, %r25; @p add.f32 r0, r0, %f43; mov.f32 %f46, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f46, %r22, %r25; @p add.f32 r0, r0, %f46; mov.f32 %f49, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f49, %r24, %r25; @p add.f32 r0, r0, %f49; mov.f32 %f63, r0;}
+
+	@%p6 bra BB2_11;
+
+st.shared.f32 [%rd3], %f63;
+
+BB2_11:
+bar.sync 0;
+@!%p1 bra BB2_13;
+bra.uni BB2_12;
+
+BB2_12:
+ld.shared.f32 %f55, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5_$__cuda_local_var_221091_64_non_const_db_storage+8];
+add.f32 %f56, %f63, %f55;
+ld.shared.f32 %f57, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5_$__cuda_local_var_221091_64_non_const_db_storage+12];
+add.f32 %f58, %f57, %f56;
+ld.shared.f32 %f59, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5_$__cuda_local_var_221091_64_non_const_db_storage+16];
+add.f32 %f63, %f59, %f58;
+
+BB2_13:
+setp.ne.s32	%p8, %r2, 0;
+@%p8 bra BB2_15;
+
+mul.wide.s32 %rd18, %r36, 4;
+add.s64 %rd19, %rd17, %rd18;
+st.global.f32 [%rd19], %f62;
+add.s64 %rd20, %rd1, %rd18;
+st.global.f32 [%rd20], %f63;
+
+BB2_15:
+bar.sync 0;
+add.s32 %r36, %r3, %r36;
+setp.lt.s32	%p9, %r36, %r11;
+@%p9 bra BB2_2;
+
+BB2_16:
+ret;
+}
+
+
+.visible .entry _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5_(
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5__param_0,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5__param_1,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5__param_2,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5__param_3,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5__param_4,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5__param_5,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5__param_6,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5__param_7,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5__param_8
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<21>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<27>;
+
+
+ld.param.u32 %r2, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5__param_1];
+ld.param.u64 %rd9, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5__param_2];
+ld.param.u64 %rd10, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5__param_3];
+ld.param.u64 %rd11, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5__param_4];
+ld.param.u64 %rd12, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5__param_5];
+ld.param.u64 %rd13, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5__param_6];
+ld.param.u64 %rd14, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5__param_7];
+ld.param.u64 %rd15, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5__param_8];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r3, %ctaid.x;
+mov.u32 %r4, %tid.x;
+mad.lo.s32 %r5, %r1, %r3, %r4;
+cvt.u64.u32	%rd26, %r5;
+ld.param.s32 %rd2, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5__param_0];
+setp.ge.u64	%p1, %rd26, %rd2;
+@%p1 bra BB3_3;
+
+cvta.to.global.u64 %rd3, %rd15;
+cvta.to.global.u64 %rd4, %rd14;
+cvta.to.global.u64 %rd5, %rd13;
+cvt.rn.f32.s32	%f2, %r2;
+rcp.rn.f32 %f1, %f2;
+mov.u32 %r6, %nctaid.x;
+mul.lo.s32 %r7, %r6, %r1;
+cvt.u64.u32	%rd6, %r7;
+
+BB3_2:
+shl.b64 %rd22, %rd26, 2;
+add.s64 %rd16, %rd10, %rd22;
+
+	ld.global.nc.f32 %f3, [%rd16];
+
+	rcp.rn.f32 %f9, %f3;
+add.s64 %rd21, %rd12, %rd22;
+
+	ld.global.nc.f32 %f4, [%rd21];
+
+	add.s64 %rd20, %rd9, %rd22;
+
+	ld.global.nc.f32 %f5, [%rd20];
+
+	mul.f32 %f10, %f4, %f5;
+add.s64 %rd19, %rd11, %rd22;
+
+	ld.global.nc.f32 %f6, [%rd19];
+
+	sub.f32 %f11, %f10, %f6;
+mul.f32 %f12, %f9, %f9;
+mul.f32 %f13, %f9, %f12;
+mul.f32 %f14, %f13, %f11;
+mul.f32 %f15, %f1, %f14;
+add.s64 %rd23, %rd5, %rd22;
+st.global.f32 [%rd23], %f9;
+add.s64 %rd24, %rd4, %rd22;
+st.global.f32 [%rd24], %f15;
+
+	ld.global.nc.f32 %f7, [%rd20];
+
+	mul.f32 %f16, %f7, %f15;
+neg.f32 %f17, %f16;
+
+	ld.global.nc.f32 %f8, [%rd21];
+
+	mul.f32 %f18, %f9, %f8;
+mul.f32 %f19, %f1, %f18;
+sub.f32 %f20, %f17, %f19;
+add.s64 %rd25, %rd3, %rd22;
+st.global.f32 [%rd25], %f20;
+add.s64 %rd26, %rd6, %rd26;
+setp.lt.u64	%p2, %rd26, %rd2;
+@%p2 bra BB3_2;
+
+BB3_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2_(
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2__param_0,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2__param_1,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2__param_2,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2__param_3,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2__param_4,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2__param_5,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2__param_6,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2__param_7
+)
+{
+.reg .pred %p<5>;
+.reg .f32 %f<12>;
+.reg .b32 %r<15>;
+.reg .b64 %rd<16>;
+
+
+ld.param.u32 %r10, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2__param_0];
+ld.param.u32 %r11, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2__param_1];
+ld.param.u64 %rd2, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2__param_2];
+ld.param.u64 %rd3, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2__param_3];
+ld.param.u64 %rd4, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2__param_4];
+ld.param.u64 %rd5, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2__param_5];
+ld.param.u64 %rd6, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2__param_6];
+ld.param.u64 %rd7, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2__param_7];
+mov.u32 %r13, %ctaid.x;
+setp.ge.s32	%p1, %r13, %r10;
+@%p1 bra BB4_6;
+
+cvta.to.global.u64 %rd1, %rd7;
+mov.u32 %r2, %tid.x;
+mov.u32 %r3, %nctaid.x;
+mov.u32 %r4, %ntid.x;
+
+BB4_2:
+mul.wide.s32 %rd11, %r13, 4;
+add.s64 %rd8, %rd2, %rd11;
+
+	ld.global.nc.f32 %f4, [%rd8];
+
+	add.s64 %rd9, %rd4, %rd11;
+
+	ld.global.nc.f32 %f5, [%rd9];
+
+	add.s64 %rd10, %rd6, %rd11;
+
+	ld.global.nc.f32 %f6, [%rd10];
+
+	setp.ge.s32	%p2, %r2, %r11;
+@%p2 bra BB4_5;
+
+mul.lo.s32 %r6, %r13, %r11;
+mov.u32 %r14, %r2;
+
+BB4_4:
+mov.u32 %r7, %r14;
+add.s32 %r12, %r7, %r6;
+mul.wide.s32 %rd14, %r12, 4;
+add.s64 %rd12, %rd3, %rd14;
+
+	ld.global.nc.f32 %f7, [%rd12];
+
+	add.s64 %rd13, %rd5, %rd14;
+
+	ld.global.nc.f32 %f8, [%rd13];
+
+	mul.f32 %f9, %f5, %f8;
+fma.rn.f32 %f10, %f4, %f7, %f9;
+add.f32 %f11, %f6, %f10;
+add.s64 %rd15, %rd1, %rd14;
+st.global.f32 [%rd15], %f11;
+add.s32 %r8, %r4, %r7;
+setp.lt.s32	%p3, %r8, %r11;
+mov.u32 %r14, %r8;
+@%p3 bra BB4_4;
+
+BB4_5:
+add.s32 %r13, %r3, %r13;
+setp.lt.s32	%p4, %r13, %r10;
+@%p4 bra BB4_2;
+
+BB4_6:
+ret;
+}
+
+
+.visible .entry _ZN3cub11EmptyKernelIvEEvv(
+
+)
+{
+
+
+
+ret;
+}
+
+

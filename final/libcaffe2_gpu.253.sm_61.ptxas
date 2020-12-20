@@ -1,0 +1,45 @@
+ptxas info    : 1968 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e32SpatialSoftmaxLossGradientKernelEiiiiPKiPKfPfS5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e32SpatialSoftmaxLossGradientKernelEiiiiPKiPKfPfS5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e22ProbCrossEntropyKernelEiiPKfS2_S2_Pf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e22ProbCrossEntropyKernelEiiPKfS2_S2_Pf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 24 bytes smem, 360 bytes cmem[0], 48 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e20SpatialSoftmaxKernelEiiiiPKfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e20SpatialSoftmaxKernelEiiiiPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 352 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e22SoftmaxNormalizeKernelEiiPKfS2_Pf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e22SoftmaxNormalizeKernelEiiPKfS2_Pf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 352 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e30ProbCrossEntropyGradientKernelEiiPKfS2_PfS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e30ProbCrossEntropyGradientKernelEiiPKfS2_PfS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e23LabelCrossEntropyKernelEiiPKfPKiS2_Pf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e23LabelCrossEntropyKernelEiiPKfPKiS2_Pf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e26SoftmaxNormalizeLogsKernelEiiPKfS2_S2_Pf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e26SoftmaxNormalizeLogsKernelEiiPKfS2_S2_Pf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 360 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e29SpatialCrossEntropyLossKernelEiiiiPKfPKiS2_PfS5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e29SpatialCrossEntropyLossKernelEiiiiPKfPKiS2_PfS5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, 376 bytes cmem[0], 48 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e39LabelCrossEntropyGradientKernelWeightedEiiPKfPKiPfS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e39LabelCrossEntropyGradientKernelWeightedEiiPKfPKiPfS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e23softmax_gradient_kernelEiPKfS2_Pf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006abe_00000000_7_softmax_ops_cpp1_ii_3f2b956e23softmax_gradient_kernelEiPKfS2_Pf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 512 bytes smem, 352 bytes cmem[0]

@@ -1,0 +1,17 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z16getrf_kernelWarpIffLb1EEv14cublasLuParamsPPT_' for 'sm_50'
+ptxas info    : Function properties for _Z16getrf_kernelWarpIffLb1EEv14cublasLuParamsPPT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 360 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z16getrf_kernelWarpI6float2fLb1EEv14cublasLuParamsPPT_' for 'sm_50'
+ptxas info    : Function properties for _Z16getrf_kernelWarpI6float2fLb1EEv14cublasLuParamsPPT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 360 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z16getrf_kernelWarpIffLb0EEv14cublasLuParamsPPT_' for 'sm_50'
+ptxas info    : Function properties for _Z16getrf_kernelWarpIffLb0EEv14cublasLuParamsPPT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 360 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z16getrf_kernelWarpI6float2fLb0EEv14cublasLuParamsPPT_' for 'sm_50'
+ptxas info    : Function properties for _Z16getrf_kernelWarpI6float2fLb0EEv14cublasLuParamsPPT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 360 bytes cmem[0], 12 bytes cmem[2]

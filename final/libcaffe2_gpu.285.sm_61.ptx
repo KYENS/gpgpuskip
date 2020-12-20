@@ -1,0 +1,380 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVSt9exception[40];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe216ChannelShuffleOpIfNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe224ChannelShuffleGradientOpIfNS_11CUDAContextEEE[136];
+
+
+
+
+.visible .entry _ZN6caffe224ChannelShuffleNCHWKernelIfLb0EEEviiiPKT_PS1_(
+.param .u32 _ZN6caffe224ChannelShuffleNCHWKernelIfLb0EEEviiiPKT_PS1__param_0,
+.param .u32 _ZN6caffe224ChannelShuffleNCHWKernelIfLb0EEEviiiPKT_PS1__param_1,
+.param .u32 _ZN6caffe224ChannelShuffleNCHWKernelIfLb0EEEviiiPKT_PS1__param_2,
+.param .u64 _ZN6caffe224ChannelShuffleNCHWKernelIfLb0EEEviiiPKT_PS1__param_3,
+.param .u64 _ZN6caffe224ChannelShuffleNCHWKernelIfLb0EEEviiiPKT_PS1__param_4
+)
+{
+.reg .pred %p<2>;
+.reg .f32 %f<2>;
+.reg .b32 %r<19>;
+.reg .b64 %rd<11>;
+
+
+ld.param.u32 %r2, [_ZN6caffe224ChannelShuffleNCHWKernelIfLb0EEEviiiPKT_PS1__param_0];
+ld.param.u32 %r3, [_ZN6caffe224ChannelShuffleNCHWKernelIfLb0EEEviiiPKT_PS1__param_1];
+ld.param.u32 %r4, [_ZN6caffe224ChannelShuffleNCHWKernelIfLb0EEEviiiPKT_PS1__param_2];
+ld.param.u64 %rd1, [_ZN6caffe224ChannelShuffleNCHWKernelIfLb0EEEviiiPKT_PS1__param_3];
+ld.param.u64 %rd2, [_ZN6caffe224ChannelShuffleNCHWKernelIfLb0EEEviiiPKT_PS1__param_4];
+mov.u32 %r5, %ctaid.x;
+shl.b32 %r6, %r5, 7;
+mov.u32 %r7, %tid.x;
+add.s32 %r1, %r7, %r6;
+setp.ge.s32	%p1, %r1, %r4;
+@%p1 bra BB0_2;
+
+mul.lo.s32 %r8, %r3, %r2;
+mov.u32 %r9, %ctaid.z;
+rem.u32 %r10, %r9, %r2;
+div.u32 %r11, %r9, %r2;
+mov.u32 %r12, %ctaid.y;
+mul.lo.s32 %r13, %r8, %r12;
+mad.lo.s32 %r14, %r10, %r3, %r11;
+add.s32 %r15, %r14, %r13;
+mul.lo.s32 %r16, %r15, %r4;
+cvt.s64.s32	%rd4, %r16;
+cvt.s64.s32	%rd5, %r1;
+add.s64 %rd6, %rd4, %rd5;
+shl.b64 %rd7, %rd6, 2;
+add.s64 %rd3, %rd1, %rd7;
+
+	ld.global.nc.f32 %f1, [%rd3];
+
+	add.s32 %r17, %r13, %r9;
+mad.lo.s32 %r18, %r17, %r4, %r1;
+cvta.to.global.u64 %rd8, %rd2;
+mul.wide.u32 %rd9, %r18, 4;
+add.s64 %rd10, %rd8, %rd9;
+st.global.f32 [%rd10], %f1;
+
+BB0_2:
+ret;
+}
+
+
+.visible .entry _ZN6caffe224ChannelShuffleNCHWKernelIfLb1EEEviiiPKT_PS1_(
+.param .u32 _ZN6caffe224ChannelShuffleNCHWKernelIfLb1EEEviiiPKT_PS1__param_0,
+.param .u32 _ZN6caffe224ChannelShuffleNCHWKernelIfLb1EEEviiiPKT_PS1__param_1,
+.param .u32 _ZN6caffe224ChannelShuffleNCHWKernelIfLb1EEEviiiPKT_PS1__param_2,
+.param .u64 _ZN6caffe224ChannelShuffleNCHWKernelIfLb1EEEviiiPKT_PS1__param_3,
+.param .u64 _ZN6caffe224ChannelShuffleNCHWKernelIfLb1EEEviiiPKT_PS1__param_4
+)
+{
+.reg .pred %p<2>;
+.reg .f32 %f<2>;
+.reg .b32 %r<19>;
+.reg .b64 %rd<11>;
+
+
+ld.param.u32 %r2, [_ZN6caffe224ChannelShuffleNCHWKernelIfLb1EEEviiiPKT_PS1__param_0];
+ld.param.u32 %r3, [_ZN6caffe224ChannelShuffleNCHWKernelIfLb1EEEviiiPKT_PS1__param_1];
+ld.param.u32 %r4, [_ZN6caffe224ChannelShuffleNCHWKernelIfLb1EEEviiiPKT_PS1__param_2];
+ld.param.u64 %rd1, [_ZN6caffe224ChannelShuffleNCHWKernelIfLb1EEEviiiPKT_PS1__param_3];
+ld.param.u64 %rd2, [_ZN6caffe224ChannelShuffleNCHWKernelIfLb1EEEviiiPKT_PS1__param_4];
+mov.u32 %r5, %ctaid.y;
+shl.b32 %r6, %r5, 7;
+mov.u32 %r7, %tid.x;
+add.s32 %r1, %r7, %r6;
+setp.ge.s32	%p1, %r1, %r4;
+@%p1 bra BB1_2;
+
+mul.lo.s32 %r8, %r3, %r2;
+mov.u32 %r9, %ctaid.z;
+rem.u32 %r10, %r9, %r2;
+div.u32 %r11, %r9, %r2;
+mov.u32 %r12, %ctaid.x;
+mul.lo.s32 %r13, %r8, %r12;
+mad.lo.s32 %r14, %r10, %r3, %r11;
+add.s32 %r15, %r14, %r13;
+mul.lo.s32 %r16, %r15, %r4;
+cvt.s64.s32	%rd4, %r16;
+cvt.s64.s32	%rd5, %r1;
+add.s64 %rd6, %rd4, %rd5;
+shl.b64 %rd7, %rd6, 2;
+add.s64 %rd3, %rd1, %rd7;
+
+	ld.global.nc.f32 %f1, [%rd3];
+
+	add.s32 %r17, %r13, %r9;
+mad.lo.s32 %r18, %r17, %r4, %r1;
+cvta.to.global.u64 %rd8, %rd2;
+mul.wide.u32 %rd9, %r18, 4;
+add.s64 %rd10, %rd8, %rd9;
+st.global.f32 [%rd10], %f1;
+
+BB1_2:
+ret;
+}
+
+
+.visible .entry _ZN6caffe224ChannelShuffleNHWCKernelIfLi32EEEviiPKfPf(
+.param .u32 _ZN6caffe224ChannelShuffleNHWCKernelIfLi32EEEviiPKfPf_param_0,
+.param .u32 _ZN6caffe224ChannelShuffleNHWCKernelIfLi32EEEviiPKfPf_param_1,
+.param .u64 _ZN6caffe224ChannelShuffleNHWCKernelIfLi32EEEviiPKfPf_param_2,
+.param .u64 _ZN6caffe224ChannelShuffleNHWCKernelIfLi32EEEviiPKfPf_param_3
+)
+{
+.reg .pred %p<5>;
+.reg .f32 %f<3>;
+.reg .b32 %r<20>;
+.reg .b64 %rd<17>;
+
+	.shared .align 4 .b8 _ZN6caffe224ChannelShuffleNHWCKernelIfLi32EEEviiPKfPf$__cuda_local_var_193095_29_non_const_sdata[128];
+
+ld.param.u32 %r10, [_ZN6caffe224ChannelShuffleNHWCKernelIfLi32EEEviiPKfPf_param_0];
+ld.param.u32 %r11, [_ZN6caffe224ChannelShuffleNHWCKernelIfLi32EEEviiPKfPf_param_1];
+ld.param.u64 %rd3, [_ZN6caffe224ChannelShuffleNHWCKernelIfLi32EEEviiPKfPf_param_2];
+ld.param.u64 %rd4, [_ZN6caffe224ChannelShuffleNHWCKernelIfLi32EEEviiPKfPf_param_3];
+mov.u32 %r12, %ctaid.x;
+mul.lo.s32 %r1, %r11, %r10;
+mul.lo.s32 %r2, %r12, %r1;
+mov.u32 %r3, %tid.x;
+setp.ge.s32	%p2, %r3, %r1;
+@%p2 bra BB2_3;
+
+cvt.s64.s32	%rd1, %r2;
+mov.u32 %r4, %ntid.x;
+mov.u32 %r19, %r3;
+
+BB2_2:
+mov.u32 %r5, %r19;
+cvt.s64.s32	%rd6, %r5;
+add.s64 %rd7, %rd6, %rd1;
+shl.b64 %rd8, %rd7, 2;
+add.s64 %rd5, %rd3, %rd8;
+
+	ld.global.nc.f32 %f1, [%rd5];
+
+	mul.wide.s32 %rd9, %r5, 4;
+mov.u64 %rd10, _ZN6caffe224ChannelShuffleNHWCKernelIfLi32EEEviiPKfPf$__cuda_local_var_193095_29_non_const_sdata;
+add.s64 %rd11, %rd10, %rd9;
+st.shared.f32 [%rd11], %f1;
+add.s32 %r6, %r4, %r5;
+setp.lt.s32	%p3, %r6, %r1;
+mov.u32 %r19, %r6;
+@%p3 bra BB2_2;
+
+BB2_3:
+setp.lt.s32	%p1, %r3, %r1;
+bar.sync 0;
+@!%p1 bra BB2_6;
+bra.uni BB2_4;
+
+BB2_4:
+cvta.to.global.u64 %rd2, %rd4;
+mov.u32 %r7, %ntid.x;
+mov.u32 %r18, %r3;
+
+BB2_5:
+rem.s32 %r13, %r18, %r10;
+div.s32 %r14, %r18, %r10;
+mad.lo.s32 %r15, %r13, %r11, %r14;
+mul.wide.s32 %rd12, %r15, 4;
+mov.u64 %rd13, _ZN6caffe224ChannelShuffleNHWCKernelIfLi32EEEviiPKfPf$__cuda_local_var_193095_29_non_const_sdata;
+add.s64 %rd14, %rd13, %rd12;
+ld.shared.f32 %f2, [%rd14];
+add.s32 %r16, %r18, %r2;
+mul.wide.s32 %rd15, %r16, 4;
+add.s64 %rd16, %rd2, %rd15;
+st.global.f32 [%rd16], %f2;
+add.s32 %r18, %r7, %r18;
+setp.lt.s32	%p4, %r18, %r1;
+@%p4 bra BB2_5;
+
+BB2_6:
+ret;
+}
+
+
+.visible .entry _ZN6caffe224ChannelShuffleNHWCKernelIfLi128EEEviiPKfPf(
+.param .u32 _ZN6caffe224ChannelShuffleNHWCKernelIfLi128EEEviiPKfPf_param_0,
+.param .u32 _ZN6caffe224ChannelShuffleNHWCKernelIfLi128EEEviiPKfPf_param_1,
+.param .u64 _ZN6caffe224ChannelShuffleNHWCKernelIfLi128EEEviiPKfPf_param_2,
+.param .u64 _ZN6caffe224ChannelShuffleNHWCKernelIfLi128EEEviiPKfPf_param_3
+)
+{
+.reg .pred %p<5>;
+.reg .f32 %f<3>;
+.reg .b32 %r<20>;
+.reg .b64 %rd<17>;
+
+	.shared .align 4 .b8 _ZN6caffe224ChannelShuffleNHWCKernelIfLi128EEEviiPKfPf$__cuda_local_var_193095_29_non_const_sdata[512];
+
+ld.param.u32 %r10, [_ZN6caffe224ChannelShuffleNHWCKernelIfLi128EEEviiPKfPf_param_0];
+ld.param.u32 %r11, [_ZN6caffe224ChannelShuffleNHWCKernelIfLi128EEEviiPKfPf_param_1];
+ld.param.u64 %rd3, [_ZN6caffe224ChannelShuffleNHWCKernelIfLi128EEEviiPKfPf_param_2];
+ld.param.u64 %rd4, [_ZN6caffe224ChannelShuffleNHWCKernelIfLi128EEEviiPKfPf_param_3];
+mov.u32 %r12, %ctaid.x;
+mul.lo.s32 %r1, %r11, %r10;
+mul.lo.s32 %r2, %r12, %r1;
+mov.u32 %r3, %tid.x;
+setp.ge.s32	%p2, %r3, %r1;
+@%p2 bra BB3_3;
+
+cvt.s64.s32	%rd1, %r2;
+mov.u32 %r4, %ntid.x;
+mov.u32 %r19, %r3;
+
+BB3_2:
+mov.u32 %r5, %r19;
+cvt.s64.s32	%rd6, %r5;
+add.s64 %rd7, %rd6, %rd1;
+shl.b64 %rd8, %rd7, 2;
+add.s64 %rd5, %rd3, %rd8;
+
+	ld.global.nc.f32 %f1, [%rd5];
+
+	mul.wide.s32 %rd9, %r5, 4;
+mov.u64 %rd10, _ZN6caffe224ChannelShuffleNHWCKernelIfLi128EEEviiPKfPf$__cuda_local_var_193095_29_non_const_sdata;
+add.s64 %rd11, %rd10, %rd9;
+st.shared.f32 [%rd11], %f1;
+add.s32 %r6, %r4, %r5;
+setp.lt.s32	%p3, %r6, %r1;
+mov.u32 %r19, %r6;
+@%p3 bra BB3_2;
+
+BB3_3:
+setp.lt.s32	%p1, %r3, %r1;
+bar.sync 0;
+@!%p1 bra BB3_6;
+bra.uni BB3_4;
+
+BB3_4:
+cvta.to.global.u64 %rd2, %rd4;
+mov.u32 %r7, %ntid.x;
+mov.u32 %r18, %r3;
+
+BB3_5:
+rem.s32 %r13, %r18, %r10;
+div.s32 %r14, %r18, %r10;
+mad.lo.s32 %r15, %r13, %r11, %r14;
+mul.wide.s32 %rd12, %r15, 4;
+mov.u64 %rd13, _ZN6caffe224ChannelShuffleNHWCKernelIfLi128EEEviiPKfPf$__cuda_local_var_193095_29_non_const_sdata;
+add.s64 %rd14, %rd13, %rd12;
+ld.shared.f32 %f2, [%rd14];
+add.s32 %r16, %r18, %r2;
+mul.wide.s32 %rd15, %r16, 4;
+add.s64 %rd16, %rd2, %rd15;
+st.global.f32 [%rd16], %f2;
+add.s32 %r18, %r7, %r18;
+setp.lt.s32	%p4, %r18, %r1;
+@%p4 bra BB3_5;
+
+BB3_6:
+ret;
+}
+
+
+.visible .entry _ZN6caffe224ChannelShuffleNHWCKernelIfLi512EEEviiPKfPf(
+.param .u32 _ZN6caffe224ChannelShuffleNHWCKernelIfLi512EEEviiPKfPf_param_0,
+.param .u32 _ZN6caffe224ChannelShuffleNHWCKernelIfLi512EEEviiPKfPf_param_1,
+.param .u64 _ZN6caffe224ChannelShuffleNHWCKernelIfLi512EEEviiPKfPf_param_2,
+.param .u64 _ZN6caffe224ChannelShuffleNHWCKernelIfLi512EEEviiPKfPf_param_3
+)
+{
+.reg .pred %p<5>;
+.reg .f32 %f<3>;
+.reg .b32 %r<20>;
+.reg .b64 %rd<17>;
+
+	.shared .align 4 .b8 _ZN6caffe224ChannelShuffleNHWCKernelIfLi512EEEviiPKfPf$__cuda_local_var_193095_29_non_const_sdata[2048];
+
+ld.param.u32 %r10, [_ZN6caffe224ChannelShuffleNHWCKernelIfLi512EEEviiPKfPf_param_0];
+ld.param.u32 %r11, [_ZN6caffe224ChannelShuffleNHWCKernelIfLi512EEEviiPKfPf_param_1];
+ld.param.u64 %rd3, [_ZN6caffe224ChannelShuffleNHWCKernelIfLi512EEEviiPKfPf_param_2];
+ld.param.u64 %rd4, [_ZN6caffe224ChannelShuffleNHWCKernelIfLi512EEEviiPKfPf_param_3];
+mov.u32 %r12, %ctaid.x;
+mul.lo.s32 %r1, %r11, %r10;
+mul.lo.s32 %r2, %r12, %r1;
+mov.u32 %r3, %tid.x;
+setp.ge.s32	%p2, %r3, %r1;
+@%p2 bra BB4_3;
+
+cvt.s64.s32	%rd1, %r2;
+mov.u32 %r4, %ntid.x;
+mov.u32 %r19, %r3;
+
+BB4_2:
+mov.u32 %r5, %r19;
+cvt.s64.s32	%rd6, %r5;
+add.s64 %rd7, %rd6, %rd1;
+shl.b64 %rd8, %rd7, 2;
+add.s64 %rd5, %rd3, %rd8;
+
+	ld.global.nc.f32 %f1, [%rd5];
+
+	mul.wide.s32 %rd9, %r5, 4;
+mov.u64 %rd10, _ZN6caffe224ChannelShuffleNHWCKernelIfLi512EEEviiPKfPf$__cuda_local_var_193095_29_non_const_sdata;
+add.s64 %rd11, %rd10, %rd9;
+st.shared.f32 [%rd11], %f1;
+add.s32 %r6, %r4, %r5;
+setp.lt.s32	%p3, %r6, %r1;
+mov.u32 %r19, %r6;
+@%p3 bra BB4_2;
+
+BB4_3:
+setp.lt.s32	%p1, %r3, %r1;
+bar.sync 0;
+@!%p1 bra BB4_6;
+bra.uni BB4_4;
+
+BB4_4:
+cvta.to.global.u64 %rd2, %rd4;
+mov.u32 %r7, %ntid.x;
+mov.u32 %r18, %r3;
+
+BB4_5:
+rem.s32 %r13, %r18, %r10;
+div.s32 %r14, %r18, %r10;
+mad.lo.s32 %r15, %r13, %r11, %r14;
+mul.wide.s32 %rd12, %r15, 4;
+mov.u64 %rd13, _ZN6caffe224ChannelShuffleNHWCKernelIfLi512EEEviiPKfPf$__cuda_local_var_193095_29_non_const_sdata;
+add.s64 %rd14, %rd13, %rd12;
+ld.shared.f32 %f2, [%rd14];
+add.s32 %r16, %r18, %r2;
+mul.wide.s32 %rd15, %r16, 4;
+add.s64 %rd16, %rd2, %rd15;
+st.global.f32 [%rd16], %f2;
+add.s32 %r18, %r7, %r18;
+setp.lt.s32	%p4, %r18, %r1;
+@%p4 bra BB4_5;
+
+BB4_6:
+ret;
+}
+
+

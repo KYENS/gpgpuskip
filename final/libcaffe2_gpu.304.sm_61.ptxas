@@ -1,0 +1,5 @@
+ptxas info    : 648 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 400 bytes cmem[0], 16 bytes cmem[2]

@@ -1,0 +1,49 @@
+ptxas info    : 161 bytes gmem
+ptxas info    : Compiling entry function '_Z14AvePoolForwardIffLb0EEviPKT_iiiiiiiiiiiiPS0_' for 'sm_61'
+ptxas info    : Function properties for _Z14AvePoolForwardIffLb0EEviPKT_iiiiiiiiiiiiPS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 392 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14AvePoolForwardIN3c104HalfEfLb0EEviPKT_iiiiiiiiiiiiPS2_' for 'sm_61'
+ptxas info    : Function properties for _Z14AvePoolForwardIN3c104HalfEfLb0EEviPKT_iiiiiiiiiiiiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 392 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14AvePoolForwardIddLb0EEviPKT_iiiiiiiiiiiiPS0_' for 'sm_61'
+ptxas info    : Function properties for _Z14AvePoolForwardIddLb0EEviPKT_iiiiiiiiiiiiPS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 392 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z15AvePoolBackwardIffLb0EEviPKT_iiiiiiiiiiiiPS0_' for 'sm_61'
+ptxas info    : Function properties for _Z15AvePoolBackwardIffLb0EEviPKT_iiiiiiiiiiiiPS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 392 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z15AvePoolBackwardIN3c104HalfEfLb0EEviPKT_iiiiiiiiiiiiPS2_' for 'sm_61'
+ptxas info    : Function properties for _Z15AvePoolBackwardIN3c104HalfEfLb0EEviPKT_iiiiiiiiiiiiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 392 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z15AvePoolBackwardIddLb0EEviPKT_iiiiiiiiiiiiPS0_' for 'sm_61'
+ptxas info    : Function properties for _Z15AvePoolBackwardIddLb0EEviPKT_iiiiiiiiiiiiPS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 36 registers, 392 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14AvePoolForwardIffLb1EEviPKT_iiiiiiiiiiiiPS0_' for 'sm_61'
+ptxas info    : Function properties for _Z14AvePoolForwardIffLb1EEviPKT_iiiiiiiiiiiiPS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 392 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14AvePoolForwardIN3c104HalfEfLb1EEviPKT_iiiiiiiiiiiiPS2_' for 'sm_61'
+ptxas info    : Function properties for _Z14AvePoolForwardIN3c104HalfEfLb1EEviPKT_iiiiiiiiiiiiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 392 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14AvePoolForwardIddLb1EEviPKT_iiiiiiiiiiiiPS0_' for 'sm_61'
+ptxas info    : Function properties for _Z14AvePoolForwardIddLb1EEviPKT_iiiiiiiiiiiiPS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 392 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z15AvePoolBackwardIffLb1EEviPKT_iiiiiiiiiiiiPS0_' for 'sm_61'
+ptxas info    : Function properties for _Z15AvePoolBackwardIffLb1EEviPKT_iiiiiiiiiiiiPS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 392 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z15AvePoolBackwardIN3c104HalfEfLb1EEviPKT_iiiiiiiiiiiiPS2_' for 'sm_61'
+ptxas info    : Function properties for _Z15AvePoolBackwardIN3c104HalfEfLb1EEviPKT_iiiiiiiiiiiiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 392 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z15AvePoolBackwardIddLb1EEviPKT_iiiiiiiiiiiiPS0_' for 'sm_61'
+ptxas info    : Function properties for _Z15AvePoolBackwardIddLb1EEviPKT_iiiiiiiiiiiiPS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 392 bytes cmem[0], 32 bytes cmem[2]

@@ -1,0 +1,29 @@
+ptxas info    : 784 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe216SparseAdamKernelIiEEvmmfffPfS1_S1_PKT_PKffS6_f' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe216SparseAdamKernelIiEEvmmfffPfS1_S1_PKT_PKffS6_f
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 412 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe216SparseAdamKernelIlEEvmmfffPfS1_S1_PKT_PKffS6_f' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe216SparseAdamKernelIlEEvmmfffPfS1_S1_PKT_PKffS6_f
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 412 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe211AdamComputeEiPKfS1_S1_S1_PfS2_S2_ffffS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe211AdamComputeEiPKfS1_S1_S1_PfS2_S2_ffffS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 408 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe226SparseAdamOutputGradKernelIiEEvmmfffPfS1_S1_S1_PKT_PKffS6_f' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe226SparseAdamOutputGradKernelIiEEvmmfffPfS1_S1_S1_PKT_PKffS6_f
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 420 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe210AdamUpdateEiPKfS1_S1_PfS2_S2_ffffS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210AdamUpdateEiPKfS1_S1_PfS2_S2_ffffS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 400 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe226SparseAdamOutputGradKernelIlEEvmmfffPfS1_S1_S1_PKT_PKffS6_f' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe226SparseAdamOutputGradKernelIlEEvmmfffPfS1_S1_S1_PKT_PKffS6_f
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 420 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe221AdamComputeOutputGradEiPKfS1_S1_S1_PfS2_S2_S2_ffffS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe221AdamComputeOutputGradEiPKfS1_S1_S1_PfS2_S2_S2_ffffS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 416 bytes cmem[0], 16 bytes cmem[2]

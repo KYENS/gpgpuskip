@@ -1,0 +1,49 @@
+ptxas info    : 161 bytes gmem
+ptxas info    : Compiling entry function '_Z12subgradinputIfEvPT_S1_S1_iiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z12subgradinputIfEvPT_S1_S1_iiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12subgradinputIN3c104HalfEEvPT_S3_S3_iiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z12subgradinputIN3c104HalfEEvPT_S3_S3_iiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12subgradinputIdEvPT_S1_S1_iiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z12subgradinputIdEvPT_S1_S1_iiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z13subgradweightIffEvPT_S1_S1_S1_iiiiiiif' for 'sm_61'
+ptxas info    : Function properties for _Z13subgradweightIffEvPT_S1_S1_S1_iiiiiiif
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 4096 bytes smem, 384 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z13subgradweightIN3c104HalfEfEvPT_S3_S3_S3_iiiiiiif' for 'sm_61'
+ptxas info    : Function properties for _Z13subgradweightIN3c104HalfEfEvPT_S3_S3_S3_iiiiiiif
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 4096 bytes smem, 384 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z13subgradweightIddEvPT_S1_S1_S1_iiiiiiif' for 'sm_61'
+ptxas info    : Function properties for _Z13subgradweightIddEvPT_S1_S1_S1_iiiiiiif
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 8192 bytes smem, 384 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z9subsampleIffEvPT_S1_S1_S1_iiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z9subsampleIffEvPT_S1_S1_S1_iiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 380 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z9subsampleIN3c104HalfEfEvPT_S3_S3_S3_iiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z9subsampleIN3c104HalfEfEvPT_S3_S3_S3_iiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 380 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z9subsampleIddEvPT_S1_S1_S1_iiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z9subsampleIddEvPT_S1_S1_S1_iiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 35 registers, 380 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18subgradinputAtomicIfEvPT_S1_S1_iiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z18subgradinputAtomicIfEvPT_S1_S1_iiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18subgradinputAtomicIN3c104HalfEEvPT_S3_S3_iiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z18subgradinputAtomicIN3c104HalfEEvPT_S3_S3_iiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18subgradinputAtomicIdEvPT_S1_S1_iiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z18subgradinputAtomicIdEvPT_S1_S1_iiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 372 bytes cmem[0]

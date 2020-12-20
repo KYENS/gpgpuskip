@@ -1,0 +1,5 @@
+ptxas info    : 376 bytes gmem
+ptxas info    : Compiling entry function '_ZN4gloo16initializeMemoryINS_7float16EEEvPT_imm' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo16initializeMemoryINS_7float16EEEvPT_imm
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 352 bytes cmem[0]

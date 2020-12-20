@@ -1,0 +1,33 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z9getrf_1x1I6float2fLi256ELb1EEviPPT_iPiS4_i' for 'sm_50'
+ptxas info    : Function properties for _Z9getrf_1x1I6float2fLi256ELb1EEviPPT_iPiS4_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 7 registers, 364 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z9getrf_1x1IffLi256ELb1EEviPPT_iPiS3_i' for 'sm_50'
+ptxas info    : Function properties for _Z9getrf_1x1IffLi256ELb1EEviPPT_iPiS3_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 364 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z9getrf_1x1I7double2dLi256ELb1EEviPPT_iPiS4_i' for 'sm_50'
+ptxas info    : Function properties for _Z9getrf_1x1I7double2dLi256ELb1EEviPPT_iPiS4_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, 364 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z9getrf_1x1IddLi256ELb1EEviPPT_iPiS3_i' for 'sm_50'
+ptxas info    : Function properties for _Z9getrf_1x1IddLi256ELb1EEviPPT_iPiS3_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 364 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z9getrf_1x1I6float2fLi256ELb0EEviPPT_iPiS4_i' for 'sm_50'
+ptxas info    : Function properties for _Z9getrf_1x1I6float2fLi256ELb0EEviPPT_iPiS4_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 6 registers, 364 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z9getrf_1x1IffLi256ELb0EEviPPT_iPiS3_i' for 'sm_50'
+ptxas info    : Function properties for _Z9getrf_1x1IffLi256ELb0EEviPPT_iPiS3_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 7 registers, 364 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z9getrf_1x1I7double2dLi256ELb0EEviPPT_iPiS4_i' for 'sm_50'
+ptxas info    : Function properties for _Z9getrf_1x1I7double2dLi256ELb0EEviPPT_iPiS4_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, 364 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z9getrf_1x1IddLi256ELb0EEviPPT_iPiS3_i' for 'sm_50'
+ptxas info    : Function properties for _Z9getrf_1x1IddLi256ELb0EEviPPT_iPiS3_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, 364 bytes cmem[0]

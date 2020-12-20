@@ -1,0 +1,5 @@
+ptxas info    : 768 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe280_GLOBAL__N__56_tmpxft_0000724b_00000000_7_roi_align_gradient_op_cpp1_ii_4f215ff823RoIAlignBackwardFeatureIfEEviPKT_iS2_iiiiiiPS2_S4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe280_GLOBAL__N__56_tmpxft_0000724b_00000000_7_roi_align_gradient_op_cpp1_ii_4f215ff823RoIAlignBackwardFeatureIfEEviPKT_iS2_iiiiiiPS2_S4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 384 bytes cmem[0], 12 bytes cmem[2]

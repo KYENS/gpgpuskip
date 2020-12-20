@@ -1,0 +1,5 @@
+ptxas info    : 768 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe210CeilKernelIfEEviPKT_PS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CeilKernelIfEEviPKT_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]

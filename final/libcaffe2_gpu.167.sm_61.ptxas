@@ -1,0 +1,193 @@
+ptxas info    : 521 bytes gmem
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIN3c104HalfEfiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SA_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIN3c104HalfEfiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SA_SA_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1840 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIffiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIffiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S9_S8_S8_
+    16 bytes stack frame, 12 bytes spill stores, 12 bytes spill loads
+ptxas info    : Used 32 registers, 2056 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIddiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIddiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S8_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1408 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIffiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIffiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1840 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIddiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIddiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_
+    16 bytes stack frame, 12 bytes spill stores, 12 bytes spill loads
+ptxas info    : Used 32 registers, 1840 bytes cmem[0], 200 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIN3c104HalfEfiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SA_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIN3c104HalfEfiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SA_SA_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1408 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIffiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIffiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1840 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIddiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIddiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S9_S8_S8_
+    56 bytes stack frame, 56 bytes spill stores, 56 bytes spill loads
+ptxas info    : Used 32 registers, 2056 bytes cmem[0], 292 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIN3c104HalfEfiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SA_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIN3c104HalfEfiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SA_SA_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1840 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIddiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIddiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_
+    8 bytes stack frame, 8 bytes spill stores, 8 bytes spill loads
+ptxas info    : Used 32 registers, 1840 bytes cmem[0], 292 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIN3c104HalfEfiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SB_SA_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIN3c104HalfEfiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SB_SA_SA_
+    16 bytes stack frame, 12 bytes spill stores, 12 bytes spill loads
+ptxas info    : Used 32 registers, 2056 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIffiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIffiLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S8_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1408 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIN3c104HalfEflLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SA_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIN3c104HalfEflLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SA_SA_
+    32 bytes stack frame, 28 bytes spill stores, 28 bytes spill loads
+ptxas info    : Used 32 registers, 3248 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIfflLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIfflLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S9_S8_S8_
+    48 bytes stack frame, 44 bytes spill stores, 44 bytes spill loads
+ptxas info    : Used 32 registers, 3664 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIddlLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIddlLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S8_S8_
+    32 bytes stack frame, 64 bytes spill stores, 80 bytes spill loads
+ptxas info    : Used 32 registers, 2416 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIfflLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIfflLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_
+    16 bytes stack frame, 12 bytes spill stores, 12 bytes spill loads
+ptxas info    : Used 32 registers, 3248 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIddlLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIddlLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_
+    56 bytes stack frame, 56 bytes spill stores, 64 bytes spill loads
+ptxas info    : Used 32 registers, 3248 bytes cmem[0], 200 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIN3c104HalfEflLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SA_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIN3c104HalfEflLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SA_SA_
+    8 bytes stack frame, 8 bytes spill stores, 8 bytes spill loads
+ptxas info    : Used 32 registers, 2416 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIfflLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIfflLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_
+    32 bytes stack frame, 24 bytes spill stores, 24 bytes spill loads
+ptxas info    : Used 32 registers, 3248 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIddlLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIddlLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S9_S8_S8_
+    104 bytes stack frame, 104 bytes spill stores, 104 bytes spill loads
+ptxas info    : Used 32 registers, 3664 bytes cmem[0], 292 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIN3c104HalfEflLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SA_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIN3c104HalfEflLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SA_SA_
+    16 bytes stack frame, 16 bytes spill stores, 20 bytes spill loads
+ptxas info    : Used 32 registers, 3248 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIddlLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIddlLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_
+    56 bytes stack frame, 72 bytes spill stores, 88 bytes spill loads
+ptxas info    : Used 32 registers, 3248 bytes cmem[0], 292 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIN3c104HalfEflLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SB_SA_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIN3c104HalfEflLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SB_SA_SA_
+    48 bytes stack frame, 48 bytes spill stores, 48 bytes spill loads
+ptxas info    : Used 32 registers, 3664 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIfflLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIfflLi2EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S8_S8_
+    8 bytes stack frame, 8 bytes spill stores, 12 bytes spill loads
+ptxas info    : Used 32 registers, 2416 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIN3c104HalfEfiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SA_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIN3c104HalfEfiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SA_SA_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 1840 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIffiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIffiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S9_S8_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 2056 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIddiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIddiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S8_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1408 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIffiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIffiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1840 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIddiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIddiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1840 bytes cmem[0], 200 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIN3c104HalfEfiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SA_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIN3c104HalfEfiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SA_SA_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1408 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIffiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIffiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 1840 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIddiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIddiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S9_S8_S8_
+    56 bytes stack frame, 56 bytes spill stores, 48 bytes spill loads
+ptxas info    : Used 32 registers, 2056 bytes cmem[0], 292 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIN3c104HalfEfiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SA_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIN3c104HalfEfiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SA_SA_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 1840 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIddiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIddiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1840 bytes cmem[0], 292 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIN3c104HalfEfiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SB_SA_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIN3c104HalfEfiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SB_SA_SA_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 2056 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIffiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIffiLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S8_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1408 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIN3c104HalfEflLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SA_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIN3c104HalfEflLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SA_SA_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 3248 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIfflLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIfflLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S9_S8_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 3664 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIddlLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIddlLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S8_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 2416 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIfflLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIfflLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 3248 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIddlLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIddlLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 3248 bytes cmem[0], 200 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIN3c104HalfEflLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SA_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIN3c104HalfEflLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SA_SA_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 2416 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIfflLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel18lstm_cell_backwardIfflLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 3248 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIddlLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIddlLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S9_S8_S8_
+    88 bytes stack frame, 104 bytes spill stores, 80 bytes spill loads
+ptxas info    : Used 32 registers, 3664 bytes cmem[0], 292 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIN3c104HalfEflLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SA_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIN3c104HalfEflLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SA_SA_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 3248 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIddlLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel16gru_cell_forwardIddlLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S9_S9_S8_S8_
+    32 bytes stack frame, 20 bytes spill stores, 20 bytes spill loads
+ptxas info    : Used 32 registers, 3248 bytes cmem[0], 292 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIN3c104HalfEflLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SB_SA_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17lstm_cell_forwardIN3c104HalfEflLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EESB_SB_SB_SB_SB_SB_SB_SA_SA_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 3664 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIfflLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S8_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native62_GLOBAL__N__38_tmpxft_00005836_00000000_7_RNN_cpp1_ii_defe7c1a6kernel17gru_cell_backwardIfflLi1EEEvNS_4cuda6detail10TensorInfoIT_T1_EES9_S9_S9_S9_S8_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 2416 bytes cmem[0], 4 bytes cmem[2]

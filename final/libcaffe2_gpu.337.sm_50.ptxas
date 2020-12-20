@@ -1,0 +1,13 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z10ger_kernelI6float2S0_Li256ELi5ELb0EEv15cublasGerParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10ger_kernelI6float2S0_Li256ELi5ELb0EEv15cublasGerParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 544 bytes smem, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z10ger_kernelIffLi256ELi5ELb0EEv15cublasGerParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10ger_kernelIffLi256ELi5ELb0EEv15cublasGerParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 272 bytes smem, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z10ger_kernelI6float2S0_Li256ELi5ELb1EEv15cublasGerParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10ger_kernelI6float2S0_Li256ELi5ELb1EEv15cublasGerParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 544 bytes smem, 392 bytes cmem[0]

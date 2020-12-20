@@ -1,0 +1,129 @@
+ptxas info    : 1680 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e822columnwise_fill_kernelIlLb1EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e822columnwise_fill_kernelIlLb1EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e822columnwise_fill_kernelIlLb0EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e822columnwise_fill_kernelIlLb0EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e819rowwise_fill_kernelIlLb1EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e819rowwise_fill_kernelIlLb1EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e819rowwise_fill_kernelIlLb0EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e819rowwise_fill_kernelIlLb0EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e821columnwise_sum_kernelIlLb1EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e821columnwise_sum_kernelIlLb1EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 24 bytes smem, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e821columnwise_sum_kernelIlLb0EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e821columnwise_sum_kernelIlLb0EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 24 bytes smem, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e818rowwise_sum_kernelIlLb1EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e818rowwise_sum_kernelIlLb1EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 24 bytes smem, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e818rowwise_sum_kernelIlLb0EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e818rowwise_sum_kernelIlLb0EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 24 bytes smem, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e822columnwise_fill_kernelIdLb1EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e822columnwise_fill_kernelIdLb1EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 352 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e822columnwise_fill_kernelIdLb0EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e822columnwise_fill_kernelIdLb0EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e819rowwise_fill_kernelIdLb1EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e819rowwise_fill_kernelIdLb1EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 352 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e819rowwise_fill_kernelIdLb0EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e819rowwise_fill_kernelIdLb0EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e821columnwise_sum_kernelIdLb1EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e821columnwise_sum_kernelIdLb1EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 24 bytes smem, 352 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e821columnwise_sum_kernelIdLb0EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e821columnwise_sum_kernelIdLb0EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 24 bytes smem, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e818rowwise_sum_kernelIdLb1EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e818rowwise_sum_kernelIdLb1EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 24 bytes smem, 352 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e818rowwise_sum_kernelIdLb0EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e818rowwise_sum_kernelIdLb0EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 24 bytes smem, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e822columnwise_fill_kernelIiLb1EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e822columnwise_fill_kernelIiLb1EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e822columnwise_fill_kernelIiLb0EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e822columnwise_fill_kernelIiLb0EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e819rowwise_fill_kernelIiLb1EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e819rowwise_fill_kernelIiLb1EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e819rowwise_fill_kernelIiLb0EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e819rowwise_fill_kernelIiLb0EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e821columnwise_sum_kernelIiLb1EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e821columnwise_sum_kernelIiLb1EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 24 bytes smem, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e821columnwise_sum_kernelIiLb0EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e821columnwise_sum_kernelIiLb0EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 24 bytes smem, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e818rowwise_sum_kernelIiLb1EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e818rowwise_sum_kernelIiLb1EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 24 bytes smem, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e818rowwise_sum_kernelIiLb0EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e818rowwise_sum_kernelIiLb0EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 24 bytes smem, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e822columnwise_fill_kernelIfLb1EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e822columnwise_fill_kernelIfLb1EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 352 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e822columnwise_fill_kernelIfLb0EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e822columnwise_fill_kernelIfLb0EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e819rowwise_fill_kernelIfLb1EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e819rowwise_fill_kernelIfLb1EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 352 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e819rowwise_fill_kernelIfLb0EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e819rowwise_fill_kernelIfLb0EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e821columnwise_sum_kernelIfLb1EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e821columnwise_sum_kernelIfLb1EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 24 bytes smem, 352 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e821columnwise_sum_kernelIfLb0EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e821columnwise_sum_kernelIfLb0EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 24 bytes smem, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e818rowwise_sum_kernelIfLb1EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e818rowwise_sum_kernelIfLb1EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 24 bytes smem, 352 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e818rowwise_sum_kernelIfLb0EEEviiPKT_PKiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe289_GLOBAL__N__65_tmpxft_000061d1_00000000_7_reduce_front_back_sum_mean_ops_cpp1_ii_c93745e818rowwise_sum_kernelIfLb0EEEviiPKT_PKiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 24 bytes smem, 352 bytes cmem[0]

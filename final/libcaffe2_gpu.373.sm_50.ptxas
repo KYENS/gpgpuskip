@@ -1,0 +1,89 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z14getri_semiwarpIdLi2ELi3ELb1EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpIdLi2ELi3ELb1EEviPPKT_iPKiPPS0_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 7168 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpI6float2Li3ELi1ELb1EEviPPKT_iPKiPPS1_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpI6float2Li3ELi1ELb1EEviPPKT_iPKiPPS1_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 11264 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpIdLi4ELi0ELb1EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpIdLi4ELi0ELb1EEviPPKT_iPKiPPS0_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 34 registers, 38912 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpI7double2Li2ELi3ELb1EEviPPKT_iPKiPPS1_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpI7double2Li2ELi3ELb1EEviPPKT_iPKiPPS1_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 13312 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpIfLi3ELi1ELb1EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpIfLi3ELi1ELb1EEviPPKT_iPKiPPS0_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 6144 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpI6float2Li2ELi3ELb1EEviPPKT_iPKiPPS1_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpI6float2Li2ELi3ELb1EEviPPKT_iPKiPPS1_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 7168 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpI7double2Li3ELi1ELb1EEviPPKT_iPKiPPS1_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpI7double2Li3ELi1ELb1EEviPPKT_iPKiPPS1_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 21504 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpIfLi4ELi0ELb1EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpIfLi4ELi0ELb1EEviPPKT_iPKiPPS0_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 20480 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpIdLi3ELi1ELb1EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpIdLi3ELi1ELb1EEviPPKT_iPKiPPS0_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 11264 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpI6float2Li4ELi0ELb1EEviPPKT_iPKiPPS1_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpI6float2Li4ELi0ELb1EEviPPKT_iPKiPPS1_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 36 registers, 38912 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpIfLi2ELi3ELb1EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpIfLi2ELi3ELb1EEviPPKT_iPKiPPS0_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 4096 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpIdLi2ELi3ELb0EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpIdLi2ELi3ELb0EEviPPKT_iPKiPPS0_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 6656 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpI6float2Li3ELi1ELb0EEviPPKT_iPKiPPS1_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpI6float2Li3ELi1ELb0EEviPPKT_iPKiPPS1_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 10752 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpIdLi4ELi0ELb0EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpIdLi4ELi0ELb0EEviPPKT_iPKiPPS0_iPii
+    8 bytes stack frame, 4 bytes spill stores, 4 bytes spill loads
+ptxas info    : Used 32 registers, 37888 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpI7double2Li2ELi3ELb0EEviPPKT_iPKiPPS1_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpI7double2Li2ELi3ELb0EEviPPKT_iPKiPPS1_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 12800 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpIfLi3ELi1ELb0EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpIfLi3ELi1ELb0EEviPPKT_iPKiPPS0_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 5632 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpI6float2Li2ELi3ELb0EEviPPKT_iPKiPPS1_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpI6float2Li2ELi3ELb0EEviPPKT_iPKiPPS1_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 6656 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpI7double2Li3ELi1ELb0EEviPPKT_iPKiPPS1_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpI7double2Li3ELi1ELb0EEviPPKT_iPKiPPS1_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 20992 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpIfLi4ELi0ELb0EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpIfLi4ELi0ELb0EEviPPKT_iPKiPPS0_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 19456 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpIdLi3ELi1ELb0EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpIdLi3ELi1ELb0EEviPPKT_iPKiPPS0_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 10752 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpI6float2Li4ELi0ELb0EEviPPKT_iPKiPPS1_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpI6float2Li4ELi0ELb0EEviPPKT_iPKiPPS1_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, 37888 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z14getri_semiwarpIfLi2ELi3ELb0EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z14getri_semiwarpIfLi2ELi3ELb0EEviPPKT_iPKiPPS0_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 3584 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]

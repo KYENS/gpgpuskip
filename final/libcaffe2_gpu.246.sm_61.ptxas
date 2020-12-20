@@ -1,0 +1,21 @@
+ptxas info    : 1088 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe290_GLOBAL__N__66_tmpxft_000068cf_00000000_7_local_response_normalization_op_cpp1_ii_3e5a2e1716LRNComputeOutputIfEEviPKT_S4_S2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe290_GLOBAL__N__66_tmpxft_000068cf_00000000_7_local_response_normalization_op_cpp1_ii_3e5a2e1716LRNComputeOutputIfEEviPKT_S4_S2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 360 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe290_GLOBAL__N__66_tmpxft_000068cf_00000000_7_local_response_normalization_op_cpp1_ii_3e5a2e1718LRNComputeDiffNCHWIfEEviPKT_S4_S4_S4_iiiiiS2_S2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe290_GLOBAL__N__66_tmpxft_000068cf_00000000_7_local_response_normalization_op_cpp1_ii_3e5a2e1718LRNComputeDiffNCHWIfEEviPKT_S4_S4_S4_iiiiiS2_S2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 43 registers, 400 bytes cmem[0], 56 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe290_GLOBAL__N__66_tmpxft_000068cf_00000000_7_local_response_normalization_op_cpp1_ii_3e5a2e1716LRNFillScaleNHWCIfEEviPKT_iiiiiS2_S2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe290_GLOBAL__N__66_tmpxft_000068cf_00000000_7_local_response_normalization_op_cpp1_ii_3e5a2e1716LRNFillScaleNHWCIfEEviPKT_iiiiiS2_S2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe290_GLOBAL__N__66_tmpxft_000068cf_00000000_7_local_response_normalization_op_cpp1_ii_3e5a2e1718LRNComputeDiffNHWCIfEEviPKT_S4_S4_S4_iiiiiS2_S2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe290_GLOBAL__N__66_tmpxft_000068cf_00000000_7_local_response_normalization_op_cpp1_ii_3e5a2e1718LRNComputeDiffNHWCIfEEviPKT_S4_S4_S4_iiiiiS2_S2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 400 bytes cmem[0], 56 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe290_GLOBAL__N__66_tmpxft_000068cf_00000000_7_local_response_normalization_op_cpp1_ii_3e5a2e1716LRNFillScaleNCHWIfEEviPKT_iiiiiS2_S2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe290_GLOBAL__N__66_tmpxft_000068cf_00000000_7_local_response_normalization_op_cpp1_ii_3e5a2e1716LRNFillScaleNCHWIfEEviPKT_iiiiiS2_S2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 376 bytes cmem[0], 8 bytes cmem[2]

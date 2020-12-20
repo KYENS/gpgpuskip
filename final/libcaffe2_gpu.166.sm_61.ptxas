@@ -1,0 +1,97 @@
+ptxas info    : 713 bytes gmem
+ptxas info    : Compiling entry function '_ZN2at6native16flip_cuda_kernelIlEEvPT_S3_lPllS4_S4_S4_l' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native16flip_cuda_kernelIlEEvPT_S3_lPllS4_S4_S4_l
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native16roll_cuda_kernelIlEEvPT_S3_llllll' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native16roll_cuda_kernelIlEEvPT_S3_llllll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native28kernel_pointwise_flip_apply2IllEEvNS_4cuda6detail10TensorInfoIT_T0_EES7_S6_iS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native28kernel_pointwise_flip_apply2IllEEvNS_4cuda6detail10TensorInfoIT_T0_EES7_S6_iS6_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1176 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native16flip_cuda_kernelIaEEvPT_S3_lPllS4_S4_S4_l' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native16flip_cuda_kernelIaEEvPT_S3_lPllS4_S4_S4_l
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native16roll_cuda_kernelIaEEvPT_S3_llllll' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native16roll_cuda_kernelIaEEvPT_S3_llllll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native28kernel_pointwise_flip_apply2IalEEvNS_4cuda6detail10TensorInfoIT_T0_EES7_S6_iS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native28kernel_pointwise_flip_apply2IalEEvNS_4cuda6detail10TensorInfoIT_T0_EES7_S6_iS6_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1176 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native16flip_cuda_kernelIN3c104HalfEEEvPT_S5_lPllS6_S6_S6_l' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native16flip_cuda_kernelIN3c104HalfEEEvPT_S5_lPllS6_S6_S6_l
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native16roll_cuda_kernelIN3c104HalfEEEvPT_S5_llllll' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native16roll_cuda_kernelIN3c104HalfEEEvPT_S5_llllll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native28kernel_pointwise_flip_apply2IN3c104HalfElEEvNS_4cuda6detail10TensorInfoIT_T0_EES9_S8_iS8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native28kernel_pointwise_flip_apply2IN3c104HalfElEEvNS_4cuda6detail10TensorInfoIT_T0_EES9_S8_iS8_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1176 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native16flip_cuda_kernelIfEEvPT_S3_lPllS4_S4_S4_l' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native16flip_cuda_kernelIfEEvPT_S3_lPllS4_S4_S4_l
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native16roll_cuda_kernelIfEEvPT_S3_llllll' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native16roll_cuda_kernelIfEEvPT_S3_llllll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native28kernel_pointwise_flip_apply2IflEEvNS_4cuda6detail10TensorInfoIT_T0_EES7_S6_iS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native28kernel_pointwise_flip_apply2IflEEvNS_4cuda6detail10TensorInfoIT_T0_EES7_S6_iS6_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1176 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native16flip_cuda_kernelIiEEvPT_S3_lPllS4_S4_S4_l' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native16flip_cuda_kernelIiEEvPT_S3_lPllS4_S4_S4_l
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native16roll_cuda_kernelIiEEvPT_S3_llllll' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native16roll_cuda_kernelIiEEvPT_S3_llllll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native28kernel_pointwise_flip_apply2IilEEvNS_4cuda6detail10TensorInfoIT_T0_EES7_S6_iS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native28kernel_pointwise_flip_apply2IilEEvNS_4cuda6detail10TensorInfoIT_T0_EES7_S6_iS6_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1176 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native16flip_cuda_kernelIhEEvPT_S3_lPllS4_S4_S4_l' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native16flip_cuda_kernelIhEEvPT_S3_lPllS4_S4_S4_l
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native16roll_cuda_kernelIhEEvPT_S3_llllll' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native16roll_cuda_kernelIhEEvPT_S3_llllll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native28kernel_pointwise_flip_apply2IhlEEvNS_4cuda6detail10TensorInfoIT_T0_EES7_S6_iS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native28kernel_pointwise_flip_apply2IhlEEvNS_4cuda6detail10TensorInfoIT_T0_EES7_S6_iS6_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1176 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native16flip_cuda_kernelIsEEvPT_S3_lPllS4_S4_S4_l' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native16flip_cuda_kernelIsEEvPT_S3_lPllS4_S4_S4_l
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native16roll_cuda_kernelIsEEvPT_S3_llllll' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native16roll_cuda_kernelIsEEvPT_S3_llllll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native28kernel_pointwise_flip_apply2IslEEvNS_4cuda6detail10TensorInfoIT_T0_EES7_S6_iS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native28kernel_pointwise_flip_apply2IslEEvNS_4cuda6detail10TensorInfoIT_T0_EES7_S6_iS6_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1176 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native16flip_cuda_kernelIdEEvPT_S3_lPllS4_S4_S4_l' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native16flip_cuda_kernelIdEEvPT_S3_lPllS4_S4_S4_l
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native16roll_cuda_kernelIdEEvPT_S3_llllll' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native16roll_cuda_kernelIdEEvPT_S3_llllll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native28kernel_pointwise_flip_apply2IdlEEvNS_4cuda6detail10TensorInfoIT_T0_EES7_S6_iS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native28kernel_pointwise_flip_apply2IdlEEvNS_4cuda6detail10TensorInfoIT_T0_EES7_S6_iS6_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1176 bytes cmem[0]

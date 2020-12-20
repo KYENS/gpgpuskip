@@ -1,0 +1,129 @@
+ptxas info    : 865 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19120UnpackSegmentsKernelIliEEvPKT0_PKT_S7_S5_llPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19120UnpackSegmentsKernelIliEEvPKT0_PKT_S7_S5_llPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIiiNS_3MaxEE9Policy600EPiS5_iS2_iEEvT0_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIiiNS_3MaxEE9Policy600EPiS5_iS2_iEEvT0_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 44 bytes smem, 348 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19118PackSegmentsKernelIliEEvPKT0_PKT_S7_S5_llS2_PbPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19118PackSegmentsKernelIliEEvPKT0_PKT_S7_S5_llS2_PbPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIliNS_3MaxEE9Policy600EPlS5_iS2_lEEvT0_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIliNS_3MaxEE9Policy600EPlS5_iS2_lEEvT0_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 64 bytes smem, 352 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19120UnpackSegmentsKernelIiiEEvPKT0_PKT_S7_S5_llPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19120UnpackSegmentsKernelIiiEEvPKT0_PKT_S7_S5_llPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub20DeviceScanInitKernelINS_13ScanTileStateIiLb1EEEEEvT_i' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub20DeviceScanInitKernelINS_13ScanTileStateIiLb1EEEEEvT_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 7 registers, 332 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19118PackSegmentsKernelIiiEEvPKT0_PKT_S7_S5_llS2_PbPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19118PackSegmentsKernelIiiEEvPKT0_PKT_S7_S5_llS2_PbPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub20DeviceScanInitKernelINS_13ScanTileStateIlLb1EEEEEvT_i' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub20DeviceScanInitKernelINS_13ScanTileStateIlLb1EEEEEvT_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 332 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19120UnpackSegmentsKernelIlfEEvPKT0_PKT_S7_S5_llPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19120UnpackSegmentsKernelIlfEEvPKT0_PKT_S7_S5_llPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub18DeviceReduceKernelINS_18DeviceReducePolicyIliNS_3SumEE9Policy600EPKiPliS2_EEvT0_T1_T2_NS_13GridEvenShareISA_EET3_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub18DeviceReduceKernelINS_18DeviceReducePolicyIliNS_3SumEE9Policy600EPKiPliS2_EEvT0_T1_T2_NS_13GridEvenShareISA_EET3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 64 bytes smem, 381 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19118PackSegmentsKernelIlfEEvPKT0_PKT_S7_S5_llS2_PbPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19118PackSegmentsKernelIlfEEvPKT0_PKT_S7_S5_llS2_PbPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub18DeviceReduceKernelINS_18DeviceReducePolicyIliNS_3SumEE9Policy600EPKlPliS2_EEvT0_T1_T2_NS_13GridEvenShareISA_EET3_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub18DeviceReduceKernelINS_18DeviceReducePolicyIliNS_3SumEE9Policy600EPKlPliS2_EEvT0_T1_T2_NS_13GridEvenShareISA_EET3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 64 bytes smem, 381 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19120UnpackSegmentsKernelIifEEvPKT0_PKT_S7_S5_llPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19120UnpackSegmentsKernelIifEEvPKT0_PKT_S7_S5_llPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIiiNS_3MaxEE9Policy600EPKiPiiS2_iEEvT0_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIiiNS_3MaxEE9Policy600EPKiPiiS2_iEEvT0_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 44 bytes smem, 348 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19118PackSegmentsKernelIifEEvPKT0_PKT_S7_S5_llS2_PbPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19118PackSegmentsKernelIifEEvPKT0_PKT_S7_S5_llS2_PbPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIliNS_3MaxEE9Policy600EPKlPliS2_lEEvT0_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIliNS_3MaxEE9Policy600EPKlPliS2_lEEvT0_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 64 bytes smem, 352 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19120UnpackSegmentsKernelIlcEEvPKT0_PKT_S7_S5_llPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19120UnpackSegmentsKernelIlcEEvPKT0_PKT_S7_S5_llPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub18DeviceReduceKernelINS_18DeviceReducePolicyIiiNS_3MaxEE9Policy600EPKiPiiS2_EEvT0_T1_T2_NS_13GridEvenShareISA_EET3_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub18DeviceReduceKernelINS_18DeviceReducePolicyIiiNS_3MaxEE9Policy600EPKiPiiS2_EEvT0_T1_T2_NS_13GridEvenShareISA_EET3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 44 bytes smem, 381 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19118PackSegmentsKernelIlcEEvPKT0_PKT_S7_S5_llS2_PbPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19118PackSegmentsKernelIlcEEvPKT0_PKT_S7_S5_llS2_PbPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub18DeviceReduceKernelINS_18DeviceReducePolicyIliNS_3MaxEE9Policy600EPKlPliS2_EEvT0_T1_T2_NS_13GridEvenShareISA_EET3_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub18DeviceReduceKernelINS_18DeviceReducePolicyIliNS_3MaxEE9Policy600EPKlPliS2_EEvT0_T1_T2_NS_13GridEvenShareISA_EET3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 64 bytes smem, 381 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19120UnpackSegmentsKernelIicEEvPKT0_PKT_S7_S5_llPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19120UnpackSegmentsKernelIicEEvPKT0_PKT_S7_S5_llPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19118PackSegmentsKernelIicEEvPKT0_PKT_S7_S5_llS2_PbPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19118PackSegmentsKernelIicEEvPKT0_PKT_S7_S5_llS2_PbPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIliNS_3SumEE9Policy600EPlS5_iS2_lEEvT0_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIliNS_3SumEE9Policy600EPlS5_iS2_lEEvT0_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 64 bytes smem, 352 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19120UnpackSegmentsKernelIllEEvPKT0_PKT_S7_S5_llPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19120UnpackSegmentsKernelIllEEvPKT0_PKT_S7_S5_llPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIliNS_3SumEE9Policy600EPKiPliS2_lEEvT0_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIliNS_3SumEE9Policy600EPKiPliS2_lEEvT0_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 64 bytes smem, 352 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19118PackSegmentsKernelIllEEvPKT0_PKT_S7_S5_llS2_PbPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19118PackSegmentsKernelIllEEvPKT0_PKT_S7_S5_llS2_PbPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIliNS_3SumEE9Policy600EPKlPliS2_lEEvT0_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIliNS_3SumEE9Policy600EPKlPliS2_lEEvT0_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 64 bytes smem, 352 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19120UnpackSegmentsKernelIilEEvPKT0_PKT_S7_S5_llPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19120UnpackSegmentsKernelIilEEvPKT0_PKT_S7_S5_llPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub16DeviceScanKernelINS_12DispatchScanIPKiPiNS_3SumEiiE18PtxAgentScanPolicyES3_S4_NS_13ScanTileStateIiLb1EEES5_iiEEvT0_T1_T2_iT3_T4_T5_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub16DeviceScanKernelINS_12DispatchScanIPKiPiNS_3SumEiiE18PtxAgentScanPolicyES3_S4_NS_13ScanTileStateIiLb1EEES5_iiEEvT0_T1_T2_iT3_T4_T5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 7696 bytes smem, 360 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19118PackSegmentsKernelIilEEvPKT0_PKT_S7_S5_llS2_PbPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_0000644d_00000000_7_pack_segments_cpp1_ii_d9d5f19118PackSegmentsKernelIilEEvPKT0_PKT_S7_S5_llS2_PbPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub16DeviceScanKernelINS_12DispatchScanIPKlPlNS_3SumEliE18PtxAgentScanPolicyES3_S4_NS_13ScanTileStateIlLb1EEES5_liEEvT0_T1_T2_iT3_T4_T5_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub16DeviceScanKernelINS_12DispatchScanIPKlPlNS_3SumEliE18PtxAgentScanPolicyES3_S4_NS_13ScanTileStateIlLb1EEES5_liEEvT0_T1_T2_iT3_T4_T5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 7696 bytes smem, 364 bytes cmem[0], 4 bytes cmem[2]

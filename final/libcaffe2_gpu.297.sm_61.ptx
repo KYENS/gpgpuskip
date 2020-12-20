@@ -1,0 +1,125 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVSt9exception[40];
+.global .align 8 .b8 _ZTVSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE[56];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe218RecurrentNetworkOpINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe226RecurrentNetworkGradientOpINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe225AccumulateInputGradientOpINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe214RNNApplyLinkOpINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVSt19_Sp_counted_deleterIPN6caffe212OperatorBaseESt14default_deleteIS1_ESaIvELN9__gnu_cxx12_Lock_policyE2EE[56];
+.global .align 8 .b8 _ZTVSt23_Sp_counted_ptr_inplaceIN6caffe29WorkspaceESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE[56];
+
+.visible .entry _ZN6caffe26detail83_GLOBAL__N__59_tmpxft_00007409_00000000_7_recurrent_network_op_gpu_cpp1_ii_102f55b125initRecurrentInput_kernelIfEEvmPKT_PS3_(
+.param .u64 _ZN6caffe26detail83_GLOBAL__N__59_tmpxft_00007409_00000000_7_recurrent_network_op_gpu_cpp1_ii_102f55b125initRecurrentInput_kernelIfEEvmPKT_PS3__param_0,
+.param .u64 _ZN6caffe26detail83_GLOBAL__N__59_tmpxft_00007409_00000000_7_recurrent_network_op_gpu_cpp1_ii_102f55b125initRecurrentInput_kernelIfEEvmPKT_PS3__param_1,
+.param .u64 _ZN6caffe26detail83_GLOBAL__N__59_tmpxft_00007409_00000000_7_recurrent_network_op_gpu_cpp1_ii_102f55b125initRecurrentInput_kernelIfEEvmPKT_PS3__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<17>;
+
+
+ld.param.u64 %rd7, [_ZN6caffe26detail83_GLOBAL__N__59_tmpxft_00007409_00000000_7_recurrent_network_op_gpu_cpp1_ii_102f55b125initRecurrentInput_kernelIfEEvmPKT_PS3__param_0];
+ld.param.u64 %rd8, [_ZN6caffe26detail83_GLOBAL__N__59_tmpxft_00007409_00000000_7_recurrent_network_op_gpu_cpp1_ii_102f55b125initRecurrentInput_kernelIfEEvmPKT_PS3__param_1];
+ld.param.u64 %rd9, [_ZN6caffe26detail83_GLOBAL__N__59_tmpxft_00007409_00000000_7_recurrent_network_op_gpu_cpp1_ii_102f55b125initRecurrentInput_kernelIfEEvmPKT_PS3__param_2];
+mov.u32 %r6, %tid.x;
+cvt.s64.s32	%rd16, %r6;
+setp.ge.u64	%p1, %rd16, %rd7;
+@%p1 bra BB0_3;
+
+cvta.to.global.u64 %rd2, %rd9;
+cvta.to.global.u64 %rd3, %rd8;
+mov.u32 %r5, %ctaid.x;
+cvt.s64.s32	%rd10, %r5;
+mul.lo.s64 %rd4, %rd10, %rd7;
+mov.u32 %r2, %ntid.x;
+
+BB0_2:
+shl.b64 %rd11, %rd16, 2;
+add.s64 %rd12, %rd3, %rd11;
+ld.global.f32 %f1, [%rd12];
+add.s64 %rd13, %rd16, %rd4;
+shl.b64 %rd14, %rd13, 2;
+add.s64 %rd15, %rd2, %rd14;
+st.global.f32 [%rd15], %f1;
+add.s32 %r6, %r2, %r6;
+cvt.s64.s32	%rd16, %r6;
+setp.lt.u64	%p2, %rd16, %rd7;
+@%p2 bra BB0_2;
+
+BB0_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe26detail83_GLOBAL__N__59_tmpxft_00007409_00000000_7_recurrent_network_op_gpu_cpp1_ii_102f55b125initRecurrentInput_kernelIN3c104HalfEEEvmPKT_PS5_(
+.param .u64 _ZN6caffe26detail83_GLOBAL__N__59_tmpxft_00007409_00000000_7_recurrent_network_op_gpu_cpp1_ii_102f55b125initRecurrentInput_kernelIN3c104HalfEEEvmPKT_PS5__param_0,
+.param .u64 _ZN6caffe26detail83_GLOBAL__N__59_tmpxft_00007409_00000000_7_recurrent_network_op_gpu_cpp1_ii_102f55b125initRecurrentInput_kernelIN3c104HalfEEEvmPKT_PS5__param_1,
+.param .u64 _ZN6caffe26detail83_GLOBAL__N__59_tmpxft_00007409_00000000_7_recurrent_network_op_gpu_cpp1_ii_102f55b125initRecurrentInput_kernelIN3c104HalfEEEvmPKT_PS5__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<17>;
+
+
+ld.param.u64 %rd7, [_ZN6caffe26detail83_GLOBAL__N__59_tmpxft_00007409_00000000_7_recurrent_network_op_gpu_cpp1_ii_102f55b125initRecurrentInput_kernelIN3c104HalfEEEvmPKT_PS5__param_0];
+ld.param.u64 %rd8, [_ZN6caffe26detail83_GLOBAL__N__59_tmpxft_00007409_00000000_7_recurrent_network_op_gpu_cpp1_ii_102f55b125initRecurrentInput_kernelIN3c104HalfEEEvmPKT_PS5__param_1];
+ld.param.u64 %rd9, [_ZN6caffe26detail83_GLOBAL__N__59_tmpxft_00007409_00000000_7_recurrent_network_op_gpu_cpp1_ii_102f55b125initRecurrentInput_kernelIN3c104HalfEEEvmPKT_PS5__param_2];
+mov.u32 %r6, %tid.x;
+cvt.s64.s32	%rd16, %r6;
+setp.ge.u64	%p1, %rd16, %rd7;
+@%p1 bra BB1_3;
+
+cvta.to.global.u64 %rd2, %rd9;
+cvta.to.global.u64 %rd3, %rd8;
+mov.u32 %r5, %ctaid.x;
+cvt.s64.s32	%rd10, %r5;
+mul.lo.s64 %rd4, %rd10, %rd7;
+mov.u32 %r2, %ntid.x;
+
+BB1_2:
+add.s64 %rd11, %rd16, %rd4;
+shl.b64 %rd12, %rd11, 1;
+add.s64 %rd13, %rd2, %rd12;
+shl.b64 %rd14, %rd16, 1;
+add.s64 %rd15, %rd3, %rd14;
+ld.global.u16 %rs1, [%rd15];
+st.global.u16 [%rd13], %rs1;
+add.s32 %r6, %r2, %r6;
+cvt.s64.s32	%rd16, %r6;
+setp.lt.u64	%p2, %rd16, %rd7;
+@%p2 bra BB1_2;
+
+BB1_3:
+ret;
+}
+
+

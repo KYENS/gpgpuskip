@@ -1,0 +1,380 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVSt9exception[40];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe213BatchGatherOpINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe221BatchGatherGradientOpINS_11CUDAContextEEE[136];
+
+.visible .entry _ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib(
+.param .u64 _ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_0,
+.param .u64 _ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_1,
+.param .u64 _ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_2,
+.param .u32 _ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_3,
+.param .u32 _ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_4,
+.param .u32 _ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_5,
+.param .u32 _ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_6,
+.param .u32 _ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_7,
+.param .u32 _ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_8,
+.param .u8 _ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_9
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<3>;
+.reg .f32 %f<3>;
+.reg .b32 %r<29>;
+.reg .b64 %rd<22>;
+
+
+ld.param.u64 %rd4, [_ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_0];
+ld.param.u64 %rd5, [_ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_1];
+ld.param.u64 %rd6, [_ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_2];
+ld.param.u32 %r12, [_ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_3];
+ld.param.u32 %r7, [_ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_4];
+ld.param.u32 %r8, [_ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_5];
+ld.param.u32 %r9, [_ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_6];
+ld.param.u32 %r10, [_ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_7];
+ld.param.u32 %r11, [_ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_8];
+ld.param.s8 %rs1, [_ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib_param_9];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r13, %ctaid.x;
+mov.u32 %r14, %tid.x;
+mad.lo.s32 %r28, %r1, %r13, %r14;
+mul.lo.s32 %r15, %r7, %r12;
+mul.lo.s32 %r3, %r15, %r10;
+setp.ge.s32	%p1, %r28, %r3;
+@%p1 bra BB0_3;
+
+cvta.to.global.u64 %rd1, %rd5;
+cvta.to.global.u64 %rd2, %rd4;
+cvta.to.global.u64 %rd3, %rd6;
+mov.u32 %r16, %nctaid.x;
+mul.lo.s32 %r4, %r16, %r1;
+and.b16 %rs2, %rs1, 255;
+
+BB0_2:
+div.s32 %r17, %r28, %r10;
+rem.s32 %r18, %r17, %r7;
+div.s32 %r19, %r17, %r7;
+mul.wide.s32 %rd7, %r18, 4;
+add.s64 %rd8, %rd3, %rd7;
+ld.global.u32 %r20, [%rd8];
+setp.lt.s32	%p2, %r20, 0;
+setp.ne.s16	%p3, %rs2, 0;
+and.pred %p4, %p2, %p3;
+selp.b32	%r21, %r11, 0, %p4;
+add.s32 %r22, %r21, %r20;
+mul.lo.s32 %r23, %r19, %r9;
+cvt.s64.s32	%rd9, %r23;
+mul.lo.s32 %r24, %r18, %r10;
+cvt.s64.s32	%rd10, %r24;
+mul.lo.s32 %r25, %r19, %r8;
+cvt.s64.s32	%rd11, %r25;
+mul.lo.s32 %r26, %r22, %r10;
+cvt.s64.s32	%rd12, %r26;
+rem.s32 %r27, %r28, %r10;
+cvt.s64.s32	%rd13, %r27;
+add.s64 %rd14, %rd11, %rd13;
+add.s64 %rd15, %rd14, %rd12;
+shl.b64 %rd16, %rd15, 2;
+add.s64 %rd17, %rd1, %rd16;
+add.s64 %rd18, %rd10, %rd13;
+add.s64 %rd19, %rd18, %rd9;
+shl.b64 %rd20, %rd19, 2;
+add.s64 %rd21, %rd2, %rd20;
+ld.global.f32 %f1, [%rd21];
+atom.global.add.f32 %f2, [%rd17], %f1;
+add.s32 %r28, %r4, %r28;
+setp.lt.s32	%p5, %r28, %r3;
+@%p5 bra BB0_2;
+
+BB0_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib(
+.param .u64 _ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_0,
+.param .u64 _ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_1,
+.param .u64 _ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_2,
+.param .u32 _ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_3,
+.param .u32 _ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_4,
+.param .u32 _ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_5,
+.param .u32 _ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_6,
+.param .u32 _ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_7,
+.param .u32 _ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_8,
+.param .u8 _ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_9
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<3>;
+.reg .f32 %f<3>;
+.reg .b32 %r<25>;
+.reg .b64 %rd<27>;
+
+
+ld.param.u64 %rd6, [_ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_0];
+ld.param.u64 %rd7, [_ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_1];
+ld.param.u64 %rd8, [_ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_2];
+ld.param.u32 %r12, [_ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_3];
+ld.param.u32 %r7, [_ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_4];
+ld.param.u32 %r8, [_ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_5];
+ld.param.u32 %r9, [_ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_6];
+ld.param.u32 %r10, [_ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_7];
+ld.param.u32 %r11, [_ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_8];
+ld.param.s8 %rs1, [_ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib_param_9];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r13, %ctaid.x;
+mov.u32 %r14, %tid.x;
+mad.lo.s32 %r24, %r1, %r13, %r14;
+mul.lo.s32 %r15, %r7, %r12;
+mul.lo.s32 %r3, %r15, %r10;
+setp.ge.s32	%p1, %r24, %r3;
+@%p1 bra BB1_3;
+
+cvta.to.global.u64 %rd1, %rd7;
+cvta.to.global.u64 %rd2, %rd6;
+cvta.to.global.u64 %rd3, %rd8;
+cvt.s64.s32	%rd4, %r11;
+cvt.s64.s32	%rd5, %r10;
+mov.u32 %r16, %nctaid.x;
+mul.lo.s32 %r4, %r16, %r1;
+and.b16 %rs2, %rs1, 255;
+
+BB1_2:
+div.s32 %r17, %r24, %r10;
+rem.s32 %r18, %r17, %r7;
+div.s32 %r19, %r17, %r7;
+mul.wide.s32 %rd9, %r18, 8;
+add.s64 %rd10, %rd3, %rd9;
+ld.global.u64 %rd11, [%rd10];
+setp.lt.s64	%p2, %rd11, 0;
+setp.ne.s16	%p3, %rs2, 0;
+and.pred %p4, %p2, %p3;
+selp.b64	%rd12, %rd4, 0, %p4;
+add.s64 %rd13, %rd12, %rd11;
+mul.lo.s32 %r20, %r19, %r9;
+cvt.s64.s32	%rd14, %r20;
+mul.lo.s32 %r21, %r18, %r10;
+cvt.s64.s32	%rd15, %r21;
+mul.lo.s32 %r22, %r19, %r8;
+cvt.s64.s32	%rd16, %r22;
+mul.lo.s64 %rd17, %rd13, %rd5;
+rem.s32 %r23, %r24, %r10;
+cvt.s64.s32	%rd18, %r23;
+add.s64 %rd19, %rd16, %rd18;
+add.s64 %rd20, %rd19, %rd17;
+shl.b64 %rd21, %rd20, 2;
+add.s64 %rd22, %rd1, %rd21;
+add.s64 %rd23, %rd15, %rd18;
+add.s64 %rd24, %rd23, %rd14;
+shl.b64 %rd25, %rd24, 2;
+add.s64 %rd26, %rd2, %rd25;
+ld.global.f32 %f1, [%rd26];
+atom.global.add.f32 %f2, [%rd22], %f1;
+add.s32 %r24, %r4, %r24;
+setp.lt.s32	%p5, %r24, %r3;
+@%p5 bra BB1_2;
+
+BB1_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib(
+.param .u64 _ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_0,
+.param .u64 _ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_1,
+.param .u64 _ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_2,
+.param .u32 _ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_3,
+.param .u32 _ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_4,
+.param .u32 _ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_5,
+.param .u32 _ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_6,
+.param .u32 _ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_7,
+.param .u32 _ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_8,
+.param .u8 _ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_9
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<3>;
+.reg .f32 %f<2>;
+.reg .b32 %r<29>;
+.reg .b64 %rd<22>;
+
+
+ld.param.u64 %rd4, [_ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_0];
+ld.param.u64 %rd5, [_ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_1];
+ld.param.u64 %rd6, [_ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_2];
+ld.param.u32 %r12, [_ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_3];
+ld.param.u32 %r7, [_ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_4];
+ld.param.u32 %r8, [_ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_5];
+ld.param.u32 %r9, [_ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_6];
+ld.param.u32 %r10, [_ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_7];
+ld.param.u32 %r11, [_ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_8];
+ld.param.s8 %rs1, [_ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib_param_9];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r13, %ctaid.x;
+mov.u32 %r14, %tid.x;
+mad.lo.s32 %r28, %r1, %r13, %r14;
+mul.lo.s32 %r15, %r7, %r12;
+mul.lo.s32 %r3, %r15, %r10;
+setp.ge.s32	%p1, %r28, %r3;
+@%p1 bra BB2_3;
+
+cvta.to.global.u64 %rd1, %rd5;
+cvta.to.global.u64 %rd2, %rd4;
+cvta.to.global.u64 %rd3, %rd6;
+mov.u32 %r16, %nctaid.x;
+mul.lo.s32 %r4, %r16, %r1;
+and.b16 %rs2, %rs1, 255;
+
+BB2_2:
+div.s32 %r17, %r28, %r10;
+rem.s32 %r18, %r17, %r7;
+div.s32 %r19, %r17, %r7;
+mul.wide.s32 %rd7, %r18, 4;
+add.s64 %rd8, %rd3, %rd7;
+ld.global.u32 %r20, [%rd8];
+setp.lt.s32	%p2, %r20, 0;
+setp.ne.s16	%p3, %rs2, 0;
+and.pred %p4, %p2, %p3;
+selp.b32	%r21, %r11, 0, %p4;
+add.s32 %r22, %r21, %r20;
+mul.lo.s32 %r23, %r19, %r8;
+cvt.s64.s32	%rd9, %r23;
+mul.lo.s32 %r24, %r22, %r10;
+cvt.s64.s32	%rd10, %r24;
+mul.lo.s32 %r25, %r19, %r9;
+cvt.s64.s32	%rd11, %r25;
+mul.lo.s32 %r26, %r18, %r10;
+cvt.s64.s32	%rd12, %r26;
+rem.s32 %r27, %r28, %r10;
+cvt.s64.s32	%rd13, %r27;
+add.s64 %rd14, %rd9, %rd13;
+add.s64 %rd15, %rd14, %rd10;
+shl.b64 %rd16, %rd15, 2;
+add.s64 %rd17, %rd2, %rd16;
+ld.global.f32 %f1, [%rd17];
+add.s64 %rd18, %rd12, %rd13;
+add.s64 %rd19, %rd18, %rd11;
+shl.b64 %rd20, %rd19, 2;
+add.s64 %rd21, %rd1, %rd20;
+st.global.f32 [%rd21], %f1;
+add.s32 %r28, %r4, %r28;
+setp.lt.s32	%p5, %r28, %r3;
+@%p5 bra BB2_2;
+
+BB2_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib(
+.param .u64 _ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_0,
+.param .u64 _ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_1,
+.param .u64 _ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_2,
+.param .u32 _ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_3,
+.param .u32 _ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_4,
+.param .u32 _ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_5,
+.param .u32 _ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_6,
+.param .u32 _ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_7,
+.param .u32 _ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_8,
+.param .u8 _ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_9
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<3>;
+.reg .f32 %f<2>;
+.reg .b32 %r<25>;
+.reg .b64 %rd<27>;
+
+
+ld.param.u64 %rd6, [_ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_0];
+ld.param.u64 %rd7, [_ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_1];
+ld.param.u64 %rd8, [_ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_2];
+ld.param.u32 %r12, [_ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_3];
+ld.param.u32 %r7, [_ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_4];
+ld.param.u32 %r8, [_ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_5];
+ld.param.u32 %r9, [_ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_6];
+ld.param.u32 %r10, [_ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_7];
+ld.param.u32 %r11, [_ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_8];
+ld.param.s8 %rs1, [_ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib_param_9];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r13, %ctaid.x;
+mov.u32 %r14, %tid.x;
+mad.lo.s32 %r24, %r1, %r13, %r14;
+mul.lo.s32 %r15, %r7, %r12;
+mul.lo.s32 %r3, %r15, %r10;
+setp.ge.s32	%p1, %r24, %r3;
+@%p1 bra BB3_3;
+
+cvta.to.global.u64 %rd1, %rd7;
+cvta.to.global.u64 %rd2, %rd6;
+cvta.to.global.u64 %rd3, %rd8;
+cvt.s64.s32	%rd4, %r11;
+cvt.s64.s32	%rd5, %r10;
+mov.u32 %r16, %nctaid.x;
+mul.lo.s32 %r4, %r16, %r1;
+and.b16 %rs2, %rs1, 255;
+
+BB3_2:
+div.s32 %r17, %r24, %r10;
+rem.s32 %r18, %r17, %r7;
+div.s32 %r19, %r17, %r7;
+mul.wide.s32 %rd9, %r18, 8;
+add.s64 %rd10, %rd3, %rd9;
+ld.global.u64 %rd11, [%rd10];
+setp.lt.s64	%p2, %rd11, 0;
+setp.ne.s16	%p3, %rs2, 0;
+and.pred %p4, %p2, %p3;
+selp.b64	%rd12, %rd4, 0, %p4;
+add.s64 %rd13, %rd12, %rd11;
+mul.lo.s32 %r20, %r19, %r8;
+cvt.s64.s32	%rd14, %r20;
+mul.lo.s64 %rd15, %rd13, %rd5;
+mul.lo.s32 %r21, %r19, %r9;
+cvt.s64.s32	%rd16, %r21;
+mul.lo.s32 %r22, %r18, %r10;
+cvt.s64.s32	%rd17, %r22;
+rem.s32 %r23, %r24, %r10;
+cvt.s64.s32	%rd18, %r23;
+add.s64 %rd19, %rd14, %rd18;
+add.s64 %rd20, %rd19, %rd15;
+shl.b64 %rd21, %rd20, 2;
+add.s64 %rd22, %rd2, %rd21;
+ld.global.f32 %f1, [%rd22];
+add.s64 %rd23, %rd17, %rd18;
+add.s64 %rd24, %rd23, %rd16;
+shl.b64 %rd25, %rd24, 2;
+add.s64 %rd26, %rd1, %rd25;
+st.global.f32 [%rd26], %f1;
+add.s32 %r24, %r4, %r24;
+setp.lt.s32	%p5, %r24, %r3;
+@%p5 bra BB3_2;
+
+BB3_3:
+ret;
+}
+
+

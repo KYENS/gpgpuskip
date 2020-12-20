@@ -1,0 +1,37 @@
+ptxas info    : 161 bytes gmem
+ptxas info    : Compiling entry function '_Z20adaptivemaxgradinputIfEvPT_S1_Pliiii' for 'sm_61'
+ptxas info    : Function properties for _Z20adaptivemaxgradinputIfEvPT_S1_Pliiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26atomicadaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii' for 'sm_61'
+ptxas info    : Function properties for _Z26atomicadaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26atomicadaptivemaxgradinputIdEvPT_S1_Pliiii' for 'sm_61'
+ptxas info    : Function properties for _Z26atomicadaptivemaxgradinputIdEvPT_S1_Pliiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll' for 'sm_61'
+ptxas info    : Function properties for _Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 384 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll' for 'sm_61'
+ptxas info    : Function properties for _Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 384 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z20adaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii' for 'sm_61'
+ptxas info    : Function properties for _Z20adaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26atomicadaptivemaxgradinputIfEvPT_S1_Pliiii' for 'sm_61'
+ptxas info    : Function properties for _Z26atomicadaptivemaxgradinputIfEvPT_S1_Pliiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll' for 'sm_61'
+ptxas info    : Function properties for _Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 384 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z20adaptivemaxgradinputIdEvPT_S1_Pliiii' for 'sm_61'
+ptxas info    : Function properties for _Z20adaptivemaxgradinputIdEvPT_S1_Pliiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 360 bytes cmem[0]

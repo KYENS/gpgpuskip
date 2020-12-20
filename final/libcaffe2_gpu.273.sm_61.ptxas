@@ -1,0 +1,9 @@
+ptxas info    : 648 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe273_GLOBAL__N__49_tmpxft_00006f15_00000000_7_replace_nan_op_cpp1_ii_9601b4bf18replace_nan_kernelIdEEvT_lPKS2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe273_GLOBAL__N__49_tmpxft_00006f15_00000000_7_replace_nan_op_cpp1_ii_9601b4bf18replace_nan_kernelIdEEvT_lPKS2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe273_GLOBAL__N__49_tmpxft_00006f15_00000000_7_replace_nan_op_cpp1_ii_9601b4bf18replace_nan_kernelIfEEvT_lPKS2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe273_GLOBAL__N__49_tmpxft_00006f15_00000000_7_replace_nan_op_cpp1_ii_9601b4bf18replace_nan_kernelIfEEvT_lPKS2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 352 bytes cmem[0]

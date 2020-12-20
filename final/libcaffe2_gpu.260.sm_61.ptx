@@ -1,0 +1,3790 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVSt9exception[40];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe26CastOpINS_11CUDAContextEEE[136];
+
+.visible .entry _ZN6caffe210CastKernelIffEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIffEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIffEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIffEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIffEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIffEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIffEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB0_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB0_2:
+shl.b64 %rd10, %rd13, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f32 %f1, [%rd11];
+add.s64 %rd12, %rd3, %rd10;
+st.global.f32 [%rd12], %f1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB0_2;
+
+BB0_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIfN3c104HalfEEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIfN3c104HalfEEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIfN3c104HalfEEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIfN3c104HalfEEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .f32 %f<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIfN3c104HalfEEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIfN3c104HalfEEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIfN3c104HalfEEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB1_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB1_2:
+shl.b64 %rd10, %rd14, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rs1, [%rd11];
+
+	{ cvt.f32.f16 %f1, %rs1;}
+
+
+	shl.b64 %rd12, %rd14, 2;
+add.s64 %rd13, %rd3, %rd12;
+st.global.f32 [%rd13], %f1;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB1_2;
+
+BB1_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIfiEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIfiEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIfiEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIfiEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<2>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIfiEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIfiEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIfiEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB2_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB2_2:
+shl.b64 %rd10, %rd13, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u32 %r7, [%rd11];
+cvt.rn.f32.s32	%f1, %r7;
+add.s64 %rd12, %rd3, %rd10;
+st.global.f32 [%rd12], %f1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB2_2;
+
+BB2_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIfbEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIfbEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIfbEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIfbEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .f32 %f<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIfbEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIfbEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIfbEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB3_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB3_2:
+add.s64 %rd10, %rd4, %rd13;
+ld.global.s8 %rs1, [%rd10];
+cvt.rn.f32.s16	%f1, %rs1;
+shl.b64 %rd11, %rd13, 2;
+add.s64 %rd12, %rd3, %rd11;
+st.global.f32 [%rd12], %f1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB3_2;
+
+BB3_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIfhEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIfhEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIfhEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIfhEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .f32 %f<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIfhEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIfhEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIfhEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB4_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB4_2:
+add.s64 %rd10, %rd4, %rd13;
+ld.global.u8 %rs1, [%rd10];
+cvt.rn.f32.u16	%f1, %rs1;
+shl.b64 %rd11, %rd13, 2;
+add.s64 %rd12, %rd3, %rd11;
+st.global.f32 [%rd12], %f1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB4_2;
+
+BB4_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIfaEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIfaEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIfaEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIfaEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .f32 %f<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIfaEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIfaEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIfaEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB5_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB5_2:
+add.s64 %rd10, %rd4, %rd13;
+ld.global.s8 %rs1, [%rd10];
+cvt.rn.f32.s16	%f1, %rs1;
+shl.b64 %rd11, %rd13, 2;
+add.s64 %rd12, %rd3, %rd11;
+st.global.f32 [%rd12], %f1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB5_2;
+
+BB5_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIftEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIftEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIftEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIftEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .f32 %f<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIftEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIftEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIftEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB6_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB6_2:
+shl.b64 %rd10, %rd14, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rs1, [%rd11];
+cvt.rn.f32.u16	%f1, %rs1;
+shl.b64 %rd12, %rd14, 2;
+add.s64 %rd13, %rd3, %rd12;
+st.global.f32 [%rd13], %f1;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB6_2;
+
+BB6_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIfsEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIfsEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIfsEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIfsEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .f32 %f<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIfsEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIfsEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIfsEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB7_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB7_2:
+shl.b64 %rd10, %rd14, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rs1, [%rd11];
+cvt.rn.f32.s16	%f1, %rs1;
+shl.b64 %rd12, %rd14, 2;
+add.s64 %rd13, %rd3, %rd12;
+st.global.f32 [%rd13], %f1;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB7_2;
+
+BB7_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIflEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIflEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIflEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIflEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<16>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIflEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIflEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd15, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIflEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd15, %rd2;
+@%p1 bra BB8_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB8_2:
+shl.b64 %rd10, %rd15, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u64 %rd12, [%rd11];
+cvt.rn.f32.s64	%f1, %rd12;
+shl.b64 %rd13, %rd15, 2;
+add.s64 %rd14, %rd3, %rd13;
+st.global.f32 [%rd14], %f1;
+add.s64 %rd15, %rd5, %rd15;
+setp.lt.u64	%p2, %rd15, %rd2;
+@%p2 bra BB8_2;
+
+BB8_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIfdEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIfdEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIfdEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIfdEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<2>;
+.reg .b32 %r<7>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIfdEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIfdEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIfdEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB9_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB9_2:
+shl.b64 %rd10, %rd14, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f64 %fd1, [%rd11];
+cvt.rn.f32.f64	%f1, %fd1;
+shl.b64 %rd12, %rd14, 2;
+add.s64 %rd13, %rd3, %rd12;
+st.global.f32 [%rd13], %f1;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB9_2;
+
+BB9_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIN3c104HalfEfEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIN3c104HalfEfEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIN3c104HalfEfEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIN3c104HalfEfEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .f32 %f<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIN3c104HalfEfEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIN3c104HalfEfEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIN3c104HalfEfEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB10_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB10_2:
+shl.b64 %rd10, %rd14, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f32 %f1, [%rd11];
+
+	{ cvt.rn.f16.f32 %rs1, %f1;}
+
+
+	shl.b64 %rd12, %rd14, 1;
+add.s64 %rd13, %rd3, %rd12;
+st.global.u16 [%rd13], %rs1;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB10_2;
+
+BB10_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIN3c104HalfES2_EEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIN3c104HalfES2_EEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIN3c104HalfES2_EEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIN3c104HalfES2_EEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIN3c104HalfES2_EEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIN3c104HalfES2_EEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIN3c104HalfES2_EEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB11_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB11_2:
+shl.b64 %rd10, %rd13, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rs1, [%rd11];
+add.s64 %rd12, %rd3, %rd10;
+st.global.u16 [%rd12], %rs1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB11_2;
+
+BB11_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIifEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIifEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIifEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIifEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<2>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIifEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIifEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIifEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB12_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB12_2:
+shl.b64 %rd10, %rd13, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f32 %f1, [%rd11];
+cvt.rzi.s32.f32	%r7, %f1;
+add.s64 %rd12, %rd3, %rd10;
+st.global.u32 [%rd12], %r7;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB12_2;
+
+BB12_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIiiEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIiiEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIiiEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIiiEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIiiEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIiiEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIiiEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB13_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB13_2:
+shl.b64 %rd10, %rd13, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u32 %r7, [%rd11];
+add.s64 %rd12, %rd3, %rd10;
+st.global.u32 [%rd12], %r7;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB13_2;
+
+BB13_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIibEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIibEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIibEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIibEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIibEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIibEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIibEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB14_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB14_2:
+add.s64 %rd10, %rd4, %rd13;
+ld.global.s8 %r7, [%rd10];
+shl.b64 %rd11, %rd13, 2;
+add.s64 %rd12, %rd3, %rd11;
+st.global.u32 [%rd12], %r7;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB14_2;
+
+BB14_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIihEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIihEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIihEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIihEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIihEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIihEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIihEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB15_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB15_2:
+add.s64 %rd10, %rd4, %rd13;
+ld.global.u8 %r7, [%rd10];
+shl.b64 %rd11, %rd13, 2;
+add.s64 %rd12, %rd3, %rd11;
+st.global.u32 [%rd12], %r7;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB15_2;
+
+BB15_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIiaEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIiaEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIiaEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIiaEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIiaEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIiaEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIiaEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB16_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB16_2:
+add.s64 %rd10, %rd4, %rd13;
+ld.global.s8 %r7, [%rd10];
+shl.b64 %rd11, %rd13, 2;
+add.s64 %rd12, %rd3, %rd11;
+st.global.u32 [%rd12], %r7;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB16_2;
+
+BB16_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIitEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIitEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIitEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIitEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIitEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIitEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIitEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB17_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB17_2:
+shl.b64 %rd10, %rd14, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %r7, [%rd11];
+shl.b64 %rd12, %rd14, 2;
+add.s64 %rd13, %rd3, %rd12;
+st.global.u32 [%rd13], %r7;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB17_2;
+
+BB17_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIisEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIisEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIisEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIisEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIisEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIisEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIisEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB18_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB18_2:
+shl.b64 %rd10, %rd14, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.s16 %r7, [%rd11];
+shl.b64 %rd12, %rd14, 2;
+add.s64 %rd13, %rd3, %rd12;
+st.global.u32 [%rd13], %r7;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB18_2;
+
+BB18_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIilEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIilEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIilEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIilEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<16>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIilEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIilEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd15, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIilEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd15, %rd2;
+@%p1 bra BB19_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB19_2:
+shl.b64 %rd10, %rd15, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u64 %rd12, [%rd11];
+shl.b64 %rd13, %rd15, 2;
+add.s64 %rd14, %rd3, %rd13;
+st.global.u32 [%rd14], %rd12;
+add.s64 %rd15, %rd5, %rd15;
+setp.lt.u64	%p2, %rd15, %rd2;
+@%p2 bra BB19_2;
+
+BB19_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIidEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIidEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIidEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIidEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<8>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIidEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIidEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIidEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB20_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB20_2:
+shl.b64 %rd10, %rd14, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f64 %fd1, [%rd11];
+cvt.rzi.s32.f64	%r7, %fd1;
+shl.b64 %rd12, %rd14, 2;
+add.s64 %rd13, %rd3, %rd12;
+st.global.u32 [%rd13], %r7;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB20_2;
+
+BB20_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIbfEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIbfEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIbfEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIbfEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b16 %rs<2>;
+.reg .f32 %f<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIbfEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIbfEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIbfEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB21_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB21_2:
+shl.b64 %rd10, %rd13, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f32 %f1, [%rd11];
+setp.neu.f32	%p2, %f1, 0f00000000;
+selp.u16	%rs1, 1, 0, %p2;
+add.s64 %rd12, %rd3, %rd13;
+st.global.u8 [%rd12], %rs1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p3, %rd13, %rd2;
+@%p3 bra BB21_2;
+
+BB21_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIbiEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIbiEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIbiEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIbiEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIbiEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIbiEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIbiEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB22_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB22_2:
+shl.b64 %rd10, %rd13, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u32 %r7, [%rd11];
+setp.ne.s32	%p2, %r7, 0;
+selp.u16	%rs1, 1, 0, %p2;
+add.s64 %rd12, %rd3, %rd13;
+st.global.u8 [%rd12], %rs1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p3, %rd13, %rd2;
+@%p3 bra BB22_2;
+
+BB22_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIbbEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIbbEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIbbEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIbbEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b16 %rs<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<13>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIbbEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIbbEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd12, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIbbEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd12, %rd2;
+@%p1 bra BB23_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB23_2:
+add.s64 %rd10, %rd4, %rd12;
+ld.global.u8 %rs1, [%rd10];
+setp.ne.s16	%p2, %rs1, 0;
+selp.u16	%rs2, 1, 0, %p2;
+add.s64 %rd11, %rd3, %rd12;
+st.global.u8 [%rd11], %rs2;
+add.s64 %rd12, %rd5, %rd12;
+setp.lt.u64	%p3, %rd12, %rd2;
+@%p3 bra BB23_2;
+
+BB23_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIbhEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIbhEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIbhEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIbhEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b16 %rs<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<13>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIbhEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIbhEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd12, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIbhEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd12, %rd2;
+@%p1 bra BB24_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB24_2:
+add.s64 %rd10, %rd4, %rd12;
+ld.global.u8 %rs1, [%rd10];
+setp.ne.s16	%p2, %rs1, 0;
+selp.u16	%rs2, 1, 0, %p2;
+add.s64 %rd11, %rd3, %rd12;
+st.global.u8 [%rd11], %rs2;
+add.s64 %rd12, %rd5, %rd12;
+setp.lt.u64	%p3, %rd12, %rd2;
+@%p3 bra BB24_2;
+
+BB24_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIbaEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIbaEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIbaEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIbaEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b16 %rs<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<13>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIbaEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIbaEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd12, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIbaEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd12, %rd2;
+@%p1 bra BB25_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB25_2:
+add.s64 %rd10, %rd4, %rd12;
+ld.global.u8 %rs1, [%rd10];
+setp.ne.s16	%p2, %rs1, 0;
+selp.u16	%rs2, 1, 0, %p2;
+add.s64 %rd11, %rd3, %rd12;
+st.global.u8 [%rd11], %rs2;
+add.s64 %rd12, %rd5, %rd12;
+setp.lt.u64	%p3, %rd12, %rd2;
+@%p3 bra BB25_2;
+
+BB25_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIbtEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIbtEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIbtEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIbtEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b16 %rs<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIbtEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIbtEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIbtEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB26_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB26_2:
+shl.b64 %rd10, %rd13, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rs1, [%rd11];
+setp.ne.s16	%p2, %rs1, 0;
+selp.u16	%rs2, 1, 0, %p2;
+add.s64 %rd12, %rd3, %rd13;
+st.global.u8 [%rd12], %rs2;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p3, %rd13, %rd2;
+@%p3 bra BB26_2;
+
+BB26_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIbsEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIbsEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIbsEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIbsEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b16 %rs<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIbsEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIbsEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIbsEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB27_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB27_2:
+shl.b64 %rd10, %rd13, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rs1, [%rd11];
+setp.ne.s16	%p2, %rs1, 0;
+selp.u16	%rs2, 1, 0, %p2;
+add.s64 %rd12, %rd3, %rd13;
+st.global.u8 [%rd12], %rs2;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p3, %rd13, %rd2;
+@%p3 bra BB27_2;
+
+BB27_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIblEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIblEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIblEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIblEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIblEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIblEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIblEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB28_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB28_2:
+shl.b64 %rd10, %rd14, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u64 %rd12, [%rd11];
+setp.ne.s64	%p2, %rd12, 0;
+selp.u16	%rs1, 1, 0, %p2;
+add.s64 %rd13, %rd3, %rd14;
+st.global.u8 [%rd13], %rs1;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p3, %rd14, %rd2;
+@%p3 bra BB28_2;
+
+BB28_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIbdEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIbdEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIbdEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIbdEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIbdEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIbdEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIbdEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB29_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB29_2:
+shl.b64 %rd10, %rd13, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f64 %fd1, [%rd11];
+setp.neu.f64	%p2, %fd1, 0d0000000000000000;
+selp.u16	%rs1, 1, 0, %p2;
+add.s64 %rd12, %rd3, %rd13;
+st.global.u8 [%rd12], %rs1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p3, %rd13, %rd2;
+@%p3 bra BB29_2;
+
+BB29_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIhfEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIhfEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIhfEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIhfEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<2>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIhfEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIhfEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIhfEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB30_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB30_2:
+shl.b64 %rd10, %rd13, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f32 %f1, [%rd11];
+cvt.rzi.u32.f32	%r7, %f1;
+add.s64 %rd12, %rd3, %rd13;
+st.global.u8 [%rd12], %r7;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB30_2;
+
+BB30_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIhiEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIhiEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIhiEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIhiEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIhiEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIhiEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIhiEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB31_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB31_2:
+shl.b64 %rd10, %rd13, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u32 %r7, [%rd11];
+add.s64 %rd12, %rd3, %rd13;
+st.global.u8 [%rd12], %r7;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB31_2;
+
+BB31_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIhbEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIhbEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIhbEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIhbEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<13>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIhbEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIhbEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd12, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIhbEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd12, %rd2;
+@%p1 bra BB32_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB32_2:
+add.s64 %rd10, %rd4, %rd12;
+ld.global.u8 %rs1, [%rd10];
+add.s64 %rd11, %rd3, %rd12;
+st.global.u8 [%rd11], %rs1;
+add.s64 %rd12, %rd5, %rd12;
+setp.lt.u64	%p2, %rd12, %rd2;
+@%p2 bra BB32_2;
+
+BB32_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIhhEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIhhEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIhhEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIhhEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<13>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIhhEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIhhEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd12, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIhhEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd12, %rd2;
+@%p1 bra BB33_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB33_2:
+add.s64 %rd10, %rd4, %rd12;
+ld.global.u8 %rs1, [%rd10];
+add.s64 %rd11, %rd3, %rd12;
+st.global.u8 [%rd11], %rs1;
+add.s64 %rd12, %rd5, %rd12;
+setp.lt.u64	%p2, %rd12, %rd2;
+@%p2 bra BB33_2;
+
+BB33_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIhaEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIhaEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIhaEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIhaEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<13>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIhaEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIhaEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd12, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIhaEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd12, %rd2;
+@%p1 bra BB34_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB34_2:
+add.s64 %rd10, %rd4, %rd12;
+ld.global.u8 %rs1, [%rd10];
+add.s64 %rd11, %rd3, %rd12;
+st.global.u8 [%rd11], %rs1;
+add.s64 %rd12, %rd5, %rd12;
+setp.lt.u64	%p2, %rd12, %rd2;
+@%p2 bra BB34_2;
+
+BB34_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIhtEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIhtEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIhtEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIhtEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIhtEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIhtEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIhtEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB35_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB35_2:
+shl.b64 %rd10, %rd13, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rs1, [%rd11];
+add.s64 %rd12, %rd3, %rd13;
+st.global.u8 [%rd12], %rs1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB35_2;
+
+BB35_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIhsEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIhsEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIhsEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIhsEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIhsEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIhsEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIhsEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB36_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB36_2:
+shl.b64 %rd10, %rd13, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rs1, [%rd11];
+add.s64 %rd12, %rd3, %rd13;
+st.global.u8 [%rd12], %rs1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB36_2;
+
+BB36_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIhlEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIhlEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIhlEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIhlEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIhlEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIhlEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIhlEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB37_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB37_2:
+shl.b64 %rd10, %rd14, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u64 %rd12, [%rd11];
+add.s64 %rd13, %rd3, %rd14;
+st.global.u8 [%rd13], %rd12;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB37_2;
+
+BB37_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIhdEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIhdEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIhdEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIhdEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<8>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIhdEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIhdEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIhdEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB38_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB38_2:
+shl.b64 %rd10, %rd13, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f64 %fd1, [%rd11];
+cvt.rzi.u32.f64	%r7, %fd1;
+add.s64 %rd12, %rd3, %rd13;
+st.global.u8 [%rd12], %r7;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB38_2;
+
+BB38_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIafEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIafEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIafEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIafEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<2>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIafEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIafEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIafEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB39_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB39_2:
+shl.b64 %rd10, %rd13, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f32 %f1, [%rd11];
+cvt.rzi.s32.f32	%r7, %f1;
+add.s64 %rd12, %rd3, %rd13;
+st.global.u8 [%rd12], %r7;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB39_2;
+
+BB39_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIaiEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIaiEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIaiEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIaiEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIaiEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIaiEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIaiEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB40_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB40_2:
+shl.b64 %rd10, %rd13, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u32 %r7, [%rd11];
+add.s64 %rd12, %rd3, %rd13;
+st.global.u8 [%rd12], %r7;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB40_2;
+
+BB40_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIabEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIabEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIabEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIabEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<13>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIabEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIabEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd12, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIabEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd12, %rd2;
+@%p1 bra BB41_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB41_2:
+add.s64 %rd10, %rd4, %rd12;
+ld.global.u8 %rs1, [%rd10];
+add.s64 %rd11, %rd3, %rd12;
+st.global.u8 [%rd11], %rs1;
+add.s64 %rd12, %rd5, %rd12;
+setp.lt.u64	%p2, %rd12, %rd2;
+@%p2 bra BB41_2;
+
+BB41_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIahEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIahEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIahEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIahEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<13>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIahEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIahEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd12, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIahEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd12, %rd2;
+@%p1 bra BB42_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB42_2:
+add.s64 %rd10, %rd4, %rd12;
+ld.global.u8 %rs1, [%rd10];
+add.s64 %rd11, %rd3, %rd12;
+st.global.u8 [%rd11], %rs1;
+add.s64 %rd12, %rd5, %rd12;
+setp.lt.u64	%p2, %rd12, %rd2;
+@%p2 bra BB42_2;
+
+BB42_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIaaEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIaaEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIaaEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIaaEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<13>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIaaEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIaaEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd12, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIaaEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd12, %rd2;
+@%p1 bra BB43_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB43_2:
+add.s64 %rd10, %rd4, %rd12;
+ld.global.u8 %rs1, [%rd10];
+add.s64 %rd11, %rd3, %rd12;
+st.global.u8 [%rd11], %rs1;
+add.s64 %rd12, %rd5, %rd12;
+setp.lt.u64	%p2, %rd12, %rd2;
+@%p2 bra BB43_2;
+
+BB43_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIatEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIatEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIatEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIatEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIatEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIatEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIatEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB44_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB44_2:
+shl.b64 %rd10, %rd13, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rs1, [%rd11];
+add.s64 %rd12, %rd3, %rd13;
+st.global.u8 [%rd12], %rs1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB44_2;
+
+BB44_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIasEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIasEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIasEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIasEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIasEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIasEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIasEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB45_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB45_2:
+shl.b64 %rd10, %rd13, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rs1, [%rd11];
+add.s64 %rd12, %rd3, %rd13;
+st.global.u8 [%rd12], %rs1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB45_2;
+
+BB45_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIalEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIalEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIalEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIalEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIalEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIalEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIalEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB46_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB46_2:
+shl.b64 %rd10, %rd14, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u64 %rd12, [%rd11];
+add.s64 %rd13, %rd3, %rd14;
+st.global.u8 [%rd13], %rd12;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB46_2;
+
+BB46_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIadEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIadEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIadEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIadEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<8>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIadEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIadEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIadEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB47_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB47_2:
+shl.b64 %rd10, %rd13, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f64 %fd1, [%rd11];
+cvt.rzi.s32.f64	%r7, %fd1;
+add.s64 %rd12, %rd3, %rd13;
+st.global.u8 [%rd12], %r7;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB47_2;
+
+BB47_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelItfEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelItfEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelItfEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelItfEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<2>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelItfEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelItfEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelItfEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB48_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB48_2:
+shl.b64 %rd10, %rd14, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f32 %f1, [%rd11];
+cvt.rzi.u32.f32	%r7, %f1;
+shl.b64 %rd12, %rd14, 1;
+add.s64 %rd13, %rd3, %rd12;
+st.global.u16 [%rd13], %r7;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB48_2;
+
+BB48_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelItiEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelItiEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelItiEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelItiEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelItiEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelItiEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelItiEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB49_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB49_2:
+shl.b64 %rd10, %rd14, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u32 %r7, [%rd11];
+shl.b64 %rd12, %rd14, 1;
+add.s64 %rd13, %rd3, %rd12;
+st.global.u16 [%rd13], %r7;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB49_2;
+
+BB49_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelItbEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelItbEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelItbEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelItbEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelItbEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelItbEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelItbEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB50_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB50_2:
+add.s64 %rd10, %rd4, %rd13;
+ld.global.s8 %rs1, [%rd10];
+shl.b64 %rd11, %rd13, 1;
+add.s64 %rd12, %rd3, %rd11;
+st.global.u16 [%rd12], %rs1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB50_2;
+
+BB50_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIthEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIthEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIthEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIthEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIthEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIthEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIthEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB51_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB51_2:
+add.s64 %rd10, %rd4, %rd13;
+ld.global.u8 %rs1, [%rd10];
+shl.b64 %rd11, %rd13, 1;
+add.s64 %rd12, %rd3, %rd11;
+st.global.u16 [%rd12], %rs1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB51_2;
+
+BB51_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelItaEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelItaEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelItaEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelItaEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelItaEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelItaEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelItaEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB52_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB52_2:
+add.s64 %rd10, %rd4, %rd13;
+ld.global.s8 %rs1, [%rd10];
+shl.b64 %rd11, %rd13, 1;
+add.s64 %rd12, %rd3, %rd11;
+st.global.u16 [%rd12], %rs1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB52_2;
+
+BB52_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIttEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIttEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIttEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIttEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIttEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIttEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIttEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB53_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB53_2:
+shl.b64 %rd10, %rd13, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rs1, [%rd11];
+add.s64 %rd12, %rd3, %rd10;
+st.global.u16 [%rd12], %rs1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB53_2;
+
+BB53_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelItsEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelItsEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelItsEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelItsEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelItsEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelItsEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelItsEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB54_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB54_2:
+shl.b64 %rd10, %rd13, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rs1, [%rd11];
+add.s64 %rd12, %rd3, %rd10;
+st.global.u16 [%rd12], %rs1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB54_2;
+
+BB54_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelItlEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelItlEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelItlEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelItlEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<16>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelItlEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelItlEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd15, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelItlEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd15, %rd2;
+@%p1 bra BB55_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB55_2:
+shl.b64 %rd10, %rd15, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u64 %rd12, [%rd11];
+shl.b64 %rd13, %rd15, 1;
+add.s64 %rd14, %rd3, %rd13;
+st.global.u16 [%rd14], %rd12;
+add.s64 %rd15, %rd5, %rd15;
+setp.lt.u64	%p2, %rd15, %rd2;
+@%p2 bra BB55_2;
+
+BB55_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelItdEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelItdEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelItdEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelItdEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<8>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelItdEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelItdEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelItdEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB56_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB56_2:
+shl.b64 %rd10, %rd14, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f64 %fd1, [%rd11];
+cvt.rzi.u32.f64	%r7, %fd1;
+shl.b64 %rd12, %rd14, 1;
+add.s64 %rd13, %rd3, %rd12;
+st.global.u16 [%rd13], %r7;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB56_2;
+
+BB56_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIsfEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIsfEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIsfEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIsfEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<2>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIsfEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIsfEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIsfEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB57_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB57_2:
+shl.b64 %rd10, %rd14, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f32 %f1, [%rd11];
+cvt.rzi.s32.f32	%r7, %f1;
+shl.b64 %rd12, %rd14, 1;
+add.s64 %rd13, %rd3, %rd12;
+st.global.u16 [%rd13], %r7;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB57_2;
+
+BB57_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIsiEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIsiEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIsiEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIsiEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIsiEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIsiEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIsiEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB58_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB58_2:
+shl.b64 %rd10, %rd14, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u32 %r7, [%rd11];
+shl.b64 %rd12, %rd14, 1;
+add.s64 %rd13, %rd3, %rd12;
+st.global.u16 [%rd13], %r7;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB58_2;
+
+BB58_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIsbEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIsbEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIsbEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIsbEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIsbEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIsbEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIsbEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB59_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB59_2:
+add.s64 %rd10, %rd4, %rd13;
+ld.global.s8 %rs1, [%rd10];
+shl.b64 %rd11, %rd13, 1;
+add.s64 %rd12, %rd3, %rd11;
+st.global.u16 [%rd12], %rs1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB59_2;
+
+BB59_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIshEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIshEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIshEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIshEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIshEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIshEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIshEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB60_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB60_2:
+add.s64 %rd10, %rd4, %rd13;
+ld.global.u8 %rs1, [%rd10];
+shl.b64 %rd11, %rd13, 1;
+add.s64 %rd12, %rd3, %rd11;
+st.global.u16 [%rd12], %rs1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB60_2;
+
+BB60_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIsaEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIsaEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIsaEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIsaEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIsaEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIsaEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIsaEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB61_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB61_2:
+add.s64 %rd10, %rd4, %rd13;
+ld.global.s8 %rs1, [%rd10];
+shl.b64 %rd11, %rd13, 1;
+add.s64 %rd12, %rd3, %rd11;
+st.global.u16 [%rd12], %rs1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB61_2;
+
+BB61_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIstEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIstEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIstEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIstEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIstEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIstEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIstEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB62_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB62_2:
+shl.b64 %rd10, %rd13, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rs1, [%rd11];
+add.s64 %rd12, %rd3, %rd10;
+st.global.u16 [%rd12], %rs1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB62_2;
+
+BB62_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIssEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIssEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIssEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIssEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIssEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIssEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIssEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB63_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB63_2:
+shl.b64 %rd10, %rd13, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rs1, [%rd11];
+add.s64 %rd12, %rd3, %rd10;
+st.global.u16 [%rd12], %rs1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB63_2;
+
+BB63_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIslEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIslEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIslEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIslEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<16>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIslEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIslEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd15, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIslEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd15, %rd2;
+@%p1 bra BB64_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB64_2:
+shl.b64 %rd10, %rd15, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u64 %rd12, [%rd11];
+shl.b64 %rd13, %rd15, 1;
+add.s64 %rd14, %rd3, %rd13;
+st.global.u16 [%rd14], %rd12;
+add.s64 %rd15, %rd5, %rd15;
+setp.lt.u64	%p2, %rd15, %rd2;
+@%p2 bra BB64_2;
+
+BB64_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIsdEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIsdEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIsdEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIsdEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<8>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIsdEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIsdEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIsdEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB65_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB65_2:
+shl.b64 %rd10, %rd14, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f64 %fd1, [%rd11];
+cvt.rzi.s32.f64	%r7, %fd1;
+shl.b64 %rd12, %rd14, 1;
+add.s64 %rd13, %rd3, %rd12;
+st.global.u16 [%rd13], %r7;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB65_2;
+
+BB65_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIlfEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIlfEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIlfEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIlfEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<16>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIlfEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIlfEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd15, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIlfEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd15, %rd2;
+@%p1 bra BB66_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB66_2:
+shl.b64 %rd10, %rd15, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f32 %f1, [%rd11];
+cvt.rzi.s64.f32	%rd12, %f1;
+shl.b64 %rd13, %rd15, 3;
+add.s64 %rd14, %rd3, %rd13;
+st.global.u64 [%rd14], %rd12;
+add.s64 %rd15, %rd5, %rd15;
+setp.lt.u64	%p2, %rd15, %rd2;
+@%p2 bra BB66_2;
+
+BB66_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIliEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIliEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIliEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIliEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<16>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIliEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIliEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd15, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIliEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd15, %rd2;
+@%p1 bra BB67_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB67_2:
+shl.b64 %rd10, %rd15, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.s32 %rd12, [%rd11];
+shl.b64 %rd13, %rd15, 3;
+add.s64 %rd14, %rd3, %rd13;
+st.global.u64 [%rd14], %rd12;
+add.s64 %rd15, %rd5, %rd15;
+setp.lt.u64	%p2, %rd15, %rd2;
+@%p2 bra BB67_2;
+
+BB67_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIlbEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIlbEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIlbEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIlbEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIlbEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIlbEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIlbEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB68_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB68_2:
+add.s64 %rd10, %rd4, %rd14;
+ld.global.s8 %rd11, [%rd10];
+shl.b64 %rd12, %rd14, 3;
+add.s64 %rd13, %rd3, %rd12;
+st.global.u64 [%rd13], %rd11;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB68_2;
+
+BB68_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIlhEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIlhEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIlhEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIlhEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIlhEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIlhEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIlhEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB69_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB69_2:
+add.s64 %rd10, %rd4, %rd14;
+ld.global.u8 %rd11, [%rd10];
+shl.b64 %rd12, %rd14, 3;
+add.s64 %rd13, %rd3, %rd12;
+st.global.u64 [%rd13], %rd11;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB69_2;
+
+BB69_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIlaEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIlaEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIlaEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIlaEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIlaEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIlaEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIlaEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB70_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB70_2:
+add.s64 %rd10, %rd4, %rd14;
+ld.global.s8 %rd11, [%rd10];
+shl.b64 %rd12, %rd14, 3;
+add.s64 %rd13, %rd3, %rd12;
+st.global.u64 [%rd13], %rd11;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB70_2;
+
+BB70_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIltEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIltEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIltEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIltEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<16>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIltEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIltEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd15, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIltEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd15, %rd2;
+@%p1 bra BB71_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB71_2:
+shl.b64 %rd10, %rd15, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rd12, [%rd11];
+shl.b64 %rd13, %rd15, 3;
+add.s64 %rd14, %rd3, %rd13;
+st.global.u64 [%rd14], %rd12;
+add.s64 %rd15, %rd5, %rd15;
+setp.lt.u64	%p2, %rd15, %rd2;
+@%p2 bra BB71_2;
+
+BB71_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIlsEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIlsEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIlsEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIlsEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<16>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIlsEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIlsEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd15, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIlsEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd15, %rd2;
+@%p1 bra BB72_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB72_2:
+shl.b64 %rd10, %rd15, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.s16 %rd12, [%rd11];
+shl.b64 %rd13, %rd15, 3;
+add.s64 %rd14, %rd3, %rd13;
+st.global.u64 [%rd14], %rd12;
+add.s64 %rd15, %rd5, %rd15;
+setp.lt.u64	%p2, %rd15, %rd2;
+@%p2 bra BB72_2;
+
+BB72_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIllEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIllEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIllEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIllEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIllEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIllEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIllEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB73_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB73_2:
+shl.b64 %rd10, %rd14, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u64 %rd12, [%rd11];
+add.s64 %rd13, %rd3, %rd10;
+st.global.u64 [%rd13], %rd12;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB73_2;
+
+BB73_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIldEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIldEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIldEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIldEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<7>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIldEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIldEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIldEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB74_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB74_2:
+shl.b64 %rd10, %rd14, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f64 %fd1, [%rd11];
+cvt.rzi.s64.f64	%rd12, %fd1;
+add.s64 %rd13, %rd3, %rd10;
+st.global.u64 [%rd13], %rd12;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB74_2;
+
+BB74_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIdfEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIdfEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIdfEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIdfEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<2>;
+.reg .b32 %r<7>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIdfEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIdfEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIdfEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB75_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB75_2:
+shl.b64 %rd10, %rd14, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f32 %f1, [%rd11];
+cvt.f64.f32	%fd1, %f1;
+shl.b64 %rd12, %rd14, 3;
+add.s64 %rd13, %rd3, %rd12;
+st.global.f64 [%rd13], %fd1;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB75_2;
+
+BB75_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIdiEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIdiEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIdiEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIdiEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<8>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIdiEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIdiEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIdiEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB76_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB76_2:
+shl.b64 %rd10, %rd14, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u32 %r7, [%rd11];
+cvt.rn.f64.s32	%fd1, %r7;
+shl.b64 %rd12, %rd14, 3;
+add.s64 %rd13, %rd3, %rd12;
+st.global.f64 [%rd13], %fd1;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB76_2;
+
+BB76_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIdbEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIdbEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIdbEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIdbEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIdbEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIdbEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIdbEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB77_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB77_2:
+add.s64 %rd10, %rd4, %rd13;
+ld.global.s8 %rs1, [%rd10];
+cvt.rn.f64.s16	%fd1, %rs1;
+shl.b64 %rd11, %rd13, 3;
+add.s64 %rd12, %rd3, %rd11;
+st.global.f64 [%rd12], %fd1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB77_2;
+
+BB77_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIdhEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIdhEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIdhEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIdhEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIdhEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIdhEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIdhEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB78_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB78_2:
+add.s64 %rd10, %rd4, %rd13;
+ld.global.u8 %rs1, [%rd10];
+cvt.rn.f64.u16	%fd1, %rs1;
+shl.b64 %rd11, %rd13, 3;
+add.s64 %rd12, %rd3, %rd11;
+st.global.f64 [%rd12], %fd1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB78_2;
+
+BB78_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIdaEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIdaEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIdaEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIdaEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIdaEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIdaEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIdaEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB79_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB79_2:
+add.s64 %rd10, %rd4, %rd13;
+ld.global.s8 %rs1, [%rd10];
+cvt.rn.f64.s16	%fd1, %rs1;
+shl.b64 %rd11, %rd13, 3;
+add.s64 %rd12, %rd3, %rd11;
+st.global.f64 [%rd12], %fd1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB79_2;
+
+BB79_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIdtEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIdtEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIdtEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIdtEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIdtEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIdtEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIdtEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB80_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB80_2:
+shl.b64 %rd10, %rd14, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rs1, [%rd11];
+cvt.rn.f64.u16	%fd1, %rs1;
+shl.b64 %rd12, %rd14, 3;
+add.s64 %rd13, %rd3, %rd12;
+st.global.f64 [%rd13], %fd1;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB80_2;
+
+BB80_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIdsEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIdsEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIdsEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIdsEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<7>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIdsEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIdsEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIdsEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB81_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB81_2:
+shl.b64 %rd10, %rd14, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rs1, [%rd11];
+cvt.rn.f64.s16	%fd1, %rs1;
+shl.b64 %rd12, %rd14, 3;
+add.s64 %rd13, %rd3, %rd12;
+st.global.f64 [%rd13], %fd1;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB81_2;
+
+BB81_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIdlEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIdlEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIdlEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIdlEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<7>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIdlEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIdlEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIdlEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB82_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB82_2:
+shl.b64 %rd10, %rd14, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u64 %rd12, [%rd11];
+cvt.rn.f64.s64	%fd1, %rd12;
+add.s64 %rd13, %rd3, %rd10;
+st.global.f64 [%rd13], %fd1;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB82_2;
+
+BB82_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe210CastKernelIddEEviPKT0_PT_(
+.param .u32 _ZN6caffe210CastKernelIddEEviPKT0_PT__param_0,
+.param .u64 _ZN6caffe210CastKernelIddEEviPKT0_PT__param_1,
+.param .u64 _ZN6caffe210CastKernelIddEEviPKT0_PT__param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<7>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe210CastKernelIddEEviPKT0_PT__param_1];
+ld.param.u64 %rd9, [_ZN6caffe210CastKernelIddEEviPKT0_PT__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe210CastKernelIddEEviPKT0_PT__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB83_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB83_2:
+shl.b64 %rd10, %rd13, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f64 %fd1, [%rd11];
+add.s64 %rd12, %rd3, %rd10;
+st.global.f64 [%rd12], %fd1;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB83_2;
+
+BB83_3:
+ret;
+}
+
+

@@ -1,0 +1,251 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVSt9exception[40];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN2at11BaseContextE[112];
+.global .align 8 .b8 _ZTVN6caffe210CPUContextE[112];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe213LengthsTileOpINS_11CUDAContextEEE[136];
+
+.visible .entry _ZN6caffe217lengthsTileKernelIfEEviiPKT_PS1_PKi(
+.param .u32 _ZN6caffe217lengthsTileKernelIfEEviiPKT_PS1_PKi_param_0,
+.param .u32 _ZN6caffe217lengthsTileKernelIfEEviiPKT_PS1_PKi_param_1,
+.param .u64 _ZN6caffe217lengthsTileKernelIfEEviiPKT_PS1_PKi_param_2,
+.param .u64 _ZN6caffe217lengthsTileKernelIfEEviiPKT_PS1_PKi_param_3,
+.param .u64 _ZN6caffe217lengthsTileKernelIfEEviiPKT_PS1_PKi_param_4
+)
+{
+.reg .pred %p<4>;
+.reg .f32 %f<2>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<30>;
+
+
+ld.param.u32 %r2, [_ZN6caffe217lengthsTileKernelIfEEviiPKT_PS1_PKi_param_1];
+ld.param.u64 %rd13, [_ZN6caffe217lengthsTileKernelIfEEviiPKT_PS1_PKi_param_2];
+ld.param.u64 %rd14, [_ZN6caffe217lengthsTileKernelIfEEviiPKT_PS1_PKi_param_3];
+ld.param.u64 %rd15, [_ZN6caffe217lengthsTileKernelIfEEviiPKT_PS1_PKi_param_4];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r3, %ctaid.x;
+mov.u32 %r4, %tid.x;
+mad.lo.s32 %r5, %r1, %r3, %r4;
+cvt.u64.u32	%rd28, %r5;
+ld.param.s32 %rd2, [_ZN6caffe217lengthsTileKernelIfEEviiPKT_PS1_PKi_param_0];
+setp.ge.u64	%p1, %rd28, %rd2;
+@%p1 bra BB0_6;
+
+cvta.to.global.u64 %rd3, %rd14;
+cvta.to.global.u64 %rd4, %rd13;
+cvta.to.global.u64 %rd5, %rd15;
+cvt.s64.s32	%rd6, %r2;
+mov.u32 %r6, %nctaid.x;
+mul.lo.s32 %r7, %r6, %r1;
+cvt.u64.u32	%rd7, %r7;
+
+BB0_2:
+or.b64 %rd16, %rd28, %rd6;
+and.b64 %rd17, %rd16, -4294967296;
+setp.eq.s64	%p2, %rd17, 0;
+@%p2 bra BB0_4;
+bra.uni BB0_3;
+
+BB0_4:
+cvt.u32.u64	%r8, %rd6;
+cvt.u32.u64	%r9, %rd28;
+div.u32 %r10, %r9, %r8;
+cvt.u64.u32	%rd29, %r10;
+bra.uni BB0_5;
+
+BB0_3:
+div.u64 %rd29, %rd28, %rd6;
+
+BB0_5:
+mul.lo.s64 %rd18, %rd29, %rd6;
+sub.s64 %rd19, %rd28, %rd18;
+shl.b64 %rd20, %rd29, 2;
+add.s64 %rd21, %rd5, %rd20;
+ld.global.s32 %rd22, [%rd21];
+add.s64 %rd23, %rd19, %rd22;
+shl.b64 %rd24, %rd23, 2;
+add.s64 %rd25, %rd4, %rd24;
+ld.global.f32 %f1, [%rd25];
+shl.b64 %rd26, %rd28, 2;
+add.s64 %rd27, %rd3, %rd26;
+st.global.f32 [%rd27], %f1;
+add.s64 %rd28, %rd7, %rd28;
+setp.lt.u64	%p3, %rd28, %rd2;
+@%p3 bra BB0_2;
+
+BB0_6:
+ret;
+}
+
+
+.visible .entry _ZN6caffe217lengthsTileKernelIiEEviiPKT_PS1_PKi(
+.param .u32 _ZN6caffe217lengthsTileKernelIiEEviiPKT_PS1_PKi_param_0,
+.param .u32 _ZN6caffe217lengthsTileKernelIiEEviiPKT_PS1_PKi_param_1,
+.param .u64 _ZN6caffe217lengthsTileKernelIiEEviiPKT_PS1_PKi_param_2,
+.param .u64 _ZN6caffe217lengthsTileKernelIiEEviiPKT_PS1_PKi_param_3,
+.param .u64 _ZN6caffe217lengthsTileKernelIiEEviiPKT_PS1_PKi_param_4
+)
+{
+.reg .pred %p<4>;
+.reg .b32 %r<12>;
+.reg .b64 %rd<30>;
+
+
+ld.param.u32 %r2, [_ZN6caffe217lengthsTileKernelIiEEviiPKT_PS1_PKi_param_1];
+ld.param.u64 %rd13, [_ZN6caffe217lengthsTileKernelIiEEviiPKT_PS1_PKi_param_2];
+ld.param.u64 %rd14, [_ZN6caffe217lengthsTileKernelIiEEviiPKT_PS1_PKi_param_3];
+ld.param.u64 %rd15, [_ZN6caffe217lengthsTileKernelIiEEviiPKT_PS1_PKi_param_4];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r3, %ctaid.x;
+mov.u32 %r4, %tid.x;
+mad.lo.s32 %r5, %r1, %r3, %r4;
+cvt.u64.u32	%rd28, %r5;
+ld.param.s32 %rd2, [_ZN6caffe217lengthsTileKernelIiEEviiPKT_PS1_PKi_param_0];
+setp.ge.u64	%p1, %rd28, %rd2;
+@%p1 bra BB1_6;
+
+cvta.to.global.u64 %rd3, %rd14;
+cvta.to.global.u64 %rd4, %rd13;
+cvta.to.global.u64 %rd5, %rd15;
+cvt.s64.s32	%rd6, %r2;
+mov.u32 %r6, %nctaid.x;
+mul.lo.s32 %r7, %r6, %r1;
+cvt.u64.u32	%rd7, %r7;
+
+BB1_2:
+or.b64 %rd16, %rd28, %rd6;
+and.b64 %rd17, %rd16, -4294967296;
+setp.eq.s64	%p2, %rd17, 0;
+@%p2 bra BB1_4;
+bra.uni BB1_3;
+
+BB1_4:
+cvt.u32.u64	%r8, %rd6;
+cvt.u32.u64	%r9, %rd28;
+div.u32 %r10, %r9, %r8;
+cvt.u64.u32	%rd29, %r10;
+bra.uni BB1_5;
+
+BB1_3:
+div.u64 %rd29, %rd28, %rd6;
+
+BB1_5:
+mul.lo.s64 %rd18, %rd29, %rd6;
+sub.s64 %rd19, %rd28, %rd18;
+shl.b64 %rd20, %rd29, 2;
+add.s64 %rd21, %rd5, %rd20;
+ld.global.s32 %rd22, [%rd21];
+add.s64 %rd23, %rd19, %rd22;
+shl.b64 %rd24, %rd23, 2;
+add.s64 %rd25, %rd4, %rd24;
+ld.global.u32 %r11, [%rd25];
+shl.b64 %rd26, %rd28, 2;
+add.s64 %rd27, %rd3, %rd26;
+st.global.u32 [%rd27], %r11;
+add.s64 %rd28, %rd7, %rd28;
+setp.lt.u64	%p3, %rd28, %rd2;
+@%p3 bra BB1_2;
+
+BB1_6:
+ret;
+}
+
+
+.visible .entry _ZN6caffe217lengthsTileKernelIlEEviiPKT_PS1_PKi(
+.param .u32 _ZN6caffe217lengthsTileKernelIlEEviiPKT_PS1_PKi_param_0,
+.param .u32 _ZN6caffe217lengthsTileKernelIlEEviiPKT_PS1_PKi_param_1,
+.param .u64 _ZN6caffe217lengthsTileKernelIlEEviiPKT_PS1_PKi_param_2,
+.param .u64 _ZN6caffe217lengthsTileKernelIlEEviiPKT_PS1_PKi_param_3,
+.param .u64 _ZN6caffe217lengthsTileKernelIlEEviiPKT_PS1_PKi_param_4
+)
+{
+.reg .pred %p<4>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<31>;
+
+
+ld.param.u32 %r2, [_ZN6caffe217lengthsTileKernelIlEEviiPKT_PS1_PKi_param_1];
+ld.param.u64 %rd13, [_ZN6caffe217lengthsTileKernelIlEEviiPKT_PS1_PKi_param_2];
+ld.param.u64 %rd14, [_ZN6caffe217lengthsTileKernelIlEEviiPKT_PS1_PKi_param_3];
+ld.param.u64 %rd15, [_ZN6caffe217lengthsTileKernelIlEEviiPKT_PS1_PKi_param_4];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r3, %ctaid.x;
+mov.u32 %r4, %tid.x;
+mad.lo.s32 %r5, %r1, %r3, %r4;
+cvt.u64.u32	%rd29, %r5;
+ld.param.s32 %rd2, [_ZN6caffe217lengthsTileKernelIlEEviiPKT_PS1_PKi_param_0];
+setp.ge.u64	%p1, %rd29, %rd2;
+@%p1 bra BB2_6;
+
+cvta.to.global.u64 %rd3, %rd14;
+cvta.to.global.u64 %rd4, %rd13;
+cvta.to.global.u64 %rd5, %rd15;
+cvt.s64.s32	%rd6, %r2;
+mov.u32 %r6, %nctaid.x;
+mul.lo.s32 %r7, %r6, %r1;
+cvt.u64.u32	%rd7, %r7;
+
+BB2_2:
+or.b64 %rd16, %rd29, %rd6;
+and.b64 %rd17, %rd16, -4294967296;
+setp.eq.s64	%p2, %rd17, 0;
+@%p2 bra BB2_4;
+bra.uni BB2_3;
+
+BB2_4:
+cvt.u32.u64	%r8, %rd6;
+cvt.u32.u64	%r9, %rd29;
+div.u32 %r10, %r9, %r8;
+cvt.u64.u32	%rd30, %r10;
+bra.uni BB2_5;
+
+BB2_3:
+div.u64 %rd30, %rd29, %rd6;
+
+BB2_5:
+mul.lo.s64 %rd18, %rd30, %rd6;
+sub.s64 %rd19, %rd29, %rd18;
+shl.b64 %rd20, %rd30, 2;
+add.s64 %rd21, %rd5, %rd20;
+ld.global.s32 %rd22, [%rd21];
+add.s64 %rd23, %rd19, %rd22;
+shl.b64 %rd24, %rd23, 3;
+add.s64 %rd25, %rd4, %rd24;
+ld.global.u64 %rd26, [%rd25];
+shl.b64 %rd27, %rd29, 3;
+add.s64 %rd28, %rd3, %rd27;
+st.global.u64 [%rd28], %rd26;
+add.s64 %rd29, %rd7, %rd29;
+setp.lt.u64	%p3, %rd29, %rd2;
+@%p3 bra BB2_2;
+
+BB2_6:
+ret;
+}
+
+

@@ -1,0 +1,65 @@
+ptxas info    : 161 bytes gmem
+ptxas info    : Compiling entry function '_Z22createBatchGemmBuffer3PPKsS1_S1_PsS2_S2_llll' for 'sm_61'
+ptxas info    : Function properties for _Z22createBatchGemmBuffer3PPKsS1_S1_PsS2_S2_llll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z22createBatchGemmBuffer3PPKfS1_S1_PfS2_S2_llll' for 'sm_61'
+ptxas info    : Function properties for _Z22createBatchGemmBuffer3PPKfS1_S1_PfS2_S2_llll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z22createBatchGemmBuffer3PPKhS1_S1_PhS2_S2_llll' for 'sm_61'
+ptxas info    : Function properties for _Z22createBatchGemmBuffer3PPKhS1_S1_PhS2_S2_llll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z22createBatchGemmBuffer3PPKlS1_S1_PlS2_S2_llll' for 'sm_61'
+ptxas info    : Function properties for _Z22createBatchGemmBuffer3PPKlS1_S1_PlS2_S2_llll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z22createBatchGemmBuffer3PPKiS1_S1_PiS2_S2_llll' for 'sm_61'
+ptxas info    : Function properties for _Z22createBatchGemmBuffer3PPKiS1_S1_PiS2_S2_llll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z22createBatchGemmBuffer3PPKdS1_S1_PdS2_S2_llll' for 'sm_61'
+ptxas info    : Function properties for _Z22createBatchGemmBuffer3PPKdS1_S1_PdS2_S2_llll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z22createBatchGemmBuffer3PPKaS1_S1_PaS2_S2_llll' for 'sm_61'
+ptxas info    : Function properties for _Z22createBatchGemmBuffer3PPKaS1_S1_PaS2_S2_llll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z22createBatchGemmBuffer3PPKN3c104HalfES3_S3_PS0_S4_S4_llll' for 'sm_61'
+ptxas info    : Function properties for _Z22createBatchGemmBuffer3PPKN3c104HalfES3_S3_PS0_S4_S4_llll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21createBatchGemmBufferPPKsPsll' for 'sm_61'
+ptxas info    : Function properties for _Z21createBatchGemmBufferPPKsPsll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21createBatchGemmBufferPPKfPfll' for 'sm_61'
+ptxas info    : Function properties for _Z21createBatchGemmBufferPPKfPfll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21createBatchGemmBufferPPKhPhll' for 'sm_61'
+ptxas info    : Function properties for _Z21createBatchGemmBufferPPKhPhll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21createBatchGemmBufferPPKlPlll' for 'sm_61'
+ptxas info    : Function properties for _Z21createBatchGemmBufferPPKlPlll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21createBatchGemmBufferPPKiPill' for 'sm_61'
+ptxas info    : Function properties for _Z21createBatchGemmBufferPPKiPill
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21createBatchGemmBufferPPKdPdll' for 'sm_61'
+ptxas info    : Function properties for _Z21createBatchGemmBufferPPKdPdll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21createBatchGemmBufferPPKaPall' for 'sm_61'
+ptxas info    : Function properties for _Z21createBatchGemmBufferPPKaPall
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21createBatchGemmBufferPPKN3c104HalfEPS0_ll' for 'sm_61'
+ptxas info    : Function properties for _Z21createBatchGemmBufferPPKN3c104HalfEPS0_ll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 352 bytes cmem[0]

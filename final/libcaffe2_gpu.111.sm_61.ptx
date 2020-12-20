@@ -1,0 +1,420 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+
+.visible .entry _Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2_(
+.param .u32 _Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_0,
+.param .u64 _Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_1,
+.param .u64 _Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_2,
+.param .u32 _Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_3,
+.param .u32 _Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_4,
+.param .u32 _Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_5,
+.param .u32 _Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_6,
+.param .u32 _Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_7,
+.param .u32 _Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_8,
+.param .u64 _Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_9
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<19>;
+.reg .b64 %rd<20>;
+
+
+ld.param.u32 %r7, [_Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_0];
+ld.param.u64 %rd6, [_Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_1];
+ld.param.u64 %rd7, [_Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_2];
+ld.param.u32 %r8, [_Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_5];
+ld.param.u32 %r9, [_Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_6];
+ld.param.u32 %r10, [_Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_7];
+ld.param.u32 %r11, [_Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_8];
+ld.param.u64 %rd8, [_Z16MaxUnpoolForwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_9];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r12, %ctaid.x;
+mov.u32 %r13, %tid.x;
+mad.lo.s32 %r18, %r1, %r12, %r13;
+setp.ge.s32	%p1, %r18, %r7;
+@%p1 bra BB0_3;
+
+cvta.to.global.u64 %rd1, %rd6;
+cvta.to.global.u64 %rd2, %rd7;
+cvta.to.global.u64 %rd19, %rd8;
+mul.lo.s32 %r3, %r11, %r10;
+mov.u32 %r14, %nctaid.x;
+mul.lo.s32 %r4, %r14, %r1;
+
+BB0_2:
+mov.u64 %rd4, %rd19;
+div.s32 %r15, %r18, %r9;
+div.s32 %r16, %r15, %r8;
+mul.lo.s32 %r17, %r3, %r16;
+cvt.s64.s32	%rd9, %r17;
+mul.wide.s32 %rd10, %r17, 2;
+add.s64 %rd19, %rd4, %rd10;
+mul.wide.s32 %rd11, %r18, 8;
+add.s64 %rd12, %rd2, %rd11;
+ld.global.s32 %rd13, [%rd12];
+add.s64 %rd14, %rd13, %rd9;
+shl.b64 %rd15, %rd14, 1;
+add.s64 %rd16, %rd4, %rd15;
+mul.wide.s32 %rd17, %r18, 2;
+add.s64 %rd18, %rd1, %rd17;
+ld.global.u16 %rs1, [%rd18];
+st.global.u16 [%rd16], %rs1;
+add.s32 %r18, %r4, %r18;
+setp.lt.s32	%p2, %r18, %r7;
+@%p2 bra BB0_2;
+
+BB0_3:
+ret;
+}
+
+
+.visible .entry _Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2_(
+.param .u32 _Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_0,
+.param .u64 _Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_1,
+.param .u64 _Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_2,
+.param .u32 _Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_3,
+.param .u32 _Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_4,
+.param .u32 _Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_5,
+.param .u32 _Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_6,
+.param .u32 _Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_7,
+.param .u32 _Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_8,
+.param .u64 _Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_9
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<19>;
+.reg .b64 %rd<20>;
+
+
+ld.param.u32 %r7, [_Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_0];
+ld.param.u64 %rd6, [_Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_1];
+ld.param.u64 %rd7, [_Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_2];
+ld.param.u32 %r8, [_Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_5];
+ld.param.u32 %r9, [_Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_6];
+ld.param.u32 %r10, [_Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_7];
+ld.param.u32 %r11, [_Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_8];
+ld.param.u64 %rd8, [_Z17MaxUnpoolBackwardIN3c104HalfEEviPKT_PKliiiiiiPS2__param_9];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r12, %ctaid.x;
+mov.u32 %r13, %tid.x;
+mad.lo.s32 %r18, %r1, %r12, %r13;
+setp.ge.s32	%p1, %r18, %r7;
+@%p1 bra BB1_3;
+
+cvta.to.global.u64 %rd1, %rd8;
+cvta.to.global.u64 %rd2, %rd7;
+cvta.to.global.u64 %rd19, %rd6;
+mul.lo.s32 %r3, %r11, %r10;
+mov.u32 %r14, %nctaid.x;
+mul.lo.s32 %r4, %r14, %r1;
+
+BB1_2:
+mov.u64 %rd4, %rd19;
+div.s32 %r15, %r18, %r9;
+div.s32 %r16, %r15, %r8;
+mul.lo.s32 %r17, %r3, %r16;
+cvt.s64.s32	%rd9, %r17;
+mul.wide.s32 %rd10, %r17, 2;
+add.s64 %rd19, %rd4, %rd10;
+mul.wide.s32 %rd11, %r18, 8;
+add.s64 %rd12, %rd2, %rd11;
+mul.wide.s32 %rd13, %r18, 2;
+add.s64 %rd14, %rd1, %rd13;
+ld.global.s32 %rd15, [%rd12];
+add.s64 %rd16, %rd15, %rd9;
+shl.b64 %rd17, %rd16, 1;
+add.s64 %rd18, %rd4, %rd17;
+ld.global.u16 %rs1, [%rd18];
+st.global.u16 [%rd14], %rs1;
+add.s32 %r18, %r4, %r18;
+setp.lt.s32	%p2, %r18, %r7;
+@%p2 bra BB1_2;
+
+BB1_3:
+ret;
+}
+
+
+.visible .entry _Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0_(
+.param .u32 _Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0__param_0,
+.param .u64 _Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0__param_1,
+.param .u64 _Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0__param_2,
+.param .u32 _Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0__param_3,
+.param .u32 _Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0__param_4,
+.param .u32 _Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0__param_5,
+.param .u32 _Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0__param_6,
+.param .u32 _Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0__param_7,
+.param .u32 _Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0__param_8,
+.param .u64 _Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0__param_9
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<2>;
+.reg .b32 %r<19>;
+.reg .b64 %rd<20>;
+
+
+ld.param.u32 %r7, [_Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0__param_0];
+ld.param.u64 %rd6, [_Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0__param_1];
+ld.param.u64 %rd7, [_Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0__param_2];
+ld.param.u32 %r8, [_Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0__param_5];
+ld.param.u32 %r9, [_Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0__param_6];
+ld.param.u32 %r10, [_Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0__param_7];
+ld.param.u32 %r11, [_Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0__param_8];
+ld.param.u64 %rd8, [_Z16MaxUnpoolForwardIfEviPKT_PKliiiiiiPS0__param_9];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r12, %ctaid.x;
+mov.u32 %r13, %tid.x;
+mad.lo.s32 %r18, %r1, %r12, %r13;
+setp.ge.s32	%p1, %r18, %r7;
+@%p1 bra BB2_3;
+
+cvta.to.global.u64 %rd1, %rd6;
+cvta.to.global.u64 %rd2, %rd7;
+cvta.to.global.u64 %rd19, %rd8;
+mul.lo.s32 %r3, %r11, %r10;
+mov.u32 %r14, %nctaid.x;
+mul.lo.s32 %r4, %r14, %r1;
+
+BB2_2:
+mov.u64 %rd4, %rd19;
+div.s32 %r15, %r18, %r9;
+div.s32 %r16, %r15, %r8;
+mul.lo.s32 %r17, %r3, %r16;
+cvt.s64.s32	%rd9, %r17;
+mul.wide.s32 %rd10, %r17, 4;
+add.s64 %rd19, %rd4, %rd10;
+mul.wide.s32 %rd11, %r18, 8;
+add.s64 %rd12, %rd2, %rd11;
+mul.wide.s32 %rd13, %r18, 4;
+add.s64 %rd14, %rd1, %rd13;
+ld.global.f32 %f1, [%rd14];
+ld.global.s32 %rd15, [%rd12];
+add.s64 %rd16, %rd15, %rd9;
+shl.b64 %rd17, %rd16, 2;
+add.s64 %rd18, %rd4, %rd17;
+st.global.f32 [%rd18], %f1;
+add.s32 %r18, %r4, %r18;
+setp.lt.s32	%p2, %r18, %r7;
+@%p2 bra BB2_2;
+
+BB2_3:
+ret;
+}
+
+
+.visible .entry _Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0_(
+.param .u32 _Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0__param_0,
+.param .u64 _Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0__param_1,
+.param .u64 _Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0__param_2,
+.param .u32 _Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0__param_3,
+.param .u32 _Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0__param_4,
+.param .u32 _Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0__param_5,
+.param .u32 _Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0__param_6,
+.param .u32 _Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0__param_7,
+.param .u32 _Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0__param_8,
+.param .u64 _Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0__param_9
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<2>;
+.reg .b32 %r<19>;
+.reg .b64 %rd<20>;
+
+
+ld.param.u32 %r7, [_Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0__param_0];
+ld.param.u64 %rd6, [_Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0__param_1];
+ld.param.u64 %rd7, [_Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0__param_2];
+ld.param.u32 %r8, [_Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0__param_5];
+ld.param.u32 %r9, [_Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0__param_6];
+ld.param.u32 %r10, [_Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0__param_7];
+ld.param.u32 %r11, [_Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0__param_8];
+ld.param.u64 %rd8, [_Z17MaxUnpoolBackwardIfEviPKT_PKliiiiiiPS0__param_9];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r12, %ctaid.x;
+mov.u32 %r13, %tid.x;
+mad.lo.s32 %r18, %r1, %r12, %r13;
+setp.ge.s32	%p1, %r18, %r7;
+@%p1 bra BB3_3;
+
+cvta.to.global.u64 %rd1, %rd8;
+cvta.to.global.u64 %rd2, %rd7;
+cvta.to.global.u64 %rd19, %rd6;
+mul.lo.s32 %r3, %r11, %r10;
+mov.u32 %r14, %nctaid.x;
+mul.lo.s32 %r4, %r14, %r1;
+
+BB3_2:
+mov.u64 %rd4, %rd19;
+div.s32 %r15, %r18, %r9;
+div.s32 %r16, %r15, %r8;
+mul.lo.s32 %r17, %r3, %r16;
+cvt.s64.s32	%rd9, %r17;
+mul.wide.s32 %rd10, %r17, 4;
+add.s64 %rd19, %rd4, %rd10;
+mul.wide.s32 %rd11, %r18, 8;
+add.s64 %rd12, %rd2, %rd11;
+ld.global.s32 %rd13, [%rd12];
+add.s64 %rd14, %rd13, %rd9;
+shl.b64 %rd15, %rd14, 2;
+add.s64 %rd16, %rd4, %rd15;
+ld.global.f32 %f1, [%rd16];
+mul.wide.s32 %rd17, %r18, 4;
+add.s64 %rd18, %rd1, %rd17;
+st.global.f32 [%rd18], %f1;
+add.s32 %r18, %r4, %r18;
+setp.lt.s32	%p2, %r18, %r7;
+@%p2 bra BB3_2;
+
+BB3_3:
+ret;
+}
+
+
+.visible .entry _Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0_(
+.param .u32 _Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0__param_0,
+.param .u64 _Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0__param_1,
+.param .u64 _Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0__param_2,
+.param .u32 _Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0__param_3,
+.param .u32 _Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0__param_4,
+.param .u32 _Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0__param_5,
+.param .u32 _Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0__param_6,
+.param .u32 _Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0__param_7,
+.param .u32 _Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0__param_8,
+.param .u64 _Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0__param_9
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<19>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<19>;
+
+
+ld.param.u32 %r7, [_Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0__param_0];
+ld.param.u64 %rd6, [_Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0__param_1];
+ld.param.u64 %rd7, [_Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0__param_2];
+ld.param.u32 %r8, [_Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0__param_5];
+ld.param.u32 %r9, [_Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0__param_6];
+ld.param.u32 %r10, [_Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0__param_7];
+ld.param.u32 %r11, [_Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0__param_8];
+ld.param.u64 %rd8, [_Z16MaxUnpoolForwardIdEviPKT_PKliiiiiiPS0__param_9];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r12, %ctaid.x;
+mov.u32 %r13, %tid.x;
+mad.lo.s32 %r18, %r1, %r12, %r13;
+setp.ge.s32	%p1, %r18, %r7;
+@%p1 bra BB4_3;
+
+cvta.to.global.u64 %rd1, %rd6;
+cvta.to.global.u64 %rd2, %rd7;
+cvta.to.global.u64 %rd18, %rd8;
+mul.lo.s32 %r3, %r11, %r10;
+mov.u32 %r14, %nctaid.x;
+mul.lo.s32 %r4, %r14, %r1;
+
+BB4_2:
+mov.u64 %rd4, %rd18;
+div.s32 %r15, %r18, %r9;
+div.s32 %r16, %r15, %r8;
+mul.lo.s32 %r17, %r3, %r16;
+cvt.s64.s32	%rd9, %r17;
+mul.wide.s32 %rd10, %r17, 8;
+add.s64 %rd18, %rd4, %rd10;
+mul.wide.s32 %rd11, %r18, 8;
+add.s64 %rd12, %rd2, %rd11;
+add.s64 %rd13, %rd1, %rd11;
+ld.global.f64 %fd1, [%rd13];
+ld.global.s32 %rd14, [%rd12];
+add.s64 %rd15, %rd14, %rd9;
+shl.b64 %rd16, %rd15, 3;
+add.s64 %rd17, %rd4, %rd16;
+st.global.f64 [%rd17], %fd1;
+add.s32 %r18, %r4, %r18;
+setp.lt.s32	%p2, %r18, %r7;
+@%p2 bra BB4_2;
+
+BB4_3:
+ret;
+}
+
+
+.visible .entry _Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0_(
+.param .u32 _Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0__param_0,
+.param .u64 _Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0__param_1,
+.param .u64 _Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0__param_2,
+.param .u32 _Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0__param_3,
+.param .u32 _Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0__param_4,
+.param .u32 _Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0__param_5,
+.param .u32 _Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0__param_6,
+.param .u32 _Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0__param_7,
+.param .u32 _Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0__param_8,
+.param .u64 _Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0__param_9
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<19>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<19>;
+
+
+ld.param.u32 %r7, [_Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0__param_0];
+ld.param.u64 %rd6, [_Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0__param_1];
+ld.param.u64 %rd7, [_Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0__param_2];
+ld.param.u32 %r8, [_Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0__param_5];
+ld.param.u32 %r9, [_Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0__param_6];
+ld.param.u32 %r10, [_Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0__param_7];
+ld.param.u32 %r11, [_Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0__param_8];
+ld.param.u64 %rd8, [_Z17MaxUnpoolBackwardIdEviPKT_PKliiiiiiPS0__param_9];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r12, %ctaid.x;
+mov.u32 %r13, %tid.x;
+mad.lo.s32 %r18, %r1, %r12, %r13;
+setp.ge.s32	%p1, %r18, %r7;
+@%p1 bra BB5_3;
+
+cvta.to.global.u64 %rd1, %rd8;
+cvta.to.global.u64 %rd2, %rd7;
+cvta.to.global.u64 %rd18, %rd6;
+mul.lo.s32 %r3, %r11, %r10;
+mov.u32 %r14, %nctaid.x;
+mul.lo.s32 %r4, %r14, %r1;
+
+BB5_2:
+mov.u64 %rd4, %rd18;
+div.s32 %r15, %r18, %r9;
+div.s32 %r16, %r15, %r8;
+mul.lo.s32 %r17, %r3, %r16;
+cvt.s64.s32	%rd9, %r17;
+mul.wide.s32 %rd10, %r17, 8;
+add.s64 %rd18, %rd4, %rd10;
+mul.wide.s32 %rd11, %r18, 8;
+add.s64 %rd12, %rd2, %rd11;
+ld.global.s32 %rd13, [%rd12];
+add.s64 %rd14, %rd13, %rd9;
+shl.b64 %rd15, %rd14, 3;
+add.s64 %rd16, %rd4, %rd15;
+ld.global.f64 %fd1, [%rd16];
+add.s64 %rd17, %rd1, %rd11;
+st.global.f64 [%rd17], %fd1;
+add.s32 %r18, %r4, %r18;
+setp.lt.s32	%p2, %r18, %r7;
+@%p2 bra BB5_2;
+
+BB5_3:
+ret;
+}
+
+

@@ -1,0 +1,33 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z11getri_panelI6float2Li4ELi4ELi3ELi3ELi4ELb1EEviPPKT_iPKiPPS1_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z11getri_panelI6float2Li4ELi4ELi3ELi3ELi4ELb1EEviPPKT_iPKiPPS1_iPii
+    32 bytes stack frame, 28 bytes spill stores, 36 bytes spill loads
+ptxas info    : Used 48 registers, 3088 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11getri_panelIfLi4ELi4ELi3ELi3ELi4ELb1EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z11getri_panelIfLi4ELi4ELi3ELi3ELi4ELb1EEviPPKT_iPKiPPS0_iPii
+    16 bytes stack frame, 12 bytes spill stores, 12 bytes spill loads
+ptxas info    : Used 48 registers, 1552 bytes smem, 380 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11getri_panelI7double2Li4ELi4ELi3ELi3ELi4ELb1EEviPPKT_iPKiPPS1_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z11getri_panelI7double2Li4ELi4ELi3ELi3ELi4ELb1EEviPPKT_iPKiPPS1_iPii
+    8 bytes stack frame, 4 bytes spill stores, 4 bytes spill loads
+ptxas info    : Used 64 registers, 6160 bytes smem, 380 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11getri_panelIdLi4ELi4ELi3ELi3ELi4ELb1EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z11getri_panelIdLi4ELi4ELi3ELi3ELi4ELb1EEviPPKT_iPKiPPS0_iPii
+    16 bytes stack frame, 16 bytes spill stores, 20 bytes spill loads
+ptxas info    : Used 48 registers, 3088 bytes smem, 380 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11getri_panelI6float2Li4ELi4ELi3ELi3ELi4ELb0EEviPPKT_iPKiPPS1_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z11getri_panelI6float2Li4ELi4ELi3ELi3ELi4ELb0EEviPPKT_iPKiPPS1_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 3088 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11getri_panelIfLi4ELi4ELi3ELi3ELi4ELb0EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z11getri_panelIfLi4ELi4ELi3ELi3ELi4ELb0EEviPPKT_iPKiPPS0_iPii
+    16 bytes stack frame, 12 bytes spill stores, 12 bytes spill loads
+ptxas info    : Used 48 registers, 1552 bytes smem, 380 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11getri_panelI7double2Li4ELi4ELi3ELi3ELi4ELb0EEviPPKT_iPKiPPS1_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z11getri_panelI7double2Li4ELi4ELi3ELi3ELi4ELb0EEviPPKT_iPKiPPS1_iPii
+    8 bytes stack frame, 4 bytes spill stores, 4 bytes spill loads
+ptxas info    : Used 64 registers, 6160 bytes smem, 380 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11getri_panelIdLi4ELi4ELi3ELi3ELi4ELb0EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z11getri_panelIdLi4ELi4ELi3ELi3ELi4ELb0EEviPPKT_iPKiPPS0_iPii
+    16 bytes stack frame, 16 bytes spill stores, 20 bytes spill loads
+ptxas info    : Used 48 registers, 3088 bytes smem, 380 bytes cmem[0], 24 bytes cmem[2]

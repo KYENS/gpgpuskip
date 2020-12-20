@@ -1,0 +1,81 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTSi[8];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTTSd[8];
+.global .align 8 .b8 _ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE[56];
+.global .align 8 .b8 _ZTVN4gloo13EnforceNotMetE[40];
+.global .align 8 .b8 _ZTVN4gloo4nccl6NCCLOpIaEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl8ReduceOpIaEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11AllreduceOpIaEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl15ReduceScatterOpIaEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11BroadcastOpIaEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11AllgatherOpIaEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl6NCCLOpIhEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl8ReduceOpIhEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11AllreduceOpIhEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl15ReduceScatterOpIhEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11BroadcastOpIhEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11AllgatherOpIhEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl6NCCLOpIiEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl8ReduceOpIiEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11AllreduceOpIiEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl15ReduceScatterOpIiEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11BroadcastOpIiEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11AllgatherOpIiEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl6NCCLOpIlEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl8ReduceOpIlEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11AllreduceOpIlEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl15ReduceScatterOpIlEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11BroadcastOpIlEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11AllgatherOpIlEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl6NCCLOpImEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl8ReduceOpImEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11AllreduceOpImEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl15ReduceScatterOpImEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11BroadcastOpImEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11AllgatherOpImEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl6NCCLOpINS_7float16EEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl8ReduceOpINS_7float16EEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11AllreduceOpINS_7float16EEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl15ReduceScatterOpINS_7float16EEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11BroadcastOpINS_7float16EEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11AllgatherOpINS_7float16EEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl6NCCLOpIfEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl8ReduceOpIfEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11AllreduceOpIfEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl15ReduceScatterOpIfEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11BroadcastOpIfEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11AllgatherOpIfEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl6NCCLOpIdEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl8ReduceOpIdEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11AllreduceOpIdEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl15ReduceScatterOpIdEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11BroadcastOpIdEE[48];
+.global .align 8 .b8 _ZTVN4gloo4nccl11AllgatherOpIdEE[48];
+.global .align 8 .b8 _ZTVSt23_Sp_counted_ptr_inplaceIN4gloo4nccl11NCCLContextIaEESaIS3_ELN9__gnu_cxx12_Lock_policyE2EE[56];
+.global .align 8 .b8 _ZTVSt23_Sp_counted_ptr_inplaceIN4gloo4nccl11NCCLContextIhEESaIS3_ELN9__gnu_cxx12_Lock_policyE2EE[56];
+.global .align 8 .b8 _ZTVSt23_Sp_counted_ptr_inplaceIN4gloo4nccl11NCCLContextIiEESaIS3_ELN9__gnu_cxx12_Lock_policyE2EE[56];
+.global .align 8 .b8 _ZTVSt23_Sp_counted_ptr_inplaceIN4gloo4nccl11NCCLContextIlEESaIS3_ELN9__gnu_cxx12_Lock_policyE2EE[56];
+.global .align 8 .b8 _ZTVSt23_Sp_counted_ptr_inplaceIN4gloo4nccl11NCCLContextImEESaIS3_ELN9__gnu_cxx12_Lock_policyE2EE[56];
+.global .align 8 .b8 _ZTVSt23_Sp_counted_ptr_inplaceIN4gloo4nccl11NCCLContextINS0_7float16EEESaIS4_ELN9__gnu_cxx12_Lock_policyE2EE[56];
+.global .align 8 .b8 _ZTVSt23_Sp_counted_ptr_inplaceIN4gloo4nccl11NCCLContextIfEESaIS3_ELN9__gnu_cxx12_Lock_policyE2EE[56];
+.global .align 8 .b8 _ZTVSt23_Sp_counted_ptr_inplaceIN4gloo4nccl11NCCLContextIdEESaIS3_ELN9__gnu_cxx12_Lock_policyE2EE[56];
+
+

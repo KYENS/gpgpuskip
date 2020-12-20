@@ -1,0 +1,81 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVSt9exception[40];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe211StumpFuncOpIffNS_11CUDAContextEEE[136];
+
+.visible .entry _ZN6caffe272_GLOBAL__N__48_tmpxft_00006fc3_00000000_7_stump_func_op_cpp1_ii_04fc0c0d15StumpFuncKernelIffEEviT_T0_S3_PKS2_PS3_(
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00006fc3_00000000_7_stump_func_op_cpp1_ii_04fc0c0d15StumpFuncKernelIffEEviT_T0_S3_PKS2_PS3__param_0,
+.param .f32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00006fc3_00000000_7_stump_func_op_cpp1_ii_04fc0c0d15StumpFuncKernelIffEEviT_T0_S3_PKS2_PS3__param_1,
+.param .f32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00006fc3_00000000_7_stump_func_op_cpp1_ii_04fc0c0d15StumpFuncKernelIffEEviT_T0_S3_PKS2_PS3__param_2,
+.param .f32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00006fc3_00000000_7_stump_func_op_cpp1_ii_04fc0c0d15StumpFuncKernelIffEEviT_T0_S3_PKS2_PS3__param_3,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00006fc3_00000000_7_stump_func_op_cpp1_ii_04fc0c0d15StumpFuncKernelIffEEviT_T0_S3_PKS2_PS3__param_4,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00006fc3_00000000_7_stump_func_op_cpp1_ii_04fc0c0d15StumpFuncKernelIffEEviT_T0_S3_PKS2_PS3__param_5
+)
+{
+.reg .pred %p<4>;
+.reg .f32 %f<6>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<14>;
+
+
+ld.param.f32 %f1, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00006fc3_00000000_7_stump_func_op_cpp1_ii_04fc0c0d15StumpFuncKernelIffEEviT_T0_S3_PKS2_PS3__param_1];
+ld.param.f32 %f2, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00006fc3_00000000_7_stump_func_op_cpp1_ii_04fc0c0d15StumpFuncKernelIffEEviT_T0_S3_PKS2_PS3__param_2];
+ld.param.f32 %f3, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00006fc3_00000000_7_stump_func_op_cpp1_ii_04fc0c0d15StumpFuncKernelIffEEviT_T0_S3_PKS2_PS3__param_3];
+ld.param.u64 %rd8, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00006fc3_00000000_7_stump_func_op_cpp1_ii_04fc0c0d15StumpFuncKernelIffEEviT_T0_S3_PKS2_PS3__param_4];
+ld.param.u64 %rd9, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00006fc3_00000000_7_stump_func_op_cpp1_ii_04fc0c0d15StumpFuncKernelIffEEviT_T0_S3_PKS2_PS3__param_5];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd13, %r4;
+ld.param.s32 %rd2, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00006fc3_00000000_7_stump_func_op_cpp1_ii_04fc0c0d15StumpFuncKernelIffEEviT_T0_S3_PKS2_PS3__param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB0_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB0_2:
+shl.b64 %rd10, %rd13, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f32 %f4, [%rd11];
+setp.gtu.f32	%p2, %f4, %f1;
+selp.f32	%f5, %f3, %f2, %p2;
+add.s64 %rd12, %rd3, %rd10;
+st.global.f32 [%rd12], %f5;
+add.s64 %rd13, %rd5, %rd13;
+setp.lt.u64	%p3, %rd13, %rd2;
+@%p3 bra BB0_2;
+
+BB0_3:
+ret;
+}
+
+

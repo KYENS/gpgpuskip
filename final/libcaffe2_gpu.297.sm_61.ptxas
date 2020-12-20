@@ -1,0 +1,9 @@
+ptxas info    : 1344 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe26detail83_GLOBAL__N__59_tmpxft_00007409_00000000_7_recurrent_network_op_gpu_cpp1_ii_102f55b125initRecurrentInput_kernelIN3c104HalfEEEvmPKT_PS5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe26detail83_GLOBAL__N__59_tmpxft_00007409_00000000_7_recurrent_network_op_gpu_cpp1_ii_102f55b125initRecurrentInput_kernelIN3c104HalfEEEvmPKT_PS5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe26detail83_GLOBAL__N__59_tmpxft_00007409_00000000_7_recurrent_network_op_gpu_cpp1_ii_102f55b125initRecurrentInput_kernelIfEEvmPKT_PS3_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe26detail83_GLOBAL__N__59_tmpxft_00007409_00000000_7_recurrent_network_op_gpu_cpp1_ii_102f55b125initRecurrentInput_kernelIfEEvmPKT_PS3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 344 bytes cmem[0]
