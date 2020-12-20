@@ -1,0 +1,97 @@
+ptxas info    : 7997 bytes gmem
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILi7EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILi7EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 480 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILi7EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILi7EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 480 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILi7EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_S2_IlLi4EiS4_ES2_IS3_Li3EiS4_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILi7EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_S2_IlLi4EiS4_ES2_IS3_Li3EiS4_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 480 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILi3EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILi3EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 480 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILi3EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILi3EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 480 bytes cmem[0], 48 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILi3EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_S2_IlLi4EiS4_ES2_IS3_Li3EiS4_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILi3EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_S2_IlLi4EiS4_ES2_IS3_Li3EiS4_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 480 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43SpatialFractionalMaxPooling_updateGradInputIfEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_E' for 'sm_61'
+ptxas info    : Function properties for _Z43SpatialFractionalMaxPooling_updateGradInputIfEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z43SpatialFractionalMaxPooling_updateGradInputIdEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_E' for 'sm_61'
+ptxas info    : Function properties for _Z43SpatialFractionalMaxPooling_updateGradInputIdEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z43SpatialFractionalMaxPooling_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S2_IlLi4EiS4_E' for 'sm_61'
+ptxas info    : Function properties for _Z43SpatialFractionalMaxPooling_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S2_IlLi4EiS4_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILi5EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILi5EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 480 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILi5EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILi5EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 480 bytes cmem[0], 48 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILi5EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_S2_IlLi4EiS4_ES2_IS3_Li3EiS4_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILi5EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_S2_IlLi4EiS4_ES2_IS3_Li3EiS4_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 480 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILi6EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILi6EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 480 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILi6EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILi6EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 480 bytes cmem[0], 48 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILi6EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_S2_IlLi4EiS4_ES2_IS3_Li3EiS4_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILi6EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_S2_IlLi4EiS4_ES2_IS3_Li3EiS4_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 480 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILi2EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILi2EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 480 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILi2EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILi2EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 480 bytes cmem[0], 48 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILi2EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_S2_IlLi4EiS4_ES2_IS3_Li3EiS4_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILi2EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_S2_IlLi4EiS4_ES2_IS3_Li3EiS4_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 480 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILin1EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILin1EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 480 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILin1EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILin1EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 480 bytes cmem[0], 48 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILin1EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_S2_IlLi4EiS4_ES2_IS3_Li3EiS4_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILin1EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_S2_IlLi4EiS4_ES2_IS3_Li3EiS4_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 480 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILi4EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILi4EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 480 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILi4EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILi4EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_S0_IlLi4EiS2_ES0_IS1_Li3EiS2_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 480 bytes cmem[0], 48 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z40SpatialFractionalMaxPooling_updateOutputILi4EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_S2_IlLi4EiS4_ES2_IS3_Li3EiS4_Eii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialFractionalMaxPooling_updateOutputILi4EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_S2_IlLi4EiS4_ES2_IS3_Li3EiS4_Eii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 480 bytes cmem[0], 20 bytes cmem[2]

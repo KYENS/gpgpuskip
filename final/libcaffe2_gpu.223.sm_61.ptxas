@@ -1,0 +1,49 @@
+ptxas info    : 1088 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735416PadImageEdgeNHWCIfEEviPKT_iiiiiiiiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735416PadImageEdgeNHWCIfEEviPKT_iiiiiiiiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735419PadImageReflectNCHWIfEEviPKT_iiiiiiiiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735419PadImageReflectNCHWIfEEviPKT_iiiiiiiiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735425PadImageGradientConstNHWCIfEEviPKT_iiiiiiiiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735425PadImageGradientConstNHWCIfEEviPKT_iiiiiiiiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735427PadImageGradientReflectNCHWIfEEviPKT_iiiiiiiiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735427PadImageGradientReflectNCHWIfEEviPKT_iiiiiiiiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735417PadImageConstNHWCIfEEviPKT_iiiiiiiiS2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735417PadImageConstNHWCIfEEviPKT_iiiiiiiiS2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735424PadImageGradientEdgeNHWCIfEEviPKT_iiiiiiiiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735424PadImageGradientEdgeNHWCIfEEviPKT_iiiiiiiiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735419PadImageReflectNHWCIfEEviPKT_iiiiiiiiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735419PadImageReflectNHWCIfEEviPKT_iiiiiiiiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735417PadImageConstNCHWIfEEviPKT_iiiiiiiiS2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735417PadImageConstNCHWIfEEviPKT_iiiiiiiiS2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735424PadImageGradientEdgeNCHWIfEEviPKT_iiiiiiiiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735424PadImageGradientEdgeNCHWIfEEviPKT_iiiiiiiiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735425PadImageGradientConstNCHWIfEEviPKT_iiiiiiiiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735425PadImageGradientConstNCHWIfEEviPKT_iiiiiiiiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735416PadImageEdgeNCHWIfEEviPKT_iiiiiiiiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735416PadImageEdgeNCHWIfEEviPKT_iiiiiiiiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735427PadImageGradientReflectNHWCIfEEviPKT_iiiiiiiiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006417_00000000_7_pad_op_gpu_cpp1_ii_7dab735427PadImageGradientReflectNHWCIfEEviPKT_iiiiiiiiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 376 bytes cmem[0]

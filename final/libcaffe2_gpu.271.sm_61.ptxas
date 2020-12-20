@@ -1,0 +1,37 @@
+ptxas info    : 904 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe267_GLOBAL__N__43_tmpxft_00006df8_00000000_7_prelu_op_cpp1_ii_889f481a24PReluWGradientKernelNCHWIfEEviiiPKT_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe267_GLOBAL__N__43_tmpxft_00006df8_00000000_7_prelu_op_cpp1_ii_889f481a24PReluWGradientKernelNCHWIfEEviiiPKT_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 24 bytes smem, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe267_GLOBAL__N__43_tmpxft_00006df8_00000000_7_prelu_op_cpp1_ii_889f481a15PReluKernelNCHWIfEEviiiPKT_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe267_GLOBAL__N__43_tmpxft_00006df8_00000000_7_prelu_op_cpp1_ii_889f481a15PReluKernelNCHWIfEEviiiPKT_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe267_GLOBAL__N__43_tmpxft_00006df8_00000000_7_prelu_op_cpp1_ii_889f481a24PReluWGradientKernelNHWCIfEEviiiPKT_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe267_GLOBAL__N__43_tmpxft_00006df8_00000000_7_prelu_op_cpp1_ii_889f481a24PReluWGradientKernelNHWCIfEEviiiPKT_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 24 bytes smem, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe267_GLOBAL__N__43_tmpxft_00006df8_00000000_7_prelu_op_cpp1_ii_889f481a30PReluSharedWGradientKernelNCHWIfEEviPKT_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe267_GLOBAL__N__43_tmpxft_00006df8_00000000_7_prelu_op_cpp1_ii_889f481a30PReluSharedWGradientKernelNCHWIfEEviPKT_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 24 bytes smem, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe267_GLOBAL__N__43_tmpxft_00006df8_00000000_7_prelu_op_cpp1_ii_889f481a23PReluGradientKernelNCHWIfEEviiiPKT_S4_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe267_GLOBAL__N__43_tmpxft_00006df8_00000000_7_prelu_op_cpp1_ii_889f481a23PReluGradientKernelNCHWIfEEviiiPKT_S4_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe267_GLOBAL__N__43_tmpxft_00006df8_00000000_7_prelu_op_cpp1_ii_889f481a15PReluKernelNHWCIfEEviiPKT_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe267_GLOBAL__N__43_tmpxft_00006df8_00000000_7_prelu_op_cpp1_ii_889f481a15PReluKernelNHWCIfEEviiPKT_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe267_GLOBAL__N__43_tmpxft_00006df8_00000000_7_prelu_op_cpp1_ii_889f481a19PReluGradientKernelIfEEviPKT_S4_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe267_GLOBAL__N__43_tmpxft_00006df8_00000000_7_prelu_op_cpp1_ii_889f481a19PReluGradientKernelIfEEviPKT_S4_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe267_GLOBAL__N__43_tmpxft_00006df8_00000000_7_prelu_op_cpp1_ii_889f481a11PReluKernelIfEEviPKT_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe267_GLOBAL__N__43_tmpxft_00006df8_00000000_7_prelu_op_cpp1_ii_889f481a11PReluKernelIfEEviPKT_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe267_GLOBAL__N__43_tmpxft_00006df8_00000000_7_prelu_op_cpp1_ii_889f481a23PReluGradientKernelNHWCIfEEviiPKT_S4_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe267_GLOBAL__N__43_tmpxft_00006df8_00000000_7_prelu_op_cpp1_ii_889f481a23PReluGradientKernelNHWCIfEEviiPKT_S4_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 360 bytes cmem[0]

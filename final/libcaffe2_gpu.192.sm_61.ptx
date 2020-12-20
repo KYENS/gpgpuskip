@@ -1,0 +1,130 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVSt9exception[40];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe213FloatToHalfOpINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe213HalfToFloatOpINS_11CUDAContextEEE[136];
+
+.visible .entry _ZN6caffe273_GLOBAL__N__49_tmpxft_00005d45_00000000_7_half_float_ops_cpp1_ii_ed0f140117FloatToHalfKernelEiPKfP6__half(
+.param .u32 _ZN6caffe273_GLOBAL__N__49_tmpxft_00005d45_00000000_7_half_float_ops_cpp1_ii_ed0f140117FloatToHalfKernelEiPKfP6__half_param_0,
+.param .u64 _ZN6caffe273_GLOBAL__N__49_tmpxft_00005d45_00000000_7_half_float_ops_cpp1_ii_ed0f140117FloatToHalfKernelEiPKfP6__half_param_1,
+.param .u64 _ZN6caffe273_GLOBAL__N__49_tmpxft_00005d45_00000000_7_half_float_ops_cpp1_ii_ed0f140117FloatToHalfKernelEiPKfP6__half_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .f32 %f<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe273_GLOBAL__N__49_tmpxft_00005d45_00000000_7_half_float_ops_cpp1_ii_ed0f140117FloatToHalfKernelEiPKfP6__half_param_1];
+ld.param.u64 %rd9, [_ZN6caffe273_GLOBAL__N__49_tmpxft_00005d45_00000000_7_half_float_ops_cpp1_ii_ed0f140117FloatToHalfKernelEiPKfP6__half_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe273_GLOBAL__N__49_tmpxft_00005d45_00000000_7_half_float_ops_cpp1_ii_ed0f140117FloatToHalfKernelEiPKfP6__half_param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB0_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB0_2:
+shl.b64 %rd10, %rd14, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f32 %f1, [%rd11];
+
+	{ cvt.rn.f16.f32 %rs1, %f1;}
+
+
+	shl.b64 %rd12, %rd14, 1;
+add.s64 %rd13, %rd3, %rd12;
+st.global.u16 [%rd13], %rs1;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB0_2;
+
+BB0_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe273_GLOBAL__N__49_tmpxft_00005d45_00000000_7_half_float_ops_cpp1_ii_ed0f140117HalfToFloatKernelEiPK6__halfPf(
+.param .u32 _ZN6caffe273_GLOBAL__N__49_tmpxft_00005d45_00000000_7_half_float_ops_cpp1_ii_ed0f140117HalfToFloatKernelEiPK6__halfPf_param_0,
+.param .u64 _ZN6caffe273_GLOBAL__N__49_tmpxft_00005d45_00000000_7_half_float_ops_cpp1_ii_ed0f140117HalfToFloatKernelEiPK6__halfPf_param_1,
+.param .u64 _ZN6caffe273_GLOBAL__N__49_tmpxft_00005d45_00000000_7_half_float_ops_cpp1_ii_ed0f140117HalfToFloatKernelEiPK6__halfPf_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .f32 %f<2>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe273_GLOBAL__N__49_tmpxft_00005d45_00000000_7_half_float_ops_cpp1_ii_ed0f140117HalfToFloatKernelEiPK6__halfPf_param_1];
+ld.param.u64 %rd9, [_ZN6caffe273_GLOBAL__N__49_tmpxft_00005d45_00000000_7_half_float_ops_cpp1_ii_ed0f140117HalfToFloatKernelEiPK6__halfPf_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe273_GLOBAL__N__49_tmpxft_00005d45_00000000_7_half_float_ops_cpp1_ii_ed0f140117HalfToFloatKernelEiPK6__halfPf_param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB1_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB1_2:
+shl.b64 %rd10, %rd14, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rs1, [%rd11];
+
+	{ cvt.f32.f16 %f1, %rs1;}
+
+
+	shl.b64 %rd12, %rd14, 2;
+add.s64 %rd13, %rd3, %rd12;
+st.global.f32 [%rd13], %f1;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB1_2;
+
+BB1_3:
+ret;
+}
+
+

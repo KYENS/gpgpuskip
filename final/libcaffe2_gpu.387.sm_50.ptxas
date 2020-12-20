@@ -1,0 +1,65 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z20magma_sgemmEx_kernelI6__halffLb0ELb1ELi6ELi4ELi6ELi3ELi4ELb0EEviiiPKviS2_iPviiiPKfS5_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z20magma_sgemmEx_kernelI6__halffLb0ELb1ELi6ELi4ELi6ELi3ELi4ELb0EEviiiPKviS2_iPviiiPKfS5_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 59 registers, 8704 bytes smem, 420 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20magma_sgemmEx_kernelIffLb0ELb1ELi6ELi4ELi6ELi3ELi4ELb0EEviiiPKviS1_iPviiiPKfS4_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z20magma_sgemmEx_kernelIffLb0ELb1ELi6ELi4ELi6ELi3ELi4ELb0EEviiiPKviS1_iPviiiPKfS4_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 60 registers, 8704 bytes smem, 420 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20magma_sgemmEx_kernelI6__halfS0_Lb0ELb1ELi6ELi4ELi6ELi3ELi4ELb0EEviiiPKviS2_iPviiiPKfS5_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z20magma_sgemmEx_kernelI6__halfS0_Lb0ELb1ELi6ELi4ELi6ELi3ELi4ELb0EEviiiPKviS2_iPviiiPKfS5_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 59 registers, 8704 bytes smem, 420 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20magma_sgemmEx_kernelIafLb0ELb1ELi6ELi4ELi6ELi3ELi4ELb0EEviiiPKviS1_iPviiiPKfS4_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z20magma_sgemmEx_kernelIafLb0ELb1ELi6ELi4ELi6ELi3ELi4ELb0EEviiiPKviS1_iPviiiPKfS4_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 59 registers, 8704 bytes smem, 420 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20magma_sgemmEx_kernelI6__halffLb1ELb1ELi6ELi3ELi6ELi3ELi4ELb0EEviiiPKviS2_iPviiiPKfS5_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z20magma_sgemmEx_kernelI6__halffLb1ELb1ELi6ELi3ELi6ELi3ELi4ELb0EEviiiPKviS2_iPviiiPKfS5_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 71 registers, 4352 bytes smem, 420 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20magma_sgemmEx_kernelIffLb1ELb1ELi6ELi3ELi6ELi3ELi4ELb0EEviiiPKviS1_iPviiiPKfS4_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z20magma_sgemmEx_kernelIffLb1ELb1ELi6ELi3ELi6ELi3ELi4ELb0EEviiiPKviS1_iPviiiPKfS4_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 74 registers, 4352 bytes smem, 420 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20magma_sgemmEx_kernelI6__halfS0_Lb1ELb1ELi6ELi3ELi6ELi3ELi4ELb0EEviiiPKviS2_iPviiiPKfS5_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z20magma_sgemmEx_kernelI6__halfS0_Lb1ELb1ELi6ELi3ELi6ELi3ELi4ELb0EEviiiPKviS2_iPviiiPKfS5_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 71 registers, 4352 bytes smem, 420 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20magma_sgemmEx_kernelIafLb1ELb1ELi6ELi3ELi6ELi3ELi4ELb0EEviiiPKviS1_iPviiiPKfS4_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z20magma_sgemmEx_kernelIafLb1ELb1ELi6ELi3ELi6ELi3ELi4ELb0EEviiiPKviS1_iPviiiPKfS4_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 82 registers, 4352 bytes smem, 420 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20magma_sgemmEx_kernelI6__halffLb0ELb0ELi6ELi3ELi5ELi3ELi3ELb0EEviiiPKviS2_iPviiiPKfS5_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z20magma_sgemmEx_kernelI6__halffLb0ELb0ELi6ELi3ELi5ELi3ELi3ELb0EEviiiPKviS2_iPviiiPKfS5_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 71 registers, 3328 bytes smem, 420 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20magma_sgemmEx_kernelIffLb0ELb0ELi6ELi3ELi5ELi3ELi3ELb0EEviiiPKviS1_iPviiiPKfS4_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z20magma_sgemmEx_kernelIffLb0ELb0ELi6ELi3ELi5ELi3ELi3ELb0EEviiiPKviS1_iPviiiPKfS4_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 69 registers, 3328 bytes smem, 420 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20magma_sgemmEx_kernelI6__halfS0_Lb0ELb0ELi6ELi3ELi5ELi3ELi3ELb0EEviiiPKviS2_iPviiiPKfS5_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z20magma_sgemmEx_kernelI6__halfS0_Lb0ELb0ELi6ELi3ELi5ELi3ELi3ELb0EEviiiPKviS2_iPviiiPKfS5_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 71 registers, 3328 bytes smem, 420 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20magma_sgemmEx_kernelIafLb0ELb0ELi6ELi3ELi5ELi3ELi3ELb0EEviiiPKviS1_iPviiiPKfS4_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z20magma_sgemmEx_kernelIafLb0ELb0ELi6ELi3ELi5ELi3ELi3ELb0EEviiiPKviS1_iPviiiPKfS4_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 71 registers, 3328 bytes smem, 420 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20magma_sgemmEx_kernelI6__halffLb1ELb0ELi6ELi4ELi6ELi3ELi4ELb0EEviiiPKviS2_iPviiiPKfS5_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z20magma_sgemmEx_kernelI6__halffLb1ELb0ELi6ELi4ELi6ELi3ELi4ELb0EEviiiPKviS2_iPviiiPKfS5_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 80 registers, 8704 bytes smem, 420 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20magma_sgemmEx_kernelIffLb1ELb0ELi6ELi4ELi6ELi3ELi4ELb0EEviiiPKviS1_iPviiiPKfS4_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z20magma_sgemmEx_kernelIffLb1ELb0ELi6ELi4ELi6ELi3ELi4ELb0EEviiiPKviS1_iPviiiPKfS4_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 83 registers, 8704 bytes smem, 420 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20magma_sgemmEx_kernelI6__halfS0_Lb1ELb0ELi6ELi4ELi6ELi3ELi4ELb0EEviiiPKviS2_iPviiiPKfS5_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z20magma_sgemmEx_kernelI6__halfS0_Lb1ELb0ELi6ELi4ELi6ELi3ELi4ELb0EEviiiPKviS2_iPviiiPKfS5_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 80 registers, 8704 bytes smem, 420 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20magma_sgemmEx_kernelIafLb1ELb0ELi6ELi4ELi6ELi3ELi4ELb0EEviiiPKviS1_iPviiiPKfS4_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z20magma_sgemmEx_kernelIafLb1ELb0ELi6ELi4ELi6ELi3ELi4ELb0EEviiiPKviS1_iPviiiPKfS4_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 80 registers, 8704 bytes smem, 420 bytes cmem[0]

@@ -1,0 +1,129 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi4ELi1ELb1ELi6EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi4ELi1ELb1ELi6EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 45 registers, 8192 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi4ELi4ELb0ELi6EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi4ELi4ELb0ELi6EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 95 registers, 20480 bytes smem, 412 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi8ELi1ELb1ELi6EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi8ELi1ELb1ELi6EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 59 registers, 16384 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi8ELi4ELb0ELi6EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi8ELi4ELb0ELi6EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 116 registers, 40960 bytes smem, 412 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi4ELi1ELb1ELi2EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi4ELi1ELb1ELi2EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 8192 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi4ELi4ELb0ELi2EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi4ELi4ELb0ELi2EEviiiPKaiS1_iPiiPKiS4_iii
+    16 bytes stack frame, 16 bytes spill stores, 12 bytes spill loads
+ptxas info    : Used 64 registers, 20480 bytes smem, 412 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi8ELi1ELb1ELi2EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi8ELi1ELb1ELi2EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 59 registers, 16384 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi8ELi4ELb0ELi2EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi8ELi4ELb0ELi2EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 116 registers, 40960 bytes smem, 412 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi4ELi1ELb1ELi8EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi4ELi1ELb1ELi8EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 59 registers, 8192 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi4ELi4ELb0ELi8EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi4ELi4ELb0ELi8EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 114 registers, 20480 bytes smem, 412 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi8ELi1ELb1ELi8EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi8ELi1ELb1ELi8EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 57 registers, 16384 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi8ELi4ELb0ELi8EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi8ELi4ELb0ELi8EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 120 registers, 40960 bytes smem, 412 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi4ELi1ELb1ELi4EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi4ELi1ELb1ELi4EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 8192 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi4ELi4ELb0ELi4EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi4ELi4ELb0ELi4EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 64 registers, 20480 bytes smem, 412 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi8ELi1ELb1ELi4EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi8ELi1ELb1ELi4EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 59 registers, 16384 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi8ELi4ELb0ELi4EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi8ELi4ELb0ELi4EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 116 registers, 40960 bytes smem, 412 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi4ELi1ELb1ELi5EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi4ELi1ELb1ELi5EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 8192 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi4ELi4ELb0ELi5EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi4ELi4ELb0ELi5EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 79 registers, 20480 bytes smem, 412 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi8ELi1ELb1ELi5EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi8ELi1ELb1ELi5EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 59 registers, 16384 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi8ELi4ELb0ELi5EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi8ELi4ELb0ELi5EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 116 registers, 40960 bytes smem, 412 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi4ELi1ELb1ELi1EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi4ELi1ELb1ELi1EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 8192 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi4ELi4ELb0ELi1EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi4ELi4ELb0ELi1EEviiiPKaiS1_iPiiPKiS4_iii
+    16 bytes stack frame, 16 bytes spill stores, 12 bytes spill loads
+ptxas info    : Used 64 registers, 20480 bytes smem, 412 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi8ELi1ELb1ELi1EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi8ELi1ELb1ELi1EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 59 registers, 16384 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi8ELi4ELb0ELi1EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi8ELi4ELb0ELi1EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 116 registers, 40960 bytes smem, 412 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi4ELi1ELb1ELi7EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi4ELi1ELb1ELi7EEviiiPKaiS1_iPiiPKiS4_iii
+    40 bytes stack frame, 32 bytes spill stores, 32 bytes spill loads
+ptxas info    : Used 40 registers, 8192 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi4ELi4ELb0ELi7EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi4ELi4ELb0ELi7EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 110 registers, 20480 bytes smem, 412 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi8ELi1ELb1ELi7EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi8ELi1ELb1ELi7EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 59 registers, 16384 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi8ELi4ELb0ELi7EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi8ELi4ELb0ELi7EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 116 registers, 40960 bytes smem, 412 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi4ELi1ELb1ELi3EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi4ELi1ELb1ELi3EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 8192 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi4ELi4ELb0ELi3EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi4ELi4ELb0ELi3EEviiiPKaiS1_iPiiPKiS4_iii
+    16 bytes stack frame, 24 bytes spill stores, 16 bytes spill loads
+ptxas info    : Used 64 registers, 20480 bytes smem, 412 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi8ELi1ELb1ELi3EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi32ELi4ELi8ELi8ELi1ELb1ELi3EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 59 registers, 16384 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi8ELi4ELb0ELi3EEviiiPKaiS1_iPiiPKiS4_iii' for 'sm_61'
+ptxas info    : Function properties for _Z19gemmSN_kernel_int32ILi256ELi16ELi4ELi8ELi8ELi4ELb0ELi3EEviiiPKaiS1_iPiiPKiS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 116 registers, 40960 bytes smem, 412 bytes cmem[0], 8 bytes cmem[2]

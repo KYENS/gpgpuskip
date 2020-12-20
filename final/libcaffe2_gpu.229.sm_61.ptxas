@@ -1,0 +1,9 @@
+ptxas info    : 1000 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 384 bytes cmem[0]

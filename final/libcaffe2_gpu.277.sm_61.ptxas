@@ -1,0 +1,57 @@
+ptxas info    : 2673 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec815reduce_sum_likeIN3c104HalfELi128EEEvPKT_PS4_iii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec815reduce_sum_likeIN3c104HalfELi128EEEvPKT_PS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 24 bytes smem, 348 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec815reduce_sum_likeIfLi64EEEvPKT_PS2_iii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec815reduce_sum_likeIfLi64EEEvPKT_PS2_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 16 bytes smem, 348 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIfiNS_3SumEE9Policy600EPKfPfiS2_fEEvT0_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIfiNS_3SumEE9Policy600EPKfPfiS2_fEEvT0_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 44 bytes smem, 348 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec821reduce_sum_like_post1IN3c104HalfEEEvPKT_PS4_ii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec821reduce_sum_like_post1IN3c104HalfEEEvPKT_PS4_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIfiNS_3SumEE9Policy600EPfS5_iS2_fEEvT0_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIfiNS_3SumEE9Policy600EPfS5_iS2_fEEvT0_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 44 bytes smem, 348 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec815reduce_sum_likeIfLi512EEEvPKT_PS2_iii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec815reduce_sum_likeIfLi512EEEvPKT_PS2_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 84 bytes smem, 348 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec815reduce_sum_likeIN3c104HalfELi32EEEvPKT_PS4_iii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec815reduce_sum_likeIN3c104HalfELi32EEEvPKT_PS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 12 bytes smem, 348 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec815reduce_sum_likeIN3c104HalfELi512EEEvPKT_PS4_iii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec815reduce_sum_likeIN3c104HalfELi512EEEvPKT_PS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 84 bytes smem, 348 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec815reduce_sum_likeIfLi128EEEvPKT_PS2_iii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec815reduce_sum_likeIfLi128EEEvPKT_PS2_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 24 bytes smem, 348 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec815reduce_sum_likeIfLi32EEEvPKT_PS2_iii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec815reduce_sum_likeIfLi32EEEvPKT_PS2_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 12 bytes smem, 348 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub18DeviceReduceKernelINS_18DeviceReducePolicyIfiNS_3SumEE9Policy600EPKfPfiS2_EEvT0_T1_T2_NS_13GridEvenShareISA_EET3_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub18DeviceReduceKernelINS_18DeviceReducePolicyIfiNS_3SumEE9Policy600EPKfPfiS2_EEvT0_T1_T2_NS_13GridEvenShareISA_EET3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 44 bytes smem, 381 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec821reduce_sum_like_post1IfEEvPKT_PS2_ii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec821reduce_sum_like_post1IfEEvPKT_PS2_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec815reduce_sum_likeIN3c104HalfELi64EEEvPKT_PS4_iii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe274_GLOBAL__N__50_tmpxft_00006fe2_00000000_7_elementwise_ops_cpp1_ii_a0828ec815reduce_sum_likeIN3c104HalfELi64EEEvPKT_PS4_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 16 bytes smem, 348 bytes cmem[0]

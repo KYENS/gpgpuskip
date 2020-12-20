@@ -1,0 +1,133 @@
+ptxas info    : 785 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIffLi6EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIffLi6EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 24 bytes smem, 688 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIiiLi6EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIiiLi6EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 24 bytes smem, 688 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIddLi6EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIddLi6EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 48 bytes smem, 688 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIllLi6EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIllLi6EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 48 bytes smem, 688 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIffLi2EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIffLi2EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 24 bytes smem, 464 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIiiLi2EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIiiLi2EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 24 bytes smem, 464 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIddLi2EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIddLi2EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 48 bytes smem, 464 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIllLi2EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIllLi2EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 48 bytes smem, 464 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIffLi8EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIffLi8EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 24 bytes smem, 800 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIiiLi8EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIiiLi8EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 24 bytes smem, 800 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIddLi8EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIddLi8EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 48 bytes smem, 800 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIllLi8EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIllLi8EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 48 bytes smem, 800 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIffLi4EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIffLi4EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 24 bytes smem, 576 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIiiLi4EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIiiLi4EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 24 bytes smem, 576 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIddLi4EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIddLi4EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 48 bytes smem, 576 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIllLi4EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIllLi4EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 48 bytes smem, 576 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIffLi7EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIffLi7EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 24 bytes smem, 744 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIiiLi7EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIiiLi7EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 24 bytes smem, 744 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIddLi7EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIddLi7EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 48 bytes smem, 744 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIllLi7EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIllLi7EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 48 bytes smem, 744 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIffLi3EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIffLi3EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 24 bytes smem, 520 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIiiLi3EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIiiLi3EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 24 bytes smem, 520 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIddLi3EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIddLi3EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 48 bytes smem, 520 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIllLi3EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIllLi3EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 48 bytes smem, 520 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIffLi5EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIffLi5EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 24 bytes smem, 632 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIiiLi5EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIiiLi5EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 24 bytes smem, 632 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIddLi5EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIddLi5EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 48 bytes smem, 632 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIllLi5EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIllLi5EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 48 bytes smem, 632 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIddLi1EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIddLi1EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 48 bytes smem, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIllLi1EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIllLi1EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 48 bytes smem, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIffLi1EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIffLi1EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 24 bytes smem, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIiiLi1EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_00006502_00000000_7_elementwise_mul_op_cpp1_ii_d088445e28ComputeMulGradientCUDAKernelIiiLi1EEEviiNS_11SimpleArrayINS_12FixedDivisorIiEEXT1_EEENS2_IiXT1_EEENS2_IiXT1_EEENS2_IS4_XT1_EEEPKT_PKT0_PS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 24 bytes smem, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]

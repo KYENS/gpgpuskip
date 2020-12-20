@@ -1,0 +1,282 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.extern .func __assertfail
+(
+.param .b64 __assertfail_param_0,
+.param .b64 __assertfail_param_1,
+.param .b32 __assertfail_param_2,
+.param .b64 __assertfail_param_3,
+.param .b64 __assertfail_param_4
+)
+;
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 1 .b8 __T20[82] = {118, 111, 105, 100, 32, 99, 97, 102, 102, 101, 50, 58, 58, 60, 117, 110, 110, 97, 109, 101, 100, 62, 58, 58, 67, 111, 109, 112, 117, 116, 101, 73, 110, 100, 105, 99, 101, 115, 75, 101, 114, 110, 101, 108, 40, 105, 110, 116, 44, 32, 105, 110, 116, 44, 32, 105, 110, 116, 32, 42, 44, 32, 95, 95, 110, 118, 95, 98, 111, 111, 108, 32, 42, 99, 111, 110, 115, 116, 32, 42, 41, 0};
+.global .align 1 .b8 __T21[109] = {118, 111, 105, 100, 32, 99, 97, 102, 102, 101, 50, 58, 58, 60, 117, 110, 110, 97, 109, 101, 100, 62, 58, 58, 70, 105, 108, 108, 86, 97, 108, 117, 101, 115, 75, 101, 114, 110, 101, 108, 40, 105, 110, 116, 44, 32, 105, 110, 116, 44, 32, 117, 110, 115, 105, 103, 110, 101, 100, 32, 108, 111, 110, 103, 44, 32, 99, 111, 110, 115, 116, 32, 105, 110, 116, 32, 42, 44, 32, 99, 104, 97, 114, 32, 42, 99, 111, 110, 115, 116, 32, 42, 44, 32, 105, 110, 116, 32, 42, 44, 32, 99, 104, 97, 114, 32, 42, 41, 0};
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe215BooleanUnmaskOpINS_11CUDAContextEEE[136];
+.global .align 1 .b8 $str[6] = {102, 97, 108, 115, 101, 0};
+.global .align 1 .b8 $str1[53] = {47, 114, 111, 111, 116, 47, 112, 121, 116, 111, 114, 99, 104, 47, 99, 97, 102, 102, 101, 50, 47, 111, 112, 101, 114, 97, 116, 111, 114, 115, 47, 98, 111, 111, 108, 101, 97, 110, 95, 117, 110, 109, 97, 115, 107, 95, 111, 112, 115, 46, 99, 117, 0};
+.global .align 1 .b8 $str2[19] = {118, 97, 108, 117, 101, 83, 105, 122, 101, 115, 91, 106, 93, 32, 61, 61, 32, 107, 0};
+
+.visible .entry _ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f320ComputeIndicesKernelEiiPiPKPb(
+.param .u32 _ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f320ComputeIndicesKernelEiiPiPKPb_param_0,
+.param .u32 _ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f320ComputeIndicesKernelEiiPiPKPb_param_1,
+.param .u64 _ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f320ComputeIndicesKernelEiiPiPKPb_param_2,
+.param .u64 _ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f320ComputeIndicesKernelEiiPiPKPb_param_3
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<13>;
+.reg .b64 %rd<24>;
+
+
+ld.param.u32 %r4, [_ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f320ComputeIndicesKernelEiiPiPKPb_param_0];
+ld.param.u64 %rd8, [_ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f320ComputeIndicesKernelEiiPiPKPb_param_2];
+ld.param.u64 %rd9, [_ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f320ComputeIndicesKernelEiiPiPKPb_param_3];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r5, %ctaid.x;
+mov.u32 %r6, %tid.x;
+mad.lo.s32 %r7, %r1, %r5, %r6;
+cvt.u64.u32	%rd23, %r7;
+ld.param.s32 %rd2, [_ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f320ComputeIndicesKernelEiiPiPKPb_param_1];
+setp.ge.u64	%p1, %rd23, %rd2;
+@%p1 bra BB0_7;
+
+cvta.to.global.u64 %rd3, %rd8;
+cvta.to.global.u64 %rd4, %rd9;
+mov.u32 %r8, %nctaid.x;
+mul.lo.s32 %r9, %r8, %r1;
+cvt.u64.u32	%rd5, %r9;
+
+BB0_2:
+mov.u32 %r12, 0;
+setp.lt.s32	%p2, %r4, 1;
+@%p2 bra BB0_6;
+
+BB0_3:
+mov.u32 %r2, %r12;
+mul.wide.s32 %rd10, %r2, 8;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u64 %rd12, [%rd11];
+add.s64 %rd13, %rd12, %rd23;
+ld.u8 %rs1, [%rd13];
+setp.eq.s16	%p3, %rs1, 0;
+add.s32 %r12, %r2, 1;
+@%p3 bra BB0_5;
+bra.uni BB0_4;
+
+BB0_5:
+setp.lt.s32	%p4, %r12, %r4;
+@%p4 bra BB0_3;
+
+BB0_6:
+mov.u64 %rd16, $str;
+cvta.global.u64 %rd17, %rd16;
+mov.u64 %rd18, $str1;
+cvta.global.u64 %rd19, %rd18;
+mov.u64 %rd20, __T20;
+cvta.global.u64 %rd21, %rd20;
+mov.u32 %r11, 20;
+mov.u64 %rd22, 1;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd17;
+.param .b64 param1;
+st.param.b64	[param1+0], %rd19;
+.param .b32 param2;
+st.param.b32	[param2+0], %r11;
+.param .b64 param3;
+st.param.b64	[param3+0], %rd21;
+.param .b64 param4;
+st.param.b64	[param4+0], %rd22;
+call.uni 
+__assertfail, 
+(
+param0, 
+param1, 
+param2, 
+param3, 
+param4
+);
+
+
+	}
+	add.s64 %rd23, %rd5, %rd23;
+setp.lt.u64	%p5, %rd23, %rd2;
+@%p5 bra BB0_2;
+bra.uni BB0_7;
+
+BB0_4:
+shl.b64 %rd14, %rd23, 2;
+add.s64 %rd15, %rd3, %rd14;
+st.global.u32 [%rd15], %r2;
+
+BB0_7:
+ret;
+}
+
+
+.visible .entry _ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f316FillValuesKernelEiimPKiPKPcPiS3_(
+.param .u32 _ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f316FillValuesKernelEiimPKiPKPcPiS3__param_0,
+.param .u32 _ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f316FillValuesKernelEiimPKiPKPcPiS3__param_1,
+.param .u64 _ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f316FillValuesKernelEiimPKiPKPcPiS3__param_2,
+.param .u64 _ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f316FillValuesKernelEiimPKiPKPcPiS3__param_3,
+.param .u64 _ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f316FillValuesKernelEiimPKiPKPcPiS3__param_4,
+.param .u64 _ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f316FillValuesKernelEiimPKiPKPcPiS3__param_5,
+.param .u64 _ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f316FillValuesKernelEiimPKiPKPcPiS3__param_6
+)
+{
+.reg .pred %p<9>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<22>;
+.reg .b64 %rd<44>;
+
+
+ld.param.u32 %r8, [_ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f316FillValuesKernelEiimPKiPKPcPiS3__param_0];
+ld.param.u32 %r9, [_ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f316FillValuesKernelEiimPKiPKPcPiS3__param_1];
+ld.param.u64 %rd12, [_ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f316FillValuesKernelEiimPKiPKPcPiS3__param_2];
+ld.param.u64 %rd13, [_ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f316FillValuesKernelEiimPKiPKPcPiS3__param_3];
+ld.param.u64 %rd14, [_ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f316FillValuesKernelEiimPKiPKPcPiS3__param_4];
+ld.param.u64 %rd15, [_ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f316FillValuesKernelEiimPKiPKPcPiS3__param_5];
+ld.param.u64 %rd16, [_ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f316FillValuesKernelEiimPKiPKPcPiS3__param_6];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r10, %ctaid.x;
+mov.u32 %r11, %tid.x;
+mad.lo.s32 %r12, %r1, %r10, %r11;
+cvt.u64.u32	%rd42, %r12;
+cvt.s64.s32	%rd17, %r8;
+setp.ge.u64	%p1, %rd42, %rd17;
+@%p1 bra BB1_13;
+
+cvta.to.global.u64 %rd2, %rd16;
+cvta.to.global.u64 %rd3, %rd13;
+mov.u32 %r13, %nctaid.x;
+mul.lo.s32 %r14, %r13, %r1;
+cvt.u64.u32	%rd4, %r14;
+cvta.to.global.u64 %rd18, %rd14;
+cvta.to.global.u64 %rd31, %rd15;
+
+BB1_2:
+mov.u32 %r21, 0;
+setp.lt.s32	%p2, %r9, 1;
+@%p2 bra BB1_10;
+
+shl.b64 %rd19, %rd42, 3;
+add.s64 %rd6, %rd18, %rd19;
+mov.u32 %r21, 0;
+mov.u32 %r20, %r21;
+
+BB1_4:
+mul.wide.s32 %rd20, %r20, 4;
+add.s64 %rd21, %rd3, %rd20;
+ld.global.s32 %rd22, [%rd21];
+setp.ne.s64	%p3, %rd22, %rd42;
+@%p3 bra BB1_9;
+
+setp.eq.s64	%p4, %rd12, 0;
+@%p4 bra BB1_8;
+
+cvt.s64.s32	%rd24, %r20;
+mul.lo.s64 %rd25, %rd12, %rd24;
+add.s64 %rd7, %rd2, %rd25;
+cvt.s64.s32	%rd26, %r21;
+mul.lo.s64 %rd8, %rd12, %rd26;
+mov.u64 %rd43, 0;
+
+BB1_7:
+ld.global.u64 %rd27, [%rd6];
+add.s64 %rd28, %rd27, %rd8;
+add.s64 %rd29, %rd28, %rd43;
+ld.u8 %rs1, [%rd29];
+add.s64 %rd30, %rd7, %rd43;
+st.global.u8 [%rd30], %rs1;
+add.s64 %rd43, %rd43, 1;
+setp.lt.u64	%p5, %rd43, %rd12;
+@%p5 bra BB1_7;
+
+BB1_8:
+add.s32 %r21, %r21, 1;
+
+BB1_9:
+add.s32 %r20, %r20, 1;
+setp.lt.s32	%p6, %r20, %r9;
+@%p6 bra BB1_4;
+
+BB1_10:
+shl.b64 %rd32, %rd42, 2;
+add.s64 %rd33, %rd31, %rd32;
+ld.global.u32 %r18, [%rd33];
+setp.eq.s32	%p7, %r18, %r21;
+@%p7 bra BB1_12;
+
+mov.u64 %rd34, $str2;
+cvta.global.u64 %rd35, %rd34;
+mov.u64 %rd36, $str1;
+cvta.global.u64 %rd37, %rd36;
+mov.u64 %rd38, __T21;
+cvta.global.u64 %rd39, %rd38;
+mov.u32 %r19, 42;
+mov.u64 %rd40, 1;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd35;
+.param .b64 param1;
+st.param.b64	[param1+0], %rd37;
+.param .b32 param2;
+st.param.b32	[param2+0], %r19;
+.param .b64 param3;
+st.param.b64	[param3+0], %rd39;
+.param .b64 param4;
+st.param.b64	[param4+0], %rd40;
+call.uni 
+__assertfail, 
+(
+param0, 
+param1, 
+param2, 
+param3, 
+param4
+);
+
+
+	}
+
+BB1_12:
+add.s64 %rd42, %rd4, %rd42;
+setp.lt.u64	%p8, %rd42, %rd17;
+@%p8 bra BB1_2;
+
+BB1_13:
+ret;
+}
+
+

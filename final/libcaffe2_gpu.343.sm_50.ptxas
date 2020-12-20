@@ -1,0 +1,37 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z20fermiCgemm_v3_kernelILb1ELb1ELb0ELb1ELi5ELi5ELi3ELi8ELi8EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z20fermiCgemm_v3_kernelILb1ELb1ELb0ELb1ELi5ELi5ELi3ELi8ELi8EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 4352 bytes smem, 436 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z20fermiCgemm_v3_kernelILb0ELb1ELb0ELb0ELi5ELi5ELi3ELi8ELi8EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z20fermiCgemm_v3_kernelILb0ELb1ELb0ELb0ELi5ELi5ELi3ELi8ELi8EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 71 registers, 4352 bytes smem, 436 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z20fermiCgemm_v3_kernelILb1ELb1ELb1ELb0ELi5ELi5ELi3ELi8ELi8EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z20fermiCgemm_v3_kernelILb1ELb1ELb1ELb0ELi5ELi5ELi3ELi8ELi8EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 4352 bytes smem, 436 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z20fermiCgemm_v3_kernelILb1ELb0ELb0ELb0ELi5ELi5ELi3ELi8ELi8EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z20fermiCgemm_v3_kernelILb1ELb0ELb0ELb0ELi5ELi5ELi3ELi8ELi8EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 71 registers, 4352 bytes smem, 436 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z20fermiCgemm_v3_kernelILb1ELb0ELb1ELb0ELi5ELi5ELi3ELi8ELi8EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z20fermiCgemm_v3_kernelILb1ELb0ELb1ELb0ELi5ELi5ELi3ELi8ELi8EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 71 registers, 4352 bytes smem, 436 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z20fermiCgemm_v3_kernelILb0ELb1ELb0ELb1ELi5ELi5ELi3ELi8ELi8EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z20fermiCgemm_v3_kernelILb0ELb1ELb0ELb1ELi5ELi5ELi3ELi8ELi8EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 71 registers, 4352 bytes smem, 436 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z20fermiCgemm_v3_kernelILb1ELb1ELb0ELb0ELi5ELi5ELi3ELi8ELi8EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z20fermiCgemm_v3_kernelILb1ELb1ELb0ELb0ELi5ELi5ELi3ELi8ELi8EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 4352 bytes smem, 436 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z20fermiCgemm_v3_kernelILb0ELb0ELb0ELb0ELi5ELi5ELi3ELi8ELi8EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z20fermiCgemm_v3_kernelILb0ELb0ELb0ELb0ELi5ELi5ELi3ELi8ELi8EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 4352 bytes smem, 436 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z20fermiCgemm_v3_kernelILb1ELb1ELb1ELb1ELi5ELi5ELi3ELi8ELi8EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z20fermiCgemm_v3_kernelILb1ELb1ELb1ELb1ELi5ELi5ELi3ELi8ELi8EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 4352 bytes smem, 436 bytes cmem[0], 2 textures

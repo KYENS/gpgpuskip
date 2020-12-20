@@ -1,0 +1,9 @@
+ptxas info    : 904 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 48 bytes smem, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 48 bytes smem, 368 bytes cmem[0]

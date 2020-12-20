@@ -1,0 +1,25 @@
+ptxas info    : 521 bytes gmem
+ptxas info    : Compiling entry function '_Z42TemporalReplicationPadding_updateGradInputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii' for 'sm_61'
+ptxas info    : Function properties for _Z42TemporalReplicationPadding_updateGradInputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42TemporalReplicationPadding_updateGradInputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii' for 'sm_61'
+ptxas info    : Function properties for _Z42TemporalReplicationPadding_updateGradInputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42TemporalReplicationPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii' for 'sm_61'
+ptxas info    : Function properties for _Z42TemporalReplicationPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z39TemporalReplicationPadding_updateOutputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii' for 'sm_61'
+ptxas info    : Function properties for _Z39TemporalReplicationPadding_updateOutputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z39TemporalReplicationPadding_updateOutputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii' for 'sm_61'
+ptxas info    : Function properties for _Z39TemporalReplicationPadding_updateOutputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z39TemporalReplicationPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii' for 'sm_61'
+ptxas info    : Function properties for _Z39TemporalReplicationPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 392 bytes cmem[0]

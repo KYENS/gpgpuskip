@@ -1,0 +1,33 @@
+ptxas info    : 864 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe280_GLOBAL__N__56_tmpxft_00006f6b_00000000_7_spatial_batch_norm_op_cpp1_ii_d1f9707149ComputeScaleBiasGradientsAndFusedParamsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_S5_S5_PS3_S6_S6_S6_S6_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe280_GLOBAL__N__56_tmpxft_00006f6b_00000000_7_spatial_batch_norm_op_cpp1_ii_d1f9707149ComputeScaleBiasGradientsAndFusedParamsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_S5_S5_PS3_S6_S6_S6_S6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 48 bytes smem, 416 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe280_GLOBAL__N__56_tmpxft_00006f6b_00000000_7_spatial_batch_norm_op_cpp1_ii_d1f9707144ComputeRunningMomentsAndFusedParamCUDAKernelIfEEviT_S2_PKS2_S4_S4_S4_PS2_S5_S5_S5_S5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe280_GLOBAL__N__56_tmpxft_00006f6b_00000000_7_spatial_batch_norm_op_cpp1_ii_d1f9707144ComputeRunningMomentsAndFusedParamCUDAKernelIfEEviT_S2_PKS2_S4_S4_S4_PS2_S5_S5_S5_S5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe280_GLOBAL__N__56_tmpxft_00006f6b_00000000_7_spatial_batch_norm_op_cpp1_ii_d1f9707126ComputeXGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_S5_S5_PS3_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe280_GLOBAL__N__56_tmpxft_00006f6b_00000000_7_spatial_batch_norm_op_cpp1_ii_d1f9707126ComputeXGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_S5_S5_PS3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe280_GLOBAL__N__56_tmpxft_00006f6b_00000000_7_spatial_batch_norm_op_cpp1_ii_d1f9707159ComputeMultiBatchScaleBiasGradientsAndFusedParamsCUDAKernelIfEEviT_S2_PKS2_S4_S4_S4_S4_PS2_S5_S5_S5_S5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe280_GLOBAL__N__56_tmpxft_00006f6b_00000000_7_spatial_batch_norm_op_cpp1_ii_d1f9707159ComputeMultiBatchScaleBiasGradientsAndFusedParamsCUDAKernelIfEEviT_S2_PKS2_S4_S4_S4_S4_PS2_S5_S5_S5_S5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe280_GLOBAL__N__56_tmpxft_00006f6b_00000000_7_spatial_batch_norm_op_cpp1_ii_d1f9707149ComputeScaleBiasGradientsAndFusedParamsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_S5_S5_PS3_S6_S6_S6_S6_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe280_GLOBAL__N__56_tmpxft_00006f6b_00000000_7_spatial_batch_norm_op_cpp1_ii_d1f9707149ComputeScaleBiasGradientsAndFusedParamsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_S5_S5_PS3_S6_S6_S6_S6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 48 bytes smem, 416 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe280_GLOBAL__N__56_tmpxft_00006f6b_00000000_7_spatial_batch_norm_op_cpp1_ii_d1f9707127ComputeFusedParamCUDAKernelIfEEviT_PKS2_S4_S4_S4_PS2_S5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe280_GLOBAL__N__56_tmpxft_00006f6b_00000000_7_spatial_batch_norm_op_cpp1_ii_d1f9707127ComputeFusedParamCUDAKernelIfEEviT_PKS2_S4_S4_S4_PS2_S5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe280_GLOBAL__N__56_tmpxft_00006f6b_00000000_7_spatial_batch_norm_op_cpp1_ii_d1f9707126ComputeXGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_S5_S5_PS3_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe280_GLOBAL__N__56_tmpxft_00006f6b_00000000_7_spatial_batch_norm_op_cpp1_ii_d1f9707126ComputeXGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_S5_S5_PS3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe280_GLOBAL__N__56_tmpxft_00006f6b_00000000_7_spatial_batch_norm_op_cpp1_ii_d1f9707129ComputeBatchMomentsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe280_GLOBAL__N__56_tmpxft_00006f6b_00000000_7_spatial_batch_norm_op_cpp1_ii_d1f9707129ComputeBatchMomentsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 360 bytes cmem[0]

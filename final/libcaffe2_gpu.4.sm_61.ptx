@@ -1,0 +1,998 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 1 .b8 _ZN67_INTERNAL_45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed56thrust6system6detail10sequential3seqE[1];
+.shared .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE[24];
+.global .align 1 .b8 _ZN67_INTERNAL_45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed56thrust6system4cuda6detail5bulk_4rootE[1];
+.global .align 1 .b8 _ZN67_INTERNAL_45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed56thrust6system4cuda3parE[1];
+.global .align 1 .b8 _ZN67_INTERNAL_45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed56thrust12placeholders2_1E[1];
+.global .align 1 .b8 _ZN67_INTERNAL_45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed56thrust12placeholders2_2E[1];
+.global .align 1 .b8 _ZN67_INTERNAL_45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed56thrust12placeholders2_3E[1];
+.global .align 1 .b8 _ZN67_INTERNAL_45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed56thrust12placeholders2_4E[1];
+.global .align 1 .b8 _ZN67_INTERNAL_45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed56thrust12placeholders2_5E[1];
+.global .align 1 .b8 _ZN67_INTERNAL_45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed56thrust12placeholders2_6E[1];
+.global .align 1 .b8 _ZN67_INTERNAL_45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed56thrust12placeholders2_7E[1];
+.global .align 1 .b8 _ZN67_INTERNAL_45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed56thrust12placeholders2_8E[1];
+.global .align 1 .b8 _ZN67_INTERNAL_45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed56thrust12placeholders2_9E[1];
+.global .align 1 .b8 _ZN67_INTERNAL_45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed56thrust12placeholders3_10E[1];
+.global .align 1 .b8 _ZN67_INTERNAL_45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed56thrust3seqE[1];
+.extern .shared .align 4 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE[];
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIhEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIhEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIhEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIhEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0[64]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<13>;
+.reg .b32 %r<27>;
+.reg .b64 %rd<14>;
+
+
+ld.param.v2.u32 {%r18, %r19}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIhEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIhEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+48];
+ld.param.v2.u32 {%r20, %r21}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIhEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIhEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+40];
+ld.param.u32 %r17, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIhEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIhEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+56];
+ld.param.u32 %r10, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIhEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIhEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+28];
+ld.param.u64 %rd5, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIhEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIhEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+16];
+ld.param.u8 %rs4, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIhEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIhEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+24];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd6, _ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE;
+cvta.shared.u64 %rd7, %rd6;
+setp.eq.s64	%p2, %rd7, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB0_2;
+
+cvt.s64.s32	%rd8, %r21;
+mov.u32 %r24, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE], %r24;
+mov.u64 %rd9, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd10, %rd9;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+8], %rd10;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+16], %rd8;
+
+BB0_2:
+mov.u32 %r4, %ntid.x;
+mov.u32 %r25, %ctaid.x;
+add.s32 %r5, %r25, %r17;
+bar.sync 0;
+mul.lo.s32 %r6, %r4, %r18;
+mad.lo.s32 %r26, %r5, %r4, %r1;
+setp.ge.u32	%p4, %r26, %r10;
+@%p4 bra BB0_5;
+
+cvta.to.global.u64 %rd11, %rd5;
+cvt.u64.u32	%rd12, %r26;
+add.s64 %rd13, %rd11, %rd12;
+cvt.u64.u32	%rd2, %r6;
+
+BB0_4:
+st.global.u8 [%rd13], %rs4;
+add.s64 %rd13, %rd13, %rd2;
+add.s32 %r26, %r26, %r6;
+setp.lt.u32	%p5, %r26, %r10;
+@%p5 bra BB0_4;
+
+BB0_5:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIhEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIhEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIhEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIhEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0[72]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<13>;
+.reg .b32 %r<22>;
+.reg .b64 %rd<19>;
+
+
+ld.param.v2.u32 {%r12, %r13}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIhEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIhEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+56];
+ld.param.v2.u32 {%r14, %r15}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIhEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIhEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+48];
+ld.param.u32 %r11, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIhEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIhEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+64];
+ld.param.u64 %rd11, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIhEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIhEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+32];
+ld.param.u64 %rd10, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIhEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIhEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+16];
+ld.param.u8 %rs4, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIhEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIhEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+24];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd12, _ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE;
+cvta.shared.u64 %rd13, %rd12;
+setp.eq.s64	%p2, %rd13, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB1_2;
+
+cvt.s64.s32	%rd14, %r15;
+mov.u32 %r18, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE], %r18;
+mov.u64 %rd15, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd16, %rd15;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+8], %rd16;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+16], %rd14;
+
+BB1_2:
+cvta.to.global.u64 %rd1, %rd10;
+mov.u32 %r3, %ntid.x;
+mov.u32 %r19, %ctaid.x;
+add.s32 %r4, %r19, %r11;
+bar.sync 0;
+mul.lo.s32 %r20, %r3, %r12;
+cvt.s64.s32	%rd3, %r20;
+mad.lo.s32 %r21, %r4, %r3, %r1;
+cvt.s64.s32	%rd17, %r21;
+add.s64 %rd18, %rd1, %rd17;
+setp.ge.s64	%p4, %rd17, %rd11;
+@%p4 bra BB1_4;
+
+BB1_3:
+st.global.u8 [%rd18], %rs4;
+add.s64 %rd18, %rd18, %rd3;
+add.s64 %rd17, %rd17, %rd3;
+setp.lt.s64	%p5, %rd17, %rd11;
+@%p5 bra BB1_3;
+
+BB1_4:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIaEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIaEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIaEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIaEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0[64]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<13>;
+.reg .b32 %r<27>;
+.reg .b64 %rd<14>;
+
+
+ld.param.v2.u32 {%r18, %r19}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIaEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIaEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+48];
+ld.param.v2.u32 {%r20, %r21}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIaEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIaEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+40];
+ld.param.u32 %r17, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIaEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIaEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+56];
+ld.param.u32 %r10, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIaEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIaEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+28];
+ld.param.u64 %rd5, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIaEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIaEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+16];
+ld.param.u8 %rs4, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIaEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIaEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+24];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd6, _ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE;
+cvta.shared.u64 %rd7, %rd6;
+setp.eq.s64	%p2, %rd7, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB2_2;
+
+cvt.s64.s32	%rd8, %r21;
+mov.u32 %r24, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE], %r24;
+mov.u64 %rd9, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd10, %rd9;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+8], %rd10;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+16], %rd8;
+
+BB2_2:
+mov.u32 %r4, %ntid.x;
+mov.u32 %r25, %ctaid.x;
+add.s32 %r5, %r25, %r17;
+bar.sync 0;
+mul.lo.s32 %r6, %r4, %r18;
+mad.lo.s32 %r26, %r5, %r4, %r1;
+setp.ge.u32	%p4, %r26, %r10;
+@%p4 bra BB2_5;
+
+cvta.to.global.u64 %rd11, %rd5;
+cvt.u64.u32	%rd12, %r26;
+add.s64 %rd13, %rd11, %rd12;
+cvt.u64.u32	%rd2, %r6;
+
+BB2_4:
+st.global.u8 [%rd13], %rs4;
+add.s64 %rd13, %rd13, %rd2;
+add.s32 %r26, %r26, %r6;
+setp.lt.u32	%p5, %r26, %r10;
+@%p5 bra BB2_4;
+
+BB2_5:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIaEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIaEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIaEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIaEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0[72]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<13>;
+.reg .b32 %r<22>;
+.reg .b64 %rd<19>;
+
+
+ld.param.v2.u32 {%r12, %r13}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIaEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIaEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+56];
+ld.param.v2.u32 {%r14, %r15}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIaEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIaEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+48];
+ld.param.u32 %r11, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIaEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIaEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+64];
+ld.param.u64 %rd11, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIaEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIaEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+32];
+ld.param.u64 %rd10, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIaEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIaEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+16];
+ld.param.u8 %rs4, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIaEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIaEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+24];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd12, _ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE;
+cvta.shared.u64 %rd13, %rd12;
+setp.eq.s64	%p2, %rd13, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB3_2;
+
+cvt.s64.s32	%rd14, %r15;
+mov.u32 %r18, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE], %r18;
+mov.u64 %rd15, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd16, %rd15;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+8], %rd16;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+16], %rd14;
+
+BB3_2:
+cvta.to.global.u64 %rd1, %rd10;
+mov.u32 %r3, %ntid.x;
+mov.u32 %r19, %ctaid.x;
+add.s32 %r4, %r19, %r11;
+bar.sync 0;
+mul.lo.s32 %r20, %r3, %r12;
+cvt.s64.s32	%rd3, %r20;
+mad.lo.s32 %r21, %r4, %r3, %r1;
+cvt.s64.s32	%rd17, %r21;
+add.s64 %rd18, %rd1, %rd17;
+setp.ge.s64	%p4, %rd17, %rd11;
+@%p4 bra BB3_4;
+
+BB3_3:
+st.global.u8 [%rd18], %rs4;
+add.s64 %rd18, %rd18, %rd3;
+add.s64 %rd17, %rd17, %rd3;
+setp.lt.s64	%p5, %rd17, %rd11;
+@%p5 bra BB3_3;
+
+BB3_4:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIsEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIsEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIsEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIsEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0[64]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<13>;
+.reg .b32 %r<27>;
+.reg .b64 %rd<15>;
+
+
+ld.param.v2.u32 {%r18, %r19}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIsEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIsEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+48];
+ld.param.v2.u32 {%r20, %r21}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIsEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIsEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+40];
+ld.param.u32 %r17, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIsEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIsEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+56];
+ld.param.u32 %r10, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIsEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIsEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+28];
+ld.param.u16 %rs4, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIsEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIsEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+24];
+ld.param.u64 %rd5, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIsEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIsEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+16];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd6, _ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE;
+cvta.shared.u64 %rd7, %rd6;
+setp.eq.s64	%p2, %rd7, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB4_2;
+
+cvt.s64.s32	%rd8, %r21;
+mov.u32 %r24, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE], %r24;
+mov.u64 %rd9, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd10, %rd9;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+8], %rd10;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+16], %rd8;
+
+BB4_2:
+mov.u32 %r4, %ntid.x;
+mov.u32 %r25, %ctaid.x;
+add.s32 %r5, %r25, %r17;
+bar.sync 0;
+mul.lo.s32 %r6, %r4, %r18;
+mad.lo.s32 %r26, %r5, %r4, %r1;
+setp.ge.u32	%p4, %r26, %r10;
+@%p4 bra BB4_5;
+
+cvta.to.global.u64 %rd11, %rd5;
+mul.wide.u32 %rd12, %r26, 2;
+add.s64 %rd14, %rd11, %rd12;
+cvt.u64.u32	%rd2, %r6;
+shl.b64 %rd13, %rd2, 1;
+
+BB4_4:
+st.global.u16 [%rd14], %rs4;
+add.s64 %rd14, %rd14, %rd13;
+add.s32 %r26, %r26, %r6;
+setp.lt.u32	%p5, %r26, %r10;
+@%p5 bra BB4_4;
+
+BB4_5:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIsEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIsEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIsEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIsEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0[72]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<13>;
+.reg .b32 %r<22>;
+.reg .b64 %rd<21>;
+
+
+ld.param.v2.u32 {%r12, %r13}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIsEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIsEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+56];
+ld.param.v2.u32 {%r14, %r15}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIsEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIsEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+48];
+ld.param.u32 %r11, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIsEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIsEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+64];
+ld.param.u64 %rd11, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIsEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIsEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+32];
+ld.param.u16 %rs4, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIsEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIsEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+24];
+ld.param.u64 %rd10, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIsEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIsEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+16];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd12, _ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE;
+cvta.shared.u64 %rd13, %rd12;
+setp.eq.s64	%p2, %rd13, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB5_2;
+
+cvt.s64.s32	%rd14, %r15;
+mov.u32 %r18, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE], %r18;
+mov.u64 %rd15, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd16, %rd15;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+8], %rd16;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+16], %rd14;
+
+BB5_2:
+cvta.to.global.u64 %rd1, %rd10;
+mov.u32 %r3, %ntid.x;
+mov.u32 %r19, %ctaid.x;
+add.s32 %r4, %r19, %r11;
+bar.sync 0;
+mul.lo.s32 %r20, %r3, %r12;
+cvt.s64.s32	%rd3, %r20;
+mad.lo.s32 %r21, %r4, %r3, %r1;
+cvt.s64.s32	%rd19, %r21;
+mul.wide.s32 %rd17, %r21, 2;
+add.s64 %rd20, %rd1, %rd17;
+setp.ge.s64	%p4, %rd19, %rd11;
+@%p4 bra BB5_4;
+
+BB5_3:
+st.global.u16 [%rd20], %rs4;
+shl.b64 %rd18, %rd3, 1;
+add.s64 %rd20, %rd20, %rd18;
+add.s64 %rd19, %rd19, %rd3;
+setp.lt.s64	%p5, %rd19, %rd11;
+@%p5 bra BB5_3;
+
+BB5_4:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIiEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIiEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIiEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIiEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0[64]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<11>;
+.reg .b32 %r<31>;
+.reg .b64 %rd<15>;
+
+
+ld.param.v2.u32 {%r20, %r21}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIiEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIiEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+48];
+ld.param.v2.u32 {%r22, %r23}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIiEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIiEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+40];
+ld.param.v2.u32 {%r26, %r27}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIiEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIiEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+24];
+ld.param.u32 %r19, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIiEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIiEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+56];
+ld.param.u64 %rd5, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIiEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIiEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+16];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd6, _ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE;
+cvta.shared.u64 %rd7, %rd6;
+setp.eq.s64	%p2, %rd7, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB6_2;
+
+cvt.s64.s32	%rd8, %r23;
+mov.u32 %r28, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE], %r28;
+mov.u64 %rd9, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd10, %rd9;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+8], %rd10;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+16], %rd8;
+
+BB6_2:
+mov.u32 %r4, %ntid.x;
+mov.u32 %r29, %ctaid.x;
+add.s32 %r5, %r29, %r19;
+bar.sync 0;
+mul.lo.s32 %r6, %r4, %r20;
+mad.lo.s32 %r30, %r5, %r4, %r1;
+setp.ge.u32	%p4, %r30, %r27;
+@%p4 bra BB6_5;
+
+cvta.to.global.u64 %rd11, %rd5;
+mul.wide.u32 %rd12, %r30, 4;
+add.s64 %rd14, %rd11, %rd12;
+cvt.u64.u32	%rd2, %r6;
+shl.b64 %rd13, %rd2, 2;
+
+BB6_4:
+st.global.u32 [%rd14], %r26;
+add.s64 %rd14, %rd14, %rd13;
+add.s32 %r30, %r30, %r6;
+setp.lt.u32	%p5, %r30, %r27;
+@%p5 bra BB6_4;
+
+BB6_5:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIiEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIiEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIiEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIiEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0[72]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<11>;
+.reg .b32 %r<24>;
+.reg .b64 %rd<21>;
+
+
+ld.param.v2.u32 {%r14, %r15}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIiEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIiEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+56];
+ld.param.v2.u32 {%r16, %r17}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIiEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIiEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+48];
+ld.param.u32 %r13, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIiEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIiEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+64];
+ld.param.u64 %rd11, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIiEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIiEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+32];
+ld.param.u32 %r6, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIiEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIiEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+24];
+ld.param.u64 %rd10, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIiEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIiEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+16];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd12, _ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE;
+cvta.shared.u64 %rd13, %rd12;
+setp.eq.s64	%p2, %rd13, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB7_2;
+
+cvt.s64.s32	%rd14, %r17;
+mov.u32 %r20, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE], %r20;
+mov.u64 %rd15, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd16, %rd15;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+8], %rd16;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+16], %rd14;
+
+BB7_2:
+cvta.to.global.u64 %rd1, %rd10;
+mov.u32 %r4, %ntid.x;
+mov.u32 %r21, %ctaid.x;
+add.s32 %r5, %r21, %r13;
+bar.sync 0;
+mul.lo.s32 %r22, %r4, %r14;
+cvt.s64.s32	%rd3, %r22;
+mad.lo.s32 %r23, %r5, %r4, %r1;
+cvt.s64.s32	%rd19, %r23;
+mul.wide.s32 %rd17, %r23, 4;
+add.s64 %rd20, %rd1, %rd17;
+setp.ge.s64	%p4, %rd19, %rd11;
+@%p4 bra BB7_4;
+
+BB7_3:
+st.global.u32 [%rd20], %r6;
+shl.b64 %rd18, %rd3, 2;
+add.s64 %rd20, %rd20, %rd18;
+add.s64 %rd19, %rd19, %rd3;
+setp.lt.s64	%p5, %rd19, %rd11;
+@%p5 bra BB7_3;
+
+BB7_4:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIlEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIlEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIlEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIlEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0[72]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<19>;
+.reg .b32 %r<27>;
+.reg .b64 %rd<17>;
+
+
+ld.param.v2.u32 {%r18, %r19}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIlEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIlEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+56];
+ld.param.v2.u32 {%r20, %r21}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIlEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIlEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+48];
+ld.param.u32 %r17, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIlEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIlEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+64];
+ld.param.u32 %r10, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIlEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIlEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+32];
+ld.param.u64 %rd7, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIlEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIlEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+24];
+ld.param.u64 %rd6, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIlEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIlEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+16];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd8, _ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE;
+cvta.shared.u64 %rd9, %rd8;
+setp.eq.s64	%p2, %rd9, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB8_2;
+
+cvt.s64.s32	%rd10, %r21;
+mov.u32 %r24, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE], %r24;
+mov.u64 %rd11, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd12, %rd11;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+8], %rd12;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+16], %rd10;
+
+BB8_2:
+mov.u32 %r4, %ntid.x;
+mov.u32 %r25, %ctaid.x;
+add.s32 %r5, %r25, %r17;
+bar.sync 0;
+mul.lo.s32 %r6, %r4, %r18;
+mad.lo.s32 %r26, %r5, %r4, %r1;
+setp.ge.u32	%p4, %r26, %r10;
+@%p4 bra BB8_5;
+
+cvta.to.global.u64 %rd13, %rd6;
+mul.wide.u32 %rd14, %r26, 8;
+add.s64 %rd16, %rd13, %rd14;
+cvt.u64.u32	%rd3, %r6;
+shl.b64 %rd15, %rd3, 3;
+
+BB8_4:
+st.global.u64 [%rd16], %rd7;
+add.s64 %rd16, %rd16, %rd15;
+add.s32 %r26, %r26, %r6;
+setp.lt.u32	%p5, %r26, %r10;
+@%p5 bra BB8_4;
+
+BB8_5:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIlEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIlEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIlEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIlEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0[72]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<11>;
+.reg .b32 %r<22>;
+.reg .b64 %rd<23>;
+
+
+ld.param.v2.u32 {%r12, %r13}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIlEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIlEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+56];
+ld.param.v2.u32 {%r14, %r15}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIlEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIlEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+48];
+ld.param.u32 %r11, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIlEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIlEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+64];
+ld.param.u64 %rd13, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIlEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIlEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+32];
+ld.param.u64 %rd12, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIlEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIlEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+24];
+ld.param.u64 %rd11, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIlEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIlEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+16];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd14, _ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE;
+cvta.shared.u64 %rd15, %rd14;
+setp.eq.s64	%p2, %rd15, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB9_2;
+
+cvt.s64.s32	%rd16, %r15;
+mov.u32 %r18, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE], %r18;
+mov.u64 %rd17, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd18, %rd17;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+8], %rd18;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+16], %rd16;
+
+BB9_2:
+cvta.to.global.u64 %rd1, %rd11;
+mov.u32 %r3, %ntid.x;
+mov.u32 %r19, %ctaid.x;
+add.s32 %r4, %r19, %r11;
+bar.sync 0;
+mul.lo.s32 %r20, %r3, %r12;
+cvt.s64.s32	%rd4, %r20;
+mad.lo.s32 %r21, %r4, %r3, %r1;
+cvt.s64.s32	%rd21, %r21;
+mul.wide.s32 %rd19, %r21, 8;
+add.s64 %rd22, %rd1, %rd19;
+setp.ge.s64	%p4, %rd21, %rd13;
+@%p4 bra BB9_4;
+
+BB9_3:
+st.global.u64 [%rd22], %rd12;
+shl.b64 %rd20, %rd4, 3;
+add.s64 %rd22, %rd22, %rd20;
+add.s64 %rd21, %rd21, %rd4;
+setp.lt.s64	%p5, %rd21, %rd13;
+@%p5 bra BB9_3;
+
+BB9_4:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIN3c104HalfEEENS_6detail16wrapped_functionINSN_23device_generate_functorINSN_12fill_functorISL_EEEEvEEjNS_9null_typeESU_SU_SU_SU_SU_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIN3c104HalfEEENS_6detail16wrapped_functionINSN_23device_generate_functorINSN_12fill_functorISL_EEEEvEEjNS_9null_typeESU_SU_SU_SU_SU_EEEEEEEEvT0__param_0[64]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<13>;
+.reg .b32 %r<27>;
+.reg .b64 %rd<15>;
+
+
+ld.param.v2.u32 {%r18, %r19}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIN3c104HalfEEENS_6detail16wrapped_functionINSN_23device_generate_functorINSN_12fill_functorISL_EEEEvEEjNS_9null_typeESU_SU_SU_SU_SU_EEEEEEEEvT0__param_0+48];
+ld.param.v2.u32 {%r20, %r21}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIN3c104HalfEEENS_6detail16wrapped_functionINSN_23device_generate_functorINSN_12fill_functorISL_EEEEvEEjNS_9null_typeESU_SU_SU_SU_SU_EEEEEEEEvT0__param_0+40];
+ld.param.u32 %r17, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIN3c104HalfEEENS_6detail16wrapped_functionINSN_23device_generate_functorINSN_12fill_functorISL_EEEEvEEjNS_9null_typeESU_SU_SU_SU_SU_EEEEEEEEvT0__param_0+56];
+ld.param.u32 %r10, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIN3c104HalfEEENS_6detail16wrapped_functionINSN_23device_generate_functorINSN_12fill_functorISL_EEEEvEEjNS_9null_typeESU_SU_SU_SU_SU_EEEEEEEEvT0__param_0+28];
+ld.param.u16 %rs4, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIN3c104HalfEEENS_6detail16wrapped_functionINSN_23device_generate_functorINSN_12fill_functorISL_EEEEvEEjNS_9null_typeESU_SU_SU_SU_SU_EEEEEEEEvT0__param_0+24];
+ld.param.u64 %rd5, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIN3c104HalfEEENS_6detail16wrapped_functionINSN_23device_generate_functorINSN_12fill_functorISL_EEEEvEEjNS_9null_typeESU_SU_SU_SU_SU_EEEEEEEEvT0__param_0+16];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd6, _ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE;
+cvta.shared.u64 %rd7, %rd6;
+setp.eq.s64	%p2, %rd7, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB10_2;
+
+cvt.s64.s32	%rd8, %r21;
+mov.u32 %r24, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE], %r24;
+mov.u64 %rd9, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd10, %rd9;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+8], %rd10;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+16], %rd8;
+
+BB10_2:
+mov.u32 %r4, %ntid.x;
+mov.u32 %r25, %ctaid.x;
+add.s32 %r5, %r25, %r17;
+bar.sync 0;
+mul.lo.s32 %r6, %r4, %r18;
+mad.lo.s32 %r26, %r5, %r4, %r1;
+setp.ge.u32	%p4, %r26, %r10;
+@%p4 bra BB10_5;
+
+cvta.to.global.u64 %rd11, %rd5;
+mul.wide.u32 %rd12, %r26, 2;
+add.s64 %rd14, %rd11, %rd12;
+cvt.u64.u32	%rd2, %r6;
+shl.b64 %rd13, %rd2, 1;
+
+BB10_4:
+st.global.u16 [%rd14], %rs4;
+add.s64 %rd14, %rd14, %rd13;
+add.s32 %r26, %r26, %r6;
+setp.lt.u32	%p5, %r26, %r10;
+@%p5 bra BB10_4;
+
+BB10_5:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIN3c104HalfEEENS_6detail16wrapped_functionINSN_23device_generate_functorINSN_12fill_functorISL_EEEEvEElNS_9null_typeESU_SU_SU_SU_SU_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIN3c104HalfEEENS_6detail16wrapped_functionINSN_23device_generate_functorINSN_12fill_functorISL_EEEEvEElNS_9null_typeESU_SU_SU_SU_SU_EEEEEEEEvT0__param_0[72]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<13>;
+.reg .b32 %r<22>;
+.reg .b64 %rd<21>;
+
+
+ld.param.v2.u32 {%r12, %r13}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIN3c104HalfEEENS_6detail16wrapped_functionINSN_23device_generate_functorINSN_12fill_functorISL_EEEEvEElNS_9null_typeESU_SU_SU_SU_SU_EEEEEEEEvT0__param_0+56];
+ld.param.v2.u32 {%r14, %r15}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIN3c104HalfEEENS_6detail16wrapped_functionINSN_23device_generate_functorINSN_12fill_functorISL_EEEEvEElNS_9null_typeESU_SU_SU_SU_SU_EEEEEEEEvT0__param_0+48];
+ld.param.u32 %r11, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIN3c104HalfEEENS_6detail16wrapped_functionINSN_23device_generate_functorINSN_12fill_functorISL_EEEEvEElNS_9null_typeESU_SU_SU_SU_SU_EEEEEEEEvT0__param_0+64];
+ld.param.u64 %rd11, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIN3c104HalfEEENS_6detail16wrapped_functionINSN_23device_generate_functorINSN_12fill_functorISL_EEEEvEElNS_9null_typeESU_SU_SU_SU_SU_EEEEEEEEvT0__param_0+32];
+ld.param.u16 %rs4, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIN3c104HalfEEENS_6detail16wrapped_functionINSN_23device_generate_functorINSN_12fill_functorISL_EEEEvEElNS_9null_typeESU_SU_SU_SU_SU_EEEEEEEEvT0__param_0+24];
+ld.param.u64 %rd10, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIN3c104HalfEEENS_6detail16wrapped_functionINSN_23device_generate_functorINSN_12fill_functorISL_EEEEvEElNS_9null_typeESU_SU_SU_SU_SU_EEEEEEEEvT0__param_0+16];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd12, _ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE;
+cvta.shared.u64 %rd13, %rd12;
+setp.eq.s64	%p2, %rd13, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB11_2;
+
+cvt.s64.s32	%rd14, %r15;
+mov.u32 %r18, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE], %r18;
+mov.u64 %rd15, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd16, %rd15;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+8], %rd16;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+16], %rd14;
+
+BB11_2:
+cvta.to.global.u64 %rd1, %rd10;
+mov.u32 %r3, %ntid.x;
+mov.u32 %r19, %ctaid.x;
+add.s32 %r4, %r19, %r11;
+bar.sync 0;
+mul.lo.s32 %r20, %r3, %r12;
+cvt.s64.s32	%rd3, %r20;
+mad.lo.s32 %r21, %r4, %r3, %r1;
+cvt.s64.s32	%rd19, %r21;
+mul.wide.s32 %rd17, %r21, 2;
+add.s64 %rd20, %rd1, %rd17;
+setp.ge.s64	%p4, %rd19, %rd11;
+@%p4 bra BB11_4;
+
+BB11_3:
+st.global.u16 [%rd20], %rs4;
+shl.b64 %rd18, %rd3, 1;
+add.s64 %rd20, %rd20, %rd18;
+add.s64 %rd19, %rd19, %rd3;
+setp.lt.s64	%p5, %rd19, %rd11;
+@%p5 bra BB11_3;
+
+BB11_4:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIfEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIfEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIfEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIfEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0[64]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<11>;
+.reg .f32 %f<3>;
+.reg .b32 %r<27>;
+.reg .b64 %rd<15>;
+
+
+ld.param.v2.u32 {%r18, %r19}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIfEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIfEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+48];
+ld.param.v2.u32 {%r20, %r21}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIfEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIfEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+40];
+ld.param.u32 %r17, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIfEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIfEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+56];
+ld.param.u32 %r10, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIfEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIfEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+28];
+ld.param.f32 %f2, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIfEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIfEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+24];
+ld.param.u64 %rd5, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIfEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIfEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+16];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd6, _ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE;
+cvta.shared.u64 %rd7, %rd6;
+setp.eq.s64	%p2, %rd7, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB12_2;
+
+cvt.s64.s32	%rd8, %r21;
+mov.u32 %r24, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE], %r24;
+mov.u64 %rd9, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd10, %rd9;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+8], %rd10;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+16], %rd8;
+
+BB12_2:
+mov.u32 %r4, %ntid.x;
+mov.u32 %r25, %ctaid.x;
+add.s32 %r5, %r25, %r17;
+bar.sync 0;
+mul.lo.s32 %r6, %r4, %r18;
+mad.lo.s32 %r26, %r5, %r4, %r1;
+setp.ge.u32	%p4, %r26, %r10;
+@%p4 bra BB12_5;
+
+cvta.to.global.u64 %rd11, %rd5;
+mul.wide.u32 %rd12, %r26, 4;
+add.s64 %rd14, %rd11, %rd12;
+cvt.u64.u32	%rd2, %r6;
+shl.b64 %rd13, %rd2, 2;
+
+BB12_4:
+st.global.f32 [%rd14], %f2;
+add.s64 %rd14, %rd14, %rd13;
+add.s32 %r26, %r26, %r6;
+setp.lt.u32	%p5, %r26, %r10;
+@%p5 bra BB12_4;
+
+BB12_5:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIfEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIfEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIfEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIfEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0[72]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<11>;
+.reg .f32 %f<3>;
+.reg .b32 %r<22>;
+.reg .b64 %rd<21>;
+
+
+ld.param.v2.u32 {%r12, %r13}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIfEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIfEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+56];
+ld.param.v2.u32 {%r14, %r15}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIfEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIfEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+48];
+ld.param.u32 %r11, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIfEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIfEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+64];
+ld.param.u64 %rd11, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIfEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIfEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+32];
+ld.param.f32 %f2, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIfEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIfEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+24];
+ld.param.u64 %rd10, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIfEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIfEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+16];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd12, _ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE;
+cvta.shared.u64 %rd13, %rd12;
+setp.eq.s64	%p2, %rd13, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB13_2;
+
+cvt.s64.s32	%rd14, %r15;
+mov.u32 %r18, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE], %r18;
+mov.u64 %rd15, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd16, %rd15;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+8], %rd16;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+16], %rd14;
+
+BB13_2:
+cvta.to.global.u64 %rd1, %rd10;
+mov.u32 %r3, %ntid.x;
+mov.u32 %r19, %ctaid.x;
+add.s32 %r4, %r19, %r11;
+bar.sync 0;
+mul.lo.s32 %r20, %r3, %r12;
+cvt.s64.s32	%rd3, %r20;
+mad.lo.s32 %r21, %r4, %r3, %r1;
+cvt.s64.s32	%rd19, %r21;
+mul.wide.s32 %rd17, %r21, 4;
+add.s64 %rd20, %rd1, %rd17;
+setp.ge.s64	%p4, %rd19, %rd11;
+@%p4 bra BB13_4;
+
+BB13_3:
+st.global.f32 [%rd20], %f2;
+shl.b64 %rd18, %rd3, 2;
+add.s64 %rd20, %rd20, %rd18;
+add.s64 %rd19, %rd19, %rd3;
+setp.lt.s64	%p5, %rd19, %rd11;
+@%p5 bra BB13_3;
+
+BB13_4:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIdEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIdEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIdEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIdEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0[72]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<19>;
+.reg .b32 %r<27>;
+.reg .f64 %fd<3>;
+.reg .b64 %rd<15>;
+
+
+ld.param.v2.u32 {%r18, %r19}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIdEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIdEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+56];
+ld.param.v2.u32 {%r20, %r21}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIdEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIdEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+48];
+ld.param.u32 %r17, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIdEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIdEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+64];
+ld.param.u32 %r10, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIdEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIdEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+32];
+ld.param.f64 %fd2, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIdEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIdEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+24];
+ld.param.u64 %rd5, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIdEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIdEEEEvEEjNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+16];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd6, _ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE;
+cvta.shared.u64 %rd7, %rd6;
+setp.eq.s64	%p2, %rd7, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB14_2;
+
+cvt.s64.s32	%rd8, %r21;
+mov.u32 %r24, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE], %r24;
+mov.u64 %rd9, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd10, %rd9;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+8], %rd10;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+16], %rd8;
+
+BB14_2:
+mov.u32 %r4, %ntid.x;
+mov.u32 %r25, %ctaid.x;
+add.s32 %r5, %r25, %r17;
+bar.sync 0;
+mul.lo.s32 %r6, %r4, %r18;
+mad.lo.s32 %r26, %r5, %r4, %r1;
+setp.ge.u32	%p4, %r26, %r10;
+@%p4 bra BB14_5;
+
+cvta.to.global.u64 %rd11, %rd5;
+mul.wide.u32 %rd12, %r26, 8;
+add.s64 %rd14, %rd11, %rd12;
+cvt.u64.u32	%rd2, %r6;
+shl.b64 %rd13, %rd2, 3;
+
+BB14_4:
+st.global.f64 [%rd14], %fd2;
+add.s64 %rd14, %rd14, %rd13;
+add.s32 %r26, %r26, %r6;
+setp.lt.u32	%p5, %r26, %r10;
+@%p5 bra BB14_4;
+
+BB14_5:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIdEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIdEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIdEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIdEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0[72]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<11>;
+.reg .b32 %r<22>;
+.reg .f64 %fd<3>;
+.reg .b64 %rd<21>;
+
+
+ld.param.v2.u32 {%r12, %r13}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIdEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIdEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+56];
+ld.param.v2.u32 {%r14, %r15}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIdEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIdEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+48];
+ld.param.u32 %r11, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIdEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIdEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+64];
+ld.param.u64 %rd11, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIdEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIdEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+32];
+ld.param.f64 %fd2, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIdEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIdEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+24];
+ld.param.u64 %rd10, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_10device_ptrIdEENS_6detail16wrapped_functionINSL_23device_generate_functorINSL_12fill_functorIdEEEEvEElNS_9null_typeESS_SS_SS_SS_SS_EEEEEEEEvT0__param_0+16];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd12, _ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE;
+cvta.shared.u64 %rd13, %rd12;
+setp.eq.s64	%p2, %rd13, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB15_2;
+
+cvt.s64.s32	%rd14, %r15;
+mov.u32 %r18, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE], %r18;
+mov.u64 %rd15, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd16, %rd15;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+8], %rd16;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail69_GLOBAL__N__45_tmpxft_000034de_00000000_7_THCStorage_cpp1_ii_24725ed519s_on_chip_allocatorE+16], %rd14;
+
+BB15_2:
+cvta.to.global.u64 %rd1, %rd10;
+mov.u32 %r3, %ntid.x;
+mov.u32 %r19, %ctaid.x;
+add.s32 %r4, %r19, %r11;
+bar.sync 0;
+mul.lo.s32 %r20, %r3, %r12;
+cvt.s64.s32	%rd3, %r20;
+mad.lo.s32 %r21, %r4, %r3, %r1;
+cvt.s64.s32	%rd19, %r21;
+mul.wide.s32 %rd17, %r21, 8;
+add.s64 %rd20, %rd1, %rd17;
+setp.ge.s64	%p4, %rd19, %rd11;
+@%p4 bra BB15_4;
+
+BB15_3:
+st.global.f64 [%rd20], %fd2;
+shl.b64 %rd18, %rd3, 3;
+add.s64 %rd20, %rd20, %rd18;
+add.s64 %rd19, %rd19, %rd3;
+setp.lt.s64	%p5, %rd19, %rd11;
+@%p5 bra BB15_3;
+
+BB15_4:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv(
+
+)
+{
+
+
+
+ret;
+}
+
+

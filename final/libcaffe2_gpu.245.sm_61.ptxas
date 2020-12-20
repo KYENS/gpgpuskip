@@ -1,0 +1,9 @@
+ptxas info    : 904 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_0000688a_00000000_7_upsample_op_cpp1_ii_9a24acd230UpsampleBilinearGradientKernelEiiiiiiffPKfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_0000688a_00000000_7_upsample_op_cpp1_ii_9a24acd230UpsampleBilinearGradientKernelEiiiiiiffPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 368 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_0000688a_00000000_7_upsample_op_cpp1_ii_9a24acd222UpsampleBilinearKernelEiiiiiiffPKfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_0000688a_00000000_7_upsample_op_cpp1_ii_9a24acd222UpsampleBilinearKernelEiiiiiiffPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 368 bytes cmem[0], 12 bytes cmem[2]

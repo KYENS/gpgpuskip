@@ -1,0 +1,81 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z15axpy_kernel_valIddLi0EEv19cublasAxpyParamsValIT_S1_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_valIddLi0EEv19cublasAxpyParamsValIT_S1_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15axpy_kernel_valI7double2S0_Li0EEv19cublasAxpyParamsValIT_S2_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_valI7double2S0_Li0EEv19cublasAxpyParamsValIT_S2_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15axpy_kernel_valI6float2S0_Li0EEv19cublasAxpyParamsValIT_S2_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_valI6float2S0_Li0EEv19cublasAxpyParamsValIT_S2_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15axpy_kernel_valI6__halffLi0EEv19cublasAxpyParamsValIT_S2_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_valI6__halffLi0EEv19cublasAxpyParamsValIT_S2_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15axpy_kernel_valIffLi0EEv19cublasAxpyParamsValIT_S1_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_valIffLi0EEv19cublasAxpyParamsValIT_S1_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15axpy_kernel_refIddLi0EEv19cublasAxpyParamsRefIT_S1_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_refIddLi0EEv19cublasAxpyParamsRefIT_S1_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15axpy_kernel_refI7double2S0_Li0EEv19cublasAxpyParamsRefIT_S2_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_refI7double2S0_Li0EEv19cublasAxpyParamsRefIT_S2_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15axpy_kernel_refI6float2S0_Li0EEv19cublasAxpyParamsRefIT_S2_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_refI6float2S0_Li0EEv19cublasAxpyParamsRefIT_S2_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15axpy_kernel_refI6__halffLi0EEv19cublasAxpyParamsRefIT_S2_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_refI6__halffLi0EEv19cublasAxpyParamsRefIT_S2_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15axpy_kernel_refIffLi0EEv19cublasAxpyParamsRefIT_S1_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_refIffLi0EEv19cublasAxpyParamsRefIT_S1_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15axpy_kernel_valIddLi1EEv19cublasAxpyParamsValIT_S1_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_valIddLi1EEv19cublasAxpyParamsValIT_S1_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 384 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z15axpy_kernel_valI7double2S0_Li1EEv19cublasAxpyParamsValIT_S2_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_valI7double2S0_Li1EEv19cublasAxpyParamsValIT_S2_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 408 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z15axpy_kernel_valI6float2S0_Li1EEv19cublasAxpyParamsValIT_S2_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_valI6float2S0_Li1EEv19cublasAxpyParamsValIT_S2_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 384 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z15axpy_kernel_valI6__halffLi1EEv19cublasAxpyParamsValIT_S2_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_valI6__halffLi1EEv19cublasAxpyParamsValIT_S2_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 376 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z15axpy_kernel_valIffLi1EEv19cublasAxpyParamsValIT_S1_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_valIffLi1EEv19cublasAxpyParamsValIT_S1_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 376 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z15axpy_kernel_refIddLi1EEv19cublasAxpyParamsRefIT_S1_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_refIddLi1EEv19cublasAxpyParamsRefIT_S1_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 376 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z15axpy_kernel_refI7double2S0_Li1EEv19cublasAxpyParamsRefIT_S2_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_refI7double2S0_Li1EEv19cublasAxpyParamsRefIT_S2_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 376 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z15axpy_kernel_refI6float2S0_Li1EEv19cublasAxpyParamsRefIT_S2_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_refI6float2S0_Li1EEv19cublasAxpyParamsRefIT_S2_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 376 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z15axpy_kernel_refI6__halffLi1EEv19cublasAxpyParamsRefIT_S2_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_refI6__halffLi1EEv19cublasAxpyParamsRefIT_S2_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 376 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z15axpy_kernel_refIffLi1EEv19cublasAxpyParamsRefIT_S1_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15axpy_kernel_refIffLi1EEv19cublasAxpyParamsRefIT_S1_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 376 bytes cmem[0], 2 textures

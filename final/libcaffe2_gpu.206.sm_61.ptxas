@@ -1,0 +1,9 @@
+ptxas info    : 784 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe265_GLOBAL__N__41_tmpxft_000060cb_00000000_7_elu_op_cpp1_ii_8fbe3a5f21EluGradientCUDAKernelIfEEviT_PKS2_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe265_GLOBAL__N__41_tmpxft_000060cb_00000000_7_elu_op_cpp1_ii_8fbe3a5f21EluGradientCUDAKernelIfEEviT_PKS2_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe265_GLOBAL__N__41_tmpxft_000060cb_00000000_7_elu_op_cpp1_ii_8fbe3a5f13EluCUDAKernelIfEEviT_PKS2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe265_GLOBAL__N__41_tmpxft_000060cb_00000000_7_elu_op_cpp1_ii_8fbe3a5f13EluCUDAKernelIfEEviT_PKS2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 344 bytes cmem[0], 16 bytes cmem[2]

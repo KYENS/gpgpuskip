@@ -1,0 +1,9 @@
+ptxas info    : 784 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe266_GLOBAL__N__42_tmpxft_00007285_00000000_7_tile_op_cpp1_ii_08d99b3622TileGradientAxpyKernelIfEEviiiPKT_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe266_GLOBAL__N__42_tmpxft_00007285_00000000_7_tile_op_cpp1_ii_08d99b3622TileGradientAxpyKernelIfEEviiiPKT_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 24 bytes smem, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe266_GLOBAL__N__42_tmpxft_00007285_00000000_7_tile_op_cpp1_ii_08d99b3614TileCopyKernelEiiiiPKcPc' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe266_GLOBAL__N__42_tmpxft_00007285_00000000_7_tile_op_cpp1_ii_08d99b3614TileCopyKernelEiiiiPKcPc
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 352 bytes cmem[0]

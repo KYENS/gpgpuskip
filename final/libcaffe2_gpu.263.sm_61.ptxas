@@ -1,0 +1,5 @@
+ptxas info    : 784 bytes gmem, 24 bytes cmem[3]
+ptxas info    : Compiling entry function '_ZN6caffe221TanGradientCUDAKernelIfEEviPKT_S3_PS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe221TanGradientCUDAKernelIfEEviPKT_S3_PS1_
+    32 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 352 bytes cmem[0], 52 bytes cmem[2]

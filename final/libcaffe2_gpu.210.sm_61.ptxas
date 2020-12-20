@@ -1,0 +1,13 @@
+ptxas info    : 992 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe217lengthsTileKernelIiEEviiPKT_PS1_PKi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe217lengthsTileKernelIiEEviiPKT_PS1_PKi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe217lengthsTileKernelIfEEviiPKT_PS1_PKi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe217lengthsTileKernelIfEEviiPKT_PS1_PKi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe217lengthsTileKernelIlEEviiPKT_PS1_PKi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe217lengthsTileKernelIlEEviiPKT_PS1_PKi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 352 bytes cmem[0]

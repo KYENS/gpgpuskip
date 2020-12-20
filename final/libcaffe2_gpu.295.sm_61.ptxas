@@ -1,0 +1,5 @@
+ptxas info    : 864 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe267_GLOBAL__N__43_tmpxft_00007363_00000000_7_slice_op_cpp1_ii_9b5598fd15SliceCopyKernelEPciS1_iiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe267_GLOBAL__N__43_tmpxft_00007363_00000000_7_slice_op_cpp1_ii_9b5598fd15SliceCopyKernelEPciS1_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 360 bytes cmem[0]

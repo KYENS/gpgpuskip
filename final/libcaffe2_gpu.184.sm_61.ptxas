@@ -1,0 +1,17 @@
+ptxas info    : 1248 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe278_GLOBAL__N__54_tmpxft_00005b9e_00000000_7_max_pool_with_index_cpp1_ii_f8a2868614MaxPoolForwardIN3c104HalfEEEviPKT_iiiiiiiiiiiiPS4_Pi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe278_GLOBAL__N__54_tmpxft_00005b9e_00000000_7_max_pool_with_index_cpp1_ii_f8a2868614MaxPoolForwardIN3c104HalfEEEviPKT_iiiiiiiiiiiiPS4_Pi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe278_GLOBAL__N__54_tmpxft_00005b9e_00000000_7_max_pool_with_index_cpp1_ii_f8a2868615MaxPoolBackwardIN3c104HalfEEEviPKT_PKiiiiiiiiiiiiiPS4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe278_GLOBAL__N__54_tmpxft_00005b9e_00000000_7_max_pool_with_index_cpp1_ii_f8a2868615MaxPoolBackwardIN3c104HalfEEEviPKT_PKiiiiiiiiiiiiiPS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe278_GLOBAL__N__54_tmpxft_00005b9e_00000000_7_max_pool_with_index_cpp1_ii_f8a2868614MaxPoolForwardIfEEviPKT_iiiiiiiiiiiiPS2_Pi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe278_GLOBAL__N__54_tmpxft_00005b9e_00000000_7_max_pool_with_index_cpp1_ii_f8a2868614MaxPoolForwardIfEEviPKT_iiiiiiiiiiiiPS2_Pi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 400 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe278_GLOBAL__N__54_tmpxft_00005b9e_00000000_7_max_pool_with_index_cpp1_ii_f8a2868615MaxPoolBackwardIfEEviPKT_PKiiiiiiiiiiiiiPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe278_GLOBAL__N__54_tmpxft_00005b9e_00000000_7_max_pool_with_index_cpp1_ii_f8a2868615MaxPoolBackwardIfEEviPKT_PKiiiiiiiiiiiiiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 400 bytes cmem[0]

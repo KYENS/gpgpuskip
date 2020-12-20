@@ -1,0 +1,214 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+
+.visible .entry _Z31THCudaTensor_copyUpperSymmetricPfii(
+.param .u64 _Z31THCudaTensor_copyUpperSymmetricPfii_param_0,
+.param .u32 _Z31THCudaTensor_copyUpperSymmetricPfii_param_1,
+.param .u32 _Z31THCudaTensor_copyUpperSymmetricPfii_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .f32 %f<2>;
+.reg .b32 %r<14>;
+.reg .b64 %rd<10>;
+
+
+ld.param.u64 %rd5, [_Z31THCudaTensor_copyUpperSymmetricPfii_param_0];
+ld.param.u32 %r9, [_Z31THCudaTensor_copyUpperSymmetricPfii_param_1];
+ld.param.u32 %r10, [_Z31THCudaTensor_copyUpperSymmetricPfii_param_2];
+cvta.to.global.u64 %rd1, %rd5;
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r13, %r1, %r2, %r3;
+setp.ge.s32	%p1, %r13, %r10;
+@%p1 bra BB0_5;
+
+mad.lo.s32 %r11, %r1, %r2, %r3;
+mul.wide.s32 %rd6, %r11, 4;
+add.s64 %rd9, %rd1, %rd6;
+
+BB0_2:
+div.s32 %r6, %r13, %r9;
+rem.s32 %r7, %r13, %r9;
+setp.le.s32	%p2, %r7, %r6;
+@%p2 bra BB0_4;
+
+mad.lo.s32 %r12, %r7, %r9, %r6;
+mul.wide.s32 %rd7, %r12, 4;
+add.s64 %rd8, %rd1, %rd7;
+ld.global.f32 %f1, [%rd8];
+st.global.f32 [%rd9], %f1;
+
+BB0_4:
+add.s32 %r13, %r13, 65535;
+add.s64 %rd9, %rd9, 262140;
+setp.lt.s32	%p3, %r13, %r10;
+@%p3 bra BB0_2;
+
+BB0_5:
+ret;
+}
+
+
+.visible .entry _Z31THCudaTensor_copyLowerSymmetricPfii(
+.param .u64 _Z31THCudaTensor_copyLowerSymmetricPfii_param_0,
+.param .u32 _Z31THCudaTensor_copyLowerSymmetricPfii_param_1,
+.param .u32 _Z31THCudaTensor_copyLowerSymmetricPfii_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .f32 %f<2>;
+.reg .b32 %r<14>;
+.reg .b64 %rd<10>;
+
+
+ld.param.u64 %rd5, [_Z31THCudaTensor_copyLowerSymmetricPfii_param_0];
+ld.param.u32 %r9, [_Z31THCudaTensor_copyLowerSymmetricPfii_param_1];
+ld.param.u32 %r10, [_Z31THCudaTensor_copyLowerSymmetricPfii_param_2];
+cvta.to.global.u64 %rd1, %rd5;
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r13, %r1, %r2, %r3;
+setp.ge.s32	%p1, %r13, %r10;
+@%p1 bra BB1_5;
+
+mad.lo.s32 %r11, %r1, %r2, %r3;
+mul.wide.s32 %rd6, %r11, 4;
+add.s64 %rd9, %rd1, %rd6;
+
+BB1_2:
+div.s32 %r6, %r13, %r9;
+rem.s32 %r7, %r13, %r9;
+setp.ge.s32	%p2, %r7, %r6;
+@%p2 bra BB1_4;
+
+mad.lo.s32 %r12, %r7, %r9, %r6;
+mul.wide.s32 %rd7, %r12, 4;
+add.s64 %rd8, %rd1, %rd7;
+ld.global.f32 %f1, [%rd8];
+st.global.f32 [%rd9], %f1;
+
+BB1_4:
+add.s32 %r13, %r13, 65535;
+add.s64 %rd9, %rd9, 262140;
+setp.lt.s32	%p3, %r13, %r10;
+@%p3 bra BB1_2;
+
+BB1_5:
+ret;
+}
+
+
+.visible .entry _Z37THCudaDoubleTensor_copyUpperSymmetricPdii(
+.param .u64 _Z37THCudaDoubleTensor_copyUpperSymmetricPdii_param_0,
+.param .u32 _Z37THCudaDoubleTensor_copyUpperSymmetricPdii_param_1,
+.param .u32 _Z37THCudaDoubleTensor_copyUpperSymmetricPdii_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b32 %r<14>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<10>;
+
+
+ld.param.u64 %rd5, [_Z37THCudaDoubleTensor_copyUpperSymmetricPdii_param_0];
+ld.param.u32 %r9, [_Z37THCudaDoubleTensor_copyUpperSymmetricPdii_param_1];
+ld.param.u32 %r10, [_Z37THCudaDoubleTensor_copyUpperSymmetricPdii_param_2];
+cvta.to.global.u64 %rd1, %rd5;
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r13, %r1, %r2, %r3;
+setp.ge.s32	%p1, %r13, %r10;
+@%p1 bra BB2_5;
+
+mad.lo.s32 %r11, %r1, %r2, %r3;
+mul.wide.s32 %rd6, %r11, 8;
+add.s64 %rd9, %rd1, %rd6;
+
+BB2_2:
+div.s32 %r6, %r13, %r9;
+rem.s32 %r7, %r13, %r9;
+setp.le.s32	%p2, %r7, %r6;
+@%p2 bra BB2_4;
+
+mad.lo.s32 %r12, %r7, %r9, %r6;
+mul.wide.s32 %rd7, %r12, 8;
+add.s64 %rd8, %rd1, %rd7;
+ld.global.f64 %fd1, [%rd8];
+st.global.f64 [%rd9], %fd1;
+
+BB2_4:
+add.s32 %r13, %r13, 65535;
+add.s64 %rd9, %rd9, 524280;
+setp.lt.s32	%p3, %r13, %r10;
+@%p3 bra BB2_2;
+
+BB2_5:
+ret;
+}
+
+
+.visible .entry _Z37THCudaDoubleTensor_copyLowerSymmetricPdii(
+.param .u64 _Z37THCudaDoubleTensor_copyLowerSymmetricPdii_param_0,
+.param .u32 _Z37THCudaDoubleTensor_copyLowerSymmetricPdii_param_1,
+.param .u32 _Z37THCudaDoubleTensor_copyLowerSymmetricPdii_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b32 %r<14>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<10>;
+
+
+ld.param.u64 %rd5, [_Z37THCudaDoubleTensor_copyLowerSymmetricPdii_param_0];
+ld.param.u32 %r9, [_Z37THCudaDoubleTensor_copyLowerSymmetricPdii_param_1];
+ld.param.u32 %r10, [_Z37THCudaDoubleTensor_copyLowerSymmetricPdii_param_2];
+cvta.to.global.u64 %rd1, %rd5;
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r13, %r1, %r2, %r3;
+setp.ge.s32	%p1, %r13, %r10;
+@%p1 bra BB3_5;
+
+mad.lo.s32 %r11, %r1, %r2, %r3;
+mul.wide.s32 %rd6, %r11, 8;
+add.s64 %rd9, %rd1, %rd6;
+
+BB3_2:
+div.s32 %r6, %r13, %r9;
+rem.s32 %r7, %r13, %r9;
+setp.ge.s32	%p2, %r7, %r6;
+@%p2 bra BB3_4;
+
+mad.lo.s32 %r12, %r7, %r9, %r6;
+mul.wide.s32 %rd7, %r12, 8;
+add.s64 %rd8, %rd1, %rd7;
+ld.global.f64 %fd1, [%rd8];
+st.global.f64 [%rd9], %fd1;
+
+BB3_4:
+add.s32 %r13, %r13, 65535;
+add.s64 %rd9, %rd9, 524280;
+setp.lt.s32	%p3, %r13, %r10;
+@%p3 bra BB3_2;
+
+BB3_5:
+ret;
+}
+
+

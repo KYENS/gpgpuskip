@@ -1,0 +1,17 @@
+ptxas info    : 784 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 48 bytes smem, 360 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 368 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 48 bytes smem, 360 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 368 bytes cmem[0], 12 bytes cmem[2]

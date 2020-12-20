@@ -1,0 +1,157 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe226UnaryElementwiseWithArgsOpINS_11TensorTypesIJfEEENS_11CUDAContextENS_12ReluNFunctorIS3_EENS_15SameTypeAsInputEEE[136];
+.global .align 8 .b8 _ZTVN6caffe227BinaryElementwiseWithArgsOpINS_11TensorTypesIJfEEENS_11CUDAContextENS_20ReluNGradientFunctorIS3_EENS_15SameTypeAsInputEEE[136];
+
+.visible .entry _ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae815ReluNCUDAKernelIfEEviT_PKS2_PS2_(
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae815ReluNCUDAKernelIfEEviT_PKS2_PS2__param_0,
+.param .f32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae815ReluNCUDAKernelIfEEviT_PKS2_PS2__param_1,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae815ReluNCUDAKernelIfEEviT_PKS2_PS2__param_2,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae815ReluNCUDAKernelIfEEviT_PKS2_PS2__param_3
+)
+{
+.reg .pred %p<5>;
+.reg .f32 %f<9>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<17>;
+
+
+ld.param.f32 %f3, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae815ReluNCUDAKernelIfEEviT_PKS2_PS2__param_1];
+ld.param.u64 %rd8, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae815ReluNCUDAKernelIfEEviT_PKS2_PS2__param_2];
+ld.param.u64 %rd9, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae815ReluNCUDAKernelIfEEviT_PKS2_PS2__param_3];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd16, %r4;
+ld.param.s32 %rd2, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae815ReluNCUDAKernelIfEEviT_PKS2_PS2__param_0];
+setp.ge.u64	%p1, %rd16, %rd2;
+@%p1 bra BB0_6;
+
+cvta.to.global.u64 %rd3, %rd9;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd4, %r6;
+
+BB0_2:
+shl.b64 %rd11, %rd16, 2;
+add.s64 %rd10, %rd8, %rd11;
+
+	ld.global.nc.f32 %f4, [%rd10];
+
+	mov.f32 %f5, 0f00000000;
+setp.leu.f32	%p2, %f4, 0f00000000;
+mov.f32 %f8, %f5;
+@%p2 bra BB0_5;
+
+
+	ld.global.nc.f32 %f6, [%rd10];
+
+	setp.geu.f32	%p3, %f6, %f3;
+mov.f32 %f8, %f3;
+@%p3 bra BB0_5;
+
+
+	ld.global.nc.f32 %f7, [%rd10];
+
+	mov.f32 %f8, %f7;
+
+BB0_5:
+mov.f32 %f2, %f8;
+add.s64 %rd15, %rd3, %rd11;
+st.global.f32 [%rd15], %f2;
+add.s64 %rd16, %rd4, %rd16;
+setp.lt.u64	%p4, %rd16, %rd2;
+@%p4 bra BB0_2;
+
+BB0_6:
+ret;
+}
+
+
+.visible .entry _ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae823ReluNGradientCUDAKernelIfEEviT_PKS2_S4_PS2_(
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae823ReluNGradientCUDAKernelIfEEviT_PKS2_S4_PS2__param_0,
+.param .f32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae823ReluNGradientCUDAKernelIfEEviT_PKS2_S4_PS2__param_1,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae823ReluNGradientCUDAKernelIfEEviT_PKS2_S4_PS2__param_2,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae823ReluNGradientCUDAKernelIfEEviT_PKS2_S4_PS2__param_3,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae823ReluNGradientCUDAKernelIfEEviT_PKS2_S4_PS2__param_4
+)
+{
+.reg .pred %p<5>;
+.reg .f32 %f<9>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<20>;
+
+
+ld.param.f32 %f3, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae823ReluNGradientCUDAKernelIfEEviT_PKS2_S4_PS2__param_1];
+ld.param.u64 %rd9, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae823ReluNGradientCUDAKernelIfEEviT_PKS2_S4_PS2__param_2];
+ld.param.u64 %rd10, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae823ReluNGradientCUDAKernelIfEEviT_PKS2_S4_PS2__param_3];
+ld.param.u64 %rd11, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae823ReluNGradientCUDAKernelIfEEviT_PKS2_S4_PS2__param_4];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd19, %r4;
+ld.param.s32 %rd2, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae823ReluNGradientCUDAKernelIfEEviT_PKS2_S4_PS2__param_0];
+setp.ge.u64	%p1, %rd19, %rd2;
+@%p1 bra BB1_6;
+
+cvta.to.global.u64 %rd3, %rd11;
+cvta.to.global.u64 %rd4, %rd9;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB1_2:
+shl.b64 %rd13, %rd19, 2;
+add.s64 %rd12, %rd10, %rd13;
+
+	ld.global.nc.f32 %f4, [%rd12];
+
+	mov.f32 %f8, 0f00000000;
+setp.leu.f32	%p2, %f4, 0f00000000;
+@%p2 bra BB1_5;
+
+
+	ld.global.nc.f32 %f6, [%rd12];
+
+	setp.geu.f32	%p3, %f6, %f3;
+@%p3 bra BB1_5;
+
+add.s64 %rd16, %rd4, %rd13;
+ld.global.f32 %f8, [%rd16];
+
+BB1_5:
+add.s64 %rd18, %rd3, %rd13;
+st.global.f32 [%rd18], %f8;
+add.s64 %rd19, %rd5, %rd19;
+setp.lt.u64	%p4, %rd19, %rd2;
+@%p4 bra BB1_2;
+
+BB1_6:
+ret;
+}
+
+

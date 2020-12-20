@@ -1,0 +1,149 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe226UnaryElementwiseWithArgsOpINS_11TensorTypesIJfEEENS_11CUDAContextENS_27UnaryFunctorWithDefaultCtorINS_14SigmoidFunctorIS3_EEEENS_15SameTypeAsInputEEE[136];
+.global .align 8 .b8 _ZTVN6caffe227BinaryElementwiseWithArgsOpINS_11TensorTypesIJfEEENS_11CUDAContextENS_28BinaryFunctorWithDefaultCtorINS_22SigmoidGradientFunctorIS3_EEEENS_15SameTypeAsInputEEE[136];
+
+.visible .entry _ZN6caffe269_GLOBAL__N__45_tmpxft_00005e33_00000000_7_sigmoid_op_cpp1_ii_27e52fa117SigmoidCUDAKernelIfEEviPKT_PS2_(
+.param .u32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00005e33_00000000_7_sigmoid_op_cpp1_ii_27e52fa117SigmoidCUDAKernelIfEEviPKT_PS2__param_0,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00005e33_00000000_7_sigmoid_op_cpp1_ii_27e52fa117SigmoidCUDAKernelIfEEviPKT_PS2__param_1,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00005e33_00000000_7_sigmoid_op_cpp1_ii_27e52fa117SigmoidCUDAKernelIfEEviPKT_PS2__param_2
+)
+{
+.reg .pred %p<5>;
+.reg .f32 %f<17>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<13>;
+
+
+ld.param.u64 %rd7, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00005e33_00000000_7_sigmoid_op_cpp1_ii_27e52fa117SigmoidCUDAKernelIfEEviPKT_PS2__param_1];
+ld.param.u64 %rd8, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00005e33_00000000_7_sigmoid_op_cpp1_ii_27e52fa117SigmoidCUDAKernelIfEEviPKT_PS2__param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd12, %r4;
+ld.param.s32 %rd2, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00005e33_00000000_7_sigmoid_op_cpp1_ii_27e52fa117SigmoidCUDAKernelIfEEviPKT_PS2__param_0];
+setp.ge.u64	%p1, %rd12, %rd2;
+@%p1 bra BB0_3;
+
+cvta.to.global.u64 %rd3, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd4, %r6;
+
+BB0_2:
+shl.b64 %rd10, %rd12, 2;
+add.s64 %rd9, %rd7, %rd10;
+
+	ld.global.nc.f32 %f1, [%rd9];
+
+	neg.f32 %f4, %f1;
+mul.f32 %f5, %f1, 0fBFB8AA3B;
+cvt.rzi.f32.f32	%f6, %f5;
+mov.f32 %f7, 0fBF317200;
+fma.rn.f32 %f8, %f6, %f7, %f4;
+mov.f32 %f9, 0fB5BFBE8E;
+fma.rn.f32 %f10, %f6, %f9, %f8;
+mul.f32 %f3, %f10, 0f3FB8AA3B;
+
+	ex2.approx.ftz.f32 %f2,%f3;
+
+	add.f32 %f11, %f6, 0f00000000;
+ex2.approx.f32 %f12, %f11;
+setp.gt.f32	%p2, %f1, 0f42D20000;
+setp.lt.f32	%p3, %f1, 0fC2D20000;
+fma.rn.f32 %f13, %f2, %f12, 0f3F800000;
+rcp.rn.f32 %f14, %f13;
+selp.f32	%f15, 0f3F800000, %f14, %p2;
+selp.f32	%f16, 0f00000000, %f15, %p3;
+add.s64 %rd11, %rd3, %rd10;
+st.global.f32 [%rd11], %f16;
+add.s64 %rd12, %rd4, %rd12;
+setp.lt.u64	%p4, %rd12, %rd2;
+@%p4 bra BB0_2;
+
+BB0_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe269_GLOBAL__N__45_tmpxft_00005e33_00000000_7_sigmoid_op_cpp1_ii_27e52fa125SigmoidGradientCUDAKernelIfEEviPKT_S4_PS2_(
+.param .u32 _ZN6caffe269_GLOBAL__N__45_tmpxft_00005e33_00000000_7_sigmoid_op_cpp1_ii_27e52fa125SigmoidGradientCUDAKernelIfEEviPKT_S4_PS2__param_0,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00005e33_00000000_7_sigmoid_op_cpp1_ii_27e52fa125SigmoidGradientCUDAKernelIfEEviPKT_S4_PS2__param_1,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00005e33_00000000_7_sigmoid_op_cpp1_ii_27e52fa125SigmoidGradientCUDAKernelIfEEviPKT_S4_PS2__param_2,
+.param .u64 _ZN6caffe269_GLOBAL__N__45_tmpxft_00005e33_00000000_7_sigmoid_op_cpp1_ii_27e52fa125SigmoidGradientCUDAKernelIfEEviPKT_S4_PS2__param_3
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<8>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<16>;
+
+
+ld.param.u64 %rd7, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00005e33_00000000_7_sigmoid_op_cpp1_ii_27e52fa125SigmoidGradientCUDAKernelIfEEviPKT_S4_PS2__param_1];
+ld.param.u64 %rd8, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00005e33_00000000_7_sigmoid_op_cpp1_ii_27e52fa125SigmoidGradientCUDAKernelIfEEviPKT_S4_PS2__param_2];
+ld.param.u64 %rd9, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00005e33_00000000_7_sigmoid_op_cpp1_ii_27e52fa125SigmoidGradientCUDAKernelIfEEviPKT_S4_PS2__param_3];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd15, %r4;
+ld.param.s32 %rd2, [_ZN6caffe269_GLOBAL__N__45_tmpxft_00005e33_00000000_7_sigmoid_op_cpp1_ii_27e52fa125SigmoidGradientCUDAKernelIfEEviPKT_S4_PS2__param_0];
+setp.ge.u64	%p1, %rd15, %rd2;
+@%p1 bra BB1_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd4, %r6;
+
+BB1_2:
+shl.b64 %rd13, %rd15, 2;
+add.s64 %rd10, %rd7, %rd13;
+
+	ld.global.nc.f32 %f1, [%rd10];
+
+	add.s64 %rd12, %rd8, %rd13;
+
+	ld.global.nc.f32 %f2, [%rd12];
+
+	mul.f32 %f4, %f1, %f2;
+
+	ld.global.nc.f32 %f3, [%rd12];
+
+	mov.f32 %f5, 0f3F800000;
+sub.f32 %f6, %f5, %f3;
+mul.f32 %f7, %f4, %f6;
+add.s64 %rd14, %rd3, %rd13;
+st.global.f32 [%rd14], %f7;
+add.s64 %rd15, %rd4, %rd15;
+setp.lt.u64	%p2, %rd15, %rd2;
+@%p2 bra BB1_2;
+
+BB1_3:
+ret;
+}
+
+

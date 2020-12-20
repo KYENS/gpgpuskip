@@ -1,0 +1,25 @@
+ptxas info    : 531 bytes gmem
+ptxas info    : Compiling entry function '_Z53cunn_MultiLabelMarginCriterion_updateGradInput_kernelIffEvPT_S1_S1_PlS1_iiii' for 'sm_61'
+ptxas info    : Function properties for _Z53cunn_MultiLabelMarginCriterion_updateGradInput_kernelIffEvPT_S1_S1_PlS1_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 4096 bytes smem, 376 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z53cunn_MultiLabelMarginCriterion_updateGradInput_kernelIddEvPT_S1_S1_PlS1_iiii' for 'sm_61'
+ptxas info    : Function properties for _Z53cunn_MultiLabelMarginCriterion_updateGradInput_kernelIddEvPT_S1_S1_PlS1_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 8192 bytes smem, 376 bytes cmem[0], 28 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z53cunn_MultiLabelMarginCriterion_updateGradInput_kernelIN3c104HalfEfEvPT_S3_S3_PlS3_iiii' for 'sm_61'
+ptxas info    : Function properties for _Z53cunn_MultiLabelMarginCriterion_updateGradInput_kernelIN3c104HalfEfEvPT_S3_S3_PlS3_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 4096 bytes smem, 376 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cunn_MultiLabelMarginCriterion_updateOutput_kernelIffEvPT_S1_PlS1_iii' for 'sm_61'
+ptxas info    : Function properties for _Z50cunn_MultiLabelMarginCriterion_updateOutput_kernelIffEvPT_S1_PlS1_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 4096 bytes smem, 364 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cunn_MultiLabelMarginCriterion_updateOutput_kernelIddEvPT_S1_PlS1_iii' for 'sm_61'
+ptxas info    : Function properties for _Z50cunn_MultiLabelMarginCriterion_updateOutput_kernelIddEvPT_S1_PlS1_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 8192 bytes smem, 364 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cunn_MultiLabelMarginCriterion_updateOutput_kernelIN3c104HalfEfEvPT_S3_PlS3_iii' for 'sm_61'
+ptxas info    : Function properties for _Z50cunn_MultiLabelMarginCriterion_updateOutput_kernelIN3c104HalfEfEvPT_S3_PlS3_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 4096 bytes smem, 364 bytes cmem[0], 20 bytes cmem[2]

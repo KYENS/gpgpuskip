@@ -1,0 +1,1435 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe211GroupNormOpIfNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe219GroupNormGradientOpIfNS_11CUDAContextEEE[136];
+
+
+
+
+
+
+
+
+
+.visible .entry _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3_(
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_0,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_1,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_2,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_3,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_4,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_5,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_6
+)
+{
+.reg .pred %p<5>;
+.reg .f32 %f<7>;
+.reg .b32 %r<17>;
+.reg .b64 %rd<12>;
+
+
+ld.param.u32 %r12, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_0];
+ld.param.u32 %r13, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_1];
+ld.param.u32 %r11, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_2];
+ld.param.u64 %rd2, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_3];
+ld.param.u64 %rd3, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_4];
+ld.param.u64 %rd4, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_5];
+ld.param.u64 %rd5, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_6];
+mov.u32 %r15, %ctaid.x;
+mul.lo.s32 %r2, %r13, %r12;
+setp.ge.s32	%p1, %r15, %r2;
+@%p1 bra BB0_6;
+
+cvta.to.global.u64 %rd1, %rd5;
+mov.u32 %r3, %tid.x;
+mov.u32 %r4, %nctaid.x;
+mov.u32 %r5, %ntid.x;
+
+BB0_2:
+mul.wide.s32 %rd8, %r15, 4;
+add.s64 %rd6, %rd3, %rd8;
+
+	ld.global.nc.f32 %f3, [%rd6];
+
+	add.s64 %rd7, %rd4, %rd8;
+
+	ld.global.nc.f32 %f4, [%rd7];
+
+	setp.ge.s32	%p2, %r3, %r11;
+@%p2 bra BB0_5;
+
+mul.lo.s32 %r7, %r15, %r11;
+mov.u32 %r16, %r3;
+
+BB0_4:
+mov.u32 %r8, %r16;
+add.s32 %r14, %r8, %r7;
+mul.wide.s32 %rd10, %r14, 4;
+add.s64 %rd9, %rd2, %rd10;
+
+	ld.global.nc.f32 %f5, [%rd9];
+
+	fma.rn.f32 %f6, %f3, %f5, %f4;
+add.s64 %rd11, %rd1, %rd10;
+st.global.f32 [%rd11], %f6;
+add.s32 %r9, %r5, %r8;
+setp.lt.s32	%p3, %r9, %r11;
+mov.u32 %r16, %r9;
+@%p3 bra BB0_4;
+
+BB0_5:
+add.s32 %r15, %r4, %r15;
+setp.lt.s32	%p4, %r15, %r2;
+@%p4 bra BB0_2;
+
+BB0_6:
+ret;
+}
+
+
+.visible .entry _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3_(
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_0,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_1,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_2,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_3,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_4,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_5,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_6
+)
+{
+.reg .pred %p<5>;
+.reg .f32 %f<5>;
+.reg .b32 %r<20>;
+.reg .b64 %rd<12>;
+
+
+ld.param.u32 %r14, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_0];
+ld.param.u32 %r12, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_1];
+ld.param.u32 %r13, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_2];
+ld.param.u64 %rd2, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_3];
+ld.param.u64 %rd3, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_4];
+ld.param.u64 %rd4, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_5];
+ld.param.u64 %rd5, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e26GroupNormForwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_6];
+mov.u32 %r18, %ctaid.x;
+mul.lo.s32 %r2, %r13, %r14;
+setp.ge.s32	%p1, %r18, %r2;
+@%p1 bra BB1_6;
+
+cvta.to.global.u64 %rd1, %rd5;
+mov.u32 %r3, %tid.x;
+mov.u32 %r4, %nctaid.x;
+mov.u32 %r5, %ntid.x;
+
+BB1_2:
+setp.ge.s32	%p2, %r3, %r12;
+@%p2 bra BB1_5;
+
+div.s32 %r15, %r18, %r13;
+mul.lo.s32 %r7, %r18, %r12;
+mul.lo.s32 %r8, %r15, %r12;
+mov.u32 %r19, %r3;
+
+BB1_4:
+mov.u32 %r9, %r19;
+add.s32 %r16, %r9, %r7;
+mul.wide.s32 %rd9, %r16, 4;
+add.s64 %rd6, %rd2, %rd9;
+
+	ld.global.nc.f32 %f1, [%rd6];
+
+	add.s32 %r17, %r9, %r8;
+mul.wide.s32 %rd10, %r17, 4;
+add.s64 %rd7, %rd3, %rd10;
+
+	ld.global.nc.f32 %f2, [%rd7];
+
+	add.s64 %rd8, %rd4, %rd10;
+
+	ld.global.nc.f32 %f3, [%rd8];
+
+	fma.rn.f32 %f4, %f1, %f2, %f3;
+add.s64 %rd11, %rd1, %rd9;
+st.global.f32 [%rd11], %f4;
+add.s32 %r10, %r5, %r9;
+setp.lt.s32	%p3, %r10, %r12;
+mov.u32 %r19, %r10;
+@%p3 bra BB1_4;
+
+BB1_5:
+add.s32 %r18, %r4, %r18;
+setp.lt.s32	%p4, %r18, %r2;
+@%p4 bra BB1_2;
+
+BB1_6:
+ret;
+}
+
+
+.visible .entry _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5_(
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5__param_0,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5__param_1,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5__param_2,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5__param_3,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5__param_4,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5__param_5,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5__param_6,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5__param_7,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5__param_8
+)
+{
+.reg .pred %p<5>;
+.reg .f32 %f<10>;
+.reg .b32 %r<20>;
+.reg .b64 %rd<18>;
+
+
+ld.param.u32 %r13, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5__param_0];
+ld.param.u32 %r11, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5__param_1];
+ld.param.u32 %r12, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5__param_2];
+ld.param.u64 %rd3, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5__param_3];
+ld.param.u64 %rd4, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5__param_4];
+ld.param.u64 %rd5, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5__param_5];
+ld.param.u64 %rd6, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5__param_6];
+ld.param.u64 %rd7, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5__param_7];
+ld.param.u64 %rd8, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e28ComputeFusedParamsCUDAKernelIfEEviiiPKT_S4_S4_S4_PS2_S5__param_8];
+mov.u32 %r18, %ctaid.x;
+mul.lo.s32 %r2, %r11, %r13;
+setp.ge.s32	%p1, %r18, %r2;
+@%p1 bra BB2_6;
+
+cvta.to.global.u64 %rd1, %rd8;
+cvta.to.global.u64 %rd2, %rd7;
+mov.u32 %r3, %tid.x;
+mov.u32 %r4, %ntid.x;
+
+BB2_2:
+mul.wide.s32 %rd11, %r18, 4;
+add.s64 %rd9, %rd3, %rd11;
+
+	ld.global.nc.f32 %f3, [%rd9];
+
+	add.s64 %rd10, %rd4, %rd11;
+
+	ld.global.nc.f32 %f4, [%rd10];
+
+	setp.ge.s32	%p2, %r3, %r12;
+@%p2 bra BB2_5;
+
+rem.s32 %r14, %r18, %r11;
+mul.lo.s32 %r6, %r18, %r12;
+mul.lo.s32 %r7, %r14, %r12;
+mov.u32 %r19, %r3;
+
+BB2_4:
+mov.u32 %r8, %r19;
+add.s32 %r15, %r8, %r7;
+mul.wide.s32 %rd14, %r15, 4;
+add.s64 %rd12, %rd5, %rd14;
+
+	ld.global.nc.f32 %f5, [%rd12];
+
+	mul.f32 %f7, %f4, %f5;
+add.s32 %r16, %r8, %r6;
+mul.wide.s32 %rd15, %r16, 4;
+add.s64 %rd16, %rd2, %rd15;
+st.global.f32 [%rd16], %f7;
+add.s64 %rd13, %rd6, %rd14;
+
+	ld.global.nc.f32 %f6, [%rd13];
+
+	mul.f32 %f8, %f3, %f7;
+sub.f32 %f9, %f6, %f8;
+add.s64 %rd17, %rd1, %rd15;
+st.global.f32 [%rd17], %f9;
+add.s32 %r9, %r4, %r8;
+setp.lt.s32	%p3, %r9, %r12;
+mov.u32 %r19, %r9;
+@%p3 bra BB2_4;
+
+BB2_5:
+mov.u32 %r17, %nctaid.x;
+add.s32 %r18, %r17, %r18;
+setp.lt.s32	%p4, %r18, %r2;
+@%p4 bra BB2_2;
+
+BB2_6:
+ret;
+}
+
+
+.visible .entry _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6_(
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6__param_0,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6__param_1,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6__param_2,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6__param_3,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6__param_4,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6__param_5,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6__param_6,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6__param_7,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6__param_8
+)
+{
+.reg .pred %p<10>;
+.reg .f32 %f<67>;
+.reg .b32 %r<46>;
+.reg .b64 %rd<25>;
+
+	.shared .align 4 .b8 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246459_64_non_const_ds_storage[24];
+
+	.shared .align 4 .b8 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246460_64_non_const_db_storage[24];
+
+ld.param.u32 %r16, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6__param_0];
+ld.param.u32 %r13, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6__param_1];
+ld.param.u32 %r14, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6__param_2];
+ld.param.u32 %r15, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6__param_3];
+ld.param.u64 %rd3, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6__param_4];
+ld.param.u64 %rd4, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6__param_5];
+ld.param.u64 %rd5, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6__param_6];
+ld.param.u64 %rd6, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6__param_7];
+ld.param.u64 %rd7, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6__param_8];
+mul.lo.s32 %r1, %r13, %r16;
+mul.lo.s32 %r2, %r15, %r14;
+mov.u32 %r44, %ctaid.x;
+setp.ge.s32	%p3, %r44, %r1;
+@%p3 bra BB3_16;
+
+mov.u32 %r4, %tid.x;
+shr.u32 %r17, %r4, 5;
+mul.wide.u32 %rd8, %r17, 4;
+mov.u64 %rd9, _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246459_64_non_const_ds_storage;
+add.s64 %rd10, %rd9, %rd8;
+add.s64 %rd1, %rd10, 4;
+mov.u64 %rd11, _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246460_64_non_const_db_storage;
+add.s64 %rd12, %rd11, %rd8;
+add.s64 %rd2, %rd12, 4;
+mov.u32 %r5, %ntid.x;
+
+	mov.u32 %r22, %laneid;
+
+	cvta.to.global.u64 %rd20, %rd6;
+cvta.to.global.u64 %rd23, %rd7;
+
+BB3_2:
+mov.f32 %f64, 0f00000000;
+mov.f32 %f63, %f64;
+setp.ge.s32	%p4, %r4, %r2;
+@%p4 bra BB3_5;
+
+rem.s32 %r18, %r44, %r13;
+mul.lo.s32 %r7, %r18, %r14;
+mul.lo.s32 %r8, %r44, %r2;
+mov.f32 %f64, 0f00000000;
+mov.f32 %f63, %f64;
+mov.u32 %r45, %r4;
+
+BB3_4:
+mov.u32 %r9, %r45;
+div.s32 %r19, %r9, %r15;
+add.s32 %r20, %r7, %r19;
+mul.wide.s32 %rd18, %r20, 4;
+add.s64 %rd16, %rd5, %rd18;
+
+	ld.global.nc.f32 %f17, [%rd16];
+
+	add.s32 %r21, %r9, %r8;
+mul.wide.s32 %rd19, %r21, 4;
+add.s64 %rd17, %rd3, %rd19;
+
+	ld.global.nc.f32 %f18, [%rd17];
+
+	mul.f32 %f22, %f17, %f18;
+add.s64 %rd15, %rd4, %rd19;
+
+	ld.global.nc.f32 %f19, [%rd15];
+
+	fma.rn.f32 %f64, %f22, %f19, %f64;
+
+	ld.global.nc.f32 %f20, [%rd16];
+
+	
+	ld.global.nc.f32 %f21, [%rd17];
+
+	fma.rn.f32 %f63, %f20, %f21, %f63;
+add.s32 %r10, %r5, %r9;
+setp.lt.s32	%p5, %r10, %r2;
+mov.u32 %r45, %r10;
+@%p5 bra BB3_4;
+
+BB3_5:
+mov.u32 %r23, 1;
+mov.u32 %r32, 31;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f64, %r23, %r32; @p add.f32 r0, r0, %f64; mov.f32 %f23, r0;}
+
+	mov.u32 %r25, 2;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f23, %r25, %r32; @p add.f32 r0, r0, %f23; mov.f32 %f26, r0;}
+
+	mov.u32 %r27, 4;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f26, %r27, %r32; @p add.f32 r0, r0, %f26; mov.f32 %f29, r0;}
+
+	mov.u32 %r29, 8;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f29, %r29, %r32; @p add.f32 r0, r0, %f29; mov.f32 %f32, r0;}
+
+	mov.u32 %r31, 16;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f32, %r31, %r32; @p add.f32 r0, r0, %f32; mov.f32 %f65, r0;}
+
+	setp.ne.s32	%p6, %r22, 0;
+@%p6 bra BB3_7;
+
+st.shared.f32 [%rd1], %f65;
+
+BB3_7:
+setp.eq.s32	%p1, %r4, 0;
+bar.sync 0;
+@!%p1 bra BB3_9;
+bra.uni BB3_8;
+
+BB3_8:
+ld.shared.f32 %f38, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246459_64_non_const_ds_storage+8];
+add.f32 %f39, %f65, %f38;
+ld.shared.f32 %f40, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246459_64_non_const_ds_storage+12];
+add.f32 %f41, %f40, %f39;
+ld.shared.f32 %f42, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246459_64_non_const_ds_storage+16];
+add.f32 %f65, %f42, %f41;
+
+BB3_9:
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f63, %r23, %r32; @p add.f32 r0, r0, %f63; mov.f32 %f43, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f43, %r25, %r32; @p add.f32 r0, r0, %f43; mov.f32 %f46, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f46, %r27, %r32; @p add.f32 r0, r0, %f46; mov.f32 %f49, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f49, %r29, %r32; @p add.f32 r0, r0, %f49; mov.f32 %f52, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f52, %r31, %r32; @p add.f32 r0, r0, %f52; mov.f32 %f66, r0;}
+
+	@%p6 bra BB3_11;
+
+st.shared.f32 [%rd2], %f66;
+
+BB3_11:
+bar.sync 0;
+@!%p1 bra BB3_13;
+bra.uni BB3_12;
+
+BB3_12:
+ld.shared.f32 %f58, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246460_64_non_const_db_storage+8];
+add.f32 %f59, %f66, %f58;
+ld.shared.f32 %f60, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246460_64_non_const_db_storage+12];
+add.f32 %f61, %f60, %f59;
+ld.shared.f32 %f62, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246460_64_non_const_db_storage+16];
+add.f32 %f66, %f62, %f61;
+
+BB3_13:
+setp.ne.s32	%p8, %r4, 0;
+@%p8 bra BB3_15;
+
+mul.wide.s32 %rd21, %r44, 4;
+add.s64 %rd22, %rd20, %rd21;
+st.global.f32 [%rd22], %f65;
+add.s64 %rd24, %rd23, %rd21;
+st.global.f32 [%rd24], %f66;
+
+BB3_15:
+bar.sync 0;
+mov.u32 %r43, %nctaid.x;
+add.s32 %r44, %r43, %r44;
+setp.lt.s32	%p9, %r44, %r1;
+@%p9 bra BB3_2;
+
+BB3_16:
+ret;
+}
+
+
+.visible .entry _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3_(
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_0,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_1,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_2,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_3,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_4,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_5,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_6,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_7,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_8,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_9,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_10,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_11
+)
+{
+.reg .pred %p<6>;
+.reg .f32 %f<26>;
+.reg .b32 %r<21>;
+.reg .b64 %rd<54>;
+
+
+ld.param.u32 %r2, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_1];
+ld.param.u32 %r3, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_2];
+ld.param.u32 %r4, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_3];
+ld.param.u64 %rd19, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_4];
+ld.param.u64 %rd20, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_5];
+ld.param.u64 %rd21, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_6];
+ld.param.u64 %rd22, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_7];
+ld.param.u64 %rd23, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_8];
+ld.param.u64 %rd24, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_9];
+ld.param.u64 %rd25, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_10];
+ld.param.u64 %rd26, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_11];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r5, %ctaid.x;
+mov.u32 %r6, %tid.x;
+mad.lo.s32 %r7, %r1, %r5, %r6;
+cvt.u64.u32	%rd50, %r7;
+ld.param.s32 %rd2, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_0];
+setp.ge.u64	%p1, %rd50, %rd2;
+@%p1 bra BB4_12;
+
+cvta.to.global.u64 %rd3, %rd26;
+mul.lo.s32 %r8, %r3, %r2;
+mul.lo.s32 %r9, %r4, %r3;
+cvt.rn.f32.s32	%f2, %r9;
+rcp.rn.f32 %f1, %f2;
+cvt.s64.s32	%rd4, %r9;
+cvt.s64.s32	%rd5, %r4;
+cvt.s64.s32	%rd6, %r8;
+mov.u32 %r10, %nctaid.x;
+mul.lo.s32 %r11, %r10, %r1;
+cvt.u64.u32	%rd7, %r11;
+
+BB4_2:
+or.b64 %rd27, %rd50, %rd4;
+and.b64 %rd28, %rd27, -4294967296;
+setp.eq.s64	%p2, %rd28, 0;
+@%p2 bra BB4_4;
+bra.uni BB4_3;
+
+BB4_4:
+cvt.u32.u64	%r12, %rd4;
+cvt.u32.u64	%r13, %rd50;
+div.u32 %r14, %r13, %r12;
+cvt.u64.u32	%rd51, %r14;
+bra.uni BB4_5;
+
+BB4_3:
+div.u64 %rd51, %rd50, %rd4;
+
+BB4_5:
+or.b64 %rd29, %rd50, %rd5;
+and.b64 %rd30, %rd29, -4294967296;
+setp.eq.s64	%p3, %rd30, 0;
+@%p3 bra BB4_7;
+bra.uni BB4_6;
+
+BB4_7:
+cvt.u32.u64	%r15, %rd5;
+cvt.u32.u64	%r16, %rd50;
+div.u32 %r17, %r16, %r15;
+cvt.u64.u32	%rd52, %r17;
+bra.uni BB4_8;
+
+BB4_6:
+div.u64 %rd52, %rd50, %rd5;
+
+BB4_8:
+or.b64 %rd31, %rd52, %rd6;
+and.b64 %rd32, %rd31, -4294967296;
+setp.eq.s64	%p4, %rd32, 0;
+@%p4 bra BB4_10;
+bra.uni BB4_9;
+
+BB4_10:
+cvt.u32.u64	%r18, %rd6;
+cvt.u32.u64	%r19, %rd52;
+rem.u32 %r20, %r19, %r18;
+cvt.u64.u32	%rd53, %r20;
+bra.uni BB4_11;
+
+BB4_9:
+rem.u64 %rd53, %rd52, %rd6;
+
+BB4_11:
+cvt.s64.s32 %rd44, %rd51;
+shl.b64 %rd45, %rd44, 2;
+add.s64 %rd39, %rd25, %rd45;
+
+	ld.global.nc.f32 %f3, [%rd39];
+
+	add.s64 %rd37, %rd21, %rd45;
+
+	ld.global.nc.f32 %f4, [%rd37];
+
+	mul.f32 %f14, %f3, %f4;
+add.s64 %rd35, %rd24, %rd45;
+
+	ld.global.nc.f32 %f5, [%rd35];
+
+	sub.f32 %f15, %f14, %f5;
+shl.b64 %rd46, %rd50, 2;
+add.s64 %rd36, %rd20, %rd46;
+
+	ld.global.nc.f32 %f6, [%rd36];
+
+	
+	ld.global.nc.f32 %f7, [%rd37];
+
+	sub.f32 %f16, %f6, %f7;
+mul.f32 %f17, %f15, %f16;
+add.s64 %rd43, %rd22, %rd45;
+
+	ld.global.nc.f32 %f8, [%rd43];
+
+	mul.f32 %f18, %f8, %f8;
+mul.f32 %f19, %f8, %f18;
+mul.f32 %f20, %f17, %f19;
+
+	ld.global.nc.f32 %f9, [%rd39];
+
+	
+	ld.global.nc.f32 %f10, [%rd43];
+
+	mul.f32 %f21, %f9, %f10;
+cvt.s64.s32 %rd47, %rd53;
+shl.b64 %rd48, %rd47, 2;
+add.s64 %rd41, %rd23, %rd48;
+
+	ld.global.nc.f32 %f11, [%rd41];
+
+	add.s64 %rd42, %rd19, %rd46;
+
+	ld.global.nc.f32 %f12, [%rd42];
+
+	mul.f32 %f22, %f11, %f12;
+
+	ld.global.nc.f32 %f13, [%rd43];
+
+	mul.f32 %f23, %f22, %f13;
+sub.f32 %f24, %f20, %f21;
+fma.rn.f32 %f25, %f1, %f24, %f23;
+add.s64 %rd49, %rd3, %rd46;
+st.global.f32 [%rd49], %f25;
+add.s64 %rd50, %rd7, %rd50;
+setp.lt.u64	%p5, %rd50, %rd2;
+@%p5 bra BB4_2;
+
+BB4_12:
+ret;
+}
+
+
+.visible .entry _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6_(
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_0,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_1,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_2,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_3,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_4,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_5,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_6,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_7,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_8,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_9
+)
+{
+.reg .pred %p<10>;
+.reg .f32 %f<68>;
+.reg .b32 %r<46>;
+.reg .b64 %rd<26>;
+
+	.shared .align 4 .b8 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246538_64_non_const_dg_storage[24];
+
+	.shared .align 4 .b8 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246539_64_non_const_db_storage[24];
+
+ld.param.u32 %r15, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_0];
+ld.param.u32 %r12, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_1];
+ld.param.u32 %r13, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_2];
+ld.param.u32 %r14, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_3];
+ld.param.u64 %rd3, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_4];
+ld.param.u64 %rd4, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_5];
+ld.param.u64 %rd5, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_6];
+ld.param.u64 %rd6, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_7];
+ld.param.u64 %rd7, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_8];
+ld.param.u64 %rd8, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6__param_9];
+mul.lo.s32 %r1, %r13, %r12;
+mul.lo.s32 %r2, %r14, %r15;
+mov.u32 %r44, %ctaid.x;
+setp.ge.s32	%p3, %r44, %r1;
+@%p3 bra BB5_16;
+
+mov.u32 %r4, %tid.x;
+shr.u32 %r16, %r4, 5;
+mul.wide.u32 %rd9, %r16, 4;
+mov.u64 %rd10, _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246538_64_non_const_dg_storage;
+add.s64 %rd11, %rd10, %rd9;
+add.s64 %rd1, %rd11, 4;
+mov.u64 %rd12, _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246539_64_non_const_db_storage;
+add.s64 %rd13, %rd12, %rd9;
+add.s64 %rd2, %rd13, 4;
+mov.u32 %r5, %ntid.x;
+
+	mov.u32 %r22, %laneid;
+
+	cvta.to.global.u64 %rd21, %rd7;
+cvta.to.global.u64 %rd24, %rd8;
+
+BB5_2:
+mov.f32 %f65, 0f00000000;
+mov.f32 %f64, %f65;
+setp.ge.s32	%p4, %r4, %r2;
+@%p4 bra BB5_5;
+
+div.s32 %r7, %r44, %r13;
+mov.f32 %f65, 0f00000000;
+mov.f32 %f64, %f65;
+mov.u32 %r45, %r4;
+
+BB5_4:
+mov.u32 %r8, %r45;
+div.s32 %r17, %r8, %r14;
+mad.lo.s32 %r18, %r17, %r1, %r44;
+rem.s32 %r19, %r8, %r14;
+mad.lo.s32 %r20, %r18, %r14, %r19;
+mad.lo.s32 %r21, %r17, %r12, %r7;
+mul.wide.s32 %rd19, %r20, 4;
+add.s64 %rd18, %rd3, %rd19;
+
+	ld.global.nc.f32 %f17, [%rd18];
+
+	add.s64 %rd15, %rd4, %rd19;
+
+	ld.global.nc.f32 %f18, [%rd15];
+
+	mul.wide.s32 %rd20, %r21, 4;
+add.s64 %rd16, %rd5, %rd20;
+
+	ld.global.nc.f32 %f19, [%rd16];
+
+	sub.f32 %f22, %f18, %f19;
+mul.f32 %f23, %f17, %f22;
+add.s64 %rd17, %rd6, %rd20;
+
+	ld.global.nc.f32 %f20, [%rd17];
+
+	fma.rn.f32 %f65, %f20, %f23, %f65;
+
+	ld.global.nc.f32 %f21, [%rd18];
+
+	add.f32 %f64, %f64, %f21;
+add.s32 %r9, %r5, %r8;
+setp.lt.s32	%p5, %r9, %r2;
+mov.u32 %r45, %r9;
+@%p5 bra BB5_4;
+
+BB5_5:
+mov.u32 %r23, 1;
+mov.u32 %r32, 31;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f65, %r23, %r32; @p add.f32 r0, r0, %f65; mov.f32 %f24, r0;}
+
+	mov.u32 %r25, 2;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f24, %r25, %r32; @p add.f32 r0, r0, %f24; mov.f32 %f27, r0;}
+
+	mov.u32 %r27, 4;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f27, %r27, %r32; @p add.f32 r0, r0, %f27; mov.f32 %f30, r0;}
+
+	mov.u32 %r29, 8;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f30, %r29, %r32; @p add.f32 r0, r0, %f30; mov.f32 %f33, r0;}
+
+	mov.u32 %r31, 16;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f33, %r31, %r32; @p add.f32 r0, r0, %f33; mov.f32 %f66, r0;}
+
+	setp.ne.s32	%p6, %r22, 0;
+@%p6 bra BB5_7;
+
+st.shared.f32 [%rd1], %f66;
+
+BB5_7:
+setp.eq.s32	%p1, %r4, 0;
+bar.sync 0;
+@!%p1 bra BB5_9;
+bra.uni BB5_8;
+
+BB5_8:
+ld.shared.f32 %f39, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246538_64_non_const_dg_storage+8];
+add.f32 %f40, %f66, %f39;
+ld.shared.f32 %f41, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246538_64_non_const_dg_storage+12];
+add.f32 %f42, %f41, %f40;
+ld.shared.f32 %f43, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246538_64_non_const_dg_storage+16];
+add.f32 %f66, %f43, %f42;
+
+BB5_9:
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f64, %r23, %r32; @p add.f32 r0, r0, %f64; mov.f32 %f44, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f44, %r25, %r32; @p add.f32 r0, r0, %f44; mov.f32 %f47, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f47, %r27, %r32; @p add.f32 r0, r0, %f47; mov.f32 %f50, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f50, %r29, %r32; @p add.f32 r0, r0, %f50; mov.f32 %f53, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f53, %r31, %r32; @p add.f32 r0, r0, %f53; mov.f32 %f67, r0;}
+
+	@%p6 bra BB5_11;
+
+st.shared.f32 [%rd2], %f67;
+
+BB5_11:
+bar.sync 0;
+@!%p1 bra BB5_13;
+bra.uni BB5_12;
+
+BB5_12:
+ld.shared.f32 %f59, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246539_64_non_const_db_storage+8];
+add.f32 %f60, %f67, %f59;
+ld.shared.f32 %f61, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246539_64_non_const_db_storage+12];
+add.f32 %f62, %f61, %f60;
+ld.shared.f32 %f63, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246539_64_non_const_db_storage+16];
+add.f32 %f67, %f63, %f62;
+
+BB5_13:
+setp.ne.s32	%p8, %r4, 0;
+@%p8 bra BB5_15;
+
+mul.wide.s32 %rd22, %r44, 4;
+add.s64 %rd23, %rd21, %rd22;
+st.global.f32 [%rd23], %f66;
+add.s64 %rd25, %rd24, %rd22;
+st.global.f32 [%rd25], %f67;
+
+BB5_15:
+bar.sync 0;
+mov.u32 %r43, %nctaid.x;
+add.s32 %r44, %r43, %r44;
+setp.lt.s32	%p9, %r44, %r1;
+@%p9 bra BB5_2;
+
+BB5_16:
+ret;
+}
+
+
+.visible .entry _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6_(
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6__param_0,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6__param_1,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6__param_2,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6__param_3,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6__param_4,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6__param_5,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6__param_6,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6__param_7,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6__param_8
+)
+{
+.reg .pred %p<10>;
+.reg .f32 %f<67>;
+.reg .b32 %r<51>;
+.reg .b64 %rd<25>;
+
+	.shared .align 4 .b8 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246459_64_non_const_ds_storage[24];
+
+	.shared .align 4 .b8 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246460_64_non_const_db_storage[24];
+
+ld.param.u32 %r13, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6__param_0];
+ld.param.u32 %r14, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6__param_1];
+ld.param.u32 %r15, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6__param_2];
+ld.param.u32 %r16, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6__param_3];
+ld.param.u64 %rd3, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6__param_4];
+ld.param.u64 %rd4, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6__param_5];
+ld.param.u64 %rd5, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6__param_6];
+ld.param.u64 %rd6, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6__param_7];
+ld.param.u64 %rd7, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6__param_8];
+mul.lo.s32 %r17, %r14, %r13;
+mul.lo.s32 %r1, %r16, %r15;
+mov.u32 %r49, %ctaid.x;
+setp.ge.s32	%p3, %r49, %r17;
+@%p3 bra BB6_16;
+
+mov.u32 %r3, %tid.x;
+shr.u32 %r18, %r3, 5;
+mul.wide.u32 %rd8, %r18, 4;
+mov.u64 %rd9, _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246459_64_non_const_ds_storage;
+add.s64 %rd10, %rd9, %rd8;
+add.s64 %rd1, %rd10, 4;
+mov.u64 %rd11, _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246460_64_non_const_db_storage;
+add.s64 %rd12, %rd11, %rd8;
+add.s64 %rd2, %rd12, 4;
+mul.lo.s32 %r4, %r15, %r14;
+mov.u32 %r5, %ntid.x;
+
+	mov.u32 %r26, %laneid;
+
+	cvta.to.global.u64 %rd20, %rd6;
+cvta.to.global.u64 %rd23, %rd7;
+
+BB6_2:
+mov.f32 %f64, 0f00000000;
+mov.f32 %f63, %f64;
+setp.ge.s32	%p4, %r3, %r1;
+@%p4 bra BB6_5;
+
+rem.s32 %r19, %r49, %r14;
+mul.lo.s32 %r7, %r19, %r15;
+div.s32 %r20, %r49, %r14;
+mul.lo.s32 %r8, %r20, %r16;
+mov.f32 %f64, 0f00000000;
+mov.f32 %f63, %f64;
+mov.u32 %r50, %r3;
+
+BB6_4:
+mov.u32 %r9, %r50;
+div.s32 %r21, %r9, %r16;
+add.s32 %r22, %r7, %r21;
+rem.s32 %r23, %r9, %r16;
+add.s32 %r24, %r8, %r23;
+mad.lo.s32 %r25, %r4, %r24, %r22;
+mul.wide.s32 %rd18, %r22, 4;
+add.s64 %rd16, %rd5, %rd18;
+
+	ld.global.nc.f32 %f17, [%rd16];
+
+	mul.wide.s32 %rd19, %r25, 4;
+add.s64 %rd17, %rd3, %rd19;
+
+	ld.global.nc.f32 %f18, [%rd17];
+
+	mul.f32 %f22, %f17, %f18;
+add.s64 %rd15, %rd4, %rd19;
+
+	ld.global.nc.f32 %f19, [%rd15];
+
+	fma.rn.f32 %f64, %f22, %f19, %f64;
+
+	ld.global.nc.f32 %f20, [%rd16];
+
+	
+	ld.global.nc.f32 %f21, [%rd17];
+
+	fma.rn.f32 %f63, %f20, %f21, %f63;
+add.s32 %r10, %r5, %r9;
+setp.lt.s32	%p5, %r10, %r1;
+mov.u32 %r50, %r10;
+@%p5 bra BB6_4;
+
+BB6_5:
+mov.u32 %r27, 1;
+mov.u32 %r36, 31;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f64, %r27, %r36; @p add.f32 r0, r0, %f64; mov.f32 %f23, r0;}
+
+	mov.u32 %r29, 2;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f23, %r29, %r36; @p add.f32 r0, r0, %f23; mov.f32 %f26, r0;}
+
+	mov.u32 %r31, 4;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f26, %r31, %r36; @p add.f32 r0, r0, %f26; mov.f32 %f29, r0;}
+
+	mov.u32 %r33, 8;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f29, %r33, %r36; @p add.f32 r0, r0, %f29; mov.f32 %f32, r0;}
+
+	mov.u32 %r35, 16;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f32, %r35, %r36; @p add.f32 r0, r0, %f32; mov.f32 %f65, r0;}
+
+	setp.ne.s32	%p6, %r26, 0;
+@%p6 bra BB6_7;
+
+st.shared.f32 [%rd1], %f65;
+
+BB6_7:
+setp.eq.s32	%p1, %r3, 0;
+bar.sync 0;
+@!%p1 bra BB6_9;
+bra.uni BB6_8;
+
+BB6_8:
+ld.shared.f32 %f38, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246459_64_non_const_ds_storage+8];
+add.f32 %f39, %f65, %f38;
+ld.shared.f32 %f40, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246459_64_non_const_ds_storage+12];
+add.f32 %f41, %f40, %f39;
+ld.shared.f32 %f42, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246459_64_non_const_ds_storage+16];
+add.f32 %f65, %f42, %f41;
+
+BB6_9:
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f63, %r27, %r36; @p add.f32 r0, r0, %f63; mov.f32 %f43, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f43, %r29, %r36; @p add.f32 r0, r0, %f43; mov.f32 %f46, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f46, %r31, %r36; @p add.f32 r0, r0, %f46; mov.f32 %f49, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f49, %r33, %r36; @p add.f32 r0, r0, %f49; mov.f32 %f52, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f52, %r35, %r36; @p add.f32 r0, r0, %f52; mov.f32 %f66, r0;}
+
+	@%p6 bra BB6_11;
+
+st.shared.f32 [%rd2], %f66;
+
+BB6_11:
+bar.sync 0;
+@!%p1 bra BB6_13;
+bra.uni BB6_12;
+
+BB6_12:
+ld.shared.f32 %f58, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246460_64_non_const_db_storage+8];
+add.f32 %f59, %f66, %f58;
+ld.shared.f32 %f60, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246460_64_non_const_db_storage+12];
+add.f32 %f61, %f60, %f59;
+ld.shared.f32 %f62, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e34ComputeInternalGradientsCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_PS3_S6_$__cuda_local_var_246460_64_non_const_db_storage+16];
+add.f32 %f66, %f62, %f61;
+
+BB6_13:
+setp.ne.s32	%p8, %r3, 0;
+@%p8 bra BB6_15;
+
+mul.wide.s32 %rd21, %r49, 4;
+add.s64 %rd22, %rd20, %rd21;
+st.global.f32 [%rd22], %f65;
+add.s64 %rd24, %rd23, %rd21;
+st.global.f32 [%rd24], %f66;
+
+BB6_15:
+bar.sync 0;
+mov.u32 %r47, %nctaid.x;
+add.s32 %r49, %r47, %r49;
+setp.lt.s32	%p9, %r49, %r17;
+@%p9 bra BB6_2;
+
+BB6_16:
+ret;
+}
+
+
+.visible .entry _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3_(
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_0,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_1,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_2,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_3,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_4,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_5,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_6,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_7,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_8,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_9,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_10,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_11
+)
+{
+.reg .pred %p<7>;
+.reg .f32 %f<26>;
+.reg .b32 %r<25>;
+.reg .b64 %rd<63>;
+
+
+ld.param.u32 %r2, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_1];
+ld.param.u32 %r3, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_2];
+ld.param.u32 %r4, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_3];
+ld.param.u64 %rd23, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_4];
+ld.param.u64 %rd24, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_5];
+ld.param.u64 %rd25, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_6];
+ld.param.u64 %rd26, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_7];
+ld.param.u64 %rd27, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_8];
+ld.param.u64 %rd28, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_9];
+ld.param.u64 %rd29, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_10];
+ld.param.u64 %rd30, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_11];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r5, %ctaid.x;
+mov.u32 %r6, %tid.x;
+mad.lo.s32 %r7, %r1, %r5, %r6;
+cvt.u64.u32	%rd58, %r7;
+ld.param.s32 %rd2, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GroupNormBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_S5_S5_S5_PS3__param_0];
+setp.ge.u64	%p1, %rd58, %rd2;
+@%p1 bra BB7_15;
+
+mul.lo.s32 %r8, %r3, %r2;
+mul.lo.s32 %r9, %r4, %r3;
+cvt.rn.f32.s32	%f2, %r9;
+rcp.rn.f32 %f1, %f2;
+mul.lo.s32 %r10, %r8, %r4;
+cvt.s64.s32	%rd3, %r10;
+cvt.s64.s32	%rd4, %r2;
+cvt.s64.s32	%rd5, %r3;
+cvt.s64.s32	%rd6, %r8;
+mov.u32 %r11, %nctaid.x;
+mul.lo.s32 %r12, %r11, %r1;
+cvt.u64.u32	%rd7, %r12;
+cvta.to.global.u64 %rd56, %rd30;
+
+BB7_2:
+or.b64 %rd31, %rd58, %rd3;
+and.b64 %rd32, %rd31, -4294967296;
+setp.eq.s64	%p2, %rd32, 0;
+@%p2 bra BB7_4;
+bra.uni BB7_3;
+
+BB7_4:
+cvt.u32.u64	%r13, %rd3;
+cvt.u32.u64	%r14, %rd58;
+div.u32 %r15, %r14, %r13;
+cvt.u64.u32	%rd59, %r15;
+bra.uni BB7_5;
+
+BB7_3:
+div.u64 %rd59, %rd58, %rd3;
+
+BB7_5:
+or.b64 %rd33, %rd58, %rd5;
+and.b64 %rd34, %rd33, -4294967296;
+setp.eq.s64	%p3, %rd34, 0;
+@%p3 bra BB7_7;
+bra.uni BB7_6;
+
+BB7_7:
+cvt.u32.u64	%r16, %rd5;
+cvt.u32.u64	%r17, %rd58;
+div.u32 %r18, %r17, %r16;
+cvt.u64.u32	%rd60, %r18;
+bra.uni BB7_8;
+
+BB7_6:
+div.u64 %rd60, %rd58, %rd5;
+
+BB7_8:
+or.b64 %rd35, %rd60, %rd4;
+and.b64 %rd36, %rd35, -4294967296;
+setp.eq.s64	%p4, %rd36, 0;
+@%p4 bra BB7_10;
+bra.uni BB7_9;
+
+BB7_10:
+cvt.u32.u64	%r19, %rd4;
+cvt.u32.u64	%r20, %rd60;
+rem.u32 %r21, %r20, %r19;
+cvt.u64.u32	%rd61, %r21;
+bra.uni BB7_11;
+
+BB7_9:
+rem.u64 %rd61, %rd60, %rd4;
+
+BB7_11:
+mul.lo.s64 %rd37, %rd59, %rd4;
+add.s64 %rd18, %rd61, %rd37;
+or.b64 %rd38, %rd58, %rd6;
+and.b64 %rd39, %rd38, -4294967296;
+setp.eq.s64	%p5, %rd39, 0;
+@%p5 bra BB7_13;
+bra.uni BB7_12;
+
+BB7_13:
+cvt.u32.u64	%r22, %rd6;
+cvt.u32.u64	%r23, %rd58;
+rem.u32 %r24, %r23, %r22;
+cvt.u64.u32	%rd62, %r24;
+bra.uni BB7_14;
+
+BB7_12:
+rem.u64 %rd62, %rd58, %rd6;
+
+BB7_14:
+cvt.s64.s32 %rd51, %rd18;
+shl.b64 %rd52, %rd51, 2;
+add.s64 %rd46, %rd29, %rd52;
+
+	ld.global.nc.f32 %f3, [%rd46];
+
+	add.s64 %rd44, %rd25, %rd52;
+
+	ld.global.nc.f32 %f4, [%rd44];
+
+	mul.f32 %f14, %f3, %f4;
+add.s64 %rd42, %rd28, %rd52;
+
+	ld.global.nc.f32 %f5, [%rd42];
+
+	sub.f32 %f15, %f14, %f5;
+shl.b64 %rd53, %rd58, 2;
+add.s64 %rd43, %rd24, %rd53;
+
+	ld.global.nc.f32 %f6, [%rd43];
+
+	
+	ld.global.nc.f32 %f7, [%rd44];
+
+	sub.f32 %f16, %f6, %f7;
+mul.f32 %f17, %f15, %f16;
+add.s64 %rd50, %rd26, %rd52;
+
+	ld.global.nc.f32 %f8, [%rd50];
+
+	mul.f32 %f18, %f8, %f8;
+mul.f32 %f19, %f8, %f18;
+mul.f32 %f20, %f17, %f19;
+
+	ld.global.nc.f32 %f9, [%rd46];
+
+	
+	ld.global.nc.f32 %f10, [%rd50];
+
+	mul.f32 %f21, %f9, %f10;
+cvt.s64.s32 %rd54, %rd62;
+shl.b64 %rd55, %rd54, 2;
+add.s64 %rd48, %rd27, %rd55;
+
+	ld.global.nc.f32 %f11, [%rd48];
+
+	add.s64 %rd49, %rd23, %rd53;
+
+	ld.global.nc.f32 %f12, [%rd49];
+
+	mul.f32 %f22, %f11, %f12;
+
+	ld.global.nc.f32 %f13, [%rd50];
+
+	mul.f32 %f23, %f22, %f13;
+sub.f32 %f24, %f20, %f21;
+fma.rn.f32 %f25, %f1, %f24, %f23;
+add.s64 %rd57, %rd56, %rd53;
+st.global.f32 [%rd57], %f25;
+add.s64 %rd58, %rd7, %rd58;
+setp.lt.u64	%p6, %rd58, %rd2;
+@%p6 bra BB7_2;
+
+BB7_15:
+ret;
+}
+
+
+.visible .entry _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6_(
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_0,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_1,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_2,
+.param .u32 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_3,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_4,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_5,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_6,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_7,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_8,
+.param .u64 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_9
+)
+{
+.reg .pred %p<10>;
+.reg .f32 %f<68>;
+.reg .b32 %r<44>;
+.reg .b64 %rd<26>;
+
+	.shared .align 4 .b8 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246538_64_non_const_dg_storage[24];
+
+	.shared .align 4 .b8 _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246539_64_non_const_db_storage[24];
+
+ld.param.u32 %r15, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_0];
+ld.param.u32 %r12, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_1];
+ld.param.u32 %r13, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_2];
+ld.param.u32 %r14, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_3];
+ld.param.u64 %rd3, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_4];
+ld.param.u64 %rd4, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_5];
+ld.param.u64 %rd5, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_6];
+ld.param.u64 %rd6, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_7];
+ld.param.u64 %rd7, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_8];
+ld.param.u64 %rd8, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6__param_9];
+mul.lo.s32 %r1, %r13, %r12;
+mul.lo.s32 %r2, %r14, %r15;
+mov.u32 %r42, %ctaid.x;
+setp.ge.s32	%p3, %r42, %r1;
+@%p3 bra BB8_16;
+
+mov.u32 %r4, %tid.x;
+shr.u32 %r16, %r4, 5;
+mul.wide.u32 %rd9, %r16, 4;
+mov.u64 %rd10, _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246538_64_non_const_dg_storage;
+add.s64 %rd11, %rd10, %rd9;
+add.s64 %rd1, %rd11, 4;
+mov.u64 %rd12, _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246539_64_non_const_db_storage;
+add.s64 %rd13, %rd12, %rd9;
+add.s64 %rd2, %rd13, 4;
+mov.u32 %r5, %ntid.x;
+
+	mov.u32 %r20, %laneid;
+
+	cvta.to.global.u64 %rd21, %rd7;
+cvta.to.global.u64 %rd24, %rd8;
+
+BB8_2:
+mov.f32 %f65, 0f00000000;
+mov.f32 %f64, %f65;
+setp.ge.s32	%p4, %r4, %r2;
+@%p4 bra BB8_5;
+
+div.s32 %r7, %r42, %r13;
+mov.f32 %f65, 0f00000000;
+mov.f32 %f64, %f65;
+mov.u32 %r43, %r4;
+
+BB8_4:
+mov.u32 %r8, %r43;
+mad.lo.s32 %r17, %r8, %r1, %r42;
+div.s32 %r18, %r8, %r14;
+mad.lo.s32 %r19, %r18, %r12, %r7;
+mul.wide.s32 %rd19, %r17, 4;
+add.s64 %rd18, %rd3, %rd19;
+
+	ld.global.nc.f32 %f17, [%rd18];
+
+	add.s64 %rd15, %rd4, %rd19;
+
+	ld.global.nc.f32 %f18, [%rd15];
+
+	mul.wide.s32 %rd20, %r19, 4;
+add.s64 %rd16, %rd5, %rd20;
+
+	ld.global.nc.f32 %f19, [%rd16];
+
+	sub.f32 %f22, %f18, %f19;
+mul.f32 %f23, %f17, %f22;
+add.s64 %rd17, %rd6, %rd20;
+
+	ld.global.nc.f32 %f20, [%rd17];
+
+	fma.rn.f32 %f65, %f20, %f23, %f65;
+
+	ld.global.nc.f32 %f21, [%rd18];
+
+	add.f32 %f64, %f64, %f21;
+add.s32 %r9, %r5, %r8;
+setp.lt.s32	%p5, %r9, %r2;
+mov.u32 %r43, %r9;
+@%p5 bra BB8_4;
+
+BB8_5:
+mov.u32 %r21, 1;
+mov.u32 %r30, 31;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f65, %r21, %r30; @p add.f32 r0, r0, %f65; mov.f32 %f24, r0;}
+
+	mov.u32 %r23, 2;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f24, %r23, %r30; @p add.f32 r0, r0, %f24; mov.f32 %f27, r0;}
+
+	mov.u32 %r25, 4;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f27, %r25, %r30; @p add.f32 r0, r0, %f27; mov.f32 %f30, r0;}
+
+	mov.u32 %r27, 8;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f30, %r27, %r30; @p add.f32 r0, r0, %f30; mov.f32 %f33, r0;}
+
+	mov.u32 %r29, 16;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f33, %r29, %r30; @p add.f32 r0, r0, %f33; mov.f32 %f66, r0;}
+
+	setp.ne.s32	%p6, %r20, 0;
+@%p6 bra BB8_7;
+
+st.shared.f32 [%rd1], %f66;
+
+BB8_7:
+setp.eq.s32	%p1, %r4, 0;
+bar.sync 0;
+@!%p1 bra BB8_9;
+bra.uni BB8_8;
+
+BB8_8:
+ld.shared.f32 %f39, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246538_64_non_const_dg_storage+8];
+add.f32 %f40, %f66, %f39;
+ld.shared.f32 %f41, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246538_64_non_const_dg_storage+12];
+add.f32 %f42, %f41, %f40;
+ld.shared.f32 %f43, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246538_64_non_const_dg_storage+16];
+add.f32 %f66, %f43, %f42;
+
+BB8_9:
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f64, %r21, %r30; @p add.f32 r0, r0, %f64; mov.f32 %f44, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f44, %r23, %r30; @p add.f32 r0, r0, %f44; mov.f32 %f47, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f47, %r25, %r30; @p add.f32 r0, r0, %f47; mov.f32 %f50, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f50, %r27, %r30; @p add.f32 r0, r0, %f50; mov.f32 %f53, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f53, %r29, %r30; @p add.f32 r0, r0, %f53; mov.f32 %f67, r0;}
+
+	@%p6 bra BB8_11;
+
+st.shared.f32 [%rd2], %f67;
+
+BB8_11:
+bar.sync 0;
+@!%p1 bra BB8_13;
+bra.uni BB8_12;
+
+BB8_12:
+ld.shared.f32 %f59, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246539_64_non_const_db_storage+8];
+add.f32 %f60, %f67, %f59;
+ld.shared.f32 %f61, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246539_64_non_const_db_storage+12];
+add.f32 %f62, %f61, %f60;
+ld.shared.f32 %f63, [_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ae9_00000000_7_group_norm_op_cpp1_ii_2eb89a6e27GammaBetaBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiiPKT_S5_S5_S5_PS3_S6_$__cuda_local_var_246539_64_non_const_db_storage+16];
+add.f32 %f67, %f63, %f62;
+
+BB8_13:
+setp.ne.s32	%p8, %r4, 0;
+@%p8 bra BB8_15;
+
+mul.wide.s32 %rd22, %r42, 4;
+add.s64 %rd23, %rd21, %rd22;
+st.global.f32 [%rd23], %f66;
+add.s64 %rd25, %rd24, %rd22;
+st.global.f32 [%rd25], %f67;
+
+BB8_15:
+bar.sync 0;
+mov.u32 %r41, %nctaid.x;
+add.s32 %r42, %r41, %r42;
+setp.lt.s32	%p9, %r42, %r1;
+@%p9 bra BB8_2;
+
+BB8_16:
+ret;
+}
+
+

@@ -1,0 +1,9 @@
+ptxas info    : 768 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe284_GLOBAL__N__60_tmpxft_00005db2_00000000_7_channel_backprop_stats_op_cpp1_ii_116615d635ChannelBackpropStatsFinalSumsKernelILj128EEEviiiPKfS3_PfS4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe284_GLOBAL__N__60_tmpxft_00005db2_00000000_7_channel_backprop_stats_op_cpp1_ii_116615d635ChannelBackpropStatsFinalSumsKernelILj128EEEviiiPKfS3_PfS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 1024 bytes smem, 368 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe284_GLOBAL__N__60_tmpxft_00005db2_00000000_7_channel_backprop_stats_op_cpp1_ii_116615d631ChannelBackpropStatsBlockKernelILj128EEEviiiPKfS3_S3_S3_PfS4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe284_GLOBAL__N__60_tmpxft_00005db2_00000000_7_channel_backprop_stats_op_cpp1_ii_116615d631ChannelBackpropStatsBlockKernelILj128EEEviiiPKfS3_S3_S3_PfS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 1024 bytes smem, 384 bytes cmem[0]

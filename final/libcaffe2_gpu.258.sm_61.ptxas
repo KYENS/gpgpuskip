@@ -1,0 +1,13 @@
+ptxas info    : 1040 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe223NormalizeGradientKernelEiiiPKfS1_Pff' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe223NormalizeGradientKernelEiiiPKfS1_Pff
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 60 bytes smem, 364 bytes cmem[0], 56 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe215NormalizeKernelEiiiPKfPff' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe215NormalizeKernelEiiiPKfPff
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 28 bytes smem, 356 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_00006b4d_00000000_7_normalize_ops_cpp1_ii_dfecbbd217NormalizeL1KernelEiiiPKfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_00006b4d_00000000_7_normalize_ops_cpp1_ii_dfecbbd217NormalizeL1KernelEiiiPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 28 bytes smem, 352 bytes cmem[0], 12 bytes cmem[2]

@@ -1,0 +1,493 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 1 .b8 __T20[38] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 117, 110, 115, 105, 103, 110, 101, 100, 32, 99, 104, 97, 114, 93, 0};
+.global .align 1 .b8 __T21[36] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 115, 105, 103, 110, 101, 100, 32, 99, 104, 97, 114, 93, 0};
+.global .align 1 .b8 __T22[30] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 115, 104, 111, 114, 116, 93, 0};
+.global .align 1 .b8 __T23[28] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 105, 110, 116, 93, 0};
+.global .align 1 .b8 __T24[29] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 108, 111, 110, 103, 93, 0};
+
+.visible .entry _Z39TemporalReplicationPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii(
+.param .align 8 .b8 _Z39TemporalReplicationPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_0[32],
+.param .align 8 .b8 _Z39TemporalReplicationPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_1[32],
+.param .u32 _Z39TemporalReplicationPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_2,
+.param .u32 _Z39TemporalReplicationPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_3
+)
+{
+.reg .pred %p<2>;
+.reg .b16 %rs<2>;
+.reg .b32 %r<50>;
+.reg .b64 %rd<19>;
+
+
+ld.param.v2.u32 {%r16, %r17}, [_Z39TemporalReplicationPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_0+24];
+ld.param.v2.u32 {%r18, %r19}, [_Z39TemporalReplicationPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_0+16];
+ld.param.v2.u32 {%r20, %r21}, [_Z39TemporalReplicationPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_0+8];
+ld.param.u64 %rd1, [_Z39TemporalReplicationPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_0];
+ld.param.v2.u32 {%r22, %r23}, [_Z39TemporalReplicationPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_1+24];
+ld.param.v2.u32 {%r24, %r25}, [_Z39TemporalReplicationPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_1+16];
+ld.param.v2.u32 {%r26, %r27}, [_Z39TemporalReplicationPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_1+8];
+ld.param.u64 %rd2, [_Z39TemporalReplicationPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_1];
+ld.param.u32 %r15, [_Z39TemporalReplicationPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_2];
+mov.u32 %r28, %ntid.x;
+mov.u32 %r29, %ctaid.x;
+mov.u32 %r30, %tid.x;
+mad.lo.s32 %r2, %r28, %r29, %r30;
+setp.ge.s32	%p1, %r2, %r23;
+@%p1 bra BB0_2;
+
+mov.u32 %r31, %ctaid.y;
+mov.u32 %r32, %ctaid.z;
+cvta.to.global.u64 %rd3, %rd2;
+cvta.to.global.u64 %rd4, %rd1;
+neg.s32 %r33, %r15;
+mov.u32 %r34, 0;
+max.s32 %r35, %r34, %r33;
+rem.s32 %r36, %r2, %r23;
+max.s32 %r37, %r15, %r36;
+add.s32 %r38, %r17, %r15;
+add.s32 %r39, %r38, -1;
+min.s32 %r40, %r37, %r39;
+max.s32 %r41, %r34, %r15;
+sub.s32 %r42, %r35, %r41;
+add.s32 %r43, %r42, %r40;
+mul.lo.s32 %r44, %r32, %r20;
+cvt.s64.s32	%rd5, %r44;
+mul.lo.s32 %r45, %r31, %r21;
+cvt.s64.s32	%rd6, %r45;
+add.s64 %rd7, %rd5, %rd6;
+mul.lo.s32 %r46, %r43, %r18;
+cvt.s64.s32	%rd8, %r46;
+add.s64 %rd9, %rd7, %rd8;
+shl.b64 %rd10, %rd9, 1;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.u16 %rs1, [%rd11];
+mul.lo.s32 %r47, %r32, %r26;
+cvt.s64.s32	%rd12, %r47;
+mul.lo.s32 %r48, %r31, %r27;
+cvt.s64.s32	%rd13, %r48;
+add.s64 %rd14, %rd12, %rd13;
+mul.lo.s32 %r49, %r36, %r24;
+cvt.s64.s32	%rd15, %r49;
+add.s64 %rd16, %rd14, %rd15;
+shl.b64 %rd17, %rd16, 1;
+add.s64 %rd18, %rd3, %rd17;
+st.global.u16 [%rd18], %rs1;
+
+BB0_2:
+ret;
+}
+
+
+.visible .entry _Z42TemporalReplicationPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii(
+.param .align 8 .b8 _Z42TemporalReplicationPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_0[32],
+.param .align 8 .b8 _Z42TemporalReplicationPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_1[32],
+.param .u32 _Z42TemporalReplicationPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_2,
+.param .u32 _Z42TemporalReplicationPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_3
+)
+{
+.reg .pred %p<4>;
+.reg .b16 %rs<5>;
+.reg .f32 %f<4>;
+.reg .b32 %r<63>;
+.reg .b64 %rd<22>;
+
+
+ld.param.v2.u32 {%r19, %r20}, [_Z42TemporalReplicationPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_0+24];
+ld.param.v2.u32 {%r21, %r22}, [_Z42TemporalReplicationPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_0+16];
+ld.param.v2.u32 {%r23, %r24}, [_Z42TemporalReplicationPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_0+8];
+ld.param.u64 %rd3, [_Z42TemporalReplicationPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_0];
+ld.param.v2.u32 {%r25, %r26}, [_Z42TemporalReplicationPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_1+24];
+ld.param.v2.u32 {%r27, %r28}, [_Z42TemporalReplicationPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_1+16];
+ld.param.v2.u32 {%r29, %r30}, [_Z42TemporalReplicationPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_1+8];
+ld.param.u64 %rd4, [_Z42TemporalReplicationPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_1];
+ld.param.u32 %r18, [_Z42TemporalReplicationPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_ii_param_2];
+mov.u32 %r31, %ntid.x;
+mov.u32 %r32, %ctaid.x;
+mov.u32 %r33, %tid.x;
+mad.lo.s32 %r2, %r31, %r32, %r33;
+setp.ge.s32	%p1, %r2, %r26;
+@%p1 bra BB1_3;
+
+mov.u32 %r34, %ctaid.y;
+mov.u32 %r35, %ctaid.z;
+cvta.to.global.u64 %rd5, %rd4;
+cvta.to.global.u64 %rd6, %rd3;
+neg.s32 %r36, %r18;
+mov.u32 %r37, 0;
+max.s32 %r38, %r37, %r36;
+rem.s32 %r39, %r2, %r26;
+max.s32 %r40, %r18, %r39;
+add.s32 %r41, %r20, %r18;
+add.s32 %r42, %r41, -1;
+min.s32 %r43, %r40, %r42;
+max.s32 %r44, %r37, %r18;
+sub.s32 %r45, %r38, %r44;
+add.s32 %r46, %r45, %r43;
+mul.lo.s32 %r47, %r35, %r29;
+cvt.s64.s32	%rd7, %r47;
+mul.lo.s32 %r48, %r34, %r30;
+cvt.s64.s32	%rd8, %r48;
+add.s64 %rd9, %rd7, %rd8;
+mul.lo.s32 %r49, %r39, %r27;
+cvt.s64.s32	%rd10, %r49;
+add.s64 %rd11, %rd9, %rd10;
+shl.b64 %rd12, %rd11, 1;
+add.s64 %rd13, %rd5, %rd12;
+ld.global.u16 %rs1, [%rd13];
+mul.lo.s32 %r50, %r35, %r23;
+cvt.s64.s32	%rd14, %r50;
+mul.lo.s32 %r51, %r34, %r24;
+cvt.s64.s32	%rd15, %r51;
+add.s64 %rd16, %rd14, %rd15;
+mul.lo.s32 %r52, %r46, %r21;
+cvt.s64.s32	%rd17, %r52;
+add.s64 %rd18, %rd16, %rd17;
+shl.b64 %rd19, %rd18, 1;
+add.s64 %rd20, %rd6, %rd19;
+add.s64 %rd21, %rd3, %rd19;
+and.b64 %rd1, %rd21, 2;
+sub.s64 %rd2, %rd20, %rd1;
+ld.global.u32 %r62, [%rd2];
+
+BB1_2:
+mov.u32 %r4, %r62;
+shr.u32 %r53, %r4, 16;
+setp.eq.s64	%p2, %rd1, 0;
+selp.b32	%r54, %r4, %r53, %p2;
+cvt.u16.u32	%rs2, %r54;
+
+	{ cvt.f32.f16 %f1, %rs2;}
+
+
+	
+	{ cvt.f32.f16 %f2, %rs1;}
+
+
+	add.f32 %f3, %f1, %f2;
+
+	{ cvt.rn.f16.f32 %rs4, %f3;}
+
+
+	cvt.u32.u16	%r55, %rs4;
+shl.b32 %r56, %r55, 16;
+and.b32 %r57, %r4, 65535;
+or.b32 %r58, %r56, %r57;
+and.b32 %r59, %r4, -65536;
+or.b32 %r60, %r55, %r59;
+selp.b32	%r61, %r60, %r58, %p2;
+atom.global.cas.b32 %r62, [%rd2], %r4, %r61;
+setp.ne.s32	%p3, %r4, %r62;
+@%p3 bra BB1_2;
+
+BB1_3:
+ret;
+}
+
+
+.visible .entry _Z39TemporalReplicationPadding_updateOutputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii(
+.param .align 8 .b8 _Z39TemporalReplicationPadding_updateOutputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0[32],
+.param .align 8 .b8 _Z39TemporalReplicationPadding_updateOutputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1[32],
+.param .u32 _Z39TemporalReplicationPadding_updateOutputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_2,
+.param .u32 _Z39TemporalReplicationPadding_updateOutputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_3
+)
+{
+.reg .pred %p<2>;
+.reg .f32 %f<2>;
+.reg .b32 %r<50>;
+.reg .b64 %rd<19>;
+
+
+ld.param.v2.u32 {%r16, %r17}, [_Z39TemporalReplicationPadding_updateOutputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0+24];
+ld.param.v2.u32 {%r18, %r19}, [_Z39TemporalReplicationPadding_updateOutputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0+16];
+ld.param.v2.u32 {%r20, %r21}, [_Z39TemporalReplicationPadding_updateOutputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0+8];
+ld.param.u64 %rd1, [_Z39TemporalReplicationPadding_updateOutputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0];
+ld.param.v2.u32 {%r22, %r23}, [_Z39TemporalReplicationPadding_updateOutputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1+24];
+ld.param.v2.u32 {%r24, %r25}, [_Z39TemporalReplicationPadding_updateOutputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1+16];
+ld.param.v2.u32 {%r26, %r27}, [_Z39TemporalReplicationPadding_updateOutputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1+8];
+ld.param.u64 %rd2, [_Z39TemporalReplicationPadding_updateOutputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1];
+ld.param.u32 %r15, [_Z39TemporalReplicationPadding_updateOutputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_2];
+mov.u32 %r28, %ntid.x;
+mov.u32 %r29, %ctaid.x;
+mov.u32 %r30, %tid.x;
+mad.lo.s32 %r2, %r28, %r29, %r30;
+setp.ge.s32	%p1, %r2, %r23;
+@%p1 bra BB2_2;
+
+mov.u32 %r31, %ctaid.y;
+mov.u32 %r32, %ctaid.z;
+cvta.to.global.u64 %rd3, %rd2;
+cvta.to.global.u64 %rd4, %rd1;
+neg.s32 %r33, %r15;
+mov.u32 %r34, 0;
+max.s32 %r35, %r34, %r33;
+rem.s32 %r36, %r2, %r23;
+max.s32 %r37, %r15, %r36;
+add.s32 %r38, %r17, %r15;
+add.s32 %r39, %r38, -1;
+min.s32 %r40, %r37, %r39;
+max.s32 %r41, %r34, %r15;
+sub.s32 %r42, %r35, %r41;
+add.s32 %r43, %r42, %r40;
+mul.lo.s32 %r44, %r32, %r20;
+cvt.s64.s32	%rd5, %r44;
+mul.lo.s32 %r45, %r31, %r21;
+cvt.s64.s32	%rd6, %r45;
+add.s64 %rd7, %rd5, %rd6;
+mul.lo.s32 %r46, %r43, %r18;
+cvt.s64.s32	%rd8, %r46;
+add.s64 %rd9, %rd7, %rd8;
+shl.b64 %rd10, %rd9, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f32 %f1, [%rd11];
+mul.lo.s32 %r47, %r32, %r26;
+cvt.s64.s32	%rd12, %r47;
+mul.lo.s32 %r48, %r31, %r27;
+cvt.s64.s32	%rd13, %r48;
+add.s64 %rd14, %rd12, %rd13;
+mul.lo.s32 %r49, %r36, %r24;
+cvt.s64.s32	%rd15, %r49;
+add.s64 %rd16, %rd14, %rd15;
+shl.b64 %rd17, %rd16, 2;
+add.s64 %rd18, %rd3, %rd17;
+st.global.f32 [%rd18], %f1;
+
+BB2_2:
+ret;
+}
+
+
+.visible .entry _Z42TemporalReplicationPadding_updateGradInputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii(
+.param .align 8 .b8 _Z42TemporalReplicationPadding_updateGradInputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0[32],
+.param .align 8 .b8 _Z42TemporalReplicationPadding_updateGradInputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1[32],
+.param .u32 _Z42TemporalReplicationPadding_updateGradInputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_2,
+.param .u32 _Z42TemporalReplicationPadding_updateGradInputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_3
+)
+{
+.reg .pred %p<2>;
+.reg .f32 %f<3>;
+.reg .b32 %r<50>;
+.reg .b64 %rd<19>;
+
+
+ld.param.v2.u32 {%r16, %r17}, [_Z42TemporalReplicationPadding_updateGradInputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0+24];
+ld.param.v2.u32 {%r18, %r19}, [_Z42TemporalReplicationPadding_updateGradInputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0+16];
+ld.param.v2.u32 {%r20, %r21}, [_Z42TemporalReplicationPadding_updateGradInputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0+8];
+ld.param.u64 %rd1, [_Z42TemporalReplicationPadding_updateGradInputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0];
+ld.param.v2.u32 {%r22, %r23}, [_Z42TemporalReplicationPadding_updateGradInputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1+24];
+ld.param.v2.u32 {%r24, %r25}, [_Z42TemporalReplicationPadding_updateGradInputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1+16];
+ld.param.v2.u32 {%r26, %r27}, [_Z42TemporalReplicationPadding_updateGradInputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1+8];
+ld.param.u64 %rd2, [_Z42TemporalReplicationPadding_updateGradInputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1];
+ld.param.u32 %r15, [_Z42TemporalReplicationPadding_updateGradInputIfEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_2];
+mov.u32 %r28, %ntid.x;
+mov.u32 %r29, %ctaid.x;
+mov.u32 %r30, %tid.x;
+mad.lo.s32 %r2, %r28, %r29, %r30;
+setp.ge.s32	%p1, %r2, %r23;
+@%p1 bra BB3_2;
+
+mov.u32 %r31, %ctaid.y;
+mov.u32 %r32, %ctaid.z;
+cvta.to.global.u64 %rd3, %rd2;
+cvta.to.global.u64 %rd4, %rd1;
+neg.s32 %r33, %r15;
+mov.u32 %r34, 0;
+max.s32 %r35, %r34, %r33;
+rem.s32 %r36, %r2, %r23;
+max.s32 %r37, %r15, %r36;
+add.s32 %r38, %r17, %r15;
+add.s32 %r39, %r38, -1;
+min.s32 %r40, %r37, %r39;
+max.s32 %r41, %r34, %r15;
+sub.s32 %r42, %r35, %r41;
+add.s32 %r43, %r42, %r40;
+mul.lo.s32 %r44, %r32, %r26;
+cvt.s64.s32	%rd5, %r44;
+mul.lo.s32 %r45, %r31, %r27;
+cvt.s64.s32	%rd6, %r45;
+add.s64 %rd7, %rd5, %rd6;
+mul.lo.s32 %r46, %r36, %r24;
+cvt.s64.s32	%rd8, %r46;
+add.s64 %rd9, %rd7, %rd8;
+shl.b64 %rd10, %rd9, 2;
+add.s64 %rd11, %rd3, %rd10;
+ld.global.f32 %f1, [%rd11];
+mul.lo.s32 %r47, %r32, %r20;
+cvt.s64.s32	%rd12, %r47;
+mul.lo.s32 %r48, %r31, %r21;
+cvt.s64.s32	%rd13, %r48;
+add.s64 %rd14, %rd12, %rd13;
+mul.lo.s32 %r49, %r43, %r18;
+cvt.s64.s32	%rd15, %r49;
+add.s64 %rd16, %rd14, %rd15;
+shl.b64 %rd17, %rd16, 2;
+add.s64 %rd18, %rd4, %rd17;
+atom.global.add.f32 %f2, [%rd18], %f1;
+
+BB3_2:
+ret;
+}
+
+
+.visible .entry _Z39TemporalReplicationPadding_updateOutputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii(
+.param .align 8 .b8 _Z39TemporalReplicationPadding_updateOutputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0[32],
+.param .align 8 .b8 _Z39TemporalReplicationPadding_updateOutputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1[32],
+.param .u32 _Z39TemporalReplicationPadding_updateOutputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_2,
+.param .u32 _Z39TemporalReplicationPadding_updateOutputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_3
+)
+{
+.reg .pred %p<2>;
+.reg .b32 %r<50>;
+.reg .f64 %fd<2>;
+.reg .b64 %rd<19>;
+
+
+ld.param.v2.u32 {%r16, %r17}, [_Z39TemporalReplicationPadding_updateOutputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0+24];
+ld.param.v2.u32 {%r18, %r19}, [_Z39TemporalReplicationPadding_updateOutputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0+16];
+ld.param.v2.u32 {%r20, %r21}, [_Z39TemporalReplicationPadding_updateOutputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0+8];
+ld.param.u64 %rd1, [_Z39TemporalReplicationPadding_updateOutputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0];
+ld.param.v2.u32 {%r22, %r23}, [_Z39TemporalReplicationPadding_updateOutputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1+24];
+ld.param.v2.u32 {%r24, %r25}, [_Z39TemporalReplicationPadding_updateOutputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1+16];
+ld.param.v2.u32 {%r26, %r27}, [_Z39TemporalReplicationPadding_updateOutputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1+8];
+ld.param.u64 %rd2, [_Z39TemporalReplicationPadding_updateOutputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1];
+ld.param.u32 %r15, [_Z39TemporalReplicationPadding_updateOutputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_2];
+mov.u32 %r28, %ntid.x;
+mov.u32 %r29, %ctaid.x;
+mov.u32 %r30, %tid.x;
+mad.lo.s32 %r2, %r28, %r29, %r30;
+setp.ge.s32	%p1, %r2, %r23;
+@%p1 bra BB4_2;
+
+mov.u32 %r31, %ctaid.y;
+mov.u32 %r32, %ctaid.z;
+cvta.to.global.u64 %rd3, %rd2;
+cvta.to.global.u64 %rd4, %rd1;
+neg.s32 %r33, %r15;
+mov.u32 %r34, 0;
+max.s32 %r35, %r34, %r33;
+rem.s32 %r36, %r2, %r23;
+max.s32 %r37, %r15, %r36;
+add.s32 %r38, %r17, %r15;
+add.s32 %r39, %r38, -1;
+min.s32 %r40, %r37, %r39;
+max.s32 %r41, %r34, %r15;
+sub.s32 %r42, %r35, %r41;
+add.s32 %r43, %r42, %r40;
+mul.lo.s32 %r44, %r32, %r20;
+cvt.s64.s32	%rd5, %r44;
+mul.lo.s32 %r45, %r31, %r21;
+cvt.s64.s32	%rd6, %r45;
+add.s64 %rd7, %rd5, %rd6;
+mul.lo.s32 %r46, %r43, %r18;
+cvt.s64.s32	%rd8, %r46;
+add.s64 %rd9, %rd7, %rd8;
+shl.b64 %rd10, %rd9, 3;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f64 %fd1, [%rd11];
+mul.lo.s32 %r47, %r32, %r26;
+cvt.s64.s32	%rd12, %r47;
+mul.lo.s32 %r48, %r31, %r27;
+cvt.s64.s32	%rd13, %r48;
+add.s64 %rd14, %rd12, %rd13;
+mul.lo.s32 %r49, %r36, %r24;
+cvt.s64.s32	%rd15, %r49;
+add.s64 %rd16, %rd14, %rd15;
+shl.b64 %rd17, %rd16, 3;
+add.s64 %rd18, %rd3, %rd17;
+st.global.f64 [%rd18], %fd1;
+
+BB4_2:
+ret;
+}
+
+
+.visible .entry _Z42TemporalReplicationPadding_updateGradInputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii(
+.param .align 8 .b8 _Z42TemporalReplicationPadding_updateGradInputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0[32],
+.param .align 8 .b8 _Z42TemporalReplicationPadding_updateGradInputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1[32],
+.param .u32 _Z42TemporalReplicationPadding_updateGradInputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_2,
+.param .u32 _Z42TemporalReplicationPadding_updateGradInputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_3
+)
+{
+.reg .pred %p<2>;
+.reg .b32 %r<50>;
+.reg .f64 %fd<3>;
+.reg .b64 %rd<19>;
+
+
+ld.param.v2.u32 {%r16, %r17}, [_Z42TemporalReplicationPadding_updateGradInputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0+24];
+ld.param.v2.u32 {%r18, %r19}, [_Z42TemporalReplicationPadding_updateGradInputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0+16];
+ld.param.v2.u32 {%r20, %r21}, [_Z42TemporalReplicationPadding_updateGradInputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0+8];
+ld.param.u64 %rd1, [_Z42TemporalReplicationPadding_updateGradInputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_0];
+ld.param.v2.u32 {%r22, %r23}, [_Z42TemporalReplicationPadding_updateGradInputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1+24];
+ld.param.v2.u32 {%r24, %r25}, [_Z42TemporalReplicationPadding_updateGradInputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1+16];
+ld.param.v2.u32 {%r26, %r27}, [_Z42TemporalReplicationPadding_updateGradInputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1+8];
+ld.param.u64 %rd2, [_Z42TemporalReplicationPadding_updateGradInputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_1];
+ld.param.u32 %r15, [_Z42TemporalReplicationPadding_updateGradInputIdEv15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_ii_param_2];
+mov.u32 %r28, %ntid.x;
+mov.u32 %r29, %ctaid.x;
+mov.u32 %r30, %tid.x;
+mad.lo.s32 %r2, %r28, %r29, %r30;
+setp.ge.s32	%p1, %r2, %r23;
+@%p1 bra BB5_2;
+
+mov.u32 %r31, %ctaid.y;
+mov.u32 %r32, %ctaid.z;
+cvta.to.global.u64 %rd3, %rd2;
+cvta.to.global.u64 %rd4, %rd1;
+neg.s32 %r33, %r15;
+mov.u32 %r34, 0;
+max.s32 %r35, %r34, %r33;
+rem.s32 %r36, %r2, %r23;
+max.s32 %r37, %r15, %r36;
+add.s32 %r38, %r17, %r15;
+add.s32 %r39, %r38, -1;
+min.s32 %r40, %r37, %r39;
+max.s32 %r41, %r34, %r15;
+sub.s32 %r42, %r35, %r41;
+add.s32 %r43, %r42, %r40;
+mul.lo.s32 %r44, %r32, %r26;
+cvt.s64.s32	%rd5, %r44;
+mul.lo.s32 %r45, %r31, %r27;
+cvt.s64.s32	%rd6, %r45;
+add.s64 %rd7, %rd5, %rd6;
+mul.lo.s32 %r46, %r36, %r24;
+cvt.s64.s32	%rd8, %r46;
+add.s64 %rd9, %rd7, %rd8;
+shl.b64 %rd10, %rd9, 3;
+add.s64 %rd11, %rd3, %rd10;
+ld.global.f64 %fd1, [%rd11];
+mul.lo.s32 %r47, %r32, %r20;
+cvt.s64.s32	%rd12, %r47;
+mul.lo.s32 %r48, %r31, %r21;
+cvt.s64.s32	%rd13, %r48;
+add.s64 %rd14, %rd12, %rd13;
+mul.lo.s32 %r49, %r43, %r18;
+cvt.s64.s32	%rd15, %r49;
+add.s64 %rd16, %rd14, %rd15;
+shl.b64 %rd17, %rd16, 3;
+add.s64 %rd18, %rd4, %rd17;
+atom.global.add.f64 %fd2, [%rd18], %fd1;
+
+BB5_2:
+ret;
+}
+
+

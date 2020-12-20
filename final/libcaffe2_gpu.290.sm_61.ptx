@@ -1,0 +1,389 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVSt9exception[40];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe223AffineChannelGradientOpIfNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe215AffineChannelOpIfNS_11CUDAContextEEE[136];
+
+
+
+
+
+.visible .entry _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6_(
+.param .u32 _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6__param_0,
+.param .u32 _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6__param_1,
+.param .u32 _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6__param_2,
+.param .u64 _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6__param_3,
+.param .u64 _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6__param_4,
+.param .u64 _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6__param_5,
+.param .u64 _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6__param_6
+)
+{
+.reg .pred %p<10>;
+.reg .f32 %f<68>;
+.reg .b32 %r<42>;
+.reg .b64 %rd<21>;
+
+	.shared .align 4 .b8 _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196922_64_non_const_ds_storage[24];
+
+	.shared .align 4 .b8 _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196923_64_non_const_db_storage[24];
+
+ld.param.u32 %r13, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6__param_0];
+ld.param.u32 %r11, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6__param_1];
+ld.param.u32 %r12, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6__param_2];
+ld.param.u64 %rd3, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6__param_3];
+ld.param.u64 %rd4, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6__param_4];
+ld.param.u64 %rd5, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6__param_5];
+ld.param.u64 %rd6, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6__param_6];
+mul.lo.s32 %r1, %r12, %r13;
+mov.u32 %r40, %ctaid.x;
+setp.ge.s32	%p3, %r40, %r11;
+@%p3 bra BB0_15;
+
+mov.u32 %r3, %tid.x;
+shr.u32 %r14, %r3, 5;
+mul.wide.u32 %rd7, %r14, 4;
+mov.u64 %rd8, _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196922_64_non_const_ds_storage;
+add.s64 %rd9, %rd8, %rd7;
+add.s64 %rd1, %rd9, 4;
+mov.u64 %rd10, _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196923_64_non_const_db_storage;
+add.s64 %rd11, %rd10, %rd7;
+add.s64 %rd2, %rd11, 4;
+mov.u32 %r4, %nctaid.x;
+mov.u32 %r5, %ntid.x;
+
+	mov.u32 %r19, %laneid;
+
+	cvta.to.global.u64 %rd16, %rd5;
+cvta.to.global.u64 %rd19, %rd6;
+
+BB0_2:
+mov.f32 %f64, 0f00000000;
+mov.f32 %f61, %f64;
+mov.f32 %f65, %f64;
+mov.f32 %f62, %f64;
+setp.ge.s32	%p4, %r3, %r1;
+mov.u32 %r41, %r3;
+@%p4 bra BB0_4;
+
+BB0_3:
+mov.u32 %r7, %r41;
+div.s32 %r15, %r7, %r12;
+mad.lo.s32 %r16, %r15, %r11, %r40;
+rem.s32 %r17, %r7, %r12;
+mad.lo.s32 %r18, %r16, %r12, %r17;
+mul.wide.s32 %rd15, %r18, 4;
+add.s64 %rd14, %rd3, %rd15;
+
+	ld.global.nc.f32 %f17, [%rd14];
+
+	add.s64 %rd13, %rd4, %rd15;
+
+	ld.global.nc.f32 %f18, [%rd13];
+
+	fma.rn.f32 %f65, %f17, %f18, %f65;
+
+	ld.global.nc.f32 %f19, [%rd14];
+
+	add.f32 %f62, %f62, %f19;
+add.s32 %r8, %r5, %r7;
+setp.lt.s32	%p5, %r8, %r1;
+mov.u32 %r41, %r8;
+mov.f32 %f61, %f62;
+mov.f32 %f64, %f65;
+@%p5 bra BB0_3;
+
+BB0_4:
+mov.u32 %r20, 1;
+mov.u32 %r29, 31;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f64, %r20, %r29; @p add.f32 r0, r0, %f64; mov.f32 %f20, r0;}
+
+	mov.u32 %r22, 2;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f20, %r22, %r29; @p add.f32 r0, r0, %f20; mov.f32 %f23, r0;}
+
+	mov.u32 %r24, 4;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f23, %r24, %r29; @p add.f32 r0, r0, %f23; mov.f32 %f26, r0;}
+
+	mov.u32 %r26, 8;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f26, %r26, %r29; @p add.f32 r0, r0, %f26; mov.f32 %f29, r0;}
+
+	mov.u32 %r28, 16;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f29, %r28, %r29; @p add.f32 r0, r0, %f29; mov.f32 %f66, r0;}
+
+	setp.ne.s32	%p6, %r19, 0;
+@%p6 bra BB0_6;
+
+st.shared.f32 [%rd1], %f66;
+
+BB0_6:
+setp.eq.s32	%p1, %r3, 0;
+bar.sync 0;
+@!%p1 bra BB0_8;
+bra.uni BB0_7;
+
+BB0_7:
+ld.shared.f32 %f35, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196922_64_non_const_ds_storage+8];
+add.f32 %f36, %f66, %f35;
+ld.shared.f32 %f37, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196922_64_non_const_ds_storage+12];
+add.f32 %f38, %f37, %f36;
+ld.shared.f32 %f39, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196922_64_non_const_ds_storage+16];
+add.f32 %f66, %f39, %f38;
+
+BB0_8:
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f61, %r20, %r29; @p add.f32 r0, r0, %f61; mov.f32 %f40, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f40, %r22, %r29; @p add.f32 r0, r0, %f40; mov.f32 %f43, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f43, %r24, %r29; @p add.f32 r0, r0, %f43; mov.f32 %f46, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f46, %r26, %r29; @p add.f32 r0, r0, %f46; mov.f32 %f49, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f49, %r28, %r29; @p add.f32 r0, r0, %f49; mov.f32 %f67, r0;}
+
+	@%p6 bra BB0_10;
+
+st.shared.f32 [%rd2], %f67;
+
+BB0_10:
+bar.sync 0;
+@!%p1 bra BB0_12;
+bra.uni BB0_11;
+
+BB0_11:
+ld.shared.f32 %f55, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196923_64_non_const_db_storage+8];
+add.f32 %f56, %f67, %f55;
+ld.shared.f32 %f57, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196923_64_non_const_db_storage+12];
+add.f32 %f58, %f57, %f56;
+ld.shared.f32 %f59, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196923_64_non_const_db_storage+16];
+add.f32 %f67, %f59, %f58;
+
+BB0_12:
+setp.ne.s32	%p8, %r3, 0;
+@%p8 bra BB0_14;
+
+mul.wide.s32 %rd17, %r40, 4;
+add.s64 %rd18, %rd16, %rd17;
+st.global.f32 [%rd18], %f66;
+add.s64 %rd20, %rd19, %rd17;
+st.global.f32 [%rd20], %f67;
+
+BB0_14:
+bar.sync 0;
+add.s32 %r40, %r4, %r40;
+setp.lt.s32	%p9, %r40, %r11;
+@%p9 bra BB0_2;
+
+BB0_15:
+ret;
+}
+
+
+.visible .entry _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6_(
+.param .u32 _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6__param_0,
+.param .u32 _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6__param_1,
+.param .u32 _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6__param_2,
+.param .u64 _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6__param_3,
+.param .u64 _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6__param_4,
+.param .u64 _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6__param_5,
+.param .u64 _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6__param_6
+)
+{
+.reg .pred %p<10>;
+.reg .f32 %f<68>;
+.reg .b32 %r<39>;
+.reg .b64 %rd<21>;
+
+	.shared .align 4 .b8 _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196922_64_non_const_ds_storage[24];
+
+	.shared .align 4 .b8 _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196923_64_non_const_db_storage[24];
+
+ld.param.u32 %r12, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6__param_0];
+ld.param.u32 %r11, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6__param_1];
+ld.param.u32 %r13, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6__param_2];
+ld.param.u64 %rd3, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6__param_3];
+ld.param.u64 %rd4, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6__param_4];
+ld.param.u64 %rd5, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6__param_5];
+ld.param.u64 %rd6, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6__param_6];
+mul.lo.s32 %r1, %r13, %r12;
+mov.u32 %r37, %ctaid.x;
+setp.ge.s32	%p3, %r37, %r11;
+@%p3 bra BB1_15;
+
+mov.u32 %r3, %tid.x;
+shr.u32 %r14, %r3, 5;
+mul.wide.u32 %rd7, %r14, 4;
+mov.u64 %rd8, _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196922_64_non_const_ds_storage;
+add.s64 %rd9, %rd8, %rd7;
+add.s64 %rd1, %rd9, 4;
+mov.u64 %rd10, _ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196923_64_non_const_db_storage;
+add.s64 %rd11, %rd10, %rd7;
+add.s64 %rd2, %rd11, 4;
+mov.u32 %r4, %nctaid.x;
+mov.u32 %r5, %ntid.x;
+
+	mov.u32 %r16, %laneid;
+
+	cvta.to.global.u64 %rd16, %rd5;
+cvta.to.global.u64 %rd19, %rd6;
+
+BB1_2:
+mov.f32 %f64, 0f00000000;
+mov.f32 %f61, %f64;
+mov.f32 %f65, %f64;
+mov.f32 %f62, %f64;
+setp.ge.s32	%p4, %r3, %r1;
+mov.u32 %r38, %r3;
+@%p4 bra BB1_4;
+
+BB1_3:
+mov.u32 %r7, %r38;
+mad.lo.s32 %r15, %r7, %r11, %r37;
+mul.wide.s32 %rd15, %r15, 4;
+add.s64 %rd14, %rd3, %rd15;
+
+	ld.global.nc.f32 %f17, [%rd14];
+
+	add.s64 %rd13, %rd4, %rd15;
+
+	ld.global.nc.f32 %f18, [%rd13];
+
+	fma.rn.f32 %f65, %f17, %f18, %f65;
+
+	ld.global.nc.f32 %f19, [%rd14];
+
+	add.f32 %f62, %f62, %f19;
+add.s32 %r8, %r5, %r7;
+setp.lt.s32	%p5, %r8, %r1;
+mov.u32 %r38, %r8;
+mov.f32 %f61, %f62;
+mov.f32 %f64, %f65;
+@%p5 bra BB1_3;
+
+BB1_4:
+mov.u32 %r17, 1;
+mov.u32 %r26, 31;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f64, %r17, %r26; @p add.f32 r0, r0, %f64; mov.f32 %f20, r0;}
+
+	mov.u32 %r19, 2;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f20, %r19, %r26; @p add.f32 r0, r0, %f20; mov.f32 %f23, r0;}
+
+	mov.u32 %r21, 4;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f23, %r21, %r26; @p add.f32 r0, r0, %f23; mov.f32 %f26, r0;}
+
+	mov.u32 %r23, 8;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f26, %r23, %r26; @p add.f32 r0, r0, %f26; mov.f32 %f29, r0;}
+
+	mov.u32 %r25, 16;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f29, %r25, %r26; @p add.f32 r0, r0, %f29; mov.f32 %f66, r0;}
+
+	setp.ne.s32	%p6, %r16, 0;
+@%p6 bra BB1_6;
+
+st.shared.f32 [%rd1], %f66;
+
+BB1_6:
+setp.eq.s32	%p1, %r3, 0;
+bar.sync 0;
+@!%p1 bra BB1_8;
+bra.uni BB1_7;
+
+BB1_7:
+ld.shared.f32 %f35, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196922_64_non_const_ds_storage+8];
+add.f32 %f36, %f66, %f35;
+ld.shared.f32 %f37, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196922_64_non_const_ds_storage+12];
+add.f32 %f38, %f37, %f36;
+ld.shared.f32 %f39, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196922_64_non_const_ds_storage+16];
+add.f32 %f66, %f39, %f38;
+
+BB1_8:
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f61, %r17, %r26; @p add.f32 r0, r0, %f61; mov.f32 %f40, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f40, %r19, %r26; @p add.f32 r0, r0, %f40; mov.f32 %f43, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f43, %r21, %r26; @p add.f32 r0, r0, %f43; mov.f32 %f46, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f46, %r23, %r26; @p add.f32 r0, r0, %f46; mov.f32 %f49, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f49, %r25, %r26; @p add.f32 r0, r0, %f49; mov.f32 %f67, r0;}
+
+	@%p6 bra BB1_10;
+
+st.shared.f32 [%rd2], %f67;
+
+BB1_10:
+bar.sync 0;
+@!%p1 bra BB1_12;
+bra.uni BB1_11;
+
+BB1_11:
+ld.shared.f32 %f55, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196923_64_non_const_db_storage+8];
+add.f32 %f56, %f67, %f55;
+ld.shared.f32 %f57, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196923_64_non_const_db_storage+12];
+add.f32 %f58, %f57, %f56;
+ld.shared.f32 %f59, [_ZN6caffe276_GLOBAL__N__52_tmpxft_0000727c_00000000_7_affine_channel_op_cpp1_ii_dddce74a40AffineChannelScaleBiasBackwardCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_PS3_S6_$__cuda_local_var_196923_64_non_const_db_storage+16];
+add.f32 %f67, %f59, %f58;
+
+BB1_12:
+setp.ne.s32	%p8, %r3, 0;
+@%p8 bra BB1_14;
+
+mul.wide.s32 %rd17, %r37, 4;
+add.s64 %rd18, %rd16, %rd17;
+st.global.f32 [%rd18], %f66;
+add.s64 %rd20, %rd19, %rd17;
+st.global.f32 [%rd20], %f67;
+
+BB1_14:
+bar.sync 0;
+add.s32 %r37, %r4, %r37;
+setp.lt.s32	%p9, %r37, %r11;
+@%p9 bra BB1_2;
+
+BB1_15:
+ret;
+}
+
+

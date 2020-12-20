@@ -1,0 +1,65 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z24fermiDgemm_v2_kernel_valILb0ELb0ELb1EEvPdPKdS2_iiiiiiddii' for 'sm_50'
+ptxas info    : Function properties for _Z24fermiDgemm_v2_kernel_valILb0ELb0ELb1EEvPdPKdS2_iiiiiiddii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 17024 bytes smem, 400 bytes cmem[0], 8 bytes cmem[2], 2 textures
+ptxas info    : Compiling entry function '_Z24fermiDgemm_v2_kernel_refILb0ELb0ELb1EEvPdPKdS2_iiiiiiS2_S2_ii' for 'sm_50'
+ptxas info    : Function properties for _Z24fermiDgemm_v2_kernel_refILb0ELb0ELb1EEvPdPKdS2_iiiiiiS2_S2_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 17024 bytes smem, 400 bytes cmem[0], 8 bytes cmem[2], 2 textures
+ptxas info    : Compiling entry function '_Z24fermiDgemm_v2_kernel_valILb1ELb0ELb1EEvPdPKdS2_iiiiiiddii' for 'sm_50'
+ptxas info    : Function properties for _Z24fermiDgemm_v2_kernel_valILb1ELb0ELb1EEvPdPKdS2_iiiiiiddii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 17024 bytes smem, 400 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z24fermiDgemm_v2_kernel_refILb1ELb0ELb1EEvPdPKdS2_iiiiiiS2_S2_ii' for 'sm_50'
+ptxas info    : Function properties for _Z24fermiDgemm_v2_kernel_refILb1ELb0ELb1EEvPdPKdS2_iiiiiiS2_S2_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 70 registers, 17024 bytes smem, 400 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z24fermiDgemm_v2_kernel_valILb0ELb1ELb1EEvPdPKdS2_iiiiiiddii' for 'sm_50'
+ptxas info    : Function properties for _Z24fermiDgemm_v2_kernel_valILb0ELb1ELb1EEvPdPKdS2_iiiiiiddii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 66 registers, 17024 bytes smem, 400 bytes cmem[0], 8 bytes cmem[2], 2 textures
+ptxas info    : Compiling entry function '_Z24fermiDgemm_v2_kernel_refILb0ELb1ELb1EEvPdPKdS2_iiiiiiS2_S2_ii' for 'sm_50'
+ptxas info    : Function properties for _Z24fermiDgemm_v2_kernel_refILb0ELb1ELb1EEvPdPKdS2_iiiiiiS2_S2_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 66 registers, 17024 bytes smem, 400 bytes cmem[0], 8 bytes cmem[2], 2 textures
+ptxas info    : Compiling entry function '_Z24fermiDgemm_v2_kernel_valILb1ELb1ELb1EEvPdPKdS2_iiiiiiddii' for 'sm_50'
+ptxas info    : Function properties for _Z24fermiDgemm_v2_kernel_valILb1ELb1ELb1EEvPdPKdS2_iiiiiiddii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 17024 bytes smem, 400 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z24fermiDgemm_v2_kernel_refILb1ELb1ELb1EEvPdPKdS2_iiiiiiS2_S2_ii' for 'sm_50'
+ptxas info    : Function properties for _Z24fermiDgemm_v2_kernel_refILb1ELb1ELb1EEvPdPKdS2_iiiiiiS2_S2_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 17024 bytes smem, 400 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z24fermiDgemm_v2_kernel_valILb0ELb0ELb0EEvPdPKdS2_iiiiiiddii' for 'sm_50'
+ptxas info    : Function properties for _Z24fermiDgemm_v2_kernel_valILb0ELb0ELb0EEvPdPKdS2_iiiiiiddii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 17024 bytes smem, 400 bytes cmem[0], 8 bytes cmem[2], 2 textures
+ptxas info    : Compiling entry function '_Z24fermiDgemm_v2_kernel_refILb0ELb0ELb0EEvPdPKdS2_iiiiiiS2_S2_ii' for 'sm_50'
+ptxas info    : Function properties for _Z24fermiDgemm_v2_kernel_refILb0ELb0ELb0EEvPdPKdS2_iiiiiiS2_S2_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 17024 bytes smem, 400 bytes cmem[0], 8 bytes cmem[2], 2 textures
+ptxas info    : Compiling entry function '_Z24fermiDgemm_v2_kernel_valILb1ELb0ELb0EEvPdPKdS2_iiiiiiddii' for 'sm_50'
+ptxas info    : Function properties for _Z24fermiDgemm_v2_kernel_valILb1ELb0ELb0EEvPdPKdS2_iiiiiiddii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 80 registers, 17024 bytes smem, 400 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z24fermiDgemm_v2_kernel_refILb1ELb0ELb0EEvPdPKdS2_iiiiiiS2_S2_ii' for 'sm_50'
+ptxas info    : Function properties for _Z24fermiDgemm_v2_kernel_refILb1ELb0ELb0EEvPdPKdS2_iiiiiiS2_S2_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 80 registers, 17024 bytes smem, 400 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z24fermiDgemm_v2_kernel_valILb0ELb1ELb0EEvPdPKdS2_iiiiiiddii' for 'sm_50'
+ptxas info    : Function properties for _Z24fermiDgemm_v2_kernel_valILb0ELb1ELb0EEvPdPKdS2_iiiiiiddii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 17024 bytes smem, 400 bytes cmem[0], 8 bytes cmem[2], 2 textures
+ptxas info    : Compiling entry function '_Z24fermiDgemm_v2_kernel_refILb0ELb1ELb0EEvPdPKdS2_iiiiiiS2_S2_ii' for 'sm_50'
+ptxas info    : Function properties for _Z24fermiDgemm_v2_kernel_refILb0ELb1ELb0EEvPdPKdS2_iiiiiiS2_S2_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 17024 bytes smem, 400 bytes cmem[0], 8 bytes cmem[2], 2 textures
+ptxas info    : Compiling entry function '_Z24fermiDgemm_v2_kernel_valILb1ELb1ELb0EEvPdPKdS2_iiiiiiddii' for 'sm_50'
+ptxas info    : Function properties for _Z24fermiDgemm_v2_kernel_valILb1ELb1ELb0EEvPdPKdS2_iiiiiiddii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 17024 bytes smem, 400 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z24fermiDgemm_v2_kernel_refILb1ELb1ELb0EEvPdPKdS2_iiiiiiS2_S2_ii' for 'sm_50'
+ptxas info    : Function properties for _Z24fermiDgemm_v2_kernel_refILb1ELb1ELb0EEvPdPKdS2_iiiiiiS2_S2_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 17024 bytes smem, 400 bytes cmem[0], 2 textures

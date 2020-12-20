@@ -1,0 +1,267 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe216SpaceBatchOpBaseINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe214SpaceToBatchOpINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe214BatchToSpaceOpINS_11CUDAContextEEE[136];
+
+.visible .entry _ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf(
+.param .u32 _ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_0,
+.param .u32 _ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_1,
+.param .u32 _ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_2,
+.param .u32 _ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_3,
+.param .u32 _ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_4,
+.param .u32 _ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_5,
+.param .u32 _ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_6,
+.param .u32 _ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_7,
+.param .u32 _ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_8,
+.param .u32 _ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_9,
+.param .u32 _ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_10,
+.param .u32 _ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_11,
+.param .u64 _ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_12,
+.param .u64 _ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_13
+)
+{
+.reg .pred %p<9>;
+.reg .f32 %f<5>;
+.reg .b32 %r<41>;
+.reg .b64 %rd<26>;
+
+
+ld.param.u32 %r6, [_ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_2];
+ld.param.u32 %r7, [_ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_3];
+ld.param.u32 %r8, [_ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_4];
+ld.param.u32 %r9, [_ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_5];
+ld.param.u32 %r10, [_ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_6];
+ld.param.u32 %r11, [_ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_7];
+ld.param.u32 %r12, [_ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_8];
+ld.param.u32 %r13, [_ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_9];
+ld.param.u32 %r14, [_ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_10];
+ld.param.u32 %r15, [_ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_11];
+ld.param.u64 %rd14, [_ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_12];
+ld.param.u64 %rd15, [_ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_13];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r16, %ctaid.x;
+mov.u32 %r17, %tid.x;
+mad.lo.s32 %r18, %r1, %r16, %r17;
+cvt.u64.u32	%rd23, %r18;
+ld.param.s32 %rd2, [_ZN6caffe212SpaceToBatchEiiiiiiiiiiiiPKfPf_param_0];
+setp.ge.u64	%p1, %rd23, %rd2;
+@%p1 bra BB0_8;
+
+cvta.to.global.u64 %rd3, %rd15;
+cvt.s64.s32	%rd4, %r8;
+mov.u32 %r19, %nctaid.x;
+mul.lo.s32 %r20, %r19, %r1;
+cvt.u64.u32	%rd5, %r20;
+cvta.to.global.u64 %rd18, %rd14;
+
+BB0_2:
+or.b64 %rd16, %rd23, %rd4;
+and.b64 %rd17, %rd16, -4294967296;
+setp.eq.s64	%p2, %rd17, 0;
+@%p2 bra BB0_4;
+bra.uni BB0_3;
+
+BB0_4:
+cvt.u32.u64	%r21, %rd4;
+cvt.u32.u64	%r22, %rd23;
+div.u32 %r23, %r22, %r21;
+rem.u32 %r24, %r22, %r21;
+cvt.u64.u32	%rd24, %r23;
+cvt.u64.u32	%rd25, %r24;
+bra.uni BB0_5;
+
+BB0_3:
+div.u64 %rd24, %rd23, %rd4;
+rem.u64 %rd25, %rd23, %rd4;
+
+BB0_5:
+cvt.u32.u64	%r25, %rd24;
+rem.s32 %r26, %r25, %r7;
+div.s32 %r2, %r25, %r7;
+div.s32 %r3, %r2, %r6;
+div.s32 %r27, %r3, %r9;
+rem.s32 %r28, %r27, %r15;
+div.s32 %r29, %r27, %r15;
+mul.lo.s32 %r30, %r26, %r15;
+sub.s32 %r31, %r30, %r14;
+add.s32 %r4, %r31, %r29;
+cvt.u32.u64	%r32, %rd25;
+mul.lo.s32 %r33, %r32, %r15;
+sub.s32 %r34, %r33, %r13;
+add.s32 %r5, %r34, %r28;
+or.b32 %r35, %r4, %r5;
+setp.gt.s32	%p3, %r35, -1;
+setp.lt.s32	%p4, %r4, %r11;
+and.pred %p5, %p3, %p4;
+setp.lt.s32	%p6, %r5, %r12;
+and.pred %p7, %p5, %p6;
+mov.f32 %f4, 0f00000000;
+@!%p7 bra BB0_7;
+bra.uni BB0_6;
+
+BB0_6:
+rem.s32 %r36, %r2, %r6;
+rem.s32 %r37, %r3, %r9;
+mad.lo.s32 %r38, %r37, %r10, %r36;
+mad.lo.s32 %r39, %r38, %r11, %r4;
+mad.lo.s32 %r40, %r39, %r12, %r5;
+mul.wide.s32 %rd19, %r40, 4;
+add.s64 %rd20, %rd18, %rd19;
+ld.global.f32 %f4, [%rd20];
+
+BB0_7:
+shl.b64 %rd21, %rd23, 2;
+add.s64 %rd22, %rd3, %rd21;
+st.global.f32 [%rd22], %f4;
+add.s64 %rd23, %rd5, %rd23;
+setp.lt.u64	%p8, %rd23, %rd2;
+@%p8 bra BB0_2;
+
+BB0_8:
+ret;
+}
+
+
+.visible .entry _ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf(
+.param .u32 _ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_0,
+.param .u32 _ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_1,
+.param .u32 _ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_2,
+.param .u32 _ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_3,
+.param .u32 _ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_4,
+.param .u32 _ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_5,
+.param .u32 _ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_6,
+.param .u32 _ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_7,
+.param .u32 _ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_8,
+.param .u32 _ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_9,
+.param .u32 _ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_10,
+.param .u32 _ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_11,
+.param .u64 _ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_12,
+.param .u64 _ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_13
+)
+{
+.reg .pred %p<9>;
+.reg .f32 %f<2>;
+.reg .b32 %r<41>;
+.reg .b64 %rd<26>;
+
+
+ld.param.u32 %r6, [_ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_1];
+ld.param.u32 %r7, [_ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_2];
+ld.param.u32 %r8, [_ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_3];
+ld.param.u32 %r9, [_ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_4];
+ld.param.u32 %r10, [_ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_6];
+ld.param.u32 %r11, [_ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_7];
+ld.param.u32 %r12, [_ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_8];
+ld.param.u32 %r13, [_ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_9];
+ld.param.u32 %r14, [_ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_10];
+ld.param.u32 %r15, [_ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_11];
+ld.param.u64 %rd15, [_ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_12];
+ld.param.u64 %rd16, [_ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_13];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r16, %ctaid.x;
+mov.u32 %r17, %tid.x;
+mad.lo.s32 %r18, %r1, %r16, %r17;
+cvt.u64.u32	%rd23, %r18;
+ld.param.s32 %rd2, [_ZN6caffe212BatchToSpaceEiiiiiiiiiiiiPKfPf_param_0];
+setp.ge.u64	%p1, %rd23, %rd2;
+@%p1 bra BB1_8;
+
+cvta.to.global.u64 %rd3, %rd16;
+cvta.to.global.u64 %rd4, %rd15;
+cvt.s64.s32	%rd5, %r12;
+mov.u32 %r19, %nctaid.x;
+mul.lo.s32 %r20, %r19, %r1;
+cvt.u64.u32	%rd6, %r20;
+
+BB1_2:
+or.b64 %rd17, %rd23, %rd5;
+and.b64 %rd18, %rd17, -4294967296;
+setp.eq.s64	%p2, %rd18, 0;
+@%p2 bra BB1_4;
+bra.uni BB1_3;
+
+BB1_4:
+cvt.u32.u64	%r21, %rd5;
+cvt.u32.u64	%r22, %rd23;
+div.u32 %r23, %r22, %r21;
+rem.u32 %r24, %r22, %r21;
+cvt.u64.u32	%rd24, %r23;
+cvt.u64.u32	%rd25, %r24;
+bra.uni BB1_5;
+
+BB1_3:
+div.u64 %rd24, %rd23, %rd5;
+rem.u64 %rd25, %rd23, %rd5;
+
+BB1_5:
+cvt.u32.u64	%r25, %rd24;
+rem.s32 %r26, %r25, %r11;
+div.s32 %r2, %r25, %r11;
+div.s32 %r3, %r2, %r10;
+div.s32 %r27, %r3, %r6;
+rem.s32 %r28, %r27, %r15;
+div.s32 %r29, %r27, %r15;
+mul.lo.s32 %r30, %r26, %r15;
+sub.s32 %r31, %r30, %r14;
+add.s32 %r4, %r31, %r29;
+cvt.u32.u64	%r32, %rd25;
+mul.lo.s32 %r33, %r32, %r15;
+sub.s32 %r34, %r33, %r13;
+add.s32 %r5, %r34, %r28;
+or.b32 %r35, %r4, %r5;
+setp.gt.s32	%p3, %r35, -1;
+setp.lt.s32	%p4, %r4, %r8;
+and.pred %p5, %p3, %p4;
+setp.lt.s32	%p6, %r5, %r9;
+and.pred %p7, %p5, %p6;
+@!%p7 bra BB1_7;
+bra.uni BB1_6;
+
+BB1_6:
+rem.s32 %r36, %r2, %r10;
+rem.s32 %r37, %r3, %r6;
+mad.lo.s32 %r38, %r37, %r7, %r36;
+mad.lo.s32 %r39, %r38, %r8, %r4;
+mad.lo.s32 %r40, %r39, %r9, %r5;
+shl.b64 %rd19, %rd23, 2;
+add.s64 %rd20, %rd4, %rd19;
+ld.global.f32 %f1, [%rd20];
+mul.wide.s32 %rd21, %r40, 4;
+add.s64 %rd22, %rd3, %rd21;
+st.global.f32 [%rd22], %f1;
+
+BB1_7:
+add.s64 %rd23, %rd6, %rd23;
+setp.lt.u64	%p8, %rd23, %rd2;
+@%p8 bra BB1_2;
+
+BB1_8:
+ret;
+}
+
+

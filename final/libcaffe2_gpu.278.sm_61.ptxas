@@ -1,0 +1,17 @@
+ptxas info    : 904 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe276_GLOBAL__N__52_tmpxft_00006fd9_00000000_7_integral_image_op_cpp1_ii_a0828ec821RowPassGradientKernelEiiiiPKfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe276_GLOBAL__N__52_tmpxft_00006fd9_00000000_7_integral_image_op_cpp1_ii_a0828ec821RowPassGradientKernelEiiiiPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe276_GLOBAL__N__52_tmpxft_00006fd9_00000000_7_integral_image_op_cpp1_ii_a0828ec821ColPassGradientKernelEiiiiPKfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe276_GLOBAL__N__52_tmpxft_00006fd9_00000000_7_integral_image_op_cpp1_ii_a0828ec821ColPassGradientKernelEiiiiPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe276_GLOBAL__N__52_tmpxft_00006fd9_00000000_7_integral_image_op_cpp1_ii_a0828ec813RowPassKernelEiiiiPKfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe276_GLOBAL__N__52_tmpxft_00006fd9_00000000_7_integral_image_op_cpp1_ii_a0828ec813RowPassKernelEiiiiPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe276_GLOBAL__N__52_tmpxft_00006fd9_00000000_7_integral_image_op_cpp1_ii_a0828ec813ColPassKernelEiiiiPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe276_GLOBAL__N__52_tmpxft_00006fd9_00000000_7_integral_image_op_cpp1_ii_a0828ec813ColPassKernelEiiiiPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 344 bytes cmem[0]

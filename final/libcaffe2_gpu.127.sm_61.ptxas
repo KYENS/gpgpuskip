@@ -1,0 +1,37 @@
+ptxas info    : 161 bytes gmem
+ptxas info    : Compiling entry function '_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil' for 'sm_61'
+ptxas info    : Function properties for _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 49 registers, 368 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil' for 'sm_61'
+ptxas info    : Function properties for _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 33 registers, 368 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil' for 'sm_61'
+ptxas info    : Function properties for _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 368 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll' for 'sm_61'
+ptxas info    : Function properties for _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 400 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll' for 'sm_61'
+ptxas info    : Function properties for _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 400 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil' for 'sm_61'
+ptxas info    : Function properties for _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 368 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil' for 'sm_61'
+ptxas info    : Function properties for _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 368 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll' for 'sm_61'
+ptxas info    : Function properties for _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 400 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil' for 'sm_61'
+ptxas info    : Function properties for _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 58 registers, 368 bytes cmem[0], 44 bytes cmem[2]

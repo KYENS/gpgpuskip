@@ -1,0 +1,1393 @@
+ptxas info    : 521 bytes gmem
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 373 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 377 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 51 registers, 1577 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 445 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 445 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 377 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 973 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 373 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 973 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 373 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 1577 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 445 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 51 registers, 1577 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 973 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 377 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 973 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 373 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 445 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 377 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 973 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 373 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 1577 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 445 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 51 registers, 1577 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 377 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 445 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 1577 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 377 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 973 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 373 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 51 registers, 1577 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 973 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 377 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 445 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 373 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 973 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 445 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 1577 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 51 registers, 1577 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 377 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 373 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 377 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 445 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 373 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 973 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 445 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 1577 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 373 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 973 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 51 registers, 1577 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 377 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 377 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 445 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 373 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 973 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 373 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIddEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 377 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 973 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIdhEhddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIddEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIdhEhddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIddEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGTOpIdhEhddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 445 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIddEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIddEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 1577 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorNEOpIddEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLEOpIdhEhddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorEQOpIdhEhddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorGEOpIddEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I10TensorLTOpIdhEhddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 421 bytes cmem[0]

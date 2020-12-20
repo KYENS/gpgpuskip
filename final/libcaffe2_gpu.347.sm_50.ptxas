@@ -1,0 +1,49 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z20block_dot_kernel_refI6float2Li0ELi256ELi4EEviiiPKT_S3_iiS3_iiS3_PS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z20block_dot_kernel_refI6float2Li0ELi256ELi4EEviiiPKT_S3_iiS3_iiS3_PS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 64 registers, 32768 bytes smem, 396 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20block_dot_kernel_refIfLi0ELi512ELi4EEviiiPKT_S2_iiS2_iiS2_PS0_i' for 'sm_50'
+ptxas info    : Function properties for _Z20block_dot_kernel_refIfLi0ELi512ELi4EEviiiPKT_S2_iiS2_iiS2_PS0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 32768 bytes smem, 396 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20block_dot_kernel_refI7double2Li0ELi128ELi4EEviiiPKT_S3_iiS3_iiS3_PS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z20block_dot_kernel_refI7double2Li0ELi128ELi4EEviiiPKT_S3_iiS3_iiS3_PS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 96 registers, 32768 bytes smem, 396 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20block_dot_kernel_refI6float2Li1ELi256ELi4EEviiiPKT_S3_iiS3_iiS3_PS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z20block_dot_kernel_refI6float2Li1ELi256ELi4EEviiiPKT_S3_iiS3_iiS3_PS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 64 registers, 32768 bytes smem, 396 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20block_dot_kernel_refIdLi0ELi256ELi4EEviiiPKT_S2_iiS2_iiS2_PS0_i' for 'sm_50'
+ptxas info    : Function properties for _Z20block_dot_kernel_refIdLi0ELi256ELi4EEviiiPKT_S2_iiS2_iiS2_PS0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 64 registers, 32768 bytes smem, 396 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20block_dot_kernel_refI7double2Li1ELi128ELi4EEviiiPKT_S3_iiS3_iiS3_PS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z20block_dot_kernel_refI7double2Li1ELi128ELi4EEviiiPKT_S3_iiS3_iiS3_PS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 96 registers, 32768 bytes smem, 396 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20block_dot_kernel_valI6float2Li0ELi256ELi4EEviiiT_PKS1_iiS3_iiS1_PS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z20block_dot_kernel_valI6float2Li0ELi256ELi4EEviiiT_PKS1_iiS3_iiS1_PS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 64 registers, 32768 bytes smem, 396 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20block_dot_kernel_valIfLi0ELi512ELi4EEviiiT_PKS0_iiS2_iiS0_PS0_i' for 'sm_50'
+ptxas info    : Function properties for _Z20block_dot_kernel_valIfLi0ELi512ELi4EEviiiT_PKS0_iiS2_iiS0_PS0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 32768 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20block_dot_kernel_valI7double2Li0ELi128ELi4EEviiiT_PKS1_iiS3_iiS1_PS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z20block_dot_kernel_valI7double2Li0ELi128ELi4EEviiiT_PKS1_iiS3_iiS1_PS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 96 registers, 32768 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20block_dot_kernel_valI6float2Li1ELi256ELi4EEviiiT_PKS1_iiS3_iiS1_PS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z20block_dot_kernel_valI6float2Li1ELi256ELi4EEviiiT_PKS1_iiS3_iiS1_PS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 64 registers, 32768 bytes smem, 396 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20block_dot_kernel_valIdLi0ELi256ELi4EEviiiT_PKS0_iiS2_iiS0_PS0_i' for 'sm_50'
+ptxas info    : Function properties for _Z20block_dot_kernel_valIdLi0ELi256ELi4EEviiiT_PKS0_iiS2_iiS0_PS0_i
+    8 bytes stack frame, 8 bytes spill stores, 32 bytes spill loads
+ptxas info    : Used 64 registers, 32768 bytes smem, 396 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20block_dot_kernel_valI7double2Li1ELi128ELi4EEviiiT_PKS1_iiS3_iiS1_PS1_i' for 'sm_50'
+ptxas info    : Function properties for _Z20block_dot_kernel_valI7double2Li1ELi128ELi4EEviiiT_PKS1_iiS3_iiS1_PS1_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 96 registers, 32768 bytes smem, 412 bytes cmem[0]

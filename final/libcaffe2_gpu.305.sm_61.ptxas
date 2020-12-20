@@ -1,0 +1,29 @@
+ptxas info    : 920 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe219SparseAdagradKernelIlfEEvmmfPT0_S2_PKT_PKfS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe219SparseAdagradKernelIlfEEvmmfPT0_S2_PKT_PKfS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe226RowWiseSparseAdagradKernelIiEEviifPfS1_PKT_PKfS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe226RowWiseSparseAdagradKernelIiEEviifPfS1_PKT_PKfS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 28 bytes smem, 376 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe219SparseAdagradKernelIifEEvmmfPT0_S2_PKT_PKfS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe219SparseAdagradKernelIifEEvmmfPT0_S2_PKT_PKfS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe219SparseAdagradKernelIlN3c104HalfEEEvmmfPT0_S4_PKT_PKfS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe219SparseAdagradKernelIlN3c104HalfEEEvmmfPT0_S4_PKT_PKfS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe213AdagradUpdateEiPKfS1_S1_PfS2_ffS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe213AdagradUpdateEiPKfS1_S1_PfS2_ffS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe226RowWiseSparseAdagradKernelIlEEviifPfS1_PKT_PKfS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe226RowWiseSparseAdagradKernelIlEEviifPfS1_PKT_PKfS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 28 bytes smem, 376 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe219SparseAdagradKernelIiN3c104HalfEEEvmmfPT0_S4_PKT_PKfS9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe219SparseAdagradKernelIiN3c104HalfEEEvmmfPT0_S4_PKT_PKfS9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 384 bytes cmem[0], 16 bytes cmem[2]

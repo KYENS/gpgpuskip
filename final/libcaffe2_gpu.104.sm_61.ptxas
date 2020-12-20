@@ -1,0 +1,161 @@
+ptxas info    : 535 bytes gmem
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIddjLi3ELi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIddjLi3ELi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z39spatialDepthwiseConvolutionUpdateOutputIffjLi3EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_S0_IS1_Li1EiS2_EbT1_iiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z39spatialDepthwiseConvolutionUpdateOutputIffjLi3EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_S0_IS1_Li1EiS2_EbT1_iiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 520 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIffjLi1ELi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIffjLi1ELi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIN3c104HalfEfjLi3ELi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIN3c104HalfEfjLi3ELi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIddjLi0ELi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIddjLi0ELi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z44spatialDepthwiseConvolutionAccGradParametersIffjEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_iiiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z44spatialDepthwiseConvolutionAccGradParametersIffjEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_iiiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 504 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIN3c104HalfEfjLi0ELi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIN3c104HalfEfjLi0ELi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIffjLi3ELi2EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIffjLi3ELi2EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 35 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z39spatialDepthwiseConvolutionUpdateOutputIN3c104HalfEfjLi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_S2_IS3_Li1EiS4_EbT1_iiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z39spatialDepthwiseConvolutionUpdateOutputIN3c104HalfEfjLi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_S2_IS3_Li1EiS4_EbT1_iiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 520 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIddjLi1ELi2EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIddjLi1ELi2EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIddjLi3ELi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIddjLi3ELi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z39spatialDepthwiseConvolutionUpdateOutputIffjLi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_S0_IS1_Li1EiS2_EbT1_iiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z39spatialDepthwiseConvolutionUpdateOutputIffjLi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_S0_IS1_Li1EiS2_EbT1_iiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 520 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIffjLi0ELi2EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIffjLi0ELi2EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIN3c104HalfEfjLi1ELi2EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIN3c104HalfEfjLi1ELi2EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z39spatialDepthwiseConvolutionUpdateOutputIddjLi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_S0_IS1_Li1EiS2_EbT1_iiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z39spatialDepthwiseConvolutionUpdateOutputIddjLi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_S0_IS1_Li1EiS2_EbT1_iiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 520 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIN3c104HalfEfjLi0ELi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIN3c104HalfEfjLi0ELi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIffjLi1ELi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIffjLi1ELi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIN3c104HalfEfjLi3ELi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIN3c104HalfEfjLi3ELi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIddjLi0ELi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIddjLi0ELi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z39spatialDepthwiseConvolutionUpdateOutputIddjLi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_S0_IS1_Li1EiS2_EbT1_iiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z39spatialDepthwiseConvolutionUpdateOutputIddjLi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_S0_IS1_Li1EiS2_EbT1_iiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 520 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z44spatialDepthwiseConvolutionAccGradParametersIN3c104HalfEfjEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_iiiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z44spatialDepthwiseConvolutionAccGradParametersIN3c104HalfEfjEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_iiiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 504 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIffjLi1ELi2EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIffjLi1ELi2EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIN3c104HalfEfjLi3ELi2EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIN3c104HalfEfjLi3ELi2EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIddjLi0ELi2EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIddjLi0ELi2EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIffjLi0ELi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIffjLi0ELi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIN3c104HalfEfjLi1ELi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIN3c104HalfEfjLi1ELi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIffjLi3ELi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIffjLi3ELi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 36 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z39spatialDepthwiseConvolutionUpdateOutputIN3c104HalfEfjLi3EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_S2_IS3_Li1EiS4_EbT1_iiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z39spatialDepthwiseConvolutionUpdateOutputIN3c104HalfEfjLi3EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_S2_IS3_Li1EiS4_EbT1_iiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 520 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIddjLi1ELi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIddjLi1ELi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIddjLi3ELi2EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIddjLi3ELi2EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 43 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z39spatialDepthwiseConvolutionUpdateOutputIffjLi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_S0_IS1_Li1EiS2_EbT1_iiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z39spatialDepthwiseConvolutionUpdateOutputIffjLi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_S0_IS1_Li1EiS2_EbT1_iiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 520 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIffjLi0ELi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIffjLi0ELi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIN3c104HalfEfjLi1ELi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIN3c104HalfEfjLi1ELi1EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z44spatialDepthwiseConvolutionAccGradParametersIddjEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_iiiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z44spatialDepthwiseConvolutionAccGradParametersIddjEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_iiiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 504 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z39spatialDepthwiseConvolutionUpdateOutputIddjLi3EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_S0_IS1_Li1EiS2_EbT1_iiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z39spatialDepthwiseConvolutionUpdateOutputIddjLi3EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_S0_IS1_Li1EiS2_EbT1_iiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 520 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIN3c104HalfEfjLi0ELi2EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIN3c104HalfEfjLi0ELi2EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIffjLi3ELi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIffjLi3ELi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 504 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z39spatialDepthwiseConvolutionUpdateOutputIN3c104HalfEfjLi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_S2_IS3_Li1EiS4_EbT1_iiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z39spatialDepthwiseConvolutionUpdateOutputIN3c104HalfEfjLi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_S5_S2_IS3_Li1EiS4_EbT1_iiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 520 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42spatialDepthwiseConvolutionUpdateGradInputIddjLi1ELi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42spatialDepthwiseConvolutionUpdateGradInputIddjLi1ELi0EEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_S3_T1_iiiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 504 bytes cmem[0]

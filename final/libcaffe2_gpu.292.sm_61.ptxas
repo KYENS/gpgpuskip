@@ -1,0 +1,9 @@
+ptxas info    : 997 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f316FillValuesKernelEiimPKiPKPcPiS3_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f316FillValuesKernelEiimPKiPKPcPiS3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f320ComputeIndicesKernelEiiPiPKPb' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe277_GLOBAL__N__53_tmpxft_000072b7_00000000_7_boolean_unmask_ops_cpp1_ii_aca719f320ComputeIndicesKernelEiiPiPKPb
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 344 bytes cmem[0]

@@ -1,0 +1,129 @@
+ptxas info    : 1600 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 528 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIiLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIiLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 528 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIdLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIdLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 528 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIlLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIlLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 528 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIiLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIiLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIdLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIdLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIlLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIlLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIiLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIiLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIdLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIdLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIlLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIlLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIiLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIiLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIdLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIdLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIlLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIlLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 496 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIiLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIiLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 496 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIdLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIdLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 496 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIlLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIlLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 496 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIiLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIiLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIdLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIdLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIlLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIlLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 552 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIiLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIiLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 552 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIdLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIdLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 552 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIlLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIlLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 552 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIiLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIiLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIdLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIdLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIlLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_0000720a_00000000_7_reduce_ops_cpp1_ii_c233a09637ComputeReduceMinMaxGradientCUDAKernelIlLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEEPKT_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 440 bytes cmem[0]

@@ -1,0 +1,641 @@
+ptxas info    : 30967 bytes gmem
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjN3c104HalfELi3EEv10TensorInfoIT0_T_ES2_IlS4_ES3_iS4_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjN3c104HalfELi3EEv10TensorInfoIT0_T_ES2_IlS4_ES3_iS4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjsLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjsLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjlLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjlLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjaLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjaLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelImdLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelImdLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjN3c104HalfELi2EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjN3c104HalfELi2EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjaLi3EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjaLi3EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelImiLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelImiLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjhLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjhLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjfLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjfLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjfLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjfLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjiLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjiLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjlLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjlLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelImaLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelImaLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjdLi3EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjdLi3EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelImN3c104HalfELin1EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelImN3c104HalfELin1EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjsLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjsLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjiLi3EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjiLi3EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjhLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjhLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjdLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjdLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjN3c104HalfELin1EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjN3c104HalfELin1EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelImsLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelImsLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjlLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjlLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjhLi3EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjhLi3EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjdLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjdLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjlLi3EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjlLi3EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjaLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjaLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjiLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjiLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjhLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjhLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelImfLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelImfLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjfLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjfLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjsLi3EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjsLi3EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelImlLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelImlLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjaLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjaLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjdLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjdLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjN3c104HalfELi1EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjN3c104HalfELi1EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjsLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjsLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjiLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjiLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelImhLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelImhLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjfLi3EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjfLi3EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelImN3c104HalfELin1EEv10TensorInfoIT0_T_ES2_IlS4_ES3_iS4_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelImN3c104HalfELin1EEv10TensorInfoIT0_T_ES2_IlS4_ES3_iS4_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1168 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjsLi1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjsLi1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjlLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjlLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjaLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjaLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjdLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjdLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjN3c104HalfELin1EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjN3c104HalfELin1EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelImaLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelImaLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1168 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjiLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjiLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjhLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjhLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjfLi1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjfLi1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjfLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjfLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjiLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjiLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjlLi1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjlLi1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjaLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjaLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelImdLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelImdLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1176 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjN3c104HalfELi2EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjN3c104HalfELi2EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjsLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjsLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelImiLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelImiLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1168 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjhLi1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjhLi1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjdLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjdLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjN3c104HalfELi1EEv10TensorInfoIT0_T_ES2_IlS4_ES3_iS4_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjN3c104HalfELi1EEv10TensorInfoIT0_T_ES2_IlS4_ES3_iS4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjsLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjsLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjlLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjlLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelImhLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelImhLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1168 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjdLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjdLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelImlLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelImlLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1176 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjaLi1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjaLi1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjiLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjiLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjhLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjhLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjfLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjfLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjfLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjfLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelImsLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelImsLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1168 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjlLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjlLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjaLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjaLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjdLi1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjdLi1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjN3c104HalfELi3EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjN3c104HalfELi3EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjsLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjsLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjiLi1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjiLi1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjhLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjhLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelImfLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelImfLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1168 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjN3c104HalfELi2EEv10TensorInfoIT0_T_ES2_IlS4_ES3_iS4_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjN3c104HalfELi2EEv10TensorInfoIT0_T_ES2_IlS4_ES3_iS4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjsLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjsLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelImlLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelImlLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjaLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjaLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjdLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjdLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjN3c104HalfELi1EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjN3c104HalfELi1EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjaLi2EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjaLi2EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjiLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjiLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelImhLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelImhLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjfLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjfLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelImfLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelImfLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjiLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjiLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjlLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjlLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjaLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjaLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjdLi2EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjdLi2EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjN3c104HalfELin1EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjN3c104HalfELin1EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelImsLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelImsLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjiLi2EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjiLi2EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjhLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjhLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjdLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjdLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjN3c104HalfELi3EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjN3c104HalfELi3EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjsLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjsLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjlLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjlLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjhLi2EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjhLi2EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelImdLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelImdLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjlLi2EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjlLi2EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjaLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjaLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelImiLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelImiLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjhLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjhLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjfLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjfLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjfLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjfLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjsLi2EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjsLi2EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjlLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjlLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelImaLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelImaLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjdLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjdLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelImN3c104HalfELin1EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelImN3c104HalfELin1EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjsLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjsLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjiLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjiLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjhLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjhLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjfLi2EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjfLi2EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjN3c104HalfELin1EEv10TensorInfoIT0_T_ES2_IlS4_ES3_iS4_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjN3c104HalfELin1EEv10TensorInfoIT0_T_ES2_IlS4_ES3_iS4_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelImsLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelImsLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjlLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjlLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjaLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjaLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjdLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjdLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjN3c104HalfELi3EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjN3c104HalfELi3EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjaLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjaLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjiLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjiLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjhLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjhLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelImfLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelImfLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjfLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjfLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjiLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjiLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelImlLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelImlLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjaLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjaLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjdLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjdLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjN3c104HalfELi1EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjN3c104HalfELi1EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjsLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjsLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjiLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjiLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelImhLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelImhLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjdLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjdLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelImN3c104HalfELin1EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelImN3c104HalfELin1EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjsLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjsLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjlLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjlLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjhLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjhLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjdLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjdLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjlLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjlLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelImaLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelImaLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjiLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjiLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjhLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjhLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjfLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjfLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjfLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjfLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjsLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjsLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjlLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjlLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjaLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjaLi2EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelImdLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelImdLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26THCudaTensor_scatterKernelIjN3c104HalfELi2EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_' for 'sm_61'
+ptxas info    : Function properties for _Z26THCudaTensor_scatterKernelIjN3c104HalfELi2EEv10TensorInfoIT0_T_ES5_S2_IlS4_EiS4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25THCudaTensor_gatherKernelIjsLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z25THCudaTensor_gatherKernelIjsLi3EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelImiLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelImiLin1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z29THCudaTensor_scatterAddKernelIjhLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_' for 'sm_61'
+ptxas info    : Function properties for _Z29THCudaTensor_scatterAddKernelIjhLi1EEv10TensorInfoIT0_T_ES3_S0_IlS2_EiS2_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30THCudaTensor_scatterFillKernelIjfLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_' for 'sm_61'
+ptxas info    : Function properties for _Z30THCudaTensor_scatterFillKernelIjfLin1EEv10TensorInfoIT0_T_ES0_IlS2_ES1_iS2_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 764 bytes cmem[0]

@@ -1,0 +1,5 @@
+ptxas info    : 768 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_00006fc3_00000000_7_stump_func_op_cpp1_ii_04fc0c0d15StumpFuncKernelIffEEviT_T0_S3_PKS2_PS3_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_00006fc3_00000000_7_stump_func_op_cpp1_ii_04fc0c0d15StumpFuncKernelIffEEviT_T0_S3_PKS2_PS3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 352 bytes cmem[0]

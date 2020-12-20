@@ -1,0 +1,5 @@
+ptxas info    : 728 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe214OneHotOpKernelEllPKlPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe214OneHotOpKernelEllPKlPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 352 bytes cmem[0]

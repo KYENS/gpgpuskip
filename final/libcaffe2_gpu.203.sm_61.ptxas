@@ -1,0 +1,9 @@
+ptxas info    : 768 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe274_GLOBAL__N__50_tmpxft_00005f84_00000000_7_rmac_regions_op_cpp1_ii_d6d8023417RMACRegionsKernelEiiiPKiPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe274_GLOBAL__N__50_tmpxft_00005f84_00000000_7_rmac_regions_op_cpp1_ii_d6d8023417RMACRegionsKernelEiiiPKiPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 2560 bytes smem, 352 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe274_GLOBAL__N__50_tmpxft_00005f84_00000000_7_rmac_regions_op_cpp1_ii_d6d8023420NumRMACRegionsKernelEiiiifiPi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe274_GLOBAL__N__50_tmpxft_00005f84_00000000_7_rmac_regions_op_cpp1_ii_d6d8023420NumRMACRegionsKernelEiiiifiPi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 72 bytes smem, 352 bytes cmem[0], 44 bytes cmem[2]

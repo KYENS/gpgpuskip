@@ -1,0 +1,2138 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 1 .b8 __T20[38] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 117, 110, 115, 105, 103, 110, 101, 100, 32, 99, 104, 97, 114, 93, 0};
+.global .align 1 .b8 __T21[36] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 115, 105, 103, 110, 101, 100, 32, 99, 104, 97, 114, 93, 0};
+.global .align 1 .b8 __T22[30] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 115, 104, 111, 114, 116, 93, 0};
+.global .align 1 .b8 __T23[28] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 105, 110, 116, 93, 0};
+.global .align 1 .b8 __T24[29] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 108, 111, 110, 103, 93, 0};
+
+.visible .entry _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll(
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_0,
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_1,
+.param .u32 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_2,
+.param .u32 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_3,
+.param .u32 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_4,
+.param .u32 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_5,
+.param .u32 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_6,
+.param .u32 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_7,
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_8,
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_9,
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_10,
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_11,
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_12
+)
+{
+.reg .pred %p<12>;
+.reg .b16 %rs<26>;
+.reg .f32 %f<40>;
+.reg .b32 %r<62>;
+.reg .b64 %rd<58>;
+
+
+ld.param.u64 %rd19, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_0];
+ld.param.u64 %rd20, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_1];
+ld.param.u32 %r19, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_2];
+ld.param.u32 %r20, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_3];
+ld.param.u32 %r21, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_4];
+ld.param.u32 %r22, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_5];
+ld.param.u32 %r23, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_6];
+ld.param.u32 %r24, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_7];
+ld.param.u64 %rd21, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_8];
+ld.param.u64 %rd22, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_9];
+ld.param.u64 %rd23, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_10];
+ld.param.u64 %rd24, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_11];
+ld.param.u64 %rd25, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIN3c104HalfEEvPT_S3_iiiiiilllll_param_12];
+mov.u32 %r25, %ntid.y;
+mov.u32 %r26, %ctaid.y;
+mov.u32 %r27, %tid.y;
+mad.lo.s32 %r55, %r25, %r26, %r27;
+mov.u32 %r28, %ctaid.x;
+cvt.u64.u32	%rd26, %r28;
+add.s64 %rd1, %rd26, %rd25;
+cvt.s64.s32	%rd2, %r22;
+or.b64 %rd27, %rd1, %rd2;
+and.b64 %rd28, %rd27, -4294967296;
+setp.eq.s64	%p1, %rd28, 0;
+@%p1 bra BB0_2;
+
+div.s64 %rd55, %rd1, %rd2;
+rem.s64 %rd56, %rd1, %rd2;
+bra.uni BB0_3;
+
+BB0_2:
+cvt.u32.u64	%r29, %rd2;
+cvt.u32.u64	%r30, %rd1;
+div.u32 %r31, %r30, %r29;
+rem.u32 %r32, %r30, %r29;
+cvt.u64.u32	%rd55, %r31;
+cvt.u64.u32	%rd56, %r32;
+
+BB0_3:
+cvt.u32.u64	%r33, %rd56;
+mul.lo.s32 %r34, %r33, %r19;
+cvt.rn.f32.s32	%f5, %r34;
+cvt.rn.f32.s32	%f6, %r22;
+div.rn.f32 %f7, %f5, %f6;
+cvt.rmi.f32.f32	%f8, %f7;
+cvt.rzi.s32.f32	%r2, %f8;
+add.s32 %r35, %r33, 1;
+mul.lo.s32 %r36, %r35, %r19;
+cvt.rn.f32.s32	%f9, %r36;
+div.rn.f32 %f10, %f9, %f6;
+cvt.rpi.f32.f32	%f11, %f10;
+cvt.rzi.s32.f32	%r37, %f11;
+sub.s32 %r3, %r37, %r2;
+setp.ge.s32	%p2, %r55, %r23;
+@%p2 bra BB0_16;
+
+cvta.to.global.u64 %rd29, %rd19;
+cvt.rn.f32.s32	%f1, %r23;
+cvt.rn.f32.s32	%f2, %r24;
+cvt.rn.f32.s32	%f3, %r3;
+cvt.s64.s32 %rd30, %rd55;
+mul.lo.s64 %rd31, %rd21, %rd30;
+shl.b64 %rd32, %rd31, 1;
+add.s64 %rd9, %rd29, %rd32;
+mul.wide.s32 %rd10, %r2, 2;
+shl.b64 %rd11, %rd23, 1;
+shl.b64 %rd12, %rd24, 1;
+cvta.to.global.u64 %rd52, %rd20;
+
+BB0_5:
+mov.u32 %r56, %tid.x;
+mul.lo.s32 %r39, %r55, %r20;
+cvt.rn.f32.s32	%f12, %r39;
+div.rn.f32 %f13, %f12, %f1;
+cvt.rmi.f32.f32	%f14, %f13;
+cvt.rzi.s32.f32	%r5, %f14;
+add.s32 %r40, %r55, 1;
+mul.lo.s32 %r41, %r40, %r20;
+cvt.rn.f32.s32	%f15, %r41;
+div.rn.f32 %f16, %f15, %f1;
+cvt.rpi.f32.f32	%f17, %f16;
+cvt.rzi.s32.f32	%r42, %f17;
+sub.s32 %r6, %r42, %r5;
+setp.ge.s32	%p3, %r56, %r24;
+@%p3 bra BB0_15;
+
+cvt.rn.f32.s32	%f4, %r6;
+cvt.s64.s32	%rd33, %r5;
+mul.lo.s64 %rd34, %rd23, %rd33;
+shl.b64 %rd35, %rd34, 1;
+add.s64 %rd13, %rd9, %rd35;
+
+BB0_7:
+mul.lo.s32 %r43, %r56, %r21;
+cvt.rn.f32.s32	%f19, %r43;
+div.rn.f32 %f20, %f19, %f2;
+cvt.rmi.f32.f32	%f21, %f20;
+cvt.rzi.s32.f32	%r9, %f21;
+add.s32 %r44, %r56, 1;
+mul.lo.s32 %r45, %r44, %r21;
+cvt.rn.f32.s32	%f22, %r45;
+div.rn.f32 %f23, %f22, %f2;
+cvt.rpi.f32.f32	%f24, %f23;
+cvt.rzi.s32.f32	%r46, %f24;
+sub.s32 %r10, %r46, %r9;
+mov.f32 %f18, 0f00000000;
+
+	{ cvt.rn.f16.f32 %rs25, %f18;}
+
+
+	setp.lt.s32	%p4, %r3, 1;
+@%p4 bra BB0_14;
+
+cvt.s64.s32	%rd36, %r9;
+mul.lo.s64 %rd37, %rd24, %rd36;
+shl.b64 %rd38, %rd37, 1;
+add.s64 %rd14, %rd13, %rd38;
+mov.u32 %r47, 0;
+mov.u32 %r61, %r47;
+
+BB0_9:
+mul.wide.s32 %rd39, %r61, 2;
+add.s64 %rd40, %rd10, %rd39;
+mul.lo.s64 %rd41, %rd22, %rd40;
+add.s64 %rd15, %rd14, %rd41;
+setp.lt.s32	%p5, %r6, 1;
+mov.u32 %r60, %r47;
+@%p5 bra BB0_13;
+
+BB0_10:
+cvt.s64.s32	%rd42, %r60;
+mul.lo.s64 %rd43, %rd11, %rd42;
+add.s64 %rd57, %rd15, %rd43;
+setp.lt.s32	%p6, %r10, 1;
+mov.u32 %r59, %r47;
+@%p6 bra BB0_12;
+
+BB0_11:
+mov.u32 %r13, %r59;
+ld.global.u16 %rs11, [%rd57];
+
+	{ cvt.f32.f16 %f25, %rs25;}
+
+
+	
+	{ cvt.f32.f16 %f26, %rs11;}
+
+
+	add.f32 %f27, %f25, %f26;
+
+	{ cvt.rn.f16.f32 %rs25, %f27;}
+
+
+	add.s64 %rd57, %rd57, %rd12;
+add.s32 %r14, %r13, 1;
+setp.lt.s32	%p7, %r14, %r10;
+mov.u32 %r59, %r14;
+@%p7 bra BB0_11;
+
+BB0_12:
+add.s32 %r60, %r60, 1;
+setp.lt.s32	%p8, %r60, %r6;
+@%p8 bra BB0_10;
+
+BB0_13:
+add.s32 %r61, %r61, 1;
+setp.lt.s32	%p9, %r61, %r3;
+@%p9 bra BB0_9;
+
+BB0_14:
+
+	{ cvt.rn.f16.f32 %rs13, %f3;}
+
+
+	
+	{ cvt.f32.f16 %f29, %rs25;}
+
+
+	
+	{ cvt.f32.f16 %f30, %rs13;}
+
+
+	div.rn.f32 %f31, %f29, %f30;
+
+	{ cvt.rn.f16.f32 %rs16, %f31;}
+
+
+	
+	{ cvt.rn.f16.f32 %rs17, %f4;}
+
+
+	
+	{ cvt.f32.f16 %f33, %rs16;}
+
+
+	
+	{ cvt.f32.f16 %f34, %rs17;}
+
+
+	div.rn.f32 %f35, %f33, %f34;
+
+	{ cvt.rn.f16.f32 %rs20, %f35;}
+
+
+	cvt.rn.f32.s32	%f36, %r10;
+
+	{ cvt.rn.f16.f32 %rs21, %f36;}
+
+
+	
+	{ cvt.f32.f16 %f37, %rs20;}
+
+
+	
+	{ cvt.f32.f16 %f38, %rs21;}
+
+
+	div.rn.f32 %f39, %f37, %f38;
+
+	{ cvt.rn.f16.f32 %rs24, %f39;}
+
+
+	mul.lo.s32 %r50, %r55, %r24;
+cvt.s64.s32	%rd44, %r50;
+mul.wide.s32 %rd45, %r24, %r23;
+mul.lo.s64 %rd48, %rd45, %rd1;
+add.s64 %rd49, %rd44, %rd48;
+cvt.s64.s32	%rd50, %r56;
+add.s64 %rd51, %rd49, %rd50;
+shl.b64 %rd53, %rd51, 1;
+add.s64 %rd54, %rd52, %rd53;
+st.global.u16 [%rd54], %rs24;
+mov.u32 %r52, %ntid.x;
+add.s32 %r56, %r56, %r52;
+setp.lt.s32	%p10, %r56, %r24;
+@%p10 bra BB0_7;
+
+BB0_15:
+mov.u32 %r53, %nctaid.y;
+mad.lo.s32 %r55, %r53, %r25, %r55;
+setp.lt.s32	%p11, %r55, %r23;
+@%p11 bra BB0_5;
+
+BB0_16:
+ret;
+}
+
+
+.visible .entry _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil(
+.param .u64 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_0,
+.param .u64 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_1,
+.param .u32 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_2,
+.param .u32 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_3,
+.param .u32 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_4,
+.param .u32 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_5,
+.param .u32 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_6,
+.param .u32 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_7,
+.param .u64 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_8
+)
+{
+.reg .pred %p<14>;
+.reg .b16 %rs<17>;
+.reg .f32 %f<39>;
+.reg .b32 %r<82>;
+.reg .b64 %rd<49>;
+
+
+ld.param.u64 %rd19, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_0];
+ld.param.u64 %rd20, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_1];
+ld.param.u32 %r22, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_2];
+ld.param.u32 %r23, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_3];
+ld.param.u32 %r24, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_4];
+ld.param.u32 %r25, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_5];
+ld.param.u32 %r26, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_6];
+ld.param.u32 %r27, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_7];
+ld.param.u64 %rd21, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_8];
+mov.u32 %r28, %ctaid.y;
+mov.u32 %r29, %ntid.y;
+mov.u32 %r30, %tid.y;
+mad.lo.s32 %r75, %r29, %r28, %r30;
+mov.u32 %r31, %ctaid.x;
+cvt.u64.u32	%rd22, %r31;
+add.s64 %rd1, %rd22, %rd21;
+cvt.s64.s32	%rd2, %r25;
+or.b64 %rd23, %rd1, %rd2;
+and.b64 %rd24, %rd23, -4294967296;
+setp.eq.s64	%p1, %rd24, 0;
+@%p1 bra BB1_2;
+
+div.s64 %rd45, %rd1, %rd2;
+rem.s64 %rd46, %rd1, %rd2;
+bra.uni BB1_3;
+
+BB1_2:
+cvt.u32.u64	%r32, %rd2;
+cvt.u32.u64	%r33, %rd1;
+div.u32 %r34, %r33, %r32;
+rem.u32 %r35, %r33, %r32;
+cvt.u64.u32	%rd45, %r34;
+cvt.u64.u32	%rd46, %r35;
+
+BB1_3:
+cvt.u32.u64	%r36, %rd46;
+mul.lo.s32 %r37, %r36, %r22;
+cvt.rn.f32.s32	%f5, %r37;
+cvt.rn.f32.s32	%f6, %r25;
+div.rn.f32 %f7, %f5, %f6;
+cvt.rmi.f32.f32	%f8, %f7;
+cvt.rzi.s32.f32	%r38, %f8;
+add.s32 %r39, %r36, 1;
+mul.lo.s32 %r40, %r39, %r22;
+cvt.rn.f32.s32	%f9, %r40;
+div.rn.f32 %f10, %f9, %f6;
+cvt.rpi.f32.f32	%f11, %f10;
+cvt.rzi.s32.f32	%r41, %f11;
+sub.s32 %r2, %r41, %r38;
+cvt.u32.u64	%r42, %rd45;
+mad.lo.s32 %r3, %r42, %r22, %r38;
+setp.ge.s32	%p2, %r75, %r26;
+@%p2 bra BB1_19;
+
+mul.lo.s32 %r43, %r24, %r23;
+mul.lo.s32 %r44, %r43, %r3;
+cvt.s64.s32	%rd9, %r44;
+cvt.rn.f32.s32	%f1, %r26;
+cvt.rn.f32.s32	%f2, %r27;
+cvt.rn.f32.s32	%f3, %r2;
+cvta.to.global.u64 %rd38, %rd20;
+
+BB1_5:
+mov.u32 %r76, %tid.x;
+mul.lo.s32 %r46, %r75, %r23;
+cvt.rn.f32.s32	%f12, %r46;
+div.rn.f32 %f13, %f12, %f1;
+cvt.rmi.f32.f32	%f14, %f13;
+cvt.rzi.s32.f32	%r5, %f14;
+add.s32 %r47, %r75, 1;
+mul.lo.s32 %r48, %r47, %r23;
+cvt.rn.f32.s32	%f15, %r48;
+div.rn.f32 %f16, %f15, %f1;
+cvt.rpi.f32.f32	%f17, %f16;
+cvt.rzi.s32.f32	%r49, %f17;
+sub.s32 %r6, %r49, %r5;
+setp.ge.s32	%p3, %r76, %r27;
+@%p3 bra BB1_18;
+
+mul.lo.s32 %r50, %r5, %r24;
+cvt.s64.s32	%rd25, %r50;
+add.s64 %rd10, %rd25, %rd9;
+cvt.rn.f32.s32	%f4, %r6;
+
+BB1_7:
+mul.lo.s32 %r51, %r76, %r24;
+cvt.rn.f32.s32	%f30, %r51;
+div.rn.f32 %f31, %f30, %f2;
+cvt.rmi.f32.f32	%f32, %f31;
+cvt.rzi.s32.f32	%r52, %f32;
+add.s32 %r53, %r76, 1;
+mul.lo.s32 %r54, %r53, %r24;
+cvt.rn.f32.s32	%f33, %r54;
+div.rn.f32 %f34, %f33, %f2;
+cvt.rpi.f32.f32	%f35, %f34;
+cvt.rzi.s32.f32	%r55, %f35;
+sub.s32 %r9, %r55, %r52;
+cvt.s64.s32	%rd26, %r52;
+add.s64 %rd27, %rd10, %rd26;
+cvta.to.global.u64 %rd28, %rd19;
+shl.b64 %rd29, %rd27, 1;
+add.s64 %rd48, %rd28, %rd29;
+add.s64 %rd47, %rd19, %rd29;
+mul.lo.s32 %r56, %r75, %r27;
+cvt.s64.s32	%rd30, %r56;
+mul.wide.s32 %rd31, %r27, %r26;
+mul.lo.s64 %rd34, %rd31, %rd1;
+add.s64 %rd35, %rd30, %rd34;
+cvt.s64.s32	%rd36, %r76;
+add.s64 %rd37, %rd35, %rd36;
+shl.b64 %rd39, %rd37, 1;
+add.s64 %rd40, %rd38, %rd39;
+ld.global.u16 %rs3, [%rd40];
+
+	{ cvt.rn.f16.f32 %rs2, %f3;}
+
+
+	
+	{ cvt.f32.f16 %f19, %rs3;}
+
+
+	
+	{ cvt.f32.f16 %f20, %rs2;}
+
+
+	div.rn.f32 %f21, %f19, %f20;
+
+	{ cvt.rn.f16.f32 %rs5, %f21;}
+
+
+	
+	{ cvt.rn.f16.f32 %rs6, %f4;}
+
+
+	
+	{ cvt.f32.f16 %f23, %rs5;}
+
+
+	
+	{ cvt.f32.f16 %f24, %rs6;}
+
+
+	div.rn.f32 %f25, %f23, %f24;
+
+	{ cvt.rn.f16.f32 %rs9, %f25;}
+
+
+	cvt.rn.f32.s32	%f26, %r9;
+
+	{ cvt.rn.f16.f32 %rs10, %f26;}
+
+
+	
+	{ cvt.f32.f16 %f27, %rs9;}
+
+
+	
+	{ cvt.f32.f16 %f28, %rs10;}
+
+
+	div.rn.f32 %f29, %f27, %f28;
+
+	{ cvt.rn.f16.f32 %rs13, %f29;}
+
+
+	setp.lt.s32	%p4, %r2, 1;
+@%p4 bra BB1_17;
+
+mov.u32 %r58, 0;
+mov.u32 %r79, %r58;
+
+BB1_9:
+setp.lt.s32	%p5, %r6, 1;
+mov.u32 %r78, %r58;
+@%p5 bra BB1_16;
+
+BB1_10:
+mov.u32 %r11, %r78;
+setp.lt.s32	%p6, %r9, 1;
+@%p6 bra BB1_15;
+
+mul.lo.s32 %r12, %r11, %r24;
+mov.u32 %r80, 0;
+
+BB1_12:
+add.s32 %r61, %r80, %r12;
+mul.wide.s32 %rd41, %r61, 2;
+add.s64 %rd42, %rd48, %rd41;
+add.s64 %rd43, %rd47, %rd41;
+and.b64 %rd15, %rd43, 2;
+sub.s64 %rd16, %rd42, %rd15;
+ld.global.u32 %r81, [%rd16];
+
+BB1_13:
+mov.u32 %r15, %r81;
+shr.u32 %r62, %r15, 16;
+setp.eq.s64	%p7, %rd15, 0;
+selp.b32	%r63, %r15, %r62, %p7;
+cvt.u16.u32	%rs14, %r63;
+
+	{ cvt.f32.f16 %f36, %rs14;}
+
+
+	
+	{ cvt.f32.f16 %f37, %rs13;}
+
+
+	add.f32 %f38, %f36, %f37;
+
+	{ cvt.rn.f16.f32 %rs16, %f38;}
+
+
+	cvt.u32.u16	%r64, %rs16;
+shl.b32 %r65, %r64, 16;
+and.b32 %r66, %r15, 65535;
+or.b32 %r67, %r65, %r66;
+and.b32 %r68, %r15, -65536;
+or.b32 %r69, %r64, %r68;
+selp.b32	%r70, %r69, %r67, %p7;
+atom.global.cas.b32 %r81, [%rd16], %r15, %r70;
+setp.ne.s32	%p8, %r15, %r81;
+@%p8 bra BB1_13;
+
+add.s32 %r80, %r80, 1;
+setp.lt.s32	%p9, %r80, %r9;
+@%p9 bra BB1_12;
+
+BB1_15:
+add.s32 %r18, %r11, 1;
+setp.lt.s32	%p10, %r18, %r6;
+mov.u32 %r78, %r18;
+@%p10 bra BB1_10;
+
+BB1_16:
+mul.wide.s32 %rd44, %r43, 2;
+add.s64 %rd48, %rd48, %rd44;
+add.s64 %rd47, %rd47, %rd44;
+add.s32 %r79, %r79, 1;
+setp.lt.s32	%p11, %r79, %r2;
+@%p11 bra BB1_9;
+
+BB1_17:
+mov.u32 %r72, %ntid.x;
+add.s32 %r76, %r76, %r72;
+setp.lt.s32	%p12, %r76, %r27;
+@%p12 bra BB1_7;
+
+BB1_18:
+mov.u32 %r73, %nctaid.y;
+mad.lo.s32 %r75, %r73, %r29, %r75;
+setp.lt.s32	%p13, %r75, %r26;
+@%p13 bra BB1_5;
+
+BB1_19:
+ret;
+}
+
+
+.visible .entry _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil(
+.param .u64 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_0,
+.param .u64 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_1,
+.param .u32 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_2,
+.param .u32 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_3,
+.param .u32 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_4,
+.param .u32 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_5,
+.param .u32 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_6,
+.param .u32 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_7,
+.param .u64 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_8
+)
+{
+.reg .pred %p<12>;
+.reg .b16 %rs<16>;
+.reg .f32 %f<60>;
+.reg .b32 %r<87>;
+.reg .b64 %rd<44>;
+
+
+ld.param.u64 %rd16, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_0];
+ld.param.u64 %rd17, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_1];
+ld.param.u32 %r29, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_2];
+ld.param.u32 %r30, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_3];
+ld.param.u32 %r31, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_4];
+ld.param.u32 %r32, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_5];
+ld.param.u32 %r33, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_6];
+ld.param.u32 %r34, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_7];
+ld.param.u64 %rd18, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIN3c104HalfEEvPT_S3_iiiiiil_param_8];
+mov.u32 %r35, %ctaid.y;
+mov.u32 %r36, %ntid.y;
+mov.u32 %r37, %tid.y;
+mad.lo.s32 %r79, %r36, %r35, %r37;
+mov.u32 %r38, %ctaid.x;
+cvt.u64.u32	%rd19, %r38;
+add.s64 %rd1, %rd19, %rd18;
+cvt.s64.s32	%rd2, %r29;
+or.b64 %rd20, %rd1, %rd2;
+and.b64 %rd21, %rd20, -4294967296;
+setp.eq.s64	%p1, %rd21, 0;
+@%p1 bra BB2_2;
+
+div.s64 %rd40, %rd1, %rd2;
+rem.s64 %rd41, %rd1, %rd2;
+bra.uni BB2_3;
+
+BB2_2:
+cvt.u32.u64	%r39, %rd2;
+cvt.u32.u64	%r40, %rd1;
+div.u32 %r41, %r40, %r39;
+rem.u32 %r42, %r40, %r39;
+cvt.u64.u32	%rd40, %r41;
+cvt.u64.u32	%rd41, %r42;
+
+BB2_3:
+cvt.u32.u64	%r43, %rd41;
+mul.lo.s32 %r44, %r43, %r32;
+cvt.rn.f32.s32	%f8, %r44;
+cvt.rn.f32.s32	%f9, %r29;
+div.rn.f32 %f10, %f8, %f9;
+cvt.rmi.f32.f32	%f11, %f10;
+cvt.rzi.s32.f32	%r2, %f11;
+add.s32 %r45, %r43, 1;
+mul.lo.s32 %r46, %r45, %r32;
+cvt.rn.f32.s32	%f12, %r46;
+div.rn.f32 %f13, %f12, %f9;
+cvt.rpi.f32.f32	%f14, %f13;
+cvt.rzi.s32.f32	%r3, %f14;
+setp.ge.s32	%p2, %r79, %r30;
+@%p2 bra BB2_17;
+
+cvt.rn.f32.s32	%f1, %r30;
+cvt.rn.f32.s32	%f2, %r31;
+cvt.rn.f32.s32	%f3, %r32;
+cvt.rn.f32.s32	%f4, %r33;
+cvt.rn.f32.s32	%f5, %r34;
+cvt.u32.u64	%r47, %rd40;
+mad.lo.s32 %r48, %r32, %r47, %r2;
+mul.lo.s32 %r49, %r34, %r33;
+mul.lo.s32 %r4, %r49, %r48;
+cvta.to.global.u64 %rd31, %rd16;
+cvta.to.global.u64 %rd37, %rd17;
+
+BB2_5:
+mov.u32 %r80, %tid.x;
+mul.lo.s32 %r51, %r79, %r33;
+cvt.rn.f32.s32	%f15, %r51;
+div.rn.f32 %f16, %f15, %f1;
+cvt.rmi.f32.f32	%f17, %f16;
+cvt.rzi.s32.f32	%r6, %f17;
+add.s32 %r52, %r79, 1;
+mul.lo.s32 %r53, %r52, %r33;
+cvt.rn.f32.s32	%f18, %r53;
+div.rn.f32 %f19, %f18, %f1;
+cvt.rpi.f32.f32	%f20, %f19;
+cvt.rzi.s32.f32	%r7, %f20;
+setp.ge.s32	%p3, %r80, %r31;
+@%p3 bra BB2_16;
+
+BB2_6:
+mul.lo.s32 %r54, %r80, %r34;
+cvt.rn.f32.s32	%f21, %r54;
+div.rn.f32 %f22, %f21, %f2;
+cvt.rmi.f32.f32	%f23, %f22;
+cvt.rzi.s32.f32	%r10, %f23;
+add.s32 %r55, %r80, 1;
+mul.lo.s32 %r56, %r55, %r34;
+cvt.rn.f32.s32	%f24, %r56;
+div.rn.f32 %f25, %f24, %f2;
+cvt.rpi.f32.f32	%f26, %f25;
+cvt.rzi.s32.f32	%r11, %f26;
+setp.ge.s32	%p4, %r2, %r3;
+@%p4 bra BB2_15;
+
+mul.lo.s32 %r57, %r79, %r31;
+cvt.s64.s32	%rd23, %r57;
+mul.wide.s32 %rd24, %r31, %r30;
+mul.lo.s64 %rd27, %rd24, %rd1;
+add.s64 %rd28, %rd23, %rd27;
+cvt.s64.s32	%rd29, %r80;
+add.s64 %rd30, %rd28, %rd29;
+shl.b64 %rd32, %rd30, 1;
+add.s64 %rd9, %rd31, %rd32;
+add.s32 %r59, %r10, 1;
+mul.lo.s32 %r12, %r31, %r59;
+mad.lo.s32 %r13, %r34, %r6, %r10;
+mov.u64 %rd42, 0;
+mov.u32 %r81, %r2;
+
+BB2_8:
+mov.u32 %r14, %r81;
+add.s32 %r15, %r14, 1;
+setp.ge.s32	%p5, %r6, %r7;
+@%p5 bra BB2_14;
+
+cvt.s64.s32	%rd33, %r49;
+mul.lo.s64 %rd34, %rd33, %rd42;
+cvt.s64.s32	%rd35, %r4;
+add.s64 %rd36, %rd35, %rd34;
+shl.b64 %rd38, %rd36, 1;
+add.s64 %rd11, %rd37, %rd38;
+mul.lo.s32 %r62, %r15, %r29;
+cvt.rn.f32.s32	%f27, %r62;
+div.rn.f32 %f28, %f27, %f3;
+cvt.rpi.f32.f32	%f29, %f28;
+cvt.rzi.s32.f32	%r63, %f29;
+mul.lo.s32 %r64, %r14, %r29;
+cvt.rn.f32.s32	%f30, %r64;
+div.rn.f32 %f31, %f30, %f3;
+cvt.rmi.f32.f32	%f32, %f31;
+cvt.rzi.s32.f32	%r65, %f32;
+sub.s32 %r66, %r63, %r65;
+cvt.rn.f32.s32	%f6, %r66;
+mov.u32 %r82, 0;
+mov.u32 %r83, %r6;
+
+BB2_10:
+mov.u32 %r17, %r83;
+add.s32 %r18, %r17, 1;
+setp.ge.s32	%p6, %r10, %r11;
+@%p6 bra BB2_13;
+
+mad.lo.s32 %r67, %r34, %r82, %r13;
+mul.wide.s32 %rd39, %r67, 2;
+add.s64 %rd43, %rd11, %rd39;
+mul.lo.s32 %r68, %r18, %r30;
+cvt.rn.f32.s32	%f33, %r68;
+div.rn.f32 %f34, %f33, %f4;
+cvt.rpi.f32.f32	%f35, %f34;
+cvt.rzi.s32.f32	%r69, %f35;
+mul.lo.s32 %r70, %r17, %r30;
+cvt.rn.f32.s32	%f36, %r70;
+div.rn.f32 %f37, %f36, %f4;
+cvt.rmi.f32.f32	%f38, %f37;
+cvt.rzi.s32.f32	%r71, %f38;
+sub.s32 %r72, %r69, %r71;
+cvt.rn.f32.s32	%f7, %r72;
+mul.lo.s32 %r84, %r31, %r10;
+mov.u32 %r85, %r12;
+mov.u32 %r86, %r10;
+
+BB2_12:
+mov.u32 %r22, %r86;
+mov.u32 %r21, %r85;
+cvt.rn.f32.s32	%f54, %r21;
+div.rn.f32 %f55, %f54, %f5;
+cvt.rpi.f32.f32	%f56, %f55;
+cvt.rzi.s32.f32	%r73, %f56;
+cvt.rn.f32.s32	%f57, %r84;
+div.rn.f32 %f58, %f57, %f5;
+cvt.rmi.f32.f32	%f59, %f58;
+cvt.rzi.s32.f32	%r74, %f59;
+sub.s32 %r75, %r73, %r74;
+ld.global.u16 %rs2, [%rd43];
+cvt.rn.f32.s32	%f39, %r75;
+
+	{ cvt.rn.f16.f32 %rs1, %f39;}
+
+
+	
+	{ cvt.f32.f16 %f40, %rs2;}
+
+
+	
+	{ cvt.f32.f16 %f41, %rs1;}
+
+
+	div.rn.f32 %f42, %f40, %f41;
+
+	{ cvt.rn.f16.f32 %rs4, %f42;}
+
+
+	
+	{ cvt.rn.f16.f32 %rs5, %f7;}
+
+
+	
+	{ cvt.f32.f16 %f44, %rs4;}
+
+
+	
+	{ cvt.f32.f16 %f45, %rs5;}
+
+
+	div.rn.f32 %f46, %f44, %f45;
+
+	{ cvt.rn.f16.f32 %rs8, %f46;}
+
+
+	
+	{ cvt.rn.f16.f32 %rs9, %f6;}
+
+
+	
+	{ cvt.f32.f16 %f48, %rs8;}
+
+
+	
+	{ cvt.f32.f16 %f49, %rs9;}
+
+
+	div.rn.f32 %f50, %f48, %f49;
+
+	{ cvt.rn.f16.f32 %rs12, %f50;}
+
+
+	ld.global.u16 %rs13, [%rd9];
+
+	{ cvt.f32.f16 %f51, %rs13;}
+
+
+	
+	{ cvt.f32.f16 %f52, %rs12;}
+
+
+	add.f32 %f53, %f51, %f52;
+
+	{ cvt.rn.f16.f32 %rs15, %f53;}
+
+
+	st.global.u16 [%rd9], %rs15;
+add.s32 %r23, %r21, %r31;
+add.s32 %r84, %r84, %r31;
+add.s64 %rd43, %rd43, 2;
+add.s32 %r25, %r22, 1;
+setp.lt.s32	%p7, %r25, %r11;
+mov.u32 %r85, %r23;
+mov.u32 %r86, %r25;
+@%p7 bra BB2_12;
+
+BB2_13:
+setp.lt.s32	%p8, %r18, %r7;
+add.s32 %r82, %r82, 1;
+mov.u32 %r83, %r18;
+@%p8 bra BB2_10;
+
+BB2_14:
+setp.lt.s32	%p9, %r15, %r3;
+add.s64 %rd42, %rd42, 1;
+mov.u32 %r81, %r15;
+@%p9 bra BB2_8;
+
+BB2_15:
+mov.u32 %r76, %ntid.x;
+add.s32 %r80, %r80, %r76;
+setp.lt.s32	%p10, %r80, %r31;
+@%p10 bra BB2_6;
+
+BB2_16:
+mov.u32 %r77, %nctaid.y;
+mad.lo.s32 %r79, %r77, %r36, %r79;
+setp.lt.s32	%p11, %r79, %r30;
+@%p11 bra BB2_5;
+
+BB2_17:
+ret;
+}
+
+
+.visible .entry _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll(
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_0,
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_1,
+.param .u32 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_2,
+.param .u32 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_3,
+.param .u32 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_4,
+.param .u32 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_5,
+.param .u32 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_6,
+.param .u32 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_7,
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_8,
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_9,
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_10,
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_11,
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_12
+)
+{
+.reg .pred %p<12>;
+.reg .f32 %f<39>;
+.reg .b32 %r<62>;
+.reg .b64 %rd<58>;
+
+
+ld.param.u64 %rd19, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_0];
+ld.param.u64 %rd20, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_1];
+ld.param.u32 %r19, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_2];
+ld.param.u32 %r20, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_3];
+ld.param.u32 %r21, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_4];
+ld.param.u32 %r22, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_5];
+ld.param.u32 %r23, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_6];
+ld.param.u32 %r24, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_7];
+ld.param.u64 %rd21, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_8];
+ld.param.u64 %rd22, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_9];
+ld.param.u64 %rd23, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_10];
+ld.param.u64 %rd24, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_11];
+ld.param.u64 %rd25, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIfEvPT_S1_iiiiiilllll_param_12];
+mov.u32 %r25, %ntid.y;
+mov.u32 %r26, %ctaid.y;
+mov.u32 %r27, %tid.y;
+mad.lo.s32 %r55, %r25, %r26, %r27;
+mov.u32 %r28, %ctaid.x;
+cvt.u64.u32	%rd26, %r28;
+add.s64 %rd1, %rd26, %rd25;
+cvt.s64.s32	%rd2, %r22;
+or.b64 %rd27, %rd1, %rd2;
+and.b64 %rd28, %rd27, -4294967296;
+setp.eq.s64	%p1, %rd28, 0;
+@%p1 bra BB3_2;
+
+div.s64 %rd55, %rd1, %rd2;
+rem.s64 %rd56, %rd1, %rd2;
+bra.uni BB3_3;
+
+BB3_2:
+cvt.u32.u64	%r29, %rd2;
+cvt.u32.u64	%r30, %rd1;
+div.u32 %r31, %r30, %r29;
+rem.u32 %r32, %r30, %r29;
+cvt.u64.u32	%rd55, %r31;
+cvt.u64.u32	%rd56, %r32;
+
+BB3_3:
+cvt.u32.u64	%r33, %rd56;
+mul.lo.s32 %r34, %r33, %r19;
+cvt.rn.f32.s32	%f12, %r34;
+cvt.rn.f32.s32	%f13, %r22;
+div.rn.f32 %f14, %f12, %f13;
+cvt.rmi.f32.f32	%f15, %f14;
+cvt.rzi.s32.f32	%r2, %f15;
+add.s32 %r35, %r33, 1;
+mul.lo.s32 %r36, %r35, %r19;
+cvt.rn.f32.s32	%f16, %r36;
+div.rn.f32 %f17, %f16, %f13;
+cvt.rpi.f32.f32	%f18, %f17;
+cvt.rzi.s32.f32	%r37, %f18;
+sub.s32 %r3, %r37, %r2;
+setp.ge.s32	%p2, %r55, %r23;
+@%p2 bra BB3_16;
+
+cvta.to.global.u64 %rd29, %rd19;
+cvt.rn.f32.s32	%f1, %r23;
+cvt.rn.f32.s32	%f2, %r24;
+cvt.rn.f32.s32	%f3, %r3;
+cvt.s64.s32 %rd30, %rd55;
+mul.lo.s64 %rd31, %rd21, %rd30;
+shl.b64 %rd32, %rd31, 2;
+add.s64 %rd9, %rd29, %rd32;
+mul.wide.s32 %rd10, %r2, 4;
+shl.b64 %rd11, %rd23, 2;
+shl.b64 %rd12, %rd24, 2;
+cvta.to.global.u64 %rd52, %rd20;
+
+BB3_5:
+mov.u32 %r56, %tid.x;
+mul.lo.s32 %r39, %r55, %r20;
+cvt.rn.f32.s32	%f19, %r39;
+div.rn.f32 %f20, %f19, %f1;
+cvt.rmi.f32.f32	%f21, %f20;
+cvt.rzi.s32.f32	%r5, %f21;
+add.s32 %r40, %r55, 1;
+mul.lo.s32 %r41, %r40, %r20;
+cvt.rn.f32.s32	%f22, %r41;
+div.rn.f32 %f23, %f22, %f1;
+cvt.rpi.f32.f32	%f24, %f23;
+cvt.rzi.s32.f32	%r42, %f24;
+sub.s32 %r6, %r42, %r5;
+setp.ge.s32	%p3, %r56, %r24;
+@%p3 bra BB3_15;
+
+cvt.rn.f32.s32	%f4, %r6;
+cvt.s64.s32	%rd33, %r5;
+mul.lo.s64 %rd34, %rd23, %rd33;
+shl.b64 %rd35, %rd34, 2;
+add.s64 %rd13, %rd9, %rd35;
+
+BB3_7:
+mul.lo.s32 %r43, %r56, %r21;
+cvt.rn.f32.s32	%f26, %r43;
+div.rn.f32 %f27, %f26, %f2;
+cvt.rmi.f32.f32	%f28, %f27;
+cvt.rzi.s32.f32	%r9, %f28;
+add.s32 %r44, %r56, 1;
+mul.lo.s32 %r45, %r44, %r21;
+cvt.rn.f32.s32	%f29, %r45;
+div.rn.f32 %f30, %f29, %f2;
+cvt.rpi.f32.f32	%f31, %f30;
+cvt.rzi.s32.f32	%r46, %f31;
+sub.s32 %r10, %r46, %r9;
+mov.f32 %f38, 0f00000000;
+setp.lt.s32	%p4, %r3, 1;
+@%p4 bra BB3_14;
+
+cvt.s64.s32	%rd36, %r9;
+mul.lo.s64 %rd37, %rd24, %rd36;
+shl.b64 %rd38, %rd37, 2;
+add.s64 %rd14, %rd13, %rd38;
+mov.f32 %f38, 0f00000000;
+mov.u32 %r47, 0;
+mov.u32 %r61, %r47;
+
+BB3_9:
+mul.wide.s32 %rd39, %r61, 4;
+add.s64 %rd40, %rd10, %rd39;
+mul.lo.s64 %rd41, %rd22, %rd40;
+add.s64 %rd15, %rd14, %rd41;
+setp.lt.s32	%p5, %r6, 1;
+mov.u32 %r60, %r47;
+@%p5 bra BB3_13;
+
+BB3_10:
+cvt.s64.s32	%rd42, %r60;
+mul.lo.s64 %rd43, %rd11, %rd42;
+add.s64 %rd57, %rd15, %rd43;
+setp.lt.s32	%p6, %r10, 1;
+mov.u32 %r59, %r47;
+@%p6 bra BB3_12;
+
+BB3_11:
+mov.u32 %r13, %r59;
+ld.global.f32 %f33, [%rd57];
+add.f32 %f38, %f38, %f33;
+add.s64 %rd57, %rd57, %rd12;
+add.s32 %r14, %r13, 1;
+setp.lt.s32	%p7, %r14, %r10;
+mov.u32 %r59, %r14;
+@%p7 bra BB3_11;
+
+BB3_12:
+add.s32 %r60, %r60, 1;
+setp.lt.s32	%p8, %r60, %r6;
+@%p8 bra BB3_10;
+
+BB3_13:
+add.s32 %r61, %r61, 1;
+setp.lt.s32	%p9, %r61, %r3;
+@%p9 bra BB3_9;
+
+BB3_14:
+div.rn.f32 %f34, %f38, %f3;
+div.rn.f32 %f35, %f34, %f4;
+cvt.rn.f32.s32	%f36, %r10;
+div.rn.f32 %f37, %f35, %f36;
+mul.lo.s32 %r50, %r55, %r24;
+cvt.s64.s32	%rd44, %r50;
+mul.wide.s32 %rd45, %r24, %r23;
+mul.lo.s64 %rd48, %rd45, %rd1;
+add.s64 %rd49, %rd44, %rd48;
+cvt.s64.s32	%rd50, %r56;
+add.s64 %rd51, %rd49, %rd50;
+shl.b64 %rd53, %rd51, 2;
+add.s64 %rd54, %rd52, %rd53;
+st.global.f32 [%rd54], %f37;
+mov.u32 %r52, %ntid.x;
+add.s32 %r56, %r56, %r52;
+setp.lt.s32	%p10, %r56, %r24;
+@%p10 bra BB3_7;
+
+BB3_15:
+mov.u32 %r53, %nctaid.y;
+mad.lo.s32 %r55, %r53, %r25, %r55;
+setp.lt.s32	%p11, %r55, %r23;
+@%p11 bra BB3_5;
+
+BB3_16:
+ret;
+}
+
+
+.visible .entry _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil(
+.param .u64 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_0,
+.param .u64 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_1,
+.param .u32 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_2,
+.param .u32 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_3,
+.param .u32 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_4,
+.param .u32 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_5,
+.param .u32 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_6,
+.param .u32 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_7,
+.param .u64 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_8
+)
+{
+.reg .pred %p<12>;
+.reg .f32 %f<30>;
+.reg .b32 %r<69>;
+.reg .b64 %rd<43>;
+
+
+ld.param.u64 %rd16, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_0];
+ld.param.u64 %rd17, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_1];
+ld.param.u32 %r19, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_2];
+ld.param.u32 %r20, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_3];
+ld.param.u32 %r21, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_4];
+ld.param.u32 %r22, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_5];
+ld.param.u32 %r23, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_6];
+ld.param.u32 %r24, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_7];
+ld.param.u64 %rd18, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_8];
+mov.u32 %r25, %ntid.y;
+mov.u32 %r26, %ctaid.y;
+mov.u32 %r27, %tid.y;
+mad.lo.s32 %r62, %r25, %r26, %r27;
+mov.u32 %r28, %ctaid.x;
+cvt.u64.u32	%rd19, %r28;
+add.s64 %rd1, %rd19, %rd18;
+cvt.s64.s32	%rd2, %r22;
+or.b64 %rd20, %rd1, %rd2;
+and.b64 %rd21, %rd20, -4294967296;
+setp.eq.s64	%p1, %rd21, 0;
+@%p1 bra BB4_2;
+
+div.s64 %rd40, %rd1, %rd2;
+rem.s64 %rd41, %rd1, %rd2;
+bra.uni BB4_3;
+
+BB4_2:
+cvt.u32.u64	%r29, %rd2;
+cvt.u32.u64	%r30, %rd1;
+div.u32 %r31, %r30, %r29;
+rem.u32 %r32, %r30, %r29;
+cvt.u64.u32	%rd40, %r31;
+cvt.u64.u32	%rd41, %r32;
+
+BB4_3:
+cvt.u32.u64	%r33, %rd41;
+mul.lo.s32 %r34, %r33, %r19;
+cvt.rn.f32.s32	%f6, %r34;
+cvt.rn.f32.s32	%f7, %r22;
+div.rn.f32 %f8, %f6, %f7;
+cvt.rmi.f32.f32	%f9, %f8;
+cvt.rzi.s32.f32	%r2, %f9;
+add.s32 %r35, %r33, 1;
+mul.lo.s32 %r36, %r35, %r19;
+cvt.rn.f32.s32	%f10, %r36;
+div.rn.f32 %f11, %f10, %f7;
+cvt.rpi.f32.f32	%f12, %f11;
+cvt.rzi.s32.f32	%r37, %f12;
+sub.s32 %r3, %r37, %r2;
+setp.ge.s32	%p2, %r62, %r23;
+@%p2 bra BB4_16;
+
+cvta.to.global.u64 %rd22, %rd16;
+cvt.rn.f32.s32	%f1, %r23;
+cvt.rn.f32.s32	%f2, %r24;
+cvt.rn.f32.s32	%f3, %r3;
+cvt.u32.u64	%r38, %rd40;
+mad.lo.s32 %r39, %r19, %r38, %r2;
+mul.lo.s32 %r40, %r21, %r20;
+mul.lo.s32 %r41, %r40, %r39;
+mul.wide.s32 %rd23, %r41, 4;
+add.s64 %rd9, %rd22, %rd23;
+cvta.to.global.u64 %rd33, %rd17;
+
+BB4_5:
+mov.u32 %r63, %tid.x;
+mul.lo.s32 %r43, %r62, %r20;
+cvt.rn.f32.s32	%f13, %r43;
+div.rn.f32 %f14, %f13, %f1;
+cvt.rmi.f32.f32	%f15, %f14;
+cvt.rzi.s32.f32	%r5, %f15;
+add.s32 %r44, %r62, 1;
+mul.lo.s32 %r45, %r44, %r20;
+cvt.rn.f32.s32	%f16, %r45;
+div.rn.f32 %f17, %f16, %f1;
+cvt.rpi.f32.f32	%f18, %f17;
+cvt.rzi.s32.f32	%r46, %f18;
+sub.s32 %r6, %r46, %r5;
+setp.ge.s32	%p3, %r63, %r24;
+@%p3 bra BB4_15;
+
+cvt.rn.f32.s32	%f4, %r6;
+mul.lo.s32 %r47, %r21, %r5;
+mul.wide.s32 %rd24, %r47, 4;
+add.s64 %rd10, %rd9, %rd24;
+
+BB4_7:
+mul.lo.s32 %r48, %r63, %r21;
+cvt.rn.f32.s32	%f19, %r48;
+div.rn.f32 %f20, %f19, %f2;
+cvt.rmi.f32.f32	%f21, %f20;
+cvt.rzi.s32.f32	%r9, %f21;
+add.s32 %r49, %r63, 1;
+mul.lo.s32 %r50, %r49, %r21;
+cvt.rn.f32.s32	%f22, %r50;
+div.rn.f32 %f23, %f22, %f2;
+cvt.rpi.f32.f32	%f24, %f23;
+cvt.rzi.s32.f32	%r51, %f24;
+sub.s32 %r10, %r51, %r9;
+setp.lt.s32	%p4, %r3, 1;
+@%p4 bra BB4_14;
+
+mul.lo.s32 %r53, %r62, %r24;
+cvt.s64.s32	%rd25, %r53;
+mul.wide.s32 %rd26, %r24, %r23;
+mul.lo.s64 %rd29, %rd26, %rd1;
+add.s64 %rd30, %rd25, %rd29;
+cvt.s64.s32	%rd31, %r63;
+add.s64 %rd32, %rd30, %rd31;
+shl.b64 %rd34, %rd32, 2;
+add.s64 %rd35, %rd33, %rd34;
+ld.global.f32 %f25, [%rd35];
+div.rn.f32 %f26, %f25, %f3;
+div.rn.f32 %f27, %f26, %f4;
+cvt.rn.f32.s32	%f28, %r10;
+div.rn.f32 %f5, %f27, %f28;
+mul.wide.s32 %rd36, %r9, 4;
+add.s64 %rd11, %rd10, %rd36;
+mov.u32 %r52, 0;
+mov.u32 %r68, %r52;
+
+BB4_9:
+mul.wide.s32 %rd37, %r40, %r68;
+shl.b64 %rd38, %rd37, 2;
+add.s64 %rd12, %rd11, %rd38;
+setp.lt.s32	%p5, %r6, 1;
+mov.u32 %r67, %r52;
+@%p5 bra BB4_13;
+
+BB4_10:
+mul.lo.s32 %r58, %r21, %r67;
+mul.wide.s32 %rd39, %r58, 4;
+add.s64 %rd42, %rd12, %rd39;
+setp.lt.s32	%p6, %r10, 1;
+mov.u32 %r66, %r52;
+@%p6 bra BB4_12;
+
+BB4_11:
+mov.u32 %r13, %r66;
+atom.global.add.f32 %f29, [%rd42], %f5;
+add.s64 %rd42, %rd42, 4;
+add.s32 %r14, %r13, 1;
+setp.lt.s32	%p7, %r14, %r10;
+mov.u32 %r66, %r14;
+@%p7 bra BB4_11;
+
+BB4_12:
+add.s32 %r67, %r67, 1;
+setp.lt.s32	%p8, %r67, %r6;
+@%p8 bra BB4_10;
+
+BB4_13:
+add.s32 %r68, %r68, 1;
+setp.lt.s32	%p9, %r68, %r3;
+@%p9 bra BB4_9;
+
+BB4_14:
+mov.u32 %r59, %ntid.x;
+add.s32 %r63, %r63, %r59;
+setp.lt.s32	%p10, %r63, %r24;
+@%p10 bra BB4_7;
+
+BB4_15:
+mov.u32 %r60, %nctaid.y;
+mad.lo.s32 %r62, %r60, %r25, %r62;
+setp.lt.s32	%p11, %r62, %r23;
+@%p11 bra BB4_5;
+
+BB4_16:
+ret;
+}
+
+
+.visible .entry _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil(
+.param .u64 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_0,
+.param .u64 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_1,
+.param .u32 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_2,
+.param .u32 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_3,
+.param .u32 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_4,
+.param .u32 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_5,
+.param .u32 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_6,
+.param .u32 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_7,
+.param .u64 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_8
+)
+{
+.reg .pred %p<12>;
+.reg .f32 %f<54>;
+.reg .b32 %r<87>;
+.reg .b64 %rd<44>;
+
+
+ld.param.u64 %rd16, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_0];
+ld.param.u64 %rd17, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_1];
+ld.param.u32 %r29, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_2];
+ld.param.u32 %r30, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_3];
+ld.param.u32 %r31, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_4];
+ld.param.u32 %r32, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_5];
+ld.param.u32 %r33, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_6];
+ld.param.u32 %r34, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_7];
+ld.param.u64 %rd18, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIfEvPT_S1_iiiiiil_param_8];
+mov.u32 %r35, %ctaid.y;
+mov.u32 %r36, %ntid.y;
+mov.u32 %r37, %tid.y;
+mad.lo.s32 %r79, %r36, %r35, %r37;
+mov.u32 %r38, %ctaid.x;
+cvt.u64.u32	%rd19, %r38;
+add.s64 %rd1, %rd19, %rd18;
+cvt.s64.s32	%rd2, %r29;
+or.b64 %rd20, %rd1, %rd2;
+and.b64 %rd21, %rd20, -4294967296;
+setp.eq.s64	%p1, %rd21, 0;
+@%p1 bra BB5_2;
+
+div.s64 %rd40, %rd1, %rd2;
+rem.s64 %rd41, %rd1, %rd2;
+bra.uni BB5_3;
+
+BB5_2:
+cvt.u32.u64	%r39, %rd2;
+cvt.u32.u64	%r40, %rd1;
+div.u32 %r41, %r40, %r39;
+rem.u32 %r42, %r40, %r39;
+cvt.u64.u32	%rd40, %r41;
+cvt.u64.u32	%rd41, %r42;
+
+BB5_3:
+cvt.u32.u64	%r43, %rd41;
+mul.lo.s32 %r44, %r43, %r32;
+cvt.rn.f32.s32	%f11, %r44;
+cvt.rn.f32.s32	%f12, %r29;
+div.rn.f32 %f13, %f11, %f12;
+cvt.rmi.f32.f32	%f14, %f13;
+cvt.rzi.s32.f32	%r2, %f14;
+add.s32 %r45, %r43, 1;
+mul.lo.s32 %r46, %r45, %r32;
+cvt.rn.f32.s32	%f15, %r46;
+div.rn.f32 %f16, %f15, %f12;
+cvt.rpi.f32.f32	%f17, %f16;
+cvt.rzi.s32.f32	%r3, %f17;
+setp.ge.s32	%p2, %r79, %r30;
+@%p2 bra BB5_17;
+
+cvt.rn.f32.s32	%f1, %r30;
+cvt.rn.f32.s32	%f2, %r31;
+cvt.rn.f32.s32	%f3, %r32;
+cvt.rn.f32.s32	%f4, %r33;
+cvt.rn.f32.s32	%f5, %r34;
+cvt.u32.u64	%r47, %rd40;
+mad.lo.s32 %r48, %r32, %r47, %r2;
+mul.lo.s32 %r49, %r34, %r33;
+mul.lo.s32 %r4, %r49, %r48;
+cvta.to.global.u64 %rd31, %rd16;
+cvta.to.global.u64 %rd37, %rd17;
+
+BB5_5:
+mov.u32 %r80, %tid.x;
+mul.lo.s32 %r51, %r79, %r33;
+cvt.rn.f32.s32	%f18, %r51;
+div.rn.f32 %f19, %f18, %f1;
+cvt.rmi.f32.f32	%f20, %f19;
+cvt.rzi.s32.f32	%r6, %f20;
+add.s32 %r52, %r79, 1;
+mul.lo.s32 %r53, %r52, %r33;
+cvt.rn.f32.s32	%f21, %r53;
+div.rn.f32 %f22, %f21, %f1;
+cvt.rpi.f32.f32	%f23, %f22;
+cvt.rzi.s32.f32	%r7, %f23;
+setp.ge.s32	%p3, %r80, %r31;
+@%p3 bra BB5_16;
+
+BB5_6:
+mul.lo.s32 %r54, %r80, %r34;
+cvt.rn.f32.s32	%f24, %r54;
+div.rn.f32 %f25, %f24, %f2;
+cvt.rmi.f32.f32	%f26, %f25;
+cvt.rzi.s32.f32	%r10, %f26;
+add.s32 %r55, %r80, 1;
+mul.lo.s32 %r56, %r55, %r34;
+cvt.rn.f32.s32	%f27, %r56;
+div.rn.f32 %f28, %f27, %f2;
+cvt.rpi.f32.f32	%f29, %f28;
+cvt.rzi.s32.f32	%r11, %f29;
+setp.ge.s32	%p4, %r2, %r3;
+@%p4 bra BB5_15;
+
+mul.lo.s32 %r57, %r79, %r31;
+cvt.s64.s32	%rd23, %r57;
+mul.wide.s32 %rd24, %r31, %r30;
+mul.lo.s64 %rd27, %rd24, %rd1;
+add.s64 %rd28, %rd23, %rd27;
+cvt.s64.s32	%rd29, %r80;
+add.s64 %rd30, %rd28, %rd29;
+shl.b64 %rd32, %rd30, 2;
+add.s64 %rd9, %rd31, %rd32;
+add.s32 %r59, %r10, 1;
+mul.lo.s32 %r12, %r31, %r59;
+mad.lo.s32 %r13, %r34, %r6, %r10;
+mov.u64 %rd42, 0;
+mov.u32 %r81, %r2;
+
+BB5_8:
+mov.u32 %r14, %r81;
+add.s32 %r15, %r14, 1;
+setp.ge.s32	%p5, %r6, %r7;
+@%p5 bra BB5_14;
+
+cvt.s64.s32	%rd33, %r49;
+mul.lo.s64 %rd34, %rd33, %rd42;
+cvt.s64.s32	%rd35, %r4;
+add.s64 %rd36, %rd35, %rd34;
+shl.b64 %rd38, %rd36, 2;
+add.s64 %rd11, %rd37, %rd38;
+mul.lo.s32 %r62, %r15, %r29;
+cvt.rn.f32.s32	%f30, %r62;
+div.rn.f32 %f31, %f30, %f3;
+cvt.rpi.f32.f32	%f32, %f31;
+cvt.rzi.s32.f32	%r63, %f32;
+mul.lo.s32 %r64, %r14, %r29;
+cvt.rn.f32.s32	%f33, %r64;
+div.rn.f32 %f34, %f33, %f3;
+cvt.rmi.f32.f32	%f35, %f34;
+cvt.rzi.s32.f32	%r65, %f35;
+sub.s32 %r66, %r63, %r65;
+cvt.rn.f32.s32	%f6, %r66;
+mov.u32 %r82, 0;
+mov.u32 %r83, %r6;
+
+BB5_10:
+mov.u32 %r17, %r83;
+add.s32 %r18, %r17, 1;
+setp.ge.s32	%p6, %r10, %r11;
+@%p6 bra BB5_13;
+
+mad.lo.s32 %r67, %r34, %r82, %r13;
+mul.wide.s32 %rd39, %r67, 4;
+add.s64 %rd43, %rd11, %rd39;
+mul.lo.s32 %r68, %r18, %r30;
+cvt.rn.f32.s32	%f36, %r68;
+div.rn.f32 %f37, %f36, %f4;
+cvt.rpi.f32.f32	%f38, %f37;
+cvt.rzi.s32.f32	%r69, %f38;
+mul.lo.s32 %r70, %r17, %r30;
+cvt.rn.f32.s32	%f39, %r70;
+div.rn.f32 %f40, %f39, %f4;
+cvt.rmi.f32.f32	%f41, %f40;
+cvt.rzi.s32.f32	%r71, %f41;
+sub.s32 %r72, %r69, %r71;
+cvt.rn.f32.s32	%f7, %r72;
+ld.global.f32 %f53, [%rd9];
+mul.lo.s32 %r84, %r31, %r10;
+mov.u32 %r85, %r12;
+mov.u32 %r86, %r10;
+
+BB5_12:
+mov.u32 %r22, %r86;
+mov.u32 %r21, %r85;
+cvt.rn.f32.s32	%f42, %r21;
+div.rn.f32 %f43, %f42, %f5;
+cvt.rpi.f32.f32	%f44, %f43;
+cvt.rzi.s32.f32	%r73, %f44;
+cvt.rn.f32.s32	%f45, %r84;
+div.rn.f32 %f46, %f45, %f5;
+cvt.rmi.f32.f32	%f47, %f46;
+cvt.rzi.s32.f32	%r74, %f47;
+sub.s32 %r75, %r73, %r74;
+cvt.rn.f32.s32	%f48, %r75;
+ld.global.f32 %f49, [%rd43];
+div.rn.f32 %f50, %f49, %f48;
+div.rn.f32 %f51, %f50, %f7;
+div.rn.f32 %f52, %f51, %f6;
+add.f32 %f53, %f52, %f53;
+st.global.f32 [%rd9], %f53;
+add.s32 %r23, %r21, %r31;
+add.s32 %r84, %r84, %r31;
+add.s64 %rd43, %rd43, 4;
+add.s32 %r25, %r22, 1;
+setp.lt.s32	%p7, %r25, %r11;
+mov.u32 %r85, %r23;
+mov.u32 %r86, %r25;
+@%p7 bra BB5_12;
+
+BB5_13:
+setp.lt.s32	%p8, %r18, %r7;
+add.s32 %r82, %r82, 1;
+mov.u32 %r83, %r18;
+@%p8 bra BB5_10;
+
+BB5_14:
+setp.lt.s32	%p9, %r15, %r3;
+add.s64 %rd42, %rd42, 1;
+mov.u32 %r81, %r15;
+@%p9 bra BB5_8;
+
+BB5_15:
+mov.u32 %r76, %ntid.x;
+add.s32 %r80, %r80, %r76;
+setp.lt.s32	%p10, %r80, %r31;
+@%p10 bra BB5_6;
+
+BB5_16:
+mov.u32 %r77, %nctaid.y;
+mad.lo.s32 %r79, %r77, %r36, %r79;
+setp.lt.s32	%p11, %r79, %r30;
+@%p11 bra BB5_5;
+
+BB5_17:
+ret;
+}
+
+
+.visible .entry _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll(
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_0,
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_1,
+.param .u32 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_2,
+.param .u32 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_3,
+.param .u32 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_4,
+.param .u32 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_5,
+.param .u32 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_6,
+.param .u32 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_7,
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_8,
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_9,
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_10,
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_11,
+.param .u64 _Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_12
+)
+{
+.reg .pred %p<12>;
+.reg .f32 %f<22>;
+.reg .b32 %r<62>;
+.reg .f64 %fd<18>;
+.reg .b64 %rd<58>;
+
+
+ld.param.u64 %rd19, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_0];
+ld.param.u64 %rd20, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_1];
+ld.param.u32 %r19, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_2];
+ld.param.u32 %r20, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_3];
+ld.param.u32 %r21, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_4];
+ld.param.u32 %r22, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_5];
+ld.param.u32 %r23, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_6];
+ld.param.u32 %r24, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_7];
+ld.param.u64 %rd21, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_8];
+ld.param.u64 %rd22, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_9];
+ld.param.u64 %rd23, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_10];
+ld.param.u64 %rd24, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_11];
+ld.param.u64 %rd25, [_Z57cunn_VolumetricAdaptiveAveragePooling_updateOutput_kernelIdEvPT_S1_iiiiiilllll_param_12];
+mov.u32 %r25, %ntid.y;
+mov.u32 %r26, %ctaid.y;
+mov.u32 %r27, %tid.y;
+mad.lo.s32 %r55, %r25, %r26, %r27;
+mov.u32 %r28, %ctaid.x;
+cvt.u64.u32	%rd26, %r28;
+add.s64 %rd1, %rd26, %rd25;
+cvt.s64.s32	%rd2, %r22;
+or.b64 %rd27, %rd1, %rd2;
+and.b64 %rd28, %rd27, -4294967296;
+setp.eq.s64	%p1, %rd28, 0;
+@%p1 bra BB6_2;
+
+div.s64 %rd55, %rd1, %rd2;
+rem.s64 %rd56, %rd1, %rd2;
+bra.uni BB6_3;
+
+BB6_2:
+cvt.u32.u64	%r29, %rd2;
+cvt.u32.u64	%r30, %rd1;
+div.u32 %r31, %r30, %r29;
+rem.u32 %r32, %r30, %r29;
+cvt.u64.u32	%rd55, %r31;
+cvt.u64.u32	%rd56, %r32;
+
+BB6_3:
+cvt.u32.u64	%r33, %rd56;
+mul.lo.s32 %r34, %r33, %r19;
+cvt.rn.f32.s32	%f3, %r34;
+cvt.rn.f32.s32	%f4, %r22;
+div.rn.f32 %f5, %f3, %f4;
+cvt.rmi.f32.f32	%f6, %f5;
+cvt.rzi.s32.f32	%r2, %f6;
+add.s32 %r35, %r33, 1;
+mul.lo.s32 %r36, %r35, %r19;
+cvt.rn.f32.s32	%f7, %r36;
+div.rn.f32 %f8, %f7, %f4;
+cvt.rpi.f32.f32	%f9, %f8;
+cvt.rzi.s32.f32	%r37, %f9;
+sub.s32 %r3, %r37, %r2;
+setp.ge.s32	%p2, %r55, %r23;
+@%p2 bra BB6_16;
+
+cvta.to.global.u64 %rd29, %rd19;
+cvt.rn.f32.s32	%f1, %r23;
+cvt.rn.f32.s32	%f2, %r24;
+cvt.rn.f64.s32	%fd1, %r3;
+cvt.s64.s32 %rd30, %rd55;
+mul.lo.s64 %rd31, %rd21, %rd30;
+shl.b64 %rd32, %rd31, 3;
+add.s64 %rd9, %rd29, %rd32;
+mul.wide.s32 %rd10, %r2, 8;
+shl.b64 %rd11, %rd23, 3;
+shl.b64 %rd12, %rd24, 3;
+cvta.to.global.u64 %rd52, %rd20;
+
+BB6_5:
+mov.u32 %r56, %tid.x;
+mul.lo.s32 %r39, %r55, %r20;
+cvt.rn.f32.s32	%f10, %r39;
+div.rn.f32 %f11, %f10, %f1;
+cvt.rmi.f32.f32	%f12, %f11;
+cvt.rzi.s32.f32	%r5, %f12;
+add.s32 %r40, %r55, 1;
+mul.lo.s32 %r41, %r40, %r20;
+cvt.rn.f32.s32	%f13, %r41;
+div.rn.f32 %f14, %f13, %f1;
+cvt.rpi.f32.f32	%f15, %f14;
+cvt.rzi.s32.f32	%r42, %f15;
+sub.s32 %r6, %r42, %r5;
+setp.ge.s32	%p3, %r56, %r24;
+@%p3 bra BB6_15;
+
+cvt.rn.f64.s32	%fd2, %r6;
+cvt.s64.s32	%rd33, %r5;
+mul.lo.s64 %rd34, %rd23, %rd33;
+shl.b64 %rd35, %rd34, 3;
+add.s64 %rd13, %rd9, %rd35;
+
+BB6_7:
+mul.lo.s32 %r43, %r56, %r21;
+cvt.rn.f32.s32	%f16, %r43;
+div.rn.f32 %f17, %f16, %f2;
+cvt.rmi.f32.f32	%f18, %f17;
+cvt.rzi.s32.f32	%r9, %f18;
+add.s32 %r44, %r56, 1;
+mul.lo.s32 %r45, %r44, %r21;
+cvt.rn.f32.s32	%f19, %r45;
+div.rn.f32 %f20, %f19, %f2;
+cvt.rpi.f32.f32	%f21, %f20;
+cvt.rzi.s32.f32	%r46, %f21;
+sub.s32 %r10, %r46, %r9;
+mov.f64 %fd17, 0d0000000000000000;
+setp.lt.s32	%p4, %r3, 1;
+@%p4 bra BB6_14;
+
+cvt.s64.s32	%rd36, %r9;
+mul.lo.s64 %rd37, %rd24, %rd36;
+shl.b64 %rd38, %rd37, 3;
+add.s64 %rd14, %rd13, %rd38;
+mov.f64 %fd17, 0d0000000000000000;
+mov.u32 %r47, 0;
+mov.u32 %r61, %r47;
+
+BB6_9:
+mul.wide.s32 %rd39, %r61, 8;
+add.s64 %rd40, %rd10, %rd39;
+mul.lo.s64 %rd41, %rd22, %rd40;
+add.s64 %rd15, %rd14, %rd41;
+setp.lt.s32	%p5, %r6, 1;
+mov.u32 %r60, %r47;
+@%p5 bra BB6_13;
+
+BB6_10:
+cvt.s64.s32	%rd42, %r60;
+mul.lo.s64 %rd43, %rd11, %rd42;
+add.s64 %rd57, %rd15, %rd43;
+setp.lt.s32	%p6, %r10, 1;
+mov.u32 %r59, %r47;
+@%p6 bra BB6_12;
+
+BB6_11:
+mov.u32 %r13, %r59;
+ld.global.f64 %fd12, [%rd57];
+add.f64 %fd17, %fd17, %fd12;
+add.s64 %rd57, %rd57, %rd12;
+add.s32 %r14, %r13, 1;
+setp.lt.s32	%p7, %r14, %r10;
+mov.u32 %r59, %r14;
+@%p7 bra BB6_11;
+
+BB6_12:
+add.s32 %r60, %r60, 1;
+setp.lt.s32	%p8, %r60, %r6;
+@%p8 bra BB6_10;
+
+BB6_13:
+add.s32 %r61, %r61, 1;
+setp.lt.s32	%p9, %r61, %r3;
+@%p9 bra BB6_9;
+
+BB6_14:
+div.rn.f64 %fd13, %fd17, %fd1;
+div.rn.f64 %fd14, %fd13, %fd2;
+cvt.rn.f64.s32	%fd15, %r10;
+div.rn.f64 %fd16, %fd14, %fd15;
+mul.lo.s32 %r50, %r55, %r24;
+cvt.s64.s32	%rd44, %r50;
+mul.wide.s32 %rd45, %r24, %r23;
+mul.lo.s64 %rd48, %rd45, %rd1;
+add.s64 %rd49, %rd44, %rd48;
+cvt.s64.s32	%rd50, %r56;
+add.s64 %rd51, %rd49, %rd50;
+shl.b64 %rd53, %rd51, 3;
+add.s64 %rd54, %rd52, %rd53;
+st.global.f64 [%rd54], %fd16;
+mov.u32 %r52, %ntid.x;
+add.s32 %r56, %r56, %r52;
+setp.lt.s32	%p10, %r56, %r24;
+@%p10 bra BB6_7;
+
+BB6_15:
+mov.u32 %r53, %nctaid.y;
+mad.lo.s32 %r55, %r53, %r25, %r55;
+setp.lt.s32	%p11, %r55, %r23;
+@%p11 bra BB6_5;
+
+BB6_16:
+ret;
+}
+
+
+.visible .entry _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil(
+.param .u64 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_0,
+.param .u64 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_1,
+.param .u32 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_2,
+.param .u32 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_3,
+.param .u32 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_4,
+.param .u32 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_5,
+.param .u32 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_6,
+.param .u32 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_7,
+.param .u64 _Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_8
+)
+{
+.reg .pred %p<12>;
+.reg .f32 %f<22>;
+.reg .b32 %r<69>;
+.reg .f64 %fd<9>;
+.reg .b64 %rd<43>;
+
+
+ld.param.u64 %rd16, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_0];
+ld.param.u64 %rd17, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_1];
+ld.param.u32 %r19, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_2];
+ld.param.u32 %r20, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_3];
+ld.param.u32 %r21, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_4];
+ld.param.u32 %r22, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_5];
+ld.param.u32 %r23, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_6];
+ld.param.u32 %r24, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_7];
+ld.param.u64 %rd18, [_Z67cunn_atomic_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_8];
+mov.u32 %r25, %ntid.y;
+mov.u32 %r26, %ctaid.y;
+mov.u32 %r27, %tid.y;
+mad.lo.s32 %r62, %r25, %r26, %r27;
+mov.u32 %r28, %ctaid.x;
+cvt.u64.u32	%rd19, %r28;
+add.s64 %rd1, %rd19, %rd18;
+cvt.s64.s32	%rd2, %r22;
+or.b64 %rd20, %rd1, %rd2;
+and.b64 %rd21, %rd20, -4294967296;
+setp.eq.s64	%p1, %rd21, 0;
+@%p1 bra BB7_2;
+
+div.s64 %rd40, %rd1, %rd2;
+rem.s64 %rd41, %rd1, %rd2;
+bra.uni BB7_3;
+
+BB7_2:
+cvt.u32.u64	%r29, %rd2;
+cvt.u32.u64	%r30, %rd1;
+div.u32 %r31, %r30, %r29;
+rem.u32 %r32, %r30, %r29;
+cvt.u64.u32	%rd40, %r31;
+cvt.u64.u32	%rd41, %r32;
+
+BB7_3:
+cvt.u32.u64	%r33, %rd41;
+mul.lo.s32 %r34, %r33, %r19;
+cvt.rn.f32.s32	%f3, %r34;
+cvt.rn.f32.s32	%f4, %r22;
+div.rn.f32 %f5, %f3, %f4;
+cvt.rmi.f32.f32	%f6, %f5;
+cvt.rzi.s32.f32	%r2, %f6;
+add.s32 %r35, %r33, 1;
+mul.lo.s32 %r36, %r35, %r19;
+cvt.rn.f32.s32	%f7, %r36;
+div.rn.f32 %f8, %f7, %f4;
+cvt.rpi.f32.f32	%f9, %f8;
+cvt.rzi.s32.f32	%r37, %f9;
+sub.s32 %r3, %r37, %r2;
+setp.ge.s32	%p2, %r62, %r23;
+@%p2 bra BB7_16;
+
+cvta.to.global.u64 %rd22, %rd16;
+cvt.rn.f32.s32	%f1, %r23;
+cvt.rn.f32.s32	%f2, %r24;
+cvt.rn.f64.s32	%fd1, %r3;
+cvt.u32.u64	%r38, %rd40;
+mad.lo.s32 %r39, %r19, %r38, %r2;
+mul.lo.s32 %r40, %r21, %r20;
+mul.lo.s32 %r41, %r40, %r39;
+mul.wide.s32 %rd23, %r41, 8;
+add.s64 %rd9, %rd22, %rd23;
+cvta.to.global.u64 %rd33, %rd17;
+
+BB7_5:
+mov.u32 %r63, %tid.x;
+mul.lo.s32 %r43, %r62, %r20;
+cvt.rn.f32.s32	%f10, %r43;
+div.rn.f32 %f11, %f10, %f1;
+cvt.rmi.f32.f32	%f12, %f11;
+cvt.rzi.s32.f32	%r5, %f12;
+add.s32 %r44, %r62, 1;
+mul.lo.s32 %r45, %r44, %r20;
+cvt.rn.f32.s32	%f13, %r45;
+div.rn.f32 %f14, %f13, %f1;
+cvt.rpi.f32.f32	%f15, %f14;
+cvt.rzi.s32.f32	%r46, %f15;
+sub.s32 %r6, %r46, %r5;
+setp.ge.s32	%p3, %r63, %r24;
+@%p3 bra BB7_15;
+
+cvt.rn.f64.s32	%fd2, %r6;
+mul.lo.s32 %r47, %r21, %r5;
+mul.wide.s32 %rd24, %r47, 8;
+add.s64 %rd10, %rd9, %rd24;
+
+BB7_7:
+mul.lo.s32 %r48, %r63, %r21;
+cvt.rn.f32.s32	%f16, %r48;
+div.rn.f32 %f17, %f16, %f2;
+cvt.rmi.f32.f32	%f18, %f17;
+cvt.rzi.s32.f32	%r9, %f18;
+add.s32 %r49, %r63, 1;
+mul.lo.s32 %r50, %r49, %r21;
+cvt.rn.f32.s32	%f19, %r50;
+div.rn.f32 %f20, %f19, %f2;
+cvt.rpi.f32.f32	%f21, %f20;
+cvt.rzi.s32.f32	%r51, %f21;
+sub.s32 %r10, %r51, %r9;
+setp.lt.s32	%p4, %r3, 1;
+@%p4 bra BB7_14;
+
+mul.lo.s32 %r53, %r62, %r24;
+cvt.s64.s32	%rd25, %r53;
+mul.wide.s32 %rd26, %r24, %r23;
+mul.lo.s64 %rd29, %rd26, %rd1;
+add.s64 %rd30, %rd25, %rd29;
+cvt.s64.s32	%rd31, %r63;
+add.s64 %rd32, %rd30, %rd31;
+shl.b64 %rd34, %rd32, 3;
+add.s64 %rd35, %rd33, %rd34;
+ld.global.f64 %fd4, [%rd35];
+div.rn.f64 %fd5, %fd4, %fd1;
+div.rn.f64 %fd6, %fd5, %fd2;
+cvt.rn.f64.s32	%fd7, %r10;
+div.rn.f64 %fd3, %fd6, %fd7;
+mul.wide.s32 %rd36, %r9, 8;
+add.s64 %rd11, %rd10, %rd36;
+mov.u32 %r52, 0;
+mov.u32 %r68, %r52;
+
+BB7_9:
+mul.wide.s32 %rd37, %r40, %r68;
+shl.b64 %rd38, %rd37, 3;
+add.s64 %rd12, %rd11, %rd38;
+setp.lt.s32	%p5, %r6, 1;
+mov.u32 %r67, %r52;
+@%p5 bra BB7_13;
+
+BB7_10:
+mul.lo.s32 %r58, %r21, %r67;
+mul.wide.s32 %rd39, %r58, 8;
+add.s64 %rd42, %rd12, %rd39;
+setp.lt.s32	%p6, %r10, 1;
+mov.u32 %r66, %r52;
+@%p6 bra BB7_12;
+
+BB7_11:
+mov.u32 %r13, %r66;
+atom.global.add.f64 %fd8, [%rd42], %fd3;
+add.s64 %rd42, %rd42, 8;
+add.s32 %r14, %r13, 1;
+setp.lt.s32	%p7, %r14, %r10;
+mov.u32 %r66, %r14;
+@%p7 bra BB7_11;
+
+BB7_12:
+add.s32 %r67, %r67, 1;
+setp.lt.s32	%p8, %r67, %r6;
+@%p8 bra BB7_10;
+
+BB7_13:
+add.s32 %r68, %r68, 1;
+setp.lt.s32	%p9, %r68, %r3;
+@%p9 bra BB7_9;
+
+BB7_14:
+mov.u32 %r59, %ntid.x;
+add.s32 %r63, %r63, %r59;
+setp.lt.s32	%p10, %r63, %r24;
+@%p10 bra BB7_7;
+
+BB7_15:
+mov.u32 %r60, %nctaid.y;
+mad.lo.s32 %r62, %r60, %r25, %r62;
+setp.lt.s32	%p11, %r62, %r23;
+@%p11 bra BB7_5;
+
+BB7_16:
+ret;
+}
+
+
+.visible .entry _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil(
+.param .u64 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_0,
+.param .u64 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_1,
+.param .u32 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_2,
+.param .u32 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_3,
+.param .u32 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_4,
+.param .u32 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_5,
+.param .u32 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_6,
+.param .u32 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_7,
+.param .u64 _Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_8
+)
+{
+.reg .pred %p<12>;
+.reg .f32 %f<43>;
+.reg .b32 %r<87>;
+.reg .f64 %fd<12>;
+.reg .b64 %rd<44>;
+
+
+ld.param.u64 %rd16, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_0];
+ld.param.u64 %rd17, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_1];
+ld.param.u32 %r29, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_2];
+ld.param.u32 %r30, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_3];
+ld.param.u32 %r31, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_4];
+ld.param.u32 %r32, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_5];
+ld.param.u32 %r33, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_6];
+ld.param.u32 %r34, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_7];
+ld.param.u64 %rd18, [_Z60cunn_VolumetricAdaptiveAveragePooling_updateGradInput_kernelIdEvPT_S1_iiiiiil_param_8];
+mov.u32 %r35, %ctaid.y;
+mov.u32 %r36, %ntid.y;
+mov.u32 %r37, %tid.y;
+mad.lo.s32 %r79, %r36, %r35, %r37;
+mov.u32 %r38, %ctaid.x;
+cvt.u64.u32	%rd19, %r38;
+add.s64 %rd1, %rd19, %rd18;
+cvt.s64.s32	%rd2, %r29;
+or.b64 %rd20, %rd1, %rd2;
+and.b64 %rd21, %rd20, -4294967296;
+setp.eq.s64	%p1, %rd21, 0;
+@%p1 bra BB8_2;
+
+div.s64 %rd40, %rd1, %rd2;
+rem.s64 %rd41, %rd1, %rd2;
+bra.uni BB8_3;
+
+BB8_2:
+cvt.u32.u64	%r39, %rd2;
+cvt.u32.u64	%r40, %rd1;
+div.u32 %r41, %r40, %r39;
+rem.u32 %r42, %r40, %r39;
+cvt.u64.u32	%rd40, %r41;
+cvt.u64.u32	%rd41, %r42;
+
+BB8_3:
+cvt.u32.u64	%r43, %rd41;
+mul.lo.s32 %r44, %r43, %r32;
+cvt.rn.f32.s32	%f6, %r44;
+cvt.rn.f32.s32	%f7, %r29;
+div.rn.f32 %f8, %f6, %f7;
+cvt.rmi.f32.f32	%f9, %f8;
+cvt.rzi.s32.f32	%r2, %f9;
+add.s32 %r45, %r43, 1;
+mul.lo.s32 %r46, %r45, %r32;
+cvt.rn.f32.s32	%f10, %r46;
+div.rn.f32 %f11, %f10, %f7;
+cvt.rpi.f32.f32	%f12, %f11;
+cvt.rzi.s32.f32	%r3, %f12;
+setp.ge.s32	%p2, %r79, %r30;
+@%p2 bra BB8_17;
+
+cvt.rn.f32.s32	%f1, %r30;
+cvt.rn.f32.s32	%f2, %r31;
+cvt.rn.f32.s32	%f3, %r32;
+cvt.rn.f32.s32	%f4, %r33;
+cvt.rn.f32.s32	%f5, %r34;
+cvt.u32.u64	%r47, %rd40;
+mad.lo.s32 %r48, %r32, %r47, %r2;
+mul.lo.s32 %r49, %r34, %r33;
+mul.lo.s32 %r4, %r49, %r48;
+cvta.to.global.u64 %rd31, %rd16;
+cvta.to.global.u64 %rd37, %rd17;
+
+BB8_5:
+mov.u32 %r80, %tid.x;
+mul.lo.s32 %r51, %r79, %r33;
+cvt.rn.f32.s32	%f13, %r51;
+div.rn.f32 %f14, %f13, %f1;
+cvt.rmi.f32.f32	%f15, %f14;
+cvt.rzi.s32.f32	%r6, %f15;
+add.s32 %r52, %r79, 1;
+mul.lo.s32 %r53, %r52, %r33;
+cvt.rn.f32.s32	%f16, %r53;
+div.rn.f32 %f17, %f16, %f1;
+cvt.rpi.f32.f32	%f18, %f17;
+cvt.rzi.s32.f32	%r7, %f18;
+setp.ge.s32	%p3, %r80, %r31;
+@%p3 bra BB8_16;
+
+BB8_6:
+mul.lo.s32 %r54, %r80, %r34;
+cvt.rn.f32.s32	%f19, %r54;
+div.rn.f32 %f20, %f19, %f2;
+cvt.rmi.f32.f32	%f21, %f20;
+cvt.rzi.s32.f32	%r10, %f21;
+add.s32 %r55, %r80, 1;
+mul.lo.s32 %r56, %r55, %r34;
+cvt.rn.f32.s32	%f22, %r56;
+div.rn.f32 %f23, %f22, %f2;
+cvt.rpi.f32.f32	%f24, %f23;
+cvt.rzi.s32.f32	%r11, %f24;
+setp.ge.s32	%p4, %r2, %r3;
+@%p4 bra BB8_15;
+
+mul.lo.s32 %r57, %r79, %r31;
+cvt.s64.s32	%rd23, %r57;
+mul.wide.s32 %rd24, %r31, %r30;
+mul.lo.s64 %rd27, %rd24, %rd1;
+add.s64 %rd28, %rd23, %rd27;
+cvt.s64.s32	%rd29, %r80;
+add.s64 %rd30, %rd28, %rd29;
+shl.b64 %rd32, %rd30, 3;
+add.s64 %rd9, %rd31, %rd32;
+add.s32 %r59, %r10, 1;
+mul.lo.s32 %r12, %r31, %r59;
+mad.lo.s32 %r13, %r34, %r6, %r10;
+mov.u64 %rd42, 0;
+mov.u32 %r81, %r2;
+
+BB8_8:
+mov.u32 %r14, %r81;
+add.s32 %r15, %r14, 1;
+setp.ge.s32	%p5, %r6, %r7;
+@%p5 bra BB8_14;
+
+cvt.s64.s32	%rd33, %r49;
+mul.lo.s64 %rd34, %rd33, %rd42;
+cvt.s64.s32	%rd35, %r4;
+add.s64 %rd36, %rd35, %rd34;
+shl.b64 %rd38, %rd36, 3;
+add.s64 %rd11, %rd37, %rd38;
+mul.lo.s32 %r62, %r15, %r29;
+cvt.rn.f32.s32	%f25, %r62;
+div.rn.f32 %f26, %f25, %f3;
+cvt.rpi.f32.f32	%f27, %f26;
+cvt.rzi.s32.f32	%r63, %f27;
+mul.lo.s32 %r64, %r14, %r29;
+cvt.rn.f32.s32	%f28, %r64;
+div.rn.f32 %f29, %f28, %f3;
+cvt.rmi.f32.f32	%f30, %f29;
+cvt.rzi.s32.f32	%r65, %f30;
+sub.s32 %r66, %r63, %r65;
+cvt.rn.f64.s32	%fd1, %r66;
+mov.u32 %r82, 0;
+mov.u32 %r83, %r6;
+
+BB8_10:
+mov.u32 %r17, %r83;
+add.s32 %r18, %r17, 1;
+setp.ge.s32	%p6, %r10, %r11;
+@%p6 bra BB8_13;
+
+mad.lo.s32 %r67, %r34, %r82, %r13;
+mul.wide.s32 %rd39, %r67, 8;
+add.s64 %rd43, %rd11, %rd39;
+mul.lo.s32 %r68, %r18, %r30;
+cvt.rn.f32.s32	%f31, %r68;
+div.rn.f32 %f32, %f31, %f4;
+cvt.rpi.f32.f32	%f33, %f32;
+cvt.rzi.s32.f32	%r69, %f33;
+mul.lo.s32 %r70, %r17, %r30;
+cvt.rn.f32.s32	%f34, %r70;
+div.rn.f32 %f35, %f34, %f4;
+cvt.rmi.f32.f32	%f36, %f35;
+cvt.rzi.s32.f32	%r71, %f36;
+sub.s32 %r72, %r69, %r71;
+cvt.rn.f64.s32	%fd2, %r72;
+ld.global.f64 %fd11, [%rd9];
+mul.lo.s32 %r84, %r31, %r10;
+mov.u32 %r85, %r12;
+mov.u32 %r86, %r10;
+
+BB8_12:
+mov.u32 %r22, %r86;
+mov.u32 %r21, %r85;
+cvt.rn.f32.s32	%f37, %r21;
+div.rn.f32 %f38, %f37, %f5;
+cvt.rpi.f32.f32	%f39, %f38;
+cvt.rzi.s32.f32	%r73, %f39;
+cvt.rn.f32.s32	%f40, %r84;
+div.rn.f32 %f41, %f40, %f5;
+cvt.rmi.f32.f32	%f42, %f41;
+cvt.rzi.s32.f32	%r74, %f42;
+sub.s32 %r75, %r73, %r74;
+cvt.rn.f64.s32	%fd6, %r75;
+ld.global.f64 %fd7, [%rd43];
+div.rn.f64 %fd8, %fd7, %fd6;
+div.rn.f64 %fd9, %fd8, %fd2;
+div.rn.f64 %fd10, %fd9, %fd1;
+add.f64 %fd11, %fd10, %fd11;
+st.global.f64 [%rd9], %fd11;
+add.s32 %r23, %r21, %r31;
+add.s32 %r84, %r84, %r31;
+add.s64 %rd43, %rd43, 8;
+add.s32 %r25, %r22, 1;
+setp.lt.s32	%p7, %r25, %r11;
+mov.u32 %r85, %r23;
+mov.u32 %r86, %r25;
+@%p7 bra BB8_12;
+
+BB8_13:
+setp.lt.s32	%p8, %r18, %r7;
+add.s32 %r82, %r82, 1;
+mov.u32 %r83, %r18;
+@%p8 bra BB8_10;
+
+BB8_14:
+setp.lt.s32	%p9, %r15, %r3;
+add.s64 %rd42, %rd42, 1;
+mov.u32 %r81, %r15;
+@%p9 bra BB8_8;
+
+BB8_15:
+mov.u32 %r76, %ntid.x;
+add.s32 %r80, %r80, %r76;
+setp.lt.s32	%p10, %r80, %r31;
+@%p10 bra BB8_6;
+
+BB8_16:
+mov.u32 %r77, %nctaid.y;
+mad.lo.s32 %r79, %r77, %r36, %r79;
+setp.lt.s32	%p11, %r79, %r30;
+@%p11 bra BB8_5;
+
+BB8_17:
+ret;
+}
+
+

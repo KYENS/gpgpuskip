@@ -1,0 +1,9 @@
+ptxas info    : 784 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe274_GLOBAL__N__50_tmpxft_00005c63_00000000_7_hard_sigmoid_op_cpp1_ii_2fc9211729HardSigmoidGradientCUDAKernelIfEEviT_PKS2_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe274_GLOBAL__N__50_tmpxft_00005c63_00000000_7_hard_sigmoid_op_cpp1_ii_2fc9211729HardSigmoidGradientCUDAKernelIfEEviT_PKS2_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe274_GLOBAL__N__50_tmpxft_00005c63_00000000_7_hard_sigmoid_op_cpp1_ii_2fc9211721HardSigmoidCUDAKernelIfEEviT_S2_PKS2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe274_GLOBAL__N__50_tmpxft_00005c63_00000000_7_hard_sigmoid_op_cpp1_ii_2fc9211721HardSigmoidCUDAKernelIfEEviT_S2_PKS2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 352 bytes cmem[0]

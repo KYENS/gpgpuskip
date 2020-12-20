@@ -1,0 +1,37 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z24magma_lds64_cgemm_kernelILb1ELb1ELb0ELb1ELi6ELi6ELi3ELi4ELi4EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i' for 'sm_30'
+ptxas info    : Function properties for _Z24magma_lds64_cgemm_kernelILb1ELb1ELb0ELb1ELi6ELi6ELi3ELi4ELi4EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i
+    8 bytes stack frame, 16 bytes spill stores, 28 bytes spill loads
+ptxas info    : Used 63 registers, 8320 bytes smem, 436 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z24magma_lds64_cgemm_kernelILb0ELb1ELb0ELb0ELi6ELi6ELi3ELi4ELi4EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i' for 'sm_30'
+ptxas info    : Function properties for _Z24magma_lds64_cgemm_kernelILb0ELb1ELb0ELb0ELi6ELi6ELi3ELi4ELi4EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i
+    16 bytes stack frame, 32 bytes spill stores, 44 bytes spill loads
+ptxas info    : Used 63 registers, 8320 bytes smem, 436 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z24magma_lds64_cgemm_kernelILb1ELb1ELb1ELb0ELi6ELi6ELi3ELi4ELi4EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i' for 'sm_30'
+ptxas info    : Function properties for _Z24magma_lds64_cgemm_kernelILb1ELb1ELb1ELb0ELi6ELi6ELi3ELi4ELi4EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i
+    8 bytes stack frame, 16 bytes spill stores, 28 bytes spill loads
+ptxas info    : Used 63 registers, 8320 bytes smem, 436 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z24magma_lds64_cgemm_kernelILb1ELb0ELb0ELb0ELi6ELi6ELi3ELi4ELi4EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i' for 'sm_30'
+ptxas info    : Function properties for _Z24magma_lds64_cgemm_kernelILb1ELb0ELb0ELb0ELi6ELi6ELi3ELi4ELi4EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i
+    8 bytes stack frame, 16 bytes spill stores, 28 bytes spill loads
+ptxas info    : Used 63 registers, 8320 bytes smem, 436 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z24magma_lds64_cgemm_kernelILb1ELb0ELb1ELb0ELi6ELi6ELi3ELi4ELi4EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i' for 'sm_30'
+ptxas info    : Function properties for _Z24magma_lds64_cgemm_kernelILb1ELb0ELb1ELb0ELi6ELi6ELi3ELi4ELi4EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i
+    8 bytes stack frame, 20 bytes spill stores, 32 bytes spill loads
+ptxas info    : Used 63 registers, 8320 bytes smem, 436 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z24magma_lds64_cgemm_kernelILb0ELb1ELb0ELb1ELi6ELi6ELi3ELi4ELi4EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i' for 'sm_30'
+ptxas info    : Function properties for _Z24magma_lds64_cgemm_kernelILb0ELb1ELb0ELb1ELi6ELi6ELi3ELi4ELi4EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i
+    16 bytes stack frame, 32 bytes spill stores, 44 bytes spill loads
+ptxas info    : Used 63 registers, 8320 bytes smem, 436 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z24magma_lds64_cgemm_kernelILb1ELb1ELb0ELb0ELi6ELi6ELi3ELi4ELi4EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i' for 'sm_30'
+ptxas info    : Function properties for _Z24magma_lds64_cgemm_kernelILb1ELb1ELb0ELb0ELi6ELi6ELi3ELi4ELi4EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i
+    8 bytes stack frame, 16 bytes spill stores, 28 bytes spill loads
+ptxas info    : Used 63 registers, 8320 bytes smem, 436 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z24magma_lds64_cgemm_kernelILb0ELb0ELb0ELb0ELi6ELi6ELi3ELi4ELi4EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i' for 'sm_30'
+ptxas info    : Function properties for _Z24magma_lds64_cgemm_kernelILb0ELb0ELb0ELb0ELi6ELi6ELi3ELi4ELi4EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i
+    16 bytes stack frame, 28 bytes spill stores, 36 bytes spill loads
+ptxas info    : Used 63 registers, 8320 bytes smem, 436 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z24magma_lds64_cgemm_kernelILb1ELb1ELb1ELb1ELi6ELi6ELi3ELi4ELi4EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i' for 'sm_30'
+ptxas info    : Function properties for _Z24magma_lds64_cgemm_kernelILb1ELb1ELb1ELb1ELi6ELi6ELi3ELi4ELi4EEviiiPK6float2iS2_iPS0_iiiS2_S2_S0_S0_i
+    8 bytes stack frame, 16 bytes spill stores, 28 bytes spill loads
+ptxas info    : Used 63 registers, 8320 bytes smem, 436 bytes cmem[0], 2 textures

@@ -1,0 +1,673 @@
+ptxas info    : 521 bytes gmem
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 424 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 574 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 574 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_jLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_jLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 758 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 974 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 576 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_jLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_jLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 582 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 432 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 760 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_jLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_jLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 358 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 592 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 576 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 422 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 984 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIfEfjLi2EEv10OffsetInfoIT0_T1_XT2_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIfEfjLi2EEv10OffsetInfoIT0_T1_XT2_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 7 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 576 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_mLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_mLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 362 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 632 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 624 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 622 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_jLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_jLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 406 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIdEdjLi2EEv10OffsetInfoIT0_T1_XT2_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIdEdjLi2EEv10OffsetInfoIT0_T1_XT2_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 622 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 364 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_jLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_jLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 382 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIN3c104HalfEES2_jLi2EEv10OffsetInfoIT0_T1_XT2_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIN3c104HalfEES2_jLi2EEv10OffsetInfoIT0_T1_XT2_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 366 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 624 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 574 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 632 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 1168 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 560 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 424 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 422 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 1580 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 774 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_mLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_mLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 1162 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 432 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 568 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_mLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_mLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 1578 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 424 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_jLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_jLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 582 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 432 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 1164 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_jLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_jLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 558 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 592 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 776 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 422 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 568 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIfEfmLi1EEv10OffsetInfoIT0_T1_XT2_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIfEfmLi1EEv10OffsetInfoIT0_T1_XT2_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 348 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 776 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 374 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 632 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 776 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 622 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_jLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_jLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 558 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIdEdmLi1EEv10OffsetInfoIT0_T1_XT2_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIdEdmLi1EEv10OffsetInfoIT0_T1_XT2_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 774 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_jLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_jLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 382 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 560 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIN3c104HalfEES2_mLi1EEv10OffsetInfoIT0_T1_XT2_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIN3c104HalfEES2_mLi1EEv10OffsetInfoIT0_T1_XT2_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 346 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 624 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 774 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 592 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIfEfmLin1EEv10OffsetInfoIT0_T1_XT2_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIfEfmLin1EEv10OffsetInfoIT0_T1_XT2_EES4_T_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 748 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 398 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 808 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 800 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 798 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_jLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_jLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 582 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIdEdmLin1EEv10OffsetInfoIT0_T1_XT2_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIdEdmLin1EEv10OffsetInfoIT0_T1_XT2_EES4_T_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 752 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 798 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_jLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_jLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 406 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIN3c104HalfEES2_mLin1EEv10OffsetInfoIT0_T1_XT2_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIN3c104HalfEES2_mLin1EEv10OffsetInfoIT0_T1_XT2_EES6_T_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 746 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 800 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 398 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 808 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIfEfjLi1EEv10OffsetInfoIT0_T1_XT2_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIfEfjLi1EEv10OffsetInfoIT0_T1_XT2_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 7 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 600 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_jLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_jLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 758 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 600 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 446 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_jLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_jLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 382 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIdEdjLi1EEv10OffsetInfoIT0_T1_XT2_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIdEdjLi1EEv10OffsetInfoIT0_T1_XT2_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 598 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 760 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_jLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_jLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, 358 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 608 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIN3c104HalfEES2_jLi1EEv10OffsetInfoIT0_T1_XT2_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIN3c104HalfEES2_jLi1EEv10OffsetInfoIT0_T1_XT2_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 342 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 448 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 598 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 608 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 600 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 398 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 608 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 380 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 598 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 560 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_mLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_mLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 362 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_mLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_mLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 378 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_jLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_jLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 558 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 608 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 364 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_jLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_jLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 382 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 568 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 600 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 598 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIdEddjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 592 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIfEfjLin1EEv10OffsetInfoIT0_T1_XT2_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIfEfjLin1EEv10OffsetInfoIT0_T1_XT2_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 544 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 600 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_mLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_mLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 1162 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 608 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 800 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 598 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 560 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_jLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIN3c104HalfEES2_S2_jLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 582 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 1168 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIdEdjLin1EEv10OffsetInfoIT0_T1_XT2_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIdEdjLin1EEv10OffsetInfoIT0_T1_XT2_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 552 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 798 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIfEffmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 1164 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_jLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIN3c104HalfEES2_S2_jLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 558 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 608 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I21LeakyReLUUpdateOutputIfEffjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 584 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIN3c104HalfEES2_jLin1EEv10OffsetInfoIT0_T1_XT2_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply1I23LeakyReLUUpdateOutputIPIN3c104HalfEES2_jLin1EEv10OffsetInfoIT0_T1_XT2_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 542 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I26LeakyReLUUpdateGradInputIPIdEddjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 568 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIfEfffjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 600 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIN3c104HalfEES2_S2_S2_jLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 598 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I24LeakyReLUUpdateGradInputIdEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 808 bytes cmem[0]

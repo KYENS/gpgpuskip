@@ -1,0 +1,41 @@
+ptxas info    : 161 bytes gmem
+ptxas info    : Compiling entry function '_Z14LRNComputeDiffIffEviPKT_S2_S2_S2_iiiiiS0_S0_PS0_' for 'sm_61'
+ptxas info    : Function properties for _Z14LRNComputeDiffIffEviPKT_S2_S2_S2_iiiiiS0_S0_PS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 400 bytes cmem[0], 56 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z16LRNComputeOutputIN3c104HalfEEviPKT_S4_S2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _Z16LRNComputeOutputIN3c104HalfEEviPKT_S4_S2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 360 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z16LRNComputeOutputIdEviPKT_S2_S0_PS0_' for 'sm_61'
+ptxas info    : Function properties for _Z16LRNComputeOutputIdEviPKT_S2_S0_PS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 360 bytes cmem[0], 224 bytes cmem[2]
+ptxas info    : Function properties for __internal_accurate_pow
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compiling entry function '_Z12LRNFillScaleIffEviPKT_iiiiiS0_S0_PS0_' for 'sm_61'
+ptxas info    : Function properties for _Z12LRNFillScaleIffEviPKT_iiiiiS0_S0_PS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12LRNFillScaleIddEviPKT_iiiiiS0_S0_PS0_' for 'sm_61'
+ptxas info    : Function properties for _Z12LRNFillScaleIddEviPKT_iiiiiS0_S0_PS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z14LRNComputeDiffIN3c104HalfEfEviPKT_S4_S4_S4_iiiiiS2_S2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _Z14LRNComputeDiffIN3c104HalfEfEviPKT_S4_S4_S4_iiiiiS2_S2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 392 bytes cmem[0], 56 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z16LRNComputeOutputIfEviPKT_S2_S0_PS0_' for 'sm_61'
+ptxas info    : Function properties for _Z16LRNComputeOutputIfEviPKT_S2_S0_PS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 360 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12LRNFillScaleIN3c104HalfEfEviPKT_iiiiiS2_S2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _Z12LRNFillScaleIN3c104HalfEfEviPKT_iiiiiS2_S2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z14LRNComputeDiffIddEviPKT_S2_S2_S2_iiiiiS0_S0_PS0_' for 'sm_61'
+ptxas info    : Function properties for _Z14LRNComputeDiffIddEviPKT_S2_S2_S2_iiiiiS0_S0_PS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 408 bytes cmem[0], 244 bytes cmem[2]
+ptxas info    : Function properties for __internal_accurate_pow
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads

@@ -1,0 +1,33 @@
+ptxas info    : 784 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi6EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 544 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi2EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 432 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi8EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 600 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi4EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 488 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi5EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 512 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi1EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi7EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 568 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00006d74_00000000_7_moments_op_cpp1_ii_f0b9036c32ComputeMomentsGradientCUDAKernelIfLi3EEEviNS_11SimpleArrayIiXT0_EEENS2_INS_12FixedDivisorIiEEXT0_EEET_PKS7_S9_S9_S9_PS7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 456 bytes cmem[0]

@@ -1,0 +1,69 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z19gemm_kernel2x2_coreIdLb0ELb0ELb0ELb0ELb1EEvPT_PKS0_S3_iiiiiiS1_S1_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z19gemm_kernel2x2_coreIdLb0ELb0ELb0ELb0ELb1EEvPT_PKS0_S3_iiiiiiS1_S1_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 4352 bytes smem, 404 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z13gemmk1_kernelIdLi256ELi5ELb1ELb0ELb1ELb1EEv18cublasGemmk1ParamsIT_EPKS1_S4_PS1_' for 'sm_50'
+ptxas info    : Function properties for _Z13gemmk1_kernelIdLi256ELi5ELb1ELb0ELb1ELb1EEv18cublasGemmk1ParamsIT_EPKS1_S4_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 544 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z33gemm_kernel2x2_tile_multiple_coreIdLb1ELb0ELb0ELb0ELb1EEvPT_PKS0_S3_iiiiiiS1_S1_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z33gemm_kernel2x2_tile_multiple_coreIdLb1ELb0ELb0ELb0ELb1EEvPT_PKS0_S3_iiiiiiS1_S1_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 4352 bytes smem, 404 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z13gemmk1_kernelIdLi256ELi5ELb0ELb0ELb1ELb0EEv18cublasGemmk1ParamsIT_EPKS1_S4_PS1_' for 'sm_50'
+ptxas info    : Function properties for _Z13gemmk1_kernelIdLi256ELi5ELb0ELb0ELb1ELb0EEv18cublasGemmk1ParamsIT_EPKS1_S4_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 544 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemm_kernel2x2_coreIdLb0ELb0ELb0ELb1ELb1EEvPT_PKS0_S3_iiiiiiS1_S1_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z19gemm_kernel2x2_coreIdLb0ELb0ELb0ELb1ELb1EEvPT_PKS0_S3_iiiiiiS1_S1_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 4352 bytes smem, 404 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z13gemmk1_kernelIdLi256ELi5ELb1ELb1ELb1ELb0EEv18cublasGemmk1ParamsIT_EPKS1_S4_PS1_' for 'sm_50'
+ptxas info    : Function properties for _Z13gemmk1_kernelIdLi256ELi5ELb1ELb1ELb1ELb0EEv18cublasGemmk1ParamsIT_EPKS1_S4_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 544 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z33gemm_kernel2x2_tile_multiple_coreIdLb1ELb0ELb0ELb1ELb1EEvPT_PKS0_S3_iiiiiiS1_S1_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z33gemm_kernel2x2_tile_multiple_coreIdLb1ELb0ELb0ELb1ELb1EEvPT_PKS0_S3_iiiiiiS1_S1_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 4352 bytes smem, 404 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z13gemmk1_kernelIdLi256ELi5ELb1ELb0ELb0ELb0EEv18cublasGemmk1ParamsIT_EPKS1_S4_PS1_' for 'sm_50'
+ptxas info    : Function properties for _Z13gemmk1_kernelIdLi256ELi5ELb1ELb0ELb0ELb0EEv18cublasGemmk1ParamsIT_EPKS1_S4_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 544 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemm_kernel2x2_coreIdLb0ELb0ELb0ELb1ELb0EEvPT_PKS0_S3_iiiiiiS1_S1_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z19gemm_kernel2x2_coreIdLb0ELb0ELb0ELb1ELb0EEvPT_PKS0_S3_iiiiiiS1_S1_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 64 registers, 4352 bytes smem, 404 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z13gemmk1_kernelIdLi256ELi5ELb1ELb1ELb0ELb0EEv18cublasGemmk1ParamsIT_EPKS1_S4_PS1_' for 'sm_50'
+ptxas info    : Function properties for _Z13gemmk1_kernelIdLi256ELi5ELb1ELb1ELb0ELb0EEv18cublasGemmk1ParamsIT_EPKS1_S4_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 544 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z33gemm_kernel2x2_tile_multiple_coreIdLb1ELb0ELb0ELb1ELb0EEvPT_PKS0_S3_iiiiiiS1_S1_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z33gemm_kernel2x2_tile_multiple_coreIdLb1ELb0ELb0ELb1ELb0EEvPT_PKS0_S3_iiiiiiS1_S1_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 4352 bytes smem, 404 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z13gemmk1_kernelIdLi256ELi5ELb0ELb0ELb1ELb1EEv18cublasGemmk1ParamsIT_EPKS1_S4_PS1_' for 'sm_50'
+ptxas info    : Function properties for _Z13gemmk1_kernelIdLi256ELi5ELb0ELb0ELb1ELb1EEv18cublasGemmk1ParamsIT_EPKS1_S4_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 544 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z19gemm_kernel2x2_coreIdLb0ELb0ELb0ELb0ELb0EEvPT_PKS0_S3_iiiiiiS1_S1_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z19gemm_kernel2x2_coreIdLb0ELb0ELb0ELb0ELb0EEvPT_PKS0_S3_iiiiiiS1_S1_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 4352 bytes smem, 404 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z13gemmk1_kernelIdLi256ELi5ELb1ELb0ELb1ELb0EEv18cublasGemmk1ParamsIT_EPKS1_S4_PS1_' for 'sm_50'
+ptxas info    : Function properties for _Z13gemmk1_kernelIdLi256ELi5ELb1ELb0ELb1ELb0EEv18cublasGemmk1ParamsIT_EPKS1_S4_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 544 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z13gemmk1_kernelIdLi256ELi5ELb0ELb0ELb0ELb0EEv18cublasGemmk1ParamsIT_EPKS1_S4_PS1_' for 'sm_50'
+ptxas info    : Function properties for _Z13gemmk1_kernelIdLi256ELi5ELb0ELb0ELb0ELb0EEv18cublasGemmk1ParamsIT_EPKS1_S4_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 544 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z13gemmk1_kernelIdLi256ELi5ELb1ELb1ELb1ELb1EEv18cublasGemmk1ParamsIT_EPKS1_S4_PS1_' for 'sm_50'
+ptxas info    : Function properties for _Z13gemmk1_kernelIdLi256ELi5ELb1ELb1ELb1ELb1EEv18cublasGemmk1ParamsIT_EPKS1_S4_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 544 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z33gemm_kernel2x2_tile_multiple_coreIdLb1ELb0ELb0ELb0ELb0EEvPT_PKS0_S3_iiiiiiS1_S1_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z33gemm_kernel2x2_tile_multiple_coreIdLb1ELb0ELb0ELb0ELb0EEvPT_PKS0_S3_iiiiiiS1_S1_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 4352 bytes smem, 404 bytes cmem[0]

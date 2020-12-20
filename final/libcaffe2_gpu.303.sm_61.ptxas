@@ -1,0 +1,9 @@
+ptxas info    : 648 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe279_GLOBAL__N__55_tmpxft_00007524_00000000_7_fp16_momentum_sgd_op_cpp1_ii_8083ef1b25FP16MomentumSGDFP32KernelEiPK7__half2S3_PS1_S4_PKffbfS4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe279_GLOBAL__N__55_tmpxft_00007524_00000000_7_fp16_momentum_sgd_op_cpp1_ii_8083ef1b25FP16MomentumSGDFP32KernelEiPK7__half2S3_PS1_S4_PKffbfS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe279_GLOBAL__N__55_tmpxft_00007524_00000000_7_fp16_momentum_sgd_op_cpp1_ii_8083ef1b21FP16MomentumSGDKernelEiPK7__half2S3_PS1_S4_PKffbfS4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe279_GLOBAL__N__55_tmpxft_00007524_00000000_7_fp16_momentum_sgd_op_cpp1_ii_8083ef1b21FP16MomentumSGDKernelEiPK7__half2S3_PS1_S4_PKffbfS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 392 bytes cmem[0]

@@ -1,0 +1,1669 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 1 .b8 _ZN68_INTERNAL_46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f6thrust6system6detail10sequential3seqE[1];
+.shared .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE[24];
+.global .align 1 .b8 _ZN68_INTERNAL_46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f6thrust6system4cuda6detail5bulk_4rootE[1];
+.global .align 1 .b8 _ZN68_INTERNAL_46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f6thrust6system4cuda3parE[1];
+.global .align 1 .b8 _ZN68_INTERNAL_46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f6thrust12placeholders2_1E[1];
+.global .align 1 .b8 _ZN68_INTERNAL_46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f6thrust12placeholders2_2E[1];
+.global .align 1 .b8 _ZN68_INTERNAL_46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f6thrust12placeholders2_3E[1];
+.global .align 1 .b8 _ZN68_INTERNAL_46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f6thrust12placeholders2_4E[1];
+.global .align 1 .b8 _ZN68_INTERNAL_46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f6thrust12placeholders2_5E[1];
+.global .align 1 .b8 _ZN68_INTERNAL_46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f6thrust12placeholders2_6E[1];
+.global .align 1 .b8 _ZN68_INTERNAL_46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f6thrust12placeholders2_7E[1];
+.global .align 1 .b8 _ZN68_INTERNAL_46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f6thrust12placeholders2_8E[1];
+.global .align 1 .b8 _ZN68_INTERNAL_46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f6thrust12placeholders2_9E[1];
+.global .align 1 .b8 _ZN68_INTERNAL_46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f6thrust12placeholders3_10E[1];
+.global .align 1 .b8 _ZN68_INTERNAL_46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f6thrust3seqE[1];
+.global .align 1 .b8 _ZN68_INTERNAL_46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f6thrust6deviceE[1];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 1 .b8 __T220[38] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 117, 110, 115, 105, 103, 110, 101, 100, 32, 99, 104, 97, 114, 93, 0};
+.global .align 1 .b8 __T221[36] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 115, 105, 103, 110, 101, 100, 32, 99, 104, 97, 114, 93, 0};
+.global .align 1 .b8 __T222[30] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 115, 104, 111, 114, 116, 93, 0};
+.global .align 1 .b8 __T223[28] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 105, 110, 116, 93, 0};
+.global .align 1 .b8 __T224[29] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 108, 111, 110, 103, 93, 0};
+.extern .shared .align 4 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE[];
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_18transform_iteratorIN2at6native22dst_idx_to_src_functorIdEENSK_INSM_22cnt_to_dst_idx_functorENS_17counting_iteratorIlNS_11use_defaultESR_SR_EESR_SR_EESR_SR_EENS_20permutation_iteratorINS_10device_ptrIdEEST_EENS_9null_typeESZ_SZ_SZ_SZ_SZ_SZ_SZ_EEEENS_6detail16wrapped_functionINS12_23unary_transform_functorINS_8identityIdEEEEvEEjSZ_SZ_SZ_SZ_SZ_SZ_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_18transform_iteratorIN2at6native22dst_idx_to_src_functorIdEENSK_INSM_22cnt_to_dst_idx_functorENS_17counting_iteratorIlNS_11use_defaultESR_SR_EESR_SR_EESR_SR_EENS_20permutation_iteratorINS_10device_ptrIdEEST_EENS_9null_typeESZ_SZ_SZ_SZ_SZ_SZ_SZ_EEEENS_6detail16wrapped_functionINS12_23unary_transform_functorINS_8identityIdEEEEvEEjSZ_SZ_SZ_SZ_SZ_SZ_EEEEEEEEvT0__param_0[224]
+)
+{
+.local .align 8 .b8 __local_depot0[168];
+.reg .b64 %SP;
+.reg .b64 %SPL;
+.reg .pred %p<15>;
+.reg .b32 %r<29>;
+.reg .f64 %fd<6>;
+.reg .b64 %rd<137>;
+
+
+mov.u64 %rd136, __local_depot0;
+cvta.local.u64 %SP, %rd136;
+mov.u64 %rd1, _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_18transform_iteratorIN2at6native22dst_idx_to_src_functorIdEENSK_INSM_22cnt_to_dst_idx_functorENS_17counting_iteratorIlNS_11use_defaultESR_SR_EESR_SR_EESR_SR_EENS_20permutation_iteratorINS_10device_ptrIdEEST_EENS_9null_typeESZ_SZ_SZ_SZ_SZ_SZ_SZ_EEEENS_6detail16wrapped_functionINS12_23unary_transform_functorINS_8identityIdEEEEvEEjSZ_SZ_SZ_SZ_SZ_SZ_EEEEEEEEvT0__param_0;
+mov.u32 %r8, %tid.x;
+setp.ne.s32	%p1, %r8, 0;
+mov.u64 %rd69, _ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE;
+cvta.shared.u64 %rd70, %rd69;
+setp.eq.s64	%p2, %rd70, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB0_2;
+
+ld.param.s32 %rd71, [%rd1+204];
+mov.u32 %r9, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE], %r9;
+mov.u64 %rd72, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd73, %rd72;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE+8], %rd73;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE+16], %rd71;
+
+BB0_2:
+ld.param.u64 %rd2, [%rd1+16];
+ld.param.u64 %rd3, [%rd1+24];
+ld.param.u64 %rd4, [%rd1+32];
+ld.param.u64 %rd5, [%rd1+40];
+ld.param.u64 %rd6, [%rd1+48];
+ld.param.u64 %rd7, [%rd1+56];
+ld.param.u64 %rd8, [%rd1+64];
+ld.param.u64 %rd9, [%rd1+72];
+ld.param.u64 %rd10, [%rd1+80];
+ld.param.u64 %rd11, [%rd1+88];
+ld.param.u64 %rd12, [%rd1+96];
+ld.param.u64 %rd13, [%rd1+104];
+ld.param.u64 %rd14, [%rd1+112];
+ld.param.u64 %rd15, [%rd1+120];
+ld.param.u64 %rd16, [%rd1+128];
+ld.param.u64 %rd17, [%rd1+136];
+ld.param.u64 %rd18, [%rd1+144];
+ld.param.u64 %rd19, [%rd1+152];
+ld.param.u64 %rd20, [%rd1+160];
+ld.param.u64 %rd21, [%rd1+168];
+ld.param.u64 %rd22, [%rd1+176];
+ld.param.u32 %r1, [%rd1+188];
+ld.param.u32 %r2, [%rd1+208];
+mov.u32 %r10, %ctaid.x;
+ld.param.u32 %r11, [%rd1+216];
+add.s32 %r3, %r10, %r11;
+bar.sync 0;
+add.u64 %rd74, %SP, 0;
+cvta.to.local.u64 %rd25, %rd74;
+mov.u64 %rd23, %rd25;
+add.s64 %rd24, %rd25, 8;
+st.local.u64 [%rd25+8], %rd3;
+st.local.u64 [%rd25+16], %rd4;
+st.local.u64 [%rd25+24], %rd5;
+st.local.u64 [%rd25+32], %rd6;
+st.local.u64 [%rd25+40], %rd7;
+st.local.u64 [%rd25+48], %rd8;
+st.local.u64 [%rd25+56], %rd9;
+st.local.u64 [%rd25+64], %rd10;
+st.local.u64 [%rd25+72], %rd11;
+st.local.u64 [%rd25+80], %rd12;
+st.local.u64 [%rd25+88], %rd13;
+st.local.u64 [%rd25+96], %rd14;
+st.local.u64 [%rd25+104], %rd15;
+st.local.u64 [%rd25+112], %rd16;
+st.local.u64 [%rd25+120], %rd17;
+st.local.u64 [%rd25+136], %rd19;
+st.local.u64 [%rd25+144], %rd20;
+st.local.u64 [%rd25+152], %rd21;
+st.local.u64 [%rd25+160], %rd22;
+mov.u32 %r12, %ntid.x;
+mul.lo.s32 %r4, %r12, %r2;
+mad.lo.s32 %r28, %r3, %r12, %r8;
+cvt.u64.u32	%rd75, %r28;
+add.s64 %rd121, %rd2, %rd75;
+add.s64 %rd120, %rd18, %rd75;
+st.local.u64 [%rd25+128], %rd120;
+st.local.u64 [%rd25], %rd121;
+setp.ge.u32	%p4, %r28, %r1;
+@%p4 bra BB0_26;
+
+cvta.to.global.u64 %rd28, %rd17;
+cvta.to.global.u64 %rd29, %rd22;
+cvt.u64.u32	%rd30, %r4;
+
+BB0_4:
+shr.u64 %rd76, %rd121, 63;
+add.s64 %rd77, %rd121, %rd76;
+shr.s64 %rd33, %rd77, 1;
+or.b64 %rd78, %rd33, %rd5;
+and.b64 %rd79, %rd78, -4294967296;
+setp.eq.s64	%p5, %rd79, 0;
+@%p5 bra BB0_6;
+bra.uni BB0_5;
+
+BB0_6:
+cvt.u32.u64	%r14, %rd5;
+cvt.u32.u64	%r15, %rd33;
+div.u32 %r16, %r15, %r14;
+rem.u32 %r17, %r15, %r14;
+cvt.u64.u32	%rd122, %r16;
+cvt.u64.u32	%rd123, %r17;
+bra.uni BB0_7;
+
+BB0_5:
+div.s64 %rd122, %rd33, %rd5;
+rem.s64 %rd123, %rd33, %rd5;
+
+BB0_7:
+and.b64 %rd85, %rd77, -2;
+sub.s64 %rd86, %rd121, %rd85;
+add.s64 %rd87, %rd4, %rd123;
+mul.lo.s64 %rd88, %rd3, %rd122;
+add.s64 %rd89, %rd87, %rd88;
+shl.b64 %rd90, %rd89, 1;
+add.s64 %rd91, %rd90, %rd86;
+shr.u64 %rd92, %rd91, 63;
+add.s64 %rd93, %rd91, %rd92;
+and.b64 %rd126, %rd93, -2;
+sub.s64 %rd40, %rd91, %rd126;
+mov.u64 %rd131, 0;
+mov.u64 %rd132, %rd131;
+mov.u64 %rd125, %rd131;
+setp.lt.s64	%p6, %rd16, 1;
+mov.u64 %rd124, %rd23;
+@%p6 bra BB0_19;
+
+BB0_8:
+mov.u64 %rd133, %rd132;
+mov.u64 %rd42, %rd124;
+ld.local.u64 %rd46, [%rd42+72];
+or.b64 %rd94, %rd126, %rd46;
+and.b64 %rd95, %rd94, -4294967296;
+setp.eq.s64	%p7, %rd95, 0;
+@%p7 bra BB0_10;
+bra.uni BB0_9;
+
+BB0_10:
+cvt.u32.u64	%r18, %rd46;
+cvt.u32.u64	%r19, %rd126;
+div.u32 %r20, %r19, %r18;
+cvt.u64.u32	%rd127, %r20;
+bra.uni BB0_11;
+
+BB0_9:
+div.s64 %rd127, %rd126, %rd46;
+
+BB0_11:
+setp.eq.s64	%p8, %rd125, 0;
+@%p8 bra BB0_14;
+bra.uni BB0_12;
+
+BB0_14:
+mul.lo.s64 %rd99, %rd127, %rd46;
+add.s64 %rd133, %rd99, %rd133;
+bra.uni BB0_15;
+
+BB0_12:
+setp.eq.s64	%p9, %rd127, 0;
+@%p9 bra BB0_15;
+
+ld.local.u64 %rd96, [%rd42+32];
+sub.s64 %rd97, %rd96, %rd127;
+mul.lo.s64 %rd98, %rd97, %rd46;
+add.s64 %rd133, %rd98, %rd133;
+
+BB0_15:
+mov.u64 %rd132, %rd133;
+@%p7 bra BB0_17;
+bra.uni BB0_16;
+
+BB0_17:
+cvt.u32.u64	%r21, %rd46;
+cvt.u32.u64	%r22, %rd126;
+rem.u32 %r23, %r22, %r21;
+cvt.u64.u32	%rd126, %r23;
+bra.uni BB0_18;
+
+BB0_16:
+rem.s64 %rd126, %rd126, %rd46;
+
+BB0_18:
+add.s64 %rd56, %rd42, 8;
+add.s64 %rd125, %rd125, 1;
+setp.lt.s64	%p11, %rd125, %rd16;
+mov.u64 %rd124, %rd56;
+mov.u64 %rd131, %rd132;
+@%p11 bra BB0_8;
+
+BB0_19:
+shl.b64 %rd102, %rd131, 3;
+add.s64 %rd59, %rd28, %rd102;
+setp.eq.s64	%p12, %rd40, 0;
+@%p12 bra BB0_21;
+bra.uni BB0_20;
+
+BB0_21:
+ld.global.f64 %fd5, [%rd59];
+bra.uni BB0_22;
+
+BB0_20:
+ld.global.f64 %fd4, [%rd59+8];
+neg.f64 %fd5, %fd4;
+
+BB0_22:
+shr.u64 %rd103, %rd120, 63;
+add.s64 %rd104, %rd120, %rd103;
+shr.s64 %rd60, %rd104, 1;
+or.b64 %rd105, %rd60, %rd21;
+and.b64 %rd106, %rd105, -4294967296;
+setp.eq.s64	%p13, %rd106, 0;
+@%p13 bra BB0_24;
+bra.uni BB0_23;
+
+BB0_24:
+cvt.u32.u64	%r24, %rd21;
+cvt.u32.u64	%r25, %rd60;
+div.u32 %r26, %r25, %r24;
+rem.u32 %r27, %r25, %r24;
+cvt.u64.u32	%rd134, %r26;
+cvt.u64.u32	%rd135, %r27;
+bra.uni BB0_25;
+
+BB0_23:
+div.s64 %rd134, %rd60, %rd21;
+rem.s64 %rd135, %rd60, %rd21;
+
+BB0_25:
+and.b64 %rd109, %rd104, 2305843009213693950;
+sub.s64 %rd110, %rd120, %rd109;
+add.s64 %rd111, %rd20, %rd135;
+mul.lo.s64 %rd112, %rd19, %rd134;
+add.s64 %rd113, %rd111, %rd112;
+shl.b64 %rd114, %rd113, 1;
+add.s64 %rd115, %rd114, %rd110;
+shl.b64 %rd116, %rd115, 3;
+add.s64 %rd117, %rd29, %rd116;
+st.global.f64 [%rd117], %fd5;
+ld.local.u64 %rd118, [%rd25];
+add.s64 %rd121, %rd118, %rd30;
+st.local.u64 [%rd25], %rd121;
+ld.local.u64 %rd119, [%rd24+120];
+add.s64 %rd120, %rd119, %rd30;
+st.local.u64 [%rd24+120], %rd120;
+add.s32 %r28, %r28, %r4;
+setp.lt.u32	%p14, %r28, %r1;
+@%p14 bra BB0_4;
+
+BB0_26:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_18transform_iteratorIN2at6native22dst_idx_to_src_functorIdEENSK_INSM_22cnt_to_dst_idx_functorENS_17counting_iteratorIlNS_11use_defaultESR_SR_EESR_SR_EESR_SR_EENS_20permutation_iteratorINS_10device_ptrIdEEST_EENS_9null_typeESZ_SZ_SZ_SZ_SZ_SZ_SZ_EEEENS_6detail16wrapped_functionINS12_23unary_transform_functorINS_8identityIdEEEEvEElSZ_SZ_SZ_SZ_SZ_SZ_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_18transform_iteratorIN2at6native22dst_idx_to_src_functorIdEENSK_INSM_22cnt_to_dst_idx_functorENS_17counting_iteratorIlNS_11use_defaultESR_SR_EESR_SR_EESR_SR_EENS_20permutation_iteratorINS_10device_ptrIdEEST_EENS_9null_typeESZ_SZ_SZ_SZ_SZ_SZ_SZ_EEEENS_6detail16wrapped_functionINS12_23unary_transform_functorINS_8identityIdEEEEvEElSZ_SZ_SZ_SZ_SZ_SZ_EEEEEEEEvT0__param_0[232]
+)
+{
+.local .align 8 .b8 __local_depot1[168];
+.reg .b64 %SP;
+.reg .b64 %SPL;
+.reg .pred %p<15>;
+.reg .b32 %r<25>;
+.reg .f64 %fd<6>;
+.reg .b64 %rd<141>;
+
+
+mov.u64 %rd140, __local_depot1;
+cvta.local.u64 %SP, %rd140;
+mov.u64 %rd1, _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_18transform_iteratorIN2at6native22dst_idx_to_src_functorIdEENSK_INSM_22cnt_to_dst_idx_functorENS_17counting_iteratorIlNS_11use_defaultESR_SR_EESR_SR_EESR_SR_EENS_20permutation_iteratorINS_10device_ptrIdEEST_EENS_9null_typeESZ_SZ_SZ_SZ_SZ_SZ_SZ_EEEENS_6detail16wrapped_functionINS12_23unary_transform_functorINS_8identityIdEEEEvEElSZ_SZ_SZ_SZ_SZ_SZ_EEEEEEEEvT0__param_0;
+mov.u32 %r3, %tid.x;
+setp.ne.s32	%p1, %r3, 0;
+mov.u64 %rd73, _ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE;
+cvta.shared.u64 %rd74, %rd73;
+setp.eq.s64	%p2, %rd74, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB1_2;
+
+ld.param.s32 %rd75, [%rd1+212];
+mov.u32 %r4, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE], %r4;
+mov.u64 %rd76, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd77, %rd76;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE+8], %rd77;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE+16], %rd75;
+
+BB1_2:
+ld.param.u64 %rd2, [%rd1+16];
+ld.param.u64 %rd3, [%rd1+24];
+ld.param.u64 %rd4, [%rd1+32];
+ld.param.u64 %rd5, [%rd1+40];
+ld.param.u64 %rd6, [%rd1+48];
+ld.param.u64 %rd7, [%rd1+56];
+ld.param.u64 %rd8, [%rd1+64];
+ld.param.u64 %rd9, [%rd1+72];
+ld.param.u64 %rd10, [%rd1+80];
+ld.param.u64 %rd11, [%rd1+88];
+ld.param.u64 %rd12, [%rd1+96];
+ld.param.u64 %rd13, [%rd1+104];
+ld.param.u64 %rd14, [%rd1+112];
+ld.param.u64 %rd15, [%rd1+120];
+ld.param.u64 %rd16, [%rd1+128];
+ld.param.u64 %rd17, [%rd1+136];
+ld.param.u64 %rd18, [%rd1+144];
+ld.param.u64 %rd19, [%rd1+152];
+ld.param.u64 %rd20, [%rd1+160];
+ld.param.u64 %rd21, [%rd1+168];
+ld.param.u64 %rd22, [%rd1+176];
+ld.param.u64 %rd23, [%rd1+192];
+mov.u32 %r5, %ctaid.x;
+ld.param.u32 %r6, [%rd1+224];
+add.s32 %r1, %r5, %r6;
+bar.sync 0;
+add.u64 %rd78, %SP, 0;
+cvta.to.local.u64 %rd27, %rd78;
+mov.u64 %rd24, %rd27;
+add.s64 %rd25, %rd27, 8;
+st.local.u64 [%rd27+8], %rd3;
+st.local.u64 [%rd27+16], %rd4;
+st.local.u64 [%rd27+24], %rd5;
+st.local.u64 [%rd27+32], %rd6;
+st.local.u64 [%rd27+40], %rd7;
+st.local.u64 [%rd27+48], %rd8;
+st.local.u64 [%rd27+56], %rd9;
+st.local.u64 [%rd27+64], %rd10;
+st.local.u64 [%rd27+72], %rd11;
+st.local.u64 [%rd27+80], %rd12;
+st.local.u64 [%rd27+88], %rd13;
+st.local.u64 [%rd27+96], %rd14;
+st.local.u64 [%rd27+104], %rd15;
+st.local.u64 [%rd27+112], %rd16;
+st.local.u64 [%rd27+120], %rd17;
+st.local.u64 [%rd27+136], %rd19;
+st.local.u64 [%rd27+144], %rd20;
+st.local.u64 [%rd27+152], %rd21;
+st.local.u64 [%rd27+160], %rd22;
+mov.u32 %r2, %ntid.x;
+mad.lo.s32 %r8, %r1, %r2, %r3;
+cvt.s64.s32	%rd125, %r8;
+add.s64 %rd124, %rd2, %rd125;
+add.s64 %rd123, %rd18, %rd125;
+st.local.u64 [%rd27+128], %rd123;
+st.local.u64 [%rd27], %rd124;
+setp.ge.s64	%p4, %rd125, %rd23;
+@%p4 bra BB1_26;
+
+cvta.to.global.u64 %rd30, %rd17;
+cvta.to.global.u64 %rd31, %rd22;
+ld.param.u32 %r9, [%rd1+216];
+mul.lo.s32 %r10, %r2, %r9;
+cvt.s64.s32	%rd32, %r10;
+
+BB1_4:
+shr.u64 %rd79, %rd124, 63;
+add.s64 %rd80, %rd124, %rd79;
+shr.s64 %rd36, %rd80, 1;
+or.b64 %rd81, %rd36, %rd5;
+and.b64 %rd82, %rd81, -4294967296;
+setp.eq.s64	%p5, %rd82, 0;
+@%p5 bra BB1_6;
+bra.uni BB1_5;
+
+BB1_6:
+cvt.u32.u64	%r11, %rd5;
+cvt.u32.u64	%r12, %rd36;
+div.u32 %r13, %r12, %r11;
+rem.u32 %r14, %r12, %r11;
+cvt.u64.u32	%rd126, %r13;
+cvt.u64.u32	%rd127, %r14;
+bra.uni BB1_7;
+
+BB1_5:
+div.s64 %rd126, %rd36, %rd5;
+rem.s64 %rd127, %rd36, %rd5;
+
+BB1_7:
+and.b64 %rd88, %rd80, -2;
+sub.s64 %rd89, %rd124, %rd88;
+add.s64 %rd90, %rd4, %rd127;
+mul.lo.s64 %rd91, %rd3, %rd126;
+add.s64 %rd92, %rd90, %rd91;
+shl.b64 %rd93, %rd92, 1;
+add.s64 %rd94, %rd93, %rd89;
+shr.u64 %rd95, %rd94, 63;
+add.s64 %rd96, %rd94, %rd95;
+and.b64 %rd130, %rd96, -2;
+sub.s64 %rd43, %rd94, %rd130;
+mov.u64 %rd135, 0;
+mov.u64 %rd136, %rd135;
+mov.u64 %rd129, %rd135;
+setp.lt.s64	%p6, %rd16, 1;
+mov.u64 %rd128, %rd24;
+@%p6 bra BB1_19;
+
+BB1_8:
+mov.u64 %rd137, %rd136;
+mov.u64 %rd45, %rd128;
+ld.local.u64 %rd49, [%rd45+72];
+or.b64 %rd97, %rd130, %rd49;
+and.b64 %rd98, %rd97, -4294967296;
+setp.eq.s64	%p7, %rd98, 0;
+@%p7 bra BB1_10;
+bra.uni BB1_9;
+
+BB1_10:
+cvt.u32.u64	%r15, %rd49;
+cvt.u32.u64	%r16, %rd130;
+div.u32 %r17, %r16, %r15;
+cvt.u64.u32	%rd131, %r17;
+bra.uni BB1_11;
+
+BB1_9:
+div.s64 %rd131, %rd130, %rd49;
+
+BB1_11:
+setp.eq.s64	%p8, %rd129, 0;
+@%p8 bra BB1_14;
+bra.uni BB1_12;
+
+BB1_14:
+mul.lo.s64 %rd102, %rd131, %rd49;
+add.s64 %rd137, %rd102, %rd137;
+bra.uni BB1_15;
+
+BB1_12:
+setp.eq.s64	%p9, %rd131, 0;
+@%p9 bra BB1_15;
+
+ld.local.u64 %rd99, [%rd45+32];
+sub.s64 %rd100, %rd99, %rd131;
+mul.lo.s64 %rd101, %rd100, %rd49;
+add.s64 %rd137, %rd101, %rd137;
+
+BB1_15:
+mov.u64 %rd136, %rd137;
+@%p7 bra BB1_17;
+bra.uni BB1_16;
+
+BB1_17:
+cvt.u32.u64	%r18, %rd49;
+cvt.u32.u64	%r19, %rd130;
+rem.u32 %r20, %r19, %r18;
+cvt.u64.u32	%rd130, %r20;
+bra.uni BB1_18;
+
+BB1_16:
+rem.s64 %rd130, %rd130, %rd49;
+
+BB1_18:
+add.s64 %rd59, %rd45, 8;
+add.s64 %rd129, %rd129, 1;
+setp.lt.s64	%p11, %rd129, %rd16;
+mov.u64 %rd128, %rd59;
+mov.u64 %rd135, %rd136;
+@%p11 bra BB1_8;
+
+BB1_19:
+shl.b64 %rd105, %rd135, 3;
+add.s64 %rd62, %rd30, %rd105;
+setp.eq.s64	%p12, %rd43, 0;
+@%p12 bra BB1_21;
+bra.uni BB1_20;
+
+BB1_21:
+ld.global.f64 %fd5, [%rd62];
+bra.uni BB1_22;
+
+BB1_20:
+ld.global.f64 %fd4, [%rd62+8];
+neg.f64 %fd5, %fd4;
+
+BB1_22:
+shr.u64 %rd106, %rd123, 63;
+add.s64 %rd107, %rd123, %rd106;
+shr.s64 %rd63, %rd107, 1;
+or.b64 %rd108, %rd63, %rd21;
+and.b64 %rd109, %rd108, -4294967296;
+setp.eq.s64	%p13, %rd109, 0;
+@%p13 bra BB1_24;
+bra.uni BB1_23;
+
+BB1_24:
+cvt.u32.u64	%r21, %rd21;
+cvt.u32.u64	%r22, %rd63;
+div.u32 %r23, %r22, %r21;
+rem.u32 %r24, %r22, %r21;
+cvt.u64.u32	%rd138, %r23;
+cvt.u64.u32	%rd139, %r24;
+bra.uni BB1_25;
+
+BB1_23:
+div.s64 %rd138, %rd63, %rd21;
+rem.s64 %rd139, %rd63, %rd21;
+
+BB1_25:
+and.b64 %rd112, %rd107, 2305843009213693950;
+sub.s64 %rd113, %rd123, %rd112;
+add.s64 %rd114, %rd20, %rd139;
+mul.lo.s64 %rd115, %rd19, %rd138;
+add.s64 %rd116, %rd114, %rd115;
+shl.b64 %rd117, %rd116, 1;
+add.s64 %rd118, %rd117, %rd113;
+shl.b64 %rd119, %rd118, 3;
+add.s64 %rd120, %rd31, %rd119;
+st.global.f64 [%rd120], %fd5;
+ld.local.u64 %rd121, [%rd27];
+add.s64 %rd124, %rd121, %rd32;
+st.local.u64 [%rd27], %rd124;
+ld.local.u64 %rd122, [%rd25+120];
+add.s64 %rd123, %rd122, %rd32;
+st.local.u64 [%rd25+120], %rd123;
+add.s64 %rd125, %rd125, %rd32;
+setp.lt.s64	%p14, %rd125, %rd23;
+@%p14 bra BB1_4;
+
+BB1_26:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_18transform_iteratorIN2at6native22dst_idx_to_src_functorIfEENSK_INSM_22cnt_to_dst_idx_functorENS_17counting_iteratorIlNS_11use_defaultESR_SR_EESR_SR_EESR_SR_EENS_20permutation_iteratorINS_10device_ptrIfEEST_EENS_9null_typeESZ_SZ_SZ_SZ_SZ_SZ_SZ_EEEENS_6detail16wrapped_functionINS12_23unary_transform_functorINS_8identityIfEEEEvEEjSZ_SZ_SZ_SZ_SZ_SZ_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_18transform_iteratorIN2at6native22dst_idx_to_src_functorIfEENSK_INSM_22cnt_to_dst_idx_functorENS_17counting_iteratorIlNS_11use_defaultESR_SR_EESR_SR_EESR_SR_EENS_20permutation_iteratorINS_10device_ptrIfEEST_EENS_9null_typeESZ_SZ_SZ_SZ_SZ_SZ_SZ_EEEENS_6detail16wrapped_functionINS12_23unary_transform_functorINS_8identityIfEEEEvEEjSZ_SZ_SZ_SZ_SZ_SZ_EEEEEEEEvT0__param_0[224]
+)
+{
+.local .align 8 .b8 __local_depot2[168];
+.reg .b64 %SP;
+.reg .b64 %SPL;
+.reg .pred %p<15>;
+.reg .f32 %f<6>;
+.reg .b32 %r<29>;
+.reg .b64 %rd<137>;
+
+
+mov.u64 %rd136, __local_depot2;
+cvta.local.u64 %SP, %rd136;
+mov.u64 %rd1, _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_18transform_iteratorIN2at6native22dst_idx_to_src_functorIfEENSK_INSM_22cnt_to_dst_idx_functorENS_17counting_iteratorIlNS_11use_defaultESR_SR_EESR_SR_EESR_SR_EENS_20permutation_iteratorINS_10device_ptrIfEEST_EENS_9null_typeESZ_SZ_SZ_SZ_SZ_SZ_SZ_EEEENS_6detail16wrapped_functionINS12_23unary_transform_functorINS_8identityIfEEEEvEEjSZ_SZ_SZ_SZ_SZ_SZ_EEEEEEEEvT0__param_0;
+mov.u32 %r8, %tid.x;
+setp.ne.s32	%p1, %r8, 0;
+mov.u64 %rd69, _ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE;
+cvta.shared.u64 %rd70, %rd69;
+setp.eq.s64	%p2, %rd70, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB2_2;
+
+ld.param.s32 %rd71, [%rd1+204];
+mov.u32 %r9, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE], %r9;
+mov.u64 %rd72, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd73, %rd72;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE+8], %rd73;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE+16], %rd71;
+
+BB2_2:
+ld.param.u64 %rd2, [%rd1+16];
+ld.param.u64 %rd3, [%rd1+24];
+ld.param.u64 %rd4, [%rd1+32];
+ld.param.u64 %rd5, [%rd1+40];
+ld.param.u64 %rd6, [%rd1+48];
+ld.param.u64 %rd7, [%rd1+56];
+ld.param.u64 %rd8, [%rd1+64];
+ld.param.u64 %rd9, [%rd1+72];
+ld.param.u64 %rd10, [%rd1+80];
+ld.param.u64 %rd11, [%rd1+88];
+ld.param.u64 %rd12, [%rd1+96];
+ld.param.u64 %rd13, [%rd1+104];
+ld.param.u64 %rd14, [%rd1+112];
+ld.param.u64 %rd15, [%rd1+120];
+ld.param.u64 %rd16, [%rd1+128];
+ld.param.u64 %rd17, [%rd1+136];
+ld.param.u64 %rd18, [%rd1+144];
+ld.param.u64 %rd19, [%rd1+152];
+ld.param.u64 %rd20, [%rd1+160];
+ld.param.u64 %rd21, [%rd1+168];
+ld.param.u64 %rd22, [%rd1+176];
+ld.param.u32 %r1, [%rd1+188];
+ld.param.u32 %r2, [%rd1+208];
+mov.u32 %r10, %ctaid.x;
+ld.param.u32 %r11, [%rd1+216];
+add.s32 %r3, %r10, %r11;
+bar.sync 0;
+add.u64 %rd74, %SP, 0;
+cvta.to.local.u64 %rd25, %rd74;
+mov.u64 %rd23, %rd25;
+add.s64 %rd24, %rd25, 8;
+st.local.u64 [%rd25+8], %rd3;
+st.local.u64 [%rd25+16], %rd4;
+st.local.u64 [%rd25+24], %rd5;
+st.local.u64 [%rd25+32], %rd6;
+st.local.u64 [%rd25+40], %rd7;
+st.local.u64 [%rd25+48], %rd8;
+st.local.u64 [%rd25+56], %rd9;
+st.local.u64 [%rd25+64], %rd10;
+st.local.u64 [%rd25+72], %rd11;
+st.local.u64 [%rd25+80], %rd12;
+st.local.u64 [%rd25+88], %rd13;
+st.local.u64 [%rd25+96], %rd14;
+st.local.u64 [%rd25+104], %rd15;
+st.local.u64 [%rd25+112], %rd16;
+st.local.u64 [%rd25+120], %rd17;
+st.local.u64 [%rd25+136], %rd19;
+st.local.u64 [%rd25+144], %rd20;
+st.local.u64 [%rd25+152], %rd21;
+st.local.u64 [%rd25+160], %rd22;
+mov.u32 %r12, %ntid.x;
+mul.lo.s32 %r4, %r12, %r2;
+mad.lo.s32 %r28, %r3, %r12, %r8;
+cvt.u64.u32	%rd75, %r28;
+add.s64 %rd121, %rd2, %rd75;
+add.s64 %rd120, %rd18, %rd75;
+st.local.u64 [%rd25+128], %rd120;
+st.local.u64 [%rd25], %rd121;
+setp.ge.u32	%p4, %r28, %r1;
+@%p4 bra BB2_26;
+
+cvta.to.global.u64 %rd28, %rd17;
+cvta.to.global.u64 %rd29, %rd22;
+cvt.u64.u32	%rd30, %r4;
+
+BB2_4:
+shr.u64 %rd76, %rd121, 63;
+add.s64 %rd77, %rd121, %rd76;
+shr.s64 %rd33, %rd77, 1;
+or.b64 %rd78, %rd33, %rd5;
+and.b64 %rd79, %rd78, -4294967296;
+setp.eq.s64	%p5, %rd79, 0;
+@%p5 bra BB2_6;
+bra.uni BB2_5;
+
+BB2_6:
+cvt.u32.u64	%r14, %rd5;
+cvt.u32.u64	%r15, %rd33;
+div.u32 %r16, %r15, %r14;
+rem.u32 %r17, %r15, %r14;
+cvt.u64.u32	%rd122, %r16;
+cvt.u64.u32	%rd123, %r17;
+bra.uni BB2_7;
+
+BB2_5:
+div.s64 %rd122, %rd33, %rd5;
+rem.s64 %rd123, %rd33, %rd5;
+
+BB2_7:
+and.b64 %rd85, %rd77, -2;
+sub.s64 %rd86, %rd121, %rd85;
+add.s64 %rd87, %rd4, %rd123;
+mul.lo.s64 %rd88, %rd3, %rd122;
+add.s64 %rd89, %rd87, %rd88;
+shl.b64 %rd90, %rd89, 1;
+add.s64 %rd91, %rd90, %rd86;
+shr.u64 %rd92, %rd91, 63;
+add.s64 %rd93, %rd91, %rd92;
+and.b64 %rd126, %rd93, -2;
+sub.s64 %rd40, %rd91, %rd126;
+mov.u64 %rd131, 0;
+mov.u64 %rd132, %rd131;
+mov.u64 %rd125, %rd131;
+setp.lt.s64	%p6, %rd16, 1;
+mov.u64 %rd124, %rd23;
+@%p6 bra BB2_19;
+
+BB2_8:
+mov.u64 %rd133, %rd132;
+mov.u64 %rd42, %rd124;
+ld.local.u64 %rd46, [%rd42+72];
+or.b64 %rd94, %rd126, %rd46;
+and.b64 %rd95, %rd94, -4294967296;
+setp.eq.s64	%p7, %rd95, 0;
+@%p7 bra BB2_10;
+bra.uni BB2_9;
+
+BB2_10:
+cvt.u32.u64	%r18, %rd46;
+cvt.u32.u64	%r19, %rd126;
+div.u32 %r20, %r19, %r18;
+cvt.u64.u32	%rd127, %r20;
+bra.uni BB2_11;
+
+BB2_9:
+div.s64 %rd127, %rd126, %rd46;
+
+BB2_11:
+setp.eq.s64	%p8, %rd125, 0;
+@%p8 bra BB2_14;
+bra.uni BB2_12;
+
+BB2_14:
+mul.lo.s64 %rd99, %rd127, %rd46;
+add.s64 %rd133, %rd99, %rd133;
+bra.uni BB2_15;
+
+BB2_12:
+setp.eq.s64	%p9, %rd127, 0;
+@%p9 bra BB2_15;
+
+ld.local.u64 %rd96, [%rd42+32];
+sub.s64 %rd97, %rd96, %rd127;
+mul.lo.s64 %rd98, %rd97, %rd46;
+add.s64 %rd133, %rd98, %rd133;
+
+BB2_15:
+mov.u64 %rd132, %rd133;
+@%p7 bra BB2_17;
+bra.uni BB2_16;
+
+BB2_17:
+cvt.u32.u64	%r21, %rd46;
+cvt.u32.u64	%r22, %rd126;
+rem.u32 %r23, %r22, %r21;
+cvt.u64.u32	%rd126, %r23;
+bra.uni BB2_18;
+
+BB2_16:
+rem.s64 %rd126, %rd126, %rd46;
+
+BB2_18:
+add.s64 %rd56, %rd42, 8;
+add.s64 %rd125, %rd125, 1;
+setp.lt.s64	%p11, %rd125, %rd16;
+mov.u64 %rd124, %rd56;
+mov.u64 %rd131, %rd132;
+@%p11 bra BB2_8;
+
+BB2_19:
+shl.b64 %rd102, %rd131, 2;
+add.s64 %rd59, %rd28, %rd102;
+setp.eq.s64	%p12, %rd40, 0;
+@%p12 bra BB2_21;
+bra.uni BB2_20;
+
+BB2_21:
+ld.global.f32 %f5, [%rd59];
+bra.uni BB2_22;
+
+BB2_20:
+ld.global.f32 %f4, [%rd59+4];
+neg.f32 %f5, %f4;
+
+BB2_22:
+shr.u64 %rd103, %rd120, 63;
+add.s64 %rd104, %rd120, %rd103;
+shr.s64 %rd60, %rd104, 1;
+or.b64 %rd105, %rd60, %rd21;
+and.b64 %rd106, %rd105, -4294967296;
+setp.eq.s64	%p13, %rd106, 0;
+@%p13 bra BB2_24;
+bra.uni BB2_23;
+
+BB2_24:
+cvt.u32.u64	%r24, %rd21;
+cvt.u32.u64	%r25, %rd60;
+div.u32 %r26, %r25, %r24;
+rem.u32 %r27, %r25, %r24;
+cvt.u64.u32	%rd134, %r26;
+cvt.u64.u32	%rd135, %r27;
+bra.uni BB2_25;
+
+BB2_23:
+div.s64 %rd134, %rd60, %rd21;
+rem.s64 %rd135, %rd60, %rd21;
+
+BB2_25:
+and.b64 %rd109, %rd104, 4611686018427387902;
+sub.s64 %rd110, %rd120, %rd109;
+add.s64 %rd111, %rd20, %rd135;
+mul.lo.s64 %rd112, %rd19, %rd134;
+add.s64 %rd113, %rd111, %rd112;
+shl.b64 %rd114, %rd113, 1;
+add.s64 %rd115, %rd114, %rd110;
+shl.b64 %rd116, %rd115, 2;
+add.s64 %rd117, %rd29, %rd116;
+st.global.f32 [%rd117], %f5;
+ld.local.u64 %rd118, [%rd25];
+add.s64 %rd121, %rd118, %rd30;
+st.local.u64 [%rd25], %rd121;
+ld.local.u64 %rd119, [%rd24+120];
+add.s64 %rd120, %rd119, %rd30;
+st.local.u64 [%rd24+120], %rd120;
+add.s32 %r28, %r28, %r4;
+setp.lt.u32	%p14, %r28, %r1;
+@%p14 bra BB2_4;
+
+BB2_26:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_18transform_iteratorIN2at6native22dst_idx_to_src_functorIfEENSK_INSM_22cnt_to_dst_idx_functorENS_17counting_iteratorIlNS_11use_defaultESR_SR_EESR_SR_EESR_SR_EENS_20permutation_iteratorINS_10device_ptrIfEEST_EENS_9null_typeESZ_SZ_SZ_SZ_SZ_SZ_SZ_EEEENS_6detail16wrapped_functionINS12_23unary_transform_functorINS_8identityIfEEEEvEElSZ_SZ_SZ_SZ_SZ_SZ_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_18transform_iteratorIN2at6native22dst_idx_to_src_functorIfEENSK_INSM_22cnt_to_dst_idx_functorENS_17counting_iteratorIlNS_11use_defaultESR_SR_EESR_SR_EESR_SR_EENS_20permutation_iteratorINS_10device_ptrIfEEST_EENS_9null_typeESZ_SZ_SZ_SZ_SZ_SZ_SZ_EEEENS_6detail16wrapped_functionINS12_23unary_transform_functorINS_8identityIfEEEEvEElSZ_SZ_SZ_SZ_SZ_SZ_EEEEEEEEvT0__param_0[232]
+)
+{
+.local .align 8 .b8 __local_depot3[168];
+.reg .b64 %SP;
+.reg .b64 %SPL;
+.reg .pred %p<15>;
+.reg .f32 %f<6>;
+.reg .b32 %r<25>;
+.reg .b64 %rd<141>;
+
+
+mov.u64 %rd140, __local_depot3;
+cvta.local.u64 %SP, %rd140;
+mov.u64 %rd1, _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_18transform_iteratorIN2at6native22dst_idx_to_src_functorIfEENSK_INSM_22cnt_to_dst_idx_functorENS_17counting_iteratorIlNS_11use_defaultESR_SR_EESR_SR_EESR_SR_EENS_20permutation_iteratorINS_10device_ptrIfEEST_EENS_9null_typeESZ_SZ_SZ_SZ_SZ_SZ_SZ_EEEENS_6detail16wrapped_functionINS12_23unary_transform_functorINS_8identityIfEEEEvEElSZ_SZ_SZ_SZ_SZ_SZ_EEEEEEEEvT0__param_0;
+mov.u32 %r3, %tid.x;
+setp.ne.s32	%p1, %r3, 0;
+mov.u64 %rd73, _ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE;
+cvta.shared.u64 %rd74, %rd73;
+setp.eq.s64	%p2, %rd74, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB3_2;
+
+ld.param.s32 %rd75, [%rd1+212];
+mov.u32 %r4, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE], %r4;
+mov.u64 %rd76, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd77, %rd76;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE+8], %rd77;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE+16], %rd75;
+
+BB3_2:
+ld.param.u64 %rd2, [%rd1+16];
+ld.param.u64 %rd3, [%rd1+24];
+ld.param.u64 %rd4, [%rd1+32];
+ld.param.u64 %rd5, [%rd1+40];
+ld.param.u64 %rd6, [%rd1+48];
+ld.param.u64 %rd7, [%rd1+56];
+ld.param.u64 %rd8, [%rd1+64];
+ld.param.u64 %rd9, [%rd1+72];
+ld.param.u64 %rd10, [%rd1+80];
+ld.param.u64 %rd11, [%rd1+88];
+ld.param.u64 %rd12, [%rd1+96];
+ld.param.u64 %rd13, [%rd1+104];
+ld.param.u64 %rd14, [%rd1+112];
+ld.param.u64 %rd15, [%rd1+120];
+ld.param.u64 %rd16, [%rd1+128];
+ld.param.u64 %rd17, [%rd1+136];
+ld.param.u64 %rd18, [%rd1+144];
+ld.param.u64 %rd19, [%rd1+152];
+ld.param.u64 %rd20, [%rd1+160];
+ld.param.u64 %rd21, [%rd1+168];
+ld.param.u64 %rd22, [%rd1+176];
+ld.param.u64 %rd23, [%rd1+192];
+mov.u32 %r5, %ctaid.x;
+ld.param.u32 %r6, [%rd1+224];
+add.s32 %r1, %r5, %r6;
+bar.sync 0;
+add.u64 %rd78, %SP, 0;
+cvta.to.local.u64 %rd27, %rd78;
+mov.u64 %rd24, %rd27;
+add.s64 %rd25, %rd27, 8;
+st.local.u64 [%rd27+8], %rd3;
+st.local.u64 [%rd27+16], %rd4;
+st.local.u64 [%rd27+24], %rd5;
+st.local.u64 [%rd27+32], %rd6;
+st.local.u64 [%rd27+40], %rd7;
+st.local.u64 [%rd27+48], %rd8;
+st.local.u64 [%rd27+56], %rd9;
+st.local.u64 [%rd27+64], %rd10;
+st.local.u64 [%rd27+72], %rd11;
+st.local.u64 [%rd27+80], %rd12;
+st.local.u64 [%rd27+88], %rd13;
+st.local.u64 [%rd27+96], %rd14;
+st.local.u64 [%rd27+104], %rd15;
+st.local.u64 [%rd27+112], %rd16;
+st.local.u64 [%rd27+120], %rd17;
+st.local.u64 [%rd27+136], %rd19;
+st.local.u64 [%rd27+144], %rd20;
+st.local.u64 [%rd27+152], %rd21;
+st.local.u64 [%rd27+160], %rd22;
+mov.u32 %r2, %ntid.x;
+mad.lo.s32 %r8, %r1, %r2, %r3;
+cvt.s64.s32	%rd125, %r8;
+add.s64 %rd124, %rd2, %rd125;
+add.s64 %rd123, %rd18, %rd125;
+st.local.u64 [%rd27+128], %rd123;
+st.local.u64 [%rd27], %rd124;
+setp.ge.s64	%p4, %rd125, %rd23;
+@%p4 bra BB3_26;
+
+cvta.to.global.u64 %rd30, %rd17;
+cvta.to.global.u64 %rd31, %rd22;
+ld.param.u32 %r9, [%rd1+216];
+mul.lo.s32 %r10, %r2, %r9;
+cvt.s64.s32	%rd32, %r10;
+
+BB3_4:
+shr.u64 %rd79, %rd124, 63;
+add.s64 %rd80, %rd124, %rd79;
+shr.s64 %rd36, %rd80, 1;
+or.b64 %rd81, %rd36, %rd5;
+and.b64 %rd82, %rd81, -4294967296;
+setp.eq.s64	%p5, %rd82, 0;
+@%p5 bra BB3_6;
+bra.uni BB3_5;
+
+BB3_6:
+cvt.u32.u64	%r11, %rd5;
+cvt.u32.u64	%r12, %rd36;
+div.u32 %r13, %r12, %r11;
+rem.u32 %r14, %r12, %r11;
+cvt.u64.u32	%rd126, %r13;
+cvt.u64.u32	%rd127, %r14;
+bra.uni BB3_7;
+
+BB3_5:
+div.s64 %rd126, %rd36, %rd5;
+rem.s64 %rd127, %rd36, %rd5;
+
+BB3_7:
+and.b64 %rd88, %rd80, -2;
+sub.s64 %rd89, %rd124, %rd88;
+add.s64 %rd90, %rd4, %rd127;
+mul.lo.s64 %rd91, %rd3, %rd126;
+add.s64 %rd92, %rd90, %rd91;
+shl.b64 %rd93, %rd92, 1;
+add.s64 %rd94, %rd93, %rd89;
+shr.u64 %rd95, %rd94, 63;
+add.s64 %rd96, %rd94, %rd95;
+and.b64 %rd130, %rd96, -2;
+sub.s64 %rd43, %rd94, %rd130;
+mov.u64 %rd135, 0;
+mov.u64 %rd136, %rd135;
+mov.u64 %rd129, %rd135;
+setp.lt.s64	%p6, %rd16, 1;
+mov.u64 %rd128, %rd24;
+@%p6 bra BB3_19;
+
+BB3_8:
+mov.u64 %rd137, %rd136;
+mov.u64 %rd45, %rd128;
+ld.local.u64 %rd49, [%rd45+72];
+or.b64 %rd97, %rd130, %rd49;
+and.b64 %rd98, %rd97, -4294967296;
+setp.eq.s64	%p7, %rd98, 0;
+@%p7 bra BB3_10;
+bra.uni BB3_9;
+
+BB3_10:
+cvt.u32.u64	%r15, %rd49;
+cvt.u32.u64	%r16, %rd130;
+div.u32 %r17, %r16, %r15;
+cvt.u64.u32	%rd131, %r17;
+bra.uni BB3_11;
+
+BB3_9:
+div.s64 %rd131, %rd130, %rd49;
+
+BB3_11:
+setp.eq.s64	%p8, %rd129, 0;
+@%p8 bra BB3_14;
+bra.uni BB3_12;
+
+BB3_14:
+mul.lo.s64 %rd102, %rd131, %rd49;
+add.s64 %rd137, %rd102, %rd137;
+bra.uni BB3_15;
+
+BB3_12:
+setp.eq.s64	%p9, %rd131, 0;
+@%p9 bra BB3_15;
+
+ld.local.u64 %rd99, [%rd45+32];
+sub.s64 %rd100, %rd99, %rd131;
+mul.lo.s64 %rd101, %rd100, %rd49;
+add.s64 %rd137, %rd101, %rd137;
+
+BB3_15:
+mov.u64 %rd136, %rd137;
+@%p7 bra BB3_17;
+bra.uni BB3_16;
+
+BB3_17:
+cvt.u32.u64	%r18, %rd49;
+cvt.u32.u64	%r19, %rd130;
+rem.u32 %r20, %r19, %r18;
+cvt.u64.u32	%rd130, %r20;
+bra.uni BB3_18;
+
+BB3_16:
+rem.s64 %rd130, %rd130, %rd49;
+
+BB3_18:
+add.s64 %rd59, %rd45, 8;
+add.s64 %rd129, %rd129, 1;
+setp.lt.s64	%p11, %rd129, %rd16;
+mov.u64 %rd128, %rd59;
+mov.u64 %rd135, %rd136;
+@%p11 bra BB3_8;
+
+BB3_19:
+shl.b64 %rd105, %rd135, 2;
+add.s64 %rd62, %rd30, %rd105;
+setp.eq.s64	%p12, %rd43, 0;
+@%p12 bra BB3_21;
+bra.uni BB3_20;
+
+BB3_21:
+ld.global.f32 %f5, [%rd62];
+bra.uni BB3_22;
+
+BB3_20:
+ld.global.f32 %f4, [%rd62+4];
+neg.f32 %f5, %f4;
+
+BB3_22:
+shr.u64 %rd106, %rd123, 63;
+add.s64 %rd107, %rd123, %rd106;
+shr.s64 %rd63, %rd107, 1;
+or.b64 %rd108, %rd63, %rd21;
+and.b64 %rd109, %rd108, -4294967296;
+setp.eq.s64	%p13, %rd109, 0;
+@%p13 bra BB3_24;
+bra.uni BB3_23;
+
+BB3_24:
+cvt.u32.u64	%r21, %rd21;
+cvt.u32.u64	%r22, %rd63;
+div.u32 %r23, %r22, %r21;
+rem.u32 %r24, %r22, %r21;
+cvt.u64.u32	%rd138, %r23;
+cvt.u64.u32	%rd139, %r24;
+bra.uni BB3_25;
+
+BB3_23:
+div.s64 %rd138, %rd63, %rd21;
+rem.s64 %rd139, %rd63, %rd21;
+
+BB3_25:
+and.b64 %rd112, %rd107, 4611686018427387902;
+sub.s64 %rd113, %rd123, %rd112;
+add.s64 %rd114, %rd20, %rd139;
+mul.lo.s64 %rd115, %rd19, %rd138;
+add.s64 %rd116, %rd114, %rd115;
+shl.b64 %rd117, %rd116, 1;
+add.s64 %rd118, %rd117, %rd113;
+shl.b64 %rd119, %rd118, 2;
+add.s64 %rd120, %rd31, %rd119;
+st.global.f32 [%rd120], %f5;
+ld.local.u64 %rd121, [%rd27];
+add.s64 %rd124, %rd121, %rd32;
+st.local.u64 [%rd27], %rd124;
+ld.local.u64 %rd122, [%rd25+120];
+add.s64 %rd123, %rd122, %rd32;
+st.local.u64 [%rd25+120], %rd123;
+add.s64 %rd125, %rd125, %rd32;
+setp.lt.s64	%p14, %rd125, %rd23;
+@%p14 bra BB3_4;
+
+BB3_26:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_18transform_iteratorIN2at6native22dst_idx_to_src_functorIN3c104HalfEEENSK_INSM_22cnt_to_dst_idx_functorENS_17counting_iteratorIlNS_11use_defaultEST_ST_EEST_ST_EEST_ST_EENS_20permutation_iteratorINS_10device_ptrISP_EESV_EENS_9null_typeES11_S11_S11_S11_S11_S11_S11_EEEENS_6detail16wrapped_functionINS14_23unary_transform_functorINS_8identityISP_EEEEvEEjS11_S11_S11_S11_S11_S11_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_18transform_iteratorIN2at6native22dst_idx_to_src_functorIN3c104HalfEEENSK_INSM_22cnt_to_dst_idx_functorENS_17counting_iteratorIlNS_11use_defaultEST_ST_EEST_ST_EEST_ST_EENS_20permutation_iteratorINS_10device_ptrISP_EESV_EENS_9null_typeES11_S11_S11_S11_S11_S11_S11_EEEENS_6detail16wrapped_functionINS14_23unary_transform_functorINS_8identityISP_EEEEvEEjS11_S11_S11_S11_S11_S11_EEEEEEEEvT0__param_0[224]
+)
+{
+.local .align 8 .b8 __local_depot4[168];
+.reg .b64 %SP;
+.reg .b64 %SPL;
+.reg .pred %p<15>;
+.reg .b16 %rs<7>;
+.reg .f32 %f<3>;
+.reg .b32 %r<29>;
+.reg .b64 %rd<137>;
+
+
+mov.u64 %rd136, __local_depot4;
+cvta.local.u64 %SP, %rd136;
+mov.u64 %rd1, _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_18transform_iteratorIN2at6native22dst_idx_to_src_functorIN3c104HalfEEENSK_INSM_22cnt_to_dst_idx_functorENS_17counting_iteratorIlNS_11use_defaultEST_ST_EEST_ST_EEST_ST_EENS_20permutation_iteratorINS_10device_ptrISP_EESV_EENS_9null_typeES11_S11_S11_S11_S11_S11_S11_EEEENS_6detail16wrapped_functionINS14_23unary_transform_functorINS_8identityISP_EEEEvEEjS11_S11_S11_S11_S11_S11_EEEEEEEEvT0__param_0;
+mov.u32 %r8, %tid.x;
+setp.ne.s32	%p1, %r8, 0;
+mov.u64 %rd69, _ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE;
+cvta.shared.u64 %rd70, %rd69;
+setp.eq.s64	%p2, %rd70, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB4_2;
+
+ld.param.s32 %rd71, [%rd1+204];
+mov.u32 %r9, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE], %r9;
+mov.u64 %rd72, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd73, %rd72;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE+8], %rd73;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE+16], %rd71;
+
+BB4_2:
+ld.param.u64 %rd2, [%rd1+16];
+ld.param.u64 %rd3, [%rd1+24];
+ld.param.u64 %rd4, [%rd1+32];
+ld.param.u64 %rd5, [%rd1+40];
+ld.param.u64 %rd6, [%rd1+48];
+ld.param.u64 %rd7, [%rd1+56];
+ld.param.u64 %rd8, [%rd1+64];
+ld.param.u64 %rd9, [%rd1+72];
+ld.param.u64 %rd10, [%rd1+80];
+ld.param.u64 %rd11, [%rd1+88];
+ld.param.u64 %rd12, [%rd1+96];
+ld.param.u64 %rd13, [%rd1+104];
+ld.param.u64 %rd14, [%rd1+112];
+ld.param.u64 %rd15, [%rd1+120];
+ld.param.u64 %rd16, [%rd1+128];
+ld.param.u64 %rd17, [%rd1+136];
+ld.param.u64 %rd18, [%rd1+144];
+ld.param.u64 %rd19, [%rd1+152];
+ld.param.u64 %rd20, [%rd1+160];
+ld.param.u64 %rd21, [%rd1+168];
+ld.param.u64 %rd22, [%rd1+176];
+ld.param.u32 %r1, [%rd1+188];
+ld.param.u32 %r2, [%rd1+208];
+mov.u32 %r10, %ctaid.x;
+ld.param.u32 %r11, [%rd1+216];
+add.s32 %r3, %r10, %r11;
+bar.sync 0;
+add.u64 %rd74, %SP, 0;
+cvta.to.local.u64 %rd25, %rd74;
+mov.u64 %rd23, %rd25;
+add.s64 %rd24, %rd25, 8;
+st.local.u64 [%rd25+8], %rd3;
+st.local.u64 [%rd25+16], %rd4;
+st.local.u64 [%rd25+24], %rd5;
+st.local.u64 [%rd25+32], %rd6;
+st.local.u64 [%rd25+40], %rd7;
+st.local.u64 [%rd25+48], %rd8;
+st.local.u64 [%rd25+56], %rd9;
+st.local.u64 [%rd25+64], %rd10;
+st.local.u64 [%rd25+72], %rd11;
+st.local.u64 [%rd25+80], %rd12;
+st.local.u64 [%rd25+88], %rd13;
+st.local.u64 [%rd25+96], %rd14;
+st.local.u64 [%rd25+104], %rd15;
+st.local.u64 [%rd25+112], %rd16;
+st.local.u64 [%rd25+120], %rd17;
+st.local.u64 [%rd25+136], %rd19;
+st.local.u64 [%rd25+144], %rd20;
+st.local.u64 [%rd25+152], %rd21;
+st.local.u64 [%rd25+160], %rd22;
+mov.u32 %r12, %ntid.x;
+mul.lo.s32 %r4, %r12, %r2;
+mad.lo.s32 %r28, %r3, %r12, %r8;
+cvt.u64.u32	%rd75, %r28;
+add.s64 %rd121, %rd2, %rd75;
+add.s64 %rd120, %rd18, %rd75;
+st.local.u64 [%rd25+128], %rd120;
+st.local.u64 [%rd25], %rd121;
+setp.ge.u32	%p4, %r28, %r1;
+@%p4 bra BB4_26;
+
+cvta.to.global.u64 %rd28, %rd17;
+cvta.to.global.u64 %rd29, %rd22;
+cvt.u64.u32	%rd30, %r4;
+
+BB4_4:
+shr.u64 %rd76, %rd121, 63;
+add.s64 %rd77, %rd121, %rd76;
+shr.s64 %rd33, %rd77, 1;
+or.b64 %rd78, %rd33, %rd5;
+and.b64 %rd79, %rd78, -4294967296;
+setp.eq.s64	%p5, %rd79, 0;
+@%p5 bra BB4_6;
+bra.uni BB4_5;
+
+BB4_6:
+cvt.u32.u64	%r14, %rd5;
+cvt.u32.u64	%r15, %rd33;
+div.u32 %r16, %r15, %r14;
+rem.u32 %r17, %r15, %r14;
+cvt.u64.u32	%rd122, %r16;
+cvt.u64.u32	%rd123, %r17;
+bra.uni BB4_7;
+
+BB4_5:
+div.s64 %rd122, %rd33, %rd5;
+rem.s64 %rd123, %rd33, %rd5;
+
+BB4_7:
+and.b64 %rd85, %rd77, -2;
+sub.s64 %rd86, %rd121, %rd85;
+add.s64 %rd87, %rd4, %rd123;
+mul.lo.s64 %rd88, %rd3, %rd122;
+add.s64 %rd89, %rd87, %rd88;
+shl.b64 %rd90, %rd89, 1;
+add.s64 %rd91, %rd90, %rd86;
+shr.u64 %rd92, %rd91, 63;
+add.s64 %rd93, %rd91, %rd92;
+and.b64 %rd126, %rd93, -2;
+sub.s64 %rd40, %rd91, %rd126;
+mov.u64 %rd131, 0;
+mov.u64 %rd132, %rd131;
+mov.u64 %rd125, %rd131;
+setp.lt.s64	%p6, %rd16, 1;
+mov.u64 %rd124, %rd23;
+@%p6 bra BB4_19;
+
+BB4_8:
+mov.u64 %rd133, %rd132;
+mov.u64 %rd42, %rd124;
+ld.local.u64 %rd46, [%rd42+72];
+or.b64 %rd94, %rd126, %rd46;
+and.b64 %rd95, %rd94, -4294967296;
+setp.eq.s64	%p7, %rd95, 0;
+@%p7 bra BB4_10;
+bra.uni BB4_9;
+
+BB4_10:
+cvt.u32.u64	%r18, %rd46;
+cvt.u32.u64	%r19, %rd126;
+div.u32 %r20, %r19, %r18;
+cvt.u64.u32	%rd127, %r20;
+bra.uni BB4_11;
+
+BB4_9:
+div.s64 %rd127, %rd126, %rd46;
+
+BB4_11:
+setp.eq.s64	%p8, %rd125, 0;
+@%p8 bra BB4_14;
+bra.uni BB4_12;
+
+BB4_14:
+mul.lo.s64 %rd99, %rd127, %rd46;
+add.s64 %rd133, %rd99, %rd133;
+bra.uni BB4_15;
+
+BB4_12:
+setp.eq.s64	%p9, %rd127, 0;
+@%p9 bra BB4_15;
+
+ld.local.u64 %rd96, [%rd42+32];
+sub.s64 %rd97, %rd96, %rd127;
+mul.lo.s64 %rd98, %rd97, %rd46;
+add.s64 %rd133, %rd98, %rd133;
+
+BB4_15:
+mov.u64 %rd132, %rd133;
+@%p7 bra BB4_17;
+bra.uni BB4_16;
+
+BB4_17:
+cvt.u32.u64	%r21, %rd46;
+cvt.u32.u64	%r22, %rd126;
+rem.u32 %r23, %r22, %r21;
+cvt.u64.u32	%rd126, %r23;
+bra.uni BB4_18;
+
+BB4_16:
+rem.s64 %rd126, %rd126, %rd46;
+
+BB4_18:
+add.s64 %rd56, %rd42, 8;
+add.s64 %rd125, %rd125, 1;
+setp.lt.s64	%p11, %rd125, %rd16;
+mov.u64 %rd124, %rd56;
+mov.u64 %rd131, %rd132;
+@%p11 bra BB4_8;
+
+BB4_19:
+shl.b64 %rd102, %rd131, 1;
+add.s64 %rd59, %rd28, %rd102;
+setp.eq.s64	%p12, %rd40, 0;
+@%p12 bra BB4_21;
+bra.uni BB4_20;
+
+BB4_21:
+ld.global.u16 %rs6, [%rd59];
+bra.uni BB4_22;
+
+BB4_20:
+ld.global.u16 %rs4, [%rd59+2];
+
+	{ cvt.f32.f16 %f1, %rs4;}
+
+
+	neg.f32 %f2, %f1;
+
+	{ cvt.rn.f16.f32 %rs6, %f2;}
+
+
+
+BB4_22:
+shr.u64 %rd103, %rd120, 63;
+add.s64 %rd104, %rd120, %rd103;
+shr.s64 %rd60, %rd104, 1;
+or.b64 %rd105, %rd60, %rd21;
+and.b64 %rd106, %rd105, -4294967296;
+setp.eq.s64	%p13, %rd106, 0;
+@%p13 bra BB4_24;
+bra.uni BB4_23;
+
+BB4_24:
+cvt.u32.u64	%r24, %rd21;
+cvt.u32.u64	%r25, %rd60;
+div.u32 %r26, %r25, %r24;
+rem.u32 %r27, %r25, %r24;
+cvt.u64.u32	%rd134, %r26;
+cvt.u64.u32	%rd135, %r27;
+bra.uni BB4_25;
+
+BB4_23:
+div.s64 %rd134, %rd60, %rd21;
+rem.s64 %rd135, %rd60, %rd21;
+
+BB4_25:
+and.b64 %rd109, %rd104, 9223372036854775806;
+sub.s64 %rd110, %rd120, %rd109;
+add.s64 %rd111, %rd20, %rd135;
+mul.lo.s64 %rd112, %rd19, %rd134;
+add.s64 %rd113, %rd111, %rd112;
+shl.b64 %rd114, %rd113, 1;
+add.s64 %rd115, %rd114, %rd110;
+shl.b64 %rd116, %rd115, 1;
+add.s64 %rd117, %rd29, %rd116;
+st.global.u16 [%rd117], %rs6;
+ld.local.u64 %rd118, [%rd25];
+add.s64 %rd121, %rd118, %rd30;
+st.local.u64 [%rd25], %rd121;
+ld.local.u64 %rd119, [%rd24+120];
+add.s64 %rd120, %rd119, %rd30;
+st.local.u64 [%rd24+120], %rd120;
+add.s32 %r28, %r28, %r4;
+setp.lt.u32	%p14, %r28, %r1;
+@%p14 bra BB4_4;
+
+BB4_26:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_18transform_iteratorIN2at6native22dst_idx_to_src_functorIN3c104HalfEEENSK_INSM_22cnt_to_dst_idx_functorENS_17counting_iteratorIlNS_11use_defaultEST_ST_EEST_ST_EEST_ST_EENS_20permutation_iteratorINS_10device_ptrISP_EESV_EENS_9null_typeES11_S11_S11_S11_S11_S11_S11_EEEENS_6detail16wrapped_functionINS14_23unary_transform_functorINS_8identityISP_EEEEvEElS11_S11_S11_S11_S11_S11_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_18transform_iteratorIN2at6native22dst_idx_to_src_functorIN3c104HalfEEENSK_INSM_22cnt_to_dst_idx_functorENS_17counting_iteratorIlNS_11use_defaultEST_ST_EEST_ST_EEST_ST_EENS_20permutation_iteratorINS_10device_ptrISP_EESV_EENS_9null_typeES11_S11_S11_S11_S11_S11_S11_EEEENS_6detail16wrapped_functionINS14_23unary_transform_functorINS_8identityISP_EEEEvEElS11_S11_S11_S11_S11_S11_EEEEEEEEvT0__param_0[232]
+)
+{
+.local .align 8 .b8 __local_depot5[168];
+.reg .b64 %SP;
+.reg .b64 %SPL;
+.reg .pred %p<15>;
+.reg .b16 %rs<7>;
+.reg .f32 %f<3>;
+.reg .b32 %r<25>;
+.reg .b64 %rd<141>;
+
+
+mov.u64 %rd140, __local_depot5;
+cvta.local.u64 %SP, %rd140;
+mov.u64 %rd1, _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_18transform_iteratorIN2at6native22dst_idx_to_src_functorIN3c104HalfEEENSK_INSM_22cnt_to_dst_idx_functorENS_17counting_iteratorIlNS_11use_defaultEST_ST_EEST_ST_EEST_ST_EENS_20permutation_iteratorINS_10device_ptrISP_EESV_EENS_9null_typeES11_S11_S11_S11_S11_S11_S11_EEEENS_6detail16wrapped_functionINS14_23unary_transform_functorINS_8identityISP_EEEEvEElS11_S11_S11_S11_S11_S11_EEEEEEEEvT0__param_0;
+mov.u32 %r3, %tid.x;
+setp.ne.s32	%p1, %r3, 0;
+mov.u64 %rd73, _ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE;
+cvta.shared.u64 %rd74, %rd73;
+setp.eq.s64	%p2, %rd74, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB5_2;
+
+ld.param.s32 %rd75, [%rd1+212];
+mov.u32 %r4, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE], %r4;
+mov.u64 %rd76, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd77, %rd76;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE+8], %rd77;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail70_GLOBAL__N__46_tmpxft_00005919_00000000_7_SpectralOps_cpp1_ii_7b546b5f19s_on_chip_allocatorE+16], %rd75;
+
+BB5_2:
+ld.param.u64 %rd2, [%rd1+16];
+ld.param.u64 %rd3, [%rd1+24];
+ld.param.u64 %rd4, [%rd1+32];
+ld.param.u64 %rd5, [%rd1+40];
+ld.param.u64 %rd6, [%rd1+48];
+ld.param.u64 %rd7, [%rd1+56];
+ld.param.u64 %rd8, [%rd1+64];
+ld.param.u64 %rd9, [%rd1+72];
+ld.param.u64 %rd10, [%rd1+80];
+ld.param.u64 %rd11, [%rd1+88];
+ld.param.u64 %rd12, [%rd1+96];
+ld.param.u64 %rd13, [%rd1+104];
+ld.param.u64 %rd14, [%rd1+112];
+ld.param.u64 %rd15, [%rd1+120];
+ld.param.u64 %rd16, [%rd1+128];
+ld.param.u64 %rd17, [%rd1+136];
+ld.param.u64 %rd18, [%rd1+144];
+ld.param.u64 %rd19, [%rd1+152];
+ld.param.u64 %rd20, [%rd1+160];
+ld.param.u64 %rd21, [%rd1+168];
+ld.param.u64 %rd22, [%rd1+176];
+ld.param.u64 %rd23, [%rd1+192];
+mov.u32 %r5, %ctaid.x;
+ld.param.u32 %r6, [%rd1+224];
+add.s32 %r1, %r5, %r6;
+bar.sync 0;
+add.u64 %rd78, %SP, 0;
+cvta.to.local.u64 %rd27, %rd78;
+mov.u64 %rd24, %rd27;
+add.s64 %rd25, %rd27, 8;
+st.local.u64 [%rd27+8], %rd3;
+st.local.u64 [%rd27+16], %rd4;
+st.local.u64 [%rd27+24], %rd5;
+st.local.u64 [%rd27+32], %rd6;
+st.local.u64 [%rd27+40], %rd7;
+st.local.u64 [%rd27+48], %rd8;
+st.local.u64 [%rd27+56], %rd9;
+st.local.u64 [%rd27+64], %rd10;
+st.local.u64 [%rd27+72], %rd11;
+st.local.u64 [%rd27+80], %rd12;
+st.local.u64 [%rd27+88], %rd13;
+st.local.u64 [%rd27+96], %rd14;
+st.local.u64 [%rd27+104], %rd15;
+st.local.u64 [%rd27+112], %rd16;
+st.local.u64 [%rd27+120], %rd17;
+st.local.u64 [%rd27+136], %rd19;
+st.local.u64 [%rd27+144], %rd20;
+st.local.u64 [%rd27+152], %rd21;
+st.local.u64 [%rd27+160], %rd22;
+mov.u32 %r2, %ntid.x;
+mad.lo.s32 %r8, %r1, %r2, %r3;
+cvt.s64.s32	%rd125, %r8;
+add.s64 %rd124, %rd2, %rd125;
+add.s64 %rd123, %rd18, %rd125;
+st.local.u64 [%rd27+128], %rd123;
+st.local.u64 [%rd27], %rd124;
+setp.ge.s64	%p4, %rd125, %rd23;
+@%p4 bra BB5_26;
+
+cvta.to.global.u64 %rd30, %rd17;
+cvta.to.global.u64 %rd31, %rd22;
+ld.param.u32 %r9, [%rd1+216];
+mul.lo.s32 %r10, %r2, %r9;
+cvt.s64.s32	%rd32, %r10;
+
+BB5_4:
+shr.u64 %rd79, %rd124, 63;
+add.s64 %rd80, %rd124, %rd79;
+shr.s64 %rd36, %rd80, 1;
+or.b64 %rd81, %rd36, %rd5;
+and.b64 %rd82, %rd81, -4294967296;
+setp.eq.s64	%p5, %rd82, 0;
+@%p5 bra BB5_6;
+bra.uni BB5_5;
+
+BB5_6:
+cvt.u32.u64	%r11, %rd5;
+cvt.u32.u64	%r12, %rd36;
+div.u32 %r13, %r12, %r11;
+rem.u32 %r14, %r12, %r11;
+cvt.u64.u32	%rd126, %r13;
+cvt.u64.u32	%rd127, %r14;
+bra.uni BB5_7;
+
+BB5_5:
+div.s64 %rd126, %rd36, %rd5;
+rem.s64 %rd127, %rd36, %rd5;
+
+BB5_7:
+and.b64 %rd88, %rd80, -2;
+sub.s64 %rd89, %rd124, %rd88;
+add.s64 %rd90, %rd4, %rd127;
+mul.lo.s64 %rd91, %rd3, %rd126;
+add.s64 %rd92, %rd90, %rd91;
+shl.b64 %rd93, %rd92, 1;
+add.s64 %rd94, %rd93, %rd89;
+shr.u64 %rd95, %rd94, 63;
+add.s64 %rd96, %rd94, %rd95;
+and.b64 %rd130, %rd96, -2;
+sub.s64 %rd43, %rd94, %rd130;
+mov.u64 %rd135, 0;
+mov.u64 %rd136, %rd135;
+mov.u64 %rd129, %rd135;
+setp.lt.s64	%p6, %rd16, 1;
+mov.u64 %rd128, %rd24;
+@%p6 bra BB5_19;
+
+BB5_8:
+mov.u64 %rd137, %rd136;
+mov.u64 %rd45, %rd128;
+ld.local.u64 %rd49, [%rd45+72];
+or.b64 %rd97, %rd130, %rd49;
+and.b64 %rd98, %rd97, -4294967296;
+setp.eq.s64	%p7, %rd98, 0;
+@%p7 bra BB5_10;
+bra.uni BB5_9;
+
+BB5_10:
+cvt.u32.u64	%r15, %rd49;
+cvt.u32.u64	%r16, %rd130;
+div.u32 %r17, %r16, %r15;
+cvt.u64.u32	%rd131, %r17;
+bra.uni BB5_11;
+
+BB5_9:
+div.s64 %rd131, %rd130, %rd49;
+
+BB5_11:
+setp.eq.s64	%p8, %rd129, 0;
+@%p8 bra BB5_14;
+bra.uni BB5_12;
+
+BB5_14:
+mul.lo.s64 %rd102, %rd131, %rd49;
+add.s64 %rd137, %rd102, %rd137;
+bra.uni BB5_15;
+
+BB5_12:
+setp.eq.s64	%p9, %rd131, 0;
+@%p9 bra BB5_15;
+
+ld.local.u64 %rd99, [%rd45+32];
+sub.s64 %rd100, %rd99, %rd131;
+mul.lo.s64 %rd101, %rd100, %rd49;
+add.s64 %rd137, %rd101, %rd137;
+
+BB5_15:
+mov.u64 %rd136, %rd137;
+@%p7 bra BB5_17;
+bra.uni BB5_16;
+
+BB5_17:
+cvt.u32.u64	%r18, %rd49;
+cvt.u32.u64	%r19, %rd130;
+rem.u32 %r20, %r19, %r18;
+cvt.u64.u32	%rd130, %r20;
+bra.uni BB5_18;
+
+BB5_16:
+rem.s64 %rd130, %rd130, %rd49;
+
+BB5_18:
+add.s64 %rd59, %rd45, 8;
+add.s64 %rd129, %rd129, 1;
+setp.lt.s64	%p11, %rd129, %rd16;
+mov.u64 %rd128, %rd59;
+mov.u64 %rd135, %rd136;
+@%p11 bra BB5_8;
+
+BB5_19:
+shl.b64 %rd105, %rd135, 1;
+add.s64 %rd62, %rd30, %rd105;
+setp.eq.s64	%p12, %rd43, 0;
+@%p12 bra BB5_21;
+bra.uni BB5_20;
+
+BB5_21:
+ld.global.u16 %rs6, [%rd62];
+bra.uni BB5_22;
+
+BB5_20:
+ld.global.u16 %rs4, [%rd62+2];
+
+	{ cvt.f32.f16 %f1, %rs4;}
+
+
+	neg.f32 %f2, %f1;
+
+	{ cvt.rn.f16.f32 %rs6, %f2;}
+
+
+
+BB5_22:
+shr.u64 %rd106, %rd123, 63;
+add.s64 %rd107, %rd123, %rd106;
+shr.s64 %rd63, %rd107, 1;
+or.b64 %rd108, %rd63, %rd21;
+and.b64 %rd109, %rd108, -4294967296;
+setp.eq.s64	%p13, %rd109, 0;
+@%p13 bra BB5_24;
+bra.uni BB5_23;
+
+BB5_24:
+cvt.u32.u64	%r21, %rd21;
+cvt.u32.u64	%r22, %rd63;
+div.u32 %r23, %r22, %r21;
+rem.u32 %r24, %r22, %r21;
+cvt.u64.u32	%rd138, %r23;
+cvt.u64.u32	%rd139, %r24;
+bra.uni BB5_25;
+
+BB5_23:
+div.s64 %rd138, %rd63, %rd21;
+rem.s64 %rd139, %rd63, %rd21;
+
+BB5_25:
+and.b64 %rd112, %rd107, 9223372036854775806;
+sub.s64 %rd113, %rd123, %rd112;
+add.s64 %rd114, %rd20, %rd139;
+mul.lo.s64 %rd115, %rd19, %rd138;
+add.s64 %rd116, %rd114, %rd115;
+shl.b64 %rd117, %rd116, 1;
+add.s64 %rd118, %rd117, %rd113;
+shl.b64 %rd119, %rd118, 1;
+add.s64 %rd120, %rd31, %rd119;
+st.global.u16 [%rd120], %rs6;
+ld.local.u64 %rd121, [%rd27];
+add.s64 %rd124, %rd121, %rd32;
+st.local.u64 [%rd27], %rd124;
+ld.local.u64 %rd122, [%rd25+120];
+add.s64 %rd123, %rd122, %rd32;
+st.local.u64 [%rd25+120], %rd123;
+add.s64 %rd125, %rd125, %rd32;
+setp.lt.s64	%p14, %rd125, %rd23;
+@%p14 bra BB5_4;
+
+BB5_26:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv(
+
+)
+{
+
+
+
+ret;
+}
+
+

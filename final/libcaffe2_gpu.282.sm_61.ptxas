@@ -1,0 +1,9 @@
+ptxas info    : 784 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00007060_00000000_7_softsign_op_cpp1_ii_427573ba26SoftsignGradientCUDAKernelIfEEviPKT_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00007060_00000000_7_softsign_op_cpp1_ii_427573ba26SoftsignGradientCUDAKernelIfEEviPKT_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 352 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00007060_00000000_7_softsign_op_cpp1_ii_427573ba18SoftsignCUDAKernelIfEEviPKT_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00007060_00000000_7_softsign_op_cpp1_ii_427573ba18SoftsignCUDAKernelIfEEviPKT_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 344 bytes cmem[0], 12 bytes cmem[2]

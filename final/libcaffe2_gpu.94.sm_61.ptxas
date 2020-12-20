@@ -1,0 +1,481 @@
+ptxas info    : 521 bytes gmem
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 428 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 592 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 576 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 980 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 576 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 592 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 588 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 600 bytes cmem[0], 300 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 424 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 992 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 580 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 580 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_jLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_jLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 584 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 440 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 976 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 580 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 376 bytes cmem[0], 300 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 624 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 628 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_mLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_mLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 364 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 640 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 388 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 400 bytes cmem[0], 300 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 576 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 640 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 368 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 628 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_jLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_jLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 384 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 592 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 624 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 428 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 440 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 776 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 1584 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 424 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 792 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 588 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 600 bytes cmem[0], 300 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 424 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 1592 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 428 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 780 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_jLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_jLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 584 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 440 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_mLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_mLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 1580 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 780 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 392 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 624 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 780 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 376 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 640 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 388 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 400 bytes cmem[0], 300 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 776 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 792 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 380 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 628 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_jLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_jLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 384 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 792 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 776 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 404 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 416 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 800 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 804 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 400 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 816 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 412 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 424 bytes cmem[0], 300 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 400 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 816 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 404 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 804 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_jLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_jLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 408 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 416 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 800 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 604 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 36 registers, 776 bytes cmem[0], 300 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 448 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 604 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_jLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_jLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 760 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 464 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 364 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 376 bytes cmem[0], 300 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 600 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 616 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 452 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_jLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_jLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 360 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 616 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 600 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 604 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 416 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 600 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 384 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 400 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 616 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 564 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 576 bytes cmem[0], 300 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 600 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 392 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 404 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 604 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_jLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_jLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 560 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 616 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_mLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_mLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 380 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 604 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 1176 bytes cmem[0], 300 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 600 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 804 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_mLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_mLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 1164 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 616 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 564 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIdEddjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 576 bytes cmem[0], 300 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 600 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 816 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIfEffmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 1168 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIfEfffjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 604 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_jLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I28softPlusupdateOutput_functorIN3c104HalfEES2_S2_jLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 560 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIdEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 616 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I31softPlusupdateGradInput_functorIN3c104HalfEES2_S2_S2_jLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 800 bytes cmem[0], 24 bytes cmem[2]
