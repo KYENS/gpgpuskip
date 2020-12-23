@@ -1247,8 +1247,10 @@ class core_t {
     return m_gpu;
   }
   void execute_warp_inst_t(warp_inst_t &inst, unsigned warpId = (unsigned)-1);
+  void execute_warp_inst_t_virtual(warp_inst_t &inst, unsigned warpId = (unsigned)-1);
   bool ptx_thread_done(unsigned hw_thread_id) const;
   virtual void updateSIMTStack(unsigned warpId, warp_inst_t *inst);
+//  virtual void updateSIMTStack_virtual(unsigned warpId, const warp_inst_t *inst);
   void initilizeSIMTStack(unsigned warp_count, unsigned warps_size);
   void deleteSIMTStack();
   warp_inst_t getExecuteWarp(unsigned warpId);

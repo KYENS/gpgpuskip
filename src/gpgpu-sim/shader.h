@@ -2136,6 +2136,7 @@ class shader_core_ctx : public core_t {
                   const active_mask_t &active_mask, unsigned warp_id,
                   unsigned sch_id);
 
+  virtual void issue_warp_virtual(const warp_inst_t *pI,unsigned warp_id);
   void create_front_pipeline();
   void create_schedulers();
   void create_exec_pipeline();
@@ -2148,6 +2149,7 @@ class shader_core_ctx : public core_t {
   virtual void checkExecutionStatusAndUpdate(warp_inst_t &inst, unsigned t,
                                              unsigned tid) = 0;
   virtual void func_exec_inst(warp_inst_t &inst) = 0;
+  virtual void func_exec_inst_virtual(warp_inst_t &inst) = 0;
 
   virtual unsigned sim_init_thread(kernel_info_t &kernel,
                                    ptx_thread_info **thread_info, int sid,
@@ -2283,6 +2285,7 @@ class exec_shader_core_ctx : public shader_core_ctx {
   virtual void checkExecutionStatusAndUpdate(warp_inst_t &inst, unsigned t,
                                              unsigned tid);
   virtual void func_exec_inst(warp_inst_t &inst);
+  virtual void func_exec_inst_virtual(warp_inst_t &inst);
   virtual unsigned sim_init_thread(kernel_info_t &kernel,
                                    ptx_thread_info **thread_info, int sid,
                                    unsigned tid, unsigned threads_left,
