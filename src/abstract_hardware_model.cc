@@ -1175,6 +1175,18 @@ void simt_stack::update(simt_mask_t &thread_done, addr_vector_t &next_pc,
   }
 }
 
+void core_t::execute_warp_inst_t_virtual(warp_inst_t &inst, unsigned warpId) {
+  for (unsigned t = 0; t < m_warp_size; t++) {
+    if (inst.active(t)) {
+      if (warpId == (unsigned(-1))) warpId = inst.warp_id();
+      unsigned tid = m_warp_size * warpId + t;
+      m_thread[tid]->ptx_exec_inst(inst, t);
+
+      // virtual function
+      checkExecutionStatusAndUpdate(inst, t, tid);
+    }
+  }
+}
 void core_t::execute_warp_inst_t(warp_inst_t &inst, unsigned warpId) {
   for (unsigned t = 0; t < m_warp_size; t++) {
     if (inst.active(t)) {
@@ -1192,6 +1204,7 @@ bool core_t::ptx_thread_done(unsigned hw_thread_id) const {
   return ((m_thread[hw_thread_id] == NULL) ||
           m_thread[hw_thread_id]->is_done());
 }
+
 
 void core_t::updateSIMTStack(unsigned warpId, warp_inst_t *inst) {
   simt_mask_t thread_done;

@@ -983,6 +983,14 @@ void shader_core_ctx::fetch() {
   m_L1I->cycle();
 }
 
+void exec_shader_core_ctx::func_exec_inst_virtual(warp_inst_t &inst) {
+  execute_warp_inst_t_virtual(inst);
+  if (inst.is_load() || inst.is_store()) {
+    inst.generate_mem_accesses();
+    // inst.print_m_accessq();
+  }
+}
+
 void exec_shader_core_ctx::func_exec_inst(warp_inst_t &inst) {
   execute_warp_inst_t(inst);
   if (inst.is_load() || inst.is_store()) {
@@ -991,6 +999,14 @@ void exec_shader_core_ctx::func_exec_inst(warp_inst_t &inst) {
   }
 }
 
+void shader_core_ctx::issue_warp_virtual(const warp_inst_t *next_inst,
+                                 unsigned warp_id) {
+    warp_inst_t **inst_reg=NULL;
+    **inst_reg=*next_inst;
+    func_exec_inst_virtual(**inst_reg);
+    updateSIMTStack(warp_id, *inst_reg);
+
+}
 void shader_core_ctx::issue_warp(register_set &pipe_reg_set,
                                  const warp_inst_t *next_inst,
                                  const active_mask_t &active_mask,
@@ -1190,6 +1206,10 @@ void scheduler_unit::cycle() {
           m_shader->m_config->gpgpu_ctx->func_sim->ptx_get_insn_str(pc)
               .c_str());
       if (pI) {
+        if(pI->op==ALU_SFU_OP){
+            m_shader->issue_warp_virtual(pI,warp_id);
+            m_shader->get_pdom_stack_top_info(warp_id, pI, &pc, &rpc);
+        }
         assert(valid);
         if (pc != pI->pc) {
           SCHED_DPRINTF(
