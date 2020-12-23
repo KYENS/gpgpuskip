@@ -1206,10 +1206,11 @@ void scheduler_unit::cycle() {
           m_shader->m_config->gpgpu_ctx->func_sim->ptx_get_insn_str(pc)
               .c_str());
       if (pI) {
-        if(pI->op==ALU_SFU_OP){
+/*        if(pI->op==ALU_SFU_OP){
             m_shader->issue_warp_virtual(pI,warp_id);
             m_shader->get_pdom_stack_top_info(warp_id, pI, &pc, &rpc);
-        }
+            continue;
+        }*/
         assert(valid);
         if (pc != pI->pc) {
           SCHED_DPRINTF(
