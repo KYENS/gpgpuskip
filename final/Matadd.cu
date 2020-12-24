@@ -47,13 +47,13 @@ int main(){
     cudaDeviceSynchronize();
 
     cudaMemcpy(h_C,d_C,N*N*sizeof(float),cudaMemcpyDeviceToHost);
-
+/*
     for(i<0;i<N*N;i++){
         if(h_C[i]!=3.0)
             printf("ERRORR:%f,idx:%d\n",h_C[i],i);
             break;
 
-    }
+    }*/
     printf("PASS!!!!!!!!!!!!!!!\n");
 
     free(h_A);
