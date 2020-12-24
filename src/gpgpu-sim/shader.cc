@@ -1001,10 +1001,11 @@ void exec_shader_core_ctx::func_exec_inst(warp_inst_t &inst) {
 
 void shader_core_ctx::issue_warp_virtual(const warp_inst_t *next_inst,
                                  unsigned warp_id) {
-    warp_inst_t **inst_reg=NULL;
-    **inst_reg=*next_inst;
-    func_exec_inst_virtual(**inst_reg);
-    updateSIMTStack(warp_id, *inst_reg);
+    warp_inst_t inst_reg=*next_inst;
+//    **inst_reg=*next_inst;
+    assert(next_inst->valid());
+    func_exec_inst_virtual(inst_reg);
+    updateSIMTStack(warp_id, &inst_reg);
 
 }
 void shader_core_ctx::issue_warp(register_set &pipe_reg_set,
@@ -1188,7 +1189,19 @@ void scheduler_unit::cycle() {
     while (!warp(warp_id).waiting() && !warp(warp_id).ibuffer_empty() &&
            (checked < max_issue) && (checked <= issued) &&
            (issued < max_issue)) {
-      const warp_inst_t *pI = warp(warp_id).ibuffer_next_inst();
+      const  warp_inst_t *pI = warp(warp_id).ibuffer_next_inst();
+      unsigned pc, rpc;
+      if(pI){
+            if(pI->op==ALU_OP||pI->op==ALU_SFU_OP||pI->op==SFU_OP||pI->op==DP_OP){
+                m_shader->issue_warp_virtual(pI,warp_id);
+                m_shader->get_pdom_stack_top_info(warp_id, pI, &pc, &rpc);
+                issued++;
+//                issued_inst = true;
+//                warp_inst_issued = true;
+//                continue;
+            }   
+      }
+      pI = warp(warp_id).ibuffer_next_inst();
       // Jin: handle cdp latency;
       if (pI && pI->m_is_cdp && warp(warp_id).m_cdp_latency > 0) {
         assert(warp(warp_id).m_cdp_dummy);
@@ -1198,19 +1211,14 @@ void scheduler_unit::cycle() {
 
       bool valid = warp(warp_id).ibuffer_next_valid();
       bool warp_inst_issued = false;
-      unsigned pc, rpc;
       m_shader->get_pdom_stack_top_info(warp_id, pI, &pc, &rpc);
       SCHED_DPRINTF(
           "Warp (warp_id %u, dynamic_warp_id %u) has valid instruction (%s)\n",
           (*iter)->get_warp_id(), (*iter)->get_dynamic_warp_id(),
           m_shader->m_config->gpgpu_ctx->func_sim->ptx_get_insn_str(pc)
               .c_str());
+      //      std::printf("CUSTOMIZED\n");
       if (pI) {
-/*        if(pI->op==ALU_SFU_OP){
-            m_shader->issue_warp_virtual(pI,warp_id);
-            m_shader->get_pdom_stack_top_info(warp_id, pI, &pc, &rpc);
-            continue;
-        }*/
         assert(valid);
         if (pc != pI->pc) {
           SCHED_DPRINTF(
