@@ -855,30 +855,58 @@ void shader_core_ctx::decode() {
     // decode 1 or 2 instructions and place them into ibuffer
     address_type pc = m_inst_fetch_buffer.m_pc;
     const warp_inst_t *pI1 = get_next_inst(m_inst_fetch_buffer.m_warp_id, pc);
-    m_warp[m_inst_fetch_buffer.m_warp_id]->ibuffer_fill(0, pI1);
-    m_warp[m_inst_fetch_buffer.m_warp_id]->inc_inst_in_pipeline();
-    if (pI1) {
-      m_stats->m_num_decoded_insn[m_sid]++;
-      if (pI1->oprnd_type == INT_OP) {
-        m_stats->m_num_INTdecoded_insn[m_sid]++;
-      } else if (pI1->oprnd_type == FP_OP) {
-        m_stats->m_num_FPdecoded_insn[m_sid]++;
-      }
-      const warp_inst_t *pI2 =
-          get_next_inst(m_inst_fetch_buffer.m_warp_id, pc + pI1->isize);
-      if (pI2) {
-        m_warp[m_inst_fetch_buffer.m_warp_id]->ibuffer_fill(1, pI2);
+/*    if(pI1->op==DP_OP)
+        std::printf("DP\n");
+    else if(pI1->op==INT_OP)
+        std::printf("INT\n");
+    else  if(pI1->op==FP_OP)
+        std::printf("FP\n");
+*/
+  /*  if(pI1->op==INT_OP||pI1->op==FP_OP||pI1->op==DP_OP){
+        std::printf("DECODING\n");
+        issue_warp_virtual(pI1,m_inst_fetch_buffer.m_warp_id);
+          const warp_inst_t *pI2 =
+              get_next_inst(m_inst_fetch_buffer.m_warp_id, pc + pI1->isize);
+          if (pI2) {
+            if(pI2->op==INT_OP||pI2->op==FP_OP||pI2->op==DP_OP){
+                issue_warp_virtual(pI2,m_inst_fetch_buffer.m_warp_id);
+            }else{
+                 m_warp[m_inst_fetch_buffer.m_warp_id]->ibuffer_fill(1, pI2);
+                m_warp[m_inst_fetch_buffer.m_warp_id]->inc_inst_in_pipeline();
+                m_stats->m_num_decoded_insn[m_sid]++;
+                if (pI2->oprnd_type == INT_OP) {
+                  m_stats->m_num_INTdecoded_insn[m_sid]++;
+                } else if (pI2->oprnd_type == FP_OP) {
+                  m_stats->m_num_FPdecoded_insn[m_sid]++;
+                }
+            }
+          }
+    }else{*/
+        m_warp[m_inst_fetch_buffer.m_warp_id]->ibuffer_fill(0, pI1);
         m_warp[m_inst_fetch_buffer.m_warp_id]->inc_inst_in_pipeline();
-        m_stats->m_num_decoded_insn[m_sid]++;
-        if (pI2->oprnd_type == INT_OP) {
-          m_stats->m_num_INTdecoded_insn[m_sid]++;
-        } else if (pI2->oprnd_type == FP_OP) {
-          m_stats->m_num_FPdecoded_insn[m_sid]++;
+        if (pI1) {
+          m_stats->m_num_decoded_insn[m_sid]++;
+          if (pI1->oprnd_type == INT_OP) {
+            m_stats->m_num_INTdecoded_insn[m_sid]++;
+          } else if (pI1->oprnd_type == FP_OP) {
+            m_stats->m_num_FPdecoded_insn[m_sid]++;
+          }
+          const warp_inst_t *pI2 =
+              get_next_inst(m_inst_fetch_buffer.m_warp_id, pc + pI1->isize);
+          if (pI2) {
+            m_warp[m_inst_fetch_buffer.m_warp_id]->ibuffer_fill(1, pI2);
+            m_warp[m_inst_fetch_buffer.m_warp_id]->inc_inst_in_pipeline();
+            m_stats->m_num_decoded_insn[m_sid]++;
+            if (pI2->oprnd_type == INT_OP) {
+              m_stats->m_num_INTdecoded_insn[m_sid]++;
+            } else if (pI2->oprnd_type == FP_OP) {
+              m_stats->m_num_FPdecoded_insn[m_sid]++;
+            }
+          }
         }
-      }
+        m_inst_fetch_buffer.m_valid = false;
     }
-    m_inst_fetch_buffer.m_valid = false;
-  }
+//  }
 }
 
 void shader_core_ctx::fetch() {
@@ -1143,7 +1171,6 @@ void scheduler_unit::order_by_priority(
     abort();
   }
 }
-
 void scheduler_unit::cycle() {
   SCHED_DPRINTF("scheduler_unit::cycle()\n");
   bool valid_inst =
@@ -1189,19 +1216,20 @@ void scheduler_unit::cycle() {
     while (!warp(warp_id).waiting() && !warp(warp_id).ibuffer_empty() &&
            (checked < max_issue) && (checked <= issued) &&
            (issued < max_issue)) {
-      const  warp_inst_t *pI = warp(warp_id).ibuffer_next_inst();
+      const warp_inst_t *pI = warp(warp_id).ibuffer_next_inst();
       unsigned pc, rpc;
-      if(pI){
-            if(pI->op==ALU_OP||pI->op==ALU_SFU_OP||pI->op==SFU_OP||pI->op==DP_OP){
-                m_shader->issue_warp_virtual(pI,warp_id);
-                m_shader->get_pdom_stack_top_info(warp_id, pI, &pc, &rpc);
-                issued++;
-//                issued_inst = true;
-//                warp_inst_issued = true;
-//                continue;
-            }   
+      if(pI->op==INT_OP||pI->op==FP_OP||pI->op==DP_OP){
+        m_shader->get_pdom_stack_top_info(warp_id, pI, &pc, &rpc);
+        if (pc == pI->pc) {
+            std::printf("DECODING\n");
+            m_shader->issue_warp_virtual(pI,warp_id);
+            issued++;
+            do_on_warp_issued(warp_id, issued, iter);
+           // pI = warp(warp_id).ibuffer_next_inst();
+//          break;
+            continue;
+        }
       }
-      pI = warp(warp_id).ibuffer_next_inst();
       // Jin: handle cdp latency;
       if (pI && pI->m_is_cdp && warp(warp_id).m_cdp_latency > 0) {
         assert(warp(warp_id).m_cdp_dummy);
@@ -1217,7 +1245,6 @@ void scheduler_unit::cycle() {
           (*iter)->get_warp_id(), (*iter)->get_dynamic_warp_id(),
           m_shader->m_config->gpgpu_ctx->func_sim->ptx_get_insn_str(pc)
               .c_str());
-      //      std::printf("CUSTOMIZED\n");
       if (pI) {
         assert(valid);
         if (pc != pI->pc) {

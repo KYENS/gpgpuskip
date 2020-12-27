@@ -1,0 +1,373 @@
+ptxas info    : 535 bytes gmem
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAnyS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAnyS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 528 bytes smem, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Lin1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Lin1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20kernelReduceAllPass1IhjhN6thrust8identityIhEE10LogicalAnyLi1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z20kernelReduceAllPass1IhjhN6thrust8identityIhEE10LogicalAnyLi1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 552 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhmhN6thrust8identityIhEE10LogicalAllS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhmhN6thrust8identityIhEE10LogicalAllS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 1172 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    440 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 528 bytes smem, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15kernelReduceAllIhmhN6thrust8identityIhEE10LogicalAnyLi1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z15kernelReduceAllIhmhN6thrust8identityIhEE10LogicalAnyLi1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 760 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAllS2_Li2ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAllS2_Li2ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 528 bytes smem, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li2ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li2ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20kernelReduceAllPass1IhjhN6thrust8identityIhEE10LogicalAllLin1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z20kernelReduceAllPass1IhjhN6thrust8identityIhEE10LogicalAllLin1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 552 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAllS2_Lin1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAllS2_Lin1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    224 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 528 bytes smem, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15kernelReduceAllIhjhN6thrust8identityIhEE10LogicalAnyLi2EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z15kernelReduceAllIhjhN6thrust8identityIhEE10LogicalAnyLi2EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 552 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20kernelReduceAllPass2Ih10LogicalAllEviT_T0_PS1_S3_' for 'sm_61'
+ptxas info    : Function properties for _Z20kernelReduceAllPass2Ih10LogicalAllEviT_T0_PS1_S3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhmhN6thrust8identityIhEE10LogicalAllS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhmhN6thrust8identityIhEE10LogicalAllS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1180 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhmhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhmhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1172 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15kernelReduceAllIhmhN6thrust8identityIhEE10LogicalAnyLin1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z15kernelReduceAllIhmhN6thrust8identityIhEE10LogicalAnyLin1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 760 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li2ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li2ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAnyS2_Li2ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAnyS2_Li2ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 528 bytes smem, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20kernelReduceAllPass1IhmhN6thrust8identityIhEE10LogicalAllLi2EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z20kernelReduceAllPass1IhmhN6thrust8identityIhEE10LogicalAllLi2EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 760 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAllS2_Li1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAllS2_Li1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 528 bytes smem, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Lin1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Lin1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    224 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 528 bytes smem, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15kernelReduceAllIhjhN6thrust8identityIhEE10LogicalAnyLi1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z15kernelReduceAllIhjhN6thrust8identityIhEE10LogicalAnyLi1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 552 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhmhN6thrust8identityIhEE10LogicalAllS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhmhN6thrust8identityIhEE10LogicalAllS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 528 bytes smem, 1200 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhmhN6thrust8identityIhEE10LogicalAnyS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhmhN6thrust8identityIhEE10LogicalAnyS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 1180 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15kernelReduceAllIhmhN6thrust8identityIhEE10LogicalAnyLi2EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z15kernelReduceAllIhmhN6thrust8identityIhEE10LogicalAnyLi2EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 760 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li2ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li2ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li2ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li2ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20kernelReduceAllPass1IhmhN6thrust8identityIhEE10LogicalAllLi1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z20kernelReduceAllPass1IhmhN6thrust8identityIhEE10LogicalAllLi1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 760 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15kernelReduceAllIhjhN6thrust8identityIhEE10LogicalAnyLin1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z15kernelReduceAllIhjhN6thrust8identityIhEE10LogicalAnyLin1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 552 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li2ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li2ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAnyS2_Li1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAnyS2_Li1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    224 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 528 bytes smem, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20kernelReduceAllPass1IhjhN6thrust8identityIhEE10LogicalAllLi2EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z20kernelReduceAllPass1IhjhN6thrust8identityIhEE10LogicalAllLi2EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 552 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhmhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhmhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    840 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 528 bytes smem, 1200 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAllS2_Li2ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAllS2_Li2ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    224 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 528 bytes smem, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li2ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li2ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20kernelReduceAllPass1IhmhN6thrust8identityIhEE10LogicalAllLin1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z20kernelReduceAllPass1IhmhN6thrust8identityIhEE10LogicalAllLin1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, 760 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAllS2_Lin1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAllS2_Lin1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    224 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 528 bytes smem, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20kernelReduceAllPass2Ih10LogicalAnyEviT_T0_PS1_S3_' for 'sm_61'
+ptxas info    : Function properties for _Z20kernelReduceAllPass2Ih10LogicalAnyEviT_T0_PS1_S3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhmhN6thrust8identityIhEE10LogicalAllS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhmhN6thrust8identityIhEE10LogicalAllS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 1180 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhmhN6thrust8identityIhEE10LogicalAnyS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhmhN6thrust8identityIhEE10LogicalAnyS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 1172 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20kernelReduceAllPass1IhmhN6thrust8identityIhEE10LogicalAnyLi2EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z20kernelReduceAllPass1IhmhN6thrust8identityIhEE10LogicalAnyLi2EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 760 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li2ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li2ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAnyS2_Li2ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAnyS2_Li2ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 528 bytes smem, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15kernelReduceAllIhjhN6thrust8identityIhEE10LogicalAllLin1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z15kernelReduceAllIhjhN6thrust8identityIhEE10LogicalAllLin1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 552 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    224 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 528 bytes smem, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20kernelReduceAllPass1IhjhN6thrust8identityIhEE10LogicalAnyLin1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z20kernelReduceAllPass1IhjhN6thrust8identityIhEE10LogicalAnyLin1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 552 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAllS2_Li1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAllS2_Li1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    224 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 528 bytes smem, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15kernelReduceAllIhjhN6thrust8identityIhEE10LogicalAllLi1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z15kernelReduceAllIhjhN6thrust8identityIhEE10LogicalAllLi1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 552 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhmhN6thrust8identityIhEE10LogicalAllS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhmhN6thrust8identityIhEE10LogicalAllS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    840 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 528 bytes smem, 1200 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhmhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhmhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1180 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li2ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li2ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li2ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li2ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15kernelReduceAllIhmhN6thrust8identityIhEE10LogicalAllLi2EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z15kernelReduceAllIhmhN6thrust8identityIhEE10LogicalAllLi2EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 760 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAllS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAllS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    440 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 528 bytes smem, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20kernelReduceAllPass1IhmhN6thrust8identityIhEE10LogicalAnyLi1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z20kernelReduceAllPass1IhmhN6thrust8identityIhEE10LogicalAnyLi1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 760 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li2ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li2ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li2ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li2ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15kernelReduceAllIhjhN6thrust8identityIhEE10LogicalAllLi2EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z15kernelReduceAllIhjhN6thrust8identityIhEE10LogicalAllLi2EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 552 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAllS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAllS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 528 bytes smem, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Lin1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Lin1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAnyS2_Li2ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAnyS2_Li2ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    224 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 528 bytes smem, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15kernelReduceAllIhmhN6thrust8identityIhEE10LogicalAllLin1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z15kernelReduceAllIhmhN6thrust8identityIhEE10LogicalAllLin1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 760 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Lin1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Lin1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Lin1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20kernelReduceAllPass1IhjhN6thrust8identityIhEE10LogicalAnyLi2EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z20kernelReduceAllPass1IhjhN6thrust8identityIhEE10LogicalAnyLi2EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 552 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhjhN6thrust8identityIhEE10LogicalAllS2_Li1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 764 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAnyS2_Li1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAnyS2_Li1ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 528 bytes smem, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20kernelReduceAllPass1IhjhN6thrust8identityIhEE10LogicalAllLi1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z20kernelReduceAllPass1IhjhN6thrust8identityIhEE10LogicalAllLi1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 552 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelReduceContigDimIhmhN6thrust8identityIhEE10LogicalAllS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelReduceContigDimIhmhN6thrust8identityIhEE10LogicalAllS2_Lin1ELin1EEv10TensorInfoIT_T0_ES7_S6_S6_T1_T2_T3_T4_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1172 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhmhN6thrust8identityIhEE10LogicalAnyS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhmhN6thrust8identityIhEE10LogicalAnyS2_Li1ELi1EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 528 bytes smem, 1200 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20kernelReduceAllPass1IhmhN6thrust8identityIhEE10LogicalAnyLin1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z20kernelReduceAllPass1IhmhN6thrust8identityIhEE10LogicalAnyLin1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, 760 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAllS2_Li2ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi' for 'sm_61'
+ptxas info    : Function properties for _Z31kernelReduceNoncontigDim_sharedIhjhN6thrust8identityIhEE10LogicalAllS2_Li2ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_PVS8_Pi
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 528 bytes smem, 784 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li2ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _Z24kernelReduceNoncontigDimIhjhN6thrust8identityIhEE10LogicalAnyS2_Li2ELi2EEv10TensorInfoIT_T0_ES7_S6_S6_S6_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 768 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15kernelReduceAllIhmhN6thrust8identityIhEE10LogicalAllLi1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_' for 'sm_61'
+ptxas info    : Function properties for _Z15kernelReduceAllIhmhN6thrust8identityIhEE10LogicalAllLi1EEv10TensorInfoIT_T0_ES6_T1_T2_T3_PS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 760 bytes cmem[0]

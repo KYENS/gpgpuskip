@@ -1,0 +1,21 @@
+ptxas info    : 904 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00006b14_00000000_7_instance_norm_op_cpp1_ii_3a5338cc26InstanceNormInvStdevKernelEiiiiiifPKfS2_Pf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00006b14_00000000_7_instance_norm_op_cpp1_ii_3a5338cc26InstanceNormInvStdevKernelEiiiiiifPKfS2_Pf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 376 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00006b14_00000000_7_instance_norm_op_cpp1_ii_3a5338cc26InstanceNormGradientKernelEiiiiiiPKfS2_S2_S2_S2_S2_Pf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00006b14_00000000_7_instance_norm_op_cpp1_ii_3a5338cc26InstanceNormGradientKernelEiiiiiiPKfS2_S2_S2_S2_S2_Pf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 400 bytes cmem[0], 88 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00006b14_00000000_7_instance_norm_op_cpp1_ii_3a5338cc18InstanceNormKernelEiiiiiiPKfS2_S2_S2_S2_Pf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00006b14_00000000_7_instance_norm_op_cpp1_ii_3a5338cc18InstanceNormKernelEiiiiiiPKfS2_S2_S2_S2_Pf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00006b14_00000000_7_instance_norm_op_cpp1_ii_3a5338cc35InstanceNormScaleBiasGradientKernelEiiiiiiPKfS2_S2_S2_PfS3_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00006b14_00000000_7_instance_norm_op_cpp1_ii_3a5338cc35InstanceNormScaleBiasGradientKernelEiiiiiiPKfS2_S2_S2_PfS3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00006b14_00000000_7_instance_norm_op_cpp1_ii_3a5338cc22InstanceNormMeanKernelEiiiiiiPKfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00006b14_00000000_7_instance_norm_op_cpp1_ii_3a5338cc22InstanceNormMeanKernelEiiiiiiPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 360 bytes cmem[0], 12 bytes cmem[2]

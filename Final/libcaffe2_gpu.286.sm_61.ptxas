@@ -1,0 +1,77 @@
+ptxas info    : 2385 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe221gather_padding_kernelIlEEviiiiPKT_PKiS5_PS1_S6_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe221gather_padding_kernelIlEEviiiiPKT_PKiS5_PS1_S6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 48 bytes smem, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09619RemovePaddingKernelIdEEvPKT_iiiPKiiiPS2_Pi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09619RemovePaddingKernelIdEEvPKT_iiiPKiiiPS2_Pi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub16DeviceScanKernelINS_12DispatchScanIPKiPiNS_3SumEiiE18PtxAgentScanPolicyES3_S4_NS_13ScanTileStateIiLb1EEES5_iiEEvT0_T1_T2_iT3_T4_T5_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub16DeviceScanKernelINS_12DispatchScanIPKiPiNS_3SumEiiE18PtxAgentScanPolicyES3_S4_NS_13ScanTileStateIiLb1EEES5_iiEEvT0_T1_T2_iT3_T4_T5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 7696 bytes smem, 360 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09616AddPaddingKernelIiEEvPKT_iiiPKiS4_iS4_iPS2_Pi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09616AddPaddingKernelIiEEvPKT_iiiPKiS4_iS4_iPS2_Pi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe221gather_padding_kernelIdEEviiiiPKT_PKiS5_PS1_S6_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe221gather_padding_kernelIdEEviiiiPKT_PKiS5_PS1_S6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 48 bytes smem, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09616AddPaddingKernelIbEEvPKT_iiiPKiS4_iS4_iPS2_Pi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09616AddPaddingKernelIbEEvPKT_iiiPKiS4_iS4_iPS2_Pi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09616AddPaddingKernelIfEEvPKT_iiiPKiS4_iS4_iPS2_Pi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09616AddPaddingKernelIfEEvPKT_iiiPKiS4_iS4_iPS2_Pi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09619RemovePaddingKernelIlEEvPKT_iiiPKiiiPS2_Pi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09619RemovePaddingKernelIlEEvPKT_iiiPKiiiPS2_Pi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub20DeviceScanInitKernelINS_13ScanTileStateIiLb1EEEEEvT_i' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub20DeviceScanInitKernelINS_13ScanTileStateIiLb1EEEEEvT_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 7 registers, 332 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe221gather_padding_kernelIfEEviiiiPKT_PKiS5_PS1_S6_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe221gather_padding_kernelIfEEviiiiPKT_PKiS5_PS1_S6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 48 bytes smem, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09616AddPaddingKernelIlEEvPKT_iiiPKiS4_iS4_iPS2_Pi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09616AddPaddingKernelIlEEvPKT_iiiPKiS4_iS4_iPS2_Pi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe221gather_padding_kernelIbEEviiiiPKT_PKiS5_PS1_S6_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe221gather_padding_kernelIbEEviiiiPKT_PKiS5_PS1_S6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 48 bytes smem, 376 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09619RemovePaddingKernelIiEEvPKT_iiiPKiiiPS2_Pi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09619RemovePaddingKernelIiEEvPKT_iiiPKiiiPS2_Pi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe221gather_padding_kernelIiEEviiiiPKT_PKiS5_PS1_S6_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe221gather_padding_kernelIiEEviiiiPKT_PKiS5_PS1_S6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 48 bytes smem, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09619RemovePaddingKernelIfEEvPKT_iiiPKiiiPS2_Pi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09619RemovePaddingKernelIfEEvPKT_iiiPKiiiPS2_Pi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09616AddPaddingKernelIdEEvPKT_iiiPKiS4_iS4_iPS2_Pi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09616AddPaddingKernelIdEEvPKT_iiiPKiS4_iS4_iPS2_Pi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09619RemovePaddingKernelIbEEvPKT_iiiPKiiiPS2_Pi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe271_GLOBAL__N__47_tmpxft_000071e9_00000000_7_sequence_ops_cpp1_ii_c233a09619RemovePaddingKernelIbEEvPKT_iiiPKiiiPS2_Pi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub16DeviceScanKernelINS_12DispatchScanIPKiPiNS_3SumENS_8NullTypeEiE18PtxAgentScanPolicyES3_S4_NS_13ScanTileStateIiLb1EEES5_S6_iEEvT0_T1_T2_iT3_T4_T5_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub16DeviceScanKernelINS_12DispatchScanIPKiPiNS_3SumENS_8NullTypeEiE18PtxAgentScanPolicyES3_S4_NS_13ScanTileStateIiLb1EEES5_S6_iEEvT0_T1_T2_iT3_T4_T5_
+    8 bytes stack frame, 4 bytes spill stores, 4 bytes spill loads
+ptxas info    : Used 32 registers, 7696 bytes smem, 356 bytes cmem[0], 4 bytes cmem[2]

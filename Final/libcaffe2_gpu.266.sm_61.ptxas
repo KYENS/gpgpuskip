@@ -1,0 +1,17 @@
+ptxas info    : 1056 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe284_GLOBAL__N__60_tmpxft_00006d50_00000000_7_reduce_front_back_max_ops_cpp1_ii_54c781a918rowwise_max_kernelEiiPKfPKiPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe284_GLOBAL__N__60_tmpxft_00006d50_00000000_7_reduce_front_back_max_ops_cpp1_ii_54c781a918rowwise_max_kernelEiiPKfPKiPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 24 bytes smem, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe284_GLOBAL__N__60_tmpxft_00006d50_00000000_7_reduce_front_back_max_ops_cpp1_ii_54c781a923rowwise_max_grad_kernelEiiPKfS2_S2_PKiPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe284_GLOBAL__N__60_tmpxft_00006d50_00000000_7_reduce_front_back_max_ops_cpp1_ii_54c781a923rowwise_max_grad_kernelEiiPKfS2_S2_PKiPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe284_GLOBAL__N__60_tmpxft_00006d50_00000000_7_reduce_front_back_max_ops_cpp1_ii_54c781a921columnwise_max_kernelEiiPKfPKiPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe284_GLOBAL__N__60_tmpxft_00006d50_00000000_7_reduce_front_back_max_ops_cpp1_ii_54c781a921columnwise_max_kernelEiiPKfPKiPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 24 bytes smem, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe284_GLOBAL__N__60_tmpxft_00006d50_00000000_7_reduce_front_back_max_ops_cpp1_ii_54c781a926columnwise_max_grad_kernelEiiPKfS2_S2_PKiPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe284_GLOBAL__N__60_tmpxft_00006d50_00000000_7_reduce_front_back_max_ops_cpp1_ii_54c781a926columnwise_max_grad_kernelEiiPKfS2_S2_PKiPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 368 bytes cmem[0]

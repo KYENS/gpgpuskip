@@ -1,0 +1,251 @@
+ptxas info    : 78800 bytes gmem, 216 bytes cmem[3]
+ptxas info    : Compiling entry function '_Z32sampleMultinomialWithReplacementIN3c104HalfEEvP17curandStateMtgp32iPlliPT_' for 'sm_61'
+ptxas info    : Function properties for _Z32sampleMultinomialWithReplacementIN3c104HalfEEvP17curandStateMtgp32iPlliPT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20generate_exponentialP17curandStateMtgp32iPN3c104HalfEd' for 'sm_61'
+ptxas info    : Function properties for _Z20generate_exponentialP17curandStateMtgp32iPN3c104HalfEd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 352 bytes cmem[0], 72 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z26multinomialAliasDrawKernelIfEviPlS0_PT_lS2_S2_' for 'sm_61'
+ptxas info    : Function properties for _Z26multinomialAliasDrawKernelIfEviPlS0_PT_lS2_S2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18generate_geometricP17curandStateMtgp32iPid' for 'sm_61'
+ptxas info    : Function properties for _Z18generate_geometricP17curandStateMtgp32iPid
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 352 bytes cmem[0], 168 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z22aliasMultinomialFilterIdEvPT_S1_PlS2_S2_S2_S2_S0_l' for 'sm_61'
+ptxas info    : Function properties for _Z22aliasMultinomialFilterIdEvPT_S1_PlS2_S2_S2_S2_S0_l
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15generate_normalP17curandStateMtgp32iPfdd' for 'sm_61'
+ptxas info    : Function properties for _Z15generate_normalP17curandStateMtgp32iPfdd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 360 bytes cmem[0], 84 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17generateLogNormalIfEvP17curandStateMtgp32iPT_dd' for 'sm_61'
+ptxas info    : Function properties for _Z17generateLogNormalIfEvP17curandStateMtgp32iPT_dd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 360 bytes cmem[0], 96 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18generate_geometricP17curandStateMtgp32iPad' for 'sm_61'
+ptxas info    : Function properties for _Z18generate_geometricP17curandStateMtgp32iPad
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 352 bytes cmem[0], 168 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12renormRowsL1IdEvPT_ll' for 'sm_61'
+ptxas info    : Function properties for _Z12renormRowsL1IdEvPT_ll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 344 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19set_rngstate_kernelP17curandStateMtgp32P20mtgp32_kernel_params' for 'sm_61'
+ptxas info    : Function properties for _Z19set_rngstate_kernelP17curandStateMtgp32P20mtgp32_kernel_params
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 6 registers, 336 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z7condDivIN3c104HalfEEvPT_PllS2_' for 'sm_61'
+ptxas info    : Function properties for _Z7condDivIN3c104HalfEEvPT_PllS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 346 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18generate_random_64P17curandStateMtgp32iPllm' for 'sm_61'
+ptxas info    : Function properties for _Z18generate_random_64P17curandStateMtgp32iPllm
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18generate_geometricP17curandStateMtgp32iPdd' for 'sm_61'
+ptxas info    : Function properties for _Z18generate_geometricP17curandStateMtgp32iPdd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 352 bytes cmem[0], 124 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z15generate_cauchyP17curandStateMtgp32iPfdd' for 'sm_61'
+ptxas info    : Function properties for _Z15generate_cauchyP17curandStateMtgp32iPfdd
+    48 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 36 registers, 360 bytes cmem[0], 168 bytes cmem[2]
+ptxas info    : Function properties for __internal_trig_reduction_slowpathd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compiling entry function '_Z35sampleMultinomialWithoutReplacementIfEvP17curandStateMtgp32iiPlliPT_S4_' for 'sm_61'
+ptxas info    : Function properties for _Z35sampleMultinomialWithoutReplacementIfEvP17curandStateMtgp32iiPlliPT_S4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z22aliasMultinomialFilterIN3c104HalfEEvPT_S3_PlS4_S4_S4_S4_S2_l' for 'sm_61'
+ptxas info    : Function properties for _Z22aliasMultinomialFilterIN3c104HalfEEvPT_S3_PlS4_S4_S4_S4_S2_l
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18generate_geometricP17curandStateMtgp32iPhd' for 'sm_61'
+ptxas info    : Function properties for _Z18generate_geometricP17curandStateMtgp32iPhd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 352 bytes cmem[0], 168 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z15generate_randomP17curandStateMtgp32iPfij' for 'sm_61'
+ptxas info    : Function properties for _Z15generate_randomP17curandStateMtgp32iPfij
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18generate_geometricP17curandStateMtgp32iPld' for 'sm_61'
+ptxas info    : Function properties for _Z18generate_geometricP17curandStateMtgp32iPld
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 352 bytes cmem[0], 168 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z7condDivIdEvPT_PllS0_' for 'sm_61'
+ptxas info    : Function properties for _Z7condDivIdEvPT_PllS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 352 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z20generate_exponentialP17curandStateMtgp32iPfd' for 'sm_61'
+ptxas info    : Function properties for _Z20generate_exponentialP17curandStateMtgp32iPfd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 352 bytes cmem[0], 72 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21sampleMultinomialOnceIffEvPlliPT_S2_ii' for 'sm_61'
+ptxas info    : Function properties for _Z21sampleMultinomialOnceIffEvPlliPT_S2_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 16 bytes smem, 368 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18generate_geometricP17curandStateMtgp32iPsd' for 'sm_61'
+ptxas info    : Function properties for _Z18generate_geometricP17curandStateMtgp32iPsd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 352 bytes cmem[0], 168 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z32sampleMultinomialWithReplacementIdEvP17curandStateMtgp32iPlliPT_' for 'sm_61'
+ptxas info    : Function properties for _Z32sampleMultinomialWithReplacementIdEvP17curandStateMtgp32iPlliPT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z16generate_uniformP17curandStateMtgp32iPfdd' for 'sm_61'
+ptxas info    : Function properties for _Z16generate_uniformP17curandStateMtgp32iPfdd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18generate_geometricP17curandStateMtgp32iPN3c104HalfEd' for 'sm_61'
+ptxas info    : Function properties for _Z18generate_geometricP17curandStateMtgp32iPN3c104HalfEd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 352 bytes cmem[0], 168 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12renormRowsL1IN3c104HalfEEvPT_ll' for 'sm_61'
+ptxas info    : Function properties for _Z12renormRowsL1IN3c104HalfEEvPT_ll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 344 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18generate_random_64P17curandStateMtgp32iPdlm' for 'sm_61'
+ptxas info    : Function properties for _Z18generate_random_64P17curandStateMtgp32iPdlm
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z16generate_uniformP17curandStateMtgp32iPN3c104HalfEdd' for 'sm_61'
+ptxas info    : Function properties for _Z16generate_uniformP17curandStateMtgp32iPN3c104HalfEdd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21aliasMultinomialSetupIfEvPlPT_lS0_S0_ii' for 'sm_61'
+ptxas info    : Function properties for _Z21aliasMultinomialSetupIfEvPlPT_lS0_S0_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z35sampleMultinomialWithoutReplacementIN3c104HalfEEvP17curandStateMtgp32iiPlliPT_S6_' for 'sm_61'
+ptxas info    : Function properties for _Z35sampleMultinomialWithoutReplacementIN3c104HalfEEvP17curandStateMtgp32iiPlliPT_S6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15generate_cauchyP17curandStateMtgp32iPN3c104HalfEdd' for 'sm_61'
+ptxas info    : Function properties for _Z15generate_cauchyP17curandStateMtgp32iPN3c104HalfEdd
+    48 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 36 registers, 360 bytes cmem[0], 168 bytes cmem[2]
+ptxas info    : Function properties for __internal_trig_reduction_slowpathd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compiling entry function '_Z18generate_geometricP17curandStateMtgp32iPfd' for 'sm_61'
+ptxas info    : Function properties for _Z18generate_geometricP17curandStateMtgp32iPfd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 352 bytes cmem[0], 168 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z15generate_randomP17curandStateMtgp32iPiij' for 'sm_61'
+ptxas info    : Function properties for _Z15generate_randomP17curandStateMtgp32iPiij
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21aliasMultinomialSetupIdEvPlPT_lS0_S0_ii' for 'sm_61'
+ptxas info    : Function properties for _Z21aliasMultinomialSetupIdEvPlPT_lS0_S0_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 368 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z15generate_normalP17curandStateMtgp32iPddd' for 'sm_61'
+ptxas info    : Function properties for _Z15generate_normalP17curandStateMtgp32iPddd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 360 bytes cmem[0], 600 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12renormRowsL1IfEvPT_ll' for 'sm_61'
+ptxas info    : Function properties for _Z12renormRowsL1IfEvPT_ll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 344 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z15generate_randomP17curandStateMtgp32iPaij' for 'sm_61'
+ptxas info    : Function properties for _Z15generate_randomP17curandStateMtgp32iPaij
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21sampleMultinomialOnceIddEvPlliPT_S2_ii' for 'sm_61'
+ptxas info    : Function properties for _Z21sampleMultinomialOnceIddEvPlliPT_S2_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 16 bytes smem, 368 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z16generate_uniformP17curandStateMtgp32iPfff' for 'sm_61'
+ptxas info    : Function properties for _Z16generate_uniformP17curandStateMtgp32iPfff
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26multinomialAliasDrawKernelIN3c104HalfEEviPlS2_PT_lS4_S4_' for 'sm_61'
+ptxas info    : Function properties for _Z26multinomialAliasDrawKernelIN3c104HalfEEviPlS2_PT_lS4_S4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17generateLogNormalIN3c104HalfEEvP17curandStateMtgp32iPT_dd' for 'sm_61'
+ptxas info    : Function properties for _Z17generateLogNormalIN3c104HalfEEvP17curandStateMtgp32iPT_dd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 360 bytes cmem[0], 96 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z15generate_randomP17curandStateMtgp32iPdij' for 'sm_61'
+ptxas info    : Function properties for _Z15generate_randomP17curandStateMtgp32iPdij
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15generate_cauchyP17curandStateMtgp32iPddd' for 'sm_61'
+ptxas info    : Function properties for _Z15generate_cauchyP17curandStateMtgp32iPddd
+    48 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 36 registers, 360 bytes cmem[0], 168 bytes cmem[2]
+ptxas info    : Function properties for __internal_trig_reduction_slowpathd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compiling entry function '_Z22aliasMultinomialFilterIfEvPT_S1_PlS2_S2_S2_S2_S0_l' for 'sm_61'
+ptxas info    : Function properties for _Z22aliasMultinomialFilterIfEvPT_S1_PlS2_S2_S2_S2_S0_l
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15generate_randomP17curandStateMtgp32iPsij' for 'sm_61'
+ptxas info    : Function properties for _Z15generate_randomP17curandStateMtgp32iPsij
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z35sampleMultinomialWithoutReplacementIdEvP17curandStateMtgp32iiPlliPT_S4_' for 'sm_61'
+ptxas info    : Function properties for _Z35sampleMultinomialWithoutReplacementIdEvP17curandStateMtgp32iiPlliPT_S4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z16generate_uniformP17curandStateMtgp32iPddd' for 'sm_61'
+ptxas info    : Function properties for _Z16generate_uniformP17curandStateMtgp32iPddd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15generate_randomP17curandStateMtgp32iPN3c104HalfEij' for 'sm_61'
+ptxas info    : Function properties for _Z15generate_randomP17curandStateMtgp32iPN3c104HalfEij
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21sampleMultinomialOnceIN3c104HalfEfEvPlliPT_S4_ii' for 'sm_61'
+ptxas info    : Function properties for _Z21sampleMultinomialOnceIN3c104HalfEfEvPlliPT_S4_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 16 bytes smem, 368 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15generate_normalP17curandStateMtgp32iPN3c104HalfEdd' for 'sm_61'
+ptxas info    : Function properties for _Z15generate_normalP17curandStateMtgp32iPN3c104HalfEdd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 360 bytes cmem[0], 84 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z7condDivIfEvPT_PllS0_' for 'sm_61'
+ptxas info    : Function properties for _Z7condDivIfEvPT_PllS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 348 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z15generate_randomP17curandStateMtgp32iPhij' for 'sm_61'
+ptxas info    : Function properties for _Z15generate_randomP17curandStateMtgp32iPhij
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18generate_random_64P17curandStateMtgp32iPflm' for 'sm_61'
+ptxas info    : Function properties for _Z18generate_random_64P17curandStateMtgp32iPflm
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17generateLogNormalIdEvP17curandStateMtgp32iPT_dd' for 'sm_61'
+ptxas info    : Function properties for _Z17generateLogNormalIdEvP17curandStateMtgp32iPT_dd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 360 bytes cmem[0], 704 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21aliasMultinomialSetupIN3c104HalfEEvPlPT_lS2_S2_ii' for 'sm_61'
+ptxas info    : Function properties for _Z21aliasMultinomialSetupIN3c104HalfEEvPlPT_lS2_S2_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15generate_randomP17curandStateMtgp32iPlij' for 'sm_61'
+ptxas info    : Function properties for _Z15generate_randomP17curandStateMtgp32iPlij
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z26multinomialAliasDrawKernelIdEviPlS0_PT_lS2_S2_' for 'sm_61'
+ptxas info    : Function properties for _Z26multinomialAliasDrawKernelIdEviPlS0_PT_lS2_S2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20generate_exponentialP17curandStateMtgp32iPdd' for 'sm_61'
+ptxas info    : Function properties for _Z20generate_exponentialP17curandStateMtgp32iPdd
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 352 bytes cmem[0], 120 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z32sampleMultinomialWithReplacementIfEvP17curandStateMtgp32iPlliPT_' for 'sm_61'
+ptxas info    : Function properties for _Z32sampleMultinomialWithReplacementIfEvP17curandStateMtgp32iPlliPT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 368 bytes cmem[0]

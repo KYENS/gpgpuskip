@@ -1,0 +1,37 @@
+ptxas info    : 161 bytes gmem
+ptxas info    : Compiling entry function '_Z51cunn_TemporalMaxPooling_updateGradInputKernelAtomicIfEvPT_S1_Pliiiii' for 'sm_61'
+ptxas info    : Function properties for _Z51cunn_TemporalMaxPooling_updateGradInputKernelAtomicIfEvPT_S1_Pliiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 364 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cunn_TemporalMaxPooling_updateGradInputKernelIN3c104HalfEEvPT_S3_Pliiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cunn_TemporalMaxPooling_updateGradInputKernelIN3c104HalfEEvPT_S3_Pliiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 364 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cunn_TemporalMaxPooling_updateGradInputKernelIdEvPT_S1_Pliiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cunn_TemporalMaxPooling_updateGradInputKernelIdEvPT_S1_Pliiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 364 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42cunn_TemporalMaxPooling_updateOutputKernelIfEvPT_S1_Pliiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42cunn_TemporalMaxPooling_updateOutputKernelIfEvPT_S1_Pliiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 364 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42cunn_TemporalMaxPooling_updateOutputKernelIdEvPT_S1_Pliiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42cunn_TemporalMaxPooling_updateOutputKernelIdEvPT_S1_Pliiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 364 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z51cunn_TemporalMaxPooling_updateGradInputKernelAtomicIN3c104HalfEEvPT_S3_Pliiiii' for 'sm_61'
+ptxas info    : Function properties for _Z51cunn_TemporalMaxPooling_updateGradInputKernelAtomicIN3c104HalfEEvPT_S3_Pliiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 364 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cunn_TemporalMaxPooling_updateGradInputKernelIfEvPT_S1_Pliiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cunn_TemporalMaxPooling_updateGradInputKernelIfEvPT_S1_Pliiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 364 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42cunn_TemporalMaxPooling_updateOutputKernelIN3c104HalfEEvPT_S3_Pliiiii' for 'sm_61'
+ptxas info    : Function properties for _Z42cunn_TemporalMaxPooling_updateOutputKernelIN3c104HalfEEvPT_S3_Pliiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 364 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z51cunn_TemporalMaxPooling_updateGradInputKernelAtomicIdEvPT_S1_Pliiiii' for 'sm_61'
+ptxas info    : Function properties for _Z51cunn_TemporalMaxPooling_updateGradInputKernelAtomicIdEvPT_S1_Pliiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 364 bytes cmem[0]

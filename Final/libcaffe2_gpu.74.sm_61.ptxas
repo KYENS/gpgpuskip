@@ -1,0 +1,797 @@
+ptxas info    : 534 bytes gmem
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 373 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 397 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 973 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIN3c104HalfEEESN_SN_NS_9null_typeESO_SO_SO_SO_SO_SO_EEEENS_6detail16wrapped_functionINSR_24binary_transform_functorI26kl_updateGradInput_functorISM_EEEvEElSO_SO_SO_SO_SO_SO_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIN3c104HalfEEESN_SN_NS_9null_typeESO_SO_SO_SO_SO_SO_EEEENS_6detail16wrapped_functionINSR_24binary_transform_functorI26kl_updateGradInput_functorISM_EEEvEElSO_SO_SO_SO_SO_SO_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 32 bytes smem, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 445 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIdEEPdNS_9null_typeESN_SN_SN_SN_SN_SN_SN_EEEENS_6detail16wrapped_functionINSQ_23unary_transform_functorINS_8identityIdEEEEvEElSN_SN_SN_SN_SN_SN_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIdEEPdNS_9null_typeESN_SN_SN_SN_SN_SN_SN_EEEENS_6detail16wrapped_functionINSQ_23unary_transform_functorINS_8identityIdEEEEvEElSN_SN_SN_SN_SN_SN_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 32 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 377 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIN3c104HalfEEEPSM_NS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityISM_EEEEvEEjSP_SP_SP_SP_SP_SP_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIN3c104HalfEEEPSM_NS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityISM_EEEEvEEjSP_SP_SP_SP_SP_SP_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 32 bytes smem, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_mLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_mLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 377 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 397 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIfEESL_SL_NS_9null_typeESM_SM_SM_SM_SM_SM_EEEENS_6detail16wrapped_functionINSP_24binary_transform_functorI26kl_updateGradInput_functorIfEEEvEEjSM_SM_SM_SM_SM_SM_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIfEESL_SL_NS_9null_typeESM_SM_SM_SM_SM_SM_EEEENS_6detail16wrapped_functionINSP_24binary_transform_functorI26kl_updateGradInput_functorIfEEEvEEjSM_SM_SM_SM_SM_SM_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 32 bytes smem, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 973 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 1577 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj128ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm7EEELm128EEELm0EEENS4_7closureINS2_13reduce_detail17reduce_partitionsENS_5tupleINS4_6cursorILj1EEENS_6detail15normal_iteratorINS_7pointerIfNS2_3tagENS_11use_defaultESN_EEEESP_SP_NS_4plusIfEENS_9null_typeESS_SS_SS_SS_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj128ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm7EEELm128EEELm0EEENS4_7closureINS2_13reduce_detail17reduce_partitionsENS_5tupleINS4_6cursorILj1EEENS_6detail15normal_iteratorINS_7pointerIfNS2_3tagENS_11use_defaultESN_EEEESP_SP_NS_4plusIfEENS_9null_typeESS_SS_SS_SS_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 32 bytes smem, 392 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 397 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIdNS2_3tagENS_11use_defaultESM_EEPdNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIdEEEEvEEjSP_SP_SP_SP_SP_SP_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIdNS2_3tagENS_11use_defaultESM_EEPdNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIdEEEEvEEjSP_SP_SP_SP_SP_SP_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 32 bytes smem, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 373 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 397 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 397 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj128ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm7EEELm128EEELm0EEENS4_7closureINS2_13reduce_detail17reduce_partitionsENS_5tupleINS4_6cursorILj1EEENS_18transform_iteratorINS_6detail16zipped_binary_opId10kl_functorIddEEENS_12zip_iteratorINSG_INS_10device_ptrIdEESR_NS_9null_typeESS_SS_SS_SS_SS_SS_SS_EEEEdNS_11use_defaultEEENS2_21aligned_decompositionIlEENSK_15normal_iteratorINS_7pointerIdNS2_3tagESV_SV_EEEEdNS_4plusIdEESS_SS_SS_SS_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj128ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm7EEELm128EEELm0EEENS4_7closureINS2_13reduce_detail17reduce_partitionsENS_5tupleINS4_6cursorILj1EEENS_18transform_iteratorINS_6detail16zipped_binary_opId10kl_functorIddEEENS_12zip_iteratorINSG_INS_10device_ptrIdEESR_NS_9null_typeESS_SS_SS_SS_SS_SS_SS_EEEEdNS_11use_defaultEEENS2_21aligned_decompositionIlEENSK_15normal_iteratorINS_7pointerIdNS2_3tagESV_SV_EEEEdNS_4plusIdEESS_SS_SS_SS_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 32 bytes smem, 448 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 445 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 1577 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 377 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 397 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIfNS2_3tagENS_11use_defaultESM_EEPfNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIfEEEEvEElSP_SP_SP_SP_SP_SP_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIfNS2_3tagENS_11use_defaultESM_EEPfNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIfEEEEvEElSP_SP_SP_SP_SP_SP_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 32 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIdEESL_SL_NS_9null_typeESM_SM_SM_SM_SM_SM_EEEENS_6detail16wrapped_functionINSP_24binary_transform_functorI26kl_updateGradInput_functorIdEEEvEEjSM_SM_SM_SM_SM_SM_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIdEESL_SL_NS_9null_typeESM_SM_SM_SM_SM_SM_EEEENS_6detail16wrapped_functionINSP_24binary_transform_functorI26kl_updateGradInput_functorIdEEEvEEjSM_SM_SM_SM_SM_SM_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 32 bytes smem, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_mLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_mLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 51 registers, 1577 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIfEEPfNS_9null_typeESN_SN_SN_SN_SN_SN_SN_EEEENS_6detail16wrapped_functionINSQ_23unary_transform_functorINS_8identityIfEEEEvEEjSN_SN_SN_SN_SN_SN_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIfEEPfNS_9null_typeESN_SN_SN_SN_SN_SN_SN_EEEENS_6detail16wrapped_functionINSQ_23unary_transform_functorINS_8identityIfEEEEvEEjSN_SN_SN_SN_SN_SN_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 32 bytes smem, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 373 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 973 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_3tagENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEEjSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_3tagENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEEjSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 32 bytes smem, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, 421 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKdNS_7pointerIdNS2_3tagENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIdEEEEvEElSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKdNS_7pointerIdNS2_3tagENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIdEEEEvEElSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 32 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 445 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_mLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_mLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 51 registers, 1577 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIfEESL_SL_NS_9null_typeESM_SM_SM_SM_SM_SM_EEEENS_6detail16wrapped_functionINSP_24binary_transform_functorI26kl_updateGradInput_functorIfEEEvEElSM_SM_SM_SM_SM_SM_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIfEESL_SL_NS_9null_typeESM_SM_SM_SM_SM_SM_EEEENS_6detail16wrapped_functionINSP_24binary_transform_functorI26kl_updateGradInput_functorIfEEEvEElSM_SM_SM_SM_SM_SM_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 32 bytes smem, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 421 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 377 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 973 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 373 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIfNS2_3tagENS_11use_defaultESM_EEPfNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIfEEEEvEEjSP_SP_SP_SP_SP_SP_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIfNS2_3tagENS_11use_defaultESM_EEPfNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIfEEEEvEEjSP_SP_SP_SP_SP_SP_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 32 bytes smem, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, 445 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 421 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIdNS2_3tagENS_11use_defaultESM_EEPdNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIdEEEEvEElSP_SP_SP_SP_SP_SP_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIdNS2_3tagENS_11use_defaultESM_EEPdNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIdEEEEvEElSP_SP_SP_SP_SP_SP_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 32 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 421 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 621 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 421 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_mLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_mLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 377 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj128ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm7EEELm128EEELm0EEENS4_7closureINS2_13reduce_detail17reduce_partitionsENS_5tupleINS4_6cursorILj1EEENS_18transform_iteratorINS_6detail16zipped_binary_opIf10kl_functorIffEEENS_12zip_iteratorINSG_INS_10device_ptrIfEESR_NS_9null_typeESS_SS_SS_SS_SS_SS_SS_EEEEfNS_11use_defaultEEENS2_21aligned_decompositionIlEENSK_15normal_iteratorINS_7pointerIfNS2_3tagESV_SV_EEEEfNS_4plusIfEESS_SS_SS_SS_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj128ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm7EEELm128EEELm0EEENS4_7closureINS2_13reduce_detail17reduce_partitionsENS_5tupleINS4_6cursorILj1EEENS_18transform_iteratorINS_6detail16zipped_binary_opIf10kl_functorIffEEENS_12zip_iteratorINSG_INS_10device_ptrIfEESR_NS_9null_typeESS_SS_SS_SS_SS_SS_SS_EEEEfNS_11use_defaultEEENS2_21aligned_decompositionIlEENSK_15normal_iteratorINS_7pointerIfNS2_3tagESV_SV_EEEEfNS_4plusIfEESS_SS_SS_SS_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 32 bytes smem, 440 bytes cmem[0], 48 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 51 registers, 1577 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIN3c104HalfEEEPSM_NS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityISM_EEEEvEElSP_SP_SP_SP_SP_SP_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIN3c104HalfEEEPSM_NS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityISM_EEEEvEElSP_SP_SP_SP_SP_SP_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 32 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKdNS_7pointerIdNS2_3tagENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIdEEEEvEEjSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKdNS_7pointerIdNS2_3tagENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIdEEEEvEEjSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 32 bytes smem, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 373 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 421 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 445 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 421 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 421 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIdEEPdNS_9null_typeESN_SN_SN_SN_SN_SN_SN_EEEENS_6detail16wrapped_functionINSQ_23unary_transform_functorINS_8identityIdEEEEvEEjSN_SN_SN_SN_SN_SN_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIdEEPdNS_9null_typeESN_SN_SN_SN_SN_SN_SN_EEEENS_6detail16wrapped_functionINSQ_23unary_transform_functorINS_8identityIdEEEEvEEjSN_SN_SN_SN_SN_SN_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 32 bytes smem, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLin1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 973 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLin1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj128ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm7EEELm128EEELm0EEENS4_7closureINS2_13reduce_detail17reduce_partitionsENS_5tupleINS4_6cursorILj1EEENS_18transform_iteratorINS_6detail16zipped_binary_opIf10kl_functorIN3c104HalfEfEEENS_12zip_iteratorINSG_INS_10device_ptrISO_EEST_NS_9null_typeESU_SU_SU_SU_SU_SU_SU_EEEEfNS_11use_defaultEEENS2_21aligned_decompositionIlEENSK_15normal_iteratorINS_7pointerIfNS2_3tagESX_SX_EEEEfNS_4plusIfEESU_SU_SU_SU_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj128ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm7EEELm128EEELm0EEENS4_7closureINS2_13reduce_detail17reduce_partitionsENS_5tupleINS4_6cursorILj1EEENS_18transform_iteratorINS_6detail16zipped_binary_opIf10kl_functorIN3c104HalfEfEEENS_12zip_iteratorINSG_INS_10device_ptrISO_EEST_NS_9null_typeESU_SU_SU_SU_SU_SU_SU_EEEEfNS_11use_defaultEEENS2_21aligned_decompositionIlEENSK_15normal_iteratorINS_7pointerIfNS2_3tagESX_SX_EEEEfNS_4plusIfEESU_SU_SU_SU_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, 32 bytes smem, 440 bytes cmem[0], 48 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffmLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 1577 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIN3c104HalfEEESN_SN_NS_9null_typeESO_SO_SO_SO_SO_SO_EEEENS_6detail16wrapped_functionINSR_24binary_transform_functorI26kl_updateGradInput_functorISM_EEEvEEjSO_SO_SO_SO_SO_SO_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIN3c104HalfEEESN_SN_NS_9null_typeESO_SO_SO_SO_SO_SO_EEEENS_6detail16wrapped_functionINSR_24binary_transform_functorI26kl_updateGradInput_functorISM_EEEvEEjSO_SO_SO_SO_SO_SO_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 32 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi2ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi2ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 421 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIdEESL_SL_NS_9null_typeESM_SM_SM_SM_SM_SM_EEEENS_6detail16wrapped_functionINSP_24binary_transform_functorI26kl_updateGradInput_functorIdEEEvEElSM_SM_SM_SM_SM_SM_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIdEESL_SL_NS_9null_typeESM_SM_SM_SM_SM_SM_EEEENS_6detail16wrapped_functionINSP_24binary_transform_functorI26kl_updateGradInput_functorIdEEEvEElSM_SM_SM_SM_SM_SM_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 32 bytes smem, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 973 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi2ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 373 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIfEEPfNS_9null_typeESN_SN_SN_SN_SN_SN_SN_EEEENS_6detail16wrapped_functionINSQ_23unary_transform_functorINS_8identityIfEEEEvEElSN_SN_SN_SN_SN_SN_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIfEEPfNS_9null_typeESN_SN_SN_SN_SN_SN_SN_EEEENS_6detail16wrapped_functionINSQ_23unary_transform_functorINS_8identityIfEEEEvEElSN_SN_SN_SN_SN_SN_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 32 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi2ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 621 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 421 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLin1ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 621 bytes cmem[0], 104 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLin1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi2ELi2ELi2EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, 445 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLin1ELin1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLin1ELin1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi1ELi1ELi2EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 397 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffmLi1ELi1ELi1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 377 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLin1ELi2ELi1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_3tagENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEElSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_3tagENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEElSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 32 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIfEfffjLi2ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 597 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I36kl_updateGradInput_no_reduce_functorIdEdddjLi2ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 797 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIfEfffjLi1ELin1ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 773 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj128ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm7EEELm128EEELm0EEENS4_7closureINS2_13reduce_detail17reduce_partitionsENS_5tupleINS4_6cursorILj1EEENS_6detail15normal_iteratorINS_7pointerIdNS2_3tagENS_11use_defaultESN_EEEESP_SP_NS_4plusIdEENS_9null_typeESS_SS_SS_SS_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj128ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm7EEELm128EEELm0EEENS4_7closureINS2_13reduce_detail17reduce_partitionsENS_5tupleINS4_6cursorILj1EEENS_6detail15normal_iteratorINS_7pointerIdNS2_3tagENS_11use_defaultESN_EEEESP_SP_NS_4plusIdEENS_9null_typeESS_SS_SS_SS_EEEEEEEEvT0_
+    24 bytes stack frame, 16 bytes spill stores, 16 bytes spill loads
+ptxas info    : Used 32 registers, 32 bytes smem, 392 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIN3c104HalfEES2_S2_S2_jLi1ELi1ELin1EEv10OffsetInfoIT0_T3_XT4_EES4_IT1_S6_XT5_EES4_IT2_S6_XT6_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 573 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply3I33kl_updateOutput_no_reduce_functorIdEdddjLi2ELi2ELin1EEv10OffsetInfoIT0_T3_XT4_EES2_IT1_S4_XT5_EES2_IT2_S4_XT6_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 621 bytes cmem[0], 104 bytes cmem[2]

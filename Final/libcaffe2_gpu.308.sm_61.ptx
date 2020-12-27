@@ -1,0 +1,1534 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTSi[8];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTTSd[8];
+.global .align 8 .b8 _ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVN4gloo13EnforceNotMetE[40];
+
+.visible .entry _ZN4gloo22_Kernel_int8_t_cudaSumEPaPKai(
+.param .u64 _ZN4gloo22_Kernel_int8_t_cudaSumEPaPKai_param_0,
+.param .u64 _ZN4gloo22_Kernel_int8_t_cudaSumEPaPKai_param_1,
+.param .u32 _ZN4gloo22_Kernel_int8_t_cudaSumEPaPKai_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<14>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd3, [_ZN4gloo22_Kernel_int8_t_cudaSumEPaPKai_param_0];
+ld.param.u64 %rd4, [_ZN4gloo22_Kernel_int8_t_cudaSumEPaPKai_param_1];
+ld.param.u32 %r6, [_ZN4gloo22_Kernel_int8_t_cudaSumEPaPKai_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r13, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r13, %r6;
+@%p1 bra BB0_3;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd3;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB0_2:
+cvt.s64.s32	%rd5, %r13;
+add.s64 %rd6, %rd2, %rd5;
+ld.global.u8 %r10, [%rd6];
+add.s64 %rd7, %rd1, %rd5;
+ld.global.u8 %r11, [%rd7];
+add.s32 %r12, %r11, %r10;
+st.global.u8 [%rd6], %r12;
+add.s32 %r13, %r3, %r13;
+setp.lt.s32	%p2, %r13, %r6;
+@%p2 bra BB0_2;
+
+BB0_3:
+ret;
+}
+
+
+.visible .entry _ZN4gloo26_Kernel_int8_t_cudaProductEPaPKai(
+.param .u64 _ZN4gloo26_Kernel_int8_t_cudaProductEPaPKai_param_0,
+.param .u64 _ZN4gloo26_Kernel_int8_t_cudaProductEPaPKai_param_1,
+.param .u32 _ZN4gloo26_Kernel_int8_t_cudaProductEPaPKai_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<3>;
+.reg .b32 %r<12>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd3, [_ZN4gloo26_Kernel_int8_t_cudaProductEPaPKai_param_0];
+ld.param.u64 %rd4, [_ZN4gloo26_Kernel_int8_t_cudaProductEPaPKai_param_1];
+ld.param.u32 %r6, [_ZN4gloo26_Kernel_int8_t_cudaProductEPaPKai_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r11, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r11, %r6;
+@%p1 bra BB1_3;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd3;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB1_2:
+cvt.s64.s32	%rd5, %r11;
+add.s64 %rd6, %rd2, %rd5;
+add.s64 %rd7, %rd1, %rd5;
+ld.global.s8 %rs1, [%rd6];
+ld.global.s8 %rs2, [%rd7];
+mul.wide.s16 %r10, %rs2, %rs1;
+st.global.u8 [%rd6], %r10;
+add.s32 %r11, %r3, %r11;
+setp.lt.s32	%p2, %r11, %r6;
+@%p2 bra BB1_2;
+
+BB1_3:
+ret;
+}
+
+
+.visible .entry _ZN4gloo23_Kernel_uint8_t_cudaSumEPhPKhi(
+.param .u64 _ZN4gloo23_Kernel_uint8_t_cudaSumEPhPKhi_param_0,
+.param .u64 _ZN4gloo23_Kernel_uint8_t_cudaSumEPhPKhi_param_1,
+.param .u32 _ZN4gloo23_Kernel_uint8_t_cudaSumEPhPKhi_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<14>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd3, [_ZN4gloo23_Kernel_uint8_t_cudaSumEPhPKhi_param_0];
+ld.param.u64 %rd4, [_ZN4gloo23_Kernel_uint8_t_cudaSumEPhPKhi_param_1];
+ld.param.u32 %r6, [_ZN4gloo23_Kernel_uint8_t_cudaSumEPhPKhi_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r13, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r13, %r6;
+@%p1 bra BB2_3;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd3;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB2_2:
+cvt.s64.s32	%rd5, %r13;
+add.s64 %rd6, %rd2, %rd5;
+ld.global.u8 %r10, [%rd6];
+add.s64 %rd7, %rd1, %rd5;
+ld.global.u8 %r11, [%rd7];
+add.s32 %r12, %r11, %r10;
+st.global.u8 [%rd6], %r12;
+add.s32 %r13, %r3, %r13;
+setp.lt.s32	%p2, %r13, %r6;
+@%p2 bra BB2_2;
+
+BB2_3:
+ret;
+}
+
+
+.visible .entry _ZN4gloo27_Kernel_uint8_t_cudaProductEPhPKhi(
+.param .u64 _ZN4gloo27_Kernel_uint8_t_cudaProductEPhPKhi_param_0,
+.param .u64 _ZN4gloo27_Kernel_uint8_t_cudaProductEPhPKhi_param_1,
+.param .u32 _ZN4gloo27_Kernel_uint8_t_cudaProductEPhPKhi_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<3>;
+.reg .b32 %r<12>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd3, [_ZN4gloo27_Kernel_uint8_t_cudaProductEPhPKhi_param_0];
+ld.param.u64 %rd4, [_ZN4gloo27_Kernel_uint8_t_cudaProductEPhPKhi_param_1];
+ld.param.u32 %r6, [_ZN4gloo27_Kernel_uint8_t_cudaProductEPhPKhi_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r11, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r11, %r6;
+@%p1 bra BB3_3;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd3;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB3_2:
+cvt.s64.s32	%rd5, %r11;
+add.s64 %rd6, %rd2, %rd5;
+add.s64 %rd7, %rd1, %rd5;
+ld.global.u8 %rs1, [%rd6];
+ld.global.u8 %rs2, [%rd7];
+mul.wide.u16 %r10, %rs2, %rs1;
+st.global.u8 [%rd6], %r10;
+add.s32 %r11, %r3, %r11;
+setp.lt.s32	%p2, %r11, %r6;
+@%p2 bra BB3_2;
+
+BB3_3:
+ret;
+}
+
+
+.visible .entry _ZN4gloo23_Kernel_int32_t_cudaSumEPiPKii(
+.param .u64 _ZN4gloo23_Kernel_int32_t_cudaSumEPiPKii_param_0,
+.param .u64 _ZN4gloo23_Kernel_int32_t_cudaSumEPiPKii_param_1,
+.param .u32 _ZN4gloo23_Kernel_int32_t_cudaSumEPiPKii_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<14>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd3, [_ZN4gloo23_Kernel_int32_t_cudaSumEPiPKii_param_0];
+ld.param.u64 %rd4, [_ZN4gloo23_Kernel_int32_t_cudaSumEPiPKii_param_1];
+ld.param.u32 %r6, [_ZN4gloo23_Kernel_int32_t_cudaSumEPiPKii_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r13, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r13, %r6;
+@%p1 bra BB4_3;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd3;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB4_2:
+mul.wide.s32 %rd5, %r13, 4;
+add.s64 %rd6, %rd2, %rd5;
+add.s64 %rd7, %rd1, %rd5;
+ld.global.u32 %r10, [%rd7];
+ld.global.u32 %r11, [%rd6];
+add.s32 %r12, %r10, %r11;
+st.global.u32 [%rd6], %r12;
+add.s32 %r13, %r3, %r13;
+setp.lt.s32	%p2, %r13, %r6;
+@%p2 bra BB4_2;
+
+BB4_3:
+ret;
+}
+
+
+.visible .entry _ZN4gloo27_Kernel_int32_t_cudaProductEPiPKii(
+.param .u64 _ZN4gloo27_Kernel_int32_t_cudaProductEPiPKii_param_0,
+.param .u64 _ZN4gloo27_Kernel_int32_t_cudaProductEPiPKii_param_1,
+.param .u32 _ZN4gloo27_Kernel_int32_t_cudaProductEPiPKii_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<14>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd3, [_ZN4gloo27_Kernel_int32_t_cudaProductEPiPKii_param_0];
+ld.param.u64 %rd4, [_ZN4gloo27_Kernel_int32_t_cudaProductEPiPKii_param_1];
+ld.param.u32 %r6, [_ZN4gloo27_Kernel_int32_t_cudaProductEPiPKii_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r13, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r13, %r6;
+@%p1 bra BB5_3;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd3;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB5_2:
+mul.wide.s32 %rd5, %r13, 4;
+add.s64 %rd6, %rd2, %rd5;
+add.s64 %rd7, %rd1, %rd5;
+ld.global.u32 %r10, [%rd7];
+ld.global.u32 %r11, [%rd6];
+mul.lo.s32 %r12, %r10, %r11;
+st.global.u32 [%rd6], %r12;
+add.s32 %r13, %r3, %r13;
+setp.lt.s32	%p2, %r13, %r6;
+@%p2 bra BB5_2;
+
+BB5_3:
+ret;
+}
+
+
+.visible .entry _ZN4gloo23_Kernel_int64_t_cudaSumEPlPKli(
+.param .u64 _ZN4gloo23_Kernel_int64_t_cudaSumEPlPKli_param_0,
+.param .u64 _ZN4gloo23_Kernel_int64_t_cudaSumEPlPKli_param_1,
+.param .u32 _ZN4gloo23_Kernel_int64_t_cudaSumEPlPKli_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<11>;
+
+
+ld.param.u64 %rd3, [_ZN4gloo23_Kernel_int64_t_cudaSumEPlPKli_param_0];
+ld.param.u64 %rd4, [_ZN4gloo23_Kernel_int64_t_cudaSumEPlPKli_param_1];
+ld.param.u32 %r6, [_ZN4gloo23_Kernel_int64_t_cudaSumEPlPKli_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB6_3;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd3;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB6_2:
+mul.wide.s32 %rd5, %r10, 8;
+add.s64 %rd6, %rd2, %rd5;
+add.s64 %rd7, %rd1, %rd5;
+ld.global.u64 %rd8, [%rd7];
+ld.global.u64 %rd9, [%rd6];
+add.s64 %rd10, %rd8, %rd9;
+st.global.u64 [%rd6], %rd10;
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p2, %r10, %r6;
+@%p2 bra BB6_2;
+
+BB6_3:
+ret;
+}
+
+
+.visible .entry _ZN4gloo27_Kernel_int64_t_cudaProductEPlPKli(
+.param .u64 _ZN4gloo27_Kernel_int64_t_cudaProductEPlPKli_param_0,
+.param .u64 _ZN4gloo27_Kernel_int64_t_cudaProductEPlPKli_param_1,
+.param .u32 _ZN4gloo27_Kernel_int64_t_cudaProductEPlPKli_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<11>;
+
+
+ld.param.u64 %rd3, [_ZN4gloo27_Kernel_int64_t_cudaProductEPlPKli_param_0];
+ld.param.u64 %rd4, [_ZN4gloo27_Kernel_int64_t_cudaProductEPlPKli_param_1];
+ld.param.u32 %r6, [_ZN4gloo27_Kernel_int64_t_cudaProductEPlPKli_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB7_3;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd3;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB7_2:
+mul.wide.s32 %rd5, %r10, 8;
+add.s64 %rd6, %rd2, %rd5;
+add.s64 %rd7, %rd1, %rd5;
+ld.global.u64 %rd8, [%rd7];
+ld.global.u64 %rd9, [%rd6];
+mul.lo.s64 %rd10, %rd8, %rd9;
+st.global.u64 [%rd6], %rd10;
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p2, %r10, %r6;
+@%p2 bra BB7_2;
+
+BB7_3:
+ret;
+}
+
+
+.visible .entry _ZN4gloo24_Kernel_uint64_t_cudaSumEPmPKmi(
+.param .u64 _ZN4gloo24_Kernel_uint64_t_cudaSumEPmPKmi_param_0,
+.param .u64 _ZN4gloo24_Kernel_uint64_t_cudaSumEPmPKmi_param_1,
+.param .u32 _ZN4gloo24_Kernel_uint64_t_cudaSumEPmPKmi_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<11>;
+
+
+ld.param.u64 %rd3, [_ZN4gloo24_Kernel_uint64_t_cudaSumEPmPKmi_param_0];
+ld.param.u64 %rd4, [_ZN4gloo24_Kernel_uint64_t_cudaSumEPmPKmi_param_1];
+ld.param.u32 %r6, [_ZN4gloo24_Kernel_uint64_t_cudaSumEPmPKmi_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB8_3;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd3;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB8_2:
+mul.wide.s32 %rd5, %r10, 8;
+add.s64 %rd6, %rd2, %rd5;
+add.s64 %rd7, %rd1, %rd5;
+ld.global.u64 %rd8, [%rd7];
+ld.global.u64 %rd9, [%rd6];
+add.s64 %rd10, %rd8, %rd9;
+st.global.u64 [%rd6], %rd10;
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p2, %r10, %r6;
+@%p2 bra BB8_2;
+
+BB8_3:
+ret;
+}
+
+
+.visible .entry _ZN4gloo28_Kernel_uint64_t_cudaProductEPmPKmi(
+.param .u64 _ZN4gloo28_Kernel_uint64_t_cudaProductEPmPKmi_param_0,
+.param .u64 _ZN4gloo28_Kernel_uint64_t_cudaProductEPmPKmi_param_1,
+.param .u32 _ZN4gloo28_Kernel_uint64_t_cudaProductEPmPKmi_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<11>;
+
+
+ld.param.u64 %rd3, [_ZN4gloo28_Kernel_uint64_t_cudaProductEPmPKmi_param_0];
+ld.param.u64 %rd4, [_ZN4gloo28_Kernel_uint64_t_cudaProductEPmPKmi_param_1];
+ld.param.u32 %r6, [_ZN4gloo28_Kernel_uint64_t_cudaProductEPmPKmi_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB9_3;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd3;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB9_2:
+mul.wide.s32 %rd5, %r10, 8;
+add.s64 %rd6, %rd2, %rd5;
+add.s64 %rd7, %rd1, %rd5;
+ld.global.u64 %rd8, [%rd7];
+ld.global.u64 %rd9, [%rd6];
+mul.lo.s64 %rd10, %rd8, %rd9;
+st.global.u64 [%rd6], %rd10;
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p2, %r10, %r6;
+@%p2 bra BB9_2;
+
+BB9_3:
+ret;
+}
+
+
+.visible .entry _ZN4gloo21_Kernel_float_cudaSumEPfPKfi(
+.param .u64 _ZN4gloo21_Kernel_float_cudaSumEPfPKfi_param_0,
+.param .u64 _ZN4gloo21_Kernel_float_cudaSumEPfPKfi_param_1,
+.param .u32 _ZN4gloo21_Kernel_float_cudaSumEPfPKfi_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<4>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd3, [_ZN4gloo21_Kernel_float_cudaSumEPfPKfi_param_0];
+ld.param.u64 %rd4, [_ZN4gloo21_Kernel_float_cudaSumEPfPKfi_param_1];
+ld.param.u32 %r6, [_ZN4gloo21_Kernel_float_cudaSumEPfPKfi_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB10_3;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd3;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB10_2:
+mul.wide.s32 %rd5, %r10, 4;
+add.s64 %rd6, %rd2, %rd5;
+add.s64 %rd7, %rd1, %rd5;
+ld.global.f32 %f1, [%rd7];
+ld.global.f32 %f2, [%rd6];
+add.f32 %f3, %f2, %f1;
+st.global.f32 [%rd6], %f3;
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p2, %r10, %r6;
+@%p2 bra BB10_2;
+
+BB10_3:
+ret;
+}
+
+
+.visible .entry _ZN4gloo25_Kernel_float_cudaProductEPfPKfi(
+.param .u64 _ZN4gloo25_Kernel_float_cudaProductEPfPKfi_param_0,
+.param .u64 _ZN4gloo25_Kernel_float_cudaProductEPfPKfi_param_1,
+.param .u32 _ZN4gloo25_Kernel_float_cudaProductEPfPKfi_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<4>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd3, [_ZN4gloo25_Kernel_float_cudaProductEPfPKfi_param_0];
+ld.param.u64 %rd4, [_ZN4gloo25_Kernel_float_cudaProductEPfPKfi_param_1];
+ld.param.u32 %r6, [_ZN4gloo25_Kernel_float_cudaProductEPfPKfi_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB11_3;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd3;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB11_2:
+mul.wide.s32 %rd5, %r10, 4;
+add.s64 %rd6, %rd2, %rd5;
+add.s64 %rd7, %rd1, %rd5;
+ld.global.f32 %f1, [%rd7];
+ld.global.f32 %f2, [%rd6];
+mul.f32 %f3, %f2, %f1;
+st.global.f32 [%rd6], %f3;
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p2, %r10, %r6;
+@%p2 bra BB11_2;
+
+BB11_3:
+ret;
+}
+
+
+.visible .entry _ZN4gloo22_Kernel_double_cudaSumEPdPKdi(
+.param .u64 _ZN4gloo22_Kernel_double_cudaSumEPdPKdi_param_0,
+.param .u64 _ZN4gloo22_Kernel_double_cudaSumEPdPKdi_param_1,
+.param .u32 _ZN4gloo22_Kernel_double_cudaSumEPdPKdi_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<11>;
+.reg .f64 %fd<4>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd3, [_ZN4gloo22_Kernel_double_cudaSumEPdPKdi_param_0];
+ld.param.u64 %rd4, [_ZN4gloo22_Kernel_double_cudaSumEPdPKdi_param_1];
+ld.param.u32 %r6, [_ZN4gloo22_Kernel_double_cudaSumEPdPKdi_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB12_3;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd3;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB12_2:
+mul.wide.s32 %rd5, %r10, 8;
+add.s64 %rd6, %rd2, %rd5;
+add.s64 %rd7, %rd1, %rd5;
+ld.global.f64 %fd1, [%rd7];
+ld.global.f64 %fd2, [%rd6];
+add.f64 %fd3, %fd2, %fd1;
+st.global.f64 [%rd6], %fd3;
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p2, %r10, %r6;
+@%p2 bra BB12_2;
+
+BB12_3:
+ret;
+}
+
+
+.visible .entry _ZN4gloo26_Kernel_double_cudaProductEPdPKdi(
+.param .u64 _ZN4gloo26_Kernel_double_cudaProductEPdPKdi_param_0,
+.param .u64 _ZN4gloo26_Kernel_double_cudaProductEPdPKdi_param_1,
+.param .u32 _ZN4gloo26_Kernel_double_cudaProductEPdPKdi_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b32 %r<11>;
+.reg .f64 %fd<4>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd3, [_ZN4gloo26_Kernel_double_cudaProductEPdPKdi_param_0];
+ld.param.u64 %rd4, [_ZN4gloo26_Kernel_double_cudaProductEPdPKdi_param_1];
+ld.param.u32 %r6, [_ZN4gloo26_Kernel_double_cudaProductEPdPKdi_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB13_3;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd3;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB13_2:
+mul.wide.s32 %rd5, %r10, 8;
+add.s64 %rd6, %rd2, %rd5;
+add.s64 %rd7, %rd1, %rd5;
+ld.global.f64 %fd1, [%rd7];
+ld.global.f64 %fd2, [%rd6];
+mul.f64 %fd3, %fd2, %fd1;
+st.global.f64 [%rd6], %fd3;
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p2, %r10, %r6;
+@%p2 bra BB13_2;
+
+BB13_3:
+ret;
+}
+
+
+.visible .entry _ZN4gloo20_Kernel_half_cudaSumEP6__halfPKS0_i(
+.param .u64 _ZN4gloo20_Kernel_half_cudaSumEP6__halfPKS0_i_param_0,
+.param .u64 _ZN4gloo20_Kernel_half_cudaSumEP6__halfPKS0_i_param_1,
+.param .u32 _ZN4gloo20_Kernel_half_cudaSumEP6__halfPKS0_i_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<4>;
+.reg .f32 %f<4>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd3, [_ZN4gloo20_Kernel_half_cudaSumEP6__halfPKS0_i_param_0];
+ld.param.u64 %rd4, [_ZN4gloo20_Kernel_half_cudaSumEP6__halfPKS0_i_param_1];
+ld.param.u32 %r6, [_ZN4gloo20_Kernel_half_cudaSumEP6__halfPKS0_i_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB14_3;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd3;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB14_2:
+mul.wide.s32 %rd5, %r10, 2;
+add.s64 %rd6, %rd2, %rd5;
+ld.global.u16 %rs1, [%rd6];
+
+	{ cvt.f32.f16 %f1, %rs1;}
+
+
+	add.s64 %rd7, %rd1, %rd5;
+ld.global.u16 %rs2, [%rd7];
+
+	{ cvt.f32.f16 %f2, %rs2;}
+
+
+	add.f32 %f3, %f1, %f2;
+
+	{ cvt.rn.f16.f32 %rs3, %f3;}
+
+
+	st.global.u16 [%rd6], %rs3;
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p2, %r10, %r6;
+@%p2 bra BB14_2;
+
+BB14_3:
+ret;
+}
+
+
+.visible .entry _ZN4gloo24_Kernel_half_cudaProductEP6__halfPKS0_i(
+.param .u64 _ZN4gloo24_Kernel_half_cudaProductEP6__halfPKS0_i_param_0,
+.param .u64 _ZN4gloo24_Kernel_half_cudaProductEP6__halfPKS0_i_param_1,
+.param .u32 _ZN4gloo24_Kernel_half_cudaProductEP6__halfPKS0_i_param_2
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<4>;
+.reg .f32 %f<4>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd3, [_ZN4gloo24_Kernel_half_cudaProductEP6__halfPKS0_i_param_0];
+ld.param.u64 %rd4, [_ZN4gloo24_Kernel_half_cudaProductEP6__halfPKS0_i_param_1];
+ld.param.u32 %r6, [_ZN4gloo24_Kernel_half_cudaProductEP6__halfPKS0_i_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB15_3;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd3;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB15_2:
+mul.wide.s32 %rd5, %r10, 2;
+add.s64 %rd6, %rd2, %rd5;
+ld.global.u16 %rs1, [%rd6];
+
+	{ cvt.f32.f16 %f1, %rs1;}
+
+
+	add.s64 %rd7, %rd1, %rd5;
+ld.global.u16 %rs2, [%rd7];
+
+	{ cvt.f32.f16 %f2, %rs2;}
+
+
+	mul.f32 %f3, %f1, %f2;
+
+	{ cvt.rn.f16.f32 %rs3, %f3;}
+
+
+	st.global.u16 [%rd6], %rs3;
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p2, %r10, %r6;
+@%p2 bra BB15_2;
+
+BB15_3:
+ret;
+}
+
+
+.visible .entry _ZN4gloo22_Kernel_int8_t_cudaMinEPaPKai(
+.param .u64 _ZN4gloo22_Kernel_int8_t_cudaMinEPaPKai_param_0,
+.param .u64 _ZN4gloo22_Kernel_int8_t_cudaMinEPaPKai_param_1,
+.param .u32 _ZN4gloo22_Kernel_int8_t_cudaMinEPaPKai_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b16 %rs<3>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd4, [_ZN4gloo22_Kernel_int8_t_cudaMinEPaPKai_param_0];
+ld.param.u64 %rd5, [_ZN4gloo22_Kernel_int8_t_cudaMinEPaPKai_param_1];
+ld.param.u32 %r6, [_ZN4gloo22_Kernel_int8_t_cudaMinEPaPKai_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB16_5;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd5;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB16_2:
+cvt.s64.s32	%rd6, %r10;
+add.s64 %rd7, %rd2, %rd6;
+add.s64 %rd3, %rd1, %rd6;
+ld.global.s8 %rs2, [%rd3];
+ld.global.s8 %rs1, [%rd7];
+setp.ge.s16	%p2, %rs1, %rs2;
+@%p2 bra BB16_4;
+
+st.global.u8 [%rd3], %rs1;
+
+BB16_4:
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p3, %r10, %r6;
+@%p3 bra BB16_2;
+
+BB16_5:
+ret;
+}
+
+
+.visible .entry _ZN4gloo22_Kernel_int8_t_cudaMaxEPaPKai(
+.param .u64 _ZN4gloo22_Kernel_int8_t_cudaMaxEPaPKai_param_0,
+.param .u64 _ZN4gloo22_Kernel_int8_t_cudaMaxEPaPKai_param_1,
+.param .u32 _ZN4gloo22_Kernel_int8_t_cudaMaxEPaPKai_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b16 %rs<3>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd4, [_ZN4gloo22_Kernel_int8_t_cudaMaxEPaPKai_param_0];
+ld.param.u64 %rd5, [_ZN4gloo22_Kernel_int8_t_cudaMaxEPaPKai_param_1];
+ld.param.u32 %r6, [_ZN4gloo22_Kernel_int8_t_cudaMaxEPaPKai_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB17_5;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd5;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB17_2:
+cvt.s64.s32	%rd6, %r10;
+add.s64 %rd7, %rd2, %rd6;
+add.s64 %rd3, %rd1, %rd6;
+ld.global.s8 %rs2, [%rd3];
+ld.global.s8 %rs1, [%rd7];
+setp.le.s16	%p2, %rs1, %rs2;
+@%p2 bra BB17_4;
+
+st.global.u8 [%rd3], %rs1;
+
+BB17_4:
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p3, %r10, %r6;
+@%p3 bra BB17_2;
+
+BB17_5:
+ret;
+}
+
+
+.visible .entry _ZN4gloo23_Kernel_uint8_t_cudaMinEPhPKhi(
+.param .u64 _ZN4gloo23_Kernel_uint8_t_cudaMinEPhPKhi_param_0,
+.param .u64 _ZN4gloo23_Kernel_uint8_t_cudaMinEPhPKhi_param_1,
+.param .u32 _ZN4gloo23_Kernel_uint8_t_cudaMinEPhPKhi_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b16 %rs<3>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd4, [_ZN4gloo23_Kernel_uint8_t_cudaMinEPhPKhi_param_0];
+ld.param.u64 %rd5, [_ZN4gloo23_Kernel_uint8_t_cudaMinEPhPKhi_param_1];
+ld.param.u32 %r6, [_ZN4gloo23_Kernel_uint8_t_cudaMinEPhPKhi_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB18_5;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd5;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB18_2:
+cvt.s64.s32	%rd6, %r10;
+add.s64 %rd7, %rd2, %rd6;
+add.s64 %rd3, %rd1, %rd6;
+ld.global.u8 %rs2, [%rd3];
+ld.global.u8 %rs1, [%rd7];
+setp.ge.u16	%p2, %rs1, %rs2;
+@%p2 bra BB18_4;
+
+st.global.u8 [%rd3], %rs1;
+
+BB18_4:
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p3, %r10, %r6;
+@%p3 bra BB18_2;
+
+BB18_5:
+ret;
+}
+
+
+.visible .entry _ZN4gloo23_Kernel_uint8_t_cudaMaxEPhPKhi(
+.param .u64 _ZN4gloo23_Kernel_uint8_t_cudaMaxEPhPKhi_param_0,
+.param .u64 _ZN4gloo23_Kernel_uint8_t_cudaMaxEPhPKhi_param_1,
+.param .u32 _ZN4gloo23_Kernel_uint8_t_cudaMaxEPhPKhi_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b16 %rs<3>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd4, [_ZN4gloo23_Kernel_uint8_t_cudaMaxEPhPKhi_param_0];
+ld.param.u64 %rd5, [_ZN4gloo23_Kernel_uint8_t_cudaMaxEPhPKhi_param_1];
+ld.param.u32 %r6, [_ZN4gloo23_Kernel_uint8_t_cudaMaxEPhPKhi_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB19_5;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd5;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB19_2:
+cvt.s64.s32	%rd6, %r10;
+add.s64 %rd7, %rd2, %rd6;
+add.s64 %rd3, %rd1, %rd6;
+ld.global.u8 %rs2, [%rd3];
+ld.global.u8 %rs1, [%rd7];
+setp.le.u16	%p2, %rs1, %rs2;
+@%p2 bra BB19_4;
+
+st.global.u8 [%rd3], %rs1;
+
+BB19_4:
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p3, %r10, %r6;
+@%p3 bra BB19_2;
+
+BB19_5:
+ret;
+}
+
+
+.visible .entry _ZN4gloo23_Kernel_int32_t_cudaMinEPiPKii(
+.param .u64 _ZN4gloo23_Kernel_int32_t_cudaMinEPiPKii_param_0,
+.param .u64 _ZN4gloo23_Kernel_int32_t_cudaMinEPiPKii_param_1,
+.param .u32 _ZN4gloo23_Kernel_int32_t_cudaMinEPiPKii_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b32 %r<13>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd4, [_ZN4gloo23_Kernel_int32_t_cudaMinEPiPKii_param_0];
+ld.param.u64 %rd5, [_ZN4gloo23_Kernel_int32_t_cudaMinEPiPKii_param_1];
+ld.param.u32 %r7, [_ZN4gloo23_Kernel_int32_t_cudaMinEPiPKii_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r8, %ctaid.x;
+mov.u32 %r9, %tid.x;
+mad.lo.s32 %r12, %r1, %r8, %r9;
+setp.ge.s32	%p1, %r12, %r7;
+@%p1 bra BB20_5;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd5;
+mov.u32 %r10, %nctaid.x;
+mul.lo.s32 %r3, %r10, %r1;
+
+BB20_2:
+mul.wide.s32 %rd6, %r12, 4;
+add.s64 %rd7, %rd2, %rd6;
+add.s64 %rd3, %rd1, %rd6;
+ld.global.u32 %r11, [%rd3];
+ld.global.u32 %r5, [%rd7];
+setp.ge.s32	%p2, %r5, %r11;
+@%p2 bra BB20_4;
+
+st.global.u32 [%rd3], %r5;
+
+BB20_4:
+add.s32 %r12, %r3, %r12;
+setp.lt.s32	%p3, %r12, %r7;
+@%p3 bra BB20_2;
+
+BB20_5:
+ret;
+}
+
+
+.visible .entry _ZN4gloo23_Kernel_int32_t_cudaMaxEPiPKii(
+.param .u64 _ZN4gloo23_Kernel_int32_t_cudaMaxEPiPKii_param_0,
+.param .u64 _ZN4gloo23_Kernel_int32_t_cudaMaxEPiPKii_param_1,
+.param .u32 _ZN4gloo23_Kernel_int32_t_cudaMaxEPiPKii_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b32 %r<13>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd4, [_ZN4gloo23_Kernel_int32_t_cudaMaxEPiPKii_param_0];
+ld.param.u64 %rd5, [_ZN4gloo23_Kernel_int32_t_cudaMaxEPiPKii_param_1];
+ld.param.u32 %r7, [_ZN4gloo23_Kernel_int32_t_cudaMaxEPiPKii_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r8, %ctaid.x;
+mov.u32 %r9, %tid.x;
+mad.lo.s32 %r12, %r1, %r8, %r9;
+setp.ge.s32	%p1, %r12, %r7;
+@%p1 bra BB21_5;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd5;
+mov.u32 %r10, %nctaid.x;
+mul.lo.s32 %r3, %r10, %r1;
+
+BB21_2:
+mul.wide.s32 %rd6, %r12, 4;
+add.s64 %rd7, %rd2, %rd6;
+add.s64 %rd3, %rd1, %rd6;
+ld.global.u32 %r11, [%rd3];
+ld.global.u32 %r5, [%rd7];
+setp.le.s32	%p2, %r5, %r11;
+@%p2 bra BB21_4;
+
+st.global.u32 [%rd3], %r5;
+
+BB21_4:
+add.s32 %r12, %r3, %r12;
+setp.lt.s32	%p3, %r12, %r7;
+@%p3 bra BB21_2;
+
+BB21_5:
+ret;
+}
+
+
+.visible .entry _ZN4gloo23_Kernel_int64_t_cudaMinEPlPKli(
+.param .u64 _ZN4gloo23_Kernel_int64_t_cudaMinEPlPKli_param_0,
+.param .u64 _ZN4gloo23_Kernel_int64_t_cudaMinEPlPKli_param_1,
+.param .u32 _ZN4gloo23_Kernel_int64_t_cudaMinEPlPKli_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<10>;
+
+
+ld.param.u64 %rd5, [_ZN4gloo23_Kernel_int64_t_cudaMinEPlPKli_param_0];
+ld.param.u64 %rd6, [_ZN4gloo23_Kernel_int64_t_cudaMinEPlPKli_param_1];
+ld.param.u32 %r6, [_ZN4gloo23_Kernel_int64_t_cudaMinEPlPKli_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB22_5;
+
+cvta.to.global.u64 %rd1, %rd5;
+cvta.to.global.u64 %rd2, %rd6;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB22_2:
+mul.wide.s32 %rd7, %r10, 8;
+add.s64 %rd8, %rd2, %rd7;
+add.s64 %rd3, %rd1, %rd7;
+ld.global.u64 %rd9, [%rd3];
+ld.global.u64 %rd4, [%rd8];
+setp.ge.s64	%p2, %rd4, %rd9;
+@%p2 bra BB22_4;
+
+st.global.u64 [%rd3], %rd4;
+
+BB22_4:
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p3, %r10, %r6;
+@%p3 bra BB22_2;
+
+BB22_5:
+ret;
+}
+
+
+.visible .entry _ZN4gloo23_Kernel_int64_t_cudaMaxEPlPKli(
+.param .u64 _ZN4gloo23_Kernel_int64_t_cudaMaxEPlPKli_param_0,
+.param .u64 _ZN4gloo23_Kernel_int64_t_cudaMaxEPlPKli_param_1,
+.param .u32 _ZN4gloo23_Kernel_int64_t_cudaMaxEPlPKli_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<10>;
+
+
+ld.param.u64 %rd5, [_ZN4gloo23_Kernel_int64_t_cudaMaxEPlPKli_param_0];
+ld.param.u64 %rd6, [_ZN4gloo23_Kernel_int64_t_cudaMaxEPlPKli_param_1];
+ld.param.u32 %r6, [_ZN4gloo23_Kernel_int64_t_cudaMaxEPlPKli_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB23_5;
+
+cvta.to.global.u64 %rd1, %rd5;
+cvta.to.global.u64 %rd2, %rd6;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB23_2:
+mul.wide.s32 %rd7, %r10, 8;
+add.s64 %rd8, %rd2, %rd7;
+add.s64 %rd3, %rd1, %rd7;
+ld.global.u64 %rd9, [%rd3];
+ld.global.u64 %rd4, [%rd8];
+setp.le.s64	%p2, %rd4, %rd9;
+@%p2 bra BB23_4;
+
+st.global.u64 [%rd3], %rd4;
+
+BB23_4:
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p3, %r10, %r6;
+@%p3 bra BB23_2;
+
+BB23_5:
+ret;
+}
+
+
+.visible .entry _ZN4gloo24_Kernel_uint64_t_cudaMinEPmPKmi(
+.param .u64 _ZN4gloo24_Kernel_uint64_t_cudaMinEPmPKmi_param_0,
+.param .u64 _ZN4gloo24_Kernel_uint64_t_cudaMinEPmPKmi_param_1,
+.param .u32 _ZN4gloo24_Kernel_uint64_t_cudaMinEPmPKmi_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<10>;
+
+
+ld.param.u64 %rd5, [_ZN4gloo24_Kernel_uint64_t_cudaMinEPmPKmi_param_0];
+ld.param.u64 %rd6, [_ZN4gloo24_Kernel_uint64_t_cudaMinEPmPKmi_param_1];
+ld.param.u32 %r6, [_ZN4gloo24_Kernel_uint64_t_cudaMinEPmPKmi_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB24_5;
+
+cvta.to.global.u64 %rd1, %rd5;
+cvta.to.global.u64 %rd2, %rd6;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB24_2:
+mul.wide.s32 %rd7, %r10, 8;
+add.s64 %rd8, %rd2, %rd7;
+add.s64 %rd3, %rd1, %rd7;
+ld.global.u64 %rd9, [%rd3];
+ld.global.u64 %rd4, [%rd8];
+setp.ge.u64	%p2, %rd4, %rd9;
+@%p2 bra BB24_4;
+
+st.global.u64 [%rd3], %rd4;
+
+BB24_4:
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p3, %r10, %r6;
+@%p3 bra BB24_2;
+
+BB24_5:
+ret;
+}
+
+
+.visible .entry _ZN4gloo24_Kernel_uint64_t_cudaMaxEPmPKmi(
+.param .u64 _ZN4gloo24_Kernel_uint64_t_cudaMaxEPmPKmi_param_0,
+.param .u64 _ZN4gloo24_Kernel_uint64_t_cudaMaxEPmPKmi_param_1,
+.param .u32 _ZN4gloo24_Kernel_uint64_t_cudaMaxEPmPKmi_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<10>;
+
+
+ld.param.u64 %rd5, [_ZN4gloo24_Kernel_uint64_t_cudaMaxEPmPKmi_param_0];
+ld.param.u64 %rd6, [_ZN4gloo24_Kernel_uint64_t_cudaMaxEPmPKmi_param_1];
+ld.param.u32 %r6, [_ZN4gloo24_Kernel_uint64_t_cudaMaxEPmPKmi_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB25_5;
+
+cvta.to.global.u64 %rd1, %rd5;
+cvta.to.global.u64 %rd2, %rd6;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB25_2:
+mul.wide.s32 %rd7, %r10, 8;
+add.s64 %rd8, %rd2, %rd7;
+add.s64 %rd3, %rd1, %rd7;
+ld.global.u64 %rd9, [%rd3];
+ld.global.u64 %rd4, [%rd8];
+setp.le.u64	%p2, %rd4, %rd9;
+@%p2 bra BB25_4;
+
+st.global.u64 [%rd3], %rd4;
+
+BB25_4:
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p3, %r10, %r6;
+@%p3 bra BB25_2;
+
+BB25_5:
+ret;
+}
+
+
+.visible .entry _ZN4gloo21_Kernel_float_cudaMinEPfPKfi(
+.param .u64 _ZN4gloo21_Kernel_float_cudaMinEPfPKfi_param_0,
+.param .u64 _ZN4gloo21_Kernel_float_cudaMinEPfPKfi_param_1,
+.param .u32 _ZN4gloo21_Kernel_float_cudaMinEPfPKfi_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .f32 %f<3>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd4, [_ZN4gloo21_Kernel_float_cudaMinEPfPKfi_param_0];
+ld.param.u64 %rd5, [_ZN4gloo21_Kernel_float_cudaMinEPfPKfi_param_1];
+ld.param.u32 %r6, [_ZN4gloo21_Kernel_float_cudaMinEPfPKfi_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB26_5;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd5;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB26_2:
+mul.wide.s32 %rd6, %r10, 4;
+add.s64 %rd7, %rd2, %rd6;
+add.s64 %rd3, %rd1, %rd6;
+ld.global.f32 %f2, [%rd3];
+ld.global.f32 %f1, [%rd7];
+setp.geu.f32	%p2, %f1, %f2;
+@%p2 bra BB26_4;
+
+st.global.f32 [%rd3], %f1;
+
+BB26_4:
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p3, %r10, %r6;
+@%p3 bra BB26_2;
+
+BB26_5:
+ret;
+}
+
+
+.visible .entry _ZN4gloo21_Kernel_float_cudaMaxEPfPKfi(
+.param .u64 _ZN4gloo21_Kernel_float_cudaMaxEPfPKfi_param_0,
+.param .u64 _ZN4gloo21_Kernel_float_cudaMaxEPfPKfi_param_1,
+.param .u32 _ZN4gloo21_Kernel_float_cudaMaxEPfPKfi_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .f32 %f<3>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd4, [_ZN4gloo21_Kernel_float_cudaMaxEPfPKfi_param_0];
+ld.param.u64 %rd5, [_ZN4gloo21_Kernel_float_cudaMaxEPfPKfi_param_1];
+ld.param.u32 %r6, [_ZN4gloo21_Kernel_float_cudaMaxEPfPKfi_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB27_5;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd5;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB27_2:
+mul.wide.s32 %rd6, %r10, 4;
+add.s64 %rd7, %rd2, %rd6;
+add.s64 %rd3, %rd1, %rd6;
+ld.global.f32 %f2, [%rd3];
+ld.global.f32 %f1, [%rd7];
+setp.leu.f32	%p2, %f1, %f2;
+@%p2 bra BB27_4;
+
+st.global.f32 [%rd3], %f1;
+
+BB27_4:
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p3, %r10, %r6;
+@%p3 bra BB27_2;
+
+BB27_5:
+ret;
+}
+
+
+.visible .entry _ZN4gloo22_Kernel_double_cudaMinEPdPKdi(
+.param .u64 _ZN4gloo22_Kernel_double_cudaMinEPdPKdi_param_0,
+.param .u64 _ZN4gloo22_Kernel_double_cudaMinEPdPKdi_param_1,
+.param .u32 _ZN4gloo22_Kernel_double_cudaMinEPdPKdi_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b32 %r<11>;
+.reg .f64 %fd<3>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd4, [_ZN4gloo22_Kernel_double_cudaMinEPdPKdi_param_0];
+ld.param.u64 %rd5, [_ZN4gloo22_Kernel_double_cudaMinEPdPKdi_param_1];
+ld.param.u32 %r6, [_ZN4gloo22_Kernel_double_cudaMinEPdPKdi_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB28_5;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd5;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB28_2:
+mul.wide.s32 %rd6, %r10, 8;
+add.s64 %rd7, %rd2, %rd6;
+add.s64 %rd3, %rd1, %rd6;
+ld.global.f64 %fd2, [%rd3];
+ld.global.f64 %fd1, [%rd7];
+setp.geu.f64	%p2, %fd1, %fd2;
+@%p2 bra BB28_4;
+
+st.global.f64 [%rd3], %fd1;
+
+BB28_4:
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p3, %r10, %r6;
+@%p3 bra BB28_2;
+
+BB28_5:
+ret;
+}
+
+
+.visible .entry _ZN4gloo22_Kernel_double_cudaMaxEPdPKdi(
+.param .u64 _ZN4gloo22_Kernel_double_cudaMaxEPdPKdi_param_0,
+.param .u64 _ZN4gloo22_Kernel_double_cudaMaxEPdPKdi_param_1,
+.param .u32 _ZN4gloo22_Kernel_double_cudaMaxEPdPKdi_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b32 %r<11>;
+.reg .f64 %fd<3>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd4, [_ZN4gloo22_Kernel_double_cudaMaxEPdPKdi_param_0];
+ld.param.u64 %rd5, [_ZN4gloo22_Kernel_double_cudaMaxEPdPKdi_param_1];
+ld.param.u32 %r6, [_ZN4gloo22_Kernel_double_cudaMaxEPdPKdi_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r10, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r10, %r6;
+@%p1 bra BB29_5;
+
+cvta.to.global.u64 %rd1, %rd4;
+cvta.to.global.u64 %rd2, %rd5;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB29_2:
+mul.wide.s32 %rd6, %r10, 8;
+add.s64 %rd7, %rd2, %rd6;
+add.s64 %rd3, %rd1, %rd6;
+ld.global.f64 %fd2, [%rd3];
+ld.global.f64 %fd1, [%rd7];
+setp.leu.f64	%p2, %fd1, %fd2;
+@%p2 bra BB29_4;
+
+st.global.f64 [%rd3], %fd1;
+
+BB29_4:
+add.s32 %r10, %r3, %r10;
+setp.lt.s32	%p3, %r10, %r6;
+@%p3 bra BB29_2;
+
+BB29_5:
+ret;
+}
+
+
+.visible .entry _ZN4gloo20_Kernel_half_cudaMinEP6__halfPKS0_i(
+.param .u64 _ZN4gloo20_Kernel_half_cudaMinEP6__halfPKS0_i_param_0,
+.param .u64 _ZN4gloo20_Kernel_half_cudaMinEP6__halfPKS0_i_param_1,
+.param .u32 _ZN4gloo20_Kernel_half_cudaMinEP6__halfPKS0_i_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b16 %rs<4>;
+.reg .f32 %f<3>;
+.reg .b32 %r<12>;
+.reg .b64 %rd<9>;
+
+
+ld.param.u64 %rd6, [_ZN4gloo20_Kernel_half_cudaMinEP6__halfPKS0_i_param_0];
+ld.param.u64 %rd7, [_ZN4gloo20_Kernel_half_cudaMinEP6__halfPKS0_i_param_1];
+ld.param.u32 %r6, [_ZN4gloo20_Kernel_half_cudaMinEP6__halfPKS0_i_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r11, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r11, %r6;
+@%p1 bra BB30_5;
+
+cvta.to.global.u64 %rd1, %rd6;
+cvta.to.global.u64 %rd2, %rd7;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB30_2:
+mov.u32 %r4, %r11;
+cvt.s64.s32	%rd3, %r4;
+mul.wide.s32 %rd8, %r4, 2;
+add.s64 %rd4, %rd2, %rd8;
+ld.global.u16 %rs1, [%rd4];
+
+	{ cvt.f32.f16 %f1, %rs1;}
+
+
+	add.s64 %rd5, %rd1, %rd8;
+ld.global.u16 %rs2, [%rd5];
+
+	{ cvt.f32.f16 %f2, %rs2;}
+
+
+	setp.geu.f32	%p2, %f1, %f2;
+@%p2 bra BB30_4;
+
+ld.global.u16 %rs3, [%rd4];
+st.global.u16 [%rd5], %rs3;
+
+BB30_4:
+cvt.u32.u64	%r10, %rd3;
+add.s32 %r11, %r3, %r10;
+setp.lt.s32	%p3, %r11, %r6;
+@%p3 bra BB30_2;
+
+BB30_5:
+ret;
+}
+
+
+.visible .entry _ZN4gloo20_Kernel_half_cudaMaxEP6__halfPKS0_i(
+.param .u64 _ZN4gloo20_Kernel_half_cudaMaxEP6__halfPKS0_i_param_0,
+.param .u64 _ZN4gloo20_Kernel_half_cudaMaxEP6__halfPKS0_i_param_1,
+.param .u32 _ZN4gloo20_Kernel_half_cudaMaxEP6__halfPKS0_i_param_2
+)
+{
+.reg .pred %p<4>;
+.reg .b16 %rs<4>;
+.reg .f32 %f<3>;
+.reg .b32 %r<12>;
+.reg .b64 %rd<9>;
+
+
+ld.param.u64 %rd6, [_ZN4gloo20_Kernel_half_cudaMaxEP6__halfPKS0_i_param_0];
+ld.param.u64 %rd7, [_ZN4gloo20_Kernel_half_cudaMaxEP6__halfPKS0_i_param_1];
+ld.param.u32 %r6, [_ZN4gloo20_Kernel_half_cudaMaxEP6__halfPKS0_i_param_2];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r11, %r1, %r7, %r8;
+setp.ge.s32	%p1, %r11, %r6;
+@%p1 bra BB31_5;
+
+cvta.to.global.u64 %rd1, %rd6;
+cvta.to.global.u64 %rd2, %rd7;
+mov.u32 %r9, %nctaid.x;
+mul.lo.s32 %r3, %r9, %r1;
+
+BB31_2:
+mov.u32 %r4, %r11;
+cvt.s64.s32	%rd3, %r4;
+mul.wide.s32 %rd8, %r4, 2;
+add.s64 %rd4, %rd2, %rd8;
+ld.global.u16 %rs1, [%rd4];
+
+	{ cvt.f32.f16 %f1, %rs1;}
+
+
+	add.s64 %rd5, %rd1, %rd8;
+ld.global.u16 %rs2, [%rd5];
+
+	{ cvt.f32.f16 %f2, %rs2;}
+
+
+	setp.leu.f32	%p2, %f1, %f2;
+@%p2 bra BB31_4;
+
+ld.global.u16 %rs3, [%rd4];
+st.global.u16 [%rd5], %rs3;
+
+BB31_4:
+cvt.u32.u64	%r10, %rd3;
+add.s32 %r11, %r3, %r10;
+setp.lt.s32	%p3, %r11, %r6;
+@%p3 bra BB31_2;
+
+BB31_5:
+ret;
+}
+
+

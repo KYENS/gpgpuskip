@@ -1,0 +1,201 @@
+ptxas info    : 9446 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_sum_kernelIfiLb0ELb1EEEvPKT_PS2_PKiPKT0_iiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_sum_kernelIfiLb0ELb1EEEvPKT_PS2_PKiPKT0_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 368 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe216MaxSegmentKernelIiEEviPKT_PS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe216MaxSegmentKernelIiEEviPKT_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 6 registers, 32 bytes smem, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a51length_weighted_sum_with_main_input_gradient_kernelIfiLi128EEEvPKT_S4_S4_PKT0_PS2_S8_PKiiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a51length_weighted_sum_with_main_input_gradient_kernelIfiLi128EEEvPKT_S4_S4_PKT0_PS2_S8_PKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 32 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_max_kernelIflLb0EEEvPKT_PS2_PKiPKT0_iiiiS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_max_kernelIflLb0EEEvPKT_PS2_PKiPKT0_iiiiS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 372 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe226length_max_gradient_kernelIfLb1EEEvPKT_PS1_S3_S3_PKiiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe226length_max_gradient_kernelIfLb1EEEvPKT_PS1_S3_S3_PKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a26length_sum_gradient_kernelIfLb0ELb0EEEvPKT_PS2_PKiiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a26length_sum_gradient_kernelIfLb0ELb0EEEvPKT_PS2_PKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 356 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a17length_sum_kernelIfLb1ELb0EEEvPKT_PS2_PKiiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a17length_sum_kernelIfLb1ELb0EEEvPKT_PS2_PKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 356 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIiiNS_3MaxEE9Policy600EPKiPiiS2_iEEvT0_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIiiNS_3MaxEE9Policy600EPKiPiiS2_iEEvT0_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 48 bytes smem, 348 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a33sparse_length_weighted_sum_kernelIflLb0EEEvPKT_S4_PS2_PKiPKT0_iiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a33sparse_length_weighted_sum_kernelIflLb0EEEvPKT_S4_PS2_PKiPKT0_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 376 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_max_kernelIfiLb1EEEvPKT_PS2_PKiPKT0_iiiiS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_max_kernelIfiLb1EEEvPKT_PS2_PKiPKT0_iiiiS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe226sorted_segment_mean_kernelIfiLb0EEEvT0_iPKS1_S3_PKT_PS4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe226sorted_segment_mean_kernelIfiLb0EEEvT0_iPKS1_S3_PKT_PS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 360 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a51length_weighted_sum_with_main_input_gradient_kernelIflLi128EEEvPKT_S4_S4_PKT0_PS2_S8_PKiiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a51length_weighted_sum_with_main_input_gradient_kernelIflLi128EEEvPKT_S4_S4_PKT0_PS2_S8_PKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 32 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_sum_kernelIflLb0ELb0EEEvPKT_PS2_PKiPKT0_iiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_sum_kernelIflLb0ELb0EEEvPKT_PS2_PKiPKT0_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 368 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIiiNS_3MaxEE9Policy600EPiS5_iS2_iEEvT0_T1_T2_T3_T4_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub28DeviceReduceSingleTileKernelINS_18DeviceReducePolicyIiiNS_3MaxEE9Policy600EPiS5_iS2_iEEvT0_T1_T2_T3_T4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 48 bytes smem, 348 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a35length_weighted_sum_gradient_kernelIfLb0EEEvPKT_S4_PS2_PKiiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a35length_weighted_sum_gradient_kernelIfLb0EEEvPKT_S4_PS2_PKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 364 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a17length_max_kernelIfLb1EEEvPKT_PS2_PKiiiiS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a17length_max_kernelIfLb1EEEvPKT_PS2_PKiiiiS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 360 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe235sorted_segment_mean_gradient_kernelIfiLb0EEEviiPKT_S3_S3_PKT0_S6_PS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe235sorted_segment_mean_gradient_kernelIfiLb0EEEviiPKT_S3_S3_PKT0_S6_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 376 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a51length_weighted_sum_with_main_input_gradient_kernelIflLi32EEEvPKT_S4_S4_PKT0_PS2_S8_PKiiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a51length_weighted_sum_with_main_input_gradient_kernelIflLi32EEEvPKT_S4_S4_PKT0_PS2_S8_PKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 16 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_sum_kernelIflLb1ELb1EEEvPKT_PS2_PKiPKT0_iiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_sum_kernelIflLb1ELb1EEEvPKT_PS2_PKiPKT0_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 368 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe220SegmentScalingKernelIifEEviiPKiPT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe220SegmentScalingKernelIifEEviiPKiPT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 344 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a51length_weighted_sum_with_main_input_gradient_kernelIfiLi32EEEvPKT_S4_S4_PKT0_PS2_S8_PKiiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a51length_weighted_sum_with_main_input_gradient_kernelIfiLi32EEEvPKT_S4_S4_PKT0_PS2_S8_PKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 16 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_sum_kernelIfiLb1ELb0EEEvPKT_PS2_PKiPKT0_iiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_sum_kernelIfiLb1ELb0EEEvPKT_PS2_PKiPKT0_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a26length_sum_gradient_kernelIfLb0ELb1EEEvPKT_PS2_PKiiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a26length_sum_gradient_kernelIfLb0ELb1EEEvPKT_PS2_PKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 356 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN3cub20DeviceScanInitKernelINS_13ScanTileStateIiLb1EEEEEvT_i' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub20DeviceScanInitKernelINS_13ScanTileStateIiLb1EEEEEvT_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 7 registers, 332 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a33sparse_length_weighted_sum_kernelIfiLb0EEEvPKT_S4_PS2_PKiPKT0_iiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a33sparse_length_weighted_sum_kernelIfiLb0EEEvPKT_S4_PS2_PKiPKT0_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 376 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_sum_kernelIfiLb1ELb1EEEvPKT_PS2_PKiPKT0_iiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_sum_kernelIfiLb1ELb1EEEvPKT_PS2_PKiPKT0_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 368 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN3cub16DeviceScanKernelINS_12DispatchScanIPKiPiNS_3SumEiiE18PtxAgentScanPolicyES3_S4_NS_13ScanTileStateIiLb1EEES5_iiEEvT0_T1_T2_iT3_T4_T5_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub16DeviceScanKernelINS_12DispatchScanIPKiPiNS_3SumEiiE18PtxAgentScanPolicyES3_S4_NS_13ScanTileStateIiLb1EEES5_iiEEvT0_T1_T2_iT3_T4_T5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 7696 bytes smem, 360 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a51length_weighted_sum_with_main_input_gradient_kernelIfiLi512EEEvPKT_S4_S4_PKT0_PS2_S8_PKiiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a51length_weighted_sum_with_main_input_gradient_kernelIfiLi512EEEvPKT_S4_S4_PKT0_PS2_S8_PKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 96 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_max_kernelIflLb1EEEvPKT_PS2_PKiPKT0_iiiiS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_max_kernelIflLb1EEEvPKT_PS2_PKiPKT0_iiiiS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe235sorted_segment_mean_gradient_kernelIfiLb1EEEviiPKT_S3_S3_PKT0_S6_PS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe235sorted_segment_mean_gradient_kernelIfiLb1EEEviiPKT_S3_S3_PKT0_S6_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 376 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a26length_sum_gradient_kernelIfLb1ELb0EEEvPKT_PS2_PKiiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a26length_sum_gradient_kernelIfLb1ELb0EEEvPKT_PS2_PKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 356 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_sum_kernelIfiLb0ELb0EEEvPKT_PS2_PKiPKT0_iiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_sum_kernelIfiLb0ELb0EEEvPKT_PS2_PKiPKT0_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 368 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN3cub16DeviceScanKernelINS_12DispatchScanIPKiPiNS_3SumENS_8NullTypeEiE18PtxAgentScanPolicyES3_S4_NS_13ScanTileStateIiLb1EEES5_S6_iEEvT0_T1_T2_iT3_T4_T5_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub16DeviceScanKernelINS_12DispatchScanIPKiPiNS_3SumENS_8NullTypeEiE18PtxAgentScanPolicyES3_S4_NS_13ScanTileStateIiLb1EEES5_S6_iEEvT0_T1_T2_iT3_T4_T5_
+    8 bytes stack frame, 4 bytes spill stores, 4 bytes spill loads
+ptxas info    : Used 32 registers, 7696 bytes smem, 356 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a33sparse_length_weighted_sum_kernelIflLb1EEEvPKT_S4_PS2_PKiPKT0_iiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a33sparse_length_weighted_sum_kernelIflLb1EEEvPKT_S4_PS2_PKiPKT0_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_sum_kernelIflLb0ELb1EEEvPKT_PS2_PKiPKT0_iiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_sum_kernelIflLb0ELb1EEEvPKT_PS2_PKiPKT0_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 368 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe222segment_lengths_kernelIiEEviPKT_PS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe222segment_lengths_kernelIiEEviPKT_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a51length_weighted_sum_with_main_input_gradient_kernelIflLi512EEEvPKT_S4_S4_PKT0_PS2_S8_PKiiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a51length_weighted_sum_with_main_input_gradient_kernelIflLi512EEEvPKT_S4_S4_PKT0_PS2_S8_PKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 96 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_sum_kernelIflLb1ELb0EEEvPKT_PS2_PKiPKT0_iiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_sum_kernelIflLb1ELb0EEEvPKT_PS2_PKiPKT0_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub18DeviceReduceKernelINS_18DeviceReducePolicyIiiNS_3MaxEE9Policy600EPKiPiiS2_EEvT0_T1_T2_NS_13GridEvenShareISA_EET3_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub18DeviceReduceKernelINS_18DeviceReducePolicyIiiNS_3MaxEE9Policy600EPKiPiiS2_EEvT0_T1_T2_NS_13GridEvenShareISA_EET3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 48 bytes smem, 381 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a35length_weighted_sum_gradient_kernelIfLb1EEEvPKT_S4_PS2_PKiiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a35length_weighted_sum_gradient_kernelIfLb1EEEvPKT_S4_PS2_PKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 364 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_max_kernelIfiLb0EEEvPKT_PS2_PKiPKT0_iiiiS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a24sparse_length_max_kernelIfiLb0EEEvPKT_PS2_PKiPKT0_iiiiS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 372 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe226sorted_segment_mean_kernelIfiLb1EEEvT0_iPKS1_S3_PKT_PS4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe226sorted_segment_mean_kernelIfiLb1EEEvT0_iPKS1_S3_PKT_PS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 360 bytes cmem[0], 72 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a51length_weighted_sum_with_main_input_gradient_kernelIflLi64EEEvPKT_S4_S4_PKT0_PS2_S8_PKiiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a51length_weighted_sum_with_main_input_gradient_kernelIflLi64EEEvPKT_S4_S4_PKT0_PS2_S8_PKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 16 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a17length_sum_kernelIfLb1ELb1EEEvPKT_PS2_PKiiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a17length_sum_kernelIfLb1ELb1EEEvPKT_PS2_PKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 356 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe224UnsortedSegmentSumKernelIifEEviiPKT_PKT0_PS4_Pi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe224UnsortedSegmentSumKernelIifEEviiPKT_PKT0_PS4_Pi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a51length_weighted_sum_with_main_input_gradient_kernelIfiLi64EEEvPKT_S4_S4_PKT0_PS2_S8_PKiiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a51length_weighted_sum_with_main_input_gradient_kernelIfiLi64EEEvPKT_S4_S4_PKT0_PS2_S8_PKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 16 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe226length_max_gradient_kernelIfLb0EEEvPKT_PS1_S3_S3_PKiiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe226length_max_gradient_kernelIfLb0EEEvPKT_PS1_S3_S3_PKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 372 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a26length_sum_gradient_kernelIfLb1ELb1EEEvPKT_PS2_PKiiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a26length_sum_gradient_kernelIfLb1ELb1EEEvPKT_PS2_PKiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 356 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN3cub11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a33sparse_length_weighted_sum_kernelIfiLb1EEEvPKT_S4_PS2_PKiPKT0_iiii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe283_GLOBAL__N__59_tmpxft_00005e80_00000000_7_segment_reduction_op_gpu_cpp1_ii_b4692c6a33sparse_length_weighted_sum_kernelIfiLb1EEEvPKT_S4_PS2_PKiPKT0_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 376 bytes cmem[0]

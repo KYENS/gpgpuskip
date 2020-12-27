@@ -1,0 +1,85 @@
+ptxas info    : 4930 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe215AxpySliceKernelIlEEvPKflllPS2_S3_PKT_Pfl' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe215AxpySliceKernelIlEEvPKflllPS2_S3_PKT_Pfl
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIiiEEvPT0_PKT_PKS2_lll' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIiiEEvPT0_PKT_PKS2_lll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe211RangeKernelIdEEviPT_S1_S1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe211RangeKernelIdEEviPT_S1_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIlhEEvPT0_PKT_PKS2_lll' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIlhEEvPT0_PKT_PKS2_lll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe215ElwiseMaxKernelEPKfS1_Pfi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe215ElwiseMaxKernelEPKfS1_Pfi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 348 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe211RangeKernelIlEEviPT_S1_S1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe211RangeKernelIlEEviPT_S1_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIlfEEvPT0_PKT_PKS2_lll' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIlfEEvPT0_PKT_PKS2_lll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIiN3c104HalfEEEvPT0_PKT_PKS4_lll' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIiN3c104HalfEEEvPT0_PKT_PKS4_lll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIllEEvPT0_PKT_PKS2_lll' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIllEEvPT0_PKT_PKS2_lll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe216MaxMinGradKernelIfEEviPKT_S3_S3_PS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe216MaxMinGradKernelIfEEviPKT_S3_S3_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe211RangeKernelIiEEviPT_S1_S1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe211RangeKernelIiEEviPT_S1_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIilEEvPT0_PKT_PKS2_lll' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIilEEvPT0_PKT_PKS2_lll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIifEEvPT0_PKT_PKS2_lll' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIifEEvPT0_PKT_PKS2_lll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIliEEvPT0_PKT_PKS2_lll' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIliEEvPT0_PKT_PKS2_lll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe215ElwiseMinKernelEPKfS1_Pfi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe215ElwiseMinKernelEPKfS1_Pfi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 348 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIihEEvPT0_PKT_PKS2_lll' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIihEEvPT0_PKT_PKS2_lll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe215AxpySliceKernelIiEEvPKflllPS2_S3_PKT_Pfl' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe215AxpySliceKernelIiEEvPKflllPS2_S3_PKT_Pfl
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe211RangeKernelIfEEviPT_S1_S1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe211RangeKernelIfEEviPT_S1_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIlN3c104HalfEEEvPT0_PKT_PKS4_lll' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006222_00000000_7_utility_ops_cpp1_ii_84d728b521scatter_assign_kernelIlN3c104HalfEEEvPT0_PKT_PKS4_lll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe214NanCheckKernelEiPKfPb' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe214NanCheckKernelEiPKfPb
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]

@@ -1,0 +1,33 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z11getrf_panelI6float2fLi4ELi4ELi3ELi3ELi4ELb1EEviPPT_iPiS4_i' for 'sm_50'
+ptxas info    : Function properties for _Z11getrf_panelI6float2fLi4ELi4ELi3ELi3ELi4ELb1EEviPPT_iPiS4_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 3072 bytes smem, 364 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11getrf_panelIffLi4ELi4ELi3ELi3ELi4ELb1EEviPPT_iPiS3_i' for 'sm_50'
+ptxas info    : Function properties for _Z11getrf_panelIffLi4ELi4ELi3ELi3ELi4ELb1EEviPPT_iPiS3_i
+    16 bytes stack frame, 28 bytes spill stores, 36 bytes spill loads
+ptxas info    : Used 56 registers, 1536 bytes smem, 364 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11getrf_panelI7double2dLi4ELi4ELi3ELi3ELi4ELb1EEviPPT_iPiS4_i' for 'sm_50'
+ptxas info    : Function properties for _Z11getrf_panelI7double2dLi4ELi4ELi3ELi3ELi4ELb1EEviPPT_iPiS4_i
+    24 bytes stack frame, 20 bytes spill stores, 20 bytes spill loads
+ptxas info    : Used 64 registers, 6144 bytes smem, 364 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11getrf_panelIddLi4ELi4ELi3ELi3ELi4ELb1EEviPPT_iPiS3_i' for 'sm_50'
+ptxas info    : Function properties for _Z11getrf_panelIddLi4ELi4ELi3ELi3ELi4ELb1EEviPPT_iPiS3_i
+    24 bytes stack frame, 20 bytes spill stores, 24 bytes spill loads
+ptxas info    : Used 56 registers, 3072 bytes smem, 364 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11getrf_panelI6float2fLi4ELi4ELi3ELi3ELi4ELb0EEviPPT_iPiS4_i' for 'sm_50'
+ptxas info    : Function properties for _Z11getrf_panelI6float2fLi4ELi4ELi3ELi3ELi4ELb0EEviPPT_iPiS4_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 64 registers, 3072 bytes smem, 364 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11getrf_panelIffLi4ELi4ELi3ELi3ELi4ELb0EEviPPT_iPiS3_i' for 'sm_50'
+ptxas info    : Function properties for _Z11getrf_panelIffLi4ELi4ELi3ELi3ELi4ELb0EEviPPT_iPiS3_i
+    24 bytes stack frame, 36 bytes spill stores, 40 bytes spill loads
+ptxas info    : Used 48 registers, 1536 bytes smem, 364 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11getrf_panelI7double2dLi4ELi4ELi3ELi3ELi4ELb0EEviPPT_iPiS4_i' for 'sm_50'
+ptxas info    : Function properties for _Z11getrf_panelI7double2dLi4ELi4ELi3ELi3ELi4ELb0EEviPPT_iPiS4_i
+    8 bytes stack frame, 16 bytes spill stores, 16 bytes spill loads
+ptxas info    : Used 72 registers, 6144 bytes smem, 364 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11getrf_panelIddLi4ELi4ELi3ELi3ELi4ELb0EEviPPT_iPiS3_i' for 'sm_50'
+ptxas info    : Function properties for _Z11getrf_panelIddLi4ELi4ELi3ELi3ELi4ELb0EEviPPT_iPiS3_i
+    24 bytes stack frame, 24 bytes spill stores, 24 bytes spill loads
+ptxas info    : Used 56 registers, 3072 bytes smem, 364 bytes cmem[0], 20 bytes cmem[2]

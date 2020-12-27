@@ -1,0 +1,25 @@
+ptxas info    : 865 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab28ComputeFusedParamsCUDAKernelIfEEviiPKT_S4_S4_S4_PS2_S5_S5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 384 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN3cub11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab26LayerNormForwardCUDAKernelIfEEviiPKT_S4_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab26LayerNormForwardCUDAKernelIfEEviiPKT_S4_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab34ComputeInternalGradientsCUDAKernelIfEEviiPKT_S4_PS2_S5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 48 bytes smem, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab27LayerNormBackwardCUDAKenrelIfEEviiPKT_S4_S4_S4_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab37ComputeStdDevAndFusedParamsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_S5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_00005ad3_00000000_7_layer_norm_op_cpp1_ii_8ac618ab37ComputeStdDevAndFusedParamsCUDAKernelIfEEviT_PKS2_S4_PS2_S5_S5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 368 bytes cmem[0]

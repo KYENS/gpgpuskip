@@ -1,0 +1,9 @@
+ptxas info    : 904 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f21DropoutGradientKernelEiPKfPKbfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f21DropoutGradientKernelEiPKfPKbfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f13DropoutKernelEifPKfPfPb' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00005cc0_00000000_7_dropout_op_cpp1_ii_dafd950f13DropoutKernelEifPKfPfPb
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 352 bytes cmem[0], 20 bytes cmem[2]

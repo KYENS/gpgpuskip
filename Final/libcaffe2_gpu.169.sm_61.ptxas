@@ -1,0 +1,41 @@
+ptxas info    : 521 bytes gmem
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c37ctc_loss_backward_log_beta_gpu_kernelIflEEvPT_PKS3_PKllPKT0_S8_lllllllS8_lll' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c37ctc_loss_backward_log_beta_gpu_kernelIflEEvPT_PKS3_PKllPKT0_S8_lllllllS8_lll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 51 registers, 456 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c29ctc_loss_log_alpha_gpu_kernelIfiEEvPT_PKS3_PKllPKT0_S8_lS4_llllllS8_lll' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c29ctc_loss_log_alpha_gpu_kernelIfiEEvPT_PKS3_PKllPKT0_S8_lS4_llllllS8_lll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 464 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c45ctc_loss_backward_collect_nonblank_gpu_kernelIdlEEvPT_PKS3_lS6_S6_S6_PKllPKT0_S8_lS6_llllllllllllS8_llll' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c45ctc_loss_backward_collect_nonblank_gpu_kernelIdlEEvPT_PKS3_lS6_S6_S6_PKllPKT0_S8_lS6_llllllllllllS8_llll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 34 registers, 552 bytes cmem[0], 112 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c29ctc_loss_log_alpha_gpu_kernelIdiEEvPT_PKS3_PKllPKT0_S8_lS4_llllllS8_lll' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c29ctc_loss_log_alpha_gpu_kernelIdiEEvPT_PKS3_PKllPKT0_S8_lS4_llllllS8_lll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 464 bytes cmem[0], 208 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c36ctc_loss_backward_collect_gpu_kernelIflEEvPT_PKS3_lS6_S6_S6_PKllPKT0_S8_lS6_llllllllllllS8_llll' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c36ctc_loss_backward_collect_gpu_kernelIflEEvPT_PKS3_lS6_S6_S6_PKllPKT0_S8_lS6_llllllllllllS8_llll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 552 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c36ctc_loss_backward_collect_gpu_kernelIdlEEvPT_PKS3_lS6_S6_S6_PKllPKT0_S8_lS6_llllllllllllS8_llll' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c36ctc_loss_backward_collect_gpu_kernelIdlEEvPT_PKS3_lS6_S6_S6_PKllPKT0_S8_lS6_llllllllllllS8_llll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 552 bytes cmem[0], 208 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c29ctc_loss_log_alpha_gpu_kernelIflEEvPT_PKS3_PKllPKT0_S8_lS4_llllllS8_lll' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c29ctc_loss_log_alpha_gpu_kernelIflEEvPT_PKS3_PKllPKT0_S8_lS4_llllllS8_lll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 464 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c37ctc_loss_backward_log_beta_gpu_kernelIdlEEvPT_PKS3_PKllPKT0_S8_lllllllS8_lll' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c37ctc_loss_backward_log_beta_gpu_kernelIdlEEvPT_PKS3_PKllPKT0_S8_lllllllS8_lll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 59 registers, 456 bytes cmem[0], 208 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c29ctc_loss_log_alpha_gpu_kernelIdlEEvPT_PKS3_PKllPKT0_S8_lS4_llllllS8_lll' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c29ctc_loss_log_alpha_gpu_kernelIdlEEvPT_PKS3_PKllPKT0_S8_lS4_llllllS8_lll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 464 bytes cmem[0], 208 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c45ctc_loss_backward_collect_nonblank_gpu_kernelIflEEvPT_PKS3_lS6_S6_S6_PKllPKT0_S8_lS6_llllllllllllS8_llll' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_000058dc_00000000_7_LossCTC_cpp1_ii_dfb9bd9c45ctc_loss_backward_collect_nonblank_gpu_kernelIflEEvPT_PKS3_lS6_S6_S6_PKllPKT0_S8_lS6_llllllllllllS8_llll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 552 bytes cmem[0], 12 bytes cmem[2]

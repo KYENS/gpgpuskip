@@ -1,0 +1,517 @@
+ptxas info    : 34735 bytes gmem
+ptxas info    : Compiling entry function '_Z10gatherTopKIN3c104HalfEjLi3ELb0EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIN3c104HalfEjLi3ELb0EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIajLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIajLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIdjLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIdjLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIijLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIijLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIljLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIljLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIhjLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIhjLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIfjLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIfjLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIsjLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIsjLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIN3c104HalfEmLi3ELb0EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIN3c104HalfEmLi3ELb0EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 53 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIamLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIamLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIdmLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIdmLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 55 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIimLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIimLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIlmLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIlmLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 54 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIhmLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIhmLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIfmLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIfmLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 53 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIsmLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIsmLi3ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 128 bytes smem, 1624 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIN3c104HalfEjLi1ELb0EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIN3c104HalfEjLi1ELb0EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIajLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIajLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIdjLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIdjLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIijLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIijLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIljLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIljLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIhjLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIhjLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIfjLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIfjLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIsjLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIsjLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIN3c104HalfEmLi1ELb0EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIN3c104HalfEmLi1ELb0EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 53 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIamLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIamLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIdmLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIdmLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIimLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIimLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 54 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIlmLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIlmLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIhmLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIhmLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIfmLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIfmLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 54 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIsmLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIsmLi1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, 128 bytes smem, 1624 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIN3c104HalfEjLin1ELb0EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIN3c104HalfEjLin1ELb0EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIajLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIajLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIdjLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIdjLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 53 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIijLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIijLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIljLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIljLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 53 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIhjLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIhjLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIfjLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIfjLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIsjLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIsjLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIN3c104HalfEmLin1ELb0EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIN3c104HalfEmLin1ELb0EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 64 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIamLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIamLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 62 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIdmLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIdmLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 70 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIimLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIimLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 64 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIlmLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIlmLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 70 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIhmLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIhmLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 62 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIfmLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIfmLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 64 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIsmLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIsmLin1ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 62 registers, 128 bytes smem, 1624 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIN3c104HalfEjLi2ELb0EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIN3c104HalfEjLi2ELb0EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIajLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIajLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIdjLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIdjLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIijLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIijLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIljLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIljLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIhjLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIhjLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIfjLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIfjLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIsjLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIsjLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIN3c104HalfEmLi2ELb0EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIN3c104HalfEmLi2ELb0EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 53 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIamLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIamLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIdmLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIdmLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIimLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIimLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 54 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIlmLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIlmLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIhmLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIhmLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIfmLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIfmLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 54 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIsmLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIsmLi2ELb0EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, 128 bytes smem, 1624 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIN3c104HalfEjLin1ELb1EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIN3c104HalfEjLin1ELb1EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIajLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIajLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIdjLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIdjLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 53 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIijLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIijLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIljLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIljLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 53 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIhjLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIhjLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIfjLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIfjLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIsjLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIsjLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    648 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIN3c104HalfEmLin1ELb1EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIN3c104HalfEmLin1ELb1EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 64 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIamLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIamLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 62 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIdmLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIdmLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 70 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIimLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIimLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 64 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIlmLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIlmLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 70 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIhmLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIhmLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 62 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIfmLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIfmLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 64 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIsmLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIsmLin1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    1248 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 62 registers, 128 bytes smem, 1624 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIN3c104HalfEjLi2ELb1EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIN3c104HalfEjLi2ELb1EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIajLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIajLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIdjLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIdjLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIijLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIijLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIljLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIljLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIhjLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIhjLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIfjLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIfjLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIsjLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIsjLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIN3c104HalfEmLi2ELb1EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIN3c104HalfEmLi2ELb1EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 53 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIamLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIamLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIdmLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIdmLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIimLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIimLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 54 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIlmLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIlmLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIhmLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIhmLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIfmLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIfmLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 54 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIsmLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIsmLi2ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, 128 bytes smem, 1624 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIN3c104HalfEjLi3ELb1EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIN3c104HalfEjLi3ELb1EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIajLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIajLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIdjLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIdjLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIijLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIijLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIljLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIljLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIhjLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIhjLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIfjLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIfjLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIsjLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIsjLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIN3c104HalfEmLi3ELb1EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIN3c104HalfEmLi3ELb1EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 53 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIamLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIamLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIdmLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIdmLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 55 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIimLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIimLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIlmLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIlmLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 54 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIhmLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIhmLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIfmLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIfmLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 53 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIsmLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIsmLi3ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 128 bytes smem, 1624 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIN3c104HalfEmLi1ELb1EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIN3c104HalfEmLi1ELb1EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 53 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIamLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIamLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIdmLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIdmLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIimLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIimLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 54 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIlmLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIlmLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIhmLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIhmLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIfmLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIfmLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 54 registers, 128 bytes smem, 1624 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIsmLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIsmLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, 128 bytes smem, 1624 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIN3c104HalfEjLi1ELb1EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIN3c104HalfEjLi1ELb1EEv10TensorInfoIT_T0_ES4_S4_S4_S4_S5_S4_S4_S2_IlS4_ES4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIajLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIajLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIdjLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIdjLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIijLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIijLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIfjLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIfjLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIsjLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIsjLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIljLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIljLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 128 bytes smem, 996 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z10gatherTopKIhjLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_' for 'sm_61'
+ptxas info    : Function properties for _Z10gatherTopKIhjLi1ELb1EEv10TensorInfoIT_T0_ES2_S2_S2_S2_S3_S2_S2_S0_IlS2_ES2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 128 bytes smem, 996 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]

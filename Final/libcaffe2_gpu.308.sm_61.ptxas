@@ -1,0 +1,129 @@
+ptxas info    : 376 bytes gmem
+ptxas info    : Compiling entry function '_ZN4gloo23_Kernel_int32_t_cudaMaxEPiPKii' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo23_Kernel_int32_t_cudaMaxEPiPKii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo27_Kernel_int32_t_cudaProductEPiPKii' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo27_Kernel_int32_t_cudaProductEPiPKii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo22_Kernel_double_cudaMaxEPdPKdi' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo22_Kernel_double_cudaMaxEPdPKdi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo26_Kernel_double_cudaProductEPdPKdi' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo26_Kernel_double_cudaProductEPdPKdi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo22_Kernel_int8_t_cudaMaxEPaPKai' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo22_Kernel_int8_t_cudaMaxEPaPKai
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo26_Kernel_int8_t_cudaProductEPaPKai' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo26_Kernel_int8_t_cudaProductEPaPKai
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo24_Kernel_uint64_t_cudaMaxEPmPKmi' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo24_Kernel_uint64_t_cudaMaxEPmPKmi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo28_Kernel_uint64_t_cudaProductEPmPKmi' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo28_Kernel_uint64_t_cudaProductEPmPKmi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo23_Kernel_int64_t_cudaMaxEPlPKli' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo23_Kernel_int64_t_cudaMaxEPlPKli
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo27_Kernel_int64_t_cudaProductEPlPKli' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo27_Kernel_int64_t_cudaProductEPlPKli
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo20_Kernel_half_cudaMaxEP6__halfPKS0_i' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo20_Kernel_half_cudaMaxEP6__halfPKS0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo24_Kernel_half_cudaProductEP6__halfPKS0_i' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo24_Kernel_half_cudaProductEP6__halfPKS0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo23_Kernel_uint8_t_cudaMaxEPhPKhi' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo23_Kernel_uint8_t_cudaMaxEPhPKhi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo27_Kernel_uint8_t_cudaProductEPhPKhi' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo27_Kernel_uint8_t_cudaProductEPhPKhi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo21_Kernel_float_cudaMaxEPfPKfi' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo21_Kernel_float_cudaMaxEPfPKfi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo25_Kernel_float_cudaProductEPfPKfi' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo25_Kernel_float_cudaProductEPfPKfi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo23_Kernel_int32_t_cudaMinEPiPKii' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo23_Kernel_int32_t_cudaMinEPiPKii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo23_Kernel_int32_t_cudaSumEPiPKii' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo23_Kernel_int32_t_cudaSumEPiPKii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo22_Kernel_double_cudaMinEPdPKdi' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo22_Kernel_double_cudaMinEPdPKdi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo22_Kernel_double_cudaSumEPdPKdi' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo22_Kernel_double_cudaSumEPdPKdi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo22_Kernel_int8_t_cudaMinEPaPKai' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo22_Kernel_int8_t_cudaMinEPaPKai
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo22_Kernel_int8_t_cudaSumEPaPKai' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo22_Kernel_int8_t_cudaSumEPaPKai
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo24_Kernel_uint64_t_cudaMinEPmPKmi' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo24_Kernel_uint64_t_cudaMinEPmPKmi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo24_Kernel_uint64_t_cudaSumEPmPKmi' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo24_Kernel_uint64_t_cudaSumEPmPKmi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo23_Kernel_int64_t_cudaMinEPlPKli' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo23_Kernel_int64_t_cudaMinEPlPKli
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo23_Kernel_int64_t_cudaSumEPlPKli' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo23_Kernel_int64_t_cudaSumEPlPKli
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo20_Kernel_half_cudaMinEP6__halfPKS0_i' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo20_Kernel_half_cudaMinEP6__halfPKS0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo20_Kernel_half_cudaSumEP6__halfPKS0_i' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo20_Kernel_half_cudaSumEP6__halfPKS0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo23_Kernel_uint8_t_cudaMinEPhPKhi' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo23_Kernel_uint8_t_cudaMinEPhPKhi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo23_Kernel_uint8_t_cudaSumEPhPKhi' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo23_Kernel_uint8_t_cudaSumEPhPKhi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo21_Kernel_float_cudaMinEPfPKfi' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo21_Kernel_float_cudaMinEPfPKfi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 340 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN4gloo21_Kernel_float_cudaSumEPfPKfi' for 'sm_61'
+ptxas info    : Function properties for _ZN4gloo21_Kernel_float_cudaSumEPfPKfi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 340 bytes cmem[0]

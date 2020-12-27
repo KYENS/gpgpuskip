@@ -1,0 +1,21 @@
+ptxas info    : 904 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe224ChannelShuffleNCHWKernelIfLb1EEEviiiPKT_PS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe224ChannelShuffleNCHWKernelIfLb1EEEviiiPKT_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe224ChannelShuffleNHWCKernelIfLi128EEEviiPKfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe224ChannelShuffleNHWCKernelIfLi128EEEviiPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 512 bytes smem, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe224ChannelShuffleNHWCKernelIfLi32EEEviiPKfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe224ChannelShuffleNHWCKernelIfLi32EEEviiPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 128 bytes smem, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe224ChannelShuffleNHWCKernelIfLi512EEEviiPKfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe224ChannelShuffleNHWCKernelIfLi512EEEviiPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 2048 bytes smem, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe224ChannelShuffleNCHWKernelIfLb0EEEviiiPKT_PS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe224ChannelShuffleNCHWKernelIfLb0EEEviiiPKT_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 352 bytes cmem[0]

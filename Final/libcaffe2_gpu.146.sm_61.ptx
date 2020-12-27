@@ -1,0 +1,297 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+
+.visible .entry _ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi(
+.param .u32 _ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_0,
+.param .u64 _ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_1,
+.param .u64 _ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_2,
+.param .f32 _ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_3,
+.param .u32 _ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_4,
+.param .u32 _ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_5,
+.param .u32 _ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_6,
+.param .u32 _ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_7,
+.param .u32 _ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_8,
+.param .u64 _ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_9,
+.param .u64 _ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_10
+)
+{
+.reg .pred %p<18>;
+.reg .f32 %f<51>;
+.reg .b32 %r<70>;
+.reg .b64 %rd<25>;
+
+
+ld.param.u32 %r24, [_ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_0];
+ld.param.u64 %rd6, [_ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_1];
+ld.param.u64 %rd7, [_ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_2];
+ld.param.f32 %f11, [_ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_3];
+ld.param.u32 %r25, [_ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_4];
+ld.param.u32 %r26, [_ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_5];
+ld.param.u32 %r27, [_ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_6];
+ld.param.u32 %r28, [_ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_7];
+ld.param.u32 %r29, [_ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_8];
+ld.param.u64 %rd8, [_ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_9];
+ld.param.u64 %rd9, [_ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi_param_10];
+mov.u32 %r30, %ctaid.x;
+mov.u32 %r31, %ntid.x;
+mov.u32 %r32, %tid.x;
+mad.lo.s32 %r64, %r31, %r30, %r32;
+setp.ge.s32	%p1, %r64, %r24;
+@%p1 bra BB0_8;
+
+cvt.rn.f32.s32	%f1, %r28;
+cvt.rn.f32.s32	%f2, %r29;
+cvt.rn.f32.s32	%f3, %r26;
+cvt.rn.f32.s32	%f4, %r27;
+cvta.to.global.u64 %rd10, %rd7;
+cvta.to.global.u64 %rd16, %rd6;
+cvta.to.global.u64 %rd19, %rd8;
+cvta.to.global.u64 %rd22, %rd9;
+
+BB0_2:
+div.s32 %r34, %r64, %r29;
+rem.s32 %r35, %r34, %r28;
+div.s32 %r3, %r34, %r28;
+div.s32 %r36, %r3, %r25;
+mul.lo.s32 %r37, %r36, 5;
+mul.wide.s32 %rd11, %r37, 4;
+add.s64 %rd1, %rd10, %rd11;
+ld.global.f32 %f12, [%rd1+4];
+mul.f32 %f13, %f12, %f11;
+cvt.rni.s64.f32	%rd12, %f13;
+cvt.u32.u64	%r38, %rd12;
+ld.global.f32 %f14, [%rd1+8];
+mul.f32 %f15, %f14, %f11;
+cvt.rni.s64.f32	%rd13, %f15;
+cvt.u32.u64	%r39, %rd13;
+ld.global.f32 %f16, [%rd1+12];
+mul.f32 %f17, %f16, %f11;
+cvt.rni.s64.f32	%rd14, %f17;
+cvt.u32.u64	%r40, %rd14;
+ld.global.f32 %f18, [%rd1+16];
+mul.f32 %f19, %f18, %f11;
+cvt.rni.s64.f32	%rd15, %f19;
+cvt.u32.u64	%r41, %rd15;
+sub.s32 %r42, %r41, %r39;
+sub.s32 %r43, %r40, %r38;
+cvt.rn.f32.s32	%f20, %r42;
+div.rn.f32 %f21, %f20, %f1;
+cvt.rn.f32.s32	%f22, %r43;
+div.rn.f32 %f23, %f22, %f2;
+cvt.rn.f32.s32	%f24, %r35;
+mul.f32 %f25, %f24, %f21;
+cvt.rmi.f32.f32	%f26, %f25;
+cvt.rzi.s32.f32	%r44, %f26;
+rem.s32 %r45, %r64, %r29;
+cvt.rn.f32.s32	%f27, %r45;
+mul.f32 %f28, %f27, %f23;
+cvt.rmi.f32.f32	%f29, %f28;
+cvt.rzi.s32.f32	%r46, %f29;
+add.s32 %r47, %r35, 1;
+cvt.rn.f32.s32	%f30, %r47;
+mul.f32 %f31, %f30, %f21;
+cvt.rpi.f32.f32	%f32, %f31;
+cvt.rzi.s32.f32	%r48, %f32;
+add.s32 %r49, %r45, 1;
+cvt.rn.f32.s32	%f33, %r49;
+mul.f32 %f34, %f33, %f23;
+cvt.rpi.f32.f32	%f35, %f34;
+cvt.rzi.s32.f32	%r50, %f35;
+add.s32 %r51, %r44, %r39;
+cvt.rn.f32.s32	%f36, %r51;
+setp.gt.f32	%p2, %f36, 0f00000000;
+selp.f32	%f37, %f36, 0f00000000, %p2;
+setp.gt.f32	%p3, %f37, %f3;
+selp.f32	%f38, %f3, %f37, %p3;
+cvt.rzi.s32.f32	%r66, %f38;
+add.s32 %r52, %r46, %r38;
+cvt.rn.f32.s32	%f39, %r52;
+setp.gt.f32	%p4, %f39, 0f00000000;
+selp.f32	%f40, %f39, 0f00000000, %p4;
+setp.gt.f32	%p5, %f40, %f4;
+selp.f32	%f41, %f4, %f40, %p5;
+cvt.rzi.s32.f32	%r5, %f41;
+add.s32 %r53, %r48, %r39;
+cvt.rn.f32.s32	%f42, %r53;
+setp.gt.f32	%p6, %f42, 0f00000000;
+selp.f32	%f43, %f42, 0f00000000, %p6;
+setp.gt.f32	%p7, %f43, %f3;
+selp.f32	%f44, %f3, %f43, %p7;
+cvt.rzi.s32.f32	%r6, %f44;
+add.s32 %r54, %r50, %r38;
+cvt.rn.f32.s32	%f45, %r54;
+setp.gt.f32	%p8, %f45, 0f00000000;
+selp.f32	%f46, %f45, 0f00000000, %p8;
+setp.gt.f32	%p9, %f46, %f4;
+selp.f32	%f47, %f4, %f46, %p9;
+cvt.rzi.s32.f32	%r7, %f47;
+setp.ge.s32	%p10, %r5, %r7;
+setp.ge.s32	%p11, %r66, %r6;
+or.pred %p12, %p10, %p11;
+selp.f32	%f50, 0f00000000, 0f00800000, %p12;
+mov.u32 %r69, -1;
+@%p11 bra BB0_7;
+
+rem.s32 %r57, %r3, %r25;
+ld.global.f32 %f48, [%rd1];
+cvt.rzi.s32.f32	%r58, %f48;
+mad.lo.s32 %r8, %r27, %r66, %r5;
+mad.lo.s32 %r59, %r25, %r58, %r57;
+mul.lo.s32 %r60, %r27, %r26;
+mul.lo.s32 %r61, %r60, %r59;
+mul.wide.s32 %rd17, %r61, 4;
+add.s64 %rd2, %rd16, %rd17;
+mov.u32 %r69, -1;
+mov.u32 %r65, 0;
+
+BB0_4:
+mad.lo.s32 %r67, %r27, %r65, %r8;
+mul.wide.s32 %rd18, %r67, 4;
+add.s64 %rd24, %rd2, %rd18;
+mov.u32 %r68, %r5;
+@%p10 bra BB0_6;
+
+BB0_5:
+mov.u32 %r14, %r68;
+ld.global.f32 %f49, [%rd24];
+setp.gt.f32	%p14, %f49, %f50;
+selp.f32	%f50, %f49, %f50, %p14;
+selp.b32	%r69, %r67, %r69, %p14;
+add.s32 %r67, %r67, 1;
+add.s64 %rd24, %rd24, 4;
+add.s32 %r18, %r14, 1;
+setp.lt.s32	%p15, %r18, %r7;
+mov.u32 %r68, %r18;
+@%p15 bra BB0_5;
+
+BB0_6:
+add.s32 %r66, %r66, 1;
+setp.lt.s32	%p16, %r66, %r6;
+add.s32 %r65, %r65, 1;
+@%p16 bra BB0_4;
+
+BB0_7:
+mul.wide.s32 %rd20, %r64, 4;
+add.s64 %rd21, %rd19, %rd20;
+st.global.f32 [%rd21], %f50;
+add.s64 %rd23, %rd22, %rd20;
+st.global.u32 [%rd23], %r69;
+mov.u32 %r63, %nctaid.x;
+mad.lo.s32 %r64, %r63, %r31, %r64;
+setp.lt.s32	%p17, %r64, %r24;
+@%p17 bra BB0_2;
+
+BB0_8:
+ret;
+}
+
+
+.visible .entry _ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4_(
+.param .u32 _ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_0,
+.param .u64 _ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_1,
+.param .u64 _ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_2,
+.param .u32 _ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_3,
+.param .f32 _ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_4,
+.param .u32 _ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_5,
+.param .u32 _ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_6,
+.param .u32 _ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_7,
+.param .u32 _ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_8,
+.param .u32 _ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_9,
+.param .u64 _ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_10,
+.param .u64 _ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_11
+)
+{
+.reg .pred %p<4>;
+.reg .f32 %f<4>;
+.reg .b32 %r<30>;
+.reg .b64 %rd<23>;
+
+
+ld.param.u32 %r10, [_ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_0];
+ld.param.u64 %rd5, [_ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_1];
+ld.param.u64 %rd6, [_ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_2];
+ld.param.u32 %r11, [_ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_5];
+ld.param.u32 %r12, [_ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_6];
+ld.param.u32 %r13, [_ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_7];
+ld.param.u32 %r14, [_ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_8];
+ld.param.u32 %r15, [_ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_9];
+ld.param.u64 %rd7, [_ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_10];
+ld.param.u64 %rd8, [_ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4__param_11];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r16, %ctaid.x;
+mov.u32 %r17, %tid.x;
+mad.lo.s32 %r29, %r1, %r16, %r17;
+setp.ge.s32	%p1, %r29, %r10;
+@%p1 bra BB1_5;
+
+cvta.to.global.u64 %rd1, %rd5;
+cvta.to.global.u64 %rd2, %rd6;
+cvta.to.global.u64 %rd3, %rd8;
+mul.lo.s32 %r3, %r13, %r12;
+mul.lo.s32 %r4, %r15, %r14;
+mov.u32 %r18, %nctaid.x;
+mul.lo.s32 %r5, %r18, %r1;
+cvta.to.global.u64 %rd18, %rd7;
+
+BB1_2:
+div.s32 %r19, %r29, %r15;
+div.s32 %r20, %r19, %r14;
+rem.s32 %r21, %r20, %r11;
+div.s32 %r22, %r20, %r11;
+mul.lo.s32 %r23, %r22, 5;
+mul.wide.s32 %rd9, %r23, 4;
+add.s64 %rd10, %rd3, %rd9;
+ld.global.f32 %f1, [%rd10];
+cvt.rzi.s32.f32	%r24, %f1;
+mad.lo.s32 %r7, %r24, %r11, %r21;
+mul.lo.s32 %r25, %r4, %r7;
+cvt.s64.s32	%rd11, %r25;
+rem.s32 %r26, %r29, %r15;
+mad.lo.s32 %r27, %r20, %r15, %r26;
+cvt.s64.s32	%rd12, %r27;
+add.s64 %rd4, %rd11, %rd12;
+shl.b64 %rd13, %rd4, 2;
+add.s64 %rd14, %rd2, %rd13;
+ld.global.u32 %r8, [%rd14];
+setp.eq.s32	%p2, %r8, -1;
+@%p2 bra BB1_4;
+
+mul.lo.s32 %r28, %r3, %r7;
+cvt.s64.s32	%rd15, %r8;
+cvt.s64.s32	%rd16, %r28;
+add.s64 %rd17, %rd16, %rd15;
+shl.b64 %rd19, %rd17, 2;
+add.s64 %rd20, %rd18, %rd19;
+add.s64 %rd22, %rd1, %rd13;
+ld.global.f32 %f2, [%rd22];
+atom.global.add.f32 %f3, [%rd20], %f2;
+
+BB1_4:
+add.s32 %r29, %r5, %r29;
+setp.lt.s32	%p3, %r29, %r10;
+@%p3 bra BB1_2;
+
+BB1_5:
+ret;
+}
+
+

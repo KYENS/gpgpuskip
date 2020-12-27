@@ -1,0 +1,9 @@
+ptxas info    : 728 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe217MomentumSgdKernelEiPKfS1_S1_S1_S1_PfS2_b' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe217MomentumSgdKernelEiPKfS1_S1_S1_S1_PfS2_b
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 385 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe213GetLrMuKernelEPKfS1_S1_S1_PfS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe213GetLrMuKernelEPKfS1_S1_S1_PfS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 368 bytes cmem[0], 64 bytes cmem[2]

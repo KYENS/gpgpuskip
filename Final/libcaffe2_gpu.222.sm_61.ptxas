@@ -1,0 +1,5 @@
+ptxas info    : 784 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe266_GLOBAL__N__42_tmpxft_000063e0_00000000_7_atan_op_cpp1_ii_ee27709f22AtanGradientCUDAKernelIfEEviPKT_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe266_GLOBAL__N__42_tmpxft_000063e0_00000000_7_atan_op_cpp1_ii_ee27709f22AtanGradientCUDAKernelIfEEviPKT_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 352 bytes cmem[0], 12 bytes cmem[2]

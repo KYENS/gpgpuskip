@@ -1,0 +1,97 @@
+ptxas info    : 521 bytes gmem
+ptxas info    : Compiling entry function '_ZN2at6native36batch_norm_collect_statistics_kernelIN3c104HalfEfiEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET1_EET0_S9_NS4_IS5_Lm1ES6_S7_EESA_NS4_IS9_Lm1ES6_S7_EESB_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native36batch_norm_collect_statistics_kernelIN3c104HalfEfiEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET1_EET0_S9_NS4_IS5_Lm1ES6_S7_EESA_NS4_IS9_Lm1ES6_S7_EESB_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 640 bytes smem, 424 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native26batch_norm_backward_kernelIfflEEvNS_20PackedTensorAccessorIT_Lm3ENS_16DefaultPtrTraitsET1_EES6_S6_NS2_IS3_Lm1ES4_S5_EES7_S7_S7_S7_NS2_IT0_Lm1ES4_S5_EES9_bS8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native26batch_norm_backward_kernelIfflEEvNS_20PackedTensorAccessorIT_Lm3ENS_16DefaultPtrTraitsET1_EES6_S6_NS2_IS3_Lm1ES4_S5_EES7_S7_S7_S7_NS2_IT0_Lm1ES4_S5_EES9_bS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 256 bytes smem, 664 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native33batch_norm_transform_input_kernelIddLb1ElEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES6_NS2_INSt11conditionalIXT1_ET0_S3_E4typeELm1ES4_S5_EENS2_INS7_IXT1_ES8_S3_E4typeELm1ES4_S5_EENS2_IS3_Lm1ES4_S5_EESF_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native33batch_norm_transform_input_kernelIddLb1ElEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES6_NS2_INSt11conditionalIXT1_ET0_S3_E4typeELm1ES4_S5_EENS2_INS7_IXT1_ES8_S3_E4typeELm1ES4_S5_EENS2_IS3_Lm1ES4_S5_EESF_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 536 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native33batch_norm_transform_input_kernelIffLb0ElEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES6_NS2_INSt11conditionalIXT1_ET0_S3_E4typeELm1ES4_S5_EENS2_INS7_IXT1_ES8_S3_E4typeELm1ES4_S5_EENS2_IS3_Lm1ES4_S5_EESF_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native33batch_norm_transform_input_kernelIffLb0ElEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES6_NS2_INSt11conditionalIXT1_ET0_S3_E4typeELm1ES4_S5_EENS2_INS7_IXT1_ES8_S3_E4typeELm1ES4_S5_EENS2_IS3_Lm1ES4_S5_EESF_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 532 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native33batch_norm_transform_input_kernelIN3c104HalfEfLb1ElEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES8_NS4_INSt11conditionalIXT1_ET0_S5_E4typeELm1ES6_S7_EENS4_INS9_IXT1_ESA_S5_E4typeELm1ES6_S7_EENS4_IS5_Lm1ES6_S7_EESH_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native33batch_norm_transform_input_kernelIN3c104HalfEfLb1ElEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES8_NS4_INSt11conditionalIXT1_ET0_S5_E4typeELm1ES6_S7_EENS4_INS9_IXT1_ESA_S5_E4typeELm1ES6_S7_EENS4_IS5_Lm1ES6_S7_EESH_SA_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 532 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native36batch_norm_collect_statistics_kernelIddiEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET1_EET0_S7_NS2_IS3_Lm1ES4_S5_EES8_NS2_IS7_Lm1ES4_S5_EES9_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native36batch_norm_collect_statistics_kernelIddiEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET1_EET0_S7_NS2_IS3_Lm1ES4_S5_EES8_NS2_IS7_Lm1ES4_S5_EES9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 34 registers, 640 bytes smem, 432 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native33batch_norm_transform_input_kernelIN3c104HalfEfLb0ElEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES8_NS4_INSt11conditionalIXT1_ET0_S5_E4typeELm1ES6_S7_EENS4_INS9_IXT1_ESA_S5_E4typeELm1ES6_S7_EENS4_IS5_Lm1ES6_S7_EESH_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native33batch_norm_transform_input_kernelIN3c104HalfEfLb0ElEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES8_NS4_INSt11conditionalIXT1_ET0_S5_E4typeELm1ES6_S7_EENS4_INS9_IXT1_ESA_S5_E4typeELm1ES6_S7_EENS4_IS5_Lm1ES6_S7_EESH_SA_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 532 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native26batch_norm_backward_kernelIN3c104HalfEflEEvNS_20PackedTensorAccessorIT_Lm3ENS_16DefaultPtrTraitsET1_EES8_S8_NS4_IS5_Lm1ES6_S7_EES9_S9_S9_S9_NS4_IT0_Lm1ES6_S7_EESB_bSA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native26batch_norm_backward_kernelIN3c104HalfEflEEvNS_20PackedTensorAccessorIT_Lm3ENS_16DefaultPtrTraitsET1_EES8_S8_NS4_IS5_Lm1ES6_S7_EES9_S9_S9_S9_NS4_IT0_Lm1ES6_S7_EESB_bSA_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 256 bytes smem, 664 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native36batch_norm_collect_statistics_kernelIffiEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET1_EET0_S7_NS2_IS3_Lm1ES4_S5_EES8_NS2_IS7_Lm1ES4_S5_EES9_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native36batch_norm_collect_statistics_kernelIffiEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET1_EET0_S7_NS2_IS3_Lm1ES4_S5_EES8_NS2_IS7_Lm1ES4_S5_EES9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 640 bytes smem, 424 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native33batch_norm_transform_input_kernelIffLb1ElEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES6_NS2_INSt11conditionalIXT1_ET0_S3_E4typeELm1ES4_S5_EENS2_INS7_IXT1_ES8_S3_E4typeELm1ES4_S5_EENS2_IS3_Lm1ES4_S5_EESF_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native33batch_norm_transform_input_kernelIffLb1ElEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES6_NS2_INSt11conditionalIXT1_ET0_S3_E4typeELm1ES4_S5_EENS2_INS7_IXT1_ES8_S3_E4typeELm1ES4_S5_EENS2_IS3_Lm1ES4_S5_EESF_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 532 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native26batch_norm_backward_kernelIddlEEvNS_20PackedTensorAccessorIT_Lm3ENS_16DefaultPtrTraitsET1_EES6_S6_NS2_IS3_Lm1ES4_S5_EES7_S7_S7_S7_NS2_IT0_Lm1ES4_S5_EES9_bS8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native26batch_norm_backward_kernelIddlEEvNS_20PackedTensorAccessorIT_Lm3ENS_16DefaultPtrTraitsET1_EES6_S6_NS2_IS3_Lm1ES4_S5_EES7_S7_S7_S7_NS2_IT0_Lm1ES4_S5_EES9_bS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 512 bytes smem, 672 bytes cmem[0], 28 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native33batch_norm_transform_input_kernelIddLb0ElEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES6_NS2_INSt11conditionalIXT1_ET0_S3_E4typeELm1ES4_S5_EENS2_INS7_IXT1_ES8_S3_E4typeELm1ES4_S5_EENS2_IS3_Lm1ES4_S5_EESF_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native33batch_norm_transform_input_kernelIddLb0ElEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES6_NS2_INSt11conditionalIXT1_ET0_S3_E4typeELm1ES4_S5_EENS2_INS7_IXT1_ES8_S3_E4typeELm1ES4_S5_EENS2_IS3_Lm1ES4_S5_EESF_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 536 bytes cmem[0], 28 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native33batch_norm_transform_input_kernelIN3c104HalfEfLb0EiEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES8_NS4_INSt11conditionalIXT1_ET0_S5_E4typeELm1ES6_S7_EENS4_INS9_IXT1_ESA_S5_E4typeELm1ES6_S7_EENS4_IS5_Lm1ES6_S7_EESH_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native33batch_norm_transform_input_kernelIN3c104HalfEfLb0EiEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES8_NS4_INSt11conditionalIXT1_ET0_S5_E4typeELm1ES6_S7_EENS4_INS9_IXT1_ESA_S5_E4typeELm1ES6_S7_EENS4_IS5_Lm1ES6_S7_EESH_SA_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 452 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native26batch_norm_backward_kernelIffiEEvNS_20PackedTensorAccessorIT_Lm3ENS_16DefaultPtrTraitsET1_EES6_S6_NS2_IS3_Lm1ES4_S5_EES7_S7_S7_S7_NS2_IT0_Lm1ES4_S5_EES9_bS8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native26batch_norm_backward_kernelIffiEEvNS_20PackedTensorAccessorIT_Lm3ENS_16DefaultPtrTraitsET1_EES6_S6_NS2_IS3_Lm1ES4_S5_EES7_S7_S7_S7_NS2_IT0_Lm1ES4_S5_EES9_bS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 256 bytes smem, 536 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native36batch_norm_collect_statistics_kernelIddlEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET1_EET0_S7_NS2_IS3_Lm1ES4_S5_EES8_NS2_IS7_Lm1ES4_S5_EES9_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native36batch_norm_collect_statistics_kernelIddlEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET1_EET0_S7_NS2_IS3_Lm1ES4_S5_EES8_NS2_IS7_Lm1ES4_S5_EES9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 35 registers, 640 bytes smem, 488 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native33batch_norm_transform_input_kernelIffLb1EiEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES6_NS2_INSt11conditionalIXT1_ET0_S3_E4typeELm1ES4_S5_EENS2_INS7_IXT1_ES8_S3_E4typeELm1ES4_S5_EENS2_IS3_Lm1ES4_S5_EESF_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native33batch_norm_transform_input_kernelIffLb1EiEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES6_NS2_INSt11conditionalIXT1_ET0_S3_E4typeELm1ES4_S5_EENS2_INS7_IXT1_ES8_S3_E4typeELm1ES4_S5_EENS2_IS3_Lm1ES4_S5_EESF_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 452 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native36batch_norm_collect_statistics_kernelIN3c104HalfEflEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET1_EET0_S9_NS4_IS5_Lm1ES6_S7_EESA_NS4_IS9_Lm1ES6_S7_EESB_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native36batch_norm_collect_statistics_kernelIN3c104HalfEflEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET1_EET0_S9_NS4_IS5_Lm1ES6_S7_EESA_NS4_IS9_Lm1ES6_S7_EESB_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 640 bytes smem, 480 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native33batch_norm_transform_input_kernelIddLb0EiEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES6_NS2_INSt11conditionalIXT1_ET0_S3_E4typeELm1ES4_S5_EENS2_INS7_IXT1_ES8_S3_E4typeELm1ES4_S5_EENS2_IS3_Lm1ES4_S5_EESF_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native33batch_norm_transform_input_kernelIddLb0EiEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES6_NS2_INSt11conditionalIXT1_ET0_S3_E4typeELm1ES4_S5_EENS2_INS7_IXT1_ES8_S3_E4typeELm1ES4_S5_EENS2_IS3_Lm1ES4_S5_EESF_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 456 bytes cmem[0], 28 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native33batch_norm_transform_input_kernelIN3c104HalfEfLb1EiEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES8_NS4_INSt11conditionalIXT1_ET0_S5_E4typeELm1ES6_S7_EENS4_INS9_IXT1_ESA_S5_E4typeELm1ES6_S7_EENS4_IS5_Lm1ES6_S7_EESH_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native33batch_norm_transform_input_kernelIN3c104HalfEfLb1EiEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES8_NS4_INSt11conditionalIXT1_ET0_S5_E4typeELm1ES6_S7_EENS4_INS9_IXT1_ESA_S5_E4typeELm1ES6_S7_EENS4_IS5_Lm1ES6_S7_EESH_SA_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 452 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native26batch_norm_backward_kernelIN3c104HalfEfiEEvNS_20PackedTensorAccessorIT_Lm3ENS_16DefaultPtrTraitsET1_EES8_S8_NS4_IS5_Lm1ES6_S7_EES9_S9_S9_S9_NS4_IT0_Lm1ES6_S7_EESB_bSA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native26batch_norm_backward_kernelIN3c104HalfEfiEEvNS_20PackedTensorAccessorIT_Lm3ENS_16DefaultPtrTraitsET1_EES8_S8_NS4_IS5_Lm1ES6_S7_EES9_S9_S9_S9_NS4_IT0_Lm1ES6_S7_EESB_bSA_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 256 bytes smem, 536 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native33batch_norm_transform_input_kernelIffLb0EiEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES6_NS2_INSt11conditionalIXT1_ET0_S3_E4typeELm1ES4_S5_EENS2_INS7_IXT1_ES8_S3_E4typeELm1ES4_S5_EENS2_IS3_Lm1ES4_S5_EESF_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native33batch_norm_transform_input_kernelIffLb0EiEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES6_NS2_INSt11conditionalIXT1_ET0_S3_E4typeELm1ES4_S5_EENS2_INS7_IXT1_ES8_S3_E4typeELm1ES4_S5_EENS2_IS3_Lm1ES4_S5_EESF_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 452 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native36batch_norm_collect_statistics_kernelIfflEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET1_EET0_S7_NS2_IS3_Lm1ES4_S5_EES8_NS2_IS7_Lm1ES4_S5_EES9_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native36batch_norm_collect_statistics_kernelIfflEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET1_EET0_S7_NS2_IS3_Lm1ES4_S5_EES8_NS2_IS7_Lm1ES4_S5_EES9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 640 bytes smem, 480 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native26batch_norm_backward_kernelIddiEEvNS_20PackedTensorAccessorIT_Lm3ENS_16DefaultPtrTraitsET1_EES6_S6_NS2_IS3_Lm1ES4_S5_EES7_S7_S7_S7_NS2_IT0_Lm1ES4_S5_EES9_bS8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native26batch_norm_backward_kernelIddiEEvNS_20PackedTensorAccessorIT_Lm3ENS_16DefaultPtrTraitsET1_EES6_S6_NS2_IS3_Lm1ES4_S5_EES7_S7_S7_S7_NS2_IT0_Lm1ES4_S5_EES9_bS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 512 bytes smem, 544 bytes cmem[0], 28 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native33batch_norm_transform_input_kernelIddLb1EiEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES6_NS2_INSt11conditionalIXT1_ET0_S3_E4typeELm1ES4_S5_EENS2_INS7_IXT1_ES8_S3_E4typeELm1ES4_S5_EENS2_IS3_Lm1ES4_S5_EESF_S8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native33batch_norm_transform_input_kernelIddLb1EiEEvNS_20PackedTensorAccessorIT_Lm3ENS_17RestrictPtrTraitsET2_EES6_NS2_INSt11conditionalIXT1_ET0_S3_E4typeELm1ES4_S5_EENS2_INS7_IXT1_ES8_S3_E4typeELm1ES4_S5_EENS2_IS3_Lm1ES4_S5_EESF_S8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 456 bytes cmem[0]

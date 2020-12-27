@@ -1,0 +1,337 @@
+ptxas info    : 768 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIbfEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIbfEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIttEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIttEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIhlEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIhlEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIlhEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIlhEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIfaEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIfaEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIbdEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIbdEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIsaEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIsaEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIasEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIasEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIdbEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIdbEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIiiEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIiiEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIbaEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIbaEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIsfEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIsfEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIabEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIabEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIllEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIllEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIfdEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIfdEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelItiEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelItiEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIdsEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIdsEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIitEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIitEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIhhEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIhhEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIsdEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIsdEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIfN3c104HalfEEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIfN3c104HalfEEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIbbEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIbbEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelItlEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelItlEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIafEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIafEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIltEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIltEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIfsEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIfsEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIhiEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIhiEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIssEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIssEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIadEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIadEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIdaEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIdaEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIihEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIihEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIbsEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIbsEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIsbEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIsbEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIaaEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIaaEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIdfEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIdfEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIN3c104HalfES2_EEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIN3c104HalfES2_EEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIthEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIthEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIddEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIddEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIilEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIilEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIhtEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIhtEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIliEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIliEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIfbEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIfbEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIidEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIidEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelItaEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelItaEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIhsEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIhsEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIlbEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIlbEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIfhEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIfhEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIblEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIblEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIshEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIshEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIatEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIatEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIdiEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIdiEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIifEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIifEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIbhEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIbhEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelItdEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelItdEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIaiEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIaiEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIlsEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIlsEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIflEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIflEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelItfEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelItfEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIdtEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIdtEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIiaEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIiaEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIhbEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIhbEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIslEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIslEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIffEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIffEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIbiEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIbiEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelItsEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelItsEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIhdEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIhdEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIlaEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIlaEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIftEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIftEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIhfEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIhfEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIstEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIstEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIalEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIalEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIdhEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIdhEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIibEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIibEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIbtEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIbtEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIsiEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIsiEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIahEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIahEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIldEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIldEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIN3c104HalfEfEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIN3c104HalfEfEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelItbEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelItbEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIdlEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIdlEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIisEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIisEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIhaEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIhaEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIlfEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIlfEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210CastKernelIfiEEviPKT0_PT_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210CastKernelIfiEEviPKT0_PT_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]

@@ -1,0 +1,17 @@
+ptxas info    : 904 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe225BatchGatherGradientKernelIlfEEvPKT0_PS1_PKT_iiiiiib
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 369 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe213gather_helper17BatchGatherKernelIlfEEvPKT0_PS2_PKT_iiiiiib
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 369 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe225BatchGatherGradientKernelIifEEvPKT0_PS1_PKT_iiiiiib
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 369 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe213gather_helper17BatchGatherKernelIifEEvPKT0_PS2_PKT_iiiiiib
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 369 bytes cmem[0]

@@ -1,0 +1,37 @@
+ptxas info    : 161 bytes gmem
+ptxas info    : Compiling entry function '_Z24adaptiveaveragegradinputIfEvPT_S1_iiii' for 'sm_61'
+ptxas info    : Function properties for _Z24adaptiveaveragegradinputIfEvPT_S1_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 35 registers, 352 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z30atomicadaptiveaveragegradinputIN3c104HalfEEvPT_S3_iiii' for 'sm_61'
+ptxas info    : Function properties for _Z30atomicadaptiveaveragegradinputIN3c104HalfEEvPT_S3_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 352 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z30atomicadaptiveaveragegradinputIdEvPT_S1_iiii' for 'sm_61'
+ptxas info    : Function properties for _Z30atomicadaptiveaveragegradinputIdEvPT_S1_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 352 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19adaptiveaveragepoolIfEvPT_S1_iiiilll' for 'sm_61'
+ptxas info    : Function properties for _Z19adaptiveaveragepoolIfEvPT_S1_iiiilll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 376 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19adaptiveaveragepoolIdEvPT_S1_iiiilll' for 'sm_61'
+ptxas info    : Function properties for _Z19adaptiveaveragepoolIdEvPT_S1_iiiilll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 376 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z24adaptiveaveragegradinputIN3c104HalfEEvPT_S3_iiii' for 'sm_61'
+ptxas info    : Function properties for _Z24adaptiveaveragegradinputIN3c104HalfEEvPT_S3_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 34 registers, 352 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z30atomicadaptiveaveragegradinputIfEvPT_S1_iiii' for 'sm_61'
+ptxas info    : Function properties for _Z30atomicadaptiveaveragegradinputIfEvPT_S1_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 352 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z19adaptiveaveragepoolIN3c104HalfEEvPT_S3_iiiilll' for 'sm_61'
+ptxas info    : Function properties for _Z19adaptiveaveragepoolIN3c104HalfEEvPT_S3_iiiilll
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 376 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z24adaptiveaveragegradinputIdEvPT_S1_iiii' for 'sm_61'
+ptxas info    : Function properties for _Z24adaptiveaveragegradinputIdEvPT_S1_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 44 registers, 352 bytes cmem[0], 44 bytes cmem[2]

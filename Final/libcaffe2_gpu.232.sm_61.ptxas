@@ -1,0 +1,9 @@
+ptxas info    : 768 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe219SparseToDenseKernelIiiEEvmlPKT_PKT0_PS4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe219SparseToDenseKernelIiiEEvmlPKT_PKT0_PS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe219SparseToDenseKernelIifEEvmlPKT_PKT0_PS4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe219SparseToDenseKernelIifEEvmlPKT_PKT0_PS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 360 bytes cmem[0]

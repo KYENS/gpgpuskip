@@ -1,0 +1,33 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z28fermiPlusDgemmLDS128_batchedILb0ELb1ELi4ELi4ELi4ELi3ELi3ELb1ELb1EEvPPdS1_S1_S0_PKdS3_iiiiiixxxS3_S3_ddi' for 'sm_50'
+ptxas info    : Function properties for _Z28fermiPlusDgemmLDS128_batchedILb0ELb1ELi4ELi4ELi4ELi3ELi3ELb1ELb1EEvPPdS1_S1_S0_PKdS3_iiiiiixxxS3_S3_ddi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 4608 bytes smem, 452 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z28fermiPlusDgemmLDS128_batchedILb0ELb1ELi4ELi4ELi4ELi3ELi3ELb1ELb0EEvPPdS1_S1_S0_PKdS3_iiiiiixxxS3_S3_ddi' for 'sm_50'
+ptxas info    : Function properties for _Z28fermiPlusDgemmLDS128_batchedILb0ELb1ELi4ELi4ELi4ELi3ELi3ELb1ELb0EEvPPdS1_S1_S0_PKdS3_iiiiiixxxS3_S3_ddi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 54 registers, 4608 bytes smem, 452 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z28fermiPlusDgemmLDS128_batchedILb1ELb1ELi4ELi4ELi4ELi3ELi3ELb1ELb1EEvPPdS1_S1_S0_PKdS3_iiiiiixxxS3_S3_ddi' for 'sm_50'
+ptxas info    : Function properties for _Z28fermiPlusDgemmLDS128_batchedILb1ELb1ELi4ELi4ELi4ELi3ELi3ELb1ELb1EEvPPdS1_S1_S0_PKdS3_iiiiiixxxS3_S3_ddi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 92 registers, 4608 bytes smem, 452 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z28fermiPlusDgemmLDS128_batchedILb1ELb1ELi4ELi4ELi4ELi3ELi3ELb1ELb0EEvPPdS1_S1_S0_PKdS3_iiiiiixxxS3_S3_ddi' for 'sm_50'
+ptxas info    : Function properties for _Z28fermiPlusDgemmLDS128_batchedILb1ELb1ELi4ELi4ELi4ELi3ELi3ELb1ELb0EEvPPdS1_S1_S0_PKdS3_iiiiiixxxS3_S3_ddi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 62 registers, 4608 bytes smem, 452 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z28fermiPlusDgemmLDS128_batchedILb0ELb0ELi4ELi4ELi4ELi3ELi3ELb1ELb1EEvPPdS1_S1_S0_PKdS3_iiiiiixxxS3_S3_ddi' for 'sm_50'
+ptxas info    : Function properties for _Z28fermiPlusDgemmLDS128_batchedILb0ELb0ELi4ELi4ELi4ELi3ELi3ELb1ELb1EEvPPdS1_S1_S0_PKdS3_iiiiiixxxS3_S3_ddi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 4608 bytes smem, 452 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z28fermiPlusDgemmLDS128_batchedILb0ELb0ELi4ELi4ELi4ELi3ELi3ELb1ELb0EEvPPdS1_S1_S0_PKdS3_iiiiiixxxS3_S3_ddi' for 'sm_50'
+ptxas info    : Function properties for _Z28fermiPlusDgemmLDS128_batchedILb0ELb0ELi4ELi4ELi4ELi3ELi3ELb1ELb0EEvPPdS1_S1_S0_PKdS3_iiiiiixxxS3_S3_ddi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 60 registers, 4608 bytes smem, 452 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z28fermiPlusDgemmLDS128_batchedILb1ELb0ELi4ELi4ELi4ELi3ELi3ELb1ELb1EEvPPdS1_S1_S0_PKdS3_iiiiiixxxS3_S3_ddi' for 'sm_50'
+ptxas info    : Function properties for _Z28fermiPlusDgemmLDS128_batchedILb1ELb0ELi4ELi4ELi4ELi3ELi3ELb1ELb1EEvPPdS1_S1_S0_PKdS3_iiiiiixxxS3_S3_ddi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 108 registers, 4608 bytes smem, 452 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z28fermiPlusDgemmLDS128_batchedILb1ELb0ELi4ELi4ELi4ELi3ELi3ELb1ELb0EEvPPdS1_S1_S0_PKdS3_iiiiiixxxS3_S3_ddi' for 'sm_50'
+ptxas info    : Function properties for _Z28fermiPlusDgemmLDS128_batchedILb1ELb0ELi4ELi4ELi4ELi3ELi3ELb1ELb0EEvPPdS1_S1_S0_PKdS3_iiiiiixxxS3_S3_ddi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 64 registers, 4608 bytes smem, 452 bytes cmem[0]

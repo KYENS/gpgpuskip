@@ -1,0 +1,5 @@
+ptxas info    : 768 bytes gmem, 24 bytes cmem[3]
+ptxas info    : Compiling entry function '_ZN6caffe279_GLOBAL__N__55_tmpxft_00006aa5_00000000_7_roi_align_rotated_op_cpp1_ii_3f2b956e22RoIAlignRotatedForwardIfEEviPKT_S2_iiiiiiS4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe279_GLOBAL__N__55_tmpxft_00006aa5_00000000_7_roi_align_rotated_op_cpp1_ii_3f2b956e22RoIAlignRotatedForwardIfEEviPKT_S2_iiiiiiS4_PS2_
+    32 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 51 registers, 384 bytes cmem[0], 84 bytes cmem[2]

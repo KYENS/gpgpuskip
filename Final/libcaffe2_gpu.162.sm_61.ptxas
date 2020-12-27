@@ -1,0 +1,49 @@
+ptxas info    : 521 bytes gmem
+ptxas info    : Compiling entry function '_ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b22grid_sampler_3d_kernelIN3c104HalfEEEviNS_4cuda6detail10TensorInfoIT_iEES9_S9_NS0_6detail24GridSamplerInterpolationENSA_18GridSamplerPaddingE' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b22grid_sampler_3d_kernelIN3c104HalfEEEviNS_4cuda6detail10TensorInfoIT_iEES9_S9_NS0_6detail24GridSamplerInterpolationENSA_18GridSamplerPaddingE
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 984 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b22grid_sampler_2d_kernelIfEEviNS_4cuda6detail10TensorInfoIT_iEES7_S7_NS0_6detail24GridSamplerInterpolationENS8_18GridSamplerPaddingE' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b22grid_sampler_2d_kernelIfEEviNS_4cuda6detail10TensorInfoIT_iEES7_S7_NS0_6detail24GridSamplerInterpolationENS8_18GridSamplerPaddingE
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 984 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b31grid_sampler_3d_backward_kernelIdEEviNS_4cuda6detail10TensorInfoIT_iEES7_S7_S7_S7_NS0_6detail24GridSamplerInterpolationENS8_18GridSamplerPaddingE' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b31grid_sampler_3d_backward_kernelIdEEviNS_4cuda6detail10TensorInfoIT_iEES7_S7_S7_S7_NS0_6detail24GridSamplerInterpolationENS8_18GridSamplerPaddingE
+    96 bytes stack frame, 120 bytes spill stores, 72 bytes spill loads
+ptxas info    : Used 64 registers, 1416 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b31grid_sampler_2d_backward_kernelIfEEviNS_4cuda6detail10TensorInfoIT_iEES7_S7_S7_S7_NS0_6detail24GridSamplerInterpolationENS8_18GridSamplerPaddingE' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b31grid_sampler_2d_backward_kernelIfEEviNS_4cuda6detail10TensorInfoIT_iEES7_S7_S7_S7_NS0_6detail24GridSamplerInterpolationENS8_18GridSamplerPaddingE
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 50 registers, 1416 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b22grid_sampler_3d_kernelIdEEviNS_4cuda6detail10TensorInfoIT_iEES7_S7_NS0_6detail24GridSamplerInterpolationENS8_18GridSamplerPaddingE' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b22grid_sampler_3d_kernelIdEEviNS_4cuda6detail10TensorInfoIT_iEES7_S7_NS0_6detail24GridSamplerInterpolationENS8_18GridSamplerPaddingE
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 984 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b31grid_sampler_3d_backward_kernelIN3c104HalfEEEviNS_4cuda6detail10TensorInfoIT_iEES9_S9_S9_S9_NS0_6detail24GridSamplerInterpolationENSA_18GridSamplerPaddingE' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b31grid_sampler_3d_backward_kernelIN3c104HalfEEEviNS_4cuda6detail10TensorInfoIT_iEES9_S9_S9_S9_NS0_6detail24GridSamplerInterpolationENSA_18GridSamplerPaddingE
+    80 bytes stack frame, 108 bytes spill stores, 68 bytes spill loads
+ptxas info    : Used 64 registers, 1416 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b22grid_sampler_3d_kernelIfEEviNS_4cuda6detail10TensorInfoIT_iEES7_S7_NS0_6detail24GridSamplerInterpolationENS8_18GridSamplerPaddingE' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b22grid_sampler_3d_kernelIfEEviNS_4cuda6detail10TensorInfoIT_iEES7_S7_NS0_6detail24GridSamplerInterpolationENS8_18GridSamplerPaddingE
+    8 bytes stack frame, 4 bytes spill stores, 4 bytes spill loads
+ptxas info    : Used 32 registers, 984 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b22grid_sampler_2d_kernelIdEEviNS_4cuda6detail10TensorInfoIT_iEES7_S7_NS0_6detail24GridSamplerInterpolationENS8_18GridSamplerPaddingE' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b22grid_sampler_2d_kernelIdEEviNS_4cuda6detail10TensorInfoIT_iEES7_S7_NS0_6detail24GridSamplerInterpolationENS8_18GridSamplerPaddingE
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 984 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b31grid_sampler_2d_backward_kernelIN3c104HalfEEEviNS_4cuda6detail10TensorInfoIT_iEES9_S9_S9_S9_NS0_6detail24GridSamplerInterpolationENSA_18GridSamplerPaddingE' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b31grid_sampler_2d_backward_kernelIN3c104HalfEEEviNS_4cuda6detail10TensorInfoIT_iEES9_S9_S9_S9_NS0_6detail24GridSamplerInterpolationENSA_18GridSamplerPaddingE
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 1416 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b31grid_sampler_2d_backward_kernelIdEEviNS_4cuda6detail10TensorInfoIT_iEES7_S7_S7_S7_NS0_6detail24GridSamplerInterpolationENS8_18GridSamplerPaddingE' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b31grid_sampler_2d_backward_kernelIdEEviNS_4cuda6detail10TensorInfoIT_iEES7_S7_S7_S7_NS0_6detail24GridSamplerInterpolationENS8_18GridSamplerPaddingE
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 64 registers, 1416 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b22grid_sampler_2d_kernelIN3c104HalfEEEviNS_4cuda6detail10TensorInfoIT_iEES9_S9_NS0_6detail24GridSamplerInterpolationENSA_18GridSamplerPaddingE' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b22grid_sampler_2d_kernelIN3c104HalfEEEviNS_4cuda6detail10TensorInfoIT_iEES9_S9_NS0_6detail24GridSamplerInterpolationENSA_18GridSamplerPaddingE
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 984 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b31grid_sampler_3d_backward_kernelIfEEviNS_4cuda6detail10TensorInfoIT_iEES7_S7_S7_S7_NS0_6detail24GridSamplerInterpolationENS8_18GridSamplerPaddingE' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native70_GLOBAL__N__46_tmpxft_00005715_00000000_7_GridSampler_cpp1_ii_4cb0001b31grid_sampler_3d_backward_kernelIfEEviNS_4cuda6detail10TensorInfoIT_iEES7_S7_S7_S7_NS0_6detail24GridSamplerInterpolationENS8_18GridSamplerPaddingE
+    24 bytes stack frame, 4 bytes spill stores, 4 bytes spill loads
+ptxas info    : Used 64 registers, 1416 bytes cmem[0], 16 bytes cmem[2]

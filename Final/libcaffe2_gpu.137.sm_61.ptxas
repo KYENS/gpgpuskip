@@ -1,0 +1,25 @@
+ptxas info    : 521 bytes gmem
+ptxas info    : Compiling entry function '_Z43cuda_VolumetricMaxUnpooling_updateGradInputIfEvPT_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z43cuda_VolumetricMaxUnpooling_updateGradInputIfEvPT_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 452 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z43cuda_VolumetricMaxUnpooling_updateGradInputIdEvPT_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z43cuda_VolumetricMaxUnpooling_updateGradInputIdEvPT_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 452 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z43cuda_VolumetricMaxUnpooling_updateGradInputIN3c104HalfEEvPT_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES4_IS2_Li4EiS5_Eiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z43cuda_VolumetricMaxUnpooling_updateGradInputIN3c104HalfEEvPT_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES4_IS2_Li4EiS5_Eiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 452 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z40cuda_VolumetricMaxUnpooling_updateOutputIfEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES0_IlLi4EiS2_EPS1_iiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z40cuda_VolumetricMaxUnpooling_updateOutputIfEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES0_IlLi4EiS2_EPS1_iiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 448 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z40cuda_VolumetricMaxUnpooling_updateOutputIdEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES0_IlLi4EiS2_EPS1_iiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z40cuda_VolumetricMaxUnpooling_updateOutputIdEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES0_IlLi4EiS2_EPS1_iiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 448 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z40cuda_VolumetricMaxUnpooling_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES2_IlLi4EiS4_EPS3_iiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z40cuda_VolumetricMaxUnpooling_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES2_IlLi4EiS4_EPS3_iiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 448 bytes cmem[0]

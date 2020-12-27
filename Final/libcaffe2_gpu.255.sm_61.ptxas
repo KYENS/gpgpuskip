@@ -1,0 +1,21 @@
+ptxas info    : 649 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe211PowOpKernelILi1EfffEEvPKT0_PKT1_S4_PT2_i' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe211PowOpKernelILi1EfffEEvPKT0_PKT1_S4_PT2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 356 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe218PowBroadcastKernelIfffEEvPKT_PKT0_PT1_ii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe218PowBroadcastKernelIfffEEvPKT_PKT0_PT1_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 352 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe211PowOpKernelILi0EfffEEvPKT0_PKT1_S4_PT2_i' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe211PowOpKernelILi0EfffEEvPKT0_PKT1_S4_PT2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 356 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe219PowBroadcast2KernelIfffEEvPKT_PKT0_PT1_iii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe219PowBroadcast2KernelIfffEEvPKT_PKT0_PT1_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 356 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN3cub11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]

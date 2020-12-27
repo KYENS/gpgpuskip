@@ -1,0 +1,57 @@
+ptxas info    : 161 bytes gmem
+ptxas info    : Compiling entry function '_Z12updateOutputIdLb1EEvPT_S1_PKS0_PKlS5_llS1_S3_llii' for 'sm_61'
+ptxas info    : Function properties for _Z12updateOutputIdLb1EEvPT_S1_PKS0_PKlS5_llS1_S3_llii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 35 registers, 4096 bytes smem, 416 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z13accGradWeightIfEvPT_PKS0_S3_PKlllS0_S0_i' for 'sm_61'
+ptxas info    : Function properties for _Z13accGradWeightIfEvPT_PKS0_S3_PKlllS0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1024 bytes smem, 380 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z11accGradBiasIdLb1EEvPT_PKS0_llS0_S0_' for 'sm_61'
+ptxas info    : Function properties for _Z11accGradBiasIdLb1EEvPT_PKS0_llS0_S0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 2048 bytes smem, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15accUpdateWeightIfEvPT_lPKS0_lS3_PKlS5_lS0_S0_il' for 'sm_61'
+ptxas info    : Function properties for _Z15accUpdateWeightIfEvPT_lPKS0_lS3_PKlS5_lS0_S0_il
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12updateWeightIdEvPT_PKS0_PKlS5_llllS0_S0_il' for 'sm_61'
+ptxas info    : Function properties for _Z12updateWeightIdEvPT_PKS0_PKlS5_llllS0_S0_il
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12updateOutputIfLb0EEvPT_S1_PKS0_PKlS5_llS1_S3_llii' for 'sm_61'
+ptxas info    : Function properties for _Z12updateOutputIfLb0EEvPT_S1_PKS0_PKlS5_llS1_S3_llii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 3072 bytes smem, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z11accGradBiasIdLb0EEvPT_PKS0_llS0_S0_' for 'sm_61'
+ptxas info    : Function properties for _Z11accGradBiasIdLb0EEvPT_PKS0_llS0_S0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 2048 bytes smem, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12updateWeightIfEvPT_PKS0_PKlS5_llllS0_S0_il' for 'sm_61'
+ptxas info    : Function properties for _Z12updateWeightIfEvPT_PKS0_PKlS5_llllS0_S0_il
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z11accGradBiasIfLb0EEvPT_PKS0_llS0_S0_' for 'sm_61'
+ptxas info    : Function properties for _Z11accGradBiasIfLb0EEvPT_PKS0_llS0_S0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 1024 bytes smem, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z13accGradWeightIdEvPT_PKS0_S3_PKlllS0_S0_i' for 'sm_61'
+ptxas info    : Function properties for _Z13accGradWeightIdEvPT_PKS0_S3_PKlllS0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 2048 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z11accGradBiasIfLb1EEvPT_PKS0_llS0_S0_' for 'sm_61'
+ptxas info    : Function properties for _Z11accGradBiasIfLb1EEvPT_PKS0_llS0_S0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 1024 bytes smem, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15accUpdateWeightIdEvPT_lPKS0_lS3_PKlS5_lS0_S0_il' for 'sm_61'
+ptxas info    : Function properties for _Z15accUpdateWeightIdEvPT_lPKS0_lS3_PKlS5_lS0_S0_il
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12updateOutputIfLb1EEvPT_S1_PKS0_PKlS5_llS1_S3_llii' for 'sm_61'
+ptxas info    : Function properties for _Z12updateOutputIfLb1EEvPT_S1_PKS0_PKlS5_llS1_S3_llii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 3072 bytes smem, 416 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z12updateOutputIdLb0EEvPT_S1_PKS0_PKlS5_llS1_S3_llii' for 'sm_61'
+ptxas info    : Function properties for _Z12updateOutputIdLb0EEvPT_S1_PKS0_PKlS5_llS1_S3_llii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 4096 bytes smem, 416 bytes cmem[0]

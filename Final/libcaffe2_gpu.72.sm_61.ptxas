@@ -1,0 +1,73 @@
+ptxas info    : 3900 bytes gmem
+ptxas info    : Compiling entry function '_Z43cunn_ClassNLLCriterion_updateOutput_kernel1IfEvPT_S1_S1_PlS1_iil' for 'sm_61'
+ptxas info    : Function properties for _Z43cunn_ClassNLLCriterion_updateOutput_kernel1IfEvPT_S1_S1_PlS1_iil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 376 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50ClassNLLCriterion_updateGradInput_no_reduce_kernelIdEvi15THCDeviceTensorIlLi1Ei16DefaultPtrTraitsES0_IT_Li1EiS1_ES0_IS3_Li2EiS1_EPS3_ii' for 'sm_61'
+ptxas info    : Function properties for _Z50ClassNLLCriterion_updateGradInput_no_reduce_kernelIdEvi15THCDeviceTensorIlLi1Ei16DefaultPtrTraitsES0_IT_Li1EiS1_ES0_IS3_Li2EiS1_EPS3_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z50ClassNLLCriterion_updateGradInput_no_reduce_kernelIN3c104HalfEEvi15THCDeviceTensorIlLi1Ei16DefaultPtrTraitsES2_IT_Li1EiS3_ES2_IS5_Li2EiS3_EPS5_ii' for 'sm_61'
+ptxas info    : Function properties for _Z50ClassNLLCriterion_updateGradInput_no_reduce_kernelIN3c104HalfEEvi15THCDeviceTensorIlLi1Ei16DefaultPtrTraitsES2_IT_Li1EiS3_ES2_IS5_Li2EiS3_EPS5_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cunn_ClassNLLCriterion_updateGradInput_kernelIfEvPT_S1_PlS1_S1_iiiil' for 'sm_61'
+ptxas info    : Function properties for _Z45cunn_ClassNLLCriterion_updateGradInput_kernelIfEvPT_S1_PlS1_S1_iiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 384 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z45cunn_ClassNLLCriterion_updateGradInput_kernelIN3c104HalfEEvPT_S3_PlS3_S3_iiiil' for 'sm_61'
+ptxas info    : Function properties for _Z45cunn_ClassNLLCriterion_updateGradInput_kernelIN3c104HalfEEvPT_S3_PlS3_S3_iiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 384 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43cunn_ClassNLLCriterion_updateOutput_kernel1IdEvPT_S1_S1_PlS1_iil' for 'sm_61'
+ptxas info    : Function properties for _Z43cunn_ClassNLLCriterion_updateOutput_kernel1IdEvPT_S1_S1_PlS1_iil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 376 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50ClassNLLCriterion_updateGradInput_no_reduce_kernelIfEvi15THCDeviceTensorIlLi1Ei16DefaultPtrTraitsES0_IT_Li1EiS1_ES0_IS3_Li2EiS1_EPS3_ii' for 'sm_61'
+ptxas info    : Function properties for _Z50ClassNLLCriterion_updateGradInput_no_reduce_kernelIfEvi15THCDeviceTensorIlLi1Ei16DefaultPtrTraitsES0_IT_Li1EiS1_ES0_IS3_Li2EiS1_EPS3_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cunn_ClassNLLCriterion_updateGradInput_kernelIdEvPT_S1_PlS1_S1_iiiil' for 'sm_61'
+ptxas info    : Function properties for _Z45cunn_ClassNLLCriterion_updateGradInput_kernelIdEvPT_S1_PlS1_S1_iiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 384 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43cunn_ClassNLLCriterion_updateOutput_kernel1IN3c104HalfEEvPT_S3_S3_PlS3_iil' for 'sm_61'
+ptxas info    : Function properties for _Z43cunn_ClassNLLCriterion_updateOutput_kernel1IN3c104HalfEEvPT_S3_S3_PlS3_iil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 376 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z47ClassNLLCriterion_updateOutput_no_reduce_kernelIfEvi15THCDeviceTensorIT_Li2Ei16DefaultPtrTraitsES0_IlLi1EiS2_ES0_IS1_Li1EiS2_EPS1_ii' for 'sm_61'
+ptxas info    : Function properties for _Z47ClassNLLCriterion_updateOutput_no_reduce_kernelIfEvi15THCDeviceTensorIT_Li2Ei16DefaultPtrTraitsES0_IlLi1EiS2_ES0_IS1_Li1EiS2_EPS1_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42cunn_ClassNLLCriterion_updateOutput_kernelIddEvPT_S1_S1_PlS1_iiiil' for 'sm_61'
+ptxas info    : Function properties for _Z42cunn_ClassNLLCriterion_updateOutput_kernelIddEvPT_S1_S1_PlS1_iiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 512 bytes smem, 384 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z42cunn_ClassNLLCriterion_updateOutput_kernelIN3c104HalfEfEvPT_S3_S3_PlS3_iiiil' for 'sm_61'
+ptxas info    : Function properties for _Z42cunn_ClassNLLCriterion_updateOutput_kernelIN3c104HalfEfEvPT_S3_S3_PlS3_iiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 256 bytes smem, 384 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z46cunn_ClassNLLCriterion_updateGradInput_kernel1IfEvPT_S1_S1_PlS1_iil' for 'sm_61'
+ptxas info    : Function properties for _Z46cunn_ClassNLLCriterion_updateGradInput_kernel1IfEvPT_S1_S1_PlS1_iil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 376 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z46cunn_ClassNLLCriterion_updateGradInput_kernel1IN3c104HalfEEvPT_S3_S3_PlS3_iil' for 'sm_61'
+ptxas info    : Function properties for _Z46cunn_ClassNLLCriterion_updateGradInput_kernel1IN3c104HalfEEvPT_S3_S3_PlS3_iil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 376 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z47ClassNLLCriterion_updateOutput_no_reduce_kernelIdEvi15THCDeviceTensorIT_Li2Ei16DefaultPtrTraitsES0_IlLi1EiS2_ES0_IS1_Li1EiS2_EPS1_ii' for 'sm_61'
+ptxas info    : Function properties for _Z47ClassNLLCriterion_updateOutput_no_reduce_kernelIdEvi15THCDeviceTensorIT_Li2Ei16DefaultPtrTraitsES0_IlLi1EiS2_ES0_IS1_Li1EiS2_EPS1_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z42cunn_ClassNLLCriterion_updateOutput_kernelIffEvPT_S1_S1_PlS1_iiiil' for 'sm_61'
+ptxas info    : Function properties for _Z42cunn_ClassNLLCriterion_updateOutput_kernelIffEvPT_S1_S1_PlS1_iiiil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 256 bytes smem, 384 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z46cunn_ClassNLLCriterion_updateGradInput_kernel1IdEvPT_S1_S1_PlS1_iil' for 'sm_61'
+ptxas info    : Function properties for _Z46cunn_ClassNLLCriterion_updateGradInput_kernel1IdEvPT_S1_S1_PlS1_iil
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 376 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z47ClassNLLCriterion_updateOutput_no_reduce_kernelIN3c104HalfEEvi15THCDeviceTensorIT_Li2Ei16DefaultPtrTraitsES2_IlLi1EiS4_ES2_IS3_Li1EiS4_EPS3_ii' for 'sm_61'
+ptxas info    : Function properties for _Z47ClassNLLCriterion_updateOutput_no_reduce_kernelIN3c104HalfEEvi15THCDeviceTensorIT_Li2Ei16DefaultPtrTraitsES2_IlLi1EiS4_ES2_IS3_Li1EiS4_EPS3_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 400 bytes cmem[0]

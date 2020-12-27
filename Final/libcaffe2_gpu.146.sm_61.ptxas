@@ -1,0 +1,9 @@
+ptxas info    : 360 bytes gmem
+ptxas info    : Compiling entry function '_ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native28RoiPooling2d_backward_kernelIfEEviPKT_PKiiS2_iiiiiPS2_S4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native27RoiPooling2d_forward_kernelIfEEviPKT_S4_S2_iiiiiPS2_Pi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 384 bytes cmem[0], 24 bytes cmem[2]

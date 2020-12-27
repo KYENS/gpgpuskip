@@ -1,0 +1,185 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVSt9exception[40];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe215ResizeNearestOpIfNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe223ResizeNearestGradientOpIfNS_11CUDAContextEEE[136];
+
+.visible .entry _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf(
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_0,
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_1,
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_2,
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_3,
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_4,
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_5,
+.param .f32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_6,
+.param .f32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_7,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_8,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_9
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<12>;
+.reg .b32 %r<22>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u32 %r2, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_2];
+ld.param.u32 %r3, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_3];
+ld.param.u32 %r4, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_4];
+ld.param.u32 %r5, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_5];
+ld.param.f32 %f3, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_6];
+ld.param.f32 %f4, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_7];
+ld.param.u64 %rd8, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_8];
+ld.param.u64 %rd9, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_9];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r6, %ctaid.x;
+mov.u32 %r7, %tid.x;
+mad.lo.s32 %r8, %r1, %r6, %r7;
+cvt.u64.u32	%rd14, %r8;
+ld.param.s32 %rd2, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf_param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB0_3;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+add.s32 %r9, %r2, -1;
+cvt.rn.f32.s32	%f1, %r9;
+add.s32 %r10, %r3, -1;
+cvt.rn.f32.s32	%f2, %r10;
+mov.u32 %r11, %nctaid.x;
+mul.lo.s32 %r12, %r11, %r1;
+cvt.u64.u32	%rd5, %r12;
+
+BB0_2:
+cvt.u32.u64	%r13, %rd14;
+rem.s32 %r14, %r13, %r5;
+div.s32 %r15, %r13, %r5;
+rem.s32 %r16, %r15, %r4;
+div.s32 %r17, %r15, %r4;
+cvt.rn.f32.s32	%f5, %r16;
+div.rn.f32 %f6, %f5, %f3;
+min.f32 %f7, %f6, %f1;
+cvt.rzi.s32.f32	%r18, %f7;
+cvt.rn.f32.s32	%f8, %r14;
+div.rn.f32 %f9, %f8, %f4;
+min.f32 %f10, %f9, %f2;
+cvt.rzi.s32.f32	%r19, %f10;
+mad.lo.s32 %r20, %r17, %r2, %r18;
+mad.lo.s32 %r21, %r20, %r3, %r19;
+mul.wide.s32 %rd10, %r21, 4;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f32 %f11, [%rd11];
+shl.b64 %rd12, %rd14, 2;
+add.s64 %rd13, %rd3, %rd12;
+st.global.f32 [%rd13], %f11;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p2, %rd14, %rd2;
+@%p2 bra BB0_2;
+
+BB0_3:
+ret;
+}
+
+
+.visible .entry _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf(
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_0,
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_1,
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_2,
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_3,
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_4,
+.param .u32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_5,
+.param .f32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_6,
+.param .f32 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_7,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_8,
+.param .u64 _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_9
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<13>;
+.reg .b32 %r<22>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u32 %r2, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_2];
+ld.param.u32 %r3, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_3];
+ld.param.u32 %r4, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_4];
+ld.param.u32 %r5, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_5];
+ld.param.f32 %f3, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_6];
+ld.param.f32 %f4, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_7];
+ld.param.u64 %rd7, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_8];
+ld.param.u64 %rd8, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_9];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r6, %ctaid.x;
+mov.u32 %r7, %tid.x;
+mad.lo.s32 %r8, %r1, %r6, %r7;
+cvt.u64.u32	%rd13, %r8;
+ld.param.s32 %rd2, [_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf_param_0];
+setp.ge.u64	%p1, %rd13, %rd2;
+@%p1 bra BB1_3;
+
+cvta.to.global.u64 %rd3, %rd8;
+add.s32 %r9, %r4, -1;
+cvt.rn.f32.s32	%f1, %r9;
+add.s32 %r10, %r5, -1;
+cvt.rn.f32.s32	%f2, %r10;
+mov.u32 %r11, %nctaid.x;
+mul.lo.s32 %r12, %r11, %r1;
+cvt.u64.u32	%rd4, %r12;
+
+BB1_2:
+cvt.u32.u64	%r13, %rd13;
+rem.s32 %r14, %r13, %r3;
+div.s32 %r15, %r13, %r3;
+rem.s32 %r16, %r15, %r2;
+div.s32 %r17, %r15, %r2;
+cvt.rn.f32.s32	%f6, %r16;
+div.rn.f32 %f7, %f6, %f3;
+min.f32 %f8, %f7, %f1;
+cvt.rzi.s32.f32	%r18, %f8;
+cvt.rn.f32.s32	%f9, %r14;
+div.rn.f32 %f10, %f9, %f4;
+min.f32 %f11, %f10, %f2;
+cvt.rzi.s32.f32	%r19, %f11;
+mad.lo.s32 %r20, %r17, %r4, %r18;
+mad.lo.s32 %r21, %r20, %r5, %r19;
+mul.wide.s32 %rd10, %r21, 4;
+add.s64 %rd11, %rd3, %rd10;
+shl.b64 %rd12, %rd13, 2;
+add.s64 %rd9, %rd7, %rd12;
+
+	ld.global.nc.f32 %f5, [%rd9];
+
+	atom.global.add.f32 %f12, [%rd11], %f5;
+add.s64 %rd13, %rd4, %rd13;
+setp.lt.u64	%p2, %rd13, %rd2;
+@%p2 bra BB1_2;
+
+BB1_3:
+ret;
+}
+
+

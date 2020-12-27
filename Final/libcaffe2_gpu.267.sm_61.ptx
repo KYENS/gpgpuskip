@@ -1,0 +1,584 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe214BatchMomentsOpIfNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe222BatchMomentsGradientOpIfNS_11CUDAContextEEE[136];
+
+
+
+
+
+.visible .entry _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6_(
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6__param_0,
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6__param_1,
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6__param_2,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6__param_3,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6__param_4,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6__param_5
+)
+{
+.reg .pred %p<10>;
+.reg .f32 %f<71>;
+.reg .b32 %r<42>;
+.reg .b64 %rd<20>;
+
+	.shared .align 4 .b8 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6_$__cuda_local_var_196891_64_non_const_m_storage[24];
+
+	.shared .align 4 .b8 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6_$__cuda_local_var_196892_64_non_const_v_storage[24];
+
+ld.param.u32 %r12, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6__param_0];
+ld.param.u32 %r10, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6__param_1];
+ld.param.u32 %r11, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6__param_2];
+ld.param.u64 %rd3, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6__param_3];
+ld.param.u64 %rd4, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6__param_4];
+ld.param.u64 %rd5, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6__param_5];
+mul.lo.s32 %r1, %r11, %r12;
+mov.u32 %r40, %ctaid.x;
+setp.ge.s32	%p3, %r40, %r10;
+@%p3 bra BB0_15;
+
+mov.u32 %r3, %tid.x;
+shr.u32 %r13, %r3, 5;
+mul.wide.u32 %rd6, %r13, 4;
+mov.u64 %rd7, _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6_$__cuda_local_var_196891_64_non_const_m_storage;
+add.s64 %rd8, %rd7, %rd6;
+add.s64 %rd1, %rd8, 4;
+mov.u64 %rd9, _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6_$__cuda_local_var_196892_64_non_const_v_storage;
+add.s64 %rd10, %rd9, %rd6;
+add.s64 %rd2, %rd10, 4;
+cvt.rn.f32.s32	%f1, %r1;
+mov.u32 %r4, %ntid.x;
+
+	mov.u32 %r18, %laneid;
+
+	cvta.to.global.u64 %rd15, %rd4;
+cvta.to.global.u64 %rd18, %rd5;
+
+BB0_2:
+mov.f32 %f67, 0f00000000;
+mov.f32 %f64, %f67;
+mov.f32 %f68, %f67;
+mov.f32 %f65, %f67;
+setp.ge.s32	%p4, %r3, %r1;
+mov.u32 %r41, %r3;
+@%p4 bra BB0_4;
+
+BB0_3:
+mov.u32 %r6, %r41;
+div.s32 %r14, %r6, %r11;
+mad.lo.s32 %r15, %r14, %r10, %r40;
+rem.s32 %r16, %r6, %r11;
+mad.lo.s32 %r17, %r15, %r11, %r16;
+mul.wide.s32 %rd14, %r17, 4;
+add.s64 %rd13, %rd3, %rd14;
+
+	ld.global.nc.f32 %f18, [%rd13];
+
+	add.f32 %f68, %f68, %f18;
+
+	ld.global.nc.f32 %f19, [%rd13];
+
+	
+	ld.global.nc.f32 %f20, [%rd13];
+
+	fma.rn.f32 %f65, %f19, %f20, %f65;
+add.s32 %r7, %r4, %r6;
+setp.lt.s32	%p5, %r7, %r1;
+mov.u32 %r41, %r7;
+mov.f32 %f64, %f65;
+mov.f32 %f67, %f68;
+@%p5 bra BB0_3;
+
+BB0_4:
+mov.u32 %r19, 1;
+mov.u32 %r28, 31;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f67, %r19, %r28; @p add.f32 r0, r0, %f67; mov.f32 %f21, r0;}
+
+	mov.u32 %r21, 2;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f21, %r21, %r28; @p add.f32 r0, r0, %f21; mov.f32 %f24, r0;}
+
+	mov.u32 %r23, 4;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f24, %r23, %r28; @p add.f32 r0, r0, %f24; mov.f32 %f27, r0;}
+
+	mov.u32 %r25, 8;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f27, %r25, %r28; @p add.f32 r0, r0, %f27; mov.f32 %f30, r0;}
+
+	mov.u32 %r27, 16;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f30, %r27, %r28; @p add.f32 r0, r0, %f30; mov.f32 %f69, r0;}
+
+	setp.ne.s32	%p6, %r18, 0;
+@%p6 bra BB0_6;
+
+st.shared.f32 [%rd1], %f69;
+
+BB0_6:
+setp.eq.s32	%p1, %r3, 0;
+bar.sync 0;
+@!%p1 bra BB0_8;
+bra.uni BB0_7;
+
+BB0_7:
+ld.shared.f32 %f36, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6_$__cuda_local_var_196891_64_non_const_m_storage+8];
+add.f32 %f37, %f69, %f36;
+ld.shared.f32 %f38, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6_$__cuda_local_var_196891_64_non_const_m_storage+12];
+add.f32 %f39, %f38, %f37;
+ld.shared.f32 %f40, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6_$__cuda_local_var_196891_64_non_const_m_storage+16];
+add.f32 %f69, %f40, %f39;
+
+BB0_8:
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f64, %r19, %r28; @p add.f32 r0, r0, %f64; mov.f32 %f41, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f41, %r21, %r28; @p add.f32 r0, r0, %f41; mov.f32 %f44, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f44, %r23, %r28; @p add.f32 r0, r0, %f44; mov.f32 %f47, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f47, %r25, %r28; @p add.f32 r0, r0, %f47; mov.f32 %f50, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f50, %r27, %r28; @p add.f32 r0, r0, %f50; mov.f32 %f70, r0;}
+
+	@%p6 bra BB0_10;
+
+st.shared.f32 [%rd2], %f70;
+
+BB0_10:
+bar.sync 0;
+@!%p1 bra BB0_12;
+bra.uni BB0_11;
+
+BB0_11:
+ld.shared.f32 %f56, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6_$__cuda_local_var_196892_64_non_const_v_storage+8];
+add.f32 %f57, %f70, %f56;
+ld.shared.f32 %f58, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6_$__cuda_local_var_196892_64_non_const_v_storage+12];
+add.f32 %f59, %f58, %f57;
+ld.shared.f32 %f60, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_PS3_S6_$__cuda_local_var_196892_64_non_const_v_storage+16];
+add.f32 %f70, %f60, %f59;
+
+BB0_12:
+setp.ne.s32	%p8, %r3, 0;
+@%p8 bra BB0_14;
+
+div.rn.f32 %f61, %f69, %f1;
+mul.wide.s32 %rd16, %r40, 4;
+add.s64 %rd17, %rd15, %rd16;
+st.global.f32 [%rd17], %f61;
+add.s64 %rd19, %rd18, %rd16;
+div.rn.f32 %f62, %f70, %f1;
+st.global.f32 [%rd19], %f62;
+
+BB0_14:
+bar.sync 0;
+mov.u32 %r39, %nctaid.x;
+add.s32 %r40, %r39, %r40;
+setp.lt.s32	%p9, %r40, %r10;
+@%p9 bra BB0_2;
+
+BB0_15:
+ret;
+}
+
+
+.visible .entry _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6_(
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6__param_0,
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6__param_1,
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6__param_2,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6__param_3,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6__param_4,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6__param_5
+)
+{
+.reg .pred %p<10>;
+.reg .f32 %f<71>;
+.reg .b32 %r<39>;
+.reg .b64 %rd<20>;
+
+	.shared .align 4 .b8 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6_$__cuda_local_var_196891_64_non_const_m_storage[24];
+
+	.shared .align 4 .b8 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6_$__cuda_local_var_196892_64_non_const_v_storage[24];
+
+ld.param.u32 %r11, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6__param_0];
+ld.param.u32 %r10, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6__param_1];
+ld.param.u32 %r12, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6__param_2];
+ld.param.u64 %rd3, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6__param_3];
+ld.param.u64 %rd4, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6__param_4];
+ld.param.u64 %rd5, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6__param_5];
+mul.lo.s32 %r1, %r12, %r11;
+mov.u32 %r37, %ctaid.x;
+setp.ge.s32	%p3, %r37, %r10;
+@%p3 bra BB1_15;
+
+mov.u32 %r3, %tid.x;
+shr.u32 %r13, %r3, 5;
+mul.wide.u32 %rd6, %r13, 4;
+mov.u64 %rd7, _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6_$__cuda_local_var_196891_64_non_const_m_storage;
+add.s64 %rd8, %rd7, %rd6;
+add.s64 %rd1, %rd8, 4;
+mov.u64 %rd9, _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6_$__cuda_local_var_196892_64_non_const_v_storage;
+add.s64 %rd10, %rd9, %rd6;
+add.s64 %rd2, %rd10, 4;
+cvt.rn.f32.s32	%f1, %r1;
+mov.u32 %r4, %ntid.x;
+
+	mov.u32 %r15, %laneid;
+
+	cvta.to.global.u64 %rd15, %rd4;
+cvta.to.global.u64 %rd18, %rd5;
+
+BB1_2:
+mov.f32 %f67, 0f00000000;
+mov.f32 %f64, %f67;
+mov.f32 %f68, %f67;
+mov.f32 %f65, %f67;
+setp.ge.s32	%p4, %r3, %r1;
+mov.u32 %r38, %r3;
+@%p4 bra BB1_4;
+
+BB1_3:
+mov.u32 %r6, %r38;
+mad.lo.s32 %r14, %r6, %r10, %r37;
+mul.wide.s32 %rd14, %r14, 4;
+add.s64 %rd13, %rd3, %rd14;
+
+	ld.global.nc.f32 %f18, [%rd13];
+
+	add.f32 %f68, %f68, %f18;
+
+	ld.global.nc.f32 %f19, [%rd13];
+
+	
+	ld.global.nc.f32 %f20, [%rd13];
+
+	fma.rn.f32 %f65, %f19, %f20, %f65;
+add.s32 %r7, %r4, %r6;
+setp.lt.s32	%p5, %r7, %r1;
+mov.u32 %r38, %r7;
+mov.f32 %f64, %f65;
+mov.f32 %f67, %f68;
+@%p5 bra BB1_3;
+
+BB1_4:
+mov.u32 %r16, 1;
+mov.u32 %r25, 31;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f67, %r16, %r25; @p add.f32 r0, r0, %f67; mov.f32 %f21, r0;}
+
+	mov.u32 %r18, 2;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f21, %r18, %r25; @p add.f32 r0, r0, %f21; mov.f32 %f24, r0;}
+
+	mov.u32 %r20, 4;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f24, %r20, %r25; @p add.f32 r0, r0, %f24; mov.f32 %f27, r0;}
+
+	mov.u32 %r22, 8;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f27, %r22, %r25; @p add.f32 r0, r0, %f27; mov.f32 %f30, r0;}
+
+	mov.u32 %r24, 16;
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f30, %r24, %r25; @p add.f32 r0, r0, %f30; mov.f32 %f69, r0;}
+
+	setp.ne.s32	%p6, %r15, 0;
+@%p6 bra BB1_6;
+
+st.shared.f32 [%rd1], %f69;
+
+BB1_6:
+setp.eq.s32	%p1, %r3, 0;
+bar.sync 0;
+@!%p1 bra BB1_8;
+bra.uni BB1_7;
+
+BB1_7:
+ld.shared.f32 %f36, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6_$__cuda_local_var_196891_64_non_const_m_storage+8];
+add.f32 %f37, %f69, %f36;
+ld.shared.f32 %f38, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6_$__cuda_local_var_196891_64_non_const_m_storage+12];
+add.f32 %f39, %f38, %f37;
+ld.shared.f32 %f40, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6_$__cuda_local_var_196891_64_non_const_m_storage+16];
+add.f32 %f69, %f40, %f39;
+
+BB1_8:
+
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f64, %r16, %r25; @p add.f32 r0, r0, %f64; mov.f32 %f41, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f41, %r18, %r25; @p add.f32 r0, r0, %f41; mov.f32 %f44, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f44, %r20, %r25; @p add.f32 r0, r0, %f44; mov.f32 %f47, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f47, %r22, %r25; @p add.f32 r0, r0, %f47; mov.f32 %f50, r0;}
+
+	
+	{ .reg .f32 r0; .reg .pred p; shfl.down.b32 r0|p, %f50, %r24, %r25; @p add.f32 r0, r0, %f50; mov.f32 %f70, r0;}
+
+	@%p6 bra BB1_10;
+
+st.shared.f32 [%rd2], %f70;
+
+BB1_10:
+bar.sync 0;
+@!%p1 bra BB1_12;
+bra.uni BB1_11;
+
+BB1_11:
+ld.shared.f32 %f56, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6_$__cuda_local_var_196892_64_non_const_v_storage+8];
+add.f32 %f57, %f70, %f56;
+ld.shared.f32 %f58, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6_$__cuda_local_var_196892_64_non_const_v_storage+12];
+add.f32 %f59, %f58, %f57;
+ld.shared.f32 %f60, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c22BatchMomentsCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_PS3_S6_$__cuda_local_var_196892_64_non_const_v_storage+16];
+add.f32 %f70, %f60, %f59;
+
+BB1_12:
+setp.ne.s32	%p8, %r3, 0;
+@%p8 bra BB1_14;
+
+div.rn.f32 %f61, %f69, %f1;
+mul.wide.s32 %rd16, %r37, 4;
+add.s64 %rd17, %rd15, %rd16;
+st.global.f32 [%rd17], %f61;
+add.s64 %rd19, %rd18, %rd16;
+div.rn.f32 %f62, %f70, %f1;
+st.global.f32 [%rd19], %f62;
+
+BB1_14:
+bar.sync 0;
+mov.u32 %r36, %nctaid.x;
+add.s32 %r37, %r36, %r37;
+setp.lt.s32	%p9, %r37, %r10;
+@%p9 bra BB1_2;
+
+BB1_15:
+ret;
+}
+
+
+.visible .entry _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3_(
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_0,
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_1,
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_2,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_3,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_4,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_5,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_6
+)
+{
+.reg .pred %p<5>;
+.reg .f32 %f<9>;
+.reg .b32 %r<19>;
+.reg .b64 %rd<33>;
+
+
+ld.param.u32 %r2, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_0];
+ld.param.u32 %r3, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_1];
+ld.param.u32 %r4, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_2];
+ld.param.u64 %rd15, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_3];
+ld.param.u64 %rd16, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_4];
+ld.param.u64 %rd17, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_5];
+ld.param.u64 %rd18, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE2EEEviiiPKT_S5_S5_PS3__param_6];
+mul.lo.s32 %r5, %r3, %r2;
+mul.lo.s32 %r6, %r5, %r4;
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r9, %r1, %r7, %r8;
+cvt.u64.u32	%rd30, %r9;
+cvt.s64.s32	%rd2, %r6;
+setp.ge.u64	%p1, %rd30, %rd2;
+@%p1 bra BB2_9;
+
+cvta.to.global.u64 %rd3, %rd18;
+mul.lo.s32 %r10, %r4, %r2;
+cvt.rn.f32.s32	%f2, %r10;
+rcp.rn.f32 %f1, %f2;
+cvt.s64.s32	%rd4, %r4;
+cvt.s64.s32	%rd5, %r3;
+mov.u32 %r11, %nctaid.x;
+mul.lo.s32 %r12, %r11, %r1;
+cvt.u64.u32	%rd6, %r12;
+
+BB2_2:
+or.b64 %rd19, %rd30, %rd4;
+and.b64 %rd20, %rd19, -4294967296;
+setp.eq.s64	%p2, %rd20, 0;
+@%p2 bra BB2_4;
+bra.uni BB2_3;
+
+BB2_4:
+cvt.u32.u64	%r13, %rd4;
+cvt.u32.u64	%r14, %rd30;
+div.u32 %r15, %r14, %r13;
+cvt.u64.u32	%rd31, %r15;
+bra.uni BB2_5;
+
+BB2_3:
+div.u64 %rd31, %rd30, %rd4;
+
+BB2_5:
+or.b64 %rd21, %rd31, %rd5;
+and.b64 %rd22, %rd21, -4294967296;
+setp.eq.s64	%p3, %rd22, 0;
+@%p3 bra BB2_7;
+bra.uni BB2_6;
+
+BB2_7:
+cvt.u32.u64	%r16, %rd5;
+cvt.u32.u64	%r17, %rd31;
+rem.u32 %r18, %r17, %r16;
+cvt.u64.u32	%rd32, %r18;
+bra.uni BB2_8;
+
+BB2_6:
+rem.u64 %rd32, %rd31, %rd5;
+
+BB2_8:
+cvt.s64.s32 %rd26, %rd32;
+shl.b64 %rd27, %rd26, 2;
+add.s64 %rd23, %rd15, %rd27;
+
+	ld.global.nc.f32 %f3, [%rd23];
+
+	add.s64 %rd24, %rd16, %rd27;
+
+	ld.global.nc.f32 %f4, [%rd24];
+
+	add.f32 %f6, %f4, %f4;
+shl.b64 %rd28, %rd30, 2;
+add.s64 %rd25, %rd17, %rd28;
+
+	ld.global.nc.f32 %f5, [%rd25];
+
+	fma.rn.f32 %f7, %f6, %f5, %f3;
+mul.f32 %f8, %f1, %f7;
+add.s64 %rd29, %rd3, %rd28;
+st.global.f32 [%rd29], %f8;
+add.s64 %rd30, %rd6, %rd30;
+setp.lt.u64	%p4, %rd30, %rd2;
+@%p4 bra BB2_2;
+
+BB2_9:
+ret;
+}
+
+
+.visible .entry _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3_(
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_0,
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_1,
+.param .u32 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_2,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_3,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_4,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_5,
+.param .u64 _ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_6
+)
+{
+.reg .pred %p<4>;
+.reg .f32 %f<9>;
+.reg .b32 %r<16>;
+.reg .b64 %rd<26>;
+
+
+ld.param.u32 %r2, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_0];
+ld.param.u32 %r3, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_1];
+ld.param.u32 %r4, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_2];
+ld.param.u64 %rd11, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_3];
+ld.param.u64 %rd12, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_4];
+ld.param.u64 %rd13, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_5];
+ld.param.u64 %rd14, [_ZN6caffe275_GLOBAL__N__51_tmpxft_00006d6b_00000000_7_batch_moments_op_cpp1_ii_f0b9036c30BatchMomentsGradientCUDAKernelIfLNS_12StorageOrderE1EEEviiiPKT_S5_S5_PS3__param_6];
+mul.lo.s32 %r5, %r3, %r2;
+mul.lo.s32 %r6, %r5, %r4;
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r9, %r1, %r7, %r8;
+cvt.u64.u32	%rd24, %r9;
+cvt.s64.s32	%rd2, %r6;
+setp.ge.u64	%p1, %rd24, %rd2;
+@%p1 bra BB3_6;
+
+cvta.to.global.u64 %rd3, %rd14;
+mul.lo.s32 %r10, %r4, %r2;
+cvt.rn.f32.s32	%f2, %r10;
+rcp.rn.f32 %f1, %f2;
+cvt.s64.s32	%rd4, %r3;
+mov.u32 %r11, %nctaid.x;
+mul.lo.s32 %r12, %r11, %r1;
+cvt.u64.u32	%rd5, %r12;
+
+BB3_2:
+or.b64 %rd15, %rd24, %rd4;
+and.b64 %rd16, %rd15, -4294967296;
+setp.eq.s64	%p2, %rd16, 0;
+@%p2 bra BB3_4;
+bra.uni BB3_3;
+
+BB3_4:
+cvt.u32.u64	%r13, %rd4;
+cvt.u32.u64	%r14, %rd24;
+rem.u32 %r15, %r14, %r13;
+cvt.u64.u32	%rd25, %r15;
+bra.uni BB3_5;
+
+BB3_3:
+rem.u64 %rd25, %rd24, %rd4;
+
+BB3_5:
+cvt.s64.s32 %rd20, %rd25;
+shl.b64 %rd21, %rd20, 2;
+add.s64 %rd17, %rd11, %rd21;
+
+	ld.global.nc.f32 %f3, [%rd17];
+
+	add.s64 %rd18, %rd12, %rd21;
+
+	ld.global.nc.f32 %f4, [%rd18];
+
+	add.f32 %f6, %f4, %f4;
+shl.b64 %rd22, %rd24, 2;
+add.s64 %rd19, %rd13, %rd22;
+
+	ld.global.nc.f32 %f5, [%rd19];
+
+	fma.rn.f32 %f7, %f6, %f5, %f3;
+mul.f32 %f8, %f1, %f7;
+add.s64 %rd23, %rd3, %rd22;
+st.global.f32 [%rd23], %f8;
+add.s64 %rd24, %rd5, %rd24;
+setp.lt.u64	%p3, %rd24, %rd2;
+@%p3 bra BB3_2;
+
+BB3_6:
+ret;
+}
+
+

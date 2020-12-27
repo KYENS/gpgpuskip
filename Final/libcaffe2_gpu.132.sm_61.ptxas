@@ -1,0 +1,109 @@
+ptxas info    : 521 bytes gmem
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi7EfEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi7EfEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi6EdEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi6EdEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputIN3c104HalfEEvPT_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES4_IS2_Li4EiS5_Eiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputIN3c104HalfEEvPT_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES4_IS2_Li4EiS5_Eiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 476 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi3EfEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi3EfEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi2EdEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi2EdEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi4EN3c104HalfEEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES4_IS2_Li4EiS5_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi4EN3c104HalfEEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES4_IS2_Li4EiS5_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi5EfEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi5EfEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi4EdEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi4EdEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi6EN3c104HalfEEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES4_IS2_Li4EiS5_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi6EN3c104HalfEEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES4_IS2_Li4EiS5_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z48cuda_VolumetricDilatedMaxPooling_updateGradInputIfEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES0_IlLi4EiS2_EPS1_iiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z48cuda_VolumetricDilatedMaxPooling_updateGradInputIfEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES0_IlLi4EiS2_EPS1_iiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 460 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi2EN3c104HalfEEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES4_IS2_Li4EiS5_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi2EN3c104HalfEEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES4_IS2_Li4EiS5_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputIdEvPT_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputIdEvPT_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 476 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi1EfEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi1EfEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi4EfEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi4EfEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi3EdEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi3EdEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi5EN3c104HalfEEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES4_IS2_Li4EiS5_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi5EN3c104HalfEEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES4_IS2_Li4EiS5_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputIfEvPT_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputIfEvPT_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 476 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi1EN3c104HalfEEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES4_IS2_Li4EiS5_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi1EN3c104HalfEEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES4_IS2_Li4EiS5_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi7EdEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi7EdEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z48cuda_VolumetricDilatedMaxPooling_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES2_IlLi4EiS4_EPS3_iiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z48cuda_VolumetricDilatedMaxPooling_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES2_IlLi4EiS4_EPS3_iiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 460 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi6EfEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi6EfEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi5EdEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi5EdEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi7EN3c104HalfEEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES4_IS2_Li4EiS5_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi7EN3c104HalfEEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES4_IS2_Li4EiS5_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi1EdEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi1EdEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi3EN3c104HalfEEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES4_IS2_Li4EiS5_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi3EN3c104HalfEEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES4_IS2_Li4EiS5_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z48cuda_VolumetricDilatedMaxPooling_updateGradInputIdEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES0_IlLi4EiS2_EPS1_iiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z48cuda_VolumetricDilatedMaxPooling_updateGradInputIdEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES0_IlLi4EiS2_EPS1_iiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 460 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi2EfEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricDilatedMaxPooling_updateOutputILi2EfEvPT0_iii15THCDeviceTensorIlLi4Ei16DefaultPtrTraitsES2_IS0_Li4EiS3_Eiiiiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 472 bytes cmem[0]

@@ -1,0 +1,85 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z10dot_kernelIfffLi128ELi0ELi1EEv15cublasDotParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10dot_kernelIfffLi128ELi0ELi1EEv15cublasDotParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 512 bytes smem, 376 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z10dot_kernelIdddLi128ELi0ELi1EEv15cublasDotParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10dot_kernelIdddLi128ELi0ELi1EEv15cublasDotParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 1024 bytes smem, 376 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z10dot_kernelI6float2S0_S0_Li128ELi1ELi0EEv15cublasDotParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10dot_kernelI6float2S0_S0_Li128ELi1ELi0EEv15cublasDotParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 1024 bytes smem, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z10dot_kernelI7double2S0_S0_Li64ELi1ELi0EEv15cublasDotParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10dot_kernelI7double2S0_S0_Li64ELi1ELi0EEv15cublasDotParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 1024 bytes smem, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z10dot_kernelI6__halfS0_fLi128ELi0ELi0EEv15cublasDotParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10dot_kernelI6__halfS0_fLi128ELi0ELi0EEv15cublasDotParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 512 bytes smem, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20reduce_1Block_kernelIfffLi128ELi7EEvPT_iPT0_' for 'sm_50'
+ptxas info    : Function properties for _Z20reduce_1Block_kernelIfffLi128ELi7EEvPT_iPT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 768 bytes smem, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20reduce_1Block_kernelIdddLi128ELi7EEvPT_iPT0_' for 'sm_50'
+ptxas info    : Function properties for _Z20reduce_1Block_kernelIdddLi128ELi7EEvPT_iPT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 1536 bytes smem, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z10dot_kernelI6float2S0_S0_Li128ELi0ELi1EEv15cublasDotParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10dot_kernelI6float2S0_S0_Li128ELi0ELi1EEv15cublasDotParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 1024 bytes smem, 376 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z10dot_kernelI7double2S0_S0_Li64ELi0ELi1EEv15cublasDotParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10dot_kernelI7double2S0_S0_Li64ELi0ELi1EEv15cublasDotParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 1024 bytes smem, 376 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z10dot_kernelI6__halfS0_fLi128ELi1ELi1EEv15cublasDotParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10dot_kernelI6__halfS0_fLi128ELi1ELi1EEv15cublasDotParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 512 bytes smem, 376 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z10dot_kernelIfffLi128ELi0ELi0EEv15cublasDotParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10dot_kernelIfffLi128ELi0ELi0EEv15cublasDotParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 512 bytes smem, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z10dot_kernelIdddLi128ELi0ELi0EEv15cublasDotParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10dot_kernelIdddLi128ELi0ELi0EEv15cublasDotParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 1024 bytes smem, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20reduce_1Block_kernelI6float2S0_S0_Li128ELi7EEvPT_iPT0_' for 'sm_50'
+ptxas info    : Function properties for _Z20reduce_1Block_kernelI6float2S0_S0_Li128ELi7EEvPT_iPT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 1536 bytes smem, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20reduce_1Block_kernelI7double2S0_S0_Li64ELi6EEvPT_iPT0_' for 'sm_50'
+ptxas info    : Function properties for _Z20reduce_1Block_kernelI7double2S0_S0_Li64ELi6EEvPT_iPT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 1536 bytes smem, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z20reduce_1Block_kernelI6__halfS0_fLi128ELi7EEvPT_iPT0_' for 'sm_50'
+ptxas info    : Function properties for _Z20reduce_1Block_kernelI6__halfS0_fLi128ELi7EEvPT_iPT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 768 bytes smem, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z10dot_kernelI6float2S0_S0_Li128ELi0ELi0EEv15cublasDotParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10dot_kernelI6float2S0_S0_Li128ELi0ELi0EEv15cublasDotParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 1024 bytes smem, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z10dot_kernelI7double2S0_S0_Li64ELi0ELi0EEv15cublasDotParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10dot_kernelI7double2S0_S0_Li64ELi0ELi0EEv15cublasDotParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 1024 bytes smem, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z10dot_kernelI6__halfS0_fLi128ELi1ELi0EEv15cublasDotParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10dot_kernelI6__halfS0_fLi128ELi1ELi0EEv15cublasDotParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 512 bytes smem, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z10dot_kernelI6float2S0_S0_Li128ELi1ELi1EEv15cublasDotParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10dot_kernelI6float2S0_S0_Li128ELi1ELi1EEv15cublasDotParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 1024 bytes smem, 376 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z10dot_kernelI7double2S0_S0_Li64ELi1ELi1EEv15cublasDotParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10dot_kernelI7double2S0_S0_Li64ELi1ELi1EEv15cublasDotParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 1024 bytes smem, 376 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function '_Z10dot_kernelI6__halfS0_fLi128ELi0ELi1EEv15cublasDotParamsIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z10dot_kernelI6__halfS0_fLi128ELi0ELi1EEv15cublasDotParamsIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 512 bytes smem, 376 bytes cmem[0], 2 textures

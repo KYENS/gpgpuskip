@@ -1,0 +1,25 @@
+ptxas info    : 535 bytes gmem
+ptxas info    : Compiling entry function '_Z18fillSliceWithIndexIjLin1EEv10TensorInfoIlT_ES1_S1_S1_' for 'sm_61'
+ptxas info    : Function properties for _Z18fillSliceWithIndexIjLin1EEv10TensorInfoIlT_ES1_S1_S1_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 548 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18fillSliceWithIndexIjLi1EEv10TensorInfoIlT_ES1_S1_S1_' for 'sm_61'
+ptxas info    : Function properties for _Z18fillSliceWithIndexIjLi1EEv10TensorInfoIlT_ES1_S1_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 548 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18fillSliceWithIndexIjLi2EEv10TensorInfoIlT_ES1_S1_S1_' for 'sm_61'
+ptxas info    : Function properties for _Z18fillSliceWithIndexIjLi2EEv10TensorInfoIlT_ES1_S1_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 548 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18fillSliceWithIndexImLin1EEv10TensorInfoIlT_ES1_S1_S1_' for 'sm_61'
+ptxas info    : Function properties for _Z18fillSliceWithIndexImLin1EEv10TensorInfoIlT_ES1_S1_S1_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 760 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18fillSliceWithIndexIjLin2EEv10TensorInfoIlT_ES1_S1_S1_' for 'sm_61'
+ptxas info    : Function properties for _Z18fillSliceWithIndexIjLin2EEv10TensorInfoIlT_ES1_S1_S1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 548 bytes cmem[0]

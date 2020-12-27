@@ -1,0 +1,449 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 1 .b8 _ZN70_INTERNAL_48_tmpxft_000037e2_00000000_7_THCTensorSort_cpp1_ii_0359ccbf6thrust6system6detail10sequential3seqE[1];
+.shared .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail72_GLOBAL__N__48_tmpxft_000037e2_00000000_7_THCTensorSort_cpp1_ii_0359ccbf19s_on_chip_allocatorE[24];
+.global .align 1 .b8 _ZN70_INTERNAL_48_tmpxft_000037e2_00000000_7_THCTensorSort_cpp1_ii_0359ccbf6thrust6system4cuda6detail5bulk_4rootE[1];
+.global .align 1 .b8 _ZN70_INTERNAL_48_tmpxft_000037e2_00000000_7_THCTensorSort_cpp1_ii_0359ccbf6thrust6system4cuda3parE[1];
+.global .align 1 .b8 _ZN70_INTERNAL_48_tmpxft_000037e2_00000000_7_THCTensorSort_cpp1_ii_0359ccbf6thrust12placeholders2_1E[1];
+.global .align 1 .b8 _ZN70_INTERNAL_48_tmpxft_000037e2_00000000_7_THCTensorSort_cpp1_ii_0359ccbf6thrust12placeholders2_2E[1];
+.global .align 1 .b8 _ZN70_INTERNAL_48_tmpxft_000037e2_00000000_7_THCTensorSort_cpp1_ii_0359ccbf6thrust12placeholders2_3E[1];
+.global .align 1 .b8 _ZN70_INTERNAL_48_tmpxft_000037e2_00000000_7_THCTensorSort_cpp1_ii_0359ccbf6thrust12placeholders2_4E[1];
+.global .align 1 .b8 _ZN70_INTERNAL_48_tmpxft_000037e2_00000000_7_THCTensorSort_cpp1_ii_0359ccbf6thrust12placeholders2_5E[1];
+.global .align 1 .b8 _ZN70_INTERNAL_48_tmpxft_000037e2_00000000_7_THCTensorSort_cpp1_ii_0359ccbf6thrust12placeholders2_6E[1];
+.global .align 1 .b8 _ZN70_INTERNAL_48_tmpxft_000037e2_00000000_7_THCTensorSort_cpp1_ii_0359ccbf6thrust12placeholders2_7E[1];
+.global .align 1 .b8 _ZN70_INTERNAL_48_tmpxft_000037e2_00000000_7_THCTensorSort_cpp1_ii_0359ccbf6thrust12placeholders2_8E[1];
+.global .align 1 .b8 _ZN70_INTERNAL_48_tmpxft_000037e2_00000000_7_THCTensorSort_cpp1_ii_0359ccbf6thrust12placeholders2_9E[1];
+.global .align 1 .b8 _ZN70_INTERNAL_48_tmpxft_000037e2_00000000_7_THCTensorSort_cpp1_ii_0359ccbf6thrust12placeholders3_10E[1];
+.global .align 1 .b8 _ZN70_INTERNAL_48_tmpxft_000037e2_00000000_7_THCTensorSort_cpp1_ii_0359ccbf6thrust3seqE[1];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 1 .b8 __T20[38] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 117, 110, 115, 105, 103, 110, 101, 100, 32, 99, 104, 97, 114, 93, 0};
+.global .align 1 .b8 __T21[36] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 115, 105, 103, 110, 101, 100, 32, 99, 104, 97, 114, 93, 0};
+.global .align 1 .b8 __T22[30] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 115, 104, 111, 114, 116, 93, 0};
+.global .align 1 .b8 __T23[28] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 105, 110, 116, 93, 0};
+.global .align 1 .b8 __T24[29] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 108, 111, 110, 103, 93, 0};
+
+.visible .entry _Z18fillSliceWithIndexIjLin2EEv10TensorInfoIlT_ES1_S1_S1_(
+.param .align 8 .b8 _Z18fillSliceWithIndexIjLin2EEv10TensorInfoIlT_ES1_S1_S1__param_0[216],
+.param .u32 _Z18fillSliceWithIndexIjLin2EEv10TensorInfoIlT_ES1_S1_S1__param_1,
+.param .u32 _Z18fillSliceWithIndexIjLin2EEv10TensorInfoIlT_ES1_S1_S1__param_2,
+.param .u32 _Z18fillSliceWithIndexIjLin2EEv10TensorInfoIlT_ES1_S1_S1__param_3
+)
+{
+.reg .pred %p<4>;
+.reg .b32 %r<15>;
+.reg .b64 %rd<16>;
+
+
+ld.param.u32 %r5, [_Z18fillSliceWithIndexIjLin2EEv10TensorInfoIlT_ES1_S1_S1__param_1];
+ld.param.u32 %r3, [_Z18fillSliceWithIndexIjLin2EEv10TensorInfoIlT_ES1_S1_S1__param_2];
+ld.param.u32 %r4, [_Z18fillSliceWithIndexIjLin2EEv10TensorInfoIlT_ES1_S1_S1__param_3];
+mov.u64 %rd1, _Z18fillSliceWithIndexIjLin2EEv10TensorInfoIlT_ES1_S1_S1__param_0;
+mov.u32 %r6, %ctaid.z;
+mov.u32 %r7, %nctaid.y;
+mov.u32 %r8, %ctaid.y;
+mad.lo.s32 %r9, %r7, %r6, %r8;
+mov.u32 %r10, %nctaid.x;
+mov.u32 %r11, %ctaid.x;
+mad.lo.s32 %r1, %r9, %r10, %r11;
+setp.ge.u32	%p1, %r1, %r5;
+@%p1 bra BB0_4;
+
+mov.u32 %r2, %tid.x;
+setp.ge.u32	%p2, %r2, %r3;
+@%p2 bra BB0_4;
+
+ld.param.u32 %r12, [%rd1+108];
+mul.lo.s32 %r13, %r1, %r12;
+cvt.u64.u32	%rd2, %r13;
+ld.param.u64 %rd10, [%rd1];
+cvta.to.global.u64 %rd3, %rd10;
+cvt.u64.u32	%rd4, %r3;
+cvt.u64.u32	%rd15, %r2;
+cvt.u64.u32	%rd6, %r4;
+mov.u32 %r14, %ntid.x;
+cvt.u64.u32	%rd7, %r14;
+
+BB0_3:
+mul.lo.s64 %rd11, %rd15, %rd6;
+add.s64 %rd12, %rd11, %rd2;
+shl.b64 %rd13, %rd12, 3;
+add.s64 %rd14, %rd3, %rd13;
+st.global.u64 [%rd14], %rd15;
+add.s64 %rd15, %rd7, %rd15;
+setp.lt.s64	%p3, %rd15, %rd4;
+@%p3 bra BB0_3;
+
+BB0_4:
+ret;
+}
+
+
+.visible .entry _Z18fillSliceWithIndexIjLi1EEv10TensorInfoIlT_ES1_S1_S1_(
+.param .align 8 .b8 _Z18fillSliceWithIndexIjLi1EEv10TensorInfoIlT_ES1_S1_S1__param_0[216],
+.param .u32 _Z18fillSliceWithIndexIjLi1EEv10TensorInfoIlT_ES1_S1_S1__param_1,
+.param .u32 _Z18fillSliceWithIndexIjLi1EEv10TensorInfoIlT_ES1_S1_S1__param_2,
+.param .u32 _Z18fillSliceWithIndexIjLi1EEv10TensorInfoIlT_ES1_S1_S1__param_3
+)
+{
+.reg .pred %p<4>;
+.reg .b32 %r<15>;
+.reg .b64 %rd<16>;
+
+
+ld.param.u32 %r5, [_Z18fillSliceWithIndexIjLi1EEv10TensorInfoIlT_ES1_S1_S1__param_1];
+ld.param.u32 %r3, [_Z18fillSliceWithIndexIjLi1EEv10TensorInfoIlT_ES1_S1_S1__param_2];
+ld.param.u32 %r4, [_Z18fillSliceWithIndexIjLi1EEv10TensorInfoIlT_ES1_S1_S1__param_3];
+mov.u64 %rd1, _Z18fillSliceWithIndexIjLi1EEv10TensorInfoIlT_ES1_S1_S1__param_0;
+mov.u32 %r6, %ctaid.z;
+mov.u32 %r7, %nctaid.y;
+mov.u32 %r8, %ctaid.y;
+mad.lo.s32 %r9, %r7, %r6, %r8;
+mov.u32 %r10, %nctaid.x;
+mov.u32 %r11, %ctaid.x;
+mad.lo.s32 %r1, %r9, %r10, %r11;
+setp.ge.u32	%p1, %r1, %r5;
+@%p1 bra BB1_4;
+
+mov.u32 %r2, %tid.x;
+setp.ge.u32	%p2, %r2, %r3;
+@%p2 bra BB1_4;
+
+ld.param.u32 %r12, [%rd1+108];
+mul.lo.s32 %r13, %r1, %r12;
+cvt.u64.u32	%rd2, %r13;
+ld.param.u64 %rd10, [%rd1];
+cvta.to.global.u64 %rd3, %rd10;
+cvt.u64.u32	%rd4, %r3;
+cvt.u64.u32	%rd15, %r2;
+cvt.u64.u32	%rd6, %r4;
+mov.u32 %r14, %ntid.x;
+cvt.u64.u32	%rd7, %r14;
+
+BB1_3:
+mul.lo.s64 %rd11, %rd15, %rd6;
+add.s64 %rd12, %rd11, %rd2;
+shl.b64 %rd13, %rd12, 3;
+add.s64 %rd14, %rd3, %rd13;
+st.global.u64 [%rd14], %rd15;
+add.s64 %rd15, %rd7, %rd15;
+setp.lt.s64	%p3, %rd15, %rd4;
+@%p3 bra BB1_3;
+
+BB1_4:
+ret;
+}
+
+
+.visible .entry _Z18fillSliceWithIndexIjLi2EEv10TensorInfoIlT_ES1_S1_S1_(
+.param .align 8 .b8 _Z18fillSliceWithIndexIjLi2EEv10TensorInfoIlT_ES1_S1_S1__param_0[216],
+.param .u32 _Z18fillSliceWithIndexIjLi2EEv10TensorInfoIlT_ES1_S1_S1__param_1,
+.param .u32 _Z18fillSliceWithIndexIjLi2EEv10TensorInfoIlT_ES1_S1_S1__param_2,
+.param .u32 _Z18fillSliceWithIndexIjLi2EEv10TensorInfoIlT_ES1_S1_S1__param_3
+)
+{
+.reg .pred %p<4>;
+.reg .b32 %r<20>;
+.reg .b64 %rd<16>;
+
+
+ld.param.u32 %r5, [_Z18fillSliceWithIndexIjLi2EEv10TensorInfoIlT_ES1_S1_S1__param_1];
+ld.param.u32 %r3, [_Z18fillSliceWithIndexIjLi2EEv10TensorInfoIlT_ES1_S1_S1__param_2];
+ld.param.u32 %r4, [_Z18fillSliceWithIndexIjLi2EEv10TensorInfoIlT_ES1_S1_S1__param_3];
+mov.u64 %rd1, _Z18fillSliceWithIndexIjLi2EEv10TensorInfoIlT_ES1_S1_S1__param_0;
+mov.u32 %r6, %nctaid.y;
+mov.u32 %r7, %ctaid.z;
+mov.u32 %r8, %ctaid.y;
+mad.lo.s32 %r9, %r6, %r7, %r8;
+mov.u32 %r10, %nctaid.x;
+mov.u32 %r11, %ctaid.x;
+mad.lo.s32 %r1, %r9, %r10, %r11;
+setp.ge.u32	%p1, %r1, %r5;
+@%p1 bra BB2_4;
+
+mov.u32 %r2, %tid.x;
+setp.ge.u32	%p2, %r2, %r3;
+@%p2 bra BB2_4;
+
+ld.param.u32 %r12, [%rd1+12];
+ld.param.u32 %r13, [%rd1+112];
+rem.u32 %r14, %r1, %r12;
+mul.lo.s32 %r15, %r13, %r14;
+div.u32 %r16, %r1, %r12;
+ld.param.u32 %r17, [%rd1+108];
+mad.lo.s32 %r18, %r17, %r16, %r15;
+cvt.u64.u32	%rd2, %r18;
+ld.param.u64 %rd10, [%rd1];
+cvta.to.global.u64 %rd3, %rd10;
+cvt.u64.u32	%rd4, %r3;
+cvt.u64.u32	%rd15, %r2;
+cvt.u64.u32	%rd6, %r4;
+mov.u32 %r19, %ntid.x;
+cvt.u64.u32	%rd7, %r19;
+
+BB2_3:
+mul.lo.s64 %rd11, %rd15, %rd6;
+add.s64 %rd12, %rd11, %rd2;
+shl.b64 %rd13, %rd12, 3;
+add.s64 %rd14, %rd3, %rd13;
+st.global.u64 [%rd14], %rd15;
+add.s64 %rd15, %rd7, %rd15;
+setp.lt.s64	%p3, %rd15, %rd4;
+@%p3 bra BB2_3;
+
+BB2_4:
+ret;
+}
+
+
+.visible .entry _Z18fillSliceWithIndexIjLin1EEv10TensorInfoIlT_ES1_S1_S1_(
+.param .align 8 .b8 _Z18fillSliceWithIndexIjLin1EEv10TensorInfoIlT_ES1_S1_S1__param_0[216],
+.param .u32 _Z18fillSliceWithIndexIjLin1EEv10TensorInfoIlT_ES1_S1_S1__param_1,
+.param .u32 _Z18fillSliceWithIndexIjLin1EEv10TensorInfoIlT_ES1_S1_S1__param_2,
+.param .u32 _Z18fillSliceWithIndexIjLin1EEv10TensorInfoIlT_ES1_S1_S1__param_3
+)
+{
+.local .align 8 .b8 __local_depot3[216];
+.reg .b64 %SP;
+.reg .b64 %SPL;
+.reg .pred %p<8>;
+.reg .b32 %r<37>;
+.reg .b64 %rd<30>;
+
+
+mov.u64 %rd29, __local_depot3;
+cvta.local.u64 %SP, %rd29;
+ld.param.u32 %r16, [_Z18fillSliceWithIndexIjLin1EEv10TensorInfoIlT_ES1_S1_S1__param_1];
+ld.param.u32 %r17, [_Z18fillSliceWithIndexIjLin1EEv10TensorInfoIlT_ES1_S1_S1__param_2];
+ld.param.u32 %r18, [_Z18fillSliceWithIndexIjLin1EEv10TensorInfoIlT_ES1_S1_S1__param_3];
+mov.u64 %rd2, _Z18fillSliceWithIndexIjLin1EEv10TensorInfoIlT_ES1_S1_S1__param_0;
+add.u64 %rd16, %SP, 0;
+cvta.to.local.u64 %rd1, %rd16;
+mov.u32 %r33, 0;
+mov.pred %p1, 0;
+@%p1 bra BB3_2;
+
+BB3_1:
+mul.wide.s32 %rd17, %r33, 8;
+add.s64 %rd18, %rd2, %rd17;
+ld.param.u64 %rd19, [%rd18];
+add.s64 %rd20, %rd1, %rd17;
+st.local.u64 [%rd20], %rd19;
+add.s32 %r33, %r33, 1;
+setp.lt.u32	%p2, %r33, 27;
+@%p2 bra BB3_1;
+
+BB3_2:
+mov.u32 %r20, %nctaid.y;
+mov.u32 %r21, %ctaid.z;
+mov.u32 %r22, %ctaid.y;
+mad.lo.s32 %r23, %r20, %r21, %r22;
+mov.u32 %r24, %nctaid.x;
+mov.u32 %r25, %ctaid.x;
+mad.lo.s32 %r35, %r23, %r24, %r25;
+setp.ge.u32	%p3, %r35, %r16;
+@%p3 bra BB3_9;
+
+ld.local.u32 %r4, [%rd1+208];
+add.s32 %r34, %r4, -1;
+mov.u32 %r36, 0;
+setp.lt.s32	%p4, %r34, 1;
+@%p4 bra BB3_6;
+
+mul.wide.s32 %rd21, %r4, 4;
+add.s64 %rd27, %rd1, %rd21;
+mov.u32 %r36, 0;
+
+BB3_5:
+ld.local.u32 %r28, [%rd27+4];
+rem.u32 %r29, %r35, %r28;
+ld.local.u32 %r30, [%rd27+104];
+mad.lo.s32 %r36, %r30, %r29, %r36;
+div.u32 %r35, %r35, %r28;
+add.s64 %rd27, %rd27, -4;
+add.s32 %r34, %r34, -1;
+setp.gt.s32	%p5, %r34, 0;
+@%p5 bra BB3_5;
+
+BB3_6:
+add.s64 %rd7, %rd1, 108;
+ld.local.u32 %r31, [%rd1+108];
+mad.lo.s32 %r14, %r31, %r35, %r36;
+mov.u32 %r15, %tid.x;
+setp.ge.u32	%p6, %r15, %r17;
+@%p6 bra BB3_9;
+
+cvt.u64.u32	%rd8, %r14;
+ld.local.u64 %rd22, [%rd7+-108];
+cvta.to.global.u64 %rd9, %rd22;
+cvt.u64.u32	%rd10, %r17;
+cvt.u64.u32	%rd28, %r15;
+cvt.u64.u32	%rd12, %r18;
+mov.u32 %r32, %ntid.x;
+cvt.u64.u32	%rd13, %r32;
+
+BB3_8:
+mul.lo.s64 %rd23, %rd28, %rd12;
+add.s64 %rd24, %rd23, %rd8;
+shl.b64 %rd25, %rd24, 3;
+add.s64 %rd26, %rd9, %rd25;
+st.global.u64 [%rd26], %rd28;
+add.s64 %rd28, %rd13, %rd28;
+setp.lt.s64	%p7, %rd28, %rd10;
+@%p7 bra BB3_8;
+
+BB3_9:
+ret;
+}
+
+
+.visible .entry _Z18fillSliceWithIndexImLin1EEv10TensorInfoIlT_ES1_S1_S1_(
+.param .align 8 .b8 _Z18fillSliceWithIndexImLin1EEv10TensorInfoIlT_ES1_S1_S1__param_0[416],
+.param .u64 _Z18fillSliceWithIndexImLin1EEv10TensorInfoIlT_ES1_S1_S1__param_1,
+.param .u64 _Z18fillSliceWithIndexImLin1EEv10TensorInfoIlT_ES1_S1_S1__param_2,
+.param .u64 _Z18fillSliceWithIndexImLin1EEv10TensorInfoIlT_ES1_S1_S1__param_3
+)
+{
+.local .align 8 .b8 __local_depot4[416];
+.reg .b64 %SP;
+.reg .b64 %SPL;
+.reg .pred %p<9>;
+.reg .b32 %r<23>;
+.reg .b64 %rd<61>;
+
+
+mov.u64 %rd60, __local_depot4;
+cvta.local.u64 %SP, %rd60;
+ld.param.u64 %rd28, [_Z18fillSliceWithIndexImLin1EEv10TensorInfoIlT_ES1_S1_S1__param_1];
+ld.param.u64 %rd29, [_Z18fillSliceWithIndexImLin1EEv10TensorInfoIlT_ES1_S1_S1__param_2];
+ld.param.u64 %rd30, [_Z18fillSliceWithIndexImLin1EEv10TensorInfoIlT_ES1_S1_S1__param_3];
+mov.u64 %rd2, _Z18fillSliceWithIndexImLin1EEv10TensorInfoIlT_ES1_S1_S1__param_0;
+add.u64 %rd31, %SP, 0;
+cvta.to.local.u64 %rd1, %rd31;
+mov.u32 %r21, 0;
+mov.pred %p1, 0;
+@%p1 bra BB4_2;
+
+BB4_1:
+mul.wide.s32 %rd32, %r21, 8;
+add.s64 %rd33, %rd2, %rd32;
+ld.param.u64 %rd34, [%rd33];
+add.s64 %rd35, %rd1, %rd32;
+st.local.u64 [%rd35], %rd34;
+add.s32 %r21, %r21, 1;
+setp.lt.u32	%p2, %r21, 52;
+@%p2 bra BB4_1;
+
+BB4_2:
+mov.u32 %r8, %nctaid.y;
+mov.u32 %r9, %ctaid.z;
+mov.u32 %r10, %ctaid.y;
+mad.lo.s32 %r11, %r8, %r9, %r10;
+mov.u32 %r12, %nctaid.x;
+mov.u32 %r13, %ctaid.x;
+mad.lo.s32 %r14, %r11, %r12, %r13;
+cvt.u64.u32	%rd55, %r14;
+setp.ge.u64	%p3, %rd55, %rd28;
+@%p3 bra BB4_12;
+
+ld.local.u32 %r3, [%rd1+408];
+add.s32 %r22, %r3, -1;
+mov.u64 %rd58, 0;
+setp.lt.s32	%p4, %r22, 1;
+@%p4 bra BB4_9;
+
+mul.wide.s32 %rd38, %r3, 8;
+add.s64 %rd50, %rd1, %rd38;
+mov.u64 %rd58, 0;
+mov.u64 %rd56, %rd55;
+
+BB4_5:
+ld.local.u64 %rd10, [%rd50];
+or.b64 %rd39, %rd56, %rd10;
+and.b64 %rd40, %rd39, -4294967296;
+setp.eq.s64	%p5, %rd40, 0;
+@%p5 bra BB4_7;
+bra.uni BB4_6;
+
+BB4_7:
+cvt.u32.u64	%r15, %rd10;
+cvt.u32.u64	%r16, %rd56;
+div.u32 %r17, %r16, %r15;
+rem.u32 %r18, %r16, %r15;
+cvt.u64.u32	%rd57, %r17;
+cvt.u64.u32	%rd51, %r18;
+bra.uni BB4_8;
+
+BB4_6:
+div.u64 %rd57, %rd56, %rd10;
+rem.u64 %rd51, %rd56, %rd10;
+
+BB4_8:
+mov.u64 %rd56, %rd57;
+ld.local.u64 %rd41, [%rd50+200];
+mul.lo.s64 %rd42, %rd41, %rd51;
+add.s64 %rd58, %rd42, %rd58;
+add.s64 %rd50, %rd50, -8;
+add.s32 %r22, %r22, -1;
+setp.gt.s32	%p6, %r22, 0;
+mov.u64 %rd55, %rd56;
+@%p6 bra BB4_5;
+
+BB4_9:
+add.s64 %rd21, %rd1, 208;
+ld.local.u64 %rd43, [%rd1+208];
+mul.lo.s64 %rd44, %rd43, %rd55;
+add.s64 %rd22, %rd44, %rd58;
+mov.u32 %r19, %tid.x;
+cvt.u64.u32	%rd59, %r19;
+setp.ge.u64	%p7, %rd59, %rd29;
+@%p7 bra BB4_12;
+
+ld.local.u64 %rd45, [%rd21+-208];
+cvta.to.global.u64 %rd24, %rd45;
+mov.u32 %r20, %ntid.x;
+cvt.u64.u32	%rd25, %r20;
+
+BB4_11:
+mul.lo.s64 %rd46, %rd59, %rd30;
+add.s64 %rd47, %rd22, %rd46;
+shl.b64 %rd48, %rd47, 3;
+add.s64 %rd49, %rd24, %rd48;
+st.global.u64 [%rd49], %rd59;
+add.s64 %rd59, %rd25, %rd59;
+setp.lt.u64	%p8, %rd59, %rd29;
+@%p8 bra BB4_11;
+
+BB4_12:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv(
+
+)
+{
+
+
+
+ret;
+}
+
+

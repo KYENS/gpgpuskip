@@ -1,0 +1,17 @@
+ptxas info    : 904 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe26detail14LSTMUnitKernelIN3c104HalfEfEEviiiPKT_S6_S6_PKibPS4_S9_T0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe26detail14LSTMUnitKernelIN3c104HalfEfEEviiiPKT_S6_S6_PKibPS4_S9_T0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 396 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe26detail22LSTMUnitGradientKernelIN3c104HalfEfEEviiiPKT_S6_S6_S6_PKiS6_S6_bPS4_S9_S9_T0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe26detail22LSTMUnitGradientKernelIN3c104HalfEfEEviiiPKT_S6_S6_S6_PKiS6_S6_bPS4_S9_S9_T0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 428 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe26detail14LSTMUnitKernelIffEEviiiPKT_S4_S4_PKibPS2_S7_T0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe26detail14LSTMUnitKernelIffEEviiiPKT_S4_S4_PKibPS2_S7_T0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 396 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe26detail22LSTMUnitGradientKernelIffEEviiiPKT_S4_S4_S4_PKiS4_S4_bPS2_S7_S7_T0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe26detail22LSTMUnitGradientKernelIffEEviiiPKT_S4_S4_S4_PKiS4_S4_bPS2_S7_S7_T0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 428 bytes cmem[0], 40 bytes cmem[2]

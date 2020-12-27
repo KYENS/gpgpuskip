@@ -1,0 +1,25 @@
+ptxas info    : 521 bytes gmem
+ptxas info    : Compiling entry function '_Z44VolumetricReplicationPadding_updateGradInputIfEv15THCDeviceTensorIT_Li5Ei16DefaultPtrTraitsES3_iiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z44VolumetricReplicationPadding_updateGradInputIfEv15THCDeviceTensorIT_Li5Ei16DefaultPtrTraitsES3_iiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z44VolumetricReplicationPadding_updateGradInputIdEv15THCDeviceTensorIT_Li5Ei16DefaultPtrTraitsES3_iiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z44VolumetricReplicationPadding_updateGradInputIdEv15THCDeviceTensorIT_Li5Ei16DefaultPtrTraitsES3_iiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z44VolumetricReplicationPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li5Ei16DefaultPtrTraitsES5_iiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z44VolumetricReplicationPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li5Ei16DefaultPtrTraitsES5_iiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z41VolumetricReplicationPadding_updateOutputIfEv15THCDeviceTensorIT_Li5Ei16DefaultPtrTraitsES3_iiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z41VolumetricReplicationPadding_updateOutputIfEv15THCDeviceTensorIT_Li5Ei16DefaultPtrTraitsES3_iiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z41VolumetricReplicationPadding_updateOutputIdEv15THCDeviceTensorIT_Li5Ei16DefaultPtrTraitsES3_iiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z41VolumetricReplicationPadding_updateOutputIdEv15THCDeviceTensorIT_Li5Ei16DefaultPtrTraitsES3_iiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z41VolumetricReplicationPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li5Ei16DefaultPtrTraitsES5_iiiiii' for 'sm_61'
+ptxas info    : Function properties for _Z41VolumetricReplicationPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li5Ei16DefaultPtrTraitsES5_iiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 440 bytes cmem[0]

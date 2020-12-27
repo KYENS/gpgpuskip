@@ -1,0 +1,16 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.file	1 "/root/pytorch/third_party/nccl/nccl/src/transport/shm.cu", 1605009370, 10051
+.file	2 "/usr/local/cuda/include/cuda_device_runtime_api.h", 1485474509, 13858
+

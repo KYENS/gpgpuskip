@@ -1,0 +1,1144 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 1 .b8 __T20[38] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 117, 110, 115, 105, 103, 110, 101, 100, 32, 99, 104, 97, 114, 93, 0};
+.global .align 1 .b8 __T21[36] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 115, 105, 103, 110, 101, 100, 32, 99, 104, 97, 114, 93, 0};
+.global .align 1 .b8 __T22[30] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 115, 104, 111, 114, 116, 93, 0};
+.global .align 1 .b8 __T23[28] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 105, 110, 116, 93, 0};
+.global .align 1 .b8 __T24[29] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 108, 111, 110, 103, 93, 0};
+
+.visible .entry _Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll(
+.param .u64 _Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_0,
+.param .u64 _Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_1,
+.param .u64 _Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_2,
+.param .u32 _Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_3,
+.param .u32 _Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_4,
+.param .u32 _Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_5,
+.param .u32 _Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_6,
+.param .u64 _Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_7,
+.param .u64 _Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_8,
+.param .u64 _Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_9
+)
+{
+.reg .pred %p<11>;
+.reg .b16 %rs<24>;
+.reg .f32 %f<19>;
+.reg .b32 %r<72>;
+.reg .b64 %rd<37>;
+
+
+ld.param.u64 %rd8, [_Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_0];
+ld.param.u64 %rd9, [_Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_1];
+ld.param.u64 %rd10, [_Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_2];
+ld.param.u32 %r25, [_Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_3];
+ld.param.u32 %r26, [_Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_4];
+ld.param.u32 %r27, [_Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_5];
+ld.param.u32 %r28, [_Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_6];
+ld.param.u64 %rd11, [_Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_7];
+ld.param.u64 %rd12, [_Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_8];
+ld.param.u64 %rd13, [_Z15adaptivemaxpoolIN3c104HalfEEvPT_S3_Pliiiilll_param_9];
+mov.u32 %r29, %ctaid.y;
+mov.u32 %r30, %ntid.y;
+mov.u32 %r31, %tid.y;
+mad.lo.s32 %r53, %r29, %r30, %r31;
+setp.ge.s32	%p1, %r53, %r27;
+@%p1 bra BB0_14;
+
+cvt.rn.f32.s32	%f1, %r27;
+cvt.rn.f32.s32	%f2, %r28;
+shl.b64 %rd1, %rd13, 1;
+cvta.to.global.u64 %rd22, %rd8;
+cvta.to.global.u64 %rd29, %rd9;
+cvta.to.global.u64 %rd32, %rd10;
+
+BB0_2:
+mov.u32 %r54, %tid.x;
+mul.lo.s32 %r33, %r53, %r25;
+cvt.rn.f32.s32	%f3, %r33;
+div.rn.f32 %f4, %f3, %f1;
+cvt.rmi.f32.f32	%f5, %f4;
+cvt.rzi.s32.f32	%r3, %f5;
+add.s32 %r34, %r53, 1;
+mul.lo.s32 %r35, %r34, %r25;
+cvt.rn.f32.s32	%f6, %r35;
+div.rn.f32 %f7, %f6, %f1;
+cvt.rpi.f32.f32	%f8, %f7;
+cvt.rzi.s32.f32	%r36, %f8;
+sub.s32 %r4, %r36, %r3;
+setp.ge.s32	%p2, %r54, %r28;
+@%p2 bra BB0_13;
+
+mul.wide.s32 %rd2, %r3, 2;
+mul.lo.s32 %r5, %r26, %r3;
+
+BB0_4:
+mul.lo.s32 %r38, %r54, %r26;
+cvt.rn.f32.s32	%f9, %r38;
+div.rn.f32 %f10, %f9, %f2;
+cvt.rmi.f32.f32	%f11, %f10;
+cvt.rzi.s32.f32	%r8, %f11;
+add.s32 %r39, %r54, 1;
+mul.lo.s32 %r40, %r39, %r26;
+cvt.rn.f32.s32	%f12, %r40;
+div.rn.f32 %f13, %f12, %f2;
+cvt.rpi.f32.f32	%f14, %f13;
+cvt.rzi.s32.f32	%r41, %f14;
+sub.s32 %r9, %r41, %r8;
+mul.lo.s32 %r42, %r53, %r28;
+cvt.s64.s32	%rd14, %r42;
+mov.u32 %r43, %ctaid.x;
+mul.lo.s32 %r44, %r28, %r27;
+mul.lo.s32 %r45, %r44, %r43;
+cvt.s64.s32	%rd15, %r45;
+add.s64 %rd16, %rd14, %rd15;
+cvt.s64.s32	%rd17, %r54;
+add.s64 %rd3, %rd16, %rd17;
+mov.u16 %rs19, -1025;
+mov.u32 %r66, -1;
+setp.lt.s32	%p3, %r4, 1;
+@%p3 bra BB0_12;
+
+cvt.s64.s32	%rd18, %r8;
+mul.lo.s64 %rd19, %rd13, %rd18;
+cvt.s64.s32	%rd20, %r43;
+mul.lo.s64 %rd21, %rd11, %rd20;
+shl.b64 %rd23, %rd21, 1;
+add.s64 %rd24, %rd22, %rd23;
+shl.b64 %rd25, %rd19, 1;
+add.s64 %rd4, %rd24, %rd25;
+add.s32 %r10, %r5, %r8;
+mov.u16 %rs23, -1025;
+mov.u32 %r70, -1;
+mov.u32 %r46, 0;
+mov.u32 %r57, %r46;
+
+BB0_6:
+mov.u16 %rs15, %rs23;
+mov.u16 %rs20, %rs15;
+mov.u32 %r62, %r70;
+mov.u32 %r67, %r62;
+mad.lo.s32 %r71, %r26, %r57, %r10;
+mul.wide.s32 %rd26, %r57, 2;
+add.s64 %rd27, %rd2, %rd26;
+mul.lo.s64 %rd28, %rd12, %rd27;
+add.s64 %rd36, %rd4, %rd28;
+setp.lt.s32	%p4, %r9, 1;
+mov.u32 %r56, %r46;
+mov.u32 %r69, %r67;
+mov.u16 %rs22, %rs20;
+@%p4 bra BB0_11;
+
+BB0_7:
+mov.u16 %rs12, %rs20;
+mov.u16 %rs2, %rs12;
+mov.u32 %r58, %r71;
+mov.u32 %r59, %r67;
+mov.u32 %r16, %r59;
+mov.u32 %r14, %r58;
+mov.u32 %r15, %r56;
+ld.global.u16 %rs3, [%rd36];
+
+	{ cvt.f32.f16 %f15, %rs3;}
+
+
+	
+	{ cvt.f32.f16 %f16, %rs2;}
+
+
+	setp.gt.f32	%p5, %f15, %f16;
+@%p5 bra BB0_9;
+
+
+	{ cvt.f32.f16 %f17, %rs3;}
+
+
+	abs.f32 %f18, %f17;
+setp.le.f32	%p6, %f18, 0f7F800000;
+mov.u32 %r68, %r16;
+mov.u16 %rs21, %rs2;
+@%p6 bra BB0_10;
+
+BB0_9:
+mov.u32 %r68, %r14;
+mov.u16 %rs21, %rs3;
+
+BB0_10:
+mov.u16 %rs20, %rs21;
+mov.u32 %r60, %r68;
+mov.u32 %r67, %r60;
+add.s64 %rd36, %rd36, %rd1;
+add.s32 %r71, %r14, 1;
+add.s32 %r19, %r15, 1;
+setp.lt.s32	%p7, %r19, %r9;
+mov.u32 %r56, %r19;
+mov.u32 %r69, %r67;
+mov.u16 %rs22, %rs20;
+@%p7 bra BB0_7;
+
+BB0_11:
+mov.u16 %rs23, %rs22;
+mov.u32 %r70, %r69;
+add.s32 %r57, %r57, 1;
+setp.lt.s32	%p8, %r57, %r4;
+mov.u32 %r66, %r70;
+mov.u16 %rs19, %rs23;
+@%p8 bra BB0_6;
+
+BB0_12:
+shl.b64 %rd30, %rd3, 1;
+add.s64 %rd31, %rd29, %rd30;
+st.global.u16 [%rd31], %rs19;
+shl.b64 %rd33, %rd3, 3;
+add.s64 %rd34, %rd32, %rd33;
+cvt.s64.s32	%rd35, %r66;
+st.global.u64 [%rd34], %rd35;
+mov.u32 %r50, %ntid.x;
+add.s32 %r54, %r54, %r50;
+setp.lt.s32	%p9, %r54, %r28;
+@%p9 bra BB0_4;
+
+BB0_13:
+mov.u32 %r51, %nctaid.y;
+mad.lo.s32 %r53, %r51, %r30, %r53;
+setp.lt.s32	%p10, %r53, %r27;
+@%p10 bra BB0_2;
+
+BB0_14:
+ret;
+}
+
+
+.visible .entry _Z26atomicadaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii(
+.param .u64 _Z26atomicadaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_0,
+.param .u64 _Z26atomicadaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_1,
+.param .u64 _Z26atomicadaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_2,
+.param .u32 _Z26atomicadaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_3,
+.param .u32 _Z26atomicadaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_4,
+.param .u32 _Z26atomicadaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_5,
+.param .u32 _Z26atomicadaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_6
+)
+{
+.reg .pred %p<7>;
+.reg .b16 %rs<5>;
+.reg .f32 %f<4>;
+.reg .b32 %r<40>;
+.reg .b64 %rd<24>;
+
+
+ld.param.u64 %rd7, [_Z26atomicadaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_0];
+ld.param.u64 %rd8, [_Z26atomicadaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_1];
+ld.param.u64 %rd9, [_Z26atomicadaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_2];
+ld.param.u32 %r11, [_Z26atomicadaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_3];
+ld.param.u32 %r12, [_Z26atomicadaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_4];
+ld.param.u32 %r13, [_Z26atomicadaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_5];
+ld.param.u32 %r14, [_Z26atomicadaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_6];
+mov.u32 %r15, %ctaid.y;
+mov.u32 %r16, %ntid.y;
+mov.u32 %r17, %tid.y;
+mad.lo.s32 %r37, %r15, %r16, %r17;
+setp.ge.s32	%p1, %r37, %r13;
+@%p1 bra BB1_8;
+
+cvta.to.global.u64 %rd1, %rd7;
+cvta.to.global.u64 %rd2, %rd9;
+mov.u32 %r2, %ntid.x;
+mov.u32 %r18, %ctaid.x;
+mul.lo.s32 %r19, %r12, %r11;
+mul.lo.s32 %r20, %r19, %r18;
+cvt.s64.s32	%rd3, %r20;
+cvta.to.global.u64 %rd16, %rd8;
+
+BB1_2:
+mov.u32 %r38, %tid.x;
+setp.ge.s32	%p2, %r38, %r14;
+@%p2 bra BB1_7;
+
+mul.lo.s32 %r22, %r37, %r14;
+cvt.s64.s32	%rd10, %r22;
+mul.lo.s32 %r24, %r14, %r13;
+mul.lo.s32 %r25, %r24, %r18;
+cvt.s64.s32	%rd11, %r25;
+add.s64 %rd4, %rd10, %rd11;
+
+BB1_4:
+cvt.s64.s32	%rd12, %r38;
+add.s64 %rd13, %rd4, %rd12;
+shl.b64 %rd14, %rd13, 3;
+add.s64 %rd15, %rd2, %rd14;
+shl.b64 %rd17, %rd13, 1;
+add.s64 %rd18, %rd16, %rd17;
+ld.global.u16 %rs1, [%rd18];
+ld.global.s32 %rd19, [%rd15];
+add.s64 %rd20, %rd19, %rd3;
+shl.b64 %rd21, %rd20, 1;
+add.s64 %rd22, %rd1, %rd21;
+add.s64 %rd23, %rd7, %rd21;
+and.b64 %rd5, %rd23, 2;
+sub.s64 %rd6, %rd22, %rd5;
+ld.global.u32 %r39, [%rd6];
+
+BB1_5:
+mov.u32 %r7, %r39;
+shr.u32 %r26, %r7, 16;
+setp.eq.s64	%p3, %rd5, 0;
+selp.b32	%r27, %r7, %r26, %p3;
+cvt.u16.u32	%rs2, %r27;
+
+	{ cvt.f32.f16 %f1, %rs2;}
+
+
+	
+	{ cvt.f32.f16 %f2, %rs1;}
+
+
+	add.f32 %f3, %f1, %f2;
+
+	{ cvt.rn.f16.f32 %rs4, %f3;}
+
+
+	cvt.u32.u16	%r28, %rs4;
+shl.b32 %r29, %r28, 16;
+and.b32 %r30, %r7, 65535;
+or.b32 %r31, %r29, %r30;
+and.b32 %r32, %r7, -65536;
+or.b32 %r33, %r28, %r32;
+selp.b32	%r34, %r33, %r31, %p3;
+atom.global.cas.b32 %r39, [%rd6], %r7, %r34;
+setp.ne.s32	%p4, %r7, %r39;
+@%p4 bra BB1_5;
+
+add.s32 %r38, %r38, %r2;
+setp.lt.s32	%p5, %r38, %r14;
+@%p5 bra BB1_4;
+
+BB1_7:
+mov.u32 %r35, %nctaid.y;
+mad.lo.s32 %r37, %r35, %r16, %r37;
+setp.lt.s32	%p6, %r37, %r13;
+@%p6 bra BB1_2;
+
+BB1_8:
+ret;
+}
+
+
+.visible .entry _Z20adaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii(
+.param .u64 _Z20adaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_0,
+.param .u64 _Z20adaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_1,
+.param .u64 _Z20adaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_2,
+.param .u32 _Z20adaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_3,
+.param .u32 _Z20adaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_4,
+.param .u32 _Z20adaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_5,
+.param .u32 _Z20adaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_6
+)
+{
+.reg .pred %p<5>;
+.reg .b16 %rs<4>;
+.reg .f32 %f<4>;
+.reg .b32 %r<25>;
+.reg .b64 %rd<21>;
+
+
+ld.param.u64 %rd7, [_Z20adaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_0];
+ld.param.u64 %rd8, [_Z20adaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_1];
+ld.param.u64 %rd9, [_Z20adaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_2];
+ld.param.u32 %r10, [_Z20adaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_3];
+ld.param.u32 %r11, [_Z20adaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_4];
+ld.param.u32 %r12, [_Z20adaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_5];
+ld.param.u32 %r13, [_Z20adaptivemaxgradinputIN3c104HalfEEvPT_S3_Pliiii_param_6];
+mov.u32 %r1, %tid.x;
+mov.u32 %r14, %ctaid.y;
+mov.u32 %r2, %ntid.y;
+mov.u32 %r15, %tid.y;
+mad.lo.s32 %r23, %r14, %r2, %r15;
+setp.ge.s32	%p1, %r23, %r12;
+@%p1 bra BB2_6;
+
+cvta.to.global.u64 %rd1, %rd7;
+cvta.to.global.u64 %rd2, %rd9;
+cvta.to.global.u64 %rd3, %rd8;
+mov.u32 %r4, %ntid.x;
+mov.u32 %r16, %nctaid.y;
+mul.lo.s32 %r5, %r16, %r2;
+mul.lo.s32 %r17, %r13, %r12;
+mov.u32 %r18, %ctaid.x;
+mul.lo.s32 %r19, %r17, %r18;
+cvt.s64.s32	%rd4, %r19;
+mul.lo.s32 %r20, %r11, %r10;
+mul.lo.s32 %r21, %r20, %r18;
+cvt.s64.s32	%rd5, %r21;
+
+BB2_2:
+setp.ge.s32	%p2, %r1, %r13;
+@%p2 bra BB2_5;
+
+mul.lo.s32 %r22, %r23, %r13;
+cvt.s64.s32	%rd10, %r22;
+add.s64 %rd6, %rd10, %rd4;
+mov.u32 %r24, %r1;
+
+BB2_4:
+mov.u32 %r7, %r24;
+cvt.s64.s32	%rd11, %r7;
+add.s64 %rd12, %rd6, %rd11;
+shl.b64 %rd13, %rd12, 3;
+add.s64 %rd14, %rd2, %rd13;
+shl.b64 %rd15, %rd12, 1;
+add.s64 %rd16, %rd3, %rd15;
+ld.global.u16 %rs2, [%rd16];
+ld.global.s32 %rd17, [%rd14];
+add.s64 %rd18, %rd17, %rd5;
+shl.b64 %rd19, %rd18, 1;
+add.s64 %rd20, %rd1, %rd19;
+ld.global.u16 %rs1, [%rd20];
+
+	{ cvt.f32.f16 %f1, %rs1;}
+
+
+	
+	{ cvt.f32.f16 %f2, %rs2;}
+
+
+	add.f32 %f3, %f1, %f2;
+
+	{ cvt.rn.f16.f32 %rs3, %f3;}
+
+
+	st.global.u16 [%rd20], %rs3;
+add.s32 %r8, %r7, %r4;
+setp.lt.s32	%p3, %r8, %r13;
+mov.u32 %r24, %r8;
+@%p3 bra BB2_4;
+
+BB2_5:
+add.s32 %r23, %r23, %r5;
+setp.lt.s32	%p4, %r23, %r12;
+@%p4 bra BB2_2;
+
+BB2_6:
+ret;
+}
+
+
+.visible .entry _Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll(
+.param .u64 _Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_0,
+.param .u64 _Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_1,
+.param .u64 _Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_2,
+.param .u32 _Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_3,
+.param .u32 _Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_4,
+.param .u32 _Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_5,
+.param .u32 _Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_6,
+.param .u64 _Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_7,
+.param .u64 _Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_8,
+.param .u64 _Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_9
+)
+{
+.reg .pred %p<11>;
+.reg .f32 %f<36>;
+.reg .b32 %r<72>;
+.reg .b64 %rd<37>;
+
+
+ld.param.u64 %rd7, [_Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_0];
+ld.param.u64 %rd8, [_Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_1];
+ld.param.u64 %rd9, [_Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_2];
+ld.param.u32 %r25, [_Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_3];
+ld.param.u32 %r26, [_Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_4];
+ld.param.u32 %r27, [_Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_5];
+ld.param.u32 %r28, [_Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_6];
+ld.param.u64 %rd10, [_Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_7];
+ld.param.u64 %rd11, [_Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_8];
+ld.param.u64 %rd12, [_Z15adaptivemaxpoolIfEvPT_S1_Pliiiilll_param_9];
+mov.u32 %r29, %ctaid.y;
+mov.u32 %r30, %ntid.y;
+mov.u32 %r31, %tid.y;
+mad.lo.s32 %r53, %r29, %r30, %r31;
+setp.ge.s32	%p1, %r53, %r27;
+@%p1 bra BB3_14;
+
+cvt.rn.f32.s32	%f1, %r27;
+cvt.rn.f32.s32	%f2, %r28;
+shl.b64 %rd1, %rd12, 2;
+cvta.to.global.u64 %rd17, %rd7;
+cvta.to.global.u64 %rd29, %rd8;
+cvta.to.global.u64 %rd32, %rd9;
+
+BB3_2:
+mov.u32 %r54, %tid.x;
+mul.lo.s32 %r33, %r53, %r25;
+cvt.rn.f32.s32	%f9, %r33;
+div.rn.f32 %f10, %f9, %f1;
+cvt.rmi.f32.f32	%f11, %f10;
+cvt.rzi.s32.f32	%r3, %f11;
+add.s32 %r34, %r53, 1;
+mul.lo.s32 %r35, %r34, %r25;
+cvt.rn.f32.s32	%f12, %r35;
+div.rn.f32 %f13, %f12, %f1;
+cvt.rpi.f32.f32	%f14, %f13;
+cvt.rzi.s32.f32	%r36, %f14;
+sub.s32 %r4, %r36, %r3;
+setp.ge.s32	%p2, %r54, %r28;
+@%p2 bra BB3_13;
+
+mul.wide.s32 %rd2, %r3, 4;
+mul.lo.s32 %r5, %r26, %r3;
+
+BB3_4:
+mul.lo.s32 %r38, %r54, %r26;
+cvt.rn.f32.s32	%f16, %r38;
+div.rn.f32 %f17, %f16, %f2;
+cvt.rmi.f32.f32	%f18, %f17;
+cvt.rzi.s32.f32	%r8, %f18;
+add.s32 %r39, %r54, 1;
+mul.lo.s32 %r40, %r39, %r26;
+cvt.rn.f32.s32	%f19, %r40;
+div.rn.f32 %f20, %f19, %f2;
+cvt.rpi.f32.f32	%f21, %f20;
+cvt.rzi.s32.f32	%r41, %f21;
+sub.s32 %r9, %r41, %r8;
+mov.u32 %r66, -1;
+mov.f32 %f31, 0fFF7FFFFF;
+setp.lt.s32	%p3, %r4, 1;
+@%p3 bra BB3_12;
+
+cvt.s64.s32	%rd13, %r8;
+mul.lo.s64 %rd14, %rd12, %rd13;
+mov.u32 %r44, %ctaid.x;
+cvt.s64.s32	%rd15, %r44;
+mul.lo.s64 %rd16, %rd10, %rd15;
+shl.b64 %rd18, %rd16, 2;
+add.s64 %rd19, %rd17, %rd18;
+shl.b64 %rd20, %rd14, 2;
+add.s64 %rd3, %rd19, %rd20;
+add.s32 %r10, %r5, %r8;
+mov.u32 %r70, -1;
+mov.f32 %f35, 0fFF7FFFFF;
+mov.u32 %r42, 0;
+mov.u32 %r57, %r42;
+
+BB3_6:
+mov.u32 %r62, %r70;
+mov.u32 %r67, %r62;
+mov.f32 %f27, %f35;
+mov.f32 %f32, %f27;
+mad.lo.s32 %r71, %r26, %r57, %r10;
+mul.wide.s32 %rd21, %r57, 4;
+add.s64 %rd22, %rd2, %rd21;
+mul.lo.s64 %rd23, %rd11, %rd22;
+add.s64 %rd36, %rd3, %rd23;
+setp.lt.s32	%p4, %r9, 1;
+mov.u32 %r56, %r42;
+mov.f32 %f34, %f32;
+mov.u32 %r69, %r67;
+@%p4 bra BB3_11;
+
+BB3_7:
+mov.u32 %r58, %r71;
+mov.u32 %r59, %r67;
+mov.u32 %r16, %r59;
+mov.u32 %r14, %r58;
+mov.f32 %f24, %f32;
+mov.f32 %f4, %f24;
+mov.u32 %r15, %r56;
+ld.global.f32 %f5, [%rd36];
+setp.gt.f32	%p5, %f5, %f4;
+@%p5 bra BB3_9;
+
+abs.f32 %f23, %f5;
+setp.le.f32	%p6, %f23, 0f7F800000;
+mov.f32 %f33, %f4;
+mov.u32 %r68, %r16;
+@%p6 bra BB3_10;
+
+BB3_9:
+mov.f32 %f33, %f5;
+mov.u32 %r68, %r14;
+
+BB3_10:
+mov.u32 %r60, %r68;
+mov.u32 %r67, %r60;
+mov.f32 %f32, %f33;
+add.s64 %rd36, %rd36, %rd1;
+add.s32 %r71, %r14, 1;
+add.s32 %r19, %r15, 1;
+setp.lt.s32	%p7, %r19, %r9;
+mov.u32 %r56, %r19;
+mov.f32 %f34, %f32;
+mov.u32 %r69, %r67;
+@%p7 bra BB3_7;
+
+BB3_11:
+mov.u32 %r70, %r69;
+mov.f32 %f35, %f34;
+add.s32 %r57, %r57, 1;
+setp.lt.s32	%p8, %r57, %r4;
+mov.f32 %f31, %f35;
+mov.u32 %r66, %r70;
+@%p8 bra BB3_6;
+
+BB3_12:
+mul.lo.s32 %r46, %r53, %r28;
+cvt.s64.s32	%rd24, %r46;
+mov.u32 %r47, %ctaid.x;
+mul.lo.s32 %r48, %r28, %r27;
+mul.lo.s32 %r49, %r48, %r47;
+cvt.s64.s32	%rd25, %r49;
+add.s64 %rd26, %rd24, %rd25;
+cvt.s64.s32	%rd27, %r54;
+add.s64 %rd28, %rd26, %rd27;
+shl.b64 %rd30, %rd28, 2;
+add.s64 %rd31, %rd29, %rd30;
+st.global.f32 [%rd31], %f31;
+shl.b64 %rd33, %rd28, 3;
+add.s64 %rd34, %rd32, %rd33;
+cvt.s64.s32	%rd35, %r66;
+st.global.u64 [%rd34], %rd35;
+mov.u32 %r50, %ntid.x;
+add.s32 %r54, %r54, %r50;
+setp.lt.s32	%p9, %r54, %r28;
+@%p9 bra BB3_4;
+
+BB3_13:
+mov.u32 %r51, %nctaid.y;
+mad.lo.s32 %r53, %r51, %r30, %r53;
+setp.lt.s32	%p10, %r53, %r27;
+@%p10 bra BB3_2;
+
+BB3_14:
+ret;
+}
+
+
+.visible .entry _Z26atomicadaptivemaxgradinputIfEvPT_S1_Pliiii(
+.param .u64 _Z26atomicadaptivemaxgradinputIfEvPT_S1_Pliiii_param_0,
+.param .u64 _Z26atomicadaptivemaxgradinputIfEvPT_S1_Pliiii_param_1,
+.param .u64 _Z26atomicadaptivemaxgradinputIfEvPT_S1_Pliiii_param_2,
+.param .u32 _Z26atomicadaptivemaxgradinputIfEvPT_S1_Pliiii_param_3,
+.param .u32 _Z26atomicadaptivemaxgradinputIfEvPT_S1_Pliiii_param_4,
+.param .u32 _Z26atomicadaptivemaxgradinputIfEvPT_S1_Pliiii_param_5,
+.param .u32 _Z26atomicadaptivemaxgradinputIfEvPT_S1_Pliiii_param_6
+)
+{
+.reg .pred %p<5>;
+.reg .f32 %f<3>;
+.reg .b32 %r<25>;
+.reg .b64 %rd<21>;
+
+
+ld.param.u64 %rd7, [_Z26atomicadaptivemaxgradinputIfEvPT_S1_Pliiii_param_0];
+ld.param.u64 %rd8, [_Z26atomicadaptivemaxgradinputIfEvPT_S1_Pliiii_param_1];
+ld.param.u64 %rd9, [_Z26atomicadaptivemaxgradinputIfEvPT_S1_Pliiii_param_2];
+ld.param.u32 %r10, [_Z26atomicadaptivemaxgradinputIfEvPT_S1_Pliiii_param_3];
+ld.param.u32 %r11, [_Z26atomicadaptivemaxgradinputIfEvPT_S1_Pliiii_param_4];
+ld.param.u32 %r12, [_Z26atomicadaptivemaxgradinputIfEvPT_S1_Pliiii_param_5];
+ld.param.u32 %r13, [_Z26atomicadaptivemaxgradinputIfEvPT_S1_Pliiii_param_6];
+mov.u32 %r1, %tid.x;
+mov.u32 %r14, %ctaid.y;
+mov.u32 %r2, %ntid.y;
+mov.u32 %r15, %tid.y;
+mad.lo.s32 %r23, %r14, %r2, %r15;
+setp.ge.s32	%p1, %r23, %r12;
+@%p1 bra BB4_6;
+
+cvta.to.global.u64 %rd1, %rd7;
+cvta.to.global.u64 %rd2, %rd9;
+cvta.to.global.u64 %rd3, %rd8;
+mov.u32 %r4, %ntid.x;
+mov.u32 %r16, %nctaid.y;
+mul.lo.s32 %r5, %r16, %r2;
+mul.lo.s32 %r17, %r13, %r12;
+mov.u32 %r18, %ctaid.x;
+mul.lo.s32 %r19, %r17, %r18;
+cvt.s64.s32	%rd4, %r19;
+mul.lo.s32 %r20, %r11, %r10;
+mul.lo.s32 %r21, %r20, %r18;
+cvt.s64.s32	%rd5, %r21;
+
+BB4_2:
+setp.ge.s32	%p2, %r1, %r13;
+@%p2 bra BB4_5;
+
+mul.lo.s32 %r22, %r23, %r13;
+cvt.s64.s32	%rd10, %r22;
+add.s64 %rd6, %rd10, %rd4;
+mov.u32 %r24, %r1;
+
+BB4_4:
+mov.u32 %r7, %r24;
+cvt.s64.s32	%rd11, %r7;
+add.s64 %rd12, %rd6, %rd11;
+shl.b64 %rd13, %rd12, 2;
+add.s64 %rd14, %rd3, %rd13;
+shl.b64 %rd15, %rd12, 3;
+add.s64 %rd16, %rd2, %rd15;
+ld.global.f32 %f1, [%rd14];
+ld.global.s32 %rd17, [%rd16];
+add.s64 %rd18, %rd17, %rd5;
+shl.b64 %rd19, %rd18, 2;
+add.s64 %rd20, %rd1, %rd19;
+atom.global.add.f32 %f2, [%rd20], %f1;
+add.s32 %r8, %r7, %r4;
+setp.lt.s32	%p3, %r8, %r13;
+mov.u32 %r24, %r8;
+@%p3 bra BB4_4;
+
+BB4_5:
+add.s32 %r23, %r23, %r5;
+setp.lt.s32	%p4, %r23, %r12;
+@%p4 bra BB4_2;
+
+BB4_6:
+ret;
+}
+
+
+.visible .entry _Z20adaptivemaxgradinputIfEvPT_S1_Pliiii(
+.param .u64 _Z20adaptivemaxgradinputIfEvPT_S1_Pliiii_param_0,
+.param .u64 _Z20adaptivemaxgradinputIfEvPT_S1_Pliiii_param_1,
+.param .u64 _Z20adaptivemaxgradinputIfEvPT_S1_Pliiii_param_2,
+.param .u32 _Z20adaptivemaxgradinputIfEvPT_S1_Pliiii_param_3,
+.param .u32 _Z20adaptivemaxgradinputIfEvPT_S1_Pliiii_param_4,
+.param .u32 _Z20adaptivemaxgradinputIfEvPT_S1_Pliiii_param_5,
+.param .u32 _Z20adaptivemaxgradinputIfEvPT_S1_Pliiii_param_6
+)
+{
+.reg .pred %p<5>;
+.reg .f32 %f<4>;
+.reg .b32 %r<25>;
+.reg .b64 %rd<21>;
+
+
+ld.param.u64 %rd7, [_Z20adaptivemaxgradinputIfEvPT_S1_Pliiii_param_0];
+ld.param.u64 %rd8, [_Z20adaptivemaxgradinputIfEvPT_S1_Pliiii_param_1];
+ld.param.u64 %rd9, [_Z20adaptivemaxgradinputIfEvPT_S1_Pliiii_param_2];
+ld.param.u32 %r10, [_Z20adaptivemaxgradinputIfEvPT_S1_Pliiii_param_3];
+ld.param.u32 %r11, [_Z20adaptivemaxgradinputIfEvPT_S1_Pliiii_param_4];
+ld.param.u32 %r12, [_Z20adaptivemaxgradinputIfEvPT_S1_Pliiii_param_5];
+ld.param.u32 %r13, [_Z20adaptivemaxgradinputIfEvPT_S1_Pliiii_param_6];
+mov.u32 %r1, %tid.x;
+mov.u32 %r14, %ctaid.y;
+mov.u32 %r2, %ntid.y;
+mov.u32 %r15, %tid.y;
+mad.lo.s32 %r23, %r14, %r2, %r15;
+setp.ge.s32	%p1, %r23, %r12;
+@%p1 bra BB5_6;
+
+cvta.to.global.u64 %rd1, %rd7;
+cvta.to.global.u64 %rd2, %rd9;
+cvta.to.global.u64 %rd3, %rd8;
+mov.u32 %r4, %ntid.x;
+mov.u32 %r16, %nctaid.y;
+mul.lo.s32 %r5, %r16, %r2;
+mul.lo.s32 %r17, %r13, %r12;
+mov.u32 %r18, %ctaid.x;
+mul.lo.s32 %r19, %r17, %r18;
+cvt.s64.s32	%rd4, %r19;
+mul.lo.s32 %r20, %r11, %r10;
+mul.lo.s32 %r21, %r20, %r18;
+cvt.s64.s32	%rd5, %r21;
+
+BB5_2:
+setp.ge.s32	%p2, %r1, %r13;
+@%p2 bra BB5_5;
+
+mul.lo.s32 %r22, %r23, %r13;
+cvt.s64.s32	%rd10, %r22;
+add.s64 %rd6, %rd10, %rd4;
+mov.u32 %r24, %r1;
+
+BB5_4:
+mov.u32 %r7, %r24;
+cvt.s64.s32	%rd11, %r7;
+add.s64 %rd12, %rd6, %rd11;
+shl.b64 %rd13, %rd12, 2;
+add.s64 %rd14, %rd3, %rd13;
+shl.b64 %rd15, %rd12, 3;
+add.s64 %rd16, %rd2, %rd15;
+ld.global.s32 %rd17, [%rd16];
+add.s64 %rd18, %rd17, %rd5;
+shl.b64 %rd19, %rd18, 2;
+add.s64 %rd20, %rd1, %rd19;
+ld.global.f32 %f1, [%rd20];
+ld.global.f32 %f2, [%rd14];
+add.f32 %f3, %f2, %f1;
+st.global.f32 [%rd20], %f3;
+add.s32 %r8, %r7, %r4;
+setp.lt.s32	%p3, %r8, %r13;
+mov.u32 %r24, %r8;
+@%p3 bra BB5_4;
+
+BB5_5:
+add.s32 %r23, %r23, %r5;
+setp.lt.s32	%p4, %r23, %r12;
+@%p4 bra BB5_2;
+
+BB5_6:
+ret;
+}
+
+
+.visible .entry _Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll(
+.param .u64 _Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_0,
+.param .u64 _Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_1,
+.param .u64 _Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_2,
+.param .u32 _Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_3,
+.param .u32 _Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_4,
+.param .u32 _Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_5,
+.param .u32 _Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_6,
+.param .u64 _Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_7,
+.param .u64 _Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_8,
+.param .u64 _Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_9
+)
+{
+.reg .pred %p<11>;
+.reg .f32 %f<15>;
+.reg .b32 %r<72>;
+.reg .f64 %fd<22>;
+.reg .b64 %rd<36>;
+
+
+ld.param.u64 %rd7, [_Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_0];
+ld.param.u64 %rd8, [_Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_1];
+ld.param.u64 %rd9, [_Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_2];
+ld.param.u32 %r25, [_Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_3];
+ld.param.u32 %r26, [_Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_4];
+ld.param.u32 %r27, [_Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_5];
+ld.param.u32 %r28, [_Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_6];
+ld.param.u64 %rd10, [_Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_7];
+ld.param.u64 %rd11, [_Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_8];
+ld.param.u64 %rd12, [_Z15adaptivemaxpoolIdEvPT_S1_Pliiiilll_param_9];
+mov.u32 %r29, %ctaid.y;
+mov.u32 %r30, %ntid.y;
+mov.u32 %r31, %tid.y;
+mad.lo.s32 %r53, %r29, %r30, %r31;
+setp.ge.s32	%p1, %r53, %r27;
+@%p1 bra BB6_14;
+
+cvt.rn.f32.s32	%f1, %r27;
+cvt.rn.f32.s32	%f2, %r28;
+shl.b64 %rd1, %rd12, 3;
+cvta.to.global.u64 %rd17, %rd7;
+cvta.to.global.u64 %rd29, %rd8;
+cvta.to.global.u64 %rd32, %rd9;
+
+BB6_2:
+mov.u32 %r54, %tid.x;
+mul.lo.s32 %r33, %r53, %r25;
+cvt.rn.f32.s32	%f3, %r33;
+div.rn.f32 %f4, %f3, %f1;
+cvt.rmi.f32.f32	%f5, %f4;
+cvt.rzi.s32.f32	%r3, %f5;
+add.s32 %r34, %r53, 1;
+mul.lo.s32 %r35, %r34, %r25;
+cvt.rn.f32.s32	%f6, %r35;
+div.rn.f32 %f7, %f6, %f1;
+cvt.rpi.f32.f32	%f8, %f7;
+cvt.rzi.s32.f32	%r36, %f8;
+sub.s32 %r4, %r36, %r3;
+setp.ge.s32	%p2, %r54, %r28;
+@%p2 bra BB6_13;
+
+mul.wide.s32 %rd2, %r3, 8;
+mul.lo.s32 %r5, %r26, %r3;
+
+BB6_4:
+mul.lo.s32 %r38, %r54, %r26;
+cvt.rn.f32.s32	%f9, %r38;
+div.rn.f32 %f10, %f9, %f2;
+cvt.rmi.f32.f32	%f11, %f10;
+cvt.rzi.s32.f32	%r8, %f11;
+add.s32 %r39, %r54, 1;
+mul.lo.s32 %r40, %r39, %r26;
+cvt.rn.f32.s32	%f12, %r40;
+div.rn.f32 %f13, %f12, %f2;
+cvt.rpi.f32.f32	%f14, %f13;
+cvt.rzi.s32.f32	%r41, %f14;
+sub.s32 %r9, %r41, %r8;
+mov.u32 %r66, -1;
+mov.f64 %fd17, 0dFFEFFFFFFFFFFFFF;
+setp.lt.s32	%p3, %r4, 1;
+@%p3 bra BB6_12;
+
+cvt.s64.s32	%rd13, %r8;
+mul.lo.s64 %rd14, %rd12, %rd13;
+mov.u32 %r44, %ctaid.x;
+cvt.s64.s32	%rd15, %r44;
+mul.lo.s64 %rd16, %rd10, %rd15;
+shl.b64 %rd18, %rd16, 3;
+add.s64 %rd19, %rd17, %rd18;
+shl.b64 %rd20, %rd14, 3;
+add.s64 %rd3, %rd19, %rd20;
+add.s32 %r10, %r5, %r8;
+mov.u32 %r70, -1;
+mov.f64 %fd21, 0dFFEFFFFFFFFFFFFF;
+mov.u32 %r42, 0;
+mov.u32 %r57, %r42;
+
+BB6_6:
+mov.u32 %r62, %r70;
+mov.u32 %r67, %r62;
+mov.f64 %fd13, %fd21;
+mov.f64 %fd18, %fd13;
+mad.lo.s32 %r71, %r26, %r57, %r10;
+mul.wide.s32 %rd21, %r57, 8;
+add.s64 %rd22, %rd2, %rd21;
+mul.lo.s64 %rd23, %rd11, %rd22;
+add.s64 %rd35, %rd3, %rd23;
+setp.lt.s32	%p4, %r9, 1;
+mov.u32 %r56, %r42;
+mov.f64 %fd20, %fd18;
+mov.u32 %r69, %r67;
+@%p4 bra BB6_11;
+
+BB6_7:
+mov.u32 %r58, %r71;
+mov.u32 %r59, %r67;
+mov.u32 %r16, %r59;
+mov.u32 %r14, %r58;
+mov.f64 %fd10, %fd18;
+mov.f64 %fd2, %fd10;
+mov.u32 %r15, %r56;
+ld.global.f64 %fd3, [%rd35];
+setp.gt.f64	%p5, %fd3, %fd2;
+@%p5 bra BB6_9;
+
+abs.f64 %fd9, %fd3;
+setp.le.f64	%p6, %fd9, 0d7FF0000000000000;
+mov.f64 %fd19, %fd2;
+mov.u32 %r68, %r16;
+@%p6 bra BB6_10;
+
+BB6_9:
+mov.f64 %fd19, %fd3;
+mov.u32 %r68, %r14;
+
+BB6_10:
+mov.u32 %r60, %r68;
+mov.u32 %r67, %r60;
+mov.f64 %fd18, %fd19;
+add.s64 %rd35, %rd35, %rd1;
+add.s32 %r71, %r14, 1;
+add.s32 %r19, %r15, 1;
+setp.lt.s32	%p7, %r19, %r9;
+mov.u32 %r56, %r19;
+mov.f64 %fd20, %fd18;
+mov.u32 %r69, %r67;
+@%p7 bra BB6_7;
+
+BB6_11:
+mov.u32 %r70, %r69;
+mov.f64 %fd21, %fd20;
+add.s32 %r57, %r57, 1;
+setp.lt.s32	%p8, %r57, %r4;
+mov.f64 %fd17, %fd21;
+mov.u32 %r66, %r70;
+@%p8 bra BB6_6;
+
+BB6_12:
+mul.lo.s32 %r46, %r53, %r28;
+cvt.s64.s32	%rd24, %r46;
+mov.u32 %r47, %ctaid.x;
+mul.lo.s32 %r48, %r28, %r27;
+mul.lo.s32 %r49, %r48, %r47;
+cvt.s64.s32	%rd25, %r49;
+add.s64 %rd26, %rd24, %rd25;
+cvt.s64.s32	%rd27, %r54;
+add.s64 %rd28, %rd26, %rd27;
+shl.b64 %rd30, %rd28, 3;
+add.s64 %rd31, %rd29, %rd30;
+st.global.f64 [%rd31], %fd17;
+add.s64 %rd33, %rd32, %rd30;
+cvt.s64.s32	%rd34, %r66;
+st.global.u64 [%rd33], %rd34;
+mov.u32 %r50, %ntid.x;
+add.s32 %r54, %r54, %r50;
+setp.lt.s32	%p9, %r54, %r28;
+@%p9 bra BB6_4;
+
+BB6_13:
+mov.u32 %r51, %nctaid.y;
+mad.lo.s32 %r53, %r51, %r30, %r53;
+setp.lt.s32	%p10, %r53, %r27;
+@%p10 bra BB6_2;
+
+BB6_14:
+ret;
+}
+
+
+.visible .entry _Z26atomicadaptivemaxgradinputIdEvPT_S1_Pliiii(
+.param .u64 _Z26atomicadaptivemaxgradinputIdEvPT_S1_Pliiii_param_0,
+.param .u64 _Z26atomicadaptivemaxgradinputIdEvPT_S1_Pliiii_param_1,
+.param .u64 _Z26atomicadaptivemaxgradinputIdEvPT_S1_Pliiii_param_2,
+.param .u32 _Z26atomicadaptivemaxgradinputIdEvPT_S1_Pliiii_param_3,
+.param .u32 _Z26atomicadaptivemaxgradinputIdEvPT_S1_Pliiii_param_4,
+.param .u32 _Z26atomicadaptivemaxgradinputIdEvPT_S1_Pliiii_param_5,
+.param .u32 _Z26atomicadaptivemaxgradinputIdEvPT_S1_Pliiii_param_6
+)
+{
+.reg .pred %p<5>;
+.reg .b32 %r<25>;
+.reg .f64 %fd<3>;
+.reg .b64 %rd<20>;
+
+
+ld.param.u64 %rd7, [_Z26atomicadaptivemaxgradinputIdEvPT_S1_Pliiii_param_0];
+ld.param.u64 %rd8, [_Z26atomicadaptivemaxgradinputIdEvPT_S1_Pliiii_param_1];
+ld.param.u64 %rd9, [_Z26atomicadaptivemaxgradinputIdEvPT_S1_Pliiii_param_2];
+ld.param.u32 %r10, [_Z26atomicadaptivemaxgradinputIdEvPT_S1_Pliiii_param_3];
+ld.param.u32 %r11, [_Z26atomicadaptivemaxgradinputIdEvPT_S1_Pliiii_param_4];
+ld.param.u32 %r12, [_Z26atomicadaptivemaxgradinputIdEvPT_S1_Pliiii_param_5];
+ld.param.u32 %r13, [_Z26atomicadaptivemaxgradinputIdEvPT_S1_Pliiii_param_6];
+mov.u32 %r1, %tid.x;
+mov.u32 %r14, %ctaid.y;
+mov.u32 %r2, %ntid.y;
+mov.u32 %r15, %tid.y;
+mad.lo.s32 %r23, %r14, %r2, %r15;
+setp.ge.s32	%p1, %r23, %r12;
+@%p1 bra BB7_6;
+
+cvta.to.global.u64 %rd1, %rd7;
+cvta.to.global.u64 %rd2, %rd9;
+cvta.to.global.u64 %rd3, %rd8;
+mov.u32 %r4, %ntid.x;
+mov.u32 %r16, %nctaid.y;
+mul.lo.s32 %r5, %r16, %r2;
+mul.lo.s32 %r17, %r13, %r12;
+mov.u32 %r18, %ctaid.x;
+mul.lo.s32 %r19, %r17, %r18;
+cvt.s64.s32	%rd4, %r19;
+mul.lo.s32 %r20, %r11, %r10;
+mul.lo.s32 %r21, %r20, %r18;
+cvt.s64.s32	%rd5, %r21;
+
+BB7_2:
+setp.ge.s32	%p2, %r1, %r13;
+@%p2 bra BB7_5;
+
+mul.lo.s32 %r22, %r23, %r13;
+cvt.s64.s32	%rd10, %r22;
+add.s64 %rd6, %rd10, %rd4;
+mov.u32 %r24, %r1;
+
+BB7_4:
+mov.u32 %r7, %r24;
+cvt.s64.s32	%rd11, %r7;
+add.s64 %rd12, %rd6, %rd11;
+shl.b64 %rd13, %rd12, 3;
+add.s64 %rd14, %rd3, %rd13;
+add.s64 %rd15, %rd2, %rd13;
+ld.global.f64 %fd1, [%rd14];
+ld.global.s32 %rd16, [%rd15];
+add.s64 %rd17, %rd16, %rd5;
+shl.b64 %rd18, %rd17, 3;
+add.s64 %rd19, %rd1, %rd18;
+atom.global.add.f64 %fd2, [%rd19], %fd1;
+add.s32 %r8, %r7, %r4;
+setp.lt.s32	%p3, %r8, %r13;
+mov.u32 %r24, %r8;
+@%p3 bra BB7_4;
+
+BB7_5:
+add.s32 %r23, %r23, %r5;
+setp.lt.s32	%p4, %r23, %r12;
+@%p4 bra BB7_2;
+
+BB7_6:
+ret;
+}
+
+
+.visible .entry _Z20adaptivemaxgradinputIdEvPT_S1_Pliiii(
+.param .u64 _Z20adaptivemaxgradinputIdEvPT_S1_Pliiii_param_0,
+.param .u64 _Z20adaptivemaxgradinputIdEvPT_S1_Pliiii_param_1,
+.param .u64 _Z20adaptivemaxgradinputIdEvPT_S1_Pliiii_param_2,
+.param .u32 _Z20adaptivemaxgradinputIdEvPT_S1_Pliiii_param_3,
+.param .u32 _Z20adaptivemaxgradinputIdEvPT_S1_Pliiii_param_4,
+.param .u32 _Z20adaptivemaxgradinputIdEvPT_S1_Pliiii_param_5,
+.param .u32 _Z20adaptivemaxgradinputIdEvPT_S1_Pliiii_param_6
+)
+{
+.reg .pred %p<5>;
+.reg .b32 %r<25>;
+.reg .f64 %fd<4>;
+.reg .b64 %rd<20>;
+
+
+ld.param.u64 %rd7, [_Z20adaptivemaxgradinputIdEvPT_S1_Pliiii_param_0];
+ld.param.u64 %rd8, [_Z20adaptivemaxgradinputIdEvPT_S1_Pliiii_param_1];
+ld.param.u64 %rd9, [_Z20adaptivemaxgradinputIdEvPT_S1_Pliiii_param_2];
+ld.param.u32 %r10, [_Z20adaptivemaxgradinputIdEvPT_S1_Pliiii_param_3];
+ld.param.u32 %r11, [_Z20adaptivemaxgradinputIdEvPT_S1_Pliiii_param_4];
+ld.param.u32 %r12, [_Z20adaptivemaxgradinputIdEvPT_S1_Pliiii_param_5];
+ld.param.u32 %r13, [_Z20adaptivemaxgradinputIdEvPT_S1_Pliiii_param_6];
+mov.u32 %r1, %tid.x;
+mov.u32 %r14, %ctaid.y;
+mov.u32 %r2, %ntid.y;
+mov.u32 %r15, %tid.y;
+mad.lo.s32 %r23, %r14, %r2, %r15;
+setp.ge.s32	%p1, %r23, %r12;
+@%p1 bra BB8_6;
+
+cvta.to.global.u64 %rd1, %rd7;
+cvta.to.global.u64 %rd2, %rd9;
+cvta.to.global.u64 %rd3, %rd8;
+mov.u32 %r4, %ntid.x;
+mov.u32 %r16, %nctaid.y;
+mul.lo.s32 %r5, %r16, %r2;
+mul.lo.s32 %r17, %r13, %r12;
+mov.u32 %r18, %ctaid.x;
+mul.lo.s32 %r19, %r17, %r18;
+cvt.s64.s32	%rd4, %r19;
+mul.lo.s32 %r20, %r11, %r10;
+mul.lo.s32 %r21, %r20, %r18;
+cvt.s64.s32	%rd5, %r21;
+
+BB8_2:
+setp.ge.s32	%p2, %r1, %r13;
+@%p2 bra BB8_5;
+
+mul.lo.s32 %r22, %r23, %r13;
+cvt.s64.s32	%rd10, %r22;
+add.s64 %rd6, %rd10, %rd4;
+mov.u32 %r24, %r1;
+
+BB8_4:
+mov.u32 %r7, %r24;
+cvt.s64.s32	%rd11, %r7;
+add.s64 %rd12, %rd6, %rd11;
+shl.b64 %rd13, %rd12, 3;
+add.s64 %rd14, %rd3, %rd13;
+add.s64 %rd15, %rd2, %rd13;
+ld.global.s32 %rd16, [%rd15];
+add.s64 %rd17, %rd16, %rd5;
+shl.b64 %rd18, %rd17, 3;
+add.s64 %rd19, %rd1, %rd18;
+ld.global.f64 %fd1, [%rd19];
+ld.global.f64 %fd2, [%rd14];
+add.f64 %fd3, %fd2, %fd1;
+st.global.f64 [%rd19], %fd3;
+add.s32 %r8, %r7, %r4;
+setp.lt.s32	%p3, %r8, %r13;
+mov.u32 %r24, %r8;
+@%p3 bra BB8_4;
+
+BB8_5:
+add.s32 %r23, %r23, %r5;
+setp.lt.s32	%p4, %r23, %r12;
+@%p4 bra BB8_2;
+
+BB8_6:
+ret;
+}
+
+

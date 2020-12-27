@@ -1,0 +1,9 @@
+ptxas info    : 648 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe210FindKernelIlEEviiPKT_S3_Pii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210FindKernelIlEEviiPKT_S3_Pii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 24 bytes smem, 356 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe210FindKernelIiEEviiPKT_S3_Pii' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe210FindKernelIiEEviiPKT_S3_Pii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 24 bytes smem, 356 bytes cmem[0]

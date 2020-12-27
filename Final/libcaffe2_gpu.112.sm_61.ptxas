@@ -1,0 +1,25 @@
+ptxas info    : 521 bytes gmem
+ptxas info    : Compiling entry function '_Z40SpatialReflectionPadding_updateGradInputIfEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialReflectionPadding_updateGradInputIfEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z40SpatialReflectionPadding_updateGradInputIdEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialReflectionPadding_updateGradInputIdEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z40SpatialReflectionPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_iiii' for 'sm_61'
+ptxas info    : Function properties for _Z40SpatialReflectionPadding_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z37SpatialReflectionPadding_updateOutputIfEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiii' for 'sm_61'
+ptxas info    : Function properties for _Z37SpatialReflectionPadding_updateOutputIfEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z37SpatialReflectionPadding_updateOutputIdEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiii' for 'sm_61'
+ptxas info    : Function properties for _Z37SpatialReflectionPadding_updateOutputIdEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z37SpatialReflectionPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_iiii' for 'sm_61'
+ptxas info    : Function properties for _Z37SpatialReflectionPadding_updateOutputIN3c104HalfEEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_iiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 416 bytes cmem[0]

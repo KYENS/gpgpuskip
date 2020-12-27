@@ -1,0 +1,13 @@
+ptxas info    : 920 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe223SparseMomentumSGDKernelIiEEvmmfbPfS1_PKT_PKfS1_S6_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe223SparseMomentumSGDKernelIiEEvmmfbPfS1_PKT_PKfS1_S6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe217MomentumSGDKernelEiPKfS1_PfS2_S1_fbS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe217MomentumSGDKernelEiPKfS1_PfS2_S1_fbS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe223SparseMomentumSGDKernelIlEEvmmfbPfS1_PKT_PKfS1_S6_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe223SparseMomentumSGDKernelIlEEvmmfbPfS1_PKT_PKfS1_S6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 392 bytes cmem[0]

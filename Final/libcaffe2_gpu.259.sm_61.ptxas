@@ -1,0 +1,37 @@
+ptxas info    : 785 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe266_GLOBAL__N__42_tmpxft_00006b74_00000000_7_arg_ops_cpp1_ii_9e2dba0920ComputeArgCUDAKernelIlN3cub6ArgMinEEEviiNS_12FixedDivisorIiEET0_T_PKS7_Pl' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe266_GLOBAL__N__42_tmpxft_00006b74_00000000_7_arg_ops_cpp1_ii_9e2dba0920ComputeArgCUDAKernelIlN3cub6ArgMinEEEviiNS_12FixedDivisorIiEET0_T_PKS7_Pl
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 88 bytes smem, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe266_GLOBAL__N__42_tmpxft_00006b74_00000000_7_arg_ops_cpp1_ii_9e2dba0920ComputeArgCUDAKernelIlN3cub6ArgMaxEEEviiNS_12FixedDivisorIiEET0_T_PKS7_Pl' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe266_GLOBAL__N__42_tmpxft_00006b74_00000000_7_arg_ops_cpp1_ii_9e2dba0920ComputeArgCUDAKernelIlN3cub6ArgMaxEEEviiNS_12FixedDivisorIiEET0_T_PKS7_Pl
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 88 bytes smem, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe266_GLOBAL__N__42_tmpxft_00006b74_00000000_7_arg_ops_cpp1_ii_9e2dba0920ComputeArgCUDAKernelIdN3cub6ArgMinEEEviiNS_12FixedDivisorIiEET0_T_PKS7_Pl' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe266_GLOBAL__N__42_tmpxft_00006b74_00000000_7_arg_ops_cpp1_ii_9e2dba0920ComputeArgCUDAKernelIdN3cub6ArgMinEEEviiNS_12FixedDivisorIiEET0_T_PKS7_Pl
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 88 bytes smem, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe266_GLOBAL__N__42_tmpxft_00006b74_00000000_7_arg_ops_cpp1_ii_9e2dba0920ComputeArgCUDAKernelIdN3cub6ArgMaxEEEviiNS_12FixedDivisorIiEET0_T_PKS7_Pl' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe266_GLOBAL__N__42_tmpxft_00006b74_00000000_7_arg_ops_cpp1_ii_9e2dba0920ComputeArgCUDAKernelIdN3cub6ArgMaxEEEviiNS_12FixedDivisorIiEET0_T_PKS7_Pl
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 88 bytes smem, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe266_GLOBAL__N__42_tmpxft_00006b74_00000000_7_arg_ops_cpp1_ii_9e2dba0920ComputeArgCUDAKernelIfN3cub6ArgMinEEEviiNS_12FixedDivisorIiEET0_T_PKS7_Pl' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe266_GLOBAL__N__42_tmpxft_00006b74_00000000_7_arg_ops_cpp1_ii_9e2dba0920ComputeArgCUDAKernelIfN3cub6ArgMinEEEviiNS_12FixedDivisorIiEET0_T_PKS7_Pl
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 44 bytes smem, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe266_GLOBAL__N__42_tmpxft_00006b74_00000000_7_arg_ops_cpp1_ii_9e2dba0920ComputeArgCUDAKernelIfN3cub6ArgMaxEEEviiNS_12FixedDivisorIiEET0_T_PKS7_Pl' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe266_GLOBAL__N__42_tmpxft_00006b74_00000000_7_arg_ops_cpp1_ii_9e2dba0920ComputeArgCUDAKernelIfN3cub6ArgMaxEEEviiNS_12FixedDivisorIiEET0_T_PKS7_Pl
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 44 bytes smem, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe266_GLOBAL__N__42_tmpxft_00006b74_00000000_7_arg_ops_cpp1_ii_9e2dba0920ComputeArgCUDAKernelIiN3cub6ArgMinEEEviiNS_12FixedDivisorIiEET0_T_PKS7_Pl' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe266_GLOBAL__N__42_tmpxft_00006b74_00000000_7_arg_ops_cpp1_ii_9e2dba0920ComputeArgCUDAKernelIiN3cub6ArgMinEEEviiNS_12FixedDivisorIiEET0_T_PKS7_Pl
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 44 bytes smem, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe266_GLOBAL__N__42_tmpxft_00006b74_00000000_7_arg_ops_cpp1_ii_9e2dba0920ComputeArgCUDAKernelIiN3cub6ArgMaxEEEviiNS_12FixedDivisorIiEET0_T_PKS7_Pl' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe266_GLOBAL__N__42_tmpxft_00006b74_00000000_7_arg_ops_cpp1_ii_9e2dba0920ComputeArgCUDAKernelIiN3cub6ArgMaxEEEviiNS_12FixedDivisorIiEET0_T_PKS7_Pl
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 44 bytes smem, 376 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]

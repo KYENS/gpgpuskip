@@ -1,0 +1,133 @@
+ptxas info    : 711 bytes gmem
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004226cunn_SpatialSoftMaxForwardIfffNS1_22SoftMaxForwardEpilogueEEEvPT1_PT_jjj' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004226cunn_SpatialSoftMaxForwardIfffNS1_22SoftMaxForwardEpilogueEEEvPT1_PT_jjj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 348 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004226cunn_SpatialSoftMaxForwardIfffNS1_25LogSoftMaxForwardEpilogueEEEvPT1_PT_jjj' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004226cunn_SpatialSoftMaxForwardIfffNS1_25LogSoftMaxForwardEpilogueEEEvPT1_PT_jjj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 348 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004227cunn_SpatialSoftMaxBackwardIfffNS1_23SoftMaxBackwardEpilogueEEEvPT_PT1_S7_jjj' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004227cunn_SpatialSoftMaxBackwardIfffNS1_23SoftMaxBackwardEpilogueEEEvPT_PT1_S7_jjj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 356 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004227cunn_SpatialSoftMaxBackwardIfffNS1_26LogSoftMaxBackwardEpilogueEEEvPT_PT1_S7_jjj' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004227cunn_SpatialSoftMaxBackwardIfffNS1_26LogSoftMaxBackwardEpilogueEEEvPT_PT1_S7_jjj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 356 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004219cunn_SoftMaxForwardILi2EfffNS1_22SoftMaxForwardEpilogueEEEvPT2_PT0_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004219cunn_SoftMaxForwardILi2EfffNS1_22SoftMaxForwardEpilogueEEEvPT2_PT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 340 bytes cmem[0], 36 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004219cunn_SoftMaxForwardILi2EfffNS1_25LogSoftMaxForwardEpilogueEEEvPT2_PT0_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004219cunn_SoftMaxForwardILi2EfffNS1_25LogSoftMaxForwardEpilogueEEEvPT2_PT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 340 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004220cunn_SoftMaxBackwardILi2EfffNS1_23SoftMaxBackwardEpilogueEEEvPT0_PT2_S7_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004220cunn_SoftMaxBackwardILi2EfffNS1_23SoftMaxBackwardEpilogueEEEvPT0_PT2_S7_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 348 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004220cunn_SoftMaxBackwardILi2EfffNS1_26LogSoftMaxBackwardEpilogueEEEvPT0_PT2_S7_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004220cunn_SoftMaxBackwardILi2EfffNS1_26LogSoftMaxBackwardEpilogueEEEvPT0_PT2_S7_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 348 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004226cunn_SpatialSoftMaxForwardIN3c104HalfEffNS1_22SoftMaxForwardEpilogueEEEvPT1_PT_jjj' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004226cunn_SpatialSoftMaxForwardIN3c104HalfEffNS1_22SoftMaxForwardEpilogueEEEvPT1_PT_jjj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 348 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004226cunn_SpatialSoftMaxForwardIN3c104HalfEffNS1_25LogSoftMaxForwardEpilogueEEEvPT1_PT_jjj' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004226cunn_SpatialSoftMaxForwardIN3c104HalfEffNS1_25LogSoftMaxForwardEpilogueEEEvPT1_PT_jjj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 348 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004227cunn_SpatialSoftMaxBackwardIN3c104HalfEffNS1_23SoftMaxBackwardEpilogueEEEvPT_PT1_S9_jjj' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004227cunn_SpatialSoftMaxBackwardIN3c104HalfEffNS1_23SoftMaxBackwardEpilogueEEEvPT_PT1_S9_jjj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 356 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004227cunn_SpatialSoftMaxBackwardIN3c104HalfEffNS1_26LogSoftMaxBackwardEpilogueEEEvPT_PT1_S9_jjj' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004227cunn_SpatialSoftMaxBackwardIN3c104HalfEffNS1_26LogSoftMaxBackwardEpilogueEEEvPT_PT1_S9_jjj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 356 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004219cunn_SoftMaxForwardILi2EN3c104HalfEffNS1_22SoftMaxForwardEpilogueEEEvPT2_PT0_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004219cunn_SoftMaxForwardILi2EN3c104HalfEffNS1_22SoftMaxForwardEpilogueEEEvPT2_PT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 340 bytes cmem[0], 36 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004219cunn_SoftMaxForwardILi2EN3c104HalfEffNS1_25LogSoftMaxForwardEpilogueEEEvPT2_PT0_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004219cunn_SoftMaxForwardILi2EN3c104HalfEffNS1_25LogSoftMaxForwardEpilogueEEEvPT2_PT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 340 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004220cunn_SoftMaxBackwardILi2EN3c104HalfEffNS1_23SoftMaxBackwardEpilogueEEEvPT0_PT2_S9_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004220cunn_SoftMaxBackwardILi2EN3c104HalfEffNS1_23SoftMaxBackwardEpilogueEEEvPT0_PT2_S9_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 348 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004220cunn_SoftMaxBackwardILi2EN3c104HalfEffNS1_26LogSoftMaxBackwardEpilogueEEEvPT0_PT2_S9_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004220cunn_SoftMaxBackwardILi2EN3c104HalfEffNS1_26LogSoftMaxBackwardEpilogueEEEvPT0_PT2_S9_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 348 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004226cunn_SpatialSoftMaxForwardIN3c104HalfEfS4_NS1_22SoftMaxForwardEpilogueEEEvPT1_PT_jjj' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004226cunn_SpatialSoftMaxForwardIN3c104HalfEfS4_NS1_22SoftMaxForwardEpilogueEEEvPT1_PT_jjj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 348 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004226cunn_SpatialSoftMaxForwardIN3c104HalfEfS4_NS1_25LogSoftMaxForwardEpilogueEEEvPT1_PT_jjj' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004226cunn_SpatialSoftMaxForwardIN3c104HalfEfS4_NS1_25LogSoftMaxForwardEpilogueEEEvPT1_PT_jjj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 348 bytes cmem[0], 52 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004227cunn_SpatialSoftMaxBackwardIN3c104HalfEfS4_NS1_23SoftMaxBackwardEpilogueEEEvPT_PT1_S9_jjj' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004227cunn_SpatialSoftMaxBackwardIN3c104HalfEfS4_NS1_23SoftMaxBackwardEpilogueEEEvPT_PT1_S9_jjj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 356 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004227cunn_SpatialSoftMaxBackwardIN3c104HalfEfS4_NS1_26LogSoftMaxBackwardEpilogueEEEvPT_PT1_S9_jjj' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004227cunn_SpatialSoftMaxBackwardIN3c104HalfEfS4_NS1_26LogSoftMaxBackwardEpilogueEEEvPT_PT1_S9_jjj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 356 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004219cunn_SoftMaxForwardILi2EN3c104HalfEfS4_NS1_22SoftMaxForwardEpilogueEEEvPT2_PT0_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004219cunn_SoftMaxForwardILi2EN3c104HalfEfS4_NS1_22SoftMaxForwardEpilogueEEEvPT2_PT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 340 bytes cmem[0], 36 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004219cunn_SoftMaxForwardILi2EN3c104HalfEfS4_NS1_25LogSoftMaxForwardEpilogueEEEvPT2_PT0_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004219cunn_SoftMaxForwardILi2EN3c104HalfEfS4_NS1_25LogSoftMaxForwardEpilogueEEEvPT2_PT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 340 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004220cunn_SoftMaxBackwardILi2EN3c104HalfEfS4_NS1_23SoftMaxBackwardEpilogueEEEvPT0_PT2_S9_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004220cunn_SoftMaxBackwardILi2EN3c104HalfEfS4_NS1_23SoftMaxBackwardEpilogueEEEvPT0_PT2_S9_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 348 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004220cunn_SoftMaxBackwardILi2EN3c104HalfEfS4_NS1_26LogSoftMaxBackwardEpilogueEEEvPT0_PT2_S9_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004220cunn_SoftMaxBackwardILi2EN3c104HalfEfS4_NS1_26LogSoftMaxBackwardEpilogueEEEvPT0_PT2_S9_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 348 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004226cunn_SpatialSoftMaxForwardIdddNS1_22SoftMaxForwardEpilogueEEEvPT1_PT_jjj' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004226cunn_SpatialSoftMaxForwardIdddNS1_22SoftMaxForwardEpilogueEEEvPT1_PT_jjj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 36 registers, 348 bytes cmem[0], 136 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004226cunn_SpatialSoftMaxForwardIdddNS1_25LogSoftMaxForwardEpilogueEEEvPT1_PT_jjj' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004226cunn_SpatialSoftMaxForwardIdddNS1_25LogSoftMaxForwardEpilogueEEEvPT1_PT_jjj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 348 bytes cmem[0], 208 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004227cunn_SpatialSoftMaxBackwardIdddNS1_23SoftMaxBackwardEpilogueEEEvPT_PT1_S7_jjj' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004227cunn_SpatialSoftMaxBackwardIdddNS1_23SoftMaxBackwardEpilogueEEEvPT_PT1_S7_jjj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 356 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004227cunn_SpatialSoftMaxBackwardIdddNS1_26LogSoftMaxBackwardEpilogueEEEvPT_PT1_S7_jjj' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004227cunn_SpatialSoftMaxBackwardIdddNS1_26LogSoftMaxBackwardEpilogueEEEvPT_PT1_S7_jjj
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 356 bytes cmem[0], 112 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004220cunn_SoftMaxBackwardILi2EdddNS1_23SoftMaxBackwardEpilogueEEEvPT0_PT2_S7_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004220cunn_SoftMaxBackwardILi2EdddNS1_23SoftMaxBackwardEpilogueEEEvPT0_PT2_S7_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 348 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004220cunn_SoftMaxBackwardILi2EdddNS1_26LogSoftMaxBackwardEpilogueEEEvPT0_PT2_S7_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004220cunn_SoftMaxBackwardILi2EdddNS1_26LogSoftMaxBackwardEpilogueEEEvPT0_PT2_S7_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 348 bytes cmem[0], 120 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004219cunn_SoftMaxForwardILi2EdddNS1_22SoftMaxForwardEpilogueEEEvPT2_PT0_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004219cunn_SoftMaxForwardILi2EdddNS1_22SoftMaxForwardEpilogueEEEvPT2_PT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 33 registers, 340 bytes cmem[0], 148 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004219cunn_SoftMaxForwardILi2EdddNS1_25LogSoftMaxForwardEpilogueEEEvPT2_PT0_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native66_GLOBAL__N__42_tmpxft_00005612_00000000_7_SoftMax_cpp1_ii_a331004219cunn_SoftMaxForwardILi2EdddNS1_25LogSoftMaxForwardEpilogueEEEvPT2_PT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 340 bytes cmem[0], 216 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]

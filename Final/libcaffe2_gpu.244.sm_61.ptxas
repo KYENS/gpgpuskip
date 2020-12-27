@@ -1,0 +1,9 @@
+ptxas info    : 768 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe282_GLOBAL__N__58_tmpxft_00006870_00000000_7_multi_class_accuracy_op_cpp1_ii_4f21d0ae30MultiClassAccuracyDivideKernelEiPfPKi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe282_GLOBAL__N__58_tmpxft_00006870_00000000_7_multi_class_accuracy_op_cpp1_ii_4f21d0ae30MultiClassAccuracyDivideKernelEiPfPKi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 344 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe282_GLOBAL__N__58_tmpxft_00006870_00000000_7_multi_class_accuracy_op_cpp1_ii_4f21d0ae24MultiClassAccuracyKernelEiiPKfPKiPfPi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe282_GLOBAL__N__58_tmpxft_00006870_00000000_7_multi_class_accuracy_op_cpp1_ii_4f21d0ae24MultiClassAccuracyKernelEiiPKfPKiPfPi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 360 bytes cmem[0]

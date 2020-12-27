@@ -1,0 +1,401 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refIdddLi11ELi16ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refIdddLi11ELi16ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valI7double2S0_S0_Li1ELi16ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valI7double2S0_S0_Li1ELi16ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valIdddLi128ELi8ELi4ELi4ELi11EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valIdddLi128ELi8ELi4ELi4ELi11EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 73 registers, 5120 bytes smem, 400 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valIdddLi11ELi2ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valIdddLi11ELi2ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valI7double2S0_S0_Li128ELi4ELi4ELi4ELi11EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valI7double2S0_S0_Li128ELi4ELi4ELi4ELi11EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 110 registers, 10240 bytes smem, 416 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valIdddLi128ELi1ELi4ELi4ELi11EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valIdddLi128ELi1ELi4ELi4ELi11EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 73 registers, 5120 bytes smem, 400 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valI7double2S0_S0_Li128ELi1ELi4ELi4ELi11EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valI7double2S0_S0_Li128ELi1ELi4ELi4ELi11EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 110 registers, 10240 bytes smem, 416 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refI7double2S0_S0_Li1ELi4ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refI7double2S0_S0_Li1ELi4ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valIdddLi128ELi1ELi2ELi2ELi11EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valIdddLi128ELi1ELi2ELi2ELi11EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 62 registers, 3072 bytes smem, 400 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refIdddLi1ELi1ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refIdddLi1ELi1ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refI7double2S0_S0_Li1ELi8ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refI7double2S0_S0_Li1ELi8ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valIdddLi128ELi4ELi4ELi4ELi11EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valIdddLi128ELi4ELi4ELi4ELi11EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 73 registers, 5120 bytes smem, 400 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17gemv2T_kernel_refI7double2S0_S0_Li128ELi16ELi4ELi4ELb1EEviiPKT1_PKT_iS6_iS3_PT0_i' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2T_kernel_refI7double2S0_S0_Li128ELi16ELi4ELi4ELb1EEviiPKT1_PKT_iS6_iS3_PT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 10240 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refI7double2S0_S0_Li1ELi1ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refI7double2S0_S0_Li1ELi1ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2T_kernel_refIdddLi128ELi16ELi2ELi2ELb1EEviiPKT1_PKT_iS5_iS2_PT0_i' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2T_kernel_refIdddLi128ELi16ELi2ELi2ELb1EEviiPKT1_PKT_iS5_iS2_PT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 3072 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valIdddLi1ELi16ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valIdddLi1ELi16ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valI7double2S0_S0_Li128ELi16ELi4ELi4ELi11EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valI7double2S0_S0_Li128ELi16ELi4ELi4ELi11EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 10240 bytes smem, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valIdddLi128ELi2ELi4ELi4ELi11EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valIdddLi128ELi2ELi4ELi4ELi11EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 73 registers, 5120 bytes smem, 400 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refIdddLi1ELi4ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refIdddLi1ELi4ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valI7double2S0_S0_Li11ELi2ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valI7double2S0_S0_Li11ELi2ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valIdddLi128ELi32ELi4ELi4ELi11EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valIdddLi128ELi32ELi4ELi4ELi11EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, 5120 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valI7double2S0_S0_Li128ELi2ELi4ELi4ELi11EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valI7double2S0_S0_Li128ELi2ELi4ELi4ELi11EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 110 registers, 10240 bytes smem, 416 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17gemv2T_kernel_refIdddLi128ELi16ELi4ELi4ELb1EEviiPKT1_PKT_iS5_iS2_PT0_i' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2T_kernel_refIdddLi128ELi16ELi4ELi4ELb1EEviiPKT1_PKT_iS5_iS2_PT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 5120 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refI7double2S0_S0_Li11ELi16ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refI7double2S0_S0_Li11ELi16ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refIdddLi1ELi8ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refIdddLi1ELi8ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refIdddLi11ELi32ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refIdddLi11ELi32ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valI7double2S0_S0_Li1ELi32ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valI7double2S0_S0_Li1ELi32ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refIdddLi128ELi8ELi4ELi4ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refIdddLi128ELi8ELi4ELi4ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 5120 bytes smem, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valIdddLi11ELi4ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valIdddLi11ELi4ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refI7double2S0_S0_Li128ELi4ELi4ELi4ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refI7double2S0_S0_Li128ELi4ELi4ELi4ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 110 registers, 10240 bytes smem, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refIdddLi128ELi1ELi4ELi4ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refIdddLi128ELi1ELi4ELi4ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 5120 bytes smem, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refI7double2S0_S0_Li128ELi1ELi4ELi4ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refI7double2S0_S0_Li128ELi1ELi4ELi4ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 114 registers, 10240 bytes smem, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refI7double2S0_S0_Li11ELi8ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refI7double2S0_S0_Li11ELi8ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refIdddLi128ELi1ELi2ELi2ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refIdddLi128ELi1ELi2ELi2ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 60 registers, 3072 bytes smem, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refIdddLi1ELi2ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refIdddLi1ELi2ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valI7double2S0_S0_Li11ELi1ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valI7double2S0_S0_Li11ELi1ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refIdddLi128ELi4ELi4ELi4ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refIdddLi128ELi4ELi4ELi4ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 5120 bytes smem, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17gemv2T_kernel_refI7double2S0_S0_Li128ELi16ELi4ELi4ELb0EEviiPKT1_PKT_iS6_iS3_PT0_i' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2T_kernel_refI7double2S0_S0_Li128ELi16ELi4ELi4ELb0EEviiPKT1_PKT_iS6_iS3_PT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 10240 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refI7double2S0_S0_Li1ELi2ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refI7double2S0_S0_Li1ELi2ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2T_kernel_refIdddLi128ELi16ELi2ELi2ELb0EEviiPKT1_PKT_iS5_iS2_PT0_i' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2T_kernel_refIdddLi128ELi16ELi2ELi2ELb0EEviiPKT1_PKT_iS5_iS2_PT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 3072 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valIdddLi1ELi32ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valIdddLi1ELi32ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refI7double2S0_S0_Li128ELi16ELi4ELi4ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refI7double2S0_S0_Li128ELi16ELi4ELi4ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 10240 bytes smem, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refIdddLi128ELi2ELi4ELi4ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refIdddLi128ELi2ELi4ELi4ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 5120 bytes smem, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refIdddLi11ELi8ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refIdddLi11ELi8ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valI7double2S0_S0_Li11ELi4ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valI7double2S0_S0_Li11ELi4ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refIdddLi128ELi32ELi4ELi4ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refIdddLi128ELi32ELi4ELi4ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 5120 bytes smem, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refI7double2S0_S0_Li128ELi2ELi4ELi4ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refI7double2S0_S0_Li128ELi2ELi4ELi4ELi11EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 110 registers, 10240 bytes smem, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17gemv2T_kernel_refIdddLi128ELi16ELi4ELi4ELb0EEviiPKT1_PKT_iS5_iS2_PT0_i' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2T_kernel_refIdddLi128ELi16ELi4ELi4ELb0EEviiPKT1_PKT_iS5_iS2_PT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 5120 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refI7double2S0_S0_Li11ELi32ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refI7double2S0_S0_Li11ELi32ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valIdddLi11ELi1ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valIdddLi11ELi1ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refIdddLi1ELi16ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refIdddLi1ELi16ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valI7double2S0_S0_Li11ELi8ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valI7double2S0_S0_Li11ELi8ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valIdddLi128ELi8ELi4ELi4ELi1EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valIdddLi128ELi8ELi4ELi4ELi1EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 70 registers, 5120 bytes smem, 400 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valIdddLi1ELi2ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valIdddLi1ELi2ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valI7double2S0_S0_Li128ELi4ELi4ELi4ELi1EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valI7double2S0_S0_Li128ELi4ELi4ELi4ELi1EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 106 registers, 10240 bytes smem, 416 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valIdddLi128ELi1ELi4ELi4ELi1EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valIdddLi128ELi1ELi4ELi4ELi1EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 70 registers, 5120 bytes smem, 400 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valI7double2S0_S0_Li128ELi1ELi4ELi4ELi1EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valI7double2S0_S0_Li128ELi1ELi4ELi4ELi1EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 110 registers, 10240 bytes smem, 416 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refI7double2S0_S0_Li11ELi2ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refI7double2S0_S0_Li11ELi2ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valIdddLi128ELi1ELi2ELi2ELi1EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valIdddLi128ELi1ELi2ELi2ELi1EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 58 registers, 3072 bytes smem, 400 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valIdddLi11ELi32ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valIdddLi11ELi32ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valI7double2S0_S0_Li1ELi8ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valI7double2S0_S0_Li1ELi8ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valIdddLi128ELi4ELi4ELi4ELi1EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valIdddLi128ELi4ELi4ELi4ELi1EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 70 registers, 5120 bytes smem, 400 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17gemv2T_kernel_valI7double2S0_S0_Li128ELi16ELi4ELi4ELb1EEviiT1_PKT_iS4_iS1_PT0_i' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2T_kernel_valI7double2S0_S0_Li128ELi16ELi4ELi4ELb1EEviiT1_PKT_iS4_iS1_PT0_i
+    24 bytes stack frame, 16 bytes spill stores, 16 bytes spill loads
+ptxas info    : Used 32 registers, 10240 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valI7double2S0_S0_Li11ELi32ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valI7double2S0_S0_Li11ELi32ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2T_kernel_valIdddLi128ELi16ELi2ELi2ELb1EEviiT1_PKT_iS3_iS0_PT0_i' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2T_kernel_valIdddLi128ELi16ELi2ELi2ELb1EEviiT1_PKT_iS3_iS0_PT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 3072 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valIdddLi11ELi8ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valIdddLi11ELi8ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valI7double2S0_S0_Li128ELi16ELi4ELi4ELi1EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valI7double2S0_S0_Li128ELi16ELi4ELi4ELi1EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 10240 bytes smem, 416 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valIdddLi128ELi2ELi4ELi4ELi1EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valIdddLi128ELi2ELi4ELi4ELi1EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 70 registers, 5120 bytes smem, 400 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refIdddLi11ELi2ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refIdddLi11ELi2ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valI7double2S0_S0_Li1ELi2ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valI7double2S0_S0_Li1ELi2ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valIdddLi128ELi32ELi4ELi4ELi1EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valIdddLi128ELi32ELi4ELi4ELi1EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 34 registers, 5120 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_valI7double2S0_S0_Li128ELi2ELi4ELi4ELi1EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_valI7double2S0_S0_Li128ELi2ELi4ELi4ELi1EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 106 registers, 10240 bytes smem, 416 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17gemv2T_kernel_valIdddLi128ELi16ELi4ELi4ELb1EEviiT1_PKT_iS3_iS0_PT0_i' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2T_kernel_valIdddLi128ELi16ELi4ELi4ELb1EEviiT1_PKT_iS3_iS0_PT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 5120 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refI7double2S0_S0_Li1ELi16ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refI7double2S0_S0_Li1ELi16ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valIdddLi1ELi8ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valIdddLi1ELi8ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refIdddLi1ELi32ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refIdddLi1ELi32ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valI7double2S0_S0_Li11ELi16ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valI7double2S0_S0_Li11ELi16ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refIdddLi128ELi8ELi4ELi4ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refIdddLi128ELi8ELi4ELi4ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 5120 bytes smem, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valIdddLi1ELi4ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valIdddLi1ELi4ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refI7double2S0_S0_Li128ELi4ELi4ELi4ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refI7double2S0_S0_Li128ELi4ELi4ELi4ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 110 registers, 10240 bytes smem, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refIdddLi128ELi1ELi4ELi4ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refIdddLi128ELi1ELi4ELi4ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 5120 bytes smem, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refI7double2S0_S0_Li128ELi1ELi4ELi4ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refI7double2S0_S0_Li128ELi1ELi4ELi4ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 114 registers, 10240 bytes smem, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refI7double2S0_S0_Li11ELi4ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refI7double2S0_S0_Li11ELi4ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refIdddLi128ELi1ELi2ELi2ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refIdddLi128ELi1ELi2ELi2ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 60 registers, 3072 bytes smem, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refIdddLi11ELi1ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refIdddLi11ELi1ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valI7double2S0_S0_Li1ELi1ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valI7double2S0_S0_Li1ELi1ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refIdddLi128ELi4ELi4ELi4ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refIdddLi128ELi4ELi4ELi4ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 5120 bytes smem, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17gemv2T_kernel_valI7double2S0_S0_Li128ELi16ELi4ELi4ELb0EEviiT1_PKT_iS4_iS1_PT0_i' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2T_kernel_valI7double2S0_S0_Li128ELi16ELi4ELi4ELb0EEviiT1_PKT_iS4_iS1_PT0_i
+    24 bytes stack frame, 16 bytes spill stores, 16 bytes spill loads
+ptxas info    : Used 32 registers, 10240 bytes smem, 412 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refI7double2S0_S0_Li11ELi1ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refI7double2S0_S0_Li11ELi1ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2T_kernel_valIdddLi128ELi16ELi2ELi2ELb0EEviiT1_PKT_iS3_iS0_PT0_i' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2T_kernel_valIdddLi128ELi16ELi2ELi2ELb0EEviiT1_PKT_iS3_iS0_PT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 3072 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valIdddLi11ELi16ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valIdddLi11ELi16ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refI7double2S0_S0_Li128ELi16ELi4ELi4ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refI7double2S0_S0_Li128ELi16ELi4ELi4ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 110 registers, 10240 bytes smem, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refIdddLi128ELi2ELi4ELi4ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refIdddLi128ELi2ELi4ELi4ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 5120 bytes smem, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refIdddLi11ELi4ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refIdddLi11ELi4ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valI7double2S0_S0_Li1ELi4ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valI7double2S0_S0_Li1ELi4ELi4ELi1024EEvT1_S1_20cublasGemv2Params_v2IT_T0_S1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refIdddLi128ELi32ELi4ELi4ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refIdddLi128ELi32ELi4ELi4ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 5120 bytes smem, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gemv2N_kernel_refI7double2S0_S0_Li128ELi2ELi4ELi4ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2N_kernel_refI7double2S0_S0_Li128ELi2ELi4ELi4ELi1EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 110 registers, 10240 bytes smem, 384 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z17gemv2T_kernel_valIdddLi128ELi16ELi4ELi4ELb0EEviiT1_PKT_iS3_iS0_PT0_i' for 'sm_50'
+ptxas info    : Function properties for _Z17gemv2T_kernel_valIdddLi128ELi16ELi4ELi4ELb0EEviiT1_PKT_iS3_iS0_PT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 5120 bytes smem, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_refI7double2S0_S0_Li1ELi32ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_refI7double2S0_S0_Li1ELi32ELi4ELi1024EEv20cublasGemv2Params_v2IT_T0_T1_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z18gemvNSP_kernel_valIdddLi1ELi1ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E' for 'sm_50'
+ptxas info    : Function properties for _Z18gemvNSP_kernel_valIdddLi1ELi1ELi4ELi1024EEvT1_S0_20cublasGemv2Params_v2IT_T0_S0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 400 bytes cmem[0]

@@ -1,0 +1,161 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z21gemmSN_TN_kernel_halfI6__halfS0_Li128ELi2ELi2ELi4ELi6EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_TN_kernel_halfI6__halfS0_Li128ELi2ELi2ELi4ELi6EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi8ELi4ELi8ELi6EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi8ELi4ELi8ELi6EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi4ELi4ELi8ELi6EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi4ELi4ELi8ELi6EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li128ELi2ELi2ELi8ELi6EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li128ELi2ELi2ELi8ELi6EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_TN_kernel_halfI6__halfS0_Li256ELi8ELi2ELi4ELi6EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_TN_kernel_halfI6__halfS0_Li256ELi8ELi2ELi4ELi6EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_TN_kernel_halfI6__halfS0_Li128ELi2ELi2ELi4ELi2EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_TN_kernel_halfI6__halfS0_Li128ELi2ELi2ELi4ELi2EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi8ELi4ELi8ELi2EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi8ELi4ELi8ELi2EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi4ELi4ELi8ELi2EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi4ELi4ELi8ELi2EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li128ELi2ELi2ELi8ELi2EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li128ELi2ELi2ELi8ELi2EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_TN_kernel_halfI6__halfS0_Li256ELi8ELi2ELi4ELi2EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_TN_kernel_halfI6__halfS0_Li256ELi8ELi2ELi4ELi2EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_TN_kernel_halfI6__halfS0_Li128ELi2ELi2ELi4ELi8EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_TN_kernel_halfI6__halfS0_Li128ELi2ELi2ELi4ELi8EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi8ELi4ELi8ELi8EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi8ELi4ELi8ELi8EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi4ELi4ELi8ELi8EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi4ELi4ELi8ELi8EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li128ELi2ELi2ELi8ELi8EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li128ELi2ELi2ELi8ELi8EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_TN_kernel_halfI6__halfS0_Li256ELi8ELi2ELi4ELi8EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_TN_kernel_halfI6__halfS0_Li256ELi8ELi2ELi4ELi8EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_TN_kernel_halfI6__halfS0_Li128ELi2ELi2ELi4ELi4EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_TN_kernel_halfI6__halfS0_Li128ELi2ELi2ELi4ELi4EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi8ELi4ELi8ELi4EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi8ELi4ELi8ELi4EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi4ELi4ELi8ELi4EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi4ELi4ELi8ELi4EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li128ELi2ELi2ELi8ELi4EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li128ELi2ELi2ELi8ELi4EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_TN_kernel_halfI6__halfS0_Li256ELi8ELi2ELi4ELi4EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_TN_kernel_halfI6__halfS0_Li256ELi8ELi2ELi4ELi4EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_TN_kernel_halfI6__halfS0_Li128ELi2ELi2ELi4ELi5EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_TN_kernel_halfI6__halfS0_Li128ELi2ELi2ELi4ELi5EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi8ELi4ELi8ELi5EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi8ELi4ELi8ELi5EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi4ELi4ELi8ELi5EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi4ELi4ELi8ELi5EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li128ELi2ELi2ELi8ELi5EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li128ELi2ELi2ELi8ELi5EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_TN_kernel_halfI6__halfS0_Li256ELi8ELi2ELi4ELi5EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_TN_kernel_halfI6__halfS0_Li256ELi8ELi2ELi4ELi5EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_TN_kernel_halfI6__halfS0_Li128ELi2ELi2ELi4ELi1EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_TN_kernel_halfI6__halfS0_Li128ELi2ELi2ELi4ELi1EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi8ELi4ELi8ELi1EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi8ELi4ELi8ELi1EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi4ELi4ELi8ELi1EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi4ELi4ELi8ELi1EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li128ELi2ELi2ELi8ELi1EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li128ELi2ELi2ELi8ELi1EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_TN_kernel_halfI6__halfS0_Li256ELi8ELi2ELi4ELi1EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_TN_kernel_halfI6__halfS0_Li256ELi8ELi2ELi4ELi1EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_TN_kernel_halfI6__halfS0_Li128ELi2ELi2ELi4ELi7EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_TN_kernel_halfI6__halfS0_Li128ELi2ELi2ELi4ELi7EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi8ELi4ELi8ELi7EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi8ELi4ELi8ELi7EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi4ELi4ELi8ELi7EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi4ELi4ELi8ELi7EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li128ELi2ELi2ELi8ELi7EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li128ELi2ELi2ELi8ELi7EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_TN_kernel_halfI6__halfS0_Li256ELi8ELi2ELi4ELi7EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_TN_kernel_halfI6__halfS0_Li256ELi8ELi2ELi4ELi7EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_TN_kernel_halfI6__halfS0_Li128ELi2ELi2ELi4ELi3EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_TN_kernel_halfI6__halfS0_Li128ELi2ELi2ELi4ELi3EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi8ELi4ELi8ELi3EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi8ELi4ELi8ELi3EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi4ELi4ELi8ELi3EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li256ELi4ELi4ELi8ELi3EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li128ELi2ELi2ELi8ELi3EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_NN_kernel_halfI6__halfS0_S0_Li128ELi2ELi2ELi8ELi3EEv22cublasGemmSmallNParamsIS0_T0_T1_EPKS0_S6_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21gemmSN_TN_kernel_halfI6__halfS0_Li256ELi8ELi2ELi4ELi3EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i' for 'sm_50'
+ptxas info    : Function properties for _Z21gemmSN_TN_kernel_halfI6__halfS0_Li256ELi8ELi2ELi4ELi3EEviiiPKT_iS3_iPT0_iPKS0_S7_S0_S0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 408 bytes cmem[0]

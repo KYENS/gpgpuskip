@@ -1,0 +1,1480 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.extern .func (.param .b32 func_retval0) vprintf
+(
+.param .b64 vprintf_param_0,
+.param .b64 vprintf_param_1
+)
+;
+.extern .func free
+(
+.param .b64 free_param_0
+)
+;
+.extern .func (.param .b64 func_retval0) malloc
+(
+.param .b64 malloc_param_0
+)
+;
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 1 .b8 _ZN86_INTERNAL_64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a96thrust6system6detail10sequential3seqE[1];
+.shared .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE[24];
+.global .align 1 .b8 _ZN86_INTERNAL_64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a96thrust6system4cuda6detail5bulk_4rootE[1];
+.global .align 1 .b8 _ZN86_INTERNAL_64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a96thrust6system4cuda3parE[1];
+.global .align 1 .b8 _ZN86_INTERNAL_64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a96thrust12placeholders2_1E[1];
+.global .align 1 .b8 _ZN86_INTERNAL_64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a96thrust12placeholders2_2E[1];
+.global .align 1 .b8 _ZN86_INTERNAL_64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a96thrust12placeholders2_3E[1];
+.global .align 1 .b8 _ZN86_INTERNAL_64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a96thrust12placeholders2_4E[1];
+.global .align 1 .b8 _ZN86_INTERNAL_64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a96thrust12placeholders2_5E[1];
+.global .align 1 .b8 _ZN86_INTERNAL_64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a96thrust12placeholders2_6E[1];
+.global .align 1 .b8 _ZN86_INTERNAL_64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a96thrust12placeholders2_7E[1];
+.global .align 1 .b8 _ZN86_INTERNAL_64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a96thrust12placeholders2_8E[1];
+.global .align 1 .b8 _ZN86_INTERNAL_64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a96thrust12placeholders2_9E[1];
+.global .align 1 .b8 _ZN86_INTERNAL_64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a96thrust12placeholders3_10E[1];
+.global .align 1 .b8 _ZN86_INTERNAL_64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a96thrust3seqE[1];
+.global .align 1 .b8 _ZN86_INTERNAL_64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a96thrust6deviceE[1];
+.global .align 8 .b8 _ZTVSt9exception[40];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe226PiecewiseLinearTransformOpIfNS_11CUDAContextEEE[136];
+.global .align 1 .b8 $str[56] = {116, 101, 109, 112, 111, 114, 97, 114, 121, 95, 98, 117, 102, 102, 101, 114, 58, 58, 97, 108, 108, 111, 99, 97, 116, 101, 58, 32, 103, 101, 116, 95, 116, 101, 109, 112, 111, 114, 97, 114, 121, 95, 98, 117, 102, 102, 101, 114, 32, 102, 97, 105, 108, 101, 100, 0};
+.global .align 1 .b8 $str1[4] = {37, 115, 10, 0};
+.extern .shared .align 4 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE[];
+
+.visible .entry _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformGeneralKernelEiiiiPKfS2_S2_S2_Pf(
+.param .u32 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformGeneralKernelEiiiiPKfS2_S2_S2_Pf_param_0,
+.param .u32 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformGeneralKernelEiiiiPKfS2_S2_S2_Pf_param_1,
+.param .u32 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformGeneralKernelEiiiiPKfS2_S2_S2_Pf_param_2,
+.param .u32 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformGeneralKernelEiiiiPKfS2_S2_S2_Pf_param_3,
+.param .u64 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformGeneralKernelEiiiiPKfS2_S2_S2_Pf_param_4,
+.param .u64 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformGeneralKernelEiiiiPKfS2_S2_S2_Pf_param_5,
+.param .u64 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformGeneralKernelEiiiiPKfS2_S2_S2_Pf_param_6,
+.param .u64 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformGeneralKernelEiiiiPKfS2_S2_S2_Pf_param_7,
+.param .u64 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformGeneralKernelEiiiiPKfS2_S2_S2_Pf_param_8
+)
+{
+.local .align 8 .b8 __local_depot0[8];
+.reg .b64 %SP;
+.reg .b64 %SPL;
+.reg .pred %p<11>;
+.reg .f32 %f<16>;
+.reg .b32 %r<28>;
+.reg .b64 %rd<124>;
+
+
+mov.u64 %rd123, __local_depot0;
+cvta.local.u64 %SP, %rd123;
+ld.param.u32 %r3, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformGeneralKernelEiiiiPKfS2_S2_S2_Pf_param_0];
+ld.param.u32 %r4, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformGeneralKernelEiiiiPKfS2_S2_S2_Pf_param_1];
+ld.param.u32 %r5, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformGeneralKernelEiiiiPKfS2_S2_S2_Pf_param_3];
+ld.param.u64 %rd21, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformGeneralKernelEiiiiPKfS2_S2_S2_Pf_param_4];
+ld.param.u64 %rd17, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformGeneralKernelEiiiiPKfS2_S2_S2_Pf_param_5];
+ld.param.u64 %rd18, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformGeneralKernelEiiiiPKfS2_S2_S2_Pf_param_6];
+ld.param.u64 %rd19, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformGeneralKernelEiiiiPKfS2_S2_S2_Pf_param_7];
+ld.param.u64 %rd20, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformGeneralKernelEiiiiPKfS2_S2_S2_Pf_param_8];
+cvta.to.global.u64 %rd1, %rd21;
+mov.u32 %r6, %ntid.x;
+mov.u32 %r7, %ctaid.x;
+mov.u32 %r8, %tid.x;
+mad.lo.s32 %r9, %r6, %r7, %r8;
+cvt.u64.u32	%rd119, %r9;
+mul.lo.s32 %r10, %r4, %r3;
+cvt.s64.s32	%rd23, %r10;
+setp.ge.u64	%p1, %rd119, %rd23;
+@%p1 bra BB0_17;
+
+BB0_1:
+cvt.s64.s32	%rd24, %r4;
+or.b64 %rd25, %rd119, %rd24;
+and.b64 %rd26, %rd25, -4294967296;
+setp.eq.s64	%p2, %rd26, 0;
+@%p2 bra BB0_3;
+bra.uni BB0_2;
+
+BB0_3:
+cvt.u32.u64	%r15, %rd119;
+rem.u32 %r16, %r15, %r4;
+cvt.u64.u32	%rd120, %r16;
+bra.uni BB0_4;
+
+BB0_2:
+rem.u64 %rd120, %rd119, %rd24;
+
+BB0_4:
+add.s32 %r17, %r5, 1;
+cvt.u32.u64	%r1, %rd120;
+mul.lo.s32 %r2, %r1, %r17;
+cvt.s64.s32	%rd7, %r2;
+mul.wide.s32 %rd28, %r2, 4;
+add.s64 %rd29, %rd1, %rd28;
+cvta.to.global.u64 %rd30, %rd19;
+shl.b64 %rd31, %rd119, 2;
+add.s64 %rd32, %rd30, %rd31;
+ld.global.f32 %f1, [%rd29];
+ld.global.f32 %f2, [%rd32];
+setp.gtu.f32	%p3, %f2, %f1;
+@%p3 bra BB0_6;
+bra.uni BB0_5;
+
+BB0_6:
+cvt.s64.s32	%rd41, %r5;
+add.s64 %rd42, %rd7, %rd41;
+shl.b64 %rd43, %rd42, 2;
+add.s64 %rd44, %rd1, %rd43;
+ld.global.f32 %f3, [%rd44];
+setp.ltu.f32	%p4, %f2, %f3;
+@%p4 bra BB0_8;
+bra.uni BB0_7;
+
+BB0_8:
+mov.u64 %rd56, 4;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd56;
+.param .b64 retval0;
+call.uni (retval0), 
+malloc, 
+(
+param0
+);
+ld.param.b64	%rd8, [retval0+0];
+
+
+	}
+	setp.ne.s64	%p5, %rd8, 0;
+@%p5 bra BB0_10;
+
+mov.u64 %rd57, 0;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd57;
+call.uni 
+free, 
+(
+param0
+);
+
+
+	}
+	add.u64 %rd58, %SP, 0;
+cvta.to.local.u64 %rd59, %rd58;
+mov.u64 %rd60, $str;
+cvta.global.u64 %rd61, %rd60;
+st.local.u64 [%rd59], %rd61;
+mov.u64 %rd62, $str1;
+cvta.global.u64 %rd63, %rd62;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd63;
+.param .b64 param1;
+st.param.b64	[param1+0], %rd58;
+.param .b32 retval0;
+call.uni (retval0), 
+vprintf, 
+(
+param0, 
+param1
+);
+ld.param.b32	%r21, [retval0+0];
+
+
+	}
+	
+	trap;
+
+
+BB0_10:
+mov.u64 %rd64, 8;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd64;
+.param .b64 retval0;
+call.uni (retval0), 
+malloc, 
+(
+param0
+);
+ld.param.b64	%rd9, [retval0+0];
+
+
+	}
+	setp.ne.s64	%p6, %rd9, 0;
+@%p6 bra BB0_12;
+
+mov.u64 %rd65, 0;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd65;
+call.uni 
+free, 
+(
+param0
+);
+
+
+	}
+	add.u64 %rd66, %SP, 0;
+cvta.to.local.u64 %rd67, %rd66;
+mov.u64 %rd68, $str;
+cvta.global.u64 %rd69, %rd68;
+st.local.u64 [%rd67], %rd69;
+mov.u64 %rd70, $str1;
+cvta.global.u64 %rd71, %rd70;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd71;
+.param .b64 param1;
+st.param.b64	[param1+0], %rd66;
+.param .b32 retval0;
+call.uni (retval0), 
+vprintf, 
+(
+param0, 
+param1
+);
+ld.param.b32	%r22, [retval0+0];
+
+
+	}
+	
+	trap;
+
+
+BB0_12:
+ld.global.f32 %f4, [%rd32];
+st.f32 [%rd8], %f4;
+sub.s64 %rd80, %rd43, %rd28;
+add.s64 %rd81, %rd80, 4;
+mov.u64 %rd122, 0;
+setp.lt.s64	%p7, %rd81, 1;
+@%p7 bra BB0_15;
+
+shr.s64 %rd121, %rd81, 2;
+mov.u64 %rd122, 0;
+
+BB0_14:
+add.s64 %rd89, %rd122, %rd121;
+shr.u64 %rd90, %rd89, 63;
+add.s64 %rd91, %rd89, %rd90;
+shr.s64 %rd92, %rd91, 1;
+add.s64 %rd93, %rd92, %rd7;
+shl.b64 %rd94, %rd93, 2;
+add.s64 %rd95, %rd1, %rd94;
+ld.global.f32 %f11, [%rd95];
+setp.lt.f32	%p8, %f11, %f4;
+add.s64 %rd96, %rd92, 1;
+selp.b64	%rd121, %rd121, %rd92, %p8;
+selp.b64	%rd122, %rd96, %rd122, %p8;
+setp.lt.s64	%p9, %rd122, %rd121;
+@%p9 bra BB0_14;
+
+BB0_15:
+add.s64 %rd98, %rd122, %rd7;
+shl.b64 %rd99, %rd98, 2;
+sub.s64 %rd101, %rd99, %rd28;
+shr.s64 %rd102, %rd101, 2;
+st.u64 [%rd9], %rd102;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd9;
+call.uni 
+free, 
+(
+param0
+);
+
+
+	}
+	
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd8;
+call.uni 
+free, 
+(
+param0
+);
+
+
+	}
+	add.s64 %rd103, %rd102, 4294967295;
+cvt.s64.s32 %rd104, %rd103;
+mul.lo.s32 %r23, %r1, %r5;
+cvt.s64.s32	%rd105, %r23;
+add.s64 %rd106, %rd104, %rd105;
+cvta.to.global.u64 %rd107, %rd17;
+shl.b64 %rd108, %rd106, 2;
+add.s64 %rd109, %rd107, %rd108;
+ld.global.f32 %f12, [%rd32];
+ld.global.f32 %f13, [%rd109];
+cvta.to.global.u64 %rd113, %rd18;
+add.s64 %rd114, %rd113, %rd108;
+ld.global.f32 %f14, [%rd114];
+fma.rn.f32 %f15, %f13, %f12, %f14;
+cvta.to.global.u64 %rd115, %rd20;
+add.s64 %rd116, %rd115, %rd31;
+st.global.f32 [%rd116], %f15;
+bra.uni BB0_16;
+
+BB0_5:
+mul.lo.s32 %r18, %r1, %r5;
+cvta.to.global.u64 %rd33, %rd17;
+mul.wide.s32 %rd34, %r18, 4;
+add.s64 %rd35, %rd33, %rd34;
+cvta.to.global.u64 %rd36, %rd18;
+add.s64 %rd37, %rd36, %rd34;
+ld.global.f32 %f5, [%rd35];
+ld.global.f32 %f6, [%rd37];
+fma.rn.f32 %f7, %f5, %f1, %f6;
+cvta.to.global.u64 %rd38, %rd20;
+add.s64 %rd40, %rd38, %rd31;
+st.global.f32 [%rd40], %f7;
+bra.uni BB0_16;
+
+BB0_7:
+add.s32 %r19, %r5, -1;
+cvt.s64.s32	%rd45, %r19;
+mul.lo.s32 %r20, %r1, %r5;
+cvt.s64.s32	%rd46, %r20;
+add.s64 %rd47, %rd46, %rd45;
+cvta.to.global.u64 %rd48, %rd17;
+shl.b64 %rd49, %rd47, 2;
+add.s64 %rd50, %rd48, %rd49;
+ld.global.f32 %f8, [%rd50];
+cvta.to.global.u64 %rd51, %rd18;
+add.s64 %rd52, %rd51, %rd49;
+ld.global.f32 %f9, [%rd52];
+fma.rn.f32 %f10, %f8, %f3, %f9;
+cvta.to.global.u64 %rd53, %rd20;
+add.s64 %rd55, %rd53, %rd31;
+st.global.f32 [%rd55], %f10;
+
+BB0_16:
+mov.u32 %r24, %nctaid.x;
+mul.lo.s32 %r26, %r24, %r6;
+cvt.u64.u32	%rd117, %r26;
+add.s64 %rd119, %rd117, %rd119;
+setp.lt.u64	%p10, %rd119, %rd23;
+@%p10 bra BB0_1;
+
+BB0_17:
+ret;
+}
+
+
+.visible .entry _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel1EiiiiPKfS2_S2_S2_Pf(
+.param .u32 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel1EiiiiPKfS2_S2_S2_Pf_param_0,
+.param .u32 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel1EiiiiPKfS2_S2_S2_Pf_param_1,
+.param .u32 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel1EiiiiPKfS2_S2_S2_Pf_param_2,
+.param .u32 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel1EiiiiPKfS2_S2_S2_Pf_param_3,
+.param .u64 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel1EiiiiPKfS2_S2_S2_Pf_param_4,
+.param .u64 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel1EiiiiPKfS2_S2_S2_Pf_param_5,
+.param .u64 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel1EiiiiPKfS2_S2_S2_Pf_param_6,
+.param .u64 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel1EiiiiPKfS2_S2_S2_Pf_param_7,
+.param .u64 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel1EiiiiPKfS2_S2_S2_Pf_param_8
+)
+{
+.local .align 8 .b8 __local_depot1[8];
+.reg .b64 %SP;
+.reg .b64 %SPL;
+.reg .pred %p<10>;
+.reg .f32 %f<16>;
+.reg .b32 %r<12>;
+.reg .b64 %rd<75>;
+
+
+mov.u64 %rd74, __local_depot1;
+cvta.local.u64 %SP, %rd74;
+ld.param.u32 %r2, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel1EiiiiPKfS2_S2_S2_Pf_param_0];
+ld.param.u32 %r3, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel1EiiiiPKfS2_S2_S2_Pf_param_3];
+ld.param.u64 %rd17, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel1EiiiiPKfS2_S2_S2_Pf_param_4];
+ld.param.u64 %rd18, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel1EiiiiPKfS2_S2_S2_Pf_param_5];
+ld.param.u64 %rd19, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel1EiiiiPKfS2_S2_S2_Pf_param_6];
+ld.param.u64 %rd20, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel1EiiiiPKfS2_S2_S2_Pf_param_7];
+ld.param.u64 %rd21, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel1EiiiiPKfS2_S2_S2_Pf_param_8];
+cvta.to.global.u64 %rd1, %rd17;
+mov.u32 %r1, %ntid.x;
+mov.u32 %r4, %ctaid.x;
+mov.u32 %r5, %tid.x;
+mad.lo.s32 %r6, %r1, %r4, %r5;
+cvt.u64.u32	%rd70, %r6;
+cvt.s64.s32	%rd22, %r2;
+setp.ge.u64	%p1, %rd70, %rd22;
+@%p1 bra BB1_15;
+
+mov.u32 %r7, %nctaid.x;
+mul.lo.s32 %r8, %r7, %r1;
+cvt.u64.u32	%rd3, %r8;
+cvta.to.global.u64 %rd23, %rd20;
+cvta.to.global.u64 %rd25, %rd21;
+
+BB1_2:
+shl.b64 %rd24, %rd70, 2;
+add.s64 %rd5, %rd23, %rd24;
+ld.global.f32 %f1, [%rd1];
+ld.global.f32 %f2, [%rd5];
+setp.gtu.f32	%p2, %f2, %f1;
+add.s64 %rd6, %rd25, %rd24;
+@%p2 bra BB1_4;
+bra.uni BB1_3;
+
+BB1_4:
+mul.wide.s32 %rd29, %r3, 4;
+add.s64 %rd30, %rd1, %rd29;
+ld.global.f32 %f3, [%rd30];
+setp.ltu.f32	%p3, %f2, %f3;
+@%p3 bra BB1_6;
+bra.uni BB1_5;
+
+BB1_6:
+mov.u64 %rd36, 4;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd36;
+.param .b64 retval0;
+call.uni (retval0), 
+malloc, 
+(
+param0
+);
+ld.param.b64	%rd7, [retval0+0];
+
+
+	}
+	setp.ne.s64	%p4, %rd7, 0;
+@%p4 bra BB1_8;
+
+mov.u64 %rd37, 0;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd37;
+call.uni 
+free, 
+(
+param0
+);
+
+
+	}
+	add.u64 %rd38, %SP, 0;
+cvta.to.local.u64 %rd39, %rd38;
+mov.u64 %rd40, $str;
+cvta.global.u64 %rd41, %rd40;
+st.local.u64 [%rd39], %rd41;
+mov.u64 %rd42, $str1;
+cvta.global.u64 %rd43, %rd42;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd43;
+.param .b64 param1;
+st.param.b64	[param1+0], %rd38;
+.param .b32 retval0;
+call.uni (retval0), 
+vprintf, 
+(
+param0, 
+param1
+);
+ld.param.b32	%r10, [retval0+0];
+
+
+	}
+	
+	trap;
+
+
+BB1_8:
+mov.u64 %rd44, 8;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd44;
+.param .b64 retval0;
+call.uni (retval0), 
+malloc, 
+(
+param0
+);
+ld.param.b64	%rd8, [retval0+0];
+
+
+	}
+	setp.ne.s64	%p5, %rd8, 0;
+@%p5 bra BB1_10;
+
+mov.u64 %rd45, 0;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd45;
+call.uni 
+free, 
+(
+param0
+);
+
+
+	}
+	add.u64 %rd46, %SP, 0;
+cvta.to.local.u64 %rd47, %rd46;
+mov.u64 %rd48, $str;
+cvta.global.u64 %rd49, %rd48;
+st.local.u64 [%rd47], %rd49;
+mov.u64 %rd50, $str1;
+cvta.global.u64 %rd51, %rd50;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd51;
+.param .b64 param1;
+st.param.b64	[param1+0], %rd46;
+.param .b32 retval0;
+call.uni (retval0), 
+vprintf, 
+(
+param0, 
+param1
+);
+ld.param.b32	%r11, [retval0+0];
+
+
+	}
+	
+	trap;
+
+
+BB1_10:
+cvt.s64.s32	%rd54, %r3;
+add.s64 %rd72, %rd54, 1;
+ld.global.f32 %f4, [%rd5];
+st.f32 [%rd7], %f4;
+mov.u64 %rd73, 0;
+mov.u64 %rd71, %rd73;
+setp.lt.s64	%p6, %rd72, 1;
+@%p6 bra BB1_13;
+
+BB1_11:
+add.s64 %rd55, %rd71, %rd72;
+shr.u64 %rd56, %rd55, 63;
+add.s64 %rd57, %rd55, %rd56;
+shr.s64 %rd58, %rd57, 1;
+shl.b64 %rd59, %rd58, 2;
+add.s64 %rd60, %rd1, %rd59;
+ld.global.f32 %f11, [%rd60];
+setp.lt.f32	%p7, %f11, %f4;
+add.s64 %rd61, %rd58, 1;
+selp.b64	%rd72, %rd72, %rd58, %p7;
+selp.b64	%rd71, %rd61, %rd71, %p7;
+setp.lt.s64	%p8, %rd71, %rd72;
+@%p8 bra BB1_11;
+
+bfe.s64 %rd73, %rd71, 0, 62;
+
+BB1_13:
+st.u64 [%rd8], %rd73;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd8;
+call.uni 
+free, 
+(
+param0
+);
+
+
+	}
+	
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd7;
+call.uni 
+free, 
+(
+param0
+);
+
+
+	}
+	add.s64 %rd62, %rd73, 4294967295;
+cvt.s64.s32 %rd63, %rd62;
+cvta.to.global.u64 %rd64, %rd18;
+shl.b64 %rd65, %rd63, 2;
+add.s64 %rd66, %rd64, %rd65;
+ld.global.f32 %f12, [%rd5];
+ld.global.f32 %f13, [%rd66];
+cvta.to.global.u64 %rd67, %rd19;
+add.s64 %rd68, %rd67, %rd65;
+ld.global.f32 %f14, [%rd68];
+fma.rn.f32 %f15, %f13, %f12, %f14;
+st.global.f32 [%rd6], %f15;
+bra.uni BB1_14;
+
+BB1_3:
+cvta.to.global.u64 %rd26, %rd18;
+ld.global.f32 %f5, [%rd26];
+cvta.to.global.u64 %rd27, %rd19;
+ld.global.f32 %f6, [%rd27];
+fma.rn.f32 %f7, %f5, %f1, %f6;
+st.global.f32 [%rd6], %f7;
+bra.uni BB1_14;
+
+BB1_5:
+cvta.to.global.u64 %rd31, %rd18;
+add.s32 %r9, %r3, -1;
+mul.wide.s32 %rd32, %r9, 4;
+add.s64 %rd33, %rd31, %rd32;
+ld.global.f32 %f8, [%rd33];
+cvta.to.global.u64 %rd34, %rd19;
+add.s64 %rd35, %rd34, %rd32;
+ld.global.f32 %f9, [%rd35];
+fma.rn.f32 %f10, %f8, %f3, %f9;
+st.global.f32 [%rd6], %f10;
+
+BB1_14:
+add.s64 %rd70, %rd3, %rd70;
+setp.lt.u64	%p9, %rd70, %rd22;
+@%p9 bra BB1_2;
+
+BB1_15:
+ret;
+}
+
+
+.visible .entry _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel2EiiiiPKfS2_S2_S2_Pf(
+.param .u32 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel2EiiiiPKfS2_S2_S2_Pf_param_0,
+.param .u32 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel2EiiiiPKfS2_S2_S2_Pf_param_1,
+.param .u32 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel2EiiiiPKfS2_S2_S2_Pf_param_2,
+.param .u32 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel2EiiiiPKfS2_S2_S2_Pf_param_3,
+.param .u64 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel2EiiiiPKfS2_S2_S2_Pf_param_4,
+.param .u64 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel2EiiiiPKfS2_S2_S2_Pf_param_5,
+.param .u64 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel2EiiiiPKfS2_S2_S2_Pf_param_6,
+.param .u64 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel2EiiiiPKfS2_S2_S2_Pf_param_7,
+.param .u64 _ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel2EiiiiPKfS2_S2_S2_Pf_param_8
+)
+{
+.local .align 8 .b8 __local_depot2[8];
+.reg .b64 %SP;
+.reg .b64 %SPL;
+.reg .pred %p<10>;
+.reg .f32 %f<20>;
+.reg .b32 %r<13>;
+.reg .b64 %rd<81>;
+
+
+mov.u64 %rd80, __local_depot2;
+cvta.local.u64 %SP, %rd80;
+ld.param.u32 %r2, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel2EiiiiPKfS2_S2_S2_Pf_param_0];
+ld.param.u32 %r3, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel2EiiiiPKfS2_S2_S2_Pf_param_1];
+ld.param.u32 %r4, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel2EiiiiPKfS2_S2_S2_Pf_param_3];
+ld.param.u64 %rd17, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel2EiiiiPKfS2_S2_S2_Pf_param_4];
+ld.param.u64 %rd18, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel2EiiiiPKfS2_S2_S2_Pf_param_5];
+ld.param.u64 %rd19, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel2EiiiiPKfS2_S2_S2_Pf_param_6];
+ld.param.u64 %rd20, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel2EiiiiPKfS2_S2_S2_Pf_param_7];
+ld.param.u64 %rd21, [_ZN6caffe288_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a937PieceWiseLinearTransformBinaryKernel2EiiiiPKfS2_S2_S2_Pf_param_8];
+cvta.to.global.u64 %rd1, %rd17;
+mov.u32 %r1, %ntid.x;
+mov.u32 %r5, %ctaid.x;
+mov.u32 %r6, %tid.x;
+mad.lo.s32 %r7, %r1, %r5, %r6;
+cvt.u64.u32	%rd76, %r7;
+cvt.s64.s32	%rd22, %r2;
+setp.ge.u64	%p1, %rd76, %rd22;
+@%p1 bra BB2_15;
+
+mov.u32 %r8, %nctaid.x;
+mul.lo.s32 %r9, %r8, %r1;
+cvt.u64.u32	%rd3, %r9;
+cvta.to.global.u64 %rd27, %rd20;
+cvta.to.global.u64 %rd30, %rd21;
+
+BB2_2:
+cvt.s64.s32	%rd23, %r3;
+mul.lo.s64 %rd24, %rd76, %rd23;
+add.s64 %rd25, %rd24, 1;
+cvt.s64.s32 %rd26, %rd25;
+shl.b64 %rd28, %rd26, 2;
+add.s64 %rd5, %rd27, %rd28;
+ld.global.f32 %f1, [%rd1];
+ld.global.f32 %f2, [%rd5];
+setp.gtu.f32	%p2, %f2, %f1;
+cvt.s64.s32 %rd29, %rd24;
+shl.b64 %rd31, %rd29, 2;
+add.s64 %rd6, %rd30, %rd31;
+@%p2 bra BB2_4;
+bra.uni BB2_3;
+
+BB2_4:
+mul.wide.s32 %rd35, %r4, 4;
+add.s64 %rd36, %rd1, %rd35;
+ld.global.f32 %f4, [%rd36];
+setp.ltu.f32	%p3, %f2, %f4;
+@%p3 bra BB2_6;
+bra.uni BB2_5;
+
+BB2_6:
+mov.u64 %rd42, 4;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd42;
+.param .b64 retval0;
+call.uni (retval0), 
+malloc, 
+(
+param0
+);
+ld.param.b64	%rd7, [retval0+0];
+
+
+	}
+	setp.ne.s64	%p4, %rd7, 0;
+@%p4 bra BB2_8;
+
+mov.u64 %rd43, 0;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd43;
+call.uni 
+free, 
+(
+param0
+);
+
+
+	}
+	add.u64 %rd44, %SP, 0;
+cvta.to.local.u64 %rd45, %rd44;
+mov.u64 %rd46, $str;
+cvta.global.u64 %rd47, %rd46;
+st.local.u64 [%rd45], %rd47;
+mov.u64 %rd48, $str1;
+cvta.global.u64 %rd49, %rd48;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd49;
+.param .b64 param1;
+st.param.b64	[param1+0], %rd44;
+.param .b32 retval0;
+call.uni (retval0), 
+vprintf, 
+(
+param0, 
+param1
+);
+ld.param.b32	%r11, [retval0+0];
+
+
+	}
+	
+	trap;
+
+
+BB2_8:
+mov.u64 %rd50, 8;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd50;
+.param .b64 retval0;
+call.uni (retval0), 
+malloc, 
+(
+param0
+);
+ld.param.b64	%rd8, [retval0+0];
+
+
+	}
+	setp.ne.s64	%p5, %rd8, 0;
+@%p5 bra BB2_10;
+
+mov.u64 %rd51, 0;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd51;
+call.uni 
+free, 
+(
+param0
+);
+
+
+	}
+	add.u64 %rd52, %SP, 0;
+cvta.to.local.u64 %rd53, %rd52;
+mov.u64 %rd54, $str;
+cvta.global.u64 %rd55, %rd54;
+st.local.u64 [%rd53], %rd55;
+mov.u64 %rd56, $str1;
+cvta.global.u64 %rd57, %rd56;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd57;
+.param .b64 param1;
+st.param.b64	[param1+0], %rd52;
+.param .b32 retval0;
+call.uni (retval0), 
+vprintf, 
+(
+param0, 
+param1
+);
+ld.param.b32	%r12, [retval0+0];
+
+
+	}
+	
+	trap;
+
+
+BB2_10:
+cvt.s64.s32	%rd60, %r4;
+add.s64 %rd78, %rd60, 1;
+ld.global.f32 %f6, [%rd5];
+st.f32 [%rd7], %f6;
+mov.u64 %rd79, 0;
+mov.u64 %rd77, %rd79;
+setp.lt.s64	%p6, %rd78, 1;
+@%p6 bra BB2_13;
+
+BB2_11:
+add.s64 %rd61, %rd77, %rd78;
+shr.u64 %rd62, %rd61, 63;
+add.s64 %rd63, %rd61, %rd62;
+shr.s64 %rd64, %rd63, 1;
+shl.b64 %rd65, %rd64, 2;
+add.s64 %rd66, %rd1, %rd65;
+ld.global.f32 %f13, [%rd66];
+setp.lt.f32	%p7, %f13, %f6;
+add.s64 %rd67, %rd64, 1;
+selp.b64	%rd78, %rd78, %rd64, %p7;
+selp.b64	%rd77, %rd67, %rd77, %p7;
+setp.lt.s64	%p8, %rd77, %rd78;
+@%p8 bra BB2_11;
+
+bfe.s64 %rd79, %rd77, 0, 62;
+
+BB2_13:
+st.u64 [%rd8], %rd79;
+
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd8;
+call.uni 
+free, 
+(
+param0
+);
+
+
+	}
+	
+	{
+.reg .b32 temp_param_reg;
+
+	.param .b64 param0;
+st.param.b64	[param0+0], %rd7;
+call.uni 
+free, 
+(
+param0
+);
+
+
+	}
+	add.s64 %rd68, %rd79, 4294967295;
+cvt.s64.s32 %rd69, %rd68;
+cvta.to.global.u64 %rd70, %rd18;
+shl.b64 %rd71, %rd69, 2;
+add.s64 %rd72, %rd70, %rd71;
+ld.global.f32 %f14, [%rd5];
+ld.global.f32 %f15, [%rd72];
+cvta.to.global.u64 %rd73, %rd19;
+add.s64 %rd74, %rd73, %rd71;
+ld.global.f32 %f16, [%rd74];
+fma.rn.f32 %f19, %f15, %f14, %f16;
+bra.uni BB2_14;
+
+BB2_3:
+cvta.to.global.u64 %rd32, %rd18;
+ld.global.f32 %f9, [%rd32];
+cvta.to.global.u64 %rd33, %rd19;
+ld.global.f32 %f10, [%rd33];
+fma.rn.f32 %f19, %f9, %f1, %f10;
+bra.uni BB2_14;
+
+BB2_5:
+cvta.to.global.u64 %rd37, %rd18;
+add.s32 %r10, %r4, -1;
+mul.wide.s32 %rd38, %r10, 4;
+add.s64 %rd39, %rd37, %rd38;
+ld.global.f32 %f11, [%rd39];
+cvta.to.global.u64 %rd40, %rd19;
+add.s64 %rd41, %rd40, %rd38;
+ld.global.f32 %f12, [%rd41];
+fma.rn.f32 %f19, %f11, %f4, %f12;
+
+BB2_14:
+st.global.f32 [%rd6+4], %f19;
+mov.f32 %f17, 0f3F800000;
+sub.f32 %f18, %f17, %f19;
+st.global.f32 [%rd6], %f18;
+add.s64 %rd76, %rd3, %rd76;
+setp.lt.u64	%p9, %rd76, %rd22;
+@%p9 bra BB2_2;
+
+BB2_15:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_5par_tENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEEjSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_5par_tENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEEjSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0__param_0[72]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<12>;
+.reg .f32 %f<2>;
+.reg .b32 %r<27>;
+.reg .b64 %rd<21>;
+
+
+ld.param.v2.u32 {%r18, %r19}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_5par_tENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEEjSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0__param_0+56];
+ld.param.v2.u32 {%r20, %r21}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_5par_tENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEEjSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0__param_0+48];
+ld.param.u32 %r17, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_5par_tENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEEjSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0__param_0+64];
+ld.param.u32 %r10, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_5par_tENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEEjSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0__param_0+36];
+ld.param.u64 %rd9, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_5par_tENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEEjSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0__param_0+24];
+ld.param.u64 %rd8, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_5par_tENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEEjSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0__param_0+16];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd10, _ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE;
+cvta.shared.u64 %rd11, %rd10;
+setp.eq.s64	%p2, %rd11, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB3_2;
+
+cvt.s64.s32	%rd12, %r21;
+mov.u32 %r24, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE], %r24;
+mov.u64 %rd13, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd14, %rd13;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE+8], %rd14;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE+16], %rd12;
+
+BB3_2:
+mov.u32 %r4, %ntid.x;
+mov.u32 %r25, %ctaid.x;
+add.s32 %r5, %r25, %r17;
+bar.sync 0;
+mul.lo.s32 %r6, %r4, %r18;
+mad.lo.s32 %r26, %r5, %r4, %r1;
+setp.ge.u32	%p4, %r26, %r10;
+@%p4 bra BB3_5;
+
+cvta.to.global.u64 %rd15, %rd8;
+cvta.to.global.u64 %rd16, %rd9;
+mul.wide.u32 %rd17, %r26, 4;
+add.s64 %rd20, %rd15, %rd17;
+add.s64 %rd19, %rd16, %rd17;
+cvt.u64.u32	%rd3, %r6;
+shl.b64 %rd18, %rd3, 2;
+
+BB3_4:
+ld.global.f32 %f1, [%rd20];
+st.global.f32 [%rd19], %f1;
+add.s64 %rd20, %rd20, %rd18;
+add.s64 %rd19, %rd19, %rd18;
+add.s32 %r26, %r26, %r6;
+setp.lt.u32	%p5, %r26, %r10;
+@%p5 bra BB3_4;
+
+BB3_5:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_5par_tENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEElSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_5par_tENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEElSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0__param_0[80]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<12>;
+.reg .f32 %f<2>;
+.reg .b32 %r<22>;
+.reg .b64 %rd<27>;
+
+
+ld.param.v2.u32 {%r12, %r13}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_5par_tENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEElSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0__param_0+64];
+ld.param.v2.u32 {%r14, %r15}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_5par_tENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEElSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0__param_0+56];
+ld.param.u32 %r11, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_5par_tENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEElSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0__param_0+72];
+ld.param.u64 %rd16, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_5par_tENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEElSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0__param_0+40];
+ld.param.u64 %rd15, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_5par_tENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEElSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0__param_0+24];
+ld.param.u64 %rd14, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_IPKfNS_7pointerIfNS2_5par_tENS_11use_defaultESO_EENS_9null_typeESQ_SQ_SQ_SQ_SQ_SQ_SQ_EEEENS_6detail16wrapped_functionINST_23unary_transform_functorINS_8identityIfEEEEvEElSQ_SQ_SQ_SQ_SQ_SQ_EEEEEEEEvT0__param_0+16];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd17, _ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE;
+cvta.shared.u64 %rd18, %rd17;
+setp.eq.s64	%p2, %rd18, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB4_2;
+
+cvt.s64.s32	%rd19, %r15;
+mov.u32 %r18, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE], %r18;
+mov.u64 %rd20, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd21, %rd20;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE+8], %rd21;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE+16], %rd19;
+
+BB4_2:
+cvta.to.global.u64 %rd1, %rd14;
+cvta.to.global.u64 %rd2, %rd15;
+mov.u32 %r3, %ntid.x;
+mov.u32 %r19, %ctaid.x;
+add.s32 %r4, %r19, %r11;
+bar.sync 0;
+mul.lo.s32 %r20, %r3, %r12;
+cvt.s64.s32	%rd4, %r20;
+mad.lo.s32 %r21, %r4, %r3, %r1;
+cvt.s64.s32	%rd24, %r21;
+mul.wide.s32 %rd22, %r21, 4;
+add.s64 %rd26, %rd1, %rd22;
+add.s64 %rd25, %rd2, %rd22;
+setp.ge.s64	%p4, %rd24, %rd16;
+@%p4 bra BB4_4;
+
+BB4_3:
+ld.global.f32 %f1, [%rd26];
+st.global.f32 [%rd25], %f1;
+shl.b64 %rd23, %rd4, 2;
+add.s64 %rd26, %rd26, %rd23;
+add.s64 %rd25, %rd25, %rd23;
+add.s64 %rd24, %rd24, %rd4;
+setp.lt.s64	%p5, %rd24, %rd16;
+@%p5 bra BB4_3;
+
+BB4_4:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEEjST_ST_ST_ST_ST_ST_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEEjST_ST_ST_ST_ST_ST_EEEEEEEEvT0__param_0[96]
+)
+{
+.reg .pred %p<9>;
+.reg .b16 %rs<35>;
+.reg .f32 %f<3>;
+.reg .b32 %r<27>;
+.reg .b64 %rd<46>;
+
+
+ld.param.v2.u32 {%r18, %r19}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEEjST_ST_ST_ST_ST_ST_EEEEEEEEvT0__param_0+80];
+ld.param.v2.u32 {%r20, %r21}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEEjST_ST_ST_ST_ST_ST_EEEEEEEEvT0__param_0+72];
+ld.param.u32 %r17, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEEjST_ST_ST_ST_ST_ST_EEEEEEEEvT0__param_0+88];
+ld.param.u32 %r10, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEEjST_ST_ST_ST_ST_ST_EEEEEEEEvT0__param_0+56];
+ld.param.u64 %rd22, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEEjST_ST_ST_ST_ST_ST_EEEEEEEEvT0__param_0+40];
+ld.param.u64 %rd21, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEEjST_ST_ST_ST_ST_ST_EEEEEEEEvT0__param_0+32];
+ld.param.u64 %rd20, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEEjST_ST_ST_ST_ST_ST_EEEEEEEEvT0__param_0+24];
+ld.param.u64 %rd19, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEEjST_ST_ST_ST_ST_ST_EEEEEEEEvT0__param_0+16];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd23, _ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE;
+cvta.shared.u64 %rd24, %rd23;
+setp.eq.s64	%p2, %rd24, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB5_2;
+
+cvt.s64.s32	%rd25, %r21;
+mov.u32 %r24, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE], %r24;
+mov.u64 %rd26, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd27, %rd26;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE+8], %rd27;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE+16], %rd25;
+
+BB5_2:
+cvta.to.global.u64 %rd1, %rd19;
+cvta.to.global.u64 %rd2, %rd20;
+mov.u32 %r4, %ntid.x;
+mov.u32 %r25, %ctaid.x;
+add.s32 %r5, %r25, %r17;
+bar.sync 0;
+mul.lo.s32 %r6, %r4, %r18;
+mad.lo.s32 %r26, %r5, %r4, %r1;
+mul.wide.u32 %rd28, %r26, 4;
+add.s64 %rd42, %rd1, %rd28;
+mul.wide.u32 %rd29, %r26, 8;
+add.s64 %rd41, %rd2, %rd29;
+setp.ge.u32	%p4, %r26, %r10;
+@%p4 bra BB5_9;
+
+cvta.to.global.u64 %rd5, %rd21;
+sub.s64 %rd6, %rd22, %rd21;
+shr.s64 %rd7, %rd6, 2;
+cvt.u64.u32	%rd8, %r6;
+
+BB5_4:
+mov.u64 %rd45, 0;
+setp.lt.s64	%p5, %rd6, 1;
+@%p5 bra BB5_8;
+
+ld.global.f32 %f1, [%rd42];
+mov.u64 %rd43, 0;
+mov.u64 %rd44, %rd7;
+
+BB5_6:
+mov.u64 %rd12, %rd44;
+add.s64 %rd32, %rd43, %rd12;
+shr.u64 %rd33, %rd32, 63;
+add.s64 %rd34, %rd32, %rd33;
+shr.s64 %rd35, %rd34, 1;
+shl.b64 %rd36, %rd35, 2;
+add.s64 %rd37, %rd5, %rd36;
+ld.global.f32 %f2, [%rd37];
+setp.lt.f32	%p6, %f2, %f1;
+add.s64 %rd38, %rd35, 1;
+selp.b64	%rd13, %rd12, %rd35, %p6;
+selp.b64	%rd43, %rd38, %rd43, %p6;
+setp.lt.s64	%p7, %rd43, %rd13;
+mov.u64 %rd44, %rd13;
+@%p7 bra BB5_6;
+
+bfe.s64 %rd45, %rd43, 0, 62;
+
+BB5_8:
+st.global.u64 [%rd41], %rd45;
+shl.b64 %rd39, %rd8, 2;
+add.s64 %rd42, %rd42, %rd39;
+shl.b64 %rd40, %rd8, 3;
+add.s64 %rd41, %rd41, %rd40;
+add.s32 %r26, %r26, %r6;
+setp.lt.u32	%p8, %r26, %r10;
+@%p8 bra BB5_4;
+
+BB5_9:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEElST_ST_ST_ST_ST_ST_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEElST_ST_ST_ST_ST_ST_EEEEEEEEvT0__param_0[96]
+)
+{
+.reg .pred %p<9>;
+.reg .b16 %rs<27>;
+.reg .f32 %f<3>;
+.reg .b32 %r<21>;
+.reg .b64 %rd<52>;
+
+
+ld.param.v2.u32 {%r11, %r12}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEElST_ST_ST_ST_ST_ST_EEEEEEEEvT0__param_0+80];
+ld.param.v2.u32 {%r13, %r14}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEElST_ST_ST_ST_ST_ST_EEEEEEEEvT0__param_0+72];
+ld.param.u32 %r10, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEElST_ST_ST_ST_ST_ST_EEEEEEEEvT0__param_0+88];
+ld.param.u64 %rd27, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEElST_ST_ST_ST_ST_ST_EEEEEEEEvT0__param_0+56];
+ld.param.u64 %rd26, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEElST_ST_ST_ST_ST_ST_EEEEEEEEvT0__param_0+40];
+ld.param.u64 %rd25, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEElST_ST_ST_ST_ST_ST_EEEEEEEEvT0__param_0+32];
+ld.param.u64 %rd24, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEElST_ST_ST_ST_ST_ST_EEEEEEEEvT0__param_0+24];
+ld.param.u64 %rd23, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_6detail15normal_iteratorINS_7pointerIfNS2_5par_tENS_11use_defaultESO_EEEENSL_INSM_IlSN_SO_SO_EEEENS_9null_typeEST_ST_ST_ST_ST_ST_ST_EEEENSK_16wrapped_functionINS0_6detail7generic6detail21binary_search_functorIPKfNSZ_18binary_search_lessENSZ_3lbfEEEvEElST_ST_ST_ST_ST_ST_EEEEEEEEvT0__param_0+16];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd28, _ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE;
+cvta.shared.u64 %rd29, %rd28;
+setp.eq.s64	%p2, %rd29, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB6_2;
+
+cvt.s64.s32	%rd30, %r14;
+mov.u32 %r17, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE], %r17;
+mov.u64 %rd31, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd32, %rd31;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE+8], %rd32;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE+16], %rd30;
+
+BB6_2:
+cvta.to.global.u64 %rd1, %rd23;
+cvta.to.global.u64 %rd2, %rd24;
+mov.u32 %r2, %ntid.x;
+mov.u32 %r18, %ctaid.x;
+add.s32 %r3, %r18, %r10;
+bar.sync 0;
+mad.lo.s32 %r19, %r3, %r2, %r1;
+cvt.s64.s32	%rd46, %r19;
+mul.wide.s32 %rd33, %r19, 4;
+add.s64 %rd48, %rd1, %rd33;
+mul.wide.s32 %rd34, %r19, 8;
+add.s64 %rd47, %rd2, %rd34;
+setp.ge.s64	%p4, %rd46, %rd27;
+@%p4 bra BB6_9;
+
+cvta.to.global.u64 %rd7, %rd25;
+mul.lo.s32 %r20, %r2, %r11;
+cvt.s64.s32	%rd8, %r20;
+sub.s64 %rd9, %rd26, %rd25;
+shr.s64 %rd10, %rd9, 2;
+
+BB6_4:
+mov.u64 %rd51, 0;
+setp.lt.s64	%p5, %rd9, 1;
+@%p5 bra BB6_8;
+
+ld.global.f32 %f1, [%rd48];
+mov.u64 %rd49, 0;
+mov.u64 %rd50, %rd10;
+
+BB6_6:
+mov.u64 %rd15, %rd50;
+add.s64 %rd37, %rd49, %rd15;
+shr.u64 %rd38, %rd37, 63;
+add.s64 %rd39, %rd37, %rd38;
+shr.s64 %rd40, %rd39, 1;
+shl.b64 %rd41, %rd40, 2;
+add.s64 %rd42, %rd7, %rd41;
+ld.global.f32 %f2, [%rd42];
+setp.lt.f32	%p6, %f2, %f1;
+add.s64 %rd43, %rd40, 1;
+selp.b64	%rd16, %rd15, %rd40, %p6;
+selp.b64	%rd49, %rd43, %rd49, %p6;
+setp.lt.s64	%p7, %rd49, %rd16;
+mov.u64 %rd50, %rd16;
+@%p7 bra BB6_6;
+
+bfe.s64 %rd51, %rd49, 0, 62;
+
+BB6_8:
+st.global.u64 [%rd47], %rd51;
+shl.b64 %rd44, %rd8, 2;
+add.s64 %rd48, %rd48, %rd44;
+shl.b64 %rd45, %rd8, 3;
+add.s64 %rd47, %rd47, %rd45;
+add.s64 %rd46, %rd46, %rd8;
+setp.lt.s64	%p8, %rd46, %rd27;
+@%p8 bra BB6_4;
+
+BB6_9:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIlNS2_5par_tENS_11use_defaultESM_EEPlNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIlEEEEvEEjSP_SP_SP_SP_SP_SP_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIlNS2_5par_tENS_11use_defaultESM_EEPlNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIlEEEEvEEjSP_SP_SP_SP_SP_SP_EEEEEEEEvT0__param_0[72]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<12>;
+.reg .b32 %r<27>;
+.reg .b64 %rd<22>;
+
+
+ld.param.v2.u32 {%r18, %r19}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIlNS2_5par_tENS_11use_defaultESM_EEPlNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIlEEEEvEEjSP_SP_SP_SP_SP_SP_EEEEEEEEvT0__param_0+56];
+ld.param.v2.u32 {%r20, %r21}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIlNS2_5par_tENS_11use_defaultESM_EEPlNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIlEEEEvEEjSP_SP_SP_SP_SP_SP_EEEEEEEEvT0__param_0+48];
+ld.param.u32 %r17, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIlNS2_5par_tENS_11use_defaultESM_EEPlNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIlEEEEvEEjSP_SP_SP_SP_SP_SP_EEEEEEEEvT0__param_0+64];
+ld.param.u32 %r10, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIlNS2_5par_tENS_11use_defaultESM_EEPlNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIlEEEEvEEjSP_SP_SP_SP_SP_SP_EEEEEEEEvT0__param_0+36];
+ld.param.u64 %rd9, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIlNS2_5par_tENS_11use_defaultESM_EEPlNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIlEEEEvEEjSP_SP_SP_SP_SP_SP_EEEEEEEEvT0__param_0+24];
+ld.param.u64 %rd8, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIlNS2_5par_tENS_11use_defaultESM_EEPlNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIlEEEEvEEjSP_SP_SP_SP_SP_SP_EEEEEEEEvT0__param_0+16];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd10, _ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE;
+cvta.shared.u64 %rd11, %rd10;
+setp.eq.s64	%p2, %rd11, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB7_2;
+
+cvt.s64.s32	%rd12, %r21;
+mov.u32 %r24, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE], %r24;
+mov.u64 %rd13, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd14, %rd13;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE+8], %rd14;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE+16], %rd12;
+
+BB7_2:
+mov.u32 %r4, %ntid.x;
+mov.u32 %r25, %ctaid.x;
+add.s32 %r5, %r25, %r17;
+bar.sync 0;
+mul.lo.s32 %r6, %r4, %r18;
+mad.lo.s32 %r26, %r5, %r4, %r1;
+setp.ge.u32	%p4, %r26, %r10;
+@%p4 bra BB7_5;
+
+cvta.to.global.u64 %rd15, %rd8;
+cvta.to.global.u64 %rd16, %rd9;
+mul.wide.u32 %rd17, %r26, 8;
+add.s64 %rd21, %rd15, %rd17;
+add.s64 %rd20, %rd16, %rd17;
+cvt.u64.u32	%rd3, %r6;
+shl.b64 %rd19, %rd3, 3;
+
+BB7_4:
+ld.global.u64 %rd18, [%rd21];
+st.global.u64 [%rd20], %rd18;
+add.s64 %rd21, %rd21, %rd19;
+add.s64 %rd20, %rd20, %rd19;
+add.s32 %r26, %r26, %r6;
+setp.lt.u32	%p5, %r26, %r10;
+@%p5 bra BB7_4;
+
+BB7_5:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIlNS2_5par_tENS_11use_defaultESM_EEPlNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIlEEEEvEElSP_SP_SP_SP_SP_SP_EEEEEEEEvT0_(
+.param .align 8 .b8 _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIlNS2_5par_tENS_11use_defaultESM_EEPlNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIlEEEEvEElSP_SP_SP_SP_SP_SP_EEEEEEEEvT0__param_0[80]
+)
+{
+.reg .pred %p<6>;
+.reg .b16 %rs<12>;
+.reg .b32 %r<22>;
+.reg .b64 %rd<28>;
+
+
+ld.param.v2.u32 {%r12, %r13}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIlNS2_5par_tENS_11use_defaultESM_EEPlNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIlEEEEvEElSP_SP_SP_SP_SP_SP_EEEEEEEEvT0__param_0+64];
+ld.param.v2.u32 {%r14, %r15}, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIlNS2_5par_tENS_11use_defaultESM_EEPlNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIlEEEEvEElSP_SP_SP_SP_SP_SP_EEEEEEEEvT0__param_0+56];
+ld.param.u32 %r11, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIlNS2_5par_tENS_11use_defaultESM_EEPlNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIlEEEEvEElSP_SP_SP_SP_SP_SP_EEEEEEEEvT0__param_0+72];
+ld.param.u64 %rd16, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIlNS2_5par_tENS_11use_defaultESM_EEPlNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIlEEEEvEElSP_SP_SP_SP_SP_SP_EEEEEEEEvT0__param_0+40];
+ld.param.u64 %rd15, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIlNS2_5par_tENS_11use_defaultESM_EEPlNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIlEEEEvEElSP_SP_SP_SP_SP_SP_EEEEEEEEvT0__param_0+24];
+ld.param.u64 %rd14, [_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_7pointerIlNS2_5par_tENS_11use_defaultESM_EEPlNS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS_8identityIlEEEEvEElSP_SP_SP_SP_SP_SP_EEEEEEEEvT0__param_0+16];
+mov.u32 %r1, %tid.x;
+setp.ne.s32	%p1, %r1, 0;
+mov.u64 %rd17, _ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE;
+cvta.shared.u64 %rd18, %rd17;
+setp.eq.s64	%p2, %rd18, 0;
+or.pred %p3, %p1, %p2;
+@%p3 bra BB8_2;
+
+cvt.s64.s32	%rd19, %r15;
+mov.u32 %r18, 0;
+st.shared.u32 [_ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE], %r18;
+mov.u64 %rd20, _ZN6thrust6system4cuda6detail5bulk_6detail20s_data_segment_beginE;
+cvta.shared.u64 %rd21, %rd20;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE+8], %rd21;
+st.shared.u64 [_ZN6thrust6system4cuda6detail5bulk_6detail88_GLOBAL__N__64_tmpxft_00006d22_00000000_7_piecewise_linear_transform_op_cpp1_ii_54c781a919s_on_chip_allocatorE+16], %rd19;
+
+BB8_2:
+cvta.to.global.u64 %rd1, %rd14;
+cvta.to.global.u64 %rd2, %rd15;
+mov.u32 %r3, %ntid.x;
+mov.u32 %r19, %ctaid.x;
+add.s32 %r4, %r19, %r11;
+bar.sync 0;
+mul.lo.s32 %r20, %r3, %r12;
+cvt.s64.s32	%rd4, %r20;
+mad.lo.s32 %r21, %r4, %r3, %r1;
+cvt.s64.s32	%rd25, %r21;
+mul.wide.s32 %rd22, %r21, 8;
+add.s64 %rd27, %rd1, %rd22;
+add.s64 %rd26, %rd2, %rd22;
+setp.ge.s64	%p4, %rd25, %rd16;
+@%p4 bra BB8_4;
+
+BB8_3:
+ld.global.u64 %rd23, [%rd27];
+st.global.u64 [%rd26], %rd23;
+shl.b64 %rd24, %rd4, 3;
+add.s64 %rd27, %rd27, %rd24;
+add.s64 %rd26, %rd26, %rd24;
+add.s64 %rd25, %rd25, %rd4;
+setp.lt.s64	%p5, %rd25, %rd16;
+@%p5 bra BB8_3;
+
+BB8_4:
+ret;
+}
+
+
+.visible .entry _ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv(
+
+)
+{
+
+
+
+ret;
+}
+
+

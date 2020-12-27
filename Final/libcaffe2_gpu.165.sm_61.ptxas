@@ -1,0 +1,91 @@
+ptxas info    : 535 bytes gmem
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIfNS1_5distsIfE4zeroEEEvPT_PKS6_llS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIfNS1_5distsIfE4zeroEEEvPT_PKS6_llS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 1024 bytes smem, 356 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIdNS1_5distsIdE3infEEEvPT_PKS6_S9_S9_llllS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIdNS1_5distsIdE3infEEEvPT_PKS6_S9_S9_llllS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 392 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIfNS1_5distsIfE1pEEEvPT_PKS6_llS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIfNS1_5distsIfE1pEEEvPT_PKS6_llS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 1024 bytes smem, 356 bytes cmem[0], 68 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIfNS1_5distsIfE3twoEEEvPT_PKS6_S9_S9_llllS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIfNS1_5distsIfE3twoEEEvPT_PKS6_S9_S9_llllS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 388 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIdNS1_5distsIdE3oneEEEvPT_PKS6_llS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIdNS1_5distsIdE3oneEEEvPT_PKS6_llS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 2048 bytes smem, 360 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIfNS1_5distsIfE3twoEEEvPT_PKS6_llS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIfNS1_5distsIfE3twoEEEvPT_PKS6_llS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 1024 bytes smem, 356 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIfNS1_5distsIfE3oneEEEvPT_PKS6_S9_S9_llllS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIfNS1_5distsIfE3oneEEEvPT_PKS6_S9_S9_llllS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 388 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIdNS1_5distsIdE6lt_twoEEEvPT_PKS6_S9_S9_llllS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIdNS1_5distsIdE6lt_twoEEEvPT_PKS6_S9_S9_llllS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 392 bytes cmem[0], 256 bytes cmem[2]
+ptxas info    : Function properties for __internal_accurate_pow
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIfNS1_5distsIfE1pEEEvPT_PKS6_S9_S9_llllS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIfNS1_5distsIfE1pEEEvPT_PKS6_S9_S9_llllS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 388 bytes cmem[0], 60 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIdNS1_5distsIdE3infEEEvPT_PKS6_llS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIdNS1_5distsIdE3infEEEvPT_PKS6_llS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 2048 bytes smem, 360 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIfNS1_5distsIfE3oneEEEvPT_PKS6_llS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIfNS1_5distsIfE3oneEEEvPT_PKS6_llS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 1024 bytes smem, 356 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIdNS1_5distsIdE1pEEEvPT_PKS6_S9_S9_llllS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIdNS1_5distsIdE1pEEEvPT_PKS6_S9_S9_llllS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, 392 bytes cmem[0], 256 bytes cmem[2]
+ptxas info    : Function properties for __internal_accurate_pow
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIdNS1_5distsIdE3oneEEEvPT_PKS6_S9_S9_llllS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIdNS1_5distsIdE3oneEEEvPT_PKS6_S9_S9_llllS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 392 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIfNS1_5distsIfE3infEEEvPT_PKS6_S9_S9_llllS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIfNS1_5distsIfE3infEEEvPT_PKS6_S9_S9_llllS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 388 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIdNS1_5distsIdE3twoEEEvPT_PKS6_llS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIdNS1_5distsIdE3twoEEEvPT_PKS6_llS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 2048 bytes smem, 360 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIdNS1_5distsIdE3twoEEEvPT_PKS6_S9_S9_llllS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIdNS1_5distsIdE3twoEEEvPT_PKS6_S9_S9_llllS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, 392 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIdNS1_5distsIdE1pEEEvPT_PKS6_llS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIdNS1_5distsIdE1pEEEvPT_PKS6_llS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 2048 bytes smem, 360 bytes cmem[0], 240 bytes cmem[2]
+ptxas info    : Function properties for __internal_accurate_pow
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIfNS1_5distsIfE3infEEEvPT_PKS6_llS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIfNS1_5distsIfE3infEEEvPT_PKS6_llS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 1024 bytes smem, 356 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIfNS1_5distsIfE6lt_twoEEEvPT_PKS6_S9_S9_llllS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a31pdist_backward_kernel_cuda_implIfNS1_5distsIfE6lt_twoEEEvPT_PKS6_S9_S9_llllS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 388 bytes cmem[0], 60 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIdNS1_5distsIdE4zeroEEEvPT_PKS6_llS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native73_GLOBAL__N__49_tmpxft_000057ea_00000000_7_DistanceKernel_cpp1_ii_d572b97a22pdist_kernel_cuda_implIdNS1_5distsIdE4zeroEEEvPT_PKS6_llS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 2048 bytes smem, 360 bytes cmem[0], 20 bytes cmem[2]
