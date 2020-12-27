@@ -1,0 +1,9 @@
+ptxas info    : 784 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe26detail21GRUUnitGradientKernelIfEEviiiPKT_S4_PKiS4_S4_bPS2_S7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe26detail21GRUUnitGradientKernelIfEEviiiPKT_S4_PKiS4_S4_bPS2_S7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 400 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe26detail13GRUUnitKernelIfEEviiiPKT_S4_PKibPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe26detail13GRUUnitKernelIfEEviiiPKT_S4_PKibPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 376 bytes cmem[0], 40 bytes cmem[2]

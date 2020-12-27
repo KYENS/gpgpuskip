@@ -1,0 +1,9 @@
+ptxas info    : 904 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3529NearestNeighborGradientKernelEiiiiiiffPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 368 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe268_GLOBAL__N__44_tmpxft_00006690_00000000_7_resize_op_cpp1_ii_89ee7c3521NearestNeighborKernelEiiiiiiffPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 368 bytes cmem[0], 12 bytes cmem[2]

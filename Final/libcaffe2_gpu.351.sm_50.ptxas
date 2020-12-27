@@ -1,0 +1,289 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb1ELb0ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb1ELb0ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb1ELb0ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb1ELb0ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb0ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb0ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 4352 bytes smem, 456 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb0ELb0ELb0ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb0ELb0ELb0ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 4352 bytes smem, 456 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb0ELb1ELb0ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb0ELb1ELb0ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 42 registers, 8704 bytes smem, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb0ELb1ELb1ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb0ELb1ELb1ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb0ELb0ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb0ELb0ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 4352 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb1ELb0ELb1ELb0ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb1ELb0ELb1ELb0ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb1ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb1ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb1ELb0ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb1ELb0ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 8704 bytes smem, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb0ELb1ELb0ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb0ELb1ELb0ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb0ELb0ELb0ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb0ELb0ELb0ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 4352 bytes smem, 456 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb1ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb1ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb0ELb1ELb1ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb0ELb1ELb1ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb0ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb0ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 4352 bytes smem, 456 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb1ELb0ELb1ELb0ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb1ELb0ELb1ELb0ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb1ELb0ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb1ELb0ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb0ELb0ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb0ELb0ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 4352 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb0ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb0ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb0ELb0ELb0ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb0ELb0ELb0ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb0ELb1ELb0ELb1ELb0ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb0ELb1ELb0ELb1ELb0ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb1ELb0ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb1ELb0ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb1ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb1ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 8704 bytes smem, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb0ELb0ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb0ELb0ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb0ELb1ELb0ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb0ELb1ELb0ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 4352 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb1ELb1ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb1ELb1ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb1ELb1ELb0ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb1ELb1ELb0ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb0ELb0ELb0ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb0ELb0ELb0ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb1ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb1ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb1ELb0ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb1ELb0ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb1ELb1ELb0ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb1ELb1ELb0ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb0ELb0ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb0ELb0ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 44 registers, 8704 bytes smem, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb0ELb1ELb0ELb1ELb0ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb0ELb1ELb0ELb1ELb0ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb1ELb1ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb1ELb1ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb0ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb0ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb0ELb1ELb0ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb0ELb1ELb0ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 4352 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb0ELb0ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb0ELb0ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb1ELb0ELb1ELb0ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb1ELb0ELb1ELb0ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb0ELb1ELb0ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb0ELb1ELb0ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 4352 bytes smem, 456 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb1ELb1ELb1ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb1ELb1ELb1ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb1ELb0ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb1ELb0ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 44 registers, 8704 bytes smem, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb0ELb1ELb0ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb0ELb1ELb0ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb0ELb0ELb0ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb0ELb0ELb0ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 4352 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb1ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb1ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb0ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb0ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 4352 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb1ELb0ELb1ELb0ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb1ELb0ELb1ELb0ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb1ELb0ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb1ELb0ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb1ELb1ELb1ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb1ELb1ELb1ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb0ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb0ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 4352 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb0ELb1ELb0ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb0ELb1ELb0ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb0ELb1ELb0ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb0ELb1ELb0ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 4352 bytes smem, 456 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb1ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb1ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb0ELb0ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb0ELb0ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb0ELb0ELb0ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb0ELb0ELb0ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 4352 bytes smem, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb0ELb1ELb0ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb0ELb1ELb0ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb1ELb1ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb1ELb1ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb1ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb1ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb0ELb0ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb0ELb0ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 4352 bytes smem, 456 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb0ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb0ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 8704 bytes smem, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb0ELb0ELb0ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb0ELb0ELb0ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb1ELb0ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb1ELb0ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb1ELb0ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb1ELb0ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb1ELb1ELb0ELb1ELb0ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb1ELb1ELb0ELb1ELb0ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb1ELb1ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb1ELb1ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 8704 bytes smem, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb0ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb0ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb0ELb0ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb0ELb0ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 4352 bytes smem, 456 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb1ELb1ELb0ELb1ELb0ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb1ELb1ELb0ELb1ELb0ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb0ELb0ELb0ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb1ELb0ELb0ELb0ELb0ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 42 registers, 8704 bytes smem, 472 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb1ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb0ELb0ELb1ELb1ELb1ELb1ELb1EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb1ELb0ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb1ELb0ELb1ELb1ELb1ELb0EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb0ELb1ELb0ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreI7double2S0_S0_Lb0ELb0ELb0ELb1ELb0ELb1ELb1EEvPKPT0_PKPKT_S9_S2_S7_S7_iiiiiixxxPKT1_SC_SA_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 8704 bytes smem, 472 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb1ELb0ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii' for 'sm_50'
+ptxas info    : Function properties for _Z25batch_gemm_kernel1x1_coreIdddLb1ELb0ELb1ELb0ELb1ELb1ELb0EEvPKPT0_PKPKT_S8_S1_S6_S6_iiiiiixxxPKT1_SB_S9_S9_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 456 bytes cmem[0]

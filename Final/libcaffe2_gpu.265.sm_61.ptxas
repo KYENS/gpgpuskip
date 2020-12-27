@@ -1,0 +1,17 @@
+ptxas info    : 1721 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe227colwise_max_gradient_kernelEiiiPKfS1_S1_Pf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe227colwise_max_gradient_kernelEiiiPKfS1_S1_Pf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe227rowwise_max_gradient_kernelEiiiPKfS1_S1_Pf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe227rowwise_max_gradient_kernelEiiiPKfS1_S1_Pf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe225SumElementsGradientKernelIfEEvbiPKT_PS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe225SumElementsGradientKernelIfEEvbiPKT_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 344 bytes cmem[0], 12 bytes cmem[2]

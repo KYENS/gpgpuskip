@@ -1,0 +1,97 @@
+ptxas info    : 8177 bytes gmem
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILi7EffEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILi7EffEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 508 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILi7EddEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILi7EddEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 35 registers, 508 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILi7EN3c104HalfEfEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES5_S2_IlLi5EiS4_ES2_IS3_Li3EiS4_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILi7EN3c104HalfEfEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES5_S2_IlLi5EiS4_ES2_IS3_Li3EiS4_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 508 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILi3EffEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILi3EffEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 508 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILi3EddEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILi3EddEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 508 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILi3EN3c104HalfEfEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES5_S2_IlLi5EiS4_ES2_IS3_Li3EiS4_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILi3EN3c104HalfEfEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES5_S2_IlLi5EiS4_ES2_IS3_Li3EiS4_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 508 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z46VolumetricFractionalMaxPooling_updateGradInputIfEv15THCDeviceTensorIT_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_E' for 'sm_61'
+ptxas info    : Function properties for _Z46VolumetricFractionalMaxPooling_updateGradInputIfEv15THCDeviceTensorIT_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 464 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z46VolumetricFractionalMaxPooling_updateGradInputIdEv15THCDeviceTensorIT_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_E' for 'sm_61'
+ptxas info    : Function properties for _Z46VolumetricFractionalMaxPooling_updateGradInputIdEv15THCDeviceTensorIT_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 464 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z46VolumetricFractionalMaxPooling_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li5Ei16DefaultPtrTraitsES5_S2_IlLi5EiS4_E' for 'sm_61'
+ptxas info    : Function properties for _Z46VolumetricFractionalMaxPooling_updateGradInputIN3c104HalfEEv15THCDeviceTensorIT_Li5Ei16DefaultPtrTraitsES5_S2_IlLi5EiS4_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 464 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILi5EffEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILi5EffEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 508 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILi5EddEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILi5EddEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 508 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILi5EN3c104HalfEfEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES5_S2_IlLi5EiS4_ES2_IS3_Li3EiS4_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILi5EN3c104HalfEfEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES5_S2_IlLi5EiS4_ES2_IS3_Li3EiS4_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 508 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILi6EffEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILi6EffEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 508 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILi6EddEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILi6EddEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 33 registers, 508 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILi6EN3c104HalfEfEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES5_S2_IlLi5EiS4_ES2_IS3_Li3EiS4_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILi6EN3c104HalfEfEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES5_S2_IlLi5EiS4_ES2_IS3_Li3EiS4_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 508 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILi2EffEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILi2EffEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 508 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILi2EddEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILi2EddEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 34 registers, 508 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILi2EN3c104HalfEfEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES5_S2_IlLi5EiS4_ES2_IS3_Li3EiS4_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILi2EN3c104HalfEfEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES5_S2_IlLi5EiS4_ES2_IS3_Li3EiS4_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 508 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILin1EffEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILin1EffEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 508 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILin1EddEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILin1EddEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 34 registers, 508 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILin1EN3c104HalfEfEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES5_S2_IlLi5EiS4_ES2_IS3_Li3EiS4_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILin1EN3c104HalfEfEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES5_S2_IlLi5EiS4_ES2_IS3_Li3EiS4_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 508 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILi4EffEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILi4EffEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 508 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILi4EddEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILi4EddEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES3_S0_IlLi5EiS2_ES0_IS1_Li3EiS2_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 508 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z43VolumetricFractionalMaxPooling_updateOutputILi4EN3c104HalfEfEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES5_S2_IlLi5EiS4_ES2_IS3_Li3EiS4_Eiii' for 'sm_61'
+ptxas info    : Function properties for _Z43VolumetricFractionalMaxPooling_updateOutputILi4EN3c104HalfEfEv15THCDeviceTensorIT0_Li5Ei16DefaultPtrTraitsES5_S2_IlLi5EiS4_ES2_IS3_Li3EiS4_Eiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 508 bytes cmem[0], 12 bytes cmem[2]

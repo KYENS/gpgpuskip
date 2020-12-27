@@ -1,0 +1,21 @@
+ptxas info    : 784 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe220SparseAdadeltaKernelIiN3c104HalfEEEvmmffPKT_PKfS7_PT0_S9_S9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe220SparseAdadeltaKernelIiN3c104HalfEEEvmmffPKT_PKfS7_PT0_S9_S9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 392 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe220SparseAdadeltaKernelIlN3c104HalfEEEvmmffPKT_PKfS7_PT0_S9_S9_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe220SparseAdadeltaKernelIlN3c104HalfEEEvmmffPKT_PKfS7_PT0_S9_S9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 392 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe220SparseAdadeltaKernelIlfEEvmmffPKT_PKfS5_PT0_S7_S7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe220SparseAdadeltaKernelIlfEEvmmffPKT_PKfS5_PT0_S7_S7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 392 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe274_GLOBAL__N__50_tmpxft_000074c2_00000000_7_adadelta_op_gpu_cpp1_ii_e18697b020AdadeltaUpdateKernelEiPKfS2_S2_S2_ffS2_PfS3_S3_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe274_GLOBAL__N__50_tmpxft_000074c2_00000000_7_adadelta_op_gpu_cpp1_ii_e18697b020AdadeltaUpdateKernelEiPKfS2_S2_S2_ffS2_PfS3_S3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 400 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe220SparseAdadeltaKernelIifEEvmmffPKT_PKfS5_PT0_S7_S7_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe220SparseAdadeltaKernelIifEEvmmffPKT_PKfS5_PT0_S7_S7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 392 bytes cmem[0], 4 bytes cmem[2]

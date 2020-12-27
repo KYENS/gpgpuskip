@@ -1,0 +1,13 @@
+ptxas info    : 1200 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe234deformable_col2im_coord_gpu_kernelIfEEviPKT_S3_S3_iiiiiiiiiiiiiiPS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe234deformable_col2im_coord_gpu_kernelIfEEviPKT_S3_S3_iiiiiiiiiiiiiiPS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 39 registers, 416 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe228deformable_im2col_gpu_kernelIfEEviPKT_S3_iiiiiiiiiiiiiPS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe228deformable_im2col_gpu_kernelIfEEviPKT_S3_iiiiiiiiiiiiiPS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe228deformable_col2im_gpu_kernelIfEEviPKT_S3_iiiiiiiiiiiiiiPS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe228deformable_col2im_gpu_kernelIfEEviPKT_S3_iiiiiiiiiiiiiiPS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 44 registers, 408 bytes cmem[0]

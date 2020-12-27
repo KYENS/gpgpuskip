@@ -1,0 +1,33 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z9getri_2x2I6float2Li256ELb1EEviPPKT_iPKiPPS1_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z9getri_2x2I6float2Li256ELb1EEviPPKT_iPKiPPS1_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 35 registers, 8192 bytes smem, 380 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z9getri_2x2IfLi256ELb1EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z9getri_2x2IfLi256ELb1EEviPPKT_iPKiPPS0_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 4096 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z9getri_2x2I7double2Li256ELb1EEviPPKT_iPKiPPS1_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z9getri_2x2I7double2Li256ELb1EEviPPKT_iPKiPPS1_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 16384 bytes smem, 380 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z9getri_2x2IdLi256ELb1EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z9getri_2x2IdLi256ELb1EEviPPKT_iPKiPPS0_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 8192 bytes smem, 380 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z9getri_2x2I6float2Li256ELb0EEviPPKT_iPKiPPS1_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z9getri_2x2I6float2Li256ELb0EEviPPKT_iPKiPPS1_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 36 registers, 8192 bytes smem, 380 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z9getri_2x2IfLi256ELb0EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z9getri_2x2IfLi256ELb0EEviPPKT_iPKiPPS0_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 4096 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z9getri_2x2I7double2Li256ELb0EEviPPKT_iPKiPPS1_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z9getri_2x2I7double2Li256ELb0EEviPPKT_iPKiPPS1_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 16384 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z9getri_2x2IdLi256ELb0EEviPPKT_iPKiPPS0_iPii' for 'sm_50'
+ptxas info    : Function properties for _Z9getri_2x2IdLi256ELb0EEviPPKT_iPKiPPS0_iPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 8192 bytes smem, 380 bytes cmem[0], 20 bytes cmem[2]

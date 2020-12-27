@@ -1,0 +1,161 @@
+ptxas info    : 727 bytes gmem
+ptxas info    : Compiling entry function '_ZN2at6native5apply29valueSparseIntersectionKernelI11TensorMulOpIlEmlEEvT_NS_4cuda6detail10TensorInfoIlT0_EESA_SA_NS8_IT1_S9_EESC_SC_S9_S9_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29valueSparseIntersectionKernelI11TensorMulOpIlEmlEEvT_NS_4cuda6detail10TensorInfoIlT0_EESA_SA_NS8_IT1_S9_EESC_SC_S9_S9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 2840 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply23sparseElementwiseKernelI12TensorCAddOpIdEmdEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply23sparseElementwiseKernelI12TensorCAddOpIdEmdEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29valueSparseIntersectionKernelI11TensorMulOpIaEmaEEvT_NS_4cuda6detail10TensorInfoIlT0_EESA_SA_NS8_IT1_S9_EESC_SC_S9_S9_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29valueSparseIntersectionKernelI11TensorMulOpIaEmaEEvT_NS_4cuda6detail10TensorInfoIlT0_EESA_SA_NS8_IT1_S9_EESC_SC_S9_S9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 2840 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29sparseElementwiseKernelScalarI12TensorCAddOpIdEmdEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29sparseElementwiseKernelScalarI12TensorCAddOpIdEmdEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIlEESL_NS_9null_typeESM_SM_SM_SM_SM_SM_SM_EEEENS_6detail16wrapped_functionINS0_6detail7generic6detail21binary_search_functorISL_NST_18binary_search_lessENST_3lbfEEEvEEjSM_SM_SM_SM_SM_SM_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIlEESL_NS_9null_typeESM_SM_SM_SM_SM_SM_SM_EEEENS_6detail16wrapped_functionINS0_6detail7generic6detail21binary_search_functorISL_NST_18binary_search_lessENST_3lbfEEEvEEjSM_SM_SM_SM_SM_SM_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 32 bytes smem, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29valueSparseIntersectionKernelI11TensorMulOpIfEmfEEvT_NS_4cuda6detail10TensorInfoIlT0_EESA_SA_NS8_IT1_S9_EESC_SC_S9_S9_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29valueSparseIntersectionKernelI11TensorMulOpIfEmfEEvT_NS_4cuda6detail10TensorInfoIlT0_EESA_SA_NS8_IT1_S9_EESC_SC_S9_S9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 2840 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29sparseElementwiseKernelScalarI12TensorCAddOpIsEmsEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29sparseElementwiseKernelScalarI12TensorCAddOpIsEmsEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply23sparseElementwiseKernelI12TensorCAddOpIsEmsEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply23sparseElementwiseKernelI12TensorCAddOpIsEmsEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native32_sparse_sum_backward_cuda_kernelIfEEvlNS_4cuda6detail10TensorInfoIllEES5_S5_NS4_IT_lEES7_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native32_sparse_sum_backward_cuda_kernelIfEEvlNS_4cuda6detail10TensorInfoIllEES5_S5_NS4_IT_lEES7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 2408 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29valueSparseIntersectionKernelI11TensorMulOpIN3c104HalfEEmS5_EEvT_NS_4cuda6detail10TensorInfoIlT0_EESC_SC_NSA_IT1_SB_EESE_SE_SB_SB_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29valueSparseIntersectionKernelI11TensorMulOpIN3c104HalfEEmS5_EEvT_NS_4cuda6detail10TensorInfoIlT0_EESC_SC_NSA_IT1_SB_EESE_SE_SB_SB_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 2840 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29valueSparseIntersectionKernelI11TensorMulOpIsEmsEEvT_NS_4cuda6detail10TensorInfoIlT0_EESA_SA_NS8_IT1_S9_EESC_SC_S9_S9_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29valueSparseIntersectionKernelI11TensorMulOpIsEmsEEvT_NS_4cuda6detail10TensorInfoIlT0_EESA_SA_NS8_IT1_S9_EESC_SC_S9_S9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 2840 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply23sparseElementwiseKernelI12TensorCAddOpIiEmiEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply23sparseElementwiseKernelI12TensorCAddOpIiEmiEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29valueSparseIntersectionKernelI11TensorMulOpIdEmdEEvT_NS_4cuda6detail10TensorInfoIlT0_EESA_SA_NS8_IT1_S9_EESC_SC_S9_S9_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29valueSparseIntersectionKernelI11TensorMulOpIdEmdEEvT_NS_4cuda6detail10TensorInfoIlT0_EESA_SA_NS8_IT1_S9_EESC_SC_S9_S9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 2840 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29sparseElementwiseKernelScalarI12TensorCAddOpIiEmiEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29sparseElementwiseKernelScalarI12TensorCAddOpIiEmiEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29valueSparseIntersectionKernelI11TensorMulOpIiEmiEEvT_NS_4cuda6detail10TensorInfoIlT0_EESA_SA_NS8_IT1_S9_EESC_SC_S9_S9_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29valueSparseIntersectionKernelI11TensorMulOpIiEmiEEvT_NS_4cuda6detail10TensorInfoIlT0_EESA_SA_NS8_IT1_S9_EESC_SC_S9_S9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 2840 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply23sparseElementwiseKernelI12TensorCAddOpIhEmhEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply23sparseElementwiseKernelI12TensorCAddOpIhEmhEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29valueSparseIntersectionKernelI11TensorMulOpIhEmhEEvT_NS_4cuda6detail10TensorInfoIlT0_EESA_SA_NS8_IT1_S9_EESC_SC_S9_S9_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29valueSparseIntersectionKernelI11TensorMulOpIhEmhEEvT_NS_4cuda6detail10TensorInfoIlT0_EESA_SA_NS8_IT1_S9_EESC_SC_S9_S9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 2840 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29sparseElementwiseKernelScalarI12TensorCAddOpIhEmhEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29sparseElementwiseKernelScalarI12TensorCAddOpIhEmhEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_17counting_iteratorIlNS_11use_defaultESL_lEENS_10device_ptrIlEENS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS0_6detail7generic15sequence_detail16sequence_functorIlEEEEvEEjSP_SP_SP_SP_SP_SP_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_17counting_iteratorIlNS_11use_defaultESL_lEENS_10device_ptrIlEENS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS0_6detail7generic15sequence_detail16sequence_functorIlEEEEvEEjSP_SP_SP_SP_SP_SP_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 32 bytes smem, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29indexSparseIntersectionKernelImiEEvNS_4cuda6detail10TensorInfoIlT_EES7_S7_S6_S6_PS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29indexSparseIntersectionKernelImiEEvNS_4cuda6detail10TensorInfoIlT_EES7_S7_S6_S6_PS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1592 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply23sparseElementwiseKernelI12TensorCAddOpIaEmaEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply23sparseElementwiseKernelI12TensorCAddOpIaEmaEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29indexSparseIntersectionKernelImhEEvNS_4cuda6detail10TensorInfoIlT_EES7_S7_S6_S6_PS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29indexSparseIntersectionKernelImhEEvNS_4cuda6detail10TensorInfoIlT_EES7_S7_S6_S6_PS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1592 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29sparseElementwiseKernelScalarI12TensorCAddOpIaEmaEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29sparseElementwiseKernelScalarI12TensorCAddOpIaEmaEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_17counting_iteratorIlNS_11use_defaultESL_lEENS_10device_ptrIlEENS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS0_6detail7generic15sequence_detail16sequence_functorIlEEEEvEElSP_SP_SP_SP_SP_SP_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_17counting_iteratorIlNS_11use_defaultESL_lEENS_10device_ptrIlEENS_9null_typeESP_SP_SP_SP_SP_SP_SP_EEEENS_6detail16wrapped_functionINSS_23unary_transform_functorINS0_6detail7generic15sequence_detail16sequence_functorIlEEEEvEElSP_SP_SP_SP_SP_SP_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 32 bytes smem, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29indexSparseIntersectionKernelImdEEvNS_4cuda6detail10TensorInfoIlT_EES7_S7_S6_S6_PS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29indexSparseIntersectionKernelImdEEvNS_4cuda6detail10TensorInfoIlT_EES7_S7_S6_S6_PS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1592 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29sparseElementwiseKernelScalarI12TensorCAddOpIlEmlEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29sparseElementwiseKernelScalarI12TensorCAddOpIlEmlEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply23sparseElementwiseKernelI12TensorCAddOpIlEmlEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply23sparseElementwiseKernelI12TensorCAddOpIlEmlEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native32_sparse_sum_backward_cuda_kernelIdEEvlNS_4cuda6detail10TensorInfoIllEES5_S5_NS4_IT_lEES7_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native32_sparse_sum_backward_cuda_kernelIdEEvlNS_4cuda6detail10TensorInfoIllEES5_S5_NS4_IT_lEES7_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 2408 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29indexSparseIntersectionKernelImsEEvNS_4cuda6detail10TensorInfoIlT_EES7_S7_S6_S6_PS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29indexSparseIntersectionKernelImsEEvNS_4cuda6detail10TensorInfoIlT_EES7_S7_S6_S6_PS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1592 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29indexSparseIntersectionKernelImlEEvNS_4cuda6detail10TensorInfoIlT_EES7_S7_S6_S6_PS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29indexSparseIntersectionKernelImlEEvNS_4cuda6detail10TensorInfoIlT_EES7_S7_S6_S6_PS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1592 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply23sparseElementwiseKernelI12TensorCAddOpIfEmfEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply23sparseElementwiseKernelI12TensorCAddOpIfEmfEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29indexSparseIntersectionKernelImaEEvNS_4cuda6detail10TensorInfoIlT_EES7_S7_S6_S6_PS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29indexSparseIntersectionKernelImaEEvNS_4cuda6detail10TensorInfoIlT_EES7_S7_S6_S6_PS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1592 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29sparseElementwiseKernelScalarI12TensorCAddOpIfEmfEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29sparseElementwiseKernelScalarI12TensorCAddOpIfEmfEEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENS8_IlSA_EESB_SA_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIlEESL_NS_9null_typeESM_SM_SM_SM_SM_SM_SM_EEEENS_6detail16wrapped_functionINS0_6detail7generic6detail21binary_search_functorISL_NST_18binary_search_lessENST_3lbfEEEvEElSM_SM_SM_SM_SM_SM_EEEEEEEEvT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail5bulk_6detail15launch_by_valueILj0ENS4_9cuda_taskINS3_14parallel_groupINS3_16concurrent_groupINS3_5agentILm1EEELm0EEELm0EEENS4_7closureINS2_17for_each_n_detail15for_each_kernelENS_5tupleINS4_6cursorILj0EEENS_12zip_iteratorINSG_INS_10device_ptrIlEESL_NS_9null_typeESM_SM_SM_SM_SM_SM_SM_EEEENS_6detail16wrapped_functionINS0_6detail7generic6detail21binary_search_functorISL_NST_18binary_search_lessENST_3lbfEEEvEElSM_SM_SM_SM_SM_SM_EEEEEEEEvT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 32 bytes smem, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29indexSparseIntersectionKernelImfEEvNS_4cuda6detail10TensorInfoIlT_EES7_S7_S6_S6_PS6_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29indexSparseIntersectionKernelImfEEvNS_4cuda6detail10TensorInfoIlT_EES7_S7_S6_S6_PS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1592 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29sparseElementwiseKernelScalarI12TensorCAddOpIN3c104HalfEEmS5_EEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENSA_IlSC_EESD_SC_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29sparseElementwiseKernelScalarI12TensorCAddOpIN3c104HalfEEmS5_EEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENSA_IlSC_EESD_SC_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply23sparseElementwiseKernelI12TensorCAddOpIN3c104HalfEEmS5_EEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENSA_IlSC_EESD_SC_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply23sparseElementwiseKernelI12TensorCAddOpIN3c104HalfEEmS5_EEvT_NS_4cuda6detail10TensorInfoIT1_T0_EENSA_IlSC_EESD_SC_
+    416 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 1584 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native32_sparse_sum_backward_cuda_kernelIN3c104HalfEEEvlNS_4cuda6detail10TensorInfoIllEES7_S7_NS6_IT_lEES9_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native32_sparse_sum_backward_cuda_kernelIN3c104HalfEEEvlNS_4cuda6detail10TensorInfoIllEES7_S7_NS6_IT_lEES9_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 2408 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native5apply29indexSparseIntersectionKernelImN3c104HalfEEEvNS_4cuda6detail10TensorInfoIlT_EES9_S9_S8_S8_PS8_' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native5apply29indexSparseIntersectionKernelImN3c104HalfEEEvNS_4cuda6detail10TensorInfoIlT_EES9_S9_S8_S8_PS8_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 1592 bytes cmem[0]

@@ -1,0 +1,53 @@
+ptxas info    : 711 bytes gmem
+ptxas info    : Compiling entry function '_ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b31weight_norm_fwd_last_dim_kernelIN3c104HalfEfEEvPT_PT0_PKS5_SA_ii' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b31weight_norm_fwd_last_dim_kernelIN3c104HalfEfEEvPT_PT0_PKS5_SA_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 360 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b32weight_norm_fwd_first_dim_kernelIffEEvPT_PT0_PKS3_S8_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b32weight_norm_fwd_first_dim_kernelIffEEvPT_PT0_PKS3_S8_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 356 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b31weight_norm_bwd_last_dim_kernelIddEEvPT_S4_PKS3_S6_S6_PKT0_ii' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b31weight_norm_bwd_last_dim_kernelIddEEvPT_S4_PKS3_S6_S6_PKT0_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 376 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b32weight_norm_bwd_first_dim_kernelIffEEvPT_S4_PKS3_S6_S6_PKT0_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b32weight_norm_bwd_first_dim_kernelIffEEvPT_S4_PKS3_S6_S6_PKT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 372 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b31weight_norm_fwd_last_dim_kernelIddEEvPT_PT0_PKS3_S8_ii' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b31weight_norm_fwd_last_dim_kernelIddEEvPT_PT0_PKS3_S8_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 360 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b31weight_norm_bwd_last_dim_kernelIN3c104HalfEfEEvPT_S6_PKS5_S8_S8_PKT0_ii' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b31weight_norm_bwd_last_dim_kernelIN3c104HalfEfEEvPT_S6_PKS5_S8_S8_PKT0_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 376 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b32weight_norm_bwd_first_dim_kernelIddEEvPT_S4_PKS3_S6_S6_PKT0_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b32weight_norm_bwd_first_dim_kernelIddEEvPT_S4_PKS3_S6_S6_PKT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 23 registers, 372 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b32weight_norm_fwd_first_dim_kernelIN3c104HalfEfEEvPT_PT0_PKS5_SA_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b32weight_norm_fwd_first_dim_kernelIN3c104HalfEfEEvPT_PT0_PKS5_SA_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 356 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b31weight_norm_bwd_last_dim_kernelIffEEvPT_S4_PKS3_S6_S6_PKT0_ii' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b31weight_norm_bwd_last_dim_kernelIffEEvPT_S4_PKS3_S6_S6_PKT0_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 376 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b31weight_norm_fwd_last_dim_kernelIffEEvPT_PT0_PKS3_S8_ii' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b31weight_norm_fwd_last_dim_kernelIffEEvPT_PT0_PKS3_S8_ii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 360 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN6thrust6system4cuda6detail4cub_11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b32weight_norm_fwd_first_dim_kernelIddEEvPT_PT0_PKS3_S8_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b32weight_norm_fwd_first_dim_kernelIddEEvPT_PT0_PKS3_S8_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 356 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b32weight_norm_bwd_first_dim_kernelIN3c104HalfEfEEvPT_S6_PKS5_S8_S8_PKT0_i' for 'sm_61'
+ptxas info    : Function properties for _ZN2at6native69_GLOBAL__N__45_tmpxft_0000559d_00000000_7_WeightNorm_cpp1_ii_b3893b6b32weight_norm_bwd_first_dim_kernelIN3c104HalfEfEEvPT_S6_PKS5_S8_S8_PKT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 372 bytes cmem[0], 12 bytes cmem[2]

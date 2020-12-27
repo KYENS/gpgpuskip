@@ -1,0 +1,9 @@
+ptxas info    : 784 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae823ReluNGradientCUDAKernelIfEEviT_PKS2_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae823ReluNGradientCUDAKernelIfEEviT_PKS2_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae815ReluNCUDAKernelIfEEviT_PKS2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe268_GLOBAL__N__44_tmpxft_00006337_00000000_7_relu_n_op_cpp1_ii_d8a44ae815ReluNCUDAKernelIfEEviT_PKS2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]

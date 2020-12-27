@@ -1,0 +1,9 @@
+ptxas info    : 904 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_00006cb4_00000000_7_leaky_relu_op_cpp1_ii_124efe1e23LeakyReluGradientKernelIfEEviT_PKS2_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_00006cb4_00000000_7_leaky_relu_op_cpp1_ii_124efe1e23LeakyReluGradientKernelIfEEviT_PKS2_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe272_GLOBAL__N__48_tmpxft_00006cb4_00000000_7_leaky_relu_op_cpp1_ii_124efe1e15LeakyReluKernelIfEEviT_PKS2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe272_GLOBAL__N__48_tmpxft_00006cb4_00000000_7_leaky_relu_op_cpp1_ii_124efe1e15LeakyReluKernelIfEEviT_PKS2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]

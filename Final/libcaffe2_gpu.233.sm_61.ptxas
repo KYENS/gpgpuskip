@@ -1,0 +1,9 @@
+ptxas info    : 768 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006608_00000000_7_accuracy_op_cpp1_ii_bf6d464220AccuracyDivideKernelEiPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006608_00000000_7_accuracy_op_cpp1_ii_bf6d464220AccuracyDivideKernelEiPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 336 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006608_00000000_7_accuracy_op_cpp1_ii_bf6d464214AccuracyKernelEiiiPKfPKiPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006608_00000000_7_accuracy_op_cpp1_ii_bf6d464214AccuracyKernelEiiiPKfPKiPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 24 bytes smem, 360 bytes cmem[0]

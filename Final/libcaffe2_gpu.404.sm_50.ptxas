@@ -1,0 +1,109 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z12zgemm_largekILb0ELb1ELb0ELb1ELi5ELi4ELi3ELi4ELi2ELi32EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12zgemm_largekILb0ELb1ELb0ELb1ELi5ELi4ELi3ELi4ELi2ELi32EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 90 registers, 6276 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12zgemm_largekILb1ELb0ELb0ELb0ELi4ELi3ELi4ELi3ELi3ELi17EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12zgemm_largekILb1ELb0ELb0ELb0ELi4ELi3ELi4ELi3ELi3ELi17EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 6660 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17zgemm_largek_warpILb0ELb1ELb0ELb0ELi3ELi3ELi4ELi3ELi2ELi2ELi8EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z17zgemm_largek_warpILb0ELb1ELb0ELb0ELi3ELi3ELi4ELi3ELi2ELi2ELi8EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 17412 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12zgemm_largekILb1ELb0ELb1ELb0ELi5ELi4ELi3ELi4ELi2ELi33EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12zgemm_largekILb1ELb0ELb1ELb0ELi5ELi4ELi3ELi4ELi2ELi33EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 128 registers, 6404 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12zgemm_largekILb1ELb1ELb1ELb0ELi4ELi3ELi4ELi3ELi3ELi17EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12zgemm_largekILb1ELb1ELb1ELb0ELi4ELi3ELi4ELi3ELi3ELi17EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 68 registers, 6660 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17zgemm_largek_warpILb1ELb1ELb0ELb1ELi3ELi3ELi4ELi3ELi2ELi2ELi9EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z17zgemm_largek_warpILb1ELb1ELb0ELb1ELi3ELi3ELi4ELi3ELi2ELi2ELi9EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 80 registers, 18436 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12zgemm_largekILb1ELb1ELb0ELb0ELi5ELi4ELi3ELi4ELi2ELi33EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12zgemm_largekILb1ELb1ELb0ELb0ELi5ELi4ELi3ELi4ELi2ELi33EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 114 registers, 6404 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12zgemm_largekILb1ELb1ELb0ELb1ELi4ELi3ELi4ELi3ELi3ELi17EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12zgemm_largekILb1ELb1ELb0ELb1ELi4ELi3ELi4ELi3ELi3ELi17EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    16 bytes stack frame, 12 bytes spill stores, 12 bytes spill loads
+ptxas info    : Used 64 registers, 6660 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17zgemm_largek_warpILb1ELb0ELb0ELb0ELi3ELi3ELi4ELi3ELi2ELi2ELi9EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z17zgemm_largek_warpILb1ELb0ELb0ELb0ELi3ELi3ELi4ELi3ELi2ELi2ELi9EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 94 registers, 18436 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12zgemm_largekILb0ELb0ELb0ELb0ELi5ELi4ELi3ELi4ELi2ELi32EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12zgemm_largekILb0ELb0ELb0ELb0ELi5ELi4ELi3ELi4ELi2ELi32EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 90 registers, 6276 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17zgemm_largek_warpILb1ELb1ELb1ELb0ELi3ELi3ELi4ELi3ELi2ELi2ELi9EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z17zgemm_largek_warpILb1ELb1ELb1ELb0ELi3ELi3ELi4ELi3ELi2ELi2ELi9EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 80 registers, 18436 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12zgemm_largekILb0ELb1ELb0ELb0ELi4ELi3ELi4ELi3ELi3ELi16EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12zgemm_largekILb0ELb1ELb0ELb0ELi4ELi3ELi4ELi3ELi3ELi16EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 6404 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12zgemm_largekILb1ELb1ELb1ELb1ELi5ELi4ELi3ELi4ELi2ELi33EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12zgemm_largekILb1ELb1ELb1ELb1ELi5ELi4ELi3ELi4ELi2ELi33EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 114 registers, 6404 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12zgemm_largekILb1ELb1ELb0ELb1ELi5ELi4ELi3ELi4ELi2ELi33EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12zgemm_largekILb1ELb1ELb0ELb1ELi5ELi4ELi3ELi4ELi2ELi33EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 114 registers, 6404 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12zgemm_largekILb1ELb0ELb1ELb0ELi4ELi3ELi4ELi3ELi3ELi17EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12zgemm_largekILb1ELb0ELb1ELb0ELi4ELi3ELi4ELi3ELi3ELi17EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    8 bytes stack frame, 8 bytes spill stores, 8 bytes spill loads
+ptxas info    : Used 72 registers, 6660 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17zgemm_largek_warpILb1ELb1ELb0ELb0ELi3ELi3ELi4ELi3ELi2ELi2ELi9EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z17zgemm_largek_warpILb1ELb1ELb0ELb0ELi3ELi3ELi4ELi3ELi2ELi2ELi9EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 80 registers, 18436 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12zgemm_largekILb0ELb1ELb0ELb0ELi5ELi4ELi3ELi4ELi2ELi32EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12zgemm_largekILb0ELb1ELb0ELb0ELi5ELi4ELi3ELi4ELi2ELi32EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 90 registers, 6276 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17zgemm_largek_warpILb1ELb1ELb1ELb1ELi3ELi3ELi4ELi3ELi2ELi2ELi9EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z17zgemm_largek_warpILb1ELb1ELb1ELb1ELi3ELi3ELi4ELi3ELi2ELi2ELi9EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 80 registers, 18436 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12zgemm_largekILb0ELb1ELb0ELb1ELi4ELi3ELi4ELi3ELi3ELi16EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12zgemm_largekILb0ELb1ELb0ELb1ELi4ELi3ELi4ELi3ELi3ELi16EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 6404 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17zgemm_largek_warpILb0ELb0ELb0ELb0ELi3ELi3ELi4ELi3ELi2ELi2ELi8EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z17zgemm_largek_warpILb0ELb0ELb0ELb0ELi3ELi3ELi4ELi3ELi2ELi2ELi8EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 80 registers, 17412 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12zgemm_largekILb1ELb0ELb0ELb0ELi5ELi4ELi3ELi4ELi2ELi33EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12zgemm_largekILb1ELb0ELb0ELb0ELi5ELi4ELi3ELi4ELi2ELi33EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 128 registers, 6404 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12zgemm_largekILb1ELb1ELb0ELb0ELi4ELi3ELi4ELi3ELi3ELi17EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12zgemm_largekILb1ELb1ELb0ELb0ELi4ELi3ELi4ELi3ELi3ELi17EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    16 bytes stack frame, 12 bytes spill stores, 12 bytes spill loads
+ptxas info    : Used 64 registers, 6660 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17zgemm_largek_warpILb0ELb1ELb0ELb1ELi3ELi3ELi4ELi3ELi2ELi2ELi8EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z17zgemm_largek_warpILb0ELb1ELb0ELb1ELi3ELi3ELi4ELi3ELi2ELi2ELi8EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, 17412 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12zgemm_largekILb1ELb1ELb1ELb1ELi4ELi3ELi4ELi3ELi3ELi17EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12zgemm_largekILb1ELb1ELb1ELb1ELi4ELi3ELi4ELi3ELi3ELi17EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    16 bytes stack frame, 12 bytes spill stores, 12 bytes spill loads
+ptxas info    : Used 64 registers, 6660 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17zgemm_largek_warpILb1ELb0ELb1ELb0ELi3ELi3ELi4ELi3ELi2ELi2ELi9EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z17zgemm_largek_warpILb1ELb0ELb1ELb0ELi3ELi3ELi4ELi3ELi2ELi2ELi9EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 96 registers, 18436 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12zgemm_largekILb0ELb0ELb0ELb0ELi4ELi3ELi4ELi3ELi3ELi16EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12zgemm_largekILb0ELb0ELb0ELb0ELi4ELi3ELi4ELi3ELi3ELi16EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 62 registers, 6404 bytes smem, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12zgemm_largekILb1ELb1ELb1ELb0ELi5ELi4ELi3ELi4ELi2ELi33EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_' for 'sm_50'
+ptxas info    : Function properties for _Z12zgemm_largekILb1ELb1ELb1ELb0ELi5ELi4ELi3ELi4ELi2ELi33EEvP7double2PKS0_S3_iiiiiiS3_S3_S0_S0_iiPiS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 118 registers, 6404 bytes smem, 440 bytes cmem[0]

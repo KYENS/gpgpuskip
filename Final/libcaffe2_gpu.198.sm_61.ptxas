@@ -1,0 +1,17 @@
+ptxas info    : 1088 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00005ed9_00000000_7_lp_pool_op_cpp1_ii_1017aeaf17LpPoolForwardNHWCIfEEviPKT_iiiiiiiiiiiiPS2_S2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00005ed9_00000000_7_lp_pool_op_cpp1_ii_1017aeaf17LpPoolForwardNHWCIfEEviPKT_iiiiiiiiiiiiPS2_S2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 35 registers, 396 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00005ed9_00000000_7_lp_pool_op_cpp1_ii_1017aeaf18LpPoolBackwardNHWCIfEEviPKT_S4_S4_iiiiiiiiiiiiPS2_S2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00005ed9_00000000_7_lp_pool_op_cpp1_ii_1017aeaf18LpPoolBackwardNHWCIfEEviPKT_S4_S4_iiiiiiiiiiiiPS2_S2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, 412 bytes cmem[0], 56 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00005ed9_00000000_7_lp_pool_op_cpp1_ii_1017aeaf17LpPoolForwardNCHWIfEEviPKT_iiiiiiiiiiiiPS2_S2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00005ed9_00000000_7_lp_pool_op_cpp1_ii_1017aeaf17LpPoolForwardNCHWIfEEviPKT_iiiiiiiiiiiiPS2_S2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 396 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe269_GLOBAL__N__45_tmpxft_00005ed9_00000000_7_lp_pool_op_cpp1_ii_1017aeaf18LpPoolBackwardNCHWIfEEviPKT_S4_S4_iiiiiiiiiiiiPS2_i' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe269_GLOBAL__N__45_tmpxft_00005ed9_00000000_7_lp_pool_op_cpp1_ii_1017aeaf18LpPoolBackwardNCHWIfEEviPKT_S4_S4_iiiiiiiiiiiiPS2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, 412 bytes cmem[0], 56 bytes cmem[2]

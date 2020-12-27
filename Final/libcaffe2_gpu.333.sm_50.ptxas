@@ -1,0 +1,113 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z15scal_kernel_valI6float2S0_Li0EEv19cublasScalParamsValIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_valI6float2S0_Li0EEv19cublasScalParamsValIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15scal_kernel_valI7double2S0_Li0EEv19cublasScalParamsValIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_valI7double2S0_Li0EEv19cublasScalParamsValIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15scal_kernel_valIffLi0EEv19cublasScalParamsValIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_valIffLi0EEv19cublasScalParamsValIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 7 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15scal_kernel_valI6float2fLi0EEv19cublasScalParamsValIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_valI6float2fLi0EEv19cublasScalParamsValIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15scal_kernel_valI6__halffLi0EEv19cublasScalParamsValIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_valI6__halffLi0EEv19cublasScalParamsValIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 7 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15scal_kernel_valI7double2dLi0EEv19cublasScalParamsValIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_valI7double2dLi0EEv19cublasScalParamsValIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15scal_kernel_valIddLi0EEv19cublasScalParamsValIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_valIddLi0EEv19cublasScalParamsValIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15scal_kernel_refI6float2S0_Li0EEv19cublasScalParamsRefIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_refI6float2S0_Li0EEv19cublasScalParamsRefIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15scal_kernel_refI7double2S0_Li0EEv19cublasScalParamsRefIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_refI7double2S0_Li0EEv19cublasScalParamsRefIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15scal_kernel_refIffLi0EEv19cublasScalParamsRefIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_refIffLi0EEv19cublasScalParamsRefIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15scal_kernel_refI6float2fLi0EEv19cublasScalParamsRefIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_refI6float2fLi0EEv19cublasScalParamsRefIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15scal_kernel_refI6__halffLi0EEv19cublasScalParamsRefIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_refI6__halffLi0EEv19cublasScalParamsRefIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15scal_kernel_refI7double2dLi0EEv19cublasScalParamsRefIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_refI7double2dLi0EEv19cublasScalParamsRefIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15scal_kernel_refIddLi0EEv19cublasScalParamsRefIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_refIddLi0EEv19cublasScalParamsRefIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15scal_kernel_valI6float2S0_Li1EEv19cublasScalParamsValIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_valI6float2S0_Li1EEv19cublasScalParamsValIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 364 bytes cmem[0], 1 textures
+ptxas info    : Compiling entry function '_Z15scal_kernel_valI7double2S0_Li1EEv19cublasScalParamsValIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_valI7double2S0_Li1EEv19cublasScalParamsValIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 388 bytes cmem[0], 1 textures
+ptxas info    : Compiling entry function '_Z15scal_kernel_valIffLi1EEv19cublasScalParamsValIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_valIffLi1EEv19cublasScalParamsValIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 7 registers, 356 bytes cmem[0], 1 textures
+ptxas info    : Compiling entry function '_Z15scal_kernel_valI6float2fLi1EEv19cublasScalParamsValIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_valI6float2fLi1EEv19cublasScalParamsValIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 356 bytes cmem[0], 1 textures
+ptxas info    : Compiling entry function '_Z15scal_kernel_valI6__halffLi1EEv19cublasScalParamsValIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_valI6__halffLi1EEv19cublasScalParamsValIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, 356 bytes cmem[0], 1 textures
+ptxas info    : Compiling entry function '_Z15scal_kernel_valI7double2dLi1EEv19cublasScalParamsValIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_valI7double2dLi1EEv19cublasScalParamsValIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 364 bytes cmem[0], 1 textures
+ptxas info    : Compiling entry function '_Z15scal_kernel_valIddLi1EEv19cublasScalParamsValIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_valIddLi1EEv19cublasScalParamsValIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 364 bytes cmem[0], 1 textures
+ptxas info    : Compiling entry function '_Z15scal_kernel_refI6float2S0_Li1EEv19cublasScalParamsRefIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_refI6float2S0_Li1EEv19cublasScalParamsRefIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 356 bytes cmem[0], 1 textures
+ptxas info    : Compiling entry function '_Z15scal_kernel_refI7double2S0_Li1EEv19cublasScalParamsRefIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_refI7double2S0_Li1EEv19cublasScalParamsRefIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 356 bytes cmem[0], 1 textures
+ptxas info    : Compiling entry function '_Z15scal_kernel_refIffLi1EEv19cublasScalParamsRefIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_refIffLi1EEv19cublasScalParamsRefIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 356 bytes cmem[0], 1 textures
+ptxas info    : Compiling entry function '_Z15scal_kernel_refI6float2fLi1EEv19cublasScalParamsRefIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_refI6float2fLi1EEv19cublasScalParamsRefIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 356 bytes cmem[0], 1 textures
+ptxas info    : Compiling entry function '_Z15scal_kernel_refI6__halffLi1EEv19cublasScalParamsRefIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_refI6__halffLi1EEv19cublasScalParamsRefIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 356 bytes cmem[0], 1 textures
+ptxas info    : Compiling entry function '_Z15scal_kernel_refI7double2dLi1EEv19cublasScalParamsRefIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_refI7double2dLi1EEv19cublasScalParamsRefIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 356 bytes cmem[0], 1 textures
+ptxas info    : Compiling entry function '_Z15scal_kernel_refIddLi1EEv19cublasScalParamsRefIT_T0_E' for 'sm_50'
+ptxas info    : Function properties for _Z15scal_kernel_refIddLi1EEv19cublasScalParamsRefIT_T0_E
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 356 bytes cmem[0], 1 textures

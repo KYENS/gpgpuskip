@@ -1,0 +1,353 @@
+ptxas info    : 521 bytes gmem
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIssEssjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIssEssjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 581 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_jLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_jLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 557 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIllElljLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIllElljLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 381 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIddEddjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIddEddjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 357 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIaaEaajLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIaaEaajLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 557 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIllEllmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIllEllmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 361 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIddEddjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIddEddjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 757 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIaaEaamLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIaaEaamLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 1161 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIiiEiijLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIiiEiijLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 405 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIffEffjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIffEffjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 381 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIhhEhhjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIhhEhhjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 581 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIssEssjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIssEssjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 381 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_jLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_jLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 557 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIiiEiijLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIiiEiijLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 757 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIffEffjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIffEffjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 581 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIhhEhhmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIhhEhhmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 361 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIllElljLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIllElljLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 581 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIddEddjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIddEddjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 405 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIaaEaajLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIaaEaajLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 557 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIiiEiijLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIiiEiijLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 357 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_mLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_mLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 1161 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIhhEhhjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIhhEhhjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 381 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIssEssmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIssEssmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 361 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_jLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_jLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 757 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIllElljLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIllElljLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 381 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIddEddjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIddEddjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 557 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIaaEaajLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIaaEaajLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 405 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_jLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_jLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 357 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIddEddmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIddEddmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 1161 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIssEssjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIssEssjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 381 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIiiEiijLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIiiEiijLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 557 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIffEffjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIffEffjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 581 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIhhEhhjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIhhEhhjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 581 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIssEssjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIssEssjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 581 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_jLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_jLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 405 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIiiEiimLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIiiEiimLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 1161 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIffEffmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIffEffmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 361 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIaaEaajLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIaaEaajLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 357 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIllElljLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIllElljLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 581 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIddEddjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIddEddjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 557 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIaaEaajLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIaaEaajLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 757 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIiiEiijLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIiiEiijLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 557 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIffEffjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIffEffjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 381 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIhhEhhjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIhhEhhjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 381 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIssEssjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIssEssjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 557 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_jLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_jLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 581 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIllElljLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIllElljLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 357 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIffEffmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIffEffmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 1161 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIaaEaajLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIaaEaajLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 381 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIllElljLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIllElljLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 757 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIddEddjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIddEddjLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 581 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIaaEaamLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIaaEaamLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 361 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIiiEiijLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIiiEiijLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 381 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIffEffjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIffEffjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 557 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIhhEhhjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIhhEhhjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 405 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIssEssjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIssEssjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 557 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_jLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_jLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 381 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIiiEiijLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIiiEiijLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 581 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIffEffjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIffEffjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 557 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIhhEhhjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIhhEhhjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 757 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIllElljLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIllElljLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 405 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIddEddjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIddEddjLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 381 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIaaEaajLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIaaEaajLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 581 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIssEssmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIssEssmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 1161 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_mLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_mLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 361 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIhhEhhjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIhhEhhjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 357 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIssEssjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIssEssjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 757 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_jLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_jLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 581 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIllElljLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIllElljLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 557 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIddEddjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIddEddjLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 381 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIaaEaajLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIaaEaajLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 381 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIllEllmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIllEllmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 1161 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIddEddmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIddEddmLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 361 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIssEssjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIssEssjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 357 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIiiEiijLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIiiEiijLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 581 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIffEffjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIffEffjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 405 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIhhEhhjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIhhEhhjLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 557 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIssEssjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIssEssjLi2ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 405 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_jLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIN3c104HalfES2_ES2_S2_jLi2ELi1EEv10OffsetInfoIT0_T2_XT3_EES4_IT1_S6_XT4_EES6_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 381 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIiiEiimLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIiiEiimLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 361 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIffEffjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIffEffjLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    432 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 757 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIhhEhhmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIhhEhhmLin1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    832 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 1161 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIllElljLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIllElljLin1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 557 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIddEddjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIddEddjLi2ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 581 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIaaEaajLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIaaEaajLin1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 581 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIiiEiijLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIiiEiijLi1ELi2EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 381 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIffEffjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIffEffjLi1ELi1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 357 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z21kernelPointwiseApply2I6CopyOpIhhEhhjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_' for 'sm_61'
+ptxas info    : Function properties for _Z21kernelPointwiseApply2I6CopyOpIhhEhhjLi1ELin1EEv10OffsetInfoIT0_T2_XT3_EES2_IT1_S4_XT4_EES4_T_
+    216 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 557 bytes cmem[0]

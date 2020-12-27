@@ -1,0 +1,25 @@
+ptxas info    : 161 bytes gmem
+ptxas info    : Compiling entry function '_Z15MaxPoolBackwardIffEviPKT_PKliiiiiiiiiiiiiiPS0_' for 'sm_61'
+ptxas info    : Function properties for _Z15MaxPoolBackwardIffEviPKT_PKliiiiiiiiiiiiiiPS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15MaxPoolBackwardIddEviPKT_PKliiiiiiiiiiiiiiPS0_' for 'sm_61'
+ptxas info    : Function properties for _Z15MaxPoolBackwardIddEviPKT_PKliiiiiiiiiiiiiiPS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15MaxPoolBackwardIN3c104HalfEfEviPKT_PKliiiiiiiiiiiiiiPS2_' for 'sm_61'
+ptxas info    : Function properties for _Z15MaxPoolBackwardIN3c104HalfEfEviPKT_PKliiiiiiiiiiiiiiPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z14MaxPoolForwardIffEviPKT_iiiiiiiiiiiiiiPS0_Pl' for 'sm_61'
+ptxas info    : Function properties for _Z14MaxPoolForwardIffEviPKT_iiiiiiiiiiiiiiPS0_Pl
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z14MaxPoolForwardIddEviPKT_iiiiiiiiiiiiiiPS0_Pl' for 'sm_61'
+ptxas info    : Function properties for _Z14MaxPoolForwardIddEviPKT_iiiiiiiiiiiiiiPS0_Pl
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 408 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z14MaxPoolForwardIN3c104HalfEfEviPKT_iiiiiiiiiiiiiiPS2_Pl' for 'sm_61'
+ptxas info    : Function properties for _Z14MaxPoolForwardIN3c104HalfEfEviPKT_iiiiiiiiiiiiiiPS2_Pl
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 408 bytes cmem[0]

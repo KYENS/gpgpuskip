@@ -1,0 +1,37 @@
+ptxas info    : 1720 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006818_00000000_7_distance_op_cpp1_ii_09a8af1910BatchedMulIfEEviiPKT_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006818_00000000_7_distance_op_cpp1_ii_09a8af1910BatchedMulIfEEviiPKT_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006818_00000000_7_distance_op_cpp1_ii_09a8af1918StripedScaleKernelIfEEviiPKT_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006818_00000000_7_distance_op_cpp1_ii_09a8af1918StripedScaleKernelIfEEviiPKT_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006818_00000000_7_distance_op_cpp1_ii_09a8af1911BatchedAxpyIfEEviiPKT_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006818_00000000_7_distance_op_cpp1_ii_09a8af1911BatchedAxpyIfEEviiPKT_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006818_00000000_7_distance_op_cpp1_ii_09a8af1924L1DistanceGradientKernelIfEEviiPKT_S4_S4_PS2_S5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006818_00000000_7_distance_op_cpp1_ii_09a8af1924L1DistanceGradientKernelIfEEviiPKT_S4_S4_PS2_S5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 368 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006818_00000000_7_distance_op_cpp1_ii_09a8af1915Scale2AxpyScaleIfEEviPKT_S4_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006818_00000000_7_distance_op_cpp1_ii_09a8af1915Scale2AxpyScaleIfEEviPKT_S4_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 360 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006818_00000000_7_distance_op_cpp1_ii_09a8af1916L1DistanceKernelIfEEviiPKT_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006818_00000000_7_distance_op_cpp1_ii_09a8af1916L1DistanceKernelIfEEviiPKT_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 24 bytes smem, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006818_00000000_7_distance_op_cpp1_ii_09a8af1916DotProductKernelIfEEviiPKT_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006818_00000000_7_distance_op_cpp1_ii_09a8af1916DotProductKernelIfEEviiPKT_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 24 bytes smem, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006818_00000000_7_distance_op_cpp1_ii_09a8af1923SquaredL2DistanceKernelIfEEviiPKT_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006818_00000000_7_distance_op_cpp1_ii_09a8af1923SquaredL2DistanceKernelIfEEviiPKT_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 13 registers, 24 bytes smem, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_00006818_00000000_7_distance_op_cpp1_ii_09a8af1924DotProductGradientKernelIfEEviiPKT_S4_S4_PS2_S5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_00006818_00000000_7_distance_op_cpp1_ii_09a8af1924DotProductGradientKernelIfEEviiPKT_S4_S4_PS2_S5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 368 bytes cmem[0]

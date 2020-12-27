@@ -1,0 +1,25 @@
+ptxas info    : 784 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe266_GLOBAL__N__42_tmpxft_00006ffb_00000000_7_relu_op_cpp1_ii_a0828ec827ReluGradientHalf2CUDAKernelEiPK7__half2S3_PS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe266_GLOBAL__N__42_tmpxft_00006ffb_00000000_7_relu_op_cpp1_ii_a0828ec827ReluGradientHalf2CUDAKernelEiPK7__half2S3_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe266_GLOBAL__N__42_tmpxft_00006ffb_00000000_7_relu_op_cpp1_ii_a0828ec822ReluGradientCUDAKernelIfEEviPKT_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe266_GLOBAL__N__42_tmpxft_00006ffb_00000000_7_relu_op_cpp1_ii_a0828ec822ReluGradientCUDAKernelIfEEviPKT_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe266_GLOBAL__N__42_tmpxft_00006ffb_00000000_7_relu_op_cpp1_ii_a0828ec819ReluHalf2CUDAKernelEiPK7__half2PS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe266_GLOBAL__N__42_tmpxft_00006ffb_00000000_7_relu_op_cpp1_ii_a0828ec819ReluHalf2CUDAKernelEiPK7__half2PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe266_GLOBAL__N__42_tmpxft_00006ffb_00000000_7_relu_op_cpp1_ii_a0828ec826ReluGradientHalfCUDAKernelEiPK6__halfS3_PS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe266_GLOBAL__N__42_tmpxft_00006ffb_00000000_7_relu_op_cpp1_ii_a0828ec826ReluGradientHalfCUDAKernelEiPK6__halfS3_PS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe266_GLOBAL__N__42_tmpxft_00006ffb_00000000_7_relu_op_cpp1_ii_a0828ec814ReluCUDAKernelIfEEviPKT_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe266_GLOBAL__N__42_tmpxft_00006ffb_00000000_7_relu_op_cpp1_ii_a0828ec814ReluCUDAKernelIfEEviPKT_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe266_GLOBAL__N__42_tmpxft_00006ffb_00000000_7_relu_op_cpp1_ii_a0828ec818ReluHalfCUDAKernelEiPK6__halfPS1_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe266_GLOBAL__N__42_tmpxft_00006ffb_00000000_7_relu_op_cpp1_ii_a0828ec818ReluHalfCUDAKernelEiPK6__halfPS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 344 bytes cmem[0]

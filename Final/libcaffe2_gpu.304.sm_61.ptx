@@ -1,0 +1,111 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe29RmsPropOpIfNS_11CUDAContextEEE[136];
+
+.visible .entry _ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1_(
+.param .u32 _ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_0,
+.param .u64 _ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_1,
+.param .u64 _ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_2,
+.param .u64 _ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_3,
+.param .u64 _ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_4,
+.param .u64 _ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_5,
+.param .u64 _ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_6,
+.param .f32 _ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_7,
+.param .f32 _ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_8,
+.param .f32 _ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_9,
+.param .u64 _ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_10
+)
+{
+.reg .pred %p<3>;
+.reg .f32 %f<19>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<28>;
+
+
+ld.param.u64 %rd13, [_ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_1];
+ld.param.u64 %rd14, [_ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_2];
+ld.param.u64 %rd15, [_ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_3];
+ld.param.u64 %rd16, [_ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_4];
+ld.param.u64 %rd17, [_ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_5];
+ld.param.u64 %rd18, [_ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_6];
+ld.param.f32 %f2, [_ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_7];
+ld.param.f32 %f3, [_ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_8];
+ld.param.f32 %f4, [_ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_9];
+ld.param.u64 %rd19, [_ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_10];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd27, %r4;
+ld.param.s32 %rd2, [_ZN6caffe213RmsPropUpdateEiPKfS1_S1_PfS2_S2_fffS1__param_0];
+setp.ge.u64	%p1, %rd27, %rd2;
+@%p1 bra BB0_3;
+
+cvta.to.global.u64 %rd3, %rd16;
+cvta.to.global.u64 %rd4, %rd18;
+cvta.to.global.u64 %rd5, %rd19;
+cvta.to.global.u64 %rd6, %rd15;
+cvta.to.global.u64 %rd7, %rd17;
+cvta.to.global.u64 %rd8, %rd13;
+cvta.to.global.u64 %rd9, %rd14;
+mov.f32 %f5, 0f3F800000;
+sub.f32 %f1, %f5, %f2;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd10, %r6;
+
+BB0_2:
+shl.b64 %rd20, %rd27, 2;
+add.s64 %rd21, %rd8, %rd20;
+ld.global.f32 %f6, [%rd21];
+mul.f32 %f7, %f6, %f6;
+add.s64 %rd22, %rd9, %rd20;
+ld.global.f32 %f8, [%rd22];
+sub.f32 %f9, %f7, %f8;
+fma.rn.f32 %f10, %f1, %f9, %f8;
+add.s64 %rd23, %rd7, %rd20;
+st.global.f32 [%rd23], %f10;
+add.s64 %rd24, %rd6, %rd20;
+ld.global.f32 %f11, [%rd24];
+ld.global.f32 %f12, [%rd21];
+ld.global.f32 %f13, [%rd5];
+mul.f32 %f14, %f13, %f12;
+add.f32 %f15, %f10, %f4;
+sqrt.rn.f32 %f16, %f15;
+div.rn.f32 %f17, %f14, %f16;
+fma.rn.f32 %f18, %f11, %f3, %f17;
+add.s64 %rd25, %rd4, %rd20;
+st.global.f32 [%rd25], %f18;
+add.s64 %rd26, %rd3, %rd20;
+st.global.f32 [%rd26], %f18;
+add.s64 %rd27, %rd10, %rd27;
+setp.lt.u64	%p2, %rd27, %rd2;
+@%p2 bra BB0_2;
+
+BB0_3:
+ret;
+}
+
+

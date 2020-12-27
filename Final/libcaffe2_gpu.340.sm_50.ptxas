@@ -1,0 +1,21 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z16gen_sgemmNN_corePKfiS0_iPfiiiiS0_S0_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z16gen_sgemmNN_corePKfiS0_iPfiiiiS0_S0_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 142 registers, 1088 bytes smem, 404 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z23gen_kmul4_sgemmNT2_corePKfiS0_iPfiiiiS0_S0_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z23gen_kmul4_sgemmNT2_corePKfiS0_iPfiiiiS0_S0_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 90 registers, 256 bytes smem, 404 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z13sgemmNT2_corePKfiS0_iPfiiS0_S0_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z13sgemmNT2_corePKfiS0_iPfiiS0_S0_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 87 registers, 256 bytes smem, 396 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z17gen_sgemmNT2_corePKfiS0_iPfiiiiS0_S0_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z17gen_sgemmNT2_corePKfiS0_iPfiiiiS0_S0_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 89 registers, 256 bytes smem, 404 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z12sgemmNN_corePKfiS0_iPfiiS0_S0_ffi' for 'sm_50'
+ptxas info    : Function properties for _Z12sgemmNN_corePKfiS0_iPfiiS0_S0_ffi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 138 registers, 1088 bytes smem, 396 bytes cmem[0]

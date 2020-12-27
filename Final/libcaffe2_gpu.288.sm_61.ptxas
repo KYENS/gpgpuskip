@@ -1,0 +1,41 @@
+ptxas info    : 648 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIllEEvmmmPKT0_PKT_PS5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIllEEvmmmPKT0_PKT_PS5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIdlEEvmmmPKT0_PKT_PS5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIdlEEvmmmPKT0_PKT_PS5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIilEEvmmmPKT0_PKT_PS5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIilEEvmmmPKT0_PKT_PS5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIflEEvmmmPKT0_PKT_PS5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIflEEvmmmPKT0_PKT_PS5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIblEEvmmmPKT0_PKT_PS5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIblEEvmmmPKT0_PKT_PS5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIliEEvmmmPKT0_PKT_PS5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIliEEvmmmPKT0_PKT_PS5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIdiEEvmmmPKT0_PKT_PS5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIdiEEvmmmPKT0_PKT_PS5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIiiEEvmmmPKT0_PKT_PS5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIiiEEvmmmPKT0_PKT_PS5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIfiEEvmmmPKT0_PKT_PS5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIfiEEvmmmPKT0_PKT_PS5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIbiEEvmmmPKT0_PKT_PS5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe281_GLOBAL__N__57_tmpxft_0000723f_00000000_7_reverse_packed_segs_op_cpp1_ii_4f215ff828ReversePackedSegments_kernelIbiEEvmmmPKT0_PKT_PS5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 368 bytes cmem[0]

@@ -1,0 +1,25 @@
+ptxas info    : 521 bytes gmem
+ptxas info    : Compiling entry function '_Z33caffe_gpu_interp2_kernel_backwardIffEviT0_S0_b15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES4_' for 'sm_61'
+ptxas info    : Function properties for _Z33caffe_gpu_interp2_kernel_backwardIffEviT0_S0_b15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z33caffe_gpu_interp2_kernel_backwardIddEviT0_S0_b15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES4_' for 'sm_61'
+ptxas info    : Function properties for _Z33caffe_gpu_interp2_kernel_backwardIddEviT0_S0_b15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 432 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z33caffe_gpu_interp2_kernel_backwardIN3c104HalfEfEviT0_S2_b15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES6_' for 'sm_61'
+ptxas info    : Function properties for _Z33caffe_gpu_interp2_kernel_backwardIN3c104HalfEfEviT0_S2_b15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24caffe_gpu_interp2_kernelIffEviT0_S0_b15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES4_' for 'sm_61'
+ptxas info    : Function properties for _Z24caffe_gpu_interp2_kernelIffEviT0_S0_b15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24caffe_gpu_interp2_kernelIddEviT0_S0_b15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES4_' for 'sm_61'
+ptxas info    : Function properties for _Z24caffe_gpu_interp2_kernelIddEviT0_S0_b15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, 432 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z24caffe_gpu_interp2_kernelIN3c104HalfEfEviT0_S2_b15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES6_' for 'sm_61'
+ptxas info    : Function properties for _Z24caffe_gpu_interp2_kernelIN3c104HalfEfEviT0_S2_b15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, 416 bytes cmem[0]

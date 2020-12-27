@@ -1,0 +1,25 @@
+ptxas info    : 217 bytes gmem
+ptxas info    : Compiling entry function '_Z13col2im_kernelIffEvlPKT_lllllllllllllPS0_' for 'sm_61'
+ptxas info    : Function properties for _Z13col2im_kernelIffEvlPKT_lllllllllllllPS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 448 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z13col2im_kernelIddEvlPKT_lllllllllllllPS0_' for 'sm_61'
+ptxas info    : Function properties for _Z13col2im_kernelIddEvlPKT_lllllllllllllPS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, 448 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z13col2im_kernelIN3c104HalfEfEvlPKT_lllllllllllllPS2_' for 'sm_61'
+ptxas info    : Function properties for _Z13col2im_kernelIN3c104HalfEfEvlPKT_lllllllllllllPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, 448 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z13im2col_kernelIfEvlPKT_llllllllllllPS0_' for 'sm_61'
+ptxas info    : Function properties for _Z13im2col_kernelIfEvlPKT_llllllllllllPS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z13im2col_kernelIdEvlPKT_llllllllllllPS0_' for 'sm_61'
+ptxas info    : Function properties for _Z13im2col_kernelIdEvlPKT_llllllllllllPS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 440 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z13im2col_kernelIN3c104HalfEEvlPKT_llllllllllllPS2_' for 'sm_61'
+ptxas info    : Function properties for _Z13im2col_kernelIN3c104HalfEEvlPKT_llllllllllllPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 440 bytes cmem[0]

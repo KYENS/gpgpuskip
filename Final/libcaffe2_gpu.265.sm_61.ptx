@@ -1,0 +1,310 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 1 .b8 _ZN70_INTERNAL_48_tmpxft_00006d58_00000000_7_reduction_ops_cpp1_ii_c8432e1e6thrust6system6detail10sequential3seqE[1];
+.global .align 8 .b8 _ZTVSt9exception[40];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe216SumSqrElementsOpINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe221SumElementsGradientOpIfNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe213SumElementsOpIfNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe216SumElementsIntOpIiNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe214MaxReductionOpIfNS_11CUDAContextELb1EEE[136];
+.global .align 8 .b8 _ZTVN6caffe214MaxReductionOpIfNS_11CUDAContextELb0EEE[136];
+.global .align 8 .b8 _ZTVN6caffe222MaxReductionGradientOpIfNS_11CUDAContextELb1EEE[136];
+.global .align 8 .b8 _ZTVN6caffe222MaxReductionGradientOpIfNS_11CUDAContextELb0EEE[136];
+
+.visible .entry _ZN6caffe227rowwise_max_gradient_kernelEiiiPKfS1_S1_Pf(
+.param .u32 _ZN6caffe227rowwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_0,
+.param .u32 _ZN6caffe227rowwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_1,
+.param .u32 _ZN6caffe227rowwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_2,
+.param .u64 _ZN6caffe227rowwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_3,
+.param .u64 _ZN6caffe227rowwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_4,
+.param .u64 _ZN6caffe227rowwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_5,
+.param .u64 _ZN6caffe227rowwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_6
+)
+{
+.reg .pred %p<6>;
+.reg .f32 %f<7>;
+.reg .b32 %r<22>;
+.reg .b64 %rd<38>;
+
+
+ld.param.u32 %r4, [_ZN6caffe227rowwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_0];
+ld.param.u32 %r2, [_ZN6caffe227rowwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_1];
+ld.param.u32 %r3, [_ZN6caffe227rowwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_2];
+ld.param.u64 %rd18, [_ZN6caffe227rowwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_3];
+ld.param.u64 %rd19, [_ZN6caffe227rowwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_4];
+ld.param.u64 %rd20, [_ZN6caffe227rowwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_5];
+ld.param.u64 %rd21, [_ZN6caffe227rowwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_6];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r5, %ctaid.x;
+mov.u32 %r6, %tid.x;
+mad.lo.s32 %r7, %r1, %r5, %r6;
+cvt.u64.u32	%rd35, %r7;
+mul.lo.s32 %r8, %r2, %r4;
+mul.lo.s32 %r9, %r8, %r3;
+cvt.s64.s32	%rd2, %r9;
+setp.ge.u64	%p1, %rd35, %rd2;
+@%p1 bra BB0_11;
+
+cvta.to.global.u64 %rd3, %rd21;
+cvta.to.global.u64 %rd4, %rd19;
+cvta.to.global.u64 %rd5, %rd18;
+mul.lo.s32 %r10, %r3, %r2;
+cvt.s64.s32	%rd6, %r10;
+cvt.s64.s32	%rd7, %r3;
+mov.u32 %r11, %nctaid.x;
+mul.lo.s32 %r12, %r11, %r1;
+cvt.u64.u32	%rd8, %r12;
+cvta.to.global.u64 %rd30, %rd20;
+
+BB0_2:
+or.b64 %rd22, %rd35, %rd6;
+and.b64 %rd23, %rd22, -4294967296;
+setp.eq.s64	%p2, %rd23, 0;
+@%p2 bra BB0_4;
+bra.uni BB0_3;
+
+BB0_4:
+cvt.u32.u64	%r13, %rd6;
+cvt.u32.u64	%r14, %rd35;
+div.u32 %r15, %r14, %r13;
+cvt.u64.u32	%rd36, %r15;
+bra.uni BB0_5;
+
+BB0_3:
+div.u64 %rd36, %rd35, %rd6;
+
+BB0_5:
+or.b64 %rd24, %rd36, %rd7;
+and.b64 %rd25, %rd24, -4294967296;
+setp.eq.s64	%p3, %rd25, 0;
+@%p3 bra BB0_7;
+bra.uni BB0_6;
+
+BB0_7:
+cvt.u32.u64	%r16, %rd7;
+cvt.u32.u64	%r17, %rd36;
+div.u32 %r18, %r17, %r16;
+cvt.u64.u32	%rd37, %r18;
+bra.uni BB0_8;
+
+BB0_6:
+div.u64 %rd37, %rd36, %rd7;
+
+BB0_8:
+cvt.u32.u64	%r19, %rd36;
+cvt.u32.u64	%r20, %rd37;
+mad.lo.s32 %r21, %r19, %r2, %r20;
+cvt.s64.s32	%rd16, %r21;
+mul.wide.s32 %rd26, %r21, 4;
+add.s64 %rd27, %rd4, %rd26;
+ld.global.f32 %f4, [%rd27];
+shl.b64 %rd28, %rd35, 2;
+add.s64 %rd29, %rd5, %rd28;
+ld.global.f32 %f5, [%rd29];
+mov.f32 %f6, 0f00000000;
+setp.neu.f32	%p4, %f5, %f4;
+@%p4 bra BB0_10;
+
+shl.b64 %rd31, %rd16, 2;
+add.s64 %rd32, %rd30, %rd31;
+ld.global.f32 %f6, [%rd32];
+
+BB0_10:
+add.s64 %rd34, %rd3, %rd28;
+st.global.f32 [%rd34], %f6;
+add.s64 %rd35, %rd8, %rd35;
+setp.lt.u64	%p5, %rd35, %rd2;
+@%p5 bra BB0_2;
+
+BB0_11:
+ret;
+}
+
+
+.visible .entry _ZN6caffe227colwise_max_gradient_kernelEiiiPKfS1_S1_Pf(
+.param .u32 _ZN6caffe227colwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_0,
+.param .u32 _ZN6caffe227colwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_1,
+.param .u32 _ZN6caffe227colwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_2,
+.param .u64 _ZN6caffe227colwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_3,
+.param .u64 _ZN6caffe227colwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_4,
+.param .u64 _ZN6caffe227colwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_5,
+.param .u64 _ZN6caffe227colwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_6
+)
+{
+.reg .pred %p<5>;
+.reg .f32 %f<7>;
+.reg .b32 %r<20>;
+.reg .b64 %rd<37>;
+
+
+ld.param.u32 %r4, [_ZN6caffe227colwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_0];
+ld.param.u32 %r2, [_ZN6caffe227colwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_1];
+ld.param.u32 %r3, [_ZN6caffe227colwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_2];
+ld.param.u64 %rd18, [_ZN6caffe227colwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_3];
+ld.param.u64 %rd19, [_ZN6caffe227colwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_4];
+ld.param.u64 %rd20, [_ZN6caffe227colwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_5];
+ld.param.u64 %rd21, [_ZN6caffe227colwise_max_gradient_kernelEiiiPKfS1_S1_Pf_param_6];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r5, %ctaid.x;
+mov.u32 %r6, %tid.x;
+mad.lo.s32 %r7, %r1, %r5, %r6;
+cvt.u64.u32	%rd34, %r7;
+mul.lo.s32 %r8, %r2, %r4;
+mul.lo.s32 %r9, %r8, %r3;
+cvt.s64.s32	%rd2, %r9;
+setp.ge.u64	%p1, %rd34, %rd2;
+@%p1 bra BB1_8;
+
+cvta.to.global.u64 %rd3, %rd21;
+cvta.to.global.u64 %rd4, %rd19;
+cvta.to.global.u64 %rd5, %rd18;
+mul.lo.s32 %r10, %r3, %r2;
+cvt.s64.s32	%rd6, %r10;
+cvt.s64.s32	%rd7, %r3;
+mov.u32 %r11, %nctaid.x;
+mul.lo.s32 %r12, %r11, %r1;
+cvt.u64.u32	%rd8, %r12;
+cvta.to.global.u64 %rd29, %rd20;
+
+BB1_2:
+or.b64 %rd22, %rd34, %rd6;
+and.b64 %rd23, %rd22, -4294967296;
+setp.eq.s64	%p2, %rd23, 0;
+@%p2 bra BB1_4;
+bra.uni BB1_3;
+
+BB1_4:
+cvt.u32.u64	%r13, %rd6;
+cvt.u32.u64	%r14, %rd34;
+div.u32 %r15, %r14, %r13;
+rem.u32 %r16, %r14, %r13;
+cvt.u64.u32	%rd35, %r15;
+cvt.u64.u32	%rd36, %r16;
+bra.uni BB1_5;
+
+BB1_3:
+div.u64 %rd35, %rd34, %rd6;
+rem.u64 %rd36, %rd34, %rd6;
+
+BB1_5:
+rem.u64 %rd24, %rd36, %rd7;
+cvt.u32.u64	%r17, %rd24;
+cvt.u32.u64	%r18, %rd35;
+mad.lo.s32 %r19, %r18, %r3, %r17;
+cvt.s64.s32	%rd16, %r19;
+mul.wide.s32 %rd25, %r19, 4;
+add.s64 %rd26, %rd4, %rd25;
+ld.global.f32 %f4, [%rd26];
+shl.b64 %rd27, %rd34, 2;
+add.s64 %rd28, %rd5, %rd27;
+ld.global.f32 %f5, [%rd28];
+mov.f32 %f6, 0f00000000;
+setp.neu.f32	%p3, %f5, %f4;
+@%p3 bra BB1_7;
+
+shl.b64 %rd30, %rd16, 2;
+add.s64 %rd31, %rd29, %rd30;
+ld.global.f32 %f6, [%rd31];
+
+BB1_7:
+add.s64 %rd33, %rd3, %rd27;
+st.global.f32 [%rd33], %f6;
+add.s64 %rd34, %rd8, %rd34;
+setp.lt.u64	%p4, %rd34, %rd2;
+@%p4 bra BB1_2;
+
+BB1_8:
+ret;
+}
+
+
+.visible .entry _ZN6caffe225SumElementsGradientKernelIfEEvbiPKT_PS1_(
+.param .u8 _ZN6caffe225SumElementsGradientKernelIfEEvbiPKT_PS1__param_0,
+.param .u32 _ZN6caffe225SumElementsGradientKernelIfEEvbiPKT_PS1__param_1,
+.param .u64 _ZN6caffe225SumElementsGradientKernelIfEEvbiPKT_PS1__param_2,
+.param .u64 _ZN6caffe225SumElementsGradientKernelIfEEvbiPKT_PS1__param_3
+)
+{
+.reg .pred %p<4>;
+.reg .b16 %rs<3>;
+.reg .f32 %f<6>;
+.reg .b32 %r<8>;
+.reg .b64 %rd<13>;
+
+
+ld.param.u32 %r2, [_ZN6caffe225SumElementsGradientKernelIfEEvbiPKT_PS1__param_1];
+ld.param.u64 %rd8, [_ZN6caffe225SumElementsGradientKernelIfEEvbiPKT_PS1__param_2];
+ld.param.u64 %rd7, [_ZN6caffe225SumElementsGradientKernelIfEEvbiPKT_PS1__param_3];
+cvta.to.global.u64 %rd9, %rd8;
+ld.global.f32 %f5, [%rd9];
+ld.param.s8 %rs1, [_ZN6caffe225SumElementsGradientKernelIfEEvbiPKT_PS1__param_0];
+and.b16 %rs2, %rs1, 255;
+setp.eq.s16	%p1, %rs2, 0;
+@%p1 bra BB2_2;
+
+cvt.rn.f32.s32	%f4, %r2;
+div.rn.f32 %f5, %f5, %f4;
+
+BB2_2:
+mov.u32 %r1, %ntid.x;
+mov.u32 %r3, %ctaid.x;
+mov.u32 %r4, %tid.x;
+mad.lo.s32 %r5, %r1, %r3, %r4;
+cvt.u64.u32	%rd12, %r5;
+cvt.s64.s32	%rd2, %r2;
+setp.ge.u64	%p2, %rd12, %rd2;
+@%p2 bra BB2_5;
+
+cvta.to.global.u64 %rd3, %rd7;
+mov.u32 %r6, %nctaid.x;
+mul.lo.s32 %r7, %r6, %r1;
+cvt.u64.u32	%rd4, %r7;
+
+BB2_4:
+shl.b64 %rd10, %rd12, 2;
+add.s64 %rd11, %rd3, %rd10;
+st.global.f32 [%rd11], %f5;
+add.s64 %rd12, %rd4, %rd12;
+setp.lt.u64	%p3, %rd12, %rd2;
+@%p3 bra BB2_4;
+
+BB2_5:
+ret;
+}
+
+
+.visible .entry _ZN3cub11EmptyKernelIvEEvv(
+
+)
+{
+
+
+
+ret;
+}
+
+

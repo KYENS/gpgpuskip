@@ -1,0 +1,49 @@
+ptxas info    : 521 bytes gmem
+ptxas info    : Compiling entry function '_Z45cunn_MultiMarginCriterion_updateOutput_kernelILi2EffEvPT0_S1_PlS1_iibS0_' for 'sm_61'
+ptxas info    : Function properties for _Z45cunn_MultiMarginCriterion_updateOutput_kernelILi2EffEvPT0_S1_PlS1_iibS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 512 bytes smem, 368 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z45cunn_MultiMarginCriterion_updateOutput_kernelILi2EN3c104HalfEfEvPT0_S3_PlS3_iibS2_' for 'sm_61'
+ptxas info    : Function properties for _Z45cunn_MultiMarginCriterion_updateOutput_kernelILi2EN3c104HalfEfEvPT0_S3_PlS3_iibS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 512 bytes smem, 364 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z45cunn_MultiMarginCriterion_updateOutput_kernelILi2EddEvPT0_S1_PlS1_iibS0_' for 'sm_61'
+ptxas info    : Function properties for _Z45cunn_MultiMarginCriterion_updateOutput_kernelILi2EddEvPT0_S1_PlS1_iibS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 1024 bytes smem, 376 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z48cunn_MultiMarginCriterion_updateGradInput_kernelILi2EffEvPT0_S1_S1_PlS1_iibS0_i' for 'sm_61'
+ptxas info    : Function properties for _Z48cunn_MultiMarginCriterion_updateGradInput_kernelILi2EffEvPT0_S1_S1_PlS1_iibS0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 512 bytes smem, 380 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z48cunn_MultiMarginCriterion_updateGradInput_kernelILi2EN3c104HalfEfEvPT0_S3_S3_PlS3_iibS2_i' for 'sm_61'
+ptxas info    : Function properties for _Z48cunn_MultiMarginCriterion_updateGradInput_kernelILi2EN3c104HalfEfEvPT0_S3_S3_PlS3_iibS2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 512 bytes smem, 376 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z48cunn_MultiMarginCriterion_updateGradInput_kernelILi2EddEvPT0_S1_S1_PlS1_iibS0_i' for 'sm_61'
+ptxas info    : Function properties for _Z48cunn_MultiMarginCriterion_updateGradInput_kernelILi2EddEvPT0_S1_S1_PlS1_iibS0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 1024 bytes smem, 388 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z45cunn_MultiMarginCriterion_updateOutput_kernelILi1EffEvPT0_S1_PlS1_iibS0_' for 'sm_61'
+ptxas info    : Function properties for _Z45cunn_MultiMarginCriterion_updateOutput_kernelILi1EffEvPT0_S1_PlS1_iibS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 22 registers, 512 bytes smem, 368 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z45cunn_MultiMarginCriterion_updateOutput_kernelILi1EN3c104HalfEfEvPT0_S3_PlS3_iibS2_' for 'sm_61'
+ptxas info    : Function properties for _Z45cunn_MultiMarginCriterion_updateOutput_kernelILi1EN3c104HalfEfEvPT0_S3_PlS3_iibS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 512 bytes smem, 364 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z45cunn_MultiMarginCriterion_updateOutput_kernelILi1EddEvPT0_S1_PlS1_iibS0_' for 'sm_61'
+ptxas info    : Function properties for _Z45cunn_MultiMarginCriterion_updateOutput_kernelILi1EddEvPT0_S1_PlS1_iibS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 1024 bytes smem, 376 bytes cmem[0], 32 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z48cunn_MultiMarginCriterion_updateGradInput_kernelILi1EffEvPT0_S1_S1_PlS1_iibS0_i' for 'sm_61'
+ptxas info    : Function properties for _Z48cunn_MultiMarginCriterion_updateGradInput_kernelILi1EffEvPT0_S1_S1_PlS1_iibS0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 512 bytes smem, 380 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z48cunn_MultiMarginCriterion_updateGradInput_kernelILi1EN3c104HalfEfEvPT0_S3_S3_PlS3_iibS2_i' for 'sm_61'
+ptxas info    : Function properties for _Z48cunn_MultiMarginCriterion_updateGradInput_kernelILi1EN3c104HalfEfEvPT0_S3_S3_PlS3_iibS2_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 512 bytes smem, 376 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z48cunn_MultiMarginCriterion_updateGradInput_kernelILi1EddEvPT0_S1_S1_PlS1_iibS0_i' for 'sm_61'
+ptxas info    : Function properties for _Z48cunn_MultiMarginCriterion_updateGradInput_kernelILi1EddEvPT0_S1_S1_PlS1_iibS0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 1024 bytes smem, 388 bytes cmem[0], 20 bytes cmem[2]

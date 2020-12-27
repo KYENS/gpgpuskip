@@ -1,0 +1,25 @@
+ptxas info    : 521 bytes gmem
+ptxas info    : Compiling entry function '_Z35nearest_neighbor_3d_kernel_backwardIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_' for 'sm_61'
+ptxas info    : Function properties for _Z35nearest_neighbor_3d_kernel_backwardIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 392 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z35nearest_neighbor_3d_kernel_backwardIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_' for 'sm_61'
+ptxas info    : Function properties for _Z35nearest_neighbor_3d_kernel_backwardIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 392 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z35nearest_neighbor_3d_kernel_backwardIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_' for 'sm_61'
+ptxas info    : Function properties for _Z35nearest_neighbor_3d_kernel_backwardIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 392 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z26nearest_neighbor_3d_kernelIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_' for 'sm_61'
+ptxas info    : Function properties for _Z26nearest_neighbor_3d_kernelIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 392 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z26nearest_neighbor_3d_kernelIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_' for 'sm_61'
+ptxas info    : Function properties for _Z26nearest_neighbor_3d_kernelIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 392 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z26nearest_neighbor_3d_kernelIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_' for 'sm_61'
+ptxas info    : Function properties for _Z26nearest_neighbor_3d_kernelIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 392 bytes cmem[0], 12 bytes cmem[2]

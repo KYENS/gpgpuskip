@@ -1,0 +1,133 @@
+ptxas info    : 521 bytes gmem
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricAveragePooling_updateGradInputIffEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricAveragePooling_updateGradInputIffEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 444 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi6EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi6EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 440 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z42cuda_VolumetricAveragePooling_updateOutputIddEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z42cuda_VolumetricAveragePooling_updateOutputIddEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 444 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi3EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi3EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 440 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi7EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi7EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 440 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi2EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi2EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 440 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi4EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi4EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 440 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z55cuda_VolumetricAveragePooling_updateGradInput_atomicAddIN3c104HalfEfEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_iiiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z55cuda_VolumetricAveragePooling_updateGradInput_atomicAddIN3c104HalfEfEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_iiiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 444 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi2EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi2EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 440 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z42cuda_VolumetricAveragePooling_updateOutputIN3c104HalfEfEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_iiiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z42cuda_VolumetricAveragePooling_updateOutputIN3c104HalfEfEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_iiiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 444 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z55cuda_VolumetricAveragePooling_updateGradInput_atomicAddIddEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z55cuda_VolumetricAveragePooling_updateGradInput_atomicAddIddEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 444 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi5EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi5EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 440 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z53cuda_VolumetricAveragePooling_updateGradInput_Stride1IffEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiiT0_i' for 'sm_61'
+ptxas info    : Function properties for _Z53cuda_VolumetricAveragePooling_updateGradInput_Stride1IffEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiiT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 420 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi4EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi4EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 440 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi6EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi6EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 440 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi1EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi1EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 440 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi1EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi1EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 440 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi7EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi7EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 440 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z53cuda_VolumetricAveragePooling_updateGradInput_Stride1IddEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiiT0_i' for 'sm_61'
+ptxas info    : Function properties for _Z53cuda_VolumetricAveragePooling_updateGradInput_Stride1IddEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiiT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 428 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi4EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi4EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 440 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z42cuda_VolumetricAveragePooling_updateOutputIffEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z42cuda_VolumetricAveragePooling_updateOutputIffEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 444 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi3EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi3EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 440 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi5EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi5EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 440 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricAveragePooling_updateGradInputIN3c104HalfEfEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_iiiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricAveragePooling_updateGradInputIN3c104HalfEfEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_iiiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 25 registers, 444 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z55cuda_VolumetricAveragePooling_updateGradInput_atomicAddIffEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z55cuda_VolumetricAveragePooling_updateGradInput_atomicAddIffEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 444 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi5EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi5EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 440 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi7EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi7EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 440 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi2EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi2EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 440 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi3EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi3EddEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 440 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z53cuda_VolumetricAveragePooling_updateGradInput_Stride1IN3c104HalfEfEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_iiiT0_i' for 'sm_61'
+ptxas info    : Function properties for _Z53cuda_VolumetricAveragePooling_updateGradInput_Stride1IN3c104HalfEfEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES5_iiiT0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 420 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi6EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi6EffEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES3_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 440 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi1EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_iiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z50cuda_VolumetricAveragePooling_updateOutput_fixedKWILi1EN3c104HalfEfEv15THCDeviceTensorIT0_Li4Ei16DefaultPtrTraitsES5_iiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 440 bytes cmem[0], 20 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z45cuda_VolumetricAveragePooling_updateGradInputIddEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiiiiiiiibi' for 'sm_61'
+ptxas info    : Function properties for _Z45cuda_VolumetricAveragePooling_updateGradInputIddEv15THCDeviceTensorIT_Li4Ei16DefaultPtrTraitsES3_iiiiiiiiibi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 444 bytes cmem[0], 40 bytes cmem[2]

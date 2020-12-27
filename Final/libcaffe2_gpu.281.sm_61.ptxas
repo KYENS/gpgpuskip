@@ -1,0 +1,73 @@
+ptxas info    : 905 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0319lowerDiagMaskKernelIN3c104HalfEEEviiiPKT_S4_PS4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0319lowerDiagMaskKernelIN3c104HalfEEEviiiPKT_S4_PS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub11EmptyKernelIvEEvv' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 2 registers, 320 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0316windowMaskKernelIN3c104HalfEEEviiiPKT_PKiiS4_PS4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0316windowMaskKernelIN3c104HalfEEEviiiPKT_PKiiS4_PS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0315upperMaskKernelIfEEviiiPKT_S2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0315upperMaskKernelIfEEviiiPKT_S2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0315lowerMaskKernelIN3c104HalfEEEviiiPKT_S4_PS4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0315lowerMaskKernelIN3c104HalfEEEviiiPKT_S4_PS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0319upperDiagMaskKernelIfEEviiiPKT_S2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0319upperDiagMaskKernelIfEEviiiPKT_S2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0318sequenceMaskKernelIfEEviiiPKT_PKiS2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0318sequenceMaskKernelIfEEviiiPKT_PKiS2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub23DeviceSelectSweepKernelINS_16DispatchSelectIfINS_21CountingInputIteratorIilEEPKbPlS6_NS_8NullTypeES7_iLb0EE18PtxSelectIfPolicyTES3_S5_S6_S6_NS_13ScanTileStateIiLb1EEES7_S7_iLb0EEEvT0_T1_T2_T3_T4_T5_T6_T7_i' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub23DeviceSelectSweepKernelINS_16DispatchSelectIfINS_21CountingInputIteratorIilEEPKbPlS6_NS_8NullTypeES7_iLb0EE18PtxSelectIfPolicyTES3_S5_S6_S6_NS_13ScanTileStateIiLb1EEES7_S7_iLb0EEEvT0_T1_T2_T3_T4_T5_T6_T7_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 5120 bytes smem, 372 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0326repeatedSequenceMaskKernelIN3c104HalfEEEviiiPKT_PKiS4_PS4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0326repeatedSequenceMaskKernelIN3c104HalfEEEviiiPKT_PKiS4_PS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0319upperDiagMaskKernelIN3c104HalfEEEviiiPKT_S4_PS4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0319upperDiagMaskKernelIN3c104HalfEEEviiiPKT_S4_PS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0319lowerDiagMaskKernelIfEEviiiPKT_S2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0319lowerDiagMaskKernelIfEEviiiPKT_S2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0318sequenceMaskKernelIN3c104HalfEEEviiiPKT_PKiS4_PS4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0318sequenceMaskKernelIN3c104HalfEEEviiiPKT_PKiS4_PS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0316windowMaskKernelIfEEviiiPKT_PKiiS2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0316windowMaskKernelIfEEviiiPKT_PKiiS2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0315upperMaskKernelIN3c104HalfEEEviiiPKT_S4_PS4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0315upperMaskKernelIN3c104HalfEEEviiiPKT_S4_PS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0315lowerMaskKernelIfEEviiiPKT_S2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0315lowerMaskKernelIfEEviiiPKT_S2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 360 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0326repeatedSequenceMaskKernelIfEEviiiPKT_PKiS2_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0326repeatedSequenceMaskKernelIfEEviiiPKT_PKiS2_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN3cub23DeviceCompactInitKernelINS_13ScanTileStateIiLb1EEEPlEEvT_iT0_' for 'sm_61'
+ptxas info    : Function properties for _ZN3cub23DeviceCompactInitKernelINS_13ScanTileStateIiLb1EEEPlEEvT_iT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 7 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0321BooleanMaskCopyKernelEllPKlPKhPh' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_0000702b_00000000_7_boolean_mask_ops_cpp1_ii_330e8d0321BooleanMaskCopyKernelEllPKlPKhPh
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 360 bytes cmem[0]

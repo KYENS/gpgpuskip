@@ -1,0 +1,9 @@
+ptxas info    : 904 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe267_GLOBAL__N__43_tmpxft_000072c9_00000000_7_logit_op_cpp1_ii_aca719f311LogitKernelIfEEviPKT_fPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe267_GLOBAL__N__43_tmpxft_000072c9_00000000_7_logit_op_cpp1_ii_aca719f311LogitKernelIfEEviPKT_fPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 352 bytes cmem[0], 56 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe267_GLOBAL__N__43_tmpxft_000072c9_00000000_7_logit_op_cpp1_ii_aca719f319LogitGradientKernelIfEEviPKT_S4_fPS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe267_GLOBAL__N__43_tmpxft_000072c9_00000000_7_logit_op_cpp1_ii_aca719f319LogitGradientKernelIfEEviPKT_S4_fPS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 19 registers, 360 bytes cmem[0], 12 bytes cmem[2]

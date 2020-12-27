@@ -1,0 +1,17 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z25magma_lds128_dgemm_kernelILb0ELb1ELi5ELi5ELi3ELi3ELi3EEviiiPKdiS1_iPdiiiS1_S1_ddi' for 'sm_50'
+ptxas info    : Function properties for _Z25magma_lds128_dgemm_kernelILb0ELb1ELi5ELi5ELi3ELi3ELi3EEviiiPKdiS1_iPdiiiS1_S1_ddi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 4352 bytes smem, 436 bytes cmem[0], 8 bytes cmem[2], 2 textures
+ptxas info    : Compiling entry function '_Z25magma_lds128_dgemm_kernelILb1ELb1ELi5ELi5ELi3ELi3ELi3EEviiiPKdiS1_iPdiiiS1_S1_ddi' for 'sm_50'
+ptxas info    : Function properties for _Z25magma_lds128_dgemm_kernelILb1ELb1ELi5ELi5ELi3ELi3ELi3EEviiiPKdiS1_iPdiiiS1_S1_ddi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 70 registers, 4352 bytes smem, 436 bytes cmem[0], 8 bytes cmem[2], 2 textures
+ptxas info    : Compiling entry function '_Z25magma_lds128_dgemm_kernelILb0ELb0ELi5ELi5ELi3ELi3ELi3EEviiiPKdiS1_iPdiiiS1_S1_ddi' for 'sm_50'
+ptxas info    : Function properties for _Z25magma_lds128_dgemm_kernelILb0ELb0ELi5ELi5ELi3ELi3ELi3EEviiiPKdiS1_iPdiiiS1_S1_ddi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 70 registers, 4352 bytes smem, 436 bytes cmem[0], 8 bytes cmem[2], 2 textures
+ptxas info    : Compiling entry function '_Z25magma_lds128_dgemm_kernelILb1ELb0ELi5ELi5ELi3ELi3ELi3EEviiiPKdiS1_iPdiiiS1_S1_ddi' for 'sm_50'
+ptxas info    : Function properties for _Z25magma_lds128_dgemm_kernelILb1ELb0ELi5ELi5ELi3ELi3ELi3EEviiiPKdiS1_iPdiiiS1_S1_ddi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 72 registers, 4352 bytes smem, 436 bytes cmem[0], 8 bytes cmem[2], 2 textures

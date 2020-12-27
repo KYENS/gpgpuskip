@@ -1,0 +1,146 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVSt9exception[40];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe26SeluOpIfNS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe214SeluGradientOpIfNS_11CUDAContextEEE[136];
+
+.visible .entry _ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a10SeluKernelIfEEviPKT_PS2_S2_S2_(
+.param .u32 _ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a10SeluKernelIfEEviPKT_PS2_S2_S2__param_0,
+.param .u64 _ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a10SeluKernelIfEEviPKT_PS2_S2_S2__param_1,
+.param .u64 _ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a10SeluKernelIfEEviPKT_PS2_S2_S2__param_2,
+.param .f32 _ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a10SeluKernelIfEEviPKT_PS2_S2_S2__param_3,
+.param .f32 _ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a10SeluKernelIfEEviPKT_PS2_S2_S2__param_4
+)
+{
+.reg .pred %p<4>;
+.reg .f32 %f<11>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<15>;
+
+
+ld.param.u64 %rd8, [_ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a10SeluKernelIfEEviPKT_PS2_S2_S2__param_1];
+ld.param.u64 %rd9, [_ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a10SeluKernelIfEEviPKT_PS2_S2_S2__param_2];
+ld.param.f32 %f4, [_ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a10SeluKernelIfEEviPKT_PS2_S2_S2__param_3];
+ld.param.f32 %f5, [_ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a10SeluKernelIfEEviPKT_PS2_S2_S2__param_4];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd14, %r4;
+ld.param.s32 %rd2, [_ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a10SeluKernelIfEEviPKT_PS2_S2_S2__param_0];
+setp.ge.u64	%p1, %rd14, %rd2;
+@%p1 bra BB0_5;
+
+cvta.to.global.u64 %rd3, %rd9;
+cvta.to.global.u64 %rd4, %rd8;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB0_2:
+shl.b64 %rd10, %rd14, 2;
+add.s64 %rd11, %rd4, %rd10;
+ld.global.f32 %f10, [%rd11];
+setp.gt.f32	%p2, %f10, 0f00000000;
+@%p2 bra BB0_4;
+
+mul.f32 %f6, %f10, 0f3FB8AA3B;
+ex2.approx.f32 %f7, %f6;
+mul.f32 %f8, %f7, %f4;
+sub.f32 %f10, %f8, %f4;
+
+BB0_4:
+add.s64 %rd13, %rd3, %rd10;
+mul.f32 %f9, %f10, %f5;
+st.global.f32 [%rd13], %f9;
+add.s64 %rd14, %rd5, %rd14;
+setp.lt.u64	%p3, %rd14, %rd2;
+@%p3 bra BB0_2;
+
+BB0_5:
+ret;
+}
+
+
+.visible .entry _ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a18SeluGradientKernelIfEEviPKT_S4_PS2_S2_S2_(
+.param .u32 _ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a18SeluGradientKernelIfEEviPKT_S4_PS2_S2_S2__param_0,
+.param .u64 _ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a18SeluGradientKernelIfEEviPKT_S4_PS2_S2_S2__param_1,
+.param .u64 _ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a18SeluGradientKernelIfEEviPKT_S4_PS2_S2_S2__param_2,
+.param .u64 _ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a18SeluGradientKernelIfEEviPKT_S4_PS2_S2_S2__param_3,
+.param .f32 _ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a18SeluGradientKernelIfEEviPKT_S4_PS2_S2_S2__param_4,
+.param .f32 _ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a18SeluGradientKernelIfEEviPKT_S4_PS2_S2_S2__param_5
+)
+{
+.reg .pred %p<4>;
+.reg .f32 %f<9>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<17>;
+
+
+ld.param.u64 %rd9, [_ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a18SeluGradientKernelIfEEviPKT_S4_PS2_S2_S2__param_1];
+ld.param.u64 %rd10, [_ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a18SeluGradientKernelIfEEviPKT_S4_PS2_S2_S2__param_2];
+ld.param.u64 %rd11, [_ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a18SeluGradientKernelIfEEviPKT_S4_PS2_S2_S2__param_3];
+ld.param.f32 %f2, [_ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a18SeluGradientKernelIfEEviPKT_S4_PS2_S2_S2__param_4];
+ld.param.f32 %f3, [_ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a18SeluGradientKernelIfEEviPKT_S4_PS2_S2_S2__param_5];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd16, %r4;
+ld.param.s32 %rd2, [_ZN6caffe266_GLOBAL__N__42_tmpxft_00005fe9_00000000_7_selu_op_cpp1_ii_e12a833a18SeluGradientKernelIfEEviPKT_S4_PS2_S2_S2__param_0];
+setp.ge.u64	%p1, %rd16, %rd2;
+@%p1 bra BB1_3;
+
+cvta.to.global.u64 %rd3, %rd11;
+cvta.to.global.u64 %rd4, %rd10;
+cvta.to.global.u64 %rd5, %rd9;
+mul.f32 %f1, %f2, %f3;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd6, %r6;
+
+BB1_2:
+shl.b64 %rd12, %rd16, 2;
+add.s64 %rd13, %rd5, %rd12;
+ld.global.f32 %f4, [%rd13];
+setp.gt.f32	%p2, %f4, 0f00000000;
+add.f32 %f5, %f1, %f4;
+selp.f32	%f6, %f3, %f5, %p2;
+add.s64 %rd14, %rd4, %rd12;
+ld.global.f32 %f7, [%rd14];
+mul.f32 %f8, %f7, %f6;
+add.s64 %rd15, %rd3, %rd12;
+st.global.f32 [%rd15], %f8;
+add.s64 %rd16, %rd6, %rd16;
+setp.lt.u64	%p3, %rd16, %rd2;
+@%p3 bra BB1_2;
+
+BB1_3:
+ret;
+}
+
+

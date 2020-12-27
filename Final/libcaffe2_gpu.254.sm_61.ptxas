@@ -1,0 +1,33 @@
+ptxas info    : 2047 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43SigmoidCrossEntropyGradientWithLogitsKernelEiibbPKfS2_S2_Pf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 368 bytes cmem[0], 72 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiS2_fPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e31LabelCrossEntropyGradientKernelEiiPKfPKiS2_fPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 368 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e51WeightedSigmoidCrossEntropyGradientWithLogitsKernelEiiPKfS2_S2_S2_Pf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e51WeightedSigmoidCrossEntropyGradientWithLogitsKernelEiiPKfS2_S2_S2_Pf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 368 bytes cmem[0], 40 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e26MakeTwoClassGradientKernelEiPKfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e26MakeTwoClassGradientKernelEiPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 344 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e35SigmoidCrossEntropyWithLogitsKernelEiibbPKfS2_Pf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 24 bytes smem, 360 bytes cmem[0], 64 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e23LabelCrossEntropyKernelEiiPKfPKifPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e23LabelCrossEntropyKernelEiiPKfPKifPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 360 bytes cmem[0], 44 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e43WeightedSigmoidCrossEntropyWithLogitsKernelEiiPKfS2_S2_Pf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 15 registers, 24 bytes smem, 360 bytes cmem[0], 68 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e18MakeTwoClassKernelEiPKfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00006ade_00000000_7_cross_entropy_op_cpp1_ii_3f2b956e18MakeTwoClassKernelEiPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 344 bytes cmem[0]

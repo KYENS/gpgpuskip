@@ -1,0 +1,80 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe26LarsOpIfNS_11CUDAContextEEE[136];
+
+.visible .entry _ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2_(
+.param .u64 _ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2__param_0,
+.param .u64 _ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2__param_1,
+.param .u64 _ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2__param_2,
+.param .f32 _ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2__param_3,
+.param .f32 _ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2__param_4,
+.param .u64 _ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2__param_5,
+.param .u64 _ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2__param_6,
+.param .u64 _ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2__param_7
+)
+{
+.reg .pred %p<2>;
+.reg .f32 %f<17>;
+.reg .b64 %rd<13>;
+
+
+ld.param.u64 %rd1, [_ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2__param_0];
+ld.param.u64 %rd2, [_ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2__param_1];
+ld.param.u64 %rd3, [_ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2__param_2];
+ld.param.f32 %f4, [_ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2__param_3];
+ld.param.f32 %f5, [_ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2__param_4];
+ld.param.u64 %rd6, [_ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2__param_5];
+ld.param.u64 %rd4, [_ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2__param_6];
+ld.param.u64 %rd5, [_ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2__param_7];
+cvta.to.global.u64 %rd7, %rd6;
+ld.global.f32 %f1, [%rd7];
+mov.f32 %f16, 0f3F800000;
+setp.leu.f32	%p1, %f1, 0f00000000;
+@%p1 bra BB0_2;
+
+cvta.to.global.u64 %rd8, %rd2;
+cvta.to.global.u64 %rd9, %rd4;
+ld.global.f32 %f7, [%rd9];
+div.rn.f32 %f8, %f7, %f1;
+cvta.to.global.u64 %rd10, %rd1;
+ld.global.f32 %f9, [%rd10];
+add.f32 %f10, %f8, %f9;
+add.f32 %f11, %f10, %f4;
+ld.global.f32 %f12, [%rd8];
+div.rn.f32 %f16, %f12, %f11;
+
+BB0_2:
+cvta.to.global.u64 %rd11, %rd5;
+cvta.to.global.u64 %rd12, %rd3;
+ld.global.f32 %f13, [%rd12];
+min.f32 %f14, %f16, %f13;
+max.f32 %f15, %f14, %f5;
+st.global.f32 [%rd11], %f15;
+ret;
+}
+
+

@@ -1,0 +1,5 @@
+ptxas info    : 648 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe265_GLOBAL__N__41_tmpxft_00005d70_00000000_7_glu_op_cpp1_ii_497196c410glu_kernelEiiiPKfPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe265_GLOBAL__N__41_tmpxft_00005d70_00000000_7_glu_op_cpp1_ii_497196c410glu_kernelEiiiPKfPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 352 bytes cmem[0], 28 bytes cmem[2]

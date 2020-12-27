@@ -1,0 +1,74 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTSi[8];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTTSd[8];
+.global .align 8 .b8 _ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVN4gloo13EnforceNotMetE[40];
+
+.visible .entry _ZN4gloo16initializeMemoryINS_7float16EEEvPT_imm(
+.param .u64 _ZN4gloo16initializeMemoryINS_7float16EEEvPT_imm_param_0,
+.param .u32 _ZN4gloo16initializeMemoryINS_7float16EEEvPT_imm_param_1,
+.param .u64 _ZN4gloo16initializeMemoryINS_7float16EEEvPT_imm_param_2,
+.param .u64 _ZN4gloo16initializeMemoryINS_7float16EEEvPT_imm_param_3
+)
+{
+.reg .pred %p<3>;
+.reg .b16 %rs<2>;
+.reg .f32 %f<2>;
+.reg .b32 %r<9>;
+.reg .b64 %rd<14>;
+
+
+ld.param.u64 %rd6, [_ZN4gloo16initializeMemoryINS_7float16EEEvPT_imm_param_0];
+ld.param.u32 %r5, [_ZN4gloo16initializeMemoryINS_7float16EEEvPT_imm_param_1];
+ld.param.u64 %rd7, [_ZN4gloo16initializeMemoryINS_7float16EEEvPT_imm_param_2];
+ld.param.u64 %rd8, [_ZN4gloo16initializeMemoryINS_7float16EEEvPT_imm_param_3];
+mov.u32 %r6, %ctaid.x;
+mov.u32 %r1, %ntid.x;
+mov.u32 %r7, %tid.x;
+mad.lo.s32 %r8, %r1, %r6, %r7;
+cvt.s64.s32	%rd13, %r8;
+setp.ge.u64	%p1, %rd13, %rd7;
+@%p1 bra BB0_3;
+
+cvta.to.global.u64 %rd2, %rd6;
+cvt.s64.s32	%rd3, %r5;
+
+BB0_2:
+mul.lo.s64 %rd9, %rd13, %rd8;
+add.s64 %rd10, %rd9, %rd3;
+cvt.rn.f32.u64	%f1, %rd10;
+
+	{ cvt.rn.f16.f32 %rs1, %f1;}
+
+
+	shl.b64 %rd11, %rd13, 1;
+add.s64 %rd12, %rd2, %rd11;
+st.global.u16 [%rd12], %rs1;
+add.s32 %r8, %r8, %r1;
+cvt.s64.s32	%rd13, %r8;
+setp.lt.u64	%p2, %rd13, %rd7;
+@%p2 bra BB0_2;
+
+BB0_3:
+ret;
+}
+
+

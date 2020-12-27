@@ -1,0 +1,9 @@
+ptxas info    : 904 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe278_GLOBAL__N__54_tmpxft_00006728_00000000_7_thresholded_relu_op_cpp1_ii_6b19814729ThresholdedReluGradientKernelIfEEviPKT_S4_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe278_GLOBAL__N__54_tmpxft_00006728_00000000_7_thresholded_relu_op_cpp1_ii_6b19814729ThresholdedReluGradientKernelIfEEviPKT_S4_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe278_GLOBAL__N__54_tmpxft_00006728_00000000_7_thresholded_relu_op_cpp1_ii_6b19814721ThresholdedReluKernelIfEEviPKT_PS2_S2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe278_GLOBAL__N__54_tmpxft_00006728_00000000_7_thresholded_relu_op_cpp1_ii_6b19814721ThresholdedReluKernelIfEEviPKT_PS2_S2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, 348 bytes cmem[0]

@@ -1,0 +1,9 @@
+ptxas info    : 768 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00005afe_00000000_7_channel_stats_op_cpp1_ii_2eb89a6e27ChannelStatsFinalSumsKernelILj128EEEviiiPKfS3_PfS4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00005afe_00000000_7_channel_stats_op_cpp1_ii_2eb89a6e27ChannelStatsFinalSumsKernelILj128EEEviiiPKfS3_PfS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 24 registers, 1024 bytes smem, 368 bytes cmem[0], 8 bytes cmem[2]
+ptxas info    : Compiling entry function '_ZN6caffe275_GLOBAL__N__51_tmpxft_00005afe_00000000_7_channel_stats_op_cpp1_ii_2eb89a6e23ChannelStatsBlockKernelILj128EEEviiiPKfPfS4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe275_GLOBAL__N__51_tmpxft_00005afe_00000000_7_channel_stats_op_cpp1_ii_2eb89a6e23ChannelStatsBlockKernelILj128EEEviiiPKfPfS4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 1024 bytes smem, 360 bytes cmem[0]

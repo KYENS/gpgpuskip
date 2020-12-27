@@ -1,0 +1,73 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z11geam_kernelIfLb0ELb1ELb0ELb0ELi6ELi5ELi3ELb1EEv16cublasGeamParamsIT_EPKS1_S4_PS1_S4_S4_' for 'sm_50'
+ptxas info    : Function properties for _Z11geam_kernelIfLb0ELb1ELb0ELb0ELi6ELi5ELi3ELb1EEv16cublasGeamParamsIT_EPKS1_S4_PS1_S4_S4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 8320 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z11geam_kernelI6float2Lb0ELb1ELb0ELb1ELi6ELi4ELi4ELb1EEv16cublasGeamParamsIT_EPKS2_S5_PS2_S5_S5_' for 'sm_50'
+ptxas info    : Function properties for _Z11geam_kernelI6float2Lb0ELb1ELb0ELb1ELi6ELi4ELi4ELb1EEv16cublasGeamParamsIT_EPKS2_S5_PS2_S5_S5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 8320 bytes smem, 408 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11geam_kernelIfLb1ELb1ELb0ELb1ELi6ELi5ELi3ELb0EEv16cublasGeamParamsIT_EPKS1_S4_PS1_S4_S4_' for 'sm_50'
+ptxas info    : Function properties for _Z11geam_kernelIfLb1ELb1ELb0ELb1ELi6ELi5ELi3ELb0EEv16cublasGeamParamsIT_EPKS1_S4_PS1_S4_S4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 8320 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z11geam_kernelI6float2Lb1ELb0ELb1ELb0ELi6ELi4ELi4ELb1EEv16cublasGeamParamsIT_EPKS2_S5_PS2_S5_S5_' for 'sm_50'
+ptxas info    : Function properties for _Z11geam_kernelI6float2Lb1ELb0ELb1ELb0ELi6ELi4ELi4ELb1EEv16cublasGeamParamsIT_EPKS2_S5_PS2_S5_S5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 8320 bytes smem, 408 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11geam_kernelIfLb1ELb0ELb0ELb0ELi6ELi5ELi3ELb1EEv16cublasGeamParamsIT_EPKS1_S4_PS1_S4_S4_' for 'sm_50'
+ptxas info    : Function properties for _Z11geam_kernelIfLb1ELb0ELb0ELb0ELi6ELi5ELi3ELb1EEv16cublasGeamParamsIT_EPKS1_S4_PS1_S4_S4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 8320 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z11geam_kernelI6float2Lb1ELb1ELb0ELb0ELi6ELi4ELi4ELb0EEv16cublasGeamParamsIT_EPKS2_S5_PS2_S5_S5_' for 'sm_50'
+ptxas info    : Function properties for _Z11geam_kernelI6float2Lb1ELb1ELb0ELb0ELi6ELi4ELi4ELb0EEv16cublasGeamParamsIT_EPKS2_S5_PS2_S5_S5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 8320 bytes smem, 408 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11geam_kernelI6float2Lb1ELb1ELb1ELb1ELi6ELi4ELi4ELb0EEv16cublasGeamParamsIT_EPKS2_S5_PS2_S5_S5_' for 'sm_50'
+ptxas info    : Function properties for _Z11geam_kernelI6float2Lb1ELb1ELb1ELb1ELi6ELi4ELi4ELb0EEv16cublasGeamParamsIT_EPKS2_S5_PS2_S5_S5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 8320 bytes smem, 408 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11geam_kernelI6float2Lb0ELb0ELb0ELb0ELi6ELi4ELi4ELb1EEv16cublasGeamParamsIT_EPKS2_S5_PS2_S5_S5_' for 'sm_50'
+ptxas info    : Function properties for _Z11geam_kernelI6float2Lb0ELb0ELb0ELb0ELi6ELi4ELi4ELb1EEv16cublasGeamParamsIT_EPKS2_S5_PS2_S5_S5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 8320 bytes smem, 408 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11geam_kernelIfLb1ELb1ELb1ELb0ELi6ELi5ELi3ELb0EEv16cublasGeamParamsIT_EPKS1_S4_PS1_S4_S4_' for 'sm_50'
+ptxas info    : Function properties for _Z11geam_kernelIfLb1ELb1ELb1ELb0ELi6ELi5ELi3ELb0EEv16cublasGeamParamsIT_EPKS1_S4_PS1_S4_S4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 8320 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z11geam_kernelIfLb0ELb1ELb0ELb1ELi6ELi5ELi3ELb1EEv16cublasGeamParamsIT_EPKS1_S4_PS1_S4_S4_' for 'sm_50'
+ptxas info    : Function properties for _Z11geam_kernelIfLb0ELb1ELb0ELb1ELi6ELi5ELi3ELb1EEv16cublasGeamParamsIT_EPKS1_S4_PS1_S4_S4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 8320 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z11geam_kernelI6float2Lb1ELb0ELb0ELb0ELi6ELi4ELi4ELb1EEv16cublasGeamParamsIT_EPKS2_S5_PS2_S5_S5_' for 'sm_50'
+ptxas info    : Function properties for _Z11geam_kernelI6float2Lb1ELb0ELb0ELb0ELi6ELi4ELi4ELb1EEv16cublasGeamParamsIT_EPKS2_S5_PS2_S5_S5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 8320 bytes smem, 408 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11geam_kernelIfLb1ELb0ELb1ELb0ELi6ELi5ELi3ELb1EEv16cublasGeamParamsIT_EPKS1_S4_PS1_S4_S4_' for 'sm_50'
+ptxas info    : Function properties for _Z11geam_kernelIfLb1ELb0ELb1ELb0ELi6ELi5ELi3ELb1EEv16cublasGeamParamsIT_EPKS1_S4_PS1_S4_S4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 8320 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z11geam_kernelI6float2Lb1ELb1ELb1ELb0ELi6ELi4ELi4ELb0EEv16cublasGeamParamsIT_EPKS2_S5_PS2_S5_S5_' for 'sm_50'
+ptxas info    : Function properties for _Z11geam_kernelI6float2Lb1ELb1ELb1ELb0ELi6ELi4ELi4ELb0EEv16cublasGeamParamsIT_EPKS2_S5_PS2_S5_S5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 8320 bytes smem, 408 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11geam_kernelIfLb1ELb1ELb0ELb0ELi6ELi5ELi3ELb0EEv16cublasGeamParamsIT_EPKS1_S4_PS1_S4_S4_' for 'sm_50'
+ptxas info    : Function properties for _Z11geam_kernelIfLb1ELb1ELb0ELb0ELi6ELi5ELi3ELb0EEv16cublasGeamParamsIT_EPKS1_S4_PS1_S4_S4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 8320 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z11geam_kernelI6float2Lb1ELb1ELb0ELb1ELi6ELi4ELi4ELb0EEv16cublasGeamParamsIT_EPKS2_S5_PS2_S5_S5_' for 'sm_50'
+ptxas info    : Function properties for _Z11geam_kernelI6float2Lb1ELb1ELb0ELb1ELi6ELi4ELi4ELb0EEv16cublasGeamParamsIT_EPKS2_S5_PS2_S5_S5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 8320 bytes smem, 408 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11geam_kernelIfLb0ELb0ELb0ELb0ELi6ELi5ELi3ELb1EEv16cublasGeamParamsIT_EPKS1_S4_PS1_S4_S4_' for 'sm_50'
+ptxas info    : Function properties for _Z11geam_kernelIfLb0ELb0ELb0ELb0ELi6ELi5ELi3ELb1EEv16cublasGeamParamsIT_EPKS1_S4_PS1_S4_S4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 8320 bytes smem, 400 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z11geam_kernelI6float2Lb0ELb1ELb0ELb0ELi6ELi4ELi4ELb1EEv16cublasGeamParamsIT_EPKS2_S5_PS2_S5_S5_' for 'sm_50'
+ptxas info    : Function properties for _Z11geam_kernelI6float2Lb0ELb1ELb0ELb0ELi6ELi4ELi4ELb1EEv16cublasGeamParamsIT_EPKS2_S5_PS2_S5_S5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 8320 bytes smem, 408 bytes cmem[0], 4 bytes cmem[2]
+ptxas info    : Compiling entry function '_Z11geam_kernelIfLb1ELb1ELb1ELb1ELi6ELi5ELi3ELb0EEv16cublasGeamParamsIT_EPKS1_S4_PS1_S4_S4_' for 'sm_50'
+ptxas info    : Function properties for _Z11geam_kernelIfLb1ELb1ELb1ELb1ELi6ELi5ELi3ELb0EEv16cublasGeamParamsIT_EPKS1_S4_PS1_S4_S4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 8320 bytes smem, 400 bytes cmem[0]

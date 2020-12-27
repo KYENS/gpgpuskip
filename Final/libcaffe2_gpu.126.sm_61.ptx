@@ -1,0 +1,906 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 1 .b8 __T20[38] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 117, 110, 115, 105, 103, 110, 101, 100, 32, 99, 104, 97, 114, 93, 0};
+.global .align 1 .b8 __T21[36] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 115, 105, 103, 110, 101, 100, 32, 99, 104, 97, 114, 93, 0};
+.global .align 1 .b8 __T22[30] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 115, 104, 111, 114, 116, 93, 0};
+.global .align 1 .b8 __T23[28] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 105, 110, 116, 93, 0};
+.global .align 1 .b8 __T24[29] = {84, 32, 112, 111, 119, 105, 40, 84, 44, 32, 84, 41, 32, 91, 119, 105, 116, 104, 32, 84, 32, 61, 32, 108, 111, 110, 103, 93, 0};
+
+.visible .entry _Z26nearest_neighbor_3d_kernelIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_(
+.param .u32 _Z26nearest_neighbor_3d_kernelIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_0,
+.param .align 8 .b8 _Z26nearest_neighbor_3d_kernelIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_1[32],
+.param .align 8 .b8 _Z26nearest_neighbor_3d_kernelIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_2[32]
+)
+{
+.reg .pred %p<12>;
+.reg .b16 %rs<3>;
+.reg .f32 %f<9>;
+.reg .b32 %r<75>;
+.reg .b64 %rd<33>;
+
+
+ld.param.u32 %r32, [_Z26nearest_neighbor_3d_kernelIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_0];
+ld.param.v2.u32 {%r33, %r34}, [_Z26nearest_neighbor_3d_kernelIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_1+24];
+ld.param.v2.u32 {%r35, %r36}, [_Z26nearest_neighbor_3d_kernelIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_1+16];
+ld.param.v2.u32 {%r37, %r38}, [_Z26nearest_neighbor_3d_kernelIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_1+8];
+ld.param.u64 %rd11, [_Z26nearest_neighbor_3d_kernelIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_1];
+ld.param.v2.u32 {%r39, %r40}, [_Z26nearest_neighbor_3d_kernelIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_2+24];
+ld.param.v2.u32 {%r41, %r42}, [_Z26nearest_neighbor_3d_kernelIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_2+16];
+ld.param.v2.u32 {%r43, %r44}, [_Z26nearest_neighbor_3d_kernelIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_2+8];
+ld.param.u64 %rd12, [_Z26nearest_neighbor_3d_kernelIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_2];
+cvta.to.global.u64 %rd1, %rd11;
+cvta.to.global.u64 %rd2, %rd12;
+mov.u32 %r45, %ntid.x;
+mov.u32 %r46, %ctaid.x;
+mov.u32 %r47, %tid.x;
+mad.lo.s32 %r48, %r45, %r46, %r47;
+setp.ge.s32	%p1, %r48, %r32;
+@%p1 bra BB0_14;
+
+rem.s32 %r11, %r48, %r40;
+setp.eq.s32	%p2, %r34, %r40;
+@%p2 bra BB0_8;
+bra.uni BB0_2;
+
+BB0_8:
+setp.lt.s32	%p8, %r36, 1;
+@%p8 bra BB0_14;
+
+mul.lo.s32 %r64, %r11, %r35;
+cvt.s64.s32	%rd7, %r64;
+mul.lo.s32 %r65, %r11, %r41;
+cvt.s64.s32	%rd8, %r65;
+mov.u32 %r73, 0;
+
+BB0_10:
+setp.lt.s32	%p9, %r33, 1;
+@%p9 bra BB0_13;
+
+mul.lo.s32 %r67, %r73, %r37;
+cvt.s64.s32	%rd23, %r67;
+add.s64 %rd9, %rd23, %rd7;
+mul.lo.s32 %r68, %r73, %r43;
+cvt.s64.s32	%rd24, %r68;
+add.s64 %rd10, %rd24, %rd8;
+mov.u32 %r74, 0;
+
+BB0_12:
+mul.lo.s32 %r69, %r74, %r38;
+cvt.s64.s32	%rd25, %r69;
+add.s64 %rd26, %rd9, %rd25;
+shl.b64 %rd27, %rd26, 1;
+add.s64 %rd28, %rd1, %rd27;
+ld.global.u16 %rs2, [%rd28];
+mul.lo.s32 %r70, %r74, %r44;
+cvt.s64.s32	%rd29, %r70;
+add.s64 %rd30, %rd10, %rd29;
+shl.b64 %rd31, %rd30, 1;
+add.s64 %rd32, %rd2, %rd31;
+st.global.u16 [%rd32], %rs2;
+add.s32 %r74, %r74, 1;
+setp.lt.s32	%p10, %r74, %r33;
+@%p10 bra BB0_12;
+
+BB0_13:
+add.s32 %r73, %r73, 1;
+setp.lt.s32	%p11, %r73, %r36;
+@%p11 bra BB0_10;
+bra.uni BB0_14;
+
+BB0_2:
+cvt.rn.f32.s32	%f2, %r34;
+cvt.rn.f32.s32	%f3, %r40;
+div.rn.f32 %f4, %f2, %f3;
+cvt.rn.f32.s32	%f5, %r11;
+mul.f32 %f6, %f4, %f5;
+cvt.rmi.f32.f32	%f7, %f6;
+add.s32 %r53, %r34, -1;
+cvt.rn.f32.s32	%f8, %r53;
+setp.lt.f32	%p3, %f7, %f8;
+selp.f32	%f1, %f7, %f8, %p3;
+setp.lt.s32	%p4, %r36, 1;
+@%p4 bra BB0_14;
+
+cvt.rzi.s32.f32	%r55, %f1;
+mul.lo.s32 %r56, %r55, %r35;
+cvt.s64.s32	%rd3, %r56;
+mul.lo.s32 %r57, %r11, %r41;
+cvt.s64.s32	%rd4, %r57;
+mov.u32 %r71, 0;
+
+BB0_4:
+setp.lt.s32	%p5, %r33, 1;
+@%p5 bra BB0_7;
+
+mul.lo.s32 %r59, %r71, %r37;
+cvt.s64.s32	%rd13, %r59;
+add.s64 %rd5, %rd13, %rd3;
+mul.lo.s32 %r60, %r71, %r43;
+cvt.s64.s32	%rd14, %r60;
+add.s64 %rd6, %rd14, %rd4;
+mov.u32 %r72, 0;
+
+BB0_6:
+mul.lo.s32 %r61, %r72, %r38;
+cvt.s64.s32	%rd15, %r61;
+add.s64 %rd16, %rd5, %rd15;
+shl.b64 %rd17, %rd16, 1;
+add.s64 %rd18, %rd1, %rd17;
+ld.global.u16 %rs1, [%rd18];
+mul.lo.s32 %r62, %r72, %r44;
+cvt.s64.s32	%rd19, %r62;
+add.s64 %rd20, %rd6, %rd19;
+shl.b64 %rd21, %rd20, 1;
+add.s64 %rd22, %rd2, %rd21;
+st.global.u16 [%rd22], %rs1;
+add.s32 %r72, %r72, 1;
+setp.lt.s32	%p6, %r72, %r33;
+@%p6 bra BB0_6;
+
+BB0_7:
+add.s32 %r71, %r71, 1;
+setp.lt.s32	%p7, %r71, %r36;
+@%p7 bra BB0_4;
+
+BB0_14:
+ret;
+}
+
+
+.visible .entry _Z35nearest_neighbor_3d_kernel_backwardIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5_(
+.param .u32 _Z35nearest_neighbor_3d_kernel_backwardIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_0,
+.param .align 8 .b8 _Z35nearest_neighbor_3d_kernel_backwardIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_1[32],
+.param .align 8 .b8 _Z35nearest_neighbor_3d_kernel_backwardIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_2[32]
+)
+{
+.reg .pred %p<14>;
+.reg .b16 %rs<6>;
+.reg .f32 %f<12>;
+.reg .b32 %r<84>;
+.reg .b64 %rd<38>;
+
+
+ld.param.u32 %r36, [_Z35nearest_neighbor_3d_kernel_backwardIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_0];
+ld.param.v2.u32 {%r37, %r38}, [_Z35nearest_neighbor_3d_kernel_backwardIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_1+24];
+ld.param.v2.u32 {%r39, %r40}, [_Z35nearest_neighbor_3d_kernel_backwardIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_1+16];
+ld.param.v2.u32 {%r41, %r42}, [_Z35nearest_neighbor_3d_kernel_backwardIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_1+8];
+ld.param.u64 %rd12, [_Z35nearest_neighbor_3d_kernel_backwardIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_1];
+ld.param.v2.u32 {%r43, %r44}, [_Z35nearest_neighbor_3d_kernel_backwardIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_2+24];
+ld.param.v2.u32 {%r45, %r46}, [_Z35nearest_neighbor_3d_kernel_backwardIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_2+16];
+ld.param.v2.u32 {%r47, %r48}, [_Z35nearest_neighbor_3d_kernel_backwardIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_2+8];
+ld.param.u64 %rd13, [_Z35nearest_neighbor_3d_kernel_backwardIN3c104HalfEfEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES5__param_2];
+cvta.to.global.u64 %rd1, %rd13;
+mov.u32 %r49, %ntid.x;
+mov.u32 %r50, %ctaid.x;
+mov.u32 %r51, %tid.x;
+mad.lo.s32 %r2, %r49, %r50, %r51;
+setp.ge.s32	%p1, %r2, %r36;
+@%p1 bra BB1_16;
+
+rem.s32 %r12, %r2, %r44;
+setp.eq.s32	%p2, %r38, %r44;
+@%p2 bra BB1_10;
+bra.uni BB1_2;
+
+BB1_10:
+setp.lt.s32	%p10, %r40, 1;
+@%p10 bra BB1_16;
+
+cvta.to.global.u64 %rd7, %rd12;
+mul.lo.s32 %r72, %r12, %r45;
+cvt.s64.s32	%rd8, %r72;
+mul.lo.s32 %r73, %r12, %r39;
+cvt.s64.s32	%rd9, %r73;
+mov.u32 %r82, 0;
+
+BB1_12:
+setp.lt.s32	%p11, %r37, 1;
+@%p11 bra BB1_15;
+
+mul.lo.s32 %r75, %r82, %r47;
+cvt.s64.s32	%rd28, %r75;
+add.s64 %rd10, %rd28, %rd8;
+mul.lo.s32 %r76, %r82, %r41;
+cvt.s64.s32	%rd29, %r76;
+add.s64 %rd11, %rd29, %rd9;
+mov.u32 %r83, 0;
+
+BB1_14:
+mul.lo.s32 %r77, %r83, %r48;
+cvt.s64.s32	%rd30, %r77;
+add.s64 %rd31, %rd10, %rd30;
+shl.b64 %rd32, %rd31, 1;
+add.s64 %rd33, %rd1, %rd32;
+ld.global.u16 %rs5, [%rd33];
+mul.lo.s32 %r78, %r83, %r42;
+cvt.s64.s32	%rd34, %r78;
+add.s64 %rd35, %rd11, %rd34;
+shl.b64 %rd36, %rd35, 1;
+add.s64 %rd37, %rd7, %rd36;
+st.global.u16 [%rd37], %rs5;
+add.s32 %r83, %r83, 1;
+setp.lt.s32	%p12, %r83, %r37;
+@%p12 bra BB1_14;
+
+BB1_15:
+add.s32 %r82, %r82, 1;
+setp.lt.s32	%p13, %r82, %r40;
+@%p13 bra BB1_12;
+bra.uni BB1_16;
+
+BB1_2:
+cvt.rn.f32.s32	%f2, %r38;
+cvt.rn.f32.s32	%f3, %r44;
+div.rn.f32 %f4, %f2, %f3;
+cvt.rn.f32.s32	%f5, %r12;
+mul.f32 %f6, %f4, %f5;
+cvt.rmi.f32.f32	%f7, %f6;
+add.s32 %r52, %r38, -1;
+cvt.rn.f32.s32	%f8, %r52;
+setp.lt.f32	%p3, %f7, %f8;
+selp.f32	%f1, %f7, %f8, %p3;
+setp.lt.s32	%p4, %r40, 1;
+@%p4 bra BB1_16;
+
+cvt.rzi.s32.f32	%r54, %f1;
+mul.lo.s32 %r55, %r12, %r45;
+cvt.s64.s32	%rd3, %r55;
+mul.lo.s32 %r56, %r54, %r39;
+cvt.s64.s32	%rd4, %r56;
+mov.u32 %r79, 0;
+
+BB1_4:
+setp.lt.s32	%p5, %r37, 1;
+@%p5 bra BB1_9;
+
+mov.u32 %r80, 0;
+
+BB1_6:
+mul.lo.s32 %r58, %r80, %r48;
+cvt.s64.s32	%rd14, %r58;
+mul.lo.s32 %r59, %r79, %r47;
+cvt.s64.s32	%rd15, %r59;
+add.s64 %rd16, %rd15, %rd3;
+add.s64 %rd17, %rd16, %rd14;
+shl.b64 %rd18, %rd17, 1;
+add.s64 %rd19, %rd1, %rd18;
+ld.global.u16 %rs1, [%rd19];
+mul.lo.s32 %r60, %r80, %r42;
+cvt.s64.s32	%rd20, %r60;
+mul.lo.s32 %r61, %r79, %r41;
+cvt.s64.s32	%rd21, %r61;
+add.s64 %rd22, %rd21, %rd4;
+add.s64 %rd23, %rd22, %rd20;
+cvta.to.global.u64 %rd24, %rd12;
+shl.b64 %rd25, %rd23, 1;
+add.s64 %rd26, %rd24, %rd25;
+add.s64 %rd27, %rd12, %rd25;
+and.b64 %rd5, %rd27, 2;
+sub.s64 %rd6, %rd26, %rd5;
+ld.global.u32 %r81, [%rd6];
+
+BB1_7:
+mov.u32 %r16, %r81;
+shr.u32 %r62, %r16, 16;
+setp.eq.s64	%p6, %rd5, 0;
+selp.b32	%r63, %r16, %r62, %p6;
+cvt.u16.u32	%rs2, %r63;
+
+	{ cvt.f32.f16 %f9, %rs2;}
+
+
+	
+	{ cvt.f32.f16 %f10, %rs1;}
+
+
+	add.f32 %f11, %f9, %f10;
+
+	{ cvt.rn.f16.f32 %rs4, %f11;}
+
+
+	cvt.u32.u16	%r64, %rs4;
+shl.b32 %r65, %r64, 16;
+and.b32 %r66, %r16, 65535;
+or.b32 %r67, %r65, %r66;
+and.b32 %r68, %r16, -65536;
+or.b32 %r69, %r64, %r68;
+selp.b32	%r70, %r69, %r67, %p6;
+atom.global.cas.b32 %r81, [%rd6], %r16, %r70;
+setp.ne.s32	%p7, %r16, %r81;
+@%p7 bra BB1_7;
+
+add.s32 %r80, %r80, 1;
+setp.lt.s32	%p8, %r80, %r37;
+@%p8 bra BB1_6;
+
+BB1_9:
+add.s32 %r79, %r79, 1;
+setp.lt.s32	%p9, %r79, %r40;
+@%p9 bra BB1_4;
+
+BB1_16:
+ret;
+}
+
+
+.visible .entry _Z26nearest_neighbor_3d_kernelIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_(
+.param .u32 _Z26nearest_neighbor_3d_kernelIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_0,
+.param .align 8 .b8 _Z26nearest_neighbor_3d_kernelIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1[32],
+.param .align 8 .b8 _Z26nearest_neighbor_3d_kernelIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2[32]
+)
+{
+.reg .pred %p<12>;
+.reg .f32 %f<11>;
+.reg .b32 %r<75>;
+.reg .b64 %rd<33>;
+
+
+ld.param.u32 %r32, [_Z26nearest_neighbor_3d_kernelIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_0];
+ld.param.v2.u32 {%r33, %r34}, [_Z26nearest_neighbor_3d_kernelIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1+24];
+ld.param.v2.u32 {%r35, %r36}, [_Z26nearest_neighbor_3d_kernelIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1+16];
+ld.param.v2.u32 {%r37, %r38}, [_Z26nearest_neighbor_3d_kernelIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1+8];
+ld.param.u64 %rd11, [_Z26nearest_neighbor_3d_kernelIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1];
+ld.param.v2.u32 {%r39, %r40}, [_Z26nearest_neighbor_3d_kernelIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2+24];
+ld.param.v2.u32 {%r41, %r42}, [_Z26nearest_neighbor_3d_kernelIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2+16];
+ld.param.v2.u32 {%r43, %r44}, [_Z26nearest_neighbor_3d_kernelIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2+8];
+ld.param.u64 %rd12, [_Z26nearest_neighbor_3d_kernelIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2];
+cvta.to.global.u64 %rd1, %rd11;
+cvta.to.global.u64 %rd2, %rd12;
+mov.u32 %r45, %ntid.x;
+mov.u32 %r46, %ctaid.x;
+mov.u32 %r47, %tid.x;
+mad.lo.s32 %r48, %r45, %r46, %r47;
+setp.ge.s32	%p1, %r48, %r32;
+@%p1 bra BB2_14;
+
+rem.s32 %r11, %r48, %r40;
+setp.eq.s32	%p2, %r34, %r40;
+@%p2 bra BB2_8;
+bra.uni BB2_2;
+
+BB2_8:
+setp.lt.s32	%p8, %r36, 1;
+@%p8 bra BB2_14;
+
+mul.lo.s32 %r64, %r11, %r35;
+cvt.s64.s32	%rd7, %r64;
+mul.lo.s32 %r65, %r11, %r41;
+cvt.s64.s32	%rd8, %r65;
+mov.u32 %r73, 0;
+
+BB2_10:
+setp.lt.s32	%p9, %r33, 1;
+@%p9 bra BB2_13;
+
+mul.lo.s32 %r67, %r73, %r37;
+cvt.s64.s32	%rd23, %r67;
+add.s64 %rd9, %rd23, %rd7;
+mul.lo.s32 %r68, %r73, %r43;
+cvt.s64.s32	%rd24, %r68;
+add.s64 %rd10, %rd24, %rd8;
+mov.u32 %r74, 0;
+
+BB2_12:
+mul.lo.s32 %r69, %r74, %r38;
+cvt.s64.s32	%rd25, %r69;
+add.s64 %rd26, %rd9, %rd25;
+shl.b64 %rd27, %rd26, 2;
+add.s64 %rd28, %rd1, %rd27;
+ld.global.f32 %f10, [%rd28];
+mul.lo.s32 %r70, %r74, %r44;
+cvt.s64.s32	%rd29, %r70;
+add.s64 %rd30, %rd10, %rd29;
+shl.b64 %rd31, %rd30, 2;
+add.s64 %rd32, %rd2, %rd31;
+st.global.f32 [%rd32], %f10;
+add.s32 %r74, %r74, 1;
+setp.lt.s32	%p10, %r74, %r33;
+@%p10 bra BB2_12;
+
+BB2_13:
+add.s32 %r73, %r73, 1;
+setp.lt.s32	%p11, %r73, %r36;
+@%p11 bra BB2_10;
+bra.uni BB2_14;
+
+BB2_2:
+cvt.rn.f32.s32	%f2, %r34;
+cvt.rn.f32.s32	%f3, %r40;
+div.rn.f32 %f4, %f2, %f3;
+cvt.rn.f32.s32	%f5, %r11;
+mul.f32 %f6, %f4, %f5;
+cvt.rmi.f32.f32	%f7, %f6;
+add.s32 %r53, %r34, -1;
+cvt.rn.f32.s32	%f8, %r53;
+setp.lt.f32	%p3, %f7, %f8;
+selp.f32	%f1, %f7, %f8, %p3;
+setp.lt.s32	%p4, %r36, 1;
+@%p4 bra BB2_14;
+
+cvt.rzi.s32.f32	%r55, %f1;
+mul.lo.s32 %r56, %r55, %r35;
+cvt.s64.s32	%rd3, %r56;
+mul.lo.s32 %r57, %r11, %r41;
+cvt.s64.s32	%rd4, %r57;
+mov.u32 %r71, 0;
+
+BB2_4:
+setp.lt.s32	%p5, %r33, 1;
+@%p5 bra BB2_7;
+
+mul.lo.s32 %r59, %r71, %r37;
+cvt.s64.s32	%rd13, %r59;
+add.s64 %rd5, %rd13, %rd3;
+mul.lo.s32 %r60, %r71, %r43;
+cvt.s64.s32	%rd14, %r60;
+add.s64 %rd6, %rd14, %rd4;
+mov.u32 %r72, 0;
+
+BB2_6:
+mul.lo.s32 %r61, %r72, %r38;
+cvt.s64.s32	%rd15, %r61;
+add.s64 %rd16, %rd5, %rd15;
+shl.b64 %rd17, %rd16, 2;
+add.s64 %rd18, %rd1, %rd17;
+ld.global.f32 %f9, [%rd18];
+mul.lo.s32 %r62, %r72, %r44;
+cvt.s64.s32	%rd19, %r62;
+add.s64 %rd20, %rd6, %rd19;
+shl.b64 %rd21, %rd20, 2;
+add.s64 %rd22, %rd2, %rd21;
+st.global.f32 [%rd22], %f9;
+add.s32 %r72, %r72, 1;
+setp.lt.s32	%p6, %r72, %r33;
+@%p6 bra BB2_6;
+
+BB2_7:
+add.s32 %r71, %r71, 1;
+setp.lt.s32	%p7, %r71, %r36;
+@%p7 bra BB2_4;
+
+BB2_14:
+ret;
+}
+
+
+.visible .entry _Z35nearest_neighbor_3d_kernel_backwardIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_(
+.param .u32 _Z35nearest_neighbor_3d_kernel_backwardIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_0,
+.param .align 8 .b8 _Z35nearest_neighbor_3d_kernel_backwardIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1[32],
+.param .align 8 .b8 _Z35nearest_neighbor_3d_kernel_backwardIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2[32]
+)
+{
+.reg .pred %p<12>;
+.reg .f32 %f<12>;
+.reg .b32 %r<75>;
+.reg .b64 %rd<33>;
+
+
+ld.param.u32 %r32, [_Z35nearest_neighbor_3d_kernel_backwardIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_0];
+ld.param.v2.u32 {%r33, %r34}, [_Z35nearest_neighbor_3d_kernel_backwardIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1+24];
+ld.param.v2.u32 {%r35, %r36}, [_Z35nearest_neighbor_3d_kernel_backwardIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1+16];
+ld.param.v2.u32 {%r37, %r38}, [_Z35nearest_neighbor_3d_kernel_backwardIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1+8];
+ld.param.u64 %rd11, [_Z35nearest_neighbor_3d_kernel_backwardIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1];
+ld.param.v2.u32 {%r39, %r40}, [_Z35nearest_neighbor_3d_kernel_backwardIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2+24];
+ld.param.v2.u32 {%r41, %r42}, [_Z35nearest_neighbor_3d_kernel_backwardIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2+16];
+ld.param.v2.u32 {%r43, %r44}, [_Z35nearest_neighbor_3d_kernel_backwardIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2+8];
+ld.param.u64 %rd12, [_Z35nearest_neighbor_3d_kernel_backwardIffEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2];
+cvta.to.global.u64 %rd1, %rd11;
+cvta.to.global.u64 %rd2, %rd12;
+mov.u32 %r45, %ntid.x;
+mov.u32 %r46, %ctaid.x;
+mov.u32 %r47, %tid.x;
+mad.lo.s32 %r48, %r45, %r46, %r47;
+setp.ge.s32	%p1, %r48, %r32;
+@%p1 bra BB3_14;
+
+rem.s32 %r11, %r48, %r40;
+setp.eq.s32	%p2, %r34, %r40;
+@%p2 bra BB3_8;
+bra.uni BB3_2;
+
+BB3_8:
+setp.lt.s32	%p8, %r36, 1;
+@%p8 bra BB3_14;
+
+mul.lo.s32 %r64, %r11, %r41;
+cvt.s64.s32	%rd7, %r64;
+mul.lo.s32 %r65, %r11, %r35;
+cvt.s64.s32	%rd8, %r65;
+mov.u32 %r73, 0;
+
+BB3_10:
+setp.lt.s32	%p9, %r33, 1;
+@%p9 bra BB3_13;
+
+mul.lo.s32 %r67, %r73, %r43;
+cvt.s64.s32	%rd23, %r67;
+add.s64 %rd9, %rd23, %rd7;
+mul.lo.s32 %r68, %r73, %r37;
+cvt.s64.s32	%rd24, %r68;
+add.s64 %rd10, %rd24, %rd8;
+mov.u32 %r74, 0;
+
+BB3_12:
+mul.lo.s32 %r69, %r74, %r44;
+cvt.s64.s32	%rd25, %r69;
+add.s64 %rd26, %rd9, %rd25;
+shl.b64 %rd27, %rd26, 2;
+add.s64 %rd28, %rd2, %rd27;
+ld.global.f32 %f11, [%rd28];
+mul.lo.s32 %r70, %r74, %r38;
+cvt.s64.s32	%rd29, %r70;
+add.s64 %rd30, %rd10, %rd29;
+shl.b64 %rd31, %rd30, 2;
+add.s64 %rd32, %rd1, %rd31;
+st.global.f32 [%rd32], %f11;
+add.s32 %r74, %r74, 1;
+setp.lt.s32	%p10, %r74, %r33;
+@%p10 bra BB3_12;
+
+BB3_13:
+add.s32 %r73, %r73, 1;
+setp.lt.s32	%p11, %r73, %r36;
+@%p11 bra BB3_10;
+bra.uni BB3_14;
+
+BB3_2:
+cvt.rn.f32.s32	%f2, %r34;
+cvt.rn.f32.s32	%f3, %r40;
+div.rn.f32 %f4, %f2, %f3;
+cvt.rn.f32.s32	%f5, %r11;
+mul.f32 %f6, %f4, %f5;
+cvt.rmi.f32.f32	%f7, %f6;
+add.s32 %r53, %r34, -1;
+cvt.rn.f32.s32	%f8, %r53;
+setp.lt.f32	%p3, %f7, %f8;
+selp.f32	%f1, %f7, %f8, %p3;
+setp.lt.s32	%p4, %r36, 1;
+@%p4 bra BB3_14;
+
+cvt.rzi.s32.f32	%r55, %f1;
+mul.lo.s32 %r56, %r11, %r41;
+cvt.s64.s32	%rd3, %r56;
+mul.lo.s32 %r57, %r55, %r35;
+cvt.s64.s32	%rd4, %r57;
+mov.u32 %r71, 0;
+
+BB3_4:
+setp.lt.s32	%p5, %r33, 1;
+@%p5 bra BB3_7;
+
+mul.lo.s32 %r59, %r71, %r43;
+cvt.s64.s32	%rd13, %r59;
+add.s64 %rd5, %rd13, %rd3;
+mul.lo.s32 %r60, %r71, %r37;
+cvt.s64.s32	%rd14, %r60;
+add.s64 %rd6, %rd14, %rd4;
+mov.u32 %r72, 0;
+
+BB3_6:
+mul.lo.s32 %r61, %r72, %r44;
+cvt.s64.s32	%rd15, %r61;
+add.s64 %rd16, %rd5, %rd15;
+shl.b64 %rd17, %rd16, 2;
+add.s64 %rd18, %rd2, %rd17;
+ld.global.f32 %f9, [%rd18];
+mul.lo.s32 %r62, %r72, %r38;
+cvt.s64.s32	%rd19, %r62;
+add.s64 %rd20, %rd6, %rd19;
+shl.b64 %rd21, %rd20, 2;
+add.s64 %rd22, %rd1, %rd21;
+atom.global.add.f32 %f10, [%rd22], %f9;
+add.s32 %r72, %r72, 1;
+setp.lt.s32	%p6, %r72, %r33;
+@%p6 bra BB3_6;
+
+BB3_7:
+add.s32 %r71, %r71, 1;
+setp.lt.s32	%p7, %r71, %r36;
+@%p7 bra BB3_4;
+
+BB3_14:
+ret;
+}
+
+
+.visible .entry _Z26nearest_neighbor_3d_kernelIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_(
+.param .u32 _Z26nearest_neighbor_3d_kernelIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_0,
+.param .align 8 .b8 _Z26nearest_neighbor_3d_kernelIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1[32],
+.param .align 8 .b8 _Z26nearest_neighbor_3d_kernelIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2[32]
+)
+{
+.reg .pred %p<12>;
+.reg .f32 %f<9>;
+.reg .b32 %r<75>;
+.reg .f64 %fd<3>;
+.reg .b64 %rd<33>;
+
+
+ld.param.u32 %r32, [_Z26nearest_neighbor_3d_kernelIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_0];
+ld.param.v2.u32 {%r33, %r34}, [_Z26nearest_neighbor_3d_kernelIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1+24];
+ld.param.v2.u32 {%r35, %r36}, [_Z26nearest_neighbor_3d_kernelIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1+16];
+ld.param.v2.u32 {%r37, %r38}, [_Z26nearest_neighbor_3d_kernelIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1+8];
+ld.param.u64 %rd11, [_Z26nearest_neighbor_3d_kernelIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1];
+ld.param.v2.u32 {%r39, %r40}, [_Z26nearest_neighbor_3d_kernelIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2+24];
+ld.param.v2.u32 {%r41, %r42}, [_Z26nearest_neighbor_3d_kernelIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2+16];
+ld.param.v2.u32 {%r43, %r44}, [_Z26nearest_neighbor_3d_kernelIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2+8];
+ld.param.u64 %rd12, [_Z26nearest_neighbor_3d_kernelIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2];
+cvta.to.global.u64 %rd1, %rd11;
+cvta.to.global.u64 %rd2, %rd12;
+mov.u32 %r45, %ntid.x;
+mov.u32 %r46, %ctaid.x;
+mov.u32 %r47, %tid.x;
+mad.lo.s32 %r48, %r45, %r46, %r47;
+setp.ge.s32	%p1, %r48, %r32;
+@%p1 bra BB4_14;
+
+rem.s32 %r11, %r48, %r40;
+setp.eq.s32	%p2, %r34, %r40;
+@%p2 bra BB4_8;
+bra.uni BB4_2;
+
+BB4_8:
+setp.lt.s32	%p8, %r36, 1;
+@%p8 bra BB4_14;
+
+mul.lo.s32 %r64, %r11, %r35;
+cvt.s64.s32	%rd7, %r64;
+mul.lo.s32 %r65, %r11, %r41;
+cvt.s64.s32	%rd8, %r65;
+mov.u32 %r73, 0;
+
+BB4_10:
+setp.lt.s32	%p9, %r33, 1;
+@%p9 bra BB4_13;
+
+mul.lo.s32 %r67, %r73, %r37;
+cvt.s64.s32	%rd23, %r67;
+add.s64 %rd9, %rd23, %rd7;
+mul.lo.s32 %r68, %r73, %r43;
+cvt.s64.s32	%rd24, %r68;
+add.s64 %rd10, %rd24, %rd8;
+mov.u32 %r74, 0;
+
+BB4_12:
+mul.lo.s32 %r69, %r74, %r38;
+cvt.s64.s32	%rd25, %r69;
+add.s64 %rd26, %rd9, %rd25;
+shl.b64 %rd27, %rd26, 3;
+add.s64 %rd28, %rd1, %rd27;
+ld.global.f64 %fd2, [%rd28];
+mul.lo.s32 %r70, %r74, %r44;
+cvt.s64.s32	%rd29, %r70;
+add.s64 %rd30, %rd10, %rd29;
+shl.b64 %rd31, %rd30, 3;
+add.s64 %rd32, %rd2, %rd31;
+st.global.f64 [%rd32], %fd2;
+add.s32 %r74, %r74, 1;
+setp.lt.s32	%p10, %r74, %r33;
+@%p10 bra BB4_12;
+
+BB4_13:
+add.s32 %r73, %r73, 1;
+setp.lt.s32	%p11, %r73, %r36;
+@%p11 bra BB4_10;
+bra.uni BB4_14;
+
+BB4_2:
+cvt.rn.f32.s32	%f2, %r34;
+cvt.rn.f32.s32	%f3, %r40;
+div.rn.f32 %f4, %f2, %f3;
+cvt.rn.f32.s32	%f5, %r11;
+mul.f32 %f6, %f4, %f5;
+cvt.rmi.f32.f32	%f7, %f6;
+add.s32 %r53, %r34, -1;
+cvt.rn.f32.s32	%f8, %r53;
+setp.lt.f32	%p3, %f7, %f8;
+selp.f32	%f1, %f7, %f8, %p3;
+setp.lt.s32	%p4, %r36, 1;
+@%p4 bra BB4_14;
+
+cvt.rzi.s32.f32	%r55, %f1;
+mul.lo.s32 %r56, %r55, %r35;
+cvt.s64.s32	%rd3, %r56;
+mul.lo.s32 %r57, %r11, %r41;
+cvt.s64.s32	%rd4, %r57;
+mov.u32 %r71, 0;
+
+BB4_4:
+setp.lt.s32	%p5, %r33, 1;
+@%p5 bra BB4_7;
+
+mul.lo.s32 %r59, %r71, %r37;
+cvt.s64.s32	%rd13, %r59;
+add.s64 %rd5, %rd13, %rd3;
+mul.lo.s32 %r60, %r71, %r43;
+cvt.s64.s32	%rd14, %r60;
+add.s64 %rd6, %rd14, %rd4;
+mov.u32 %r72, 0;
+
+BB4_6:
+mul.lo.s32 %r61, %r72, %r38;
+cvt.s64.s32	%rd15, %r61;
+add.s64 %rd16, %rd5, %rd15;
+shl.b64 %rd17, %rd16, 3;
+add.s64 %rd18, %rd1, %rd17;
+ld.global.f64 %fd1, [%rd18];
+mul.lo.s32 %r62, %r72, %r44;
+cvt.s64.s32	%rd19, %r62;
+add.s64 %rd20, %rd6, %rd19;
+shl.b64 %rd21, %rd20, 3;
+add.s64 %rd22, %rd2, %rd21;
+st.global.f64 [%rd22], %fd1;
+add.s32 %r72, %r72, 1;
+setp.lt.s32	%p6, %r72, %r33;
+@%p6 bra BB4_6;
+
+BB4_7:
+add.s32 %r71, %r71, 1;
+setp.lt.s32	%p7, %r71, %r36;
+@%p7 bra BB4_4;
+
+BB4_14:
+ret;
+}
+
+
+.visible .entry _Z35nearest_neighbor_3d_kernel_backwardIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3_(
+.param .u32 _Z35nearest_neighbor_3d_kernel_backwardIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_0,
+.param .align 8 .b8 _Z35nearest_neighbor_3d_kernel_backwardIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1[32],
+.param .align 8 .b8 _Z35nearest_neighbor_3d_kernel_backwardIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2[32]
+)
+{
+.reg .pred %p<12>;
+.reg .f32 %f<9>;
+.reg .b32 %r<75>;
+.reg .f64 %fd<4>;
+.reg .b64 %rd<33>;
+
+
+ld.param.u32 %r32, [_Z35nearest_neighbor_3d_kernel_backwardIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_0];
+ld.param.v2.u32 {%r33, %r34}, [_Z35nearest_neighbor_3d_kernel_backwardIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1+24];
+ld.param.v2.u32 {%r35, %r36}, [_Z35nearest_neighbor_3d_kernel_backwardIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1+16];
+ld.param.v2.u32 {%r37, %r38}, [_Z35nearest_neighbor_3d_kernel_backwardIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1+8];
+ld.param.u64 %rd11, [_Z35nearest_neighbor_3d_kernel_backwardIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_1];
+ld.param.v2.u32 {%r39, %r40}, [_Z35nearest_neighbor_3d_kernel_backwardIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2+24];
+ld.param.v2.u32 {%r41, %r42}, [_Z35nearest_neighbor_3d_kernel_backwardIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2+16];
+ld.param.v2.u32 {%r43, %r44}, [_Z35nearest_neighbor_3d_kernel_backwardIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2+8];
+ld.param.u64 %rd12, [_Z35nearest_neighbor_3d_kernel_backwardIddEvi15THCDeviceTensorIT_Li3Ei16DefaultPtrTraitsES3__param_2];
+cvta.to.global.u64 %rd1, %rd11;
+cvta.to.global.u64 %rd2, %rd12;
+mov.u32 %r45, %ntid.x;
+mov.u32 %r46, %ctaid.x;
+mov.u32 %r47, %tid.x;
+mad.lo.s32 %r48, %r45, %r46, %r47;
+setp.ge.s32	%p1, %r48, %r32;
+@%p1 bra BB5_14;
+
+rem.s32 %r11, %r48, %r40;
+setp.eq.s32	%p2, %r34, %r40;
+@%p2 bra BB5_8;
+bra.uni BB5_2;
+
+BB5_8:
+setp.lt.s32	%p8, %r36, 1;
+@%p8 bra BB5_14;
+
+mul.lo.s32 %r64, %r11, %r41;
+cvt.s64.s32	%rd7, %r64;
+mul.lo.s32 %r65, %r11, %r35;
+cvt.s64.s32	%rd8, %r65;
+mov.u32 %r73, 0;
+
+BB5_10:
+setp.lt.s32	%p9, %r33, 1;
+@%p9 bra BB5_13;
+
+mul.lo.s32 %r67, %r73, %r43;
+cvt.s64.s32	%rd23, %r67;
+add.s64 %rd9, %rd23, %rd7;
+mul.lo.s32 %r68, %r73, %r37;
+cvt.s64.s32	%rd24, %r68;
+add.s64 %rd10, %rd24, %rd8;
+mov.u32 %r74, 0;
+
+BB5_12:
+mul.lo.s32 %r69, %r74, %r44;
+cvt.s64.s32	%rd25, %r69;
+add.s64 %rd26, %rd9, %rd25;
+shl.b64 %rd27, %rd26, 3;
+add.s64 %rd28, %rd2, %rd27;
+ld.global.f64 %fd3, [%rd28];
+mul.lo.s32 %r70, %r74, %r38;
+cvt.s64.s32	%rd29, %r70;
+add.s64 %rd30, %rd10, %rd29;
+shl.b64 %rd31, %rd30, 3;
+add.s64 %rd32, %rd1, %rd31;
+st.global.f64 [%rd32], %fd3;
+add.s32 %r74, %r74, 1;
+setp.lt.s32	%p10, %r74, %r33;
+@%p10 bra BB5_12;
+
+BB5_13:
+add.s32 %r73, %r73, 1;
+setp.lt.s32	%p11, %r73, %r36;
+@%p11 bra BB5_10;
+bra.uni BB5_14;
+
+BB5_2:
+cvt.rn.f32.s32	%f2, %r34;
+cvt.rn.f32.s32	%f3, %r40;
+div.rn.f32 %f4, %f2, %f3;
+cvt.rn.f32.s32	%f5, %r11;
+mul.f32 %f6, %f4, %f5;
+cvt.rmi.f32.f32	%f7, %f6;
+add.s32 %r53, %r34, -1;
+cvt.rn.f32.s32	%f8, %r53;
+setp.lt.f32	%p3, %f7, %f8;
+selp.f32	%f1, %f7, %f8, %p3;
+setp.lt.s32	%p4, %r36, 1;
+@%p4 bra BB5_14;
+
+cvt.rzi.s32.f32	%r55, %f1;
+mul.lo.s32 %r56, %r11, %r41;
+cvt.s64.s32	%rd3, %r56;
+mul.lo.s32 %r57, %r55, %r35;
+cvt.s64.s32	%rd4, %r57;
+mov.u32 %r71, 0;
+
+BB5_4:
+setp.lt.s32	%p5, %r33, 1;
+@%p5 bra BB5_7;
+
+mul.lo.s32 %r59, %r71, %r43;
+cvt.s64.s32	%rd13, %r59;
+add.s64 %rd5, %rd13, %rd3;
+mul.lo.s32 %r60, %r71, %r37;
+cvt.s64.s32	%rd14, %r60;
+add.s64 %rd6, %rd14, %rd4;
+mov.u32 %r72, 0;
+
+BB5_6:
+mul.lo.s32 %r61, %r72, %r44;
+cvt.s64.s32	%rd15, %r61;
+add.s64 %rd16, %rd5, %rd15;
+shl.b64 %rd17, %rd16, 3;
+add.s64 %rd18, %rd2, %rd17;
+ld.global.f64 %fd1, [%rd18];
+mul.lo.s32 %r62, %r72, %r38;
+cvt.s64.s32	%rd19, %r62;
+add.s64 %rd20, %rd6, %rd19;
+shl.b64 %rd21, %rd20, 3;
+add.s64 %rd22, %rd1, %rd21;
+atom.global.add.f64 %fd2, [%rd22], %fd1;
+add.s32 %r72, %r72, 1;
+setp.lt.s32	%p6, %r72, %r33;
+@%p6 bra BB5_6;
+
+BB5_7:
+add.s32 %r71, %r71, 1;
+setp.lt.s32	%p7, %r71, %r36;
+@%p7 bra BB5_4;
+
+BB5_14:
+ret;
+}
+
+

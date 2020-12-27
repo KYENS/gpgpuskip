@@ -1,0 +1,9 @@
+ptxas info    : 904 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe286_GLOBAL__N__62_tmpxft_00005baa_00000000_7_margin_ranking_criterion_op_cpp1_ii_402c230b17MRCGradientKernelEiPKiPKfS4_S4_fPfS5_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe286_GLOBAL__N__62_tmpxft_00005baa_00000000_7_margin_ranking_criterion_op_cpp1_ii_402c230b17MRCGradientKernelEiPKiPKfS4_S4_fPfS5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 384 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe286_GLOBAL__N__62_tmpxft_00005baa_00000000_7_margin_ranking_criterion_op_cpp1_ii_402c230b9MRCKernelEiPKiPKfS4_fPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe286_GLOBAL__N__62_tmpxft_00005baa_00000000_7_margin_ranking_criterion_op_cpp1_ii_402c230b9MRCKernelEiPKiPKfS4_fPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, 368 bytes cmem[0]

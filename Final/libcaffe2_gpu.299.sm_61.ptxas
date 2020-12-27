@@ -1,0 +1,5 @@
+ptxas info    : 728 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe225ComputeLearningRateKernelEPKfS1_S1_ffPfS2_S2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 11 registers, 376 bytes cmem[0], 12 bytes cmem[2]

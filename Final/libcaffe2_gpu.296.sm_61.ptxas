@@ -1,0 +1,9 @@
+ptxas info    : 904 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_000073d0_00000000_7_roi_pool_op_cpp1_ii_1647679315ROIPoolBackwardIfEEviPKT_PKiiS2_iiiiiPS2_S4_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_000073d0_00000000_7_roi_pool_op_cpp1_ii_1647679315ROIPoolBackwardIfEEviPKT_PKiiS2_iiiiiPS2_S4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 31 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe270_GLOBAL__N__46_tmpxft_000073d0_00000000_7_roi_pool_op_cpp1_ii_1647679314ROIPoolForwardIfEEviPKT_S2_iiiiiS4_PS2_Pi' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe270_GLOBAL__N__46_tmpxft_000073d0_00000000_7_roi_pool_op_cpp1_ii_1647679314ROIPoolForwardIfEEviPKT_S2_iiiiiS4_PS2_Pi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, 384 bytes cmem[0], 24 bytes cmem[2]

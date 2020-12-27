@@ -1,0 +1,180 @@
+
+
+
+
+
+
+
+
+.version 5.0
+.target sm_61
+.address_size 64
+
+
+.global .align 8 .b8 _ZTVSt9basic_iosIcSt11char_traitsIcEE[32];
+.global .align 8 .b8 _ZTTSo[8];
+.global .align 8 .b8 _ZTVSt15basic_streambufIcSt11char_traitsIcEE[128];
+.global .align 8 .b8 _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE[128];
+.global .align 8 .b8 _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv119__pointer_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__function_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv117__class_type_infoE[8];
+.global .align 8 .b8 _ZTVN10__cxxabiv120__si_class_type_infoE[8];
+.global .align 8 .b8 _ZTVSt9exception[40];
+.global .align 8 .b8 _ZTVN3c105ErrorE[40];
+.global .align 8 .b8 _ZTVN3c1020intrusive_ptr_targetE[40];
+.global .align 8 .b8 _ZTVN3c1011StorageImplE[40];
+.global .align 8 .b8 _ZTVN6caffe28OperatorINS_11CUDAContextEEE[136];
+.global .align 8 .b8 _ZTVN6caffe215SparseToDenseOpINS_11CUDAContextEEE[136];
+
+.visible .entry _ZN6caffe219SparseToDenseKernelIifEEvmlPKT_PKT0_PS4_(
+.param .u64 _ZN6caffe219SparseToDenseKernelIifEEvmlPKT_PKT0_PS4__param_0,
+.param .u64 _ZN6caffe219SparseToDenseKernelIifEEvmlPKT_PKT0_PS4__param_1,
+.param .u64 _ZN6caffe219SparseToDenseKernelIifEEvmlPKT_PKT0_PS4__param_2,
+.param .u64 _ZN6caffe219SparseToDenseKernelIifEEvmlPKT_PKT0_PS4__param_3,
+.param .u64 _ZN6caffe219SparseToDenseKernelIifEEvmlPKT_PKT0_PS4__param_4
+)
+{
+.reg .pred %p<4>;
+.reg .f32 %f<3>;
+.reg .b32 %r<11>;
+.reg .b64 %rd<34>;
+
+
+ld.param.u64 %rd14, [_ZN6caffe219SparseToDenseKernelIifEEvmlPKT_PKT0_PS4__param_0];
+ld.param.u64 %rd15, [_ZN6caffe219SparseToDenseKernelIifEEvmlPKT_PKT0_PS4__param_1];
+ld.param.u64 %rd16, [_ZN6caffe219SparseToDenseKernelIifEEvmlPKT_PKT0_PS4__param_2];
+ld.param.u64 %rd17, [_ZN6caffe219SparseToDenseKernelIifEEvmlPKT_PKT0_PS4__param_3];
+ld.param.u64 %rd18, [_ZN6caffe219SparseToDenseKernelIifEEvmlPKT_PKT0_PS4__param_4];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd31, %r4;
+setp.ge.u64	%p1, %rd31, %rd14;
+@%p1 bra BB0_6;
+
+cvta.to.global.u64 %rd2, %rd18;
+cvta.to.global.u64 %rd3, %rd17;
+cvta.to.global.u64 %rd4, %rd16;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB0_2:
+or.b64 %rd19, %rd31, %rd15;
+and.b64 %rd20, %rd19, -4294967296;
+setp.eq.s64	%p2, %rd20, 0;
+@%p2 bra BB0_4;
+bra.uni BB0_3;
+
+BB0_4:
+cvt.u32.u64	%r7, %rd15;
+cvt.u32.u64	%r8, %rd31;
+div.u32 %r9, %r8, %r7;
+rem.u32 %r10, %r8, %r7;
+cvt.u64.u32	%rd32, %r9;
+cvt.u64.u32	%rd33, %r10;
+bra.uni BB0_5;
+
+BB0_3:
+div.u64 %rd32, %rd31, %rd15;
+rem.u64 %rd33, %rd31, %rd15;
+
+BB0_5:
+shl.b64 %rd21, %rd32, 2;
+add.s64 %rd22, %rd4, %rd21;
+ld.global.u32 %rd23, [%rd22];
+mul.lo.s64 %rd24, %rd23, %rd15;
+add.s64 %rd25, %rd24, %rd33;
+cvt.s64.s32 %rd26, %rd25;
+shl.b64 %rd27, %rd26, 2;
+add.s64 %rd28, %rd2, %rd27;
+shl.b64 %rd29, %rd31, 2;
+add.s64 %rd30, %rd3, %rd29;
+ld.global.f32 %f1, [%rd30];
+atom.global.add.f32 %f2, [%rd28], %f1;
+add.s64 %rd31, %rd5, %rd31;
+setp.lt.u64	%p3, %rd31, %rd14;
+@%p3 bra BB0_2;
+
+BB0_6:
+ret;
+}
+
+
+.visible .entry _ZN6caffe219SparseToDenseKernelIiiEEvmlPKT_PKT0_PS4_(
+.param .u64 _ZN6caffe219SparseToDenseKernelIiiEEvmlPKT_PKT0_PS4__param_0,
+.param .u64 _ZN6caffe219SparseToDenseKernelIiiEEvmlPKT_PKT0_PS4__param_1,
+.param .u64 _ZN6caffe219SparseToDenseKernelIiiEEvmlPKT_PKT0_PS4__param_2,
+.param .u64 _ZN6caffe219SparseToDenseKernelIiiEEvmlPKT_PKT0_PS4__param_3,
+.param .u64 _ZN6caffe219SparseToDenseKernelIiiEEvmlPKT_PKT0_PS4__param_4
+)
+{
+.reg .pred %p<4>;
+.reg .b32 %r<13>;
+.reg .b64 %rd<34>;
+
+
+ld.param.u64 %rd14, [_ZN6caffe219SparseToDenseKernelIiiEEvmlPKT_PKT0_PS4__param_0];
+ld.param.u64 %rd15, [_ZN6caffe219SparseToDenseKernelIiiEEvmlPKT_PKT0_PS4__param_1];
+ld.param.u64 %rd16, [_ZN6caffe219SparseToDenseKernelIiiEEvmlPKT_PKT0_PS4__param_2];
+ld.param.u64 %rd17, [_ZN6caffe219SparseToDenseKernelIiiEEvmlPKT_PKT0_PS4__param_3];
+ld.param.u64 %rd18, [_ZN6caffe219SparseToDenseKernelIiiEEvmlPKT_PKT0_PS4__param_4];
+mov.u32 %r1, %ntid.x;
+mov.u32 %r2, %ctaid.x;
+mov.u32 %r3, %tid.x;
+mad.lo.s32 %r4, %r1, %r2, %r3;
+cvt.u64.u32	%rd31, %r4;
+setp.ge.u64	%p1, %rd31, %rd14;
+@%p1 bra BB1_6;
+
+cvta.to.global.u64 %rd2, %rd18;
+cvta.to.global.u64 %rd3, %rd17;
+cvta.to.global.u64 %rd4, %rd16;
+mov.u32 %r5, %nctaid.x;
+mul.lo.s32 %r6, %r5, %r1;
+cvt.u64.u32	%rd5, %r6;
+
+BB1_2:
+or.b64 %rd19, %rd31, %rd15;
+and.b64 %rd20, %rd19, -4294967296;
+setp.eq.s64	%p2, %rd20, 0;
+@%p2 bra BB1_4;
+bra.uni BB1_3;
+
+BB1_4:
+cvt.u32.u64	%r7, %rd15;
+cvt.u32.u64	%r8, %rd31;
+div.u32 %r9, %r8, %r7;
+rem.u32 %r10, %r8, %r7;
+cvt.u64.u32	%rd32, %r9;
+cvt.u64.u32	%rd33, %r10;
+bra.uni BB1_5;
+
+BB1_3:
+div.u64 %rd32, %rd31, %rd15;
+rem.u64 %rd33, %rd31, %rd15;
+
+BB1_5:
+shl.b64 %rd21, %rd32, 2;
+add.s64 %rd22, %rd4, %rd21;
+ld.global.u32 %rd23, [%rd22];
+mul.lo.s64 %rd24, %rd23, %rd15;
+add.s64 %rd25, %rd24, %rd33;
+cvt.s64.s32 %rd26, %rd25;
+shl.b64 %rd27, %rd26, 2;
+add.s64 %rd28, %rd2, %rd27;
+shl.b64 %rd29, %rd31, 2;
+add.s64 %rd30, %rd3, %rd29;
+ld.global.u32 %r11, [%rd30];
+atom.global.add.u32 %r12, [%rd28], %r11;
+add.s64 %rd31, %rd5, %rd31;
+setp.lt.u64	%p3, %rd31, %rd14;
+@%p3 bra BB1_2;
+
+BB1_6:
+ret;
+}
+
+

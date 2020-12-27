@@ -1,0 +1,41 @@
+ptxas info    : 2024 bytes gmem
+ptxas info    : Compiling entry function '_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIlEEvilT_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIlEEvilT_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIbEEvilT_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIbEEvilT_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIsEEvilT_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIsEEvilT_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIfEEvilT_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIfEEvilT_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelItEEvilT_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelItEEvilT_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIiEEvilT_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIiEEvilT_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIdEEvilT_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIdEEvilT_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIaEEvilT_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIaEEvilT_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 352 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f15FillRangeKernelEiPf' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f15FillRangeKernelEiPf
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 336 bytes cmem[0]
+ptxas info    : Compiling entry function '_ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIhEEvilT_PS2_' for 'sm_61'
+ptxas info    : Function properties for _ZN6caffe268_GLOBAL__N__44_tmpxft_00005cb4_00000000_7_filler_op_cpp1_ii_dafd950f18FillDiagonalKernelIhEEvilT_PS2_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 17 registers, 352 bytes cmem[0]
