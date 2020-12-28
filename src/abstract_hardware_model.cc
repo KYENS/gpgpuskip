@@ -1214,12 +1214,19 @@ void core_t::updateSIMTStack(unsigned warpId, warp_inst_t *inst) {
     if (ptx_thread_done(wtid + i)) {
       thread_done.set(i);
       next_pc.push_back((address_type)-1);
+//      unsigned aaa=(address_type)-1;
+//      std::printf("A:%u\n",((address_type)-1));
     } else {
       if (inst->reconvergence_pc == RECONVERGE_RETURN_PC)
         inst->reconvergence_pc = get_return_pc(m_thread[wtid + i]);
       next_pc.push_back(m_thread[wtid + i]->get_pc());
+//      std::printf("B:%u\n",(m_thread[wtid + i]->get_pc()));
     }
   }
+/*  for (unsigned i = 0; i < m_warp_size; i++) {
+      std::printf("%lu,",next_pc[i]);
+  }*/
+//  std::printf("\n");
   m_simt_stack[warpId]->update(thread_done, next_pc, inst->reconvergence_pc,
                                inst->op, inst->isize, inst->pc);
 }
