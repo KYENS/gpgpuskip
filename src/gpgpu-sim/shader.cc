@@ -855,13 +855,7 @@ void shader_core_ctx::decode() {
         // decode 1 or 2 instructions and place them into ibuffer
         address_type pc = m_inst_fetch_buffer.m_pc;
         const warp_inst_t *pI1 = get_next_inst(m_inst_fetch_buffer.m_warp_id, pc);
-        /*    if(pI1->op==DP_OP)
-              std::printf("DP\n");
-              else if(pI1->op==INT_OP)
-              std::printf("INT\n");
-              else  if(pI1->op==FP_OP)
-              std::printf("FP\n");
-         */
+         
         /*  if(pI1->op==INT_OP||pI1->op==FP_OP||pI1->op==DP_OP){
             std::printf("DECODING\n");
             issue_warp_virtual(pI1,m_inst_fetch_buffer.m_warp_id);
@@ -1214,40 +1208,23 @@ void scheduler_unit::cycle() {
                     "barrier\n",
                     (*iter)->get_warp_id(), (*iter)->get_dynamic_warp_id());
 
+        unsigned pc, rpc;
         while (!warp(warp_id).waiting() && !warp(warp_id).ibuffer_empty() &&
                 (checked < max_issue) && (checked <= issued) &&
                 (issued < max_issue)) {
             const warp_inst_t *pI = warp(warp_id).ibuffer_next_inst();
-            unsigned pc, rpc;
-            
-            m_shader->get_pdom_stack_top_info(warp_id, pI, &pc, &rpc);
-            bool valid_v = warp(warp_id).ibuffer_next_valid();
+            bool skip=false;
             bool warp_inst_issued = false;
-            if(pI){
-                if(pI->op==FP_OP){
-                    if (pc == pI->pc) {
-                        m_shader->issue_warp_virtual(pI,warp_id);
-                        issued++;
-                        checked++;
-                        issued_inst = true;
-                        warp_inst_issued = true;
-                        std::printf("DECODING -  %u,%u,%u-",pc,max_issue,issued,warp_id);
-                        warp(warp_id).ibuffer_step();
-                        //                        do_on_warp_issued(warp_id, issued, iter);
-                        //                        warp(warp_id).dec_inst_in_pipeline();
-
-                        continue;
-
-                    }
-                }
-            }
-          
+            if (pI) {
+//                printf("pc %u pI->pc %u",pc, pI->pc);
+            } 
             // Jin: handle cdp latency;
             if (pI && pI->m_is_cdp && warp(warp_id).m_cdp_latency > 0) {
                 assert(warp(warp_id).m_cdp_dummy);
                 warp(warp_id).m_cdp_latency--;
                 break;
             }
+            m_shader->get_pdom_stack_top_info(warp_id, pI, &pc, &rpc);
 
             bool valid = warp(warp_id).ibuffer_next_valid();
             SCHED_DPRINTF(
@@ -1256,7 +1233,7 @@ void scheduler_unit::cycle() {
                     m_shader->m_config->gpgpu_ctx->func_sim->ptx_get_insn_str(pc)
                     .c_str());
             if (pI) {
-                std::printf("DG -  %u\n",pc);
+                //                std::printf("DG -  %u\n",pc);
                 assert(valid);
                 if (pc != pI->pc) {
                     SCHED_DPRINTF(
@@ -1268,7 +1245,31 @@ void scheduler_unit::cycle() {
                     warp(warp_id).ibuffer_flush();
                 } else {
                     valid_inst = true;
-                    if (!m_scoreboard->checkCollision(warp_id, pI)) {
+  //              if (pc == 24)
+//                    printf("%u %u{");
+
+                    
+
+                    if(pI->op==DP_OP)
+                        std::printf("DP\n");
+                    else if(pI->op==INT_OP)
+                        std::printf("INT\n");
+                    else  if(pI->op==FP_OP)
+                        std::printf("FP\n");
+                    //if(skip){
+                    //    printf("SKIP\n");
+                    //}
+                    printf("pc %u pI->pc %u",pc, pI->pc);
+                    if (pc == 24 &&pc == pI->pc) {
+                        m_shader->issue_warp_virtual(pI,warp_id);
+                        issued++;
+                        issued_inst = true;
+                        warp_inst_issued = true;
+                        skip=true;
+                        printf("next_PC %u\n",warp(warp_id).get_pc());
+                        previous_issued_inst_exec_type = exec_unit_type_t::MEM;
+                    }
+                    else if (!m_scoreboard->checkCollision(warp_id, pI)) {
                         SCHED_DPRINTF(
                                 "Warp (warp_id %u, dynamic_warp_id %u) passes scoreboard\n",
                                 (*iter)->get_warp_id(), (*iter)->get_dynamic_warp_id());
@@ -1323,16 +1324,16 @@ void scheduler_unit::cycle() {
                                 // if INT unit pipline does not exist, then execute all ALU, INT
                                 // and SP operations on SP unit (as in Fermi, Pascal GPUs)
                                 if (m_shader->m_config->gpgpu_num_int_units > 0 &&
-                                        int_pipe_avail && pI->op != SP_OP &&
-                                        !(diff_exec_units &&
-                                            previous_issued_inst_exec_type == exec_unit_type_t::INT))
-                                    execute_on_INT = true;
-                                else if (sp_pipe_avail &&
-                                        (m_shader->m_config->gpgpu_num_int_units == 0 ||
-                                         (m_shader->m_config->gpgpu_num_int_units > 0 &&
-                                          pI->op == SP_OP)) &&
-                                        !(diff_exec_units && previous_issued_inst_exec_type ==
-                                            exec_unit_type_t::SP))
+                                            int_pipe_avail && pI->op != SP_OP &&
+                                            !(diff_exec_units &&
+                                                previous_issued_inst_exec_type == exec_unit_type_t::INT))
+                                        execute_on_INT = true;
+                                    else if (sp_pipe_avail &&
+                                            (m_shader->m_config->gpgpu_num_int_units == 0 ||
+                                             (m_shader->m_config->gpgpu_num_int_units > 0 &&
+                                              pI->op == SP_OP)) &&
+                                            !(diff_exec_units && previous_issued_inst_exec_type ==
+                                                exec_unit_type_t::SP))
                                     execute_on_SP = true;
 
                                 if (execute_on_INT || execute_on_SP) {
@@ -1449,6 +1450,7 @@ void scheduler_unit::cycle() {
                         "Warp (warp_id %u, dynamic_warp_id %u) return from diverged warp "
                         "flush\n",
                         (*iter)->get_warp_id(), (*iter)->get_dynamic_warp_id());
+                printf("EXCEPTION\n");
                 warp(warp_id).set_next_pc(pc);
                 warp(warp_id).ibuffer_flush();
             }
@@ -1461,11 +1463,12 @@ void scheduler_unit::cycle() {
             checked++;
         }
         if (issued) {
+            std::printf("CP11 - %u  %u %u  PC_%u\n",max_issue,checked,issued,pc);
             // This might be a bit inefficient, but we need to maintain
             // two ordered list for proper scheduler execution.
             // We could remove the need for this loop by associating a
             // supervised_is index with each entry in the
-            // m_next_cycle_prioritized_warps vector. For now, just run through until
+            // m_next_cycle_prioritized_warp vector. For now, just run through until
             // you find the right warp_id
             for (std::vector<shd_warp_t *>::const_iterator supervised_iter =
                     m_supervised_warps.begin();
@@ -1483,6 +1486,9 @@ void scheduler_unit::cycle() {
                 abort();  // issued should be > 0
 
             break;
+        }
+        else{
+            std::printf("CP0 - %u  %u %u  PC_%u\n",max_issue,checked,issued,pc);
         }
     }
 
