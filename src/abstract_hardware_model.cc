@@ -1042,7 +1042,10 @@ void simt_stack::update(simt_mask_t &thread_done, addr_vector_t &next_pc,
   address_type top_pc =
       m_stack.back().m_pc;  // the pc of the instruction just executed
   stack_entry_type top_type = m_stack.back().m_type;
+<<<<<<< HEAD
   printf("INST %u %u\n",top_pc,next_inst_pc);
+=======
+>>>>>>> 507fefda15ad54e2cbc033b1ce84c23403f0c6a6
   assert(top_pc == next_inst_pc);
   assert(top_active_mask.any());
 
