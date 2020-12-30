@@ -1033,12 +1033,14 @@ void shader_core_ctx::issue_warp_virtual(const warp_inst_t *next_inst,
         unsigned warp_id) {
     warp_inst_t inst_reg=*next_inst;
     //    **inst_reg=*next_inst;
+//    (inst_reg).m_warp_id=warp_id;
     assert(next_inst->valid());
-//    printf("1\n");
+    printf("1\n");
     func_exec_inst_virtual(inst_reg,warp_id);
-//    printf("2\n");
+    printf("2\n");
     updateSIMTStack(warp_id, &inst_reg);
-  //  printf("3\n");
+    printf("3\n");
+    m_warp[warp_id]->dec_inst_in_pipeline();
     m_warp[warp_id]->set_next_pc(next_inst->pc + next_inst->isize);
 
 }
@@ -1223,14 +1225,34 @@ void scheduler_unit::cycle() {
                 (checked < max_issue) && (checked <= issued) &&
                 (issued < max_issue)) {
             const warp_inst_t *pI = warp(warp_id).ibuffer_next_inst();
-            unsigned pc, rpc;
-            
-            m_shader->get_pdom_stack_top_info(warp_id, pI, &pc, &rpc);
             bool valid_v = warp(warp_id).ibuffer_next_valid();
-            bool warp_inst_issued = false;
+            unsigned pc, rpc;
             if(pI){
+                m_shader->get_pdom_stack_top_info(warp_id, pI, &pc, &rpc);
+                if(pI->pc==24&&pc==24&&warp_id==0){
+                    if (pc == pI->pc) {
+                        printf("issued vi\n");
+                        m_shader->issue_warp_virtual(pI,warp_id);
+                        printf("issued virt\n");
+                        issued++;
+                        do_on_warp_issued(warp_id, issued, iter);
+                        pI = warp(warp_id).ibuffer_next_inst();
+                        if(!valid_v){
+                            printf("NOT VALID!!");
+                            break;
+                       }
+
+
+
+                    }
+                }
+            }else if(valid_v){
+                warp(warp_id).set_next_pc(pc);
+                warp(warp_id).ibuffer_flush();
             }
-          
+            m_shader->get_pdom_stack_top_info(warp_id, pI, &pc, &rpc);
+            bool warp_inst_issued = false;
+
             // Jin: handle cdp latency;
             if (pI && pI->m_is_cdp && warp(warp_id).m_cdp_latency > 0) {
                 assert(warp(warp_id).m_cdp_dummy);
@@ -1258,18 +1280,7 @@ void scheduler_unit::cycle() {
                     warp(warp_id).ibuffer_flush();
                 } else {
                     valid_inst = true;
-                    if(pI->pc==24&&pc==24){
-                        if (pc == pI->pc) {
-                            m_shader->issue_warp_virtual(pI,warp_id);
-                            printf("issued virt\n");
-                            issued++;
-                            //                            checked++;
-                            issued_inst = true;
-                            warp_inst_issued = true;
-
-                        }
-                    }
-                    else if (!m_scoreboard->checkCollision(warp_id, pI)) {
+                    if (!m_scoreboard->checkCollision(warp_id, pI)) {
                         SCHED_DPRINTF(
                                 "Warp (warp_id %u, dynamic_warp_id %u) passes scoreboard\n",
                                 (*iter)->get_warp_id(), (*iter)->get_dynamic_warp_id());
@@ -1453,9 +1464,9 @@ void scheduler_unit::cycle() {
                 warp(warp_id).set_next_pc(pc);
                 warp(warp_id).ibuffer_flush();
             }
-            printf("OUT of if PI\n");
+//            printf("OUT of if PI\n");
             if (warp_inst_issued) {
-                printf("iissued\n");
+//                printf("iissued\n");
                 SCHED_DPRINTF(
                         "Warp (warp_id %u, dynamic_warp_id %u) issued %u instructions\n",
                         (*iter)->get_warp_id(), (*iter)->get_dynamic_warp_id(), issued);
@@ -1463,7 +1474,7 @@ void scheduler_unit::cycle() {
             }
             checked++;
         }
-        printf("OUT of WHILE\n");
+  //      printf("OUT of WHILE\n");
         if (issued) {
             // This might be a bit inefficient, but we need to maintain
             // two ordered list for proper scheduler execution.
@@ -1489,7 +1500,7 @@ void scheduler_unit::cycle() {
             break;
         }
     }
-    printf("OUT OF FOR\n");
+//    printf("OUT OF FOR\n");
     // issue stall statistics:
     if (!valid_inst)
         m_stats->shader_cycle_distro[0]++;  // idle or control hazard
