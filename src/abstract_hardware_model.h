@@ -1243,6 +1243,8 @@ class core_t {
   virtual bool warp_waiting_at_barrier(unsigned warp_id) const = 0;
   virtual void checkExecutionStatusAndUpdate(warp_inst_t &inst, unsigned t,
                                              unsigned tid) = 0;
+  virtual void checkExecutionStatusAndUpdate_virtual(warp_inst_t &inst, unsigned t,
+                                            unsigned tid, unsigned warp_id) = 0;
   class gpgpu_sim *get_gpu() {
     return m_gpu;
   }

@@ -1697,10 +1697,11 @@ void ptx_thread_info::ptx_exec_inst(warp_inst_t &inst, unsigned lane_id) {
   bool skip = false;
   int op_classification = 0;
   addr_t pc = next_instr();
-  assert(pc ==
-         inst.pc);  // make sure timing model and functional model are in sync
+  printf("pc %u  Ipc%u\n",pc,inst.pc);
+//  assert(pc == inst.pc);  // make sure timing model and functional model are in sync
   const ptx_instruction *pI = m_func_info->get_instruction(pc);
 
+//  if(pc!=24)
   set_npc(pc + pI->inst_size());
 
   try {

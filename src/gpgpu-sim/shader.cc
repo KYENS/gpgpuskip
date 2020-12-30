@@ -1011,8 +1011,10 @@ void shader_core_ctx::fetch() {
     m_L1I->cycle();
 }
 
-void exec_shader_core_ctx::func_exec_inst_virtual(warp_inst_t &inst) {
-    execute_warp_inst_t_virtual(inst);
+void exec_shader_core_ctx::func_exec_inst_virtual(warp_inst_t &inst,unsigned warp_id) {
+    printf("A1");
+    execute_warp_inst_t_virtual(inst,warp_id);
+    printf("A2");
     if (inst.is_load() || inst.is_store()) {
         inst.generate_mem_accesses();
         // inst.print_m_accessq();
@@ -1032,8 +1034,11 @@ void shader_core_ctx::issue_warp_virtual(const warp_inst_t *next_inst,
     warp_inst_t inst_reg=*next_inst;
     //    **inst_reg=*next_inst;
     assert(next_inst->valid());
-    func_exec_inst_virtual(inst_reg);
+//    printf("1\n");
+    func_exec_inst_virtual(inst_reg,warp_id);
+//    printf("2\n");
     updateSIMTStack(warp_id, &inst_reg);
+  //  printf("3\n");
     m_warp[warp_id]->set_next_pc(next_inst->pc + next_inst->isize);
 
 }
@@ -1224,22 +1229,6 @@ void scheduler_unit::cycle() {
             bool valid_v = warp(warp_id).ibuffer_next_valid();
             bool warp_inst_issued = false;
             if(pI){
-                if(pI->op==FP_OP){
-                    if (pc == pI->pc) {
-                        m_shader->issue_warp_virtual(pI,warp_id);
-                        issued++;
-                        checked++;
-                        issued_inst = true;
-                        warp_inst_issued = true;
-                        std::printf("DECODING -  %u,%u,%u-",pc,max_issue,issued,warp_id);
-                        warp(warp_id).ibuffer_step();
-                        //                        do_on_warp_issued(warp_id, issued, iter);
-                        //                        warp(warp_id).dec_inst_in_pipeline();
-
-                        continue;
-
-                    }
-                }
             }
           
             // Jin: handle cdp latency;
@@ -1269,7 +1258,18 @@ void scheduler_unit::cycle() {
                     warp(warp_id).ibuffer_flush();
                 } else {
                     valid_inst = true;
-                    if (!m_scoreboard->checkCollision(warp_id, pI)) {
+                    if(pI->pc==24&&pc==24){
+                        if (pc == pI->pc) {
+                            m_shader->issue_warp_virtual(pI,warp_id);
+                            printf("issued virt\n");
+                            issued++;
+                            //                            checked++;
+                            issued_inst = true;
+                            warp_inst_issued = true;
+
+                        }
+                    }
+                    else if (!m_scoreboard->checkCollision(warp_id, pI)) {
                         SCHED_DPRINTF(
                                 "Warp (warp_id %u, dynamic_warp_id %u) passes scoreboard\n",
                                 (*iter)->get_warp_id(), (*iter)->get_dynamic_warp_id());
@@ -1453,7 +1453,9 @@ void scheduler_unit::cycle() {
                 warp(warp_id).set_next_pc(pc);
                 warp(warp_id).ibuffer_flush();
             }
+            printf("OUT of if PI\n");
             if (warp_inst_issued) {
+                printf("iissued\n");
                 SCHED_DPRINTF(
                         "Warp (warp_id %u, dynamic_warp_id %u) issued %u instructions\n",
                         (*iter)->get_warp_id(), (*iter)->get_dynamic_warp_id(), issued);
@@ -1461,6 +1463,7 @@ void scheduler_unit::cycle() {
             }
             checked++;
         }
+        printf("OUT of WHILE\n");
         if (issued) {
             // This might be a bit inefficient, but we need to maintain
             // two ordered list for proper scheduler execution.
@@ -1486,7 +1489,7 @@ void scheduler_unit::cycle() {
             break;
         }
     }
-
+    printf("OUT OF FOR\n");
     // issue stall statistics:
     if (!valid_inst)
         m_stats->shader_cycle_distro[0]++;  // idle or control hazard
@@ -4504,6 +4507,36 @@ unsigned simt_core_cluster::issue_block2core() {
             total_css += temp_css;
         }
         css = total_css;
+    }
+    void exec_shader_core_ctx::checkExecutionStatusAndUpdate_virtual(warp_inst_t &inst,
+            unsigned t,
+            unsigned tid,
+            unsigned warp_id) {
+        if (inst.isatomic()) m_warp[warp_id]->inc_n_atomic();
+        if (inst.space.is_local() && (inst.is_load() || inst.is_store())) {
+            new_addr_type localaddrs[MAX_ACCESSES_PER_INSN_PER_THREAD];
+            unsigned num_addrs;
+            num_addrs = translate_local_memaddr(
+                    inst.get_addr(t), tid,
+                    m_config->n_simt_clusters * m_config->n_simt_cores_per_cluster,
+                    inst.data_size, (new_addr_type *)localaddrs);
+            inst.set_addr(t, (new_addr_type *)localaddrs, num_addrs);
+        }
+        
+        if (ptx_thread_done(tid)) {
+            m_warp[warp_id]->set_completed(t);
+            m_warp[warp_id]->ibuffer_flush();
+        }
+
+        // PC-Histogram Update
+        //unsigned warp_id = warp_id;
+        unsigned pc = inst.pc;
+        for (unsigned t = 0; t < m_config->warp_size; t++) {
+     //     if (inst.active(t)) {
+                int tid = warp_id * m_config->warp_size + t;
+                cflog_update_thread_pc(m_sid, tid, pc);
+     //       }
+        }
     }
 
     void exec_shader_core_ctx::checkExecutionStatusAndUpdate(warp_inst_t &inst,
