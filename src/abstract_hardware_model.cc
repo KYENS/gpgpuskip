@@ -1229,8 +1229,8 @@ void core_t::updateSIMTStack(unsigned warpId, warp_inst_t *inst) {
   }
 /*  for (unsigned i = 0; i < m_warp_size; i++) {
       std::printf("%lu,",next_pc[i]);
-  }*/
-//  std::printf("\n");
+  }
+  std::printf("\n");*/
   m_simt_stack[warpId]->update(thread_done, next_pc, inst->reconvergence_pc,
                                inst->op, inst->isize, inst->pc);
 }

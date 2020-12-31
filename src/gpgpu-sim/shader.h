@@ -263,8 +263,6 @@ class shd_warp_t {
   };
 
   warp_inst_t m_inst_at_barrier;
-  ibuffer_entry m_ibuffer[IBUFFER_SIZE];
-  unsigned m_next;
 
   unsigned m_n_atomic;  // number of outstanding atomic operations
   bool m_membar;        // if true, warp is waiting at memory barrier
@@ -280,6 +278,8 @@ class shd_warp_t {
 
   // Jin: cdp support
  public:
+  ibuffer_entry m_ibuffer[IBUFFER_SIZE];
+  unsigned m_next;
   unsigned int m_cdp_latency;
   bool m_cdp_dummy;
 };

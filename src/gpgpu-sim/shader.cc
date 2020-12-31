@@ -854,34 +854,8 @@ void shader_core_ctx::decode() {
     if (m_inst_fetch_buffer.m_valid) {
         // decode 1 or 2 instructions and place them into ibuffer
         address_type pc = m_inst_fetch_buffer.m_pc;
+        printf("DECODE %u\n",pc);
         const warp_inst_t *pI1 = get_next_inst(m_inst_fetch_buffer.m_warp_id, pc);
-        /*    if(pI1->op==DP_OP)
-              std::printf("DP\n");
-              else if(pI1->op==INT_OP)
-              std::printf("INT\n");
-              else  if(pI1->op==FP_OP)
-              std::printf("FP\n");
-         */
-        /*  if(pI1->op==INT_OP||pI1->op==FP_OP||pI1->op==DP_OP){
-            std::printf("DECODING\n");
-            issue_warp_virtual(pI1,m_inst_fetch_buffer.m_warp_id);
-            const warp_inst_t *pI2 =
-            get_next_inst(m_inst_fetch_buffer.m_warp_id, pc + pI1->isize);
-            if (pI2) {
-            if(pI2->op==INT_OP||pI2->op==FP_OP||pI2->op==DP_OP){
-            issue_warp_virtual(pI2,m_inst_fetch_buffer.m_warp_id);
-            }else{
-            m_warp[m_inst_fetch_buffer.m_warp_id]->ibuffer_fill(1, pI2);
-            m_warp[m_inst_fetch_buffer.m_warp_id]->inc_inst_in_pipeline();
-            m_stats->m_num_decoded_insn[m_sid]++;
-            if (pI2->oprnd_type == INT_OP) {
-            m_stats->m_num_INTdecoded_insn[m_sid]++;
-            } else if (pI2->oprnd_type == FP_OP) {
-            m_stats->m_num_FPdecoded_insn[m_sid]++;
-            }
-            }
-            }
-            }else{*/
         m_warp[m_inst_fetch_buffer.m_warp_id]->ibuffer_fill(0, pI1);
         m_warp[m_inst_fetch_buffer.m_warp_id]->inc_inst_in_pipeline();
         if (pI1) {
@@ -1012,9 +986,9 @@ void shader_core_ctx::fetch() {
 }
 
 void exec_shader_core_ctx::func_exec_inst_virtual(warp_inst_t &inst,unsigned warp_id) {
-    printf("A1");
+//    printf("A1");
     execute_warp_inst_t_virtual(inst,warp_id);
-    printf("A2");
+//    printf("A2");
     if (inst.is_load() || inst.is_store()) {
         inst.generate_mem_accesses();
         // inst.print_m_accessq();
@@ -1032,17 +1006,14 @@ void exec_shader_core_ctx::func_exec_inst(warp_inst_t &inst) {
 void shader_core_ctx::issue_warp_virtual(const warp_inst_t *next_inst,
         unsigned warp_id) {
     warp_inst_t inst_reg=*next_inst;
-    //    **inst_reg=*next_inst;
 //    (inst_reg).m_warp_id=warp_id;
     assert(next_inst->valid());
-    printf("1\n");
     func_exec_inst_virtual(inst_reg,warp_id);
-    printf("2\n");
     updateSIMTStack(warp_id, &inst_reg);
-    printf("3\n");
+
     m_warp[warp_id]->dec_inst_in_pipeline();
     m_warp[warp_id]->set_next_pc(next_inst->pc + next_inst->isize);
-
+    printf("NEXT PC %u\n",next_inst->pc + next_inst->isize);
 }
 void shader_core_ctx::issue_warp(register_set &pipe_reg_set,
         const warp_inst_t *next_inst,
@@ -1226,29 +1197,43 @@ void scheduler_unit::cycle() {
                 (issued < max_issue)) {
             const warp_inst_t *pI = warp(warp_id).ibuffer_next_inst();
             bool valid_v = warp(warp_id).ibuffer_next_valid();
+//            if(!valid_v)
+//                printf("current  VVVALID  !!\n");
             unsigned pc, rpc;
             if(pI){
                 m_shader->get_pdom_stack_top_info(warp_id, pI, &pc, &rpc);
                 if(pI->pc==24&&pc==24&&warp_id==0){
                     if (pc == pI->pc) {
-                        printf("issued vi\n");
+                        if(!valid_v)
+                            printf("current  NOTVALID  %u %u %u!!\n",pc,rpc,warp(warp_id).m_next);
+                        else
+                            printf("current  VVVALID  %u %u %u!!\n",pc,rpc,warp(warp_id).m_next);
+                        printf("issue vi==");
                         m_shader->issue_warp_virtual(pI,warp_id);
-                        printf("issued virt\n");
+                        warp(warp_id).m_ibuffer[warp(warp_id).m_next].m_valid=false;
+                        warp(warp_id).m_ibuffer[warp(warp_id).m_next].m_inst=NULL;
+                        printf("after issue VALIDity   %u %u!!\n",warp(warp_id).m_ibuffer[warp(warp_id).m_next].m_valid,warp(warp_id).get_n_completed());
+                        printf("issue virti sucess\n");
                         issued++;
                         do_on_warp_issued(warp_id, issued, iter);
-                        pI = warp(warp_id).ibuffer_next_inst();
+                        break;
+                       /* pI = warp(warp_id).ibuffer_next_inst();
+                        valid_v = warp(warp_id).ibuffer_next_valid();
                         if(!valid_v){
-                            printf("NOT VALID!!");
+                            printf("next  NOTVALID  %u %u %u!!\n",pc,rpc,warp(warp_id).m_next);
                             break;
-                       }
-
+                        }else
+                            printf(" next VALID  %u %u %u!!\n",pc,rpc,warp(warp_id).m_next);
+*/
 
 
                     }
                 }
             }else if(valid_v){
+                printf("FLUSH  NOT VALID!!\n");
                 warp(warp_id).set_next_pc(pc);
                 warp(warp_id).ibuffer_flush();
+                break;
             }
             m_shader->get_pdom_stack_top_info(warp_id, pI, &pc, &rpc);
             bool warp_inst_issued = false;
@@ -1260,6 +1245,7 @@ void scheduler_unit::cycle() {
                 break;
             }
             m_shader->get_pdom_stack_top_info(warp_id, pI, &pc, &rpc);
+            printf(" next VALID 2 %u %u %u!!\n",pc,rpc,warp(warp_id).m_next);
 
             bool valid = warp(warp_id).ibuffer_next_valid();
             SCHED_DPRINTF(
@@ -1267,8 +1253,9 @@ void scheduler_unit::cycle() {
                     (*iter)->get_warp_id(), (*iter)->get_dynamic_warp_id(),
                     m_shader->m_config->gpgpu_ctx->func_sim->ptx_get_insn_str(pc)
                     .c_str());
+//            std::printf("D000 -  %u--",pc);
             if (pI) {
-                std::printf("DG -  %u\n",pc);
+  //              std::printf("DGi\n");
                 assert(valid);
                 if (pc != pI->pc) {
                     SCHED_DPRINTF(
@@ -1299,8 +1286,11 @@ void scheduler_unit::cycle() {
                                         m_id) &&
                                     (!diff_exec_units ||
                                      previous_issued_inst_exec_type != exec_unit_type_t::MEM)) {
+//                        printf("before reg  issue VALIDity   %u  %u!!\n",warp(warp_id).m_ibuffer[warp(warp_id).m_next].m_valid);
+                        printf("before reg issue VALIDity   %u   %u %u!!\n",warp(warp_id).m_ibuffer[warp(warp_id).m_next].m_valid,warp(warp_id).m_ibuffer[warp(warp_id).m_next].m_inst,warp(warp_id).m_next);
                                 m_shader->issue_warp(*m_mem_out, pI, active_mask, warp_id,
                                         m_id);
+                        printf("after reg issue VALIDity   %u   %u %u!!\n",warp(warp_id).m_ibuffer[warp(warp_id).m_next].m_valid,warp(warp_id).m_ibuffer[warp(warp_id).m_next].m_inst,warp(warp_id).m_next);
                                 issued++;
                                 issued_inst = true;
                                 warp_inst_issued = true;
