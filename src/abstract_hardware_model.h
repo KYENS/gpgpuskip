@@ -1164,8 +1164,6 @@ class warp_inst_t : public inst_t {
   unsigned m_warp_id;
   unsigned m_dynamic_warp_id;
   const core_config *m_config;
-  active_mask_t m_warp_active_mask;  // dynamic active mask for timing model
-                                     // (after predication)
   active_mask_t
       m_warp_issued_mask;  // active mask at issue (prior to predication test)
                            // -- for instruction counting
@@ -1193,6 +1191,8 @@ class warp_inst_t : public inst_t {
   // Jin: cdp support
  public:
   int m_is_cdp;
+  active_mask_t m_warp_active_mask;  // dynamic active mask for timing model
+                                     // (after predication)
 };
 
 void move_warp(warp_inst_t *&dst, warp_inst_t *&src);

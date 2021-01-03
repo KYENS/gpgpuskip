@@ -1181,13 +1181,13 @@ void core_t::execute_warp_inst_t_virtual(warp_inst_t &inst, unsigned warpId) {
 //      if (warpId == (unsigned(-1))) warpId = inst.warp_id();
       unsigned tid = m_warp_size * warpId + t;
 //      printf("A\n");
-      tid=0;
+//      tid=0;
       m_thread[tid]->ptx_exec_inst(inst, t);
 //      printf("B\n");
 
       // virtual function
       checkExecutionStatusAndUpdate_virtual(inst, t, tid,warpId);
-      printf("C\n");
+//      printf("C\n");
     }
   }
 }
